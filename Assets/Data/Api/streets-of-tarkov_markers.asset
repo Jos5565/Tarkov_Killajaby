@@ -3105,7 +3105,8 @@ MonoBehaviour:
     position: {x: 248.3334, y: -3.6317, z: 55.362602}
   - type: 6
     key: 639135b04ed9512be67647d7
-    name: "\uC18C\uB828\uACF5\uC0B0\uB2F9\uC5D0 \uC601\uAD11\uC744 - \uD30C\uD2B8 1"
+    name: "\uC18C\uB828\uACF5\uC0B0\uB2F9\uC5D0 \uC601\uAD11\uC744 - \uD30C\uD2B8
+      1"
     group: "\uD504\uB77C\uD37C"
     objective: 63a7db4a3e491955e65fb88b
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
@@ -4115,7 +4116,8 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 639135b04ed9512be67647d7
-    name: "\uC18C\uB828\uACF5\uC0B0\uB2F9\uC5D0 \uC601\uAD11\uC744 - \uD30C\uD2B8 1"
+    name: "\uC18C\uB828\uACF5\uC0B0\uB2F9\uC5D0 \uC601\uAD11\uC744 - \uD30C\uD2B8
+      1"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 63a7db4a3e491955e65fb88b

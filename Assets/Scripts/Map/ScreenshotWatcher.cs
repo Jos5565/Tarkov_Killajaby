@@ -110,7 +110,7 @@ public class ScreenshotWatcher : MonoBehaviour
         try
         {
             return Directory.EnumerateFiles(Folder)
-                .Where(f => IsImage(f) && WhereIAM.TryParse(Path.GetFileNameWithoutExtension(f), out _, out _))
+                .Where(IsScreenshot)
                 .OrderByDescending(File.GetLastWriteTimeUtc)
                 .FirstOrDefault();
         }
@@ -123,4 +123,8 @@ public class ScreenshotWatcher : MonoBehaviour
 
     static bool IsImage(string path) =>
         Extensions.Contains(Path.GetExtension(path).ToLowerInvariant());
+
+    // 파일명에 좌표가 들어 있는 타르코프 스크린샷인지 (로비의 폴더 정리도 이 파일만 지운다)
+    public static bool IsScreenshot(string path) =>
+        IsImage(path) && WhereIAM.TryParse(Path.GetFileNameWithoutExtension(path), out _, out _);
 }

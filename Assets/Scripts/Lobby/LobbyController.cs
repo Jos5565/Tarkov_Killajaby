@@ -29,6 +29,10 @@ public class LobbyController : MonoBehaviour
     public string enterLabel = "입장";
     public string folderTitle = "스크린샷 폴더";
     public string folderResetLabel = "기본값";
+    public string folderCleanLabel = "폴더 정리";
+    public string folderCleanConfirmLabel = "삭제 확인";
+    [Tooltip("[폴더 정리]를 누른 뒤 이 시간(초) 안에 한 번 더 눌러야 삭제한다")]
+    public float cleanConfirmSeconds = 4f;
 
     [Header("Layout")]
     public int mapColumns = 7;
@@ -56,6 +60,8 @@ public class LobbyController : MonoBehaviour
     Button enterButton;
     TMP_InputField folderInput;
     TMP_Text folderStatus;
+    SelectButton cleanButton;
+    float cleanConfirmUntil = -1f;   // 0 이상이면 삭제 확인 대기 중
 
     void OnEnable() => Build();
 
@@ -150,6 +156,9 @@ public class LobbyController : MonoBehaviour
         folderInput = CreateFolderInput(folderRow);
         SelectButton reset = CreateCard(folderRow, folderResetLabel, null, false, cardFontSize * 0.75f, new Vector2(120f, folderInputSize.y));
         reset.Button.onClick.AddListener(() => SetFolder(""));
+        cleanButton = CreateCard(folderRow, folderCleanLabel, null, false, cardFontSize * 0.75f, new Vector2(140f, folderInputSize.y));
+        cleanButton.Button.onClick.AddListener(CleanFolder);
+        cleanConfirmUntil = -1f;
         folderStatus = CreateStatusText(panelRt);
         RefreshFolderStatus();
 
@@ -207,10 +216,85 @@ public class LobbyController : MonoBehaviour
     {
         AppSettings.ScreenshotFolder = path;   // 비우면 기본 폴더
         if (folderInput != null) folderInput.SetTextWithoutNotify(AppSettings.Current.screenshotFolder);
+        CancelCleanConfirm();
         RefreshFolderStatus();
     }
 
-    void RefreshFolderStatus()
+    void Update()
+    {
+        // 삭제 확인 대기 시간이 지나면 원래대로
+        if (cleanConfirmUntil >= 0f && Time.unscaledTime > cleanConfirmUntil)
+        {
+            CancelCleanConfirm();
+            RefreshFolderStatus();
+        }
+    }
+
+    // [폴더 정리]: 첫 번째 클릭은 확인 요청, 대기 시간 안에 한 번 더 누르면 스크린샷을 영구 삭제한다 (휴지통을 거치지 않음).
+    // 파일명에 좌표가 있는 타르코프 스크린샷만 지우고, 다른 이미지나 하위 폴더는 건드리지 않는다.
+    void CleanFolder()
+    {
+        string folder = AppSettings.ScreenshotFolder;
+        List<string> files = FindScreenshots(folder);
+
+        if (cleanConfirmUntil < 0f)
+        {
+            if (files.Count == 0)
+            {
+                RefreshFolderStatus("지울 스크린샷이 없습니다 · ");
+                return;
+            }
+            cleanConfirmUntil = Time.unscaledTime + cleanConfirmSeconds;
+            if (cleanButton != null && cleanButton.label != null) cleanButton.label.text = folderCleanConfirmLabel;
+            if (folderStatus != null)
+            {
+                folderStatus.text = $"스크린샷 {files.Count}개를 영구 삭제합니다. 삭제하려면 [{folderCleanConfirmLabel}]를 한 번 더 누르세요";
+                folderStatus.color = folderErrorColor;
+            }
+            return;
+        }
+
+        CancelCleanConfirm();
+        int deleted = 0, failed = 0;
+        foreach (string file in files)
+        {
+            try
+            {
+                File.Delete(file);
+                deleted++;
+            }
+            catch (Exception e)
+            {
+                failed++;
+                Debug.LogWarning($"[Lobby] 스크린샷 삭제 실패: {file}\n{e.Message}");
+            }
+        }
+        Debug.Log($"[Lobby] 스크린샷 {deleted}개 삭제 ({folder})" + (failed > 0 ? $", 실패 {failed}개" : ""));
+        RefreshFolderStatus($"{deleted}개 삭제됨" + (failed > 0 ? $" (사용 중이라 {failed}개 실패)" : "") + " · ");
+    }
+
+    void CancelCleanConfirm()
+    {
+        cleanConfirmUntil = -1f;
+        if (cleanButton != null && cleanButton.label != null) cleanButton.label.text = folderCleanLabel;
+    }
+
+    static List<string> FindScreenshots(string folder)
+    {
+        try
+        {
+            if (Directory.Exists(folder))
+                return Directory.EnumerateFiles(folder).Where(ScreenshotWatcher.IsScreenshot).ToList();
+        }
+        catch (Exception e)
+        {
+            Debug.LogWarning($"[Lobby] 스크린샷 폴더 읽기 실패: {folder}\n{e.Message}");
+        }
+        return new List<string>();
+    }
+
+    // prefix: 상태 문구 앞에 붙일 결과 메시지 (예: "12개 삭제됨 · ")
+    void RefreshFolderStatus(string prefix = "")
     {
         if (folderStatus == null) return;
         string folder = AppSettings.ScreenshotFolder;
@@ -218,9 +302,8 @@ public class LobbyController : MonoBehaviour
 
         if (Directory.Exists(folder))
         {
-            int count = 0;
-            try { count = Directory.EnumerateFiles(folder, "*.png").Count(); } catch (IOException) { }
-            folderStatus.text = $"폴더 확인됨 · 스크린샷 {count}개" + (usingDefault ? " (기본 폴더)" : "");
+            int count = FindScreenshots(folder).Count;
+            folderStatus.text = prefix + $"폴더 확인됨 · 스크린샷 {count}개" + (usingDefault ? " (기본 폴더)" : "");
             folderStatus.color = folderOkColor;
         }
         else
