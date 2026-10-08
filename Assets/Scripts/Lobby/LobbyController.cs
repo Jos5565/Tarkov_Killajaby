@@ -50,7 +50,7 @@ public class LobbyController : MonoBehaviour
     public Color folderOkColor = new Color(0.45f, 0.8f, 0.35f);
     public Color folderErrorColor = new Color(0.95f, 0.4f, 0.3f);
 
-    readonly SelectGroup<MapConfig> mapGroup = new SelectGroup<MapConfig>();
+    readonly SelectGroup<MapCatalog.Entry> mapGroup = new SelectGroup<MapCatalog.Entry>();
     readonly SelectGroup<PlayerSide> sideGroup = new SelectGroup<PlayerSide>();
     GameObject panel;
     Button enterButton;
@@ -118,14 +118,13 @@ public class LobbyController : MonoBehaviour
         RectTransform grid = CreateGrid(panelRt, Mathf.Clamp(maps.Count, 1, mapColumns));
         foreach (MapCatalog.Entry entry in maps)
         {
-            MapConfig config = entry.config;
-            string name = !string.IsNullOrEmpty(entry.displayName) ? entry.displayName : config != null ? config.displayName : "?";
-            Sprite icon = entry.icon != null ? entry.icon : config != null ? config.icon : null;
+            string name = !string.IsNullOrEmpty(entry.displayName) ? entry.displayName : entry.configPath;
+            Sprite icon = entry.icon;
             SelectButton card = CreateCard(grid, name, icon, true, cardFontSize, null);
 
             if (entry.IsAvailable)
             {
-                mapGroup.Add(card, config);
+                mapGroup.Add(card, entry);
             }
             else
             {
@@ -166,8 +165,8 @@ public class LobbyController : MonoBehaviour
         sideGroup.Changed += _ => RefreshEnter();
 
         // 이전 선택 복원, 없으면 첫 번째 맵 + PMC
-        MapConfig firstAvailable = maps.Find(m => m.IsAvailable)?.config;
-        mapGroup.Select(GameSession.Map != null && maps.Exists(m => m.config == GameSession.Map) ? GameSession.Map : firstAvailable);
+        MapCatalog.Entry previous = maps.Find(m => m.IsAvailable && m.configPath == GameSession.MapPath);
+        mapGroup.Select(previous ?? maps.Find(m => m.IsAvailable));
         sideGroup.Select(GameSession.Side);
         RefreshEnter();
 
@@ -181,8 +180,15 @@ public class LobbyController : MonoBehaviour
 
     void Enter()
     {
-        MapConfig map = mapGroup.Value;
-        if (map == null) return;
+        MapCatalog.Entry entry = mapGroup.Value;
+        if (entry == null) return;
+
+        MapConfig map = entry.LoadConfig();   // 입장할 때 고른 맵만 불러온다
+        if (map == null)
+        {
+            Debug.LogWarning($"[Lobby] MapConfig를 찾을 수 없습니다: Resources/{entry.configPath}");
+            return;
+        }
         if (string.IsNullOrEmpty(map.sceneName))
         {
             Debug.LogWarning($"[Lobby] {map.name}의 sceneName이 비어 있습니다.");
@@ -190,6 +196,7 @@ public class LobbyController : MonoBehaviour
         }
 
         GameSession.Map = map;
+        GameSession.MapPath = entry.configPath;
         GameSession.Side = sideGroup.Value;
         SceneManager.LoadScene(map.sceneName);
     }

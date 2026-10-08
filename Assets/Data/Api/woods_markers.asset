@@ -1,0 +1,3056 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c2e9a4b1d3f4a6e8b5c0d2f9e1a3b7c, type: 3}
+  m_Name: woods_markers
+  m_EditorClassIdentifier: Assembly-CSharp::MapMarkerData
+  mapNormalizedName: woods
+  gameMode: pve
+  language: ko
+  downloadedAt: 2026-10-08 17:48
+  markers:
+  - type: 0
+    key: 
+    name: ZB-016
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -389.16, y: 4.15, z: 11.04}
+  - type: 8
+    key: 
+    name: UN Roadblock
+    group: 
+    objective: 
+    detail: scav
+    position: {x: -535.24, y: 1.43, z: 287.05}
+  - type: 8
+    key: 
+    name: Old Railway Depot
+    group: 
+    objective: 
+    detail: scav
+    position: {x: -517.93, y: 10.67, z: 149.19}
+  - type: 8
+    key: 
+    name: Scav House
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 413.69, y: -12.56, z: 242.17}
+  - type: 8
+    key: 
+    name: Eastern Rocks
+    group: 
+    objective: 
+    detail: scav
+    position: {x: -509.36, y: 23.99, z: -35.33}
+  - type: 8
+    key: 
+    name: Mountain Stash
+    group: 
+    objective: 
+    detail: scav
+    position: {x: -210.33, y: 31.47, z: -213.5}
+  - type: 0
+    key: 
+    name: "Power Line Passage (\uC870\uBA85\uD0C4 \uD0C8\uCD9C\uAD6C)"
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 573.99, y: -1.75, z: -85.26}
+  - type: 0
+    key: 
+    name: Outskirts
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 349.04, y: -9.15, z: 358.58}
+  - type: 0
+    key: 
+    name: UN Roadblock
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -536.12, y: 1.68, z: 286.77}
+  - type: 8
+    key: 
+    name: Scav bunker
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 220.43, y: 20.54, z: -705.8}
+  - type: 8
+    key: 
+    name: RUAF Roadblock
+    group: 
+    objective: 
+    detail: scav
+    position: {x: -142.25, y: 0.97, z: 422.4}
+  - type: 8
+    key: 
+    name: Outskirts
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 347.16, y: -11.15, z: 360.07}
+  - type: 0
+    key: 
+    name: RUAF Gate
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -142.5, y: -2.37, z: 447.58}
+  - type: 0
+    key: 
+    name: ZB-014
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 447.24, y: -13.46, z: 57.46}
+  - type: 8
+    key: 
+    name: Dead Man's Place
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 195.55, y: -16.69, z: 259.21}
+  - type: 9
+    key: 
+    name: Friendship Bridge (Co-Op)
+    group: 
+    objective: 
+    detail: shared
+    position: {x: 93.17, y: 16.57, z: -843.98}
+  - type: 8
+    key: 
+    name: The Boat
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 176.64, y: -20.72, z: 215.86}
+  - type: 0
+    key: 
+    name: Railway Bridge to Tarkov
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -730.43, y: 8.7, z: 129.32}
+  - type: 0
+    key: 
+    name: Northern UN Roadblock
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -557.32, y: 9.32, z: -67.05}
+  - type: 0
+    key: 
+    name: Bridge V-Ex
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -485.33, y: 15.58, z: -504.06}
+  - type: 1
+    key: 
+    name: "\uACF5\uC7A5\uC73C\uB85C \uC774\uB3D9"
+    group: 
+    objective: 
+    detail: 
+    position: {x: -362.05, y: 1.28, z: 361.18}
+  - type: 1
+    key: 
+    name: "\uB9AC\uC800\uBE0C\uB85C \uC774\uB3D9"
+    group: 
+    objective: 
+    detail: 
+    position: {x: 254.29, y: -8.71, z: 362.62}
+  - type: 1
+    key: 
+    name: "\uB4F1\uB300\uB85C \uC774\uB3D9"
+    group: 
+    objective: 
+    detail: 
+    position: {x: 496.04, y: -16.73, z: 348.29}
+  - type: 1
+    key: 
+    name: "\uC138\uAD00\uC73C\uB85C \uC774\uB3D9"
+    group: 
+    objective: 
+    detail: 
+    position: {x: -150.37, y: 1.11, z: 403.41}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: 9.660004, y: 15.669998, z: -780.56995}
+  - type: 2
+    key: 
+    name: 029f4e2b-34c3-4678-ac34-2106433003fa
+    group: 
+    objective: 
+    detail: 
+    position: {x: 81.09003, y: 10.504999, z: -546.07996}
+  - type: 2
+    key: 
+    name: 03a8bdb7-77f5-46ce-b09e-d2f0f2ed8aa8
+    group: 
+    objective: 
+    detail: 
+    position: {x: 410.78003, y: -5.35236, z: 13.390015}
+  - type: 2
+    key: 
+    name: 03e51fae-d934-48db-802d-ed39b24ca375
+    group: 
+    objective: 
+    detail: 
+    position: {x: -354.73, y: 0.95092213, z: 239.63}
+  - type: 5
+    key: 
+    name: "\uC288\uD2B8\uB974\uB9CC"
+    group: 
+    objective: 
+    detail: "\uC288\uD2B8\uB974\uB9CC 75% (ZoneWoodCutter)"
+    position: {x: 299.44998, y: 12.6381445, z: -565.99805}
+  - type: 5
+    key: 
+    name: "\uC288\uD2B8\uB974\uB9CC"
+    group: 
+    objective: 
+    detail: "\uC288\uD2B8\uB974\uB9CC 75% (ZoneWoodCutter)"
+    position: {x: -272.86603, y: 23.738396, z: -497.731}
+  - type: 2
+    key: 
+    name: 087c7c45-64f2-4c62-b47c-bcfc15f7bf76
+    group: 
+    objective: 
+    detail: 
+    position: {x: 443.87, y: -20.446001, z: 362.51}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -678.98004, y: 8.260167, z: 106.479996}
+  - type: 2
+    key: 
+    name: 0cfe2e0b-5e12-438f-8917-8ec6a5b391a4
+    group: 
+    objective: 
+    detail: 
+    position: {x: 365.55, y: 13.35, z: -700.82996}
+  - type: 2
+    key: 
+    name: 0d29edf6-15c5-4730-916c-1f5a5a491750
+    group: 
+    objective: 
+    detail: 
+    position: {x: 464.75, y: -14.767973, z: 174.27}
+  - type: 2
+    key: 
+    name: 0d5e2ab9-aab5-4648-b4f8-5ef4860dffd2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 278.75, y: -11.937083, z: 315.84}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -697.684, y: 8.260168, z: 103.44899}
+  - type: 2
+    key: 
+    name: 115408e5-72bc-4677-acfc-967a255540b2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -522.71, y: -2.5824792, z: 216.57}
+  - type: 3
+    key: 
+    name: ZoneUsecBase
+    group: 
+    objective: 
+    detail: 
+    position: {x: -611.651, y: 8.095667, z: 160.208}
+  - type: 2
+    key: 
+    name: 12d0617f-b6f5-4a69-867d-96c10986d7a4
+    group: 
+    objective: 
+    detail: 
+    position: {x: -539.87, y: -1.1896341, z: 294.67}
+  - type: 3
+    key: 
+    name: ZoneUsecBase
+    group: 
+    objective: 
+    detail: 
+    position: {x: -650.06305, y: 7.421833, z: 174.377}
+  - type: 2
+    key: 
+    name: 14ab95b7-47ca-43aa-8703-3a99d27b7b97
+    group: 
+    objective: 
+    detail: 
+    position: {x: 465.95996, y: -15.038573, z: 176.27}
+  - type: 2
+    key: 
+    name: 14f80864-8a0c-4634-8744-b297894ebcdd
+    group: 
+    objective: 
+    detail: 
+    position: {x: 84.670044, y: 9.533999, z: -549.2999}
+  - type: 2
+    key: 
+    name: 174f13cb-7ec0-4a02-b3f9-622ff18fa19c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -523.6, y: 9.853999, z: 93.04001}
+  - type: 2
+    key: 
+    name: 17bf1f41-3580-4c37-8b27-218dd233c4dd
+    group: 
+    objective: 
+    detail: 
+    position: {x: 370.95996, y: -1.8230892, z: -73.28}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -49.76001, y: 7.9903746, z: -766.39}
+  - type: 2
+    key: 
+    name: 196ceb4f-e069-447d-b49e-3cf76faf5dee
+    group: 
+    objective: 
+    detail: 
+    position: {x: -256.58, y: 10.61, z: -637.5499}
+  - type: 5
+    key: 
+    name: "\uC288\uD2B8\uB974\uB9CC"
+    group: 
+    objective: 
+    detail: "\uC288\uD2B8\uB974\uB9CC 75% (ZoneWoodCutter)"
+    position: {x: -2.308197, y: -1.4700012, z: -74.57119}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -117.59003, y: 11.899058, z: -729.39}
+  - type: 5
+    key: 
+    name: "\uC288\uD2B8\uB974\uB9CC"
+    group: 
+    objective: 
+    detail: "\uC288\uD2B8\uB974\uB9CC 75% (ZoneWoodCutter)"
+    position: {x: 125.9, y: 0.23672175, z: 4.92}
+  - type: 2
+    key: 
+    name: 1f9c5f53-e0ec-4b32-a5e3-86a88e248322
+    group: 
+    objective: 
+    detail: 
+    position: {x: -90.100006, y: -0.49971294, z: 377.36}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -684.59, y: 9.521334, z: 131.59999}
+  - type: 2
+    key: 
+    name: 20a181a1-db11-4b1a-bb44-2a39c7da7002
+    group: 
+    objective: 
+    detail: 
+    position: {x: 444.5885, y: -20.52517, z: 363.10635}
+  - type: 2
+    key: 
+    name: 21b22532-2649-4577-b155-2138ddeb6f90
+    group: 
+    objective: 
+    detail: 
+    position: {x: -334.02, y: 17.568132, z: -136.19998}
+  - type: 2
+    key: 
+    name: 21b75270-b932-4b2a-a4ec-b56a338b7cfc
+    group: 
+    objective: 
+    detail: 
+    position: {x: 487.412, y: -18.409637, z: 334.496}
+  - type: 2
+    key: 
+    name: 24c2dc02-d37d-4f79-9f81-76be6abc23f3
+    group: 
+    objective: 
+    detail: 
+    position: {x: -329.148, y: 18.805803, z: -141.793}
+  - type: 2
+    key: 
+    name: 25e0f15f-ba17-4605-98f3-925615f6252e
+    group: 
+    objective: 
+    detail: 
+    position: {x: 465.27002, y: -15.150856, z: 177.84}
+  - type: 2
+    key: 
+    name: 270789de-9a04-425d-8bdb-7ede5807a42e
+    group: 
+    objective: 
+    detail: 
+    position: {x: -537.79, y: -1.2058986, z: 295.99}
+  - type: 2
+    key: 
+    name: 2acc9b12-3aca-4976-93b8-dd43b7951b3e
+    group: 
+    objective: 
+    detail: 
+    position: {x: 368.59998, y: 16.83, z: -588.05994}
+  - type: 2
+    key: 
+    name: 2c84fc78-e5af-4b45-812a-a8b83c2f106b
+    group: 
+    objective: 
+    detail: 
+    position: {x: 391.61, y: 13.62, z: -400.75003}
+  - type: 2
+    key: 
+    name: 2dd60021-1795-450e-9c5a-6ef96dbf12e6
+    group: 
+    objective: 
+    detail: 
+    position: {x: -330.93, y: 20.010881, z: -142.31}
+  - type: 3
+    key: 
+    name: ZoneClearVill
+    group: 
+    objective: 
+    detail: 
+    position: {x: -544.32, y: 10.967693, z: -438.93997}
+  - type: 2
+    key: 
+    name: 2f64def6-009f-4da4-b1ef-47cdab7a9ba2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 444.95996, y: -20.52517, z: 362.19}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -678.857, y: 8.280241, z: 109.952995}
+  - type: 2
+    key: 
+    name: 377f4fe8-370f-4504-8529-7a4863e4f208
+    group: 
+    objective: 
+    detail: 
+    position: {x: -91.26001, y: -0.5494947, z: 379.36}
+  - type: 3
+    key: 
+    name: ZoneClearVill
+    group: 
+    objective: 
+    detail: 
+    position: {x: -561.09, y: 15.018848, z: -355.31003}
+  - type: 2
+    key: 
+    name: 3a0337ae-c748-41ad-b116-a57ffe15ee95
+    group: 
+    objective: 
+    detail: 
+    position: {x: 517.98, y: -20.9, z: 260.66}
+  - type: 2
+    key: 
+    name: 3f919a03-c2cb-4365-ab86-cf95f0ed6b32
+    group: 
+    objective: 
+    detail: 
+    position: {x: -516.65, y: 7.2753315, z: 146.29}
+  - type: 2
+    key: 
+    name: 41885c15-3455-477b-86c4-2c41f0068d8d
+    group: 
+    objective: 
+    detail: 
+    position: {x: -361.25, y: 1.0406611, z: 237.99}
+  - type: 2
+    key: 
+    name: 43619b30-dbe0-4c7e-b356-647ba6b2d03e
+    group: 
+    objective: 
+    detail: 
+    position: {x: -252.25, y: 27.46981, z: -207.4}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -708.8, y: 8.169643, z: 121.66999}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -662.58, y: 8.124188, z: 157.70999}
+  - type: 2
+    key: 
+    name: 4a5b0702-7f5a-4158-ad5a-eb1e9fb5a1a6
+    group: 
+    objective: 
+    detail: 
+    position: {x: -92.29001, y: -0.6761878, z: 380.44}
+  - type: 2
+    key: 
+    name: 4b0dfd72-6f21-498e-93d2-13cf062b6c73
+    group: 
+    objective: 
+    detail: 
+    position: {x: -525.27, y: 10.7439995, z: 88.43001}
+  - type: 5
+    key: 
+    name: "\uC288\uD2B8\uB974\uB9CC"
+    group: 
+    objective: 
+    detail: "\uC288\uD2B8\uB974\uB9CC 75% (ZoneWoodCutter)"
+    position: {x: 311.25998, y: 16.82491, z: -538.23}
+  - type: 2
+    key: 
+    name: 4ee0f406-a655-480b-a41d-302e4fe9e3e4
+    group: 
+    objective: 
+    detail: 
+    position: {x: -63.669983, y: 9.714, z: -581.03}
+  - type: 2
+    key: 
+    name: 50503b86-049b-46b1-8f8a-273cb2183499
+    group: 
+    objective: 
+    detail: 
+    position: {x: 388.36, y: 12.85, z: -410.25003}
+  - type: 3
+    key: 
+    name: ZoneRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: -158.7, y: -4.901412, z: 296.5}
+  - type: 2
+    key: 
+    name: 532f33e9-f7a3-444d-aa5f-20d75a937287
+    group: 
+    objective: 
+    detail: 
+    position: {x: -277.37, y: -1.5023456, z: 329.74}
+  - type: 3
+    key: 
+    name: ZoneUsecBase
+    group: 
+    objective: 
+    detail: 
+    position: {x: -610.333, y: 8.164352, z: 140.898}
+  - type: 2
+    key: 
+    name: 546747a1-9d94-4f0a-9184-d26ac70360f8
+    group: 
+    objective: 
+    detail: 
+    position: {x: 515.2101, y: -20.88, z: 264.44}
+  - type: 2
+    key: 
+    name: 54b18dfc-d6c6-47f5-86c5-ff9b8eefdd10
+    group: 
+    objective: 
+    detail: 
+    position: {x: -507.33, y: 12.140632, z: -145.30002}
+  - type: 3
+    key: 
+    name: ZoneRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: -109.97, y: -13.233619, z: 240.99}
+  - type: 2
+    key: 
+    name: 5732e03f-fb91-486f-8f04-90824d6c1885
+    group: 
+    objective: 
+    detail: 
+    position: {x: 367.74, y: -1.3216811, z: -73.79001}
+  - type: 2
+    key: 
+    name: 577e95f5-d03b-4193-8ebf-a3239ba267b7
+    group: 
+    objective: 
+    detail: 
+    position: {x: -59.639984, y: 9.093999, z: -577.11}
+  - type: 2
+    key: 
+    name: 581e4e5e-1211-4ad8-9353-e22847ac240f
+    group: 
+    objective: 
+    detail: 
+    position: {x: -491.46, y: 20.58425, z: -45.23001}
+  - type: 3
+    key: 
+    name: ZoneRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: -507, y: 24.58442, z: -276.79}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -84.17999, y: 8.79605, z: -607.78}
+  - type: 2
+    key: 
+    name: 5eee0ed5-5f87-4a2e-bf8a-77f2f6d25b4a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 388.49, y: 13.16, z: -407.26004}
+  - type: 2
+    key: 
+    name: 6345fd3c-18a6-4bef-ad54-3329af0e29dd
+    group: 
+    objective: 
+    detail: 
+    position: {x: 365.90503, y: 13.94, z: -698.06604}
+  - type: 2
+    key: 
+    name: 63663874-ec08-4368-8731-9c550e5b5841
+    group: 
+    objective: 
+    detail: 
+    position: {x: 368.87, y: -1.6470797, z: -67.45999}
+  - type: 2
+    key: 
+    name: 65647c3c-8f08-406a-b935-c8ce9146d5c1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -494.04, y: 20.588905, z: -47.829987}
+  - type: 3
+    key: 
+    name: ZoneClearVill
+    group: 
+    objective: 
+    detail: 
+    position: {x: 443.48, y: -11.4734535, z: 84.130005}
+  - type: 3
+    key: 
+    name: ZoneHouse
+    group: 
+    objective: 
+    detail: 
+    position: {x: 307.94, y: -0.642738, z: -159.80998}
+  - type: 2
+    key: 
+    name: 68845570-1ab3-4917-8815-d50100f9721c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -490.46, y: 20.672178, z: -46.98999}
+  - type: 2
+    key: 
+    name: 6a79ed96-bc72-44dd-91ac-40c81ec621d3
+    group: 
+    objective: 
+    detail: 
+    position: {x: -334.61, y: 20.316, z: -140.883}
+  - type: 2
+    key: 
+    name: 6a90b0c4-43d6-4e55-b55f-5b144b1d4839
+    group: 
+    objective: 
+    detail: 
+    position: {x: 370.67004, y: 17.26, z: -595.6699}
+  - type: 2
+    key: 
+    name: 6aaf0822-0055-48fe-b63f-aef5136b8ae9
+    group: 
+    objective: 
+    detail: 
+    position: {x: 231.07599, y: 26.48, z: -317.413}
+  - type: 2
+    key: 
+    name: 6ad78ac0-3047-4a3e-9761-3660c7426e48
+    group: 
+    objective: 
+    detail: 
+    position: {x: -331.46802, y: 18.527184, z: -138.72598}
+  - type: 2
+    key: 
+    name: 6c4cd550-9be2-4211-8e69-661f50f321f3
+    group: 
+    objective: 
+    detail: 
+    position: {x: -93.54001, y: -0.8849347, z: 382.53}
+  - type: 2
+    key: 
+    name: 6d5eeb3d-2234-4c7e-a8a4-e840d00f2731
+    group: 
+    objective: 
+    detail: 
+    position: {x: -616.79, y: 14.49, z: -324.47}
+  - type: 3
+    key: 
+    name: ZoneRedHouse
+    group: 
+    objective: 
+    detail: 
+    position: {x: 87.7668, y: -15.81066, z: 114.38581}
+  - type: 2
+    key: 
+    name: 706f5c80-44f6-4fb4-9c13-7a56515f2a60
+    group: 
+    objective: 
+    detail: 
+    position: {x: 418.45, y: -6.083662, z: 9.01001}
+  - type: 3
+    key: 
+    name: ZoneUsecBase
+    group: 
+    objective: 
+    detail: 
+    position: {x: -608.973, y: 9.521334, z: 146.788}
+  - type: 5
+    key: 
+    name: "\uC288\uD2B8\uB974\uB9CC"
+    group: 
+    objective: 
+    detail: "\uC288\uD2B8\uB974\uB9CC 75% (ZoneWoodCutter)"
+    position: {x: 311.72998, y: 22.925, z: -490.08}
+  - type: 2
+    key: 
+    name: 72daa206-d2a0-4c53-8c88-9522846df183
+    group: 
+    objective: 
+    detail: 
+    position: {x: -413.22, y: 11.7039995, z: -522.42993}
+  - type: 2
+    key: 
+    name: 72e43d0f-9ee4-4b7f-82ad-674ef2fb9a5c
+    group: 
+    objective: 
+    detail: 
+    position: {x: 464.24, y: -14.951344, z: 176.19}
+  - type: 5
+    key: 
+    name: "\uC288\uD2B8\uB974\uB9CC"
+    group: 
+    objective: 
+    detail: "\uC288\uD2B8\uB974\uB9CC 75% (ZoneWoodCutter)"
+    position: {x: 102.62, y: 7.1953983, z: -152.19}
+  - type: 2
+    key: 
+    name: 767ff37e-a30a-4e01-b04f-87295f7a7a37
+    group: 
+    objective: 
+    detail: 
+    position: {x: -260.32, y: 11.27, z: -631.89}
+  - type: 2
+    key: 
+    name: 76c5d333-1f67-4417-a3a5-d902a104a629
+    group: 
+    objective: 
+    detail: 
+    position: {x: 466.76, y: -14.906713, z: 174.25}
+  - type: 2
+    key: 
+    name: 788aa434-6c29-4010-aa10-c86d6b21d33c
+    group: 
+    objective: 
+    detail: 
+    position: {x: 228.39001, y: -8.166669, z: 199.36}
+  - type: 5
+    key: 
+    name: Knight
+    group: 
+    objective: 
+    detail: Knight 25% (ZoneScavBase2)
+    position: {x: 178.99998, y: 17.24146, z: -771.42004}
+  - type: 2
+    key: 
+    name: 7b5c0c3c-ab6e-4703-8b03-7e353e771e4d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 279.77002, y: -12.318529, z: 314.4}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -711.19, y: 8.284225, z: 132.54}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -55.950012, y: 7.5966997, z: -759.37}
+  - type: 5
+    key: 
+    name: "\uC288\uD2B8\uB974\uB9CC"
+    group: 
+    objective: 
+    detail: "\uC288\uD2B8\uB974\uB9CC 75% (ZoneWoodCutter)"
+    position: {x: 135.05, y: 8.4322605, z: -174.15}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneMiniHouse)"
+    position: {x: 242.89, y: 1.4809251, z: -164.24998}
+  - type: 3
+    key: 
+    name: ZoneClearVill
+    group: 
+    objective: 
+    detail: 
+    position: {x: -389.72003, y: 14.488308, z: -423.34}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -704.72003, y: 8.172225, z: 102.03999}
+  - type: 3
+    key: 
+    name: ZoneRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: -298.29, y: 0.044008255, z: 205.65001}
+  - type: 5
+    key: 
+    name: "\uC288\uD2B8\uB974\uB9CC"
+    group: 
+    objective: 
+    detail: "\uC288\uD2B8\uB974\uB9CC 75% (ZoneWoodCutter)"
+    position: {x: -301.8, y: 14.944424, z: -393.71}
+  - type: 3
+    key: 
+    name: ZoneUsecBase
+    group: 
+    objective: 
+    detail: 
+    position: {x: -614.56, y: 8.198016, z: 168.26}
+  - type: 2
+    key: 
+    name: 8467ea9a-907d-4669-b5e3-b316d2f7fc69
+    group: 
+    objective: 
+    detail: 
+    position: {x: 366.90002, y: 18.19, z: -598.19995}
+  - type: 2
+    key: 
+    name: 84e3e772-a45f-402d-9caf-0aef3d27f35e
+    group: 
+    objective: 
+    detail: 
+    position: {x: 231.64001, y: -7.4319487, z: 201.72}
+  - type: 2
+    key: 
+    name: 863ecf2c-103b-400a-8db5-2dbca37556ac
+    group: 
+    objective: 
+    detail: 
+    position: {x: -265.82, y: 10.58, z: -632.22}
+  - type: 2
+    key: 
+    name: 879d0661-5873-438f-8c04-7458874912a1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 231.43, y: 26.17, z: -314.42996}
+  - type: 2
+    key: 
+    name: 886a919e-c8af-41db-87e1-90b832e060ff
+    group: 
+    objective: 
+    detail: 
+    position: {x: -525.07, y: -2.5608566, z: 216}
+  - type: 2
+    key: 
+    name: 8a56bdfe-71f3-4a4c-900f-bae9a8385ebe
+    group: 
+    objective: 
+    detail: 
+    position: {x: 369.82996, y: 17.62, z: -597.53}
+  - type: 2
+    key: 
+    name: 8a8dd9f4-7681-4cf8-a483-2d699db8e2f8
+    group: 
+    objective: 
+    detail: 
+    position: {x: 418.01, y: -6.1051183, z: 11.940002}
+  - type: 2
+    key: 
+    name: 8ae51b31-264f-4e84-952c-4ab189db2235
+    group: 
+    objective: 
+    detail: 
+    position: {x: 443.00793, y: -20.52517, z: 364.0982}
+  - type: 3
+    key: 
+    name: ZoneClearVill
+    group: 
+    objective: 
+    detail: 
+    position: {x: 318.82, y: -8.477226, z: 352.05}
+  - type: 2
+    key: 
+    name: 8d27b102-5be0-400e-a547-908838c30336
+    group: 
+    objective: 
+    detail: 
+    position: {x: -492.41, y: 20.591349, z: -50.23001}
+  - type: 2
+    key: 
+    name: 8e0ef126-a4da-4695-b845-e98f0cc5ba24
+    group: 
+    objective: 
+    detail: 
+    position: {x: 391.52002, y: 12.88, z: -406.42996}
+  - type: 2
+    key: 
+    name: 8f12ff53-5f7c-4355-87ee-3d2ad444b694
+    group: 
+    objective: 
+    detail: 
+    position: {x: 367.37, y: 17.74, z: -594.9099}
+  - type: 2
+    key: 
+    name: 8f3ac8eb-8bbe-4aaa-b61c-db7679db0322
+    group: 
+    objective: 
+    detail: 
+    position: {x: -253.66998, y: 11.57, z: -638.92993}
+  - type: 2
+    key: 
+    name: 90752bed-9582-4b90-8c5d-cb39ee60541f
+    group: 
+    objective: 
+    detail: 
+    position: {x: -63.100006, y: 9.763999, z: -587.31995}
+  - type: 2
+    key: 
+    name: 9122183e-c8ff-4395-bece-90ebb8ec7729
+    group: 
+    objective: 
+    detail: 
+    position: {x: -418.82, y: 11.874, z: -515.23}
+  - type: 2
+    key: 
+    name: 91530199-eea1-4b40-81c8-1e6fa8d6e2b6
+    group: 
+    objective: 
+    detail: 
+    position: {x: -275.98, y: -1.0874496, z: 334.3}
+  - type: 3
+    key: 
+    name: ZoneHouse
+    group: 
+    objective: 
+    detail: 
+    position: {x: 375.81, y: -1.0690973, z: -115.25}
+  - type: 2
+    key: 
+    name: 93f6e01c-c7b5-4105-ab1d-98d9461e78a2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 487.35864, y: -18.808872, z: 332.61}
+  - type: 3
+    key: 
+    name: ZoneUsecBase
+    group: 
+    objective: 
+    detail: 
+    position: {x: -613.22003, y: 8.136056, z: 142.59}
+  - type: 2
+    key: 
+    name: 949ca77d-160b-4f04-82eb-08138ea43273
+    group: 
+    objective: 
+    detail: 
+    position: {x: 418.41003, y: -6.196, z: 14.299988}
+  - type: 2
+    key: 
+    name: 9673a4fa-62f2-4ec7-8bb9-4ba0e0b03082
+    group: 
+    objective: 
+    detail: 
+    position: {x: 226.48798, y: -8.280846, z: 198.979}
+  - type: 2
+    key: 
+    name: 97d6cb2c-b368-406e-b928-47fc69dcb6e1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -540.68, y: -1.0572988, z: 297.02}
+  - type: 2
+    key: 
+    name: 97e89fb9-b022-4af1-aefe-01c32a7a0dc6
+    group: 
+    objective: 
+    detail: 
+    position: {x: -359.34, y: 0.9434962, z: 236.44}
+  - type: 2
+    key: 
+    name: 997a62f3-8054-4092-82a2-5bc61924efe7
+    group: 
+    objective: 
+    detail: 
+    position: {x: -60.97, y: 9.2439995, z: -579.6}
+  - type: 2
+    key: 
+    name: 9b3c848c-e19a-4cd6-ad21-3e067ab2538f
+    group: 
+    objective: 
+    detail: 
+    position: {x: -512.942, y: 12.077889, z: -149.892}
+  - type: 2
+    key: 
+    name: 9ce47222-7b0b-46ea-a004-a9c2e7ac72cd
+    group: 
+    objective: 
+    detail: 
+    position: {x: -611.92, y: 14.7, z: -331.79}
+  - type: 2
+    key: 
+    name: 9f1038d2-e7e3-47de-9d31-904452eceee9
+    group: 
+    objective: 
+    detail: 
+    position: {x: -529.6, y: 11.273999, z: 85.98001}
+  - type: 2
+    key: 
+    name: 9f3fd052-c9e7-4a2b-bb07-2f2b30fda2a3
+    group: 
+    objective: 
+    detail: 
+    position: {x: 367.12, y: 13.2439995, z: -703}
+  - type: 2
+    key: 
+    name: 9feb88db-d2ee-4de7-9b33-602ab3787fd7
+    group: 
+    objective: 
+    detail: 
+    position: {x: -420.16, y: 12.174, z: -509.61996}
+  - type: 2
+    key: 
+    name: a00cfa17-8ac3-4ff3-ae3d-4eec74af3339
+    group: 
+    objective: 
+    detail: 
+    position: {x: -538.64, y: -0.9594319, z: 297.58}
+  - type: 3
+    key: 
+    name: ZoneRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: -473.3, y: 22.033438, z: -218.39001}
+  - type: 2
+    key: 
+    name: a2318627-663c-4acf-805e-7e1b07b40a88
+    group: 
+    objective: 
+    detail: 
+    position: {x: 487.35864, y: -18.744347, z: 331.25}
+  - type: 2
+    key: 
+    name: a2741ec1-a20a-4f29-a4a0-45990e52f525
+    group: 
+    objective: 
+    detail: 
+    position: {x: 280.46997, y: -12.4933405, z: 312.44}
+  - type: 2
+    key: 
+    name: a32fbc54-69e4-4adf-b75f-42b425799e61
+    group: 
+    objective: 
+    detail: 
+    position: {x: 372.94, y: 15.303999, z: -695.56995}
+  - type: 2
+    key: 
+    name: a552853d-8a92-4317-a1ed-f795e7f33d1c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -615.8, y: 14.69, z: -333.94998}
+  - type: 2
+    key: 
+    name: a578eaf5-02db-4dc2-950c-ed9650e636af
+    group: 
+    objective: 
+    detail: 
+    position: {x: 82.869995, y: 9.907, z: -546.47}
+  - type: 2
+    key: 
+    name: a7161f40-3a90-4ef6-bb1f-588c16755a5f
+    group: 
+    objective: 
+    detail: 
+    position: {x: -92.95001, y: -1.1251879, z: 385.31}
+  - type: 2
+    key: 
+    name: a873f0d6-fe01-4590-bd54-c0dc13cd19a4
+    group: 
+    objective: 
+    detail: 
+    position: {x: 234.29999, y: 26.98, z: -317.97}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -707.76996, y: 8.150501, z: 118.45999}
+  - type: 2
+    key: 
+    name: aa0b3f92-4b91-42b0-888d-7c038ebf8276
+    group: 
+    objective: 
+    detail: 
+    position: {x: -615, y: 14.66, z: -328.99002}
+  - type: 2
+    key: 
+    name: ab92fdf7-ecdf-4ab4-8260-4b082b10e964
+    group: 
+    objective: 
+    detail: 
+    position: {x: 370.773, y: 13.9, z: -700.119}
+  - type: 2
+    key: 
+    name: ac3808e7-cd81-4a09-82e7-f9189872340b
+    group: 
+    objective: 
+    detail: 
+    position: {x: 487.35864, y: -18.055115, z: 328.52}
+  - type: 5
+    key: 
+    name: "\uC288\uD2B8\uB974\uB9CC"
+    group: 
+    objective: 
+    detail: "\uC288\uD2B8\uB974\uB9CC 75% (ZoneWoodCutter)"
+    position: {x: -267.229, y: 24.633646, z: -489.11703}
+  - type: 2
+    key: 
+    name: acd3a9e0-c104-40ef-b162-e3ef708abd82
+    group: 
+    objective: 
+    detail: 
+    position: {x: 230.143, y: 26.9, z: -320.142}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -171.68, y: 14.7745075, z: -617.69995}
+  - type: 2
+    key: 
+    name: af590eee-24d5-44d6-9b86-5a566b140546
+    group: 
+    objective: 
+    detail: 
+    position: {x: -524.17, y: -2.5787568, z: 220.33}
+  - type: 3
+    key: 
+    name: ZoneClearVill
+    group: 
+    objective: 
+    detail: 
+    position: {x: -416.22003, y: 15.743282, z: -434.29}
+  - type: 2
+    key: 
+    name: b07d1be1-0844-46f4-8db1-dbbd35c71e52
+    group: 
+    objective: 
+    detail: 
+    position: {x: -54.109985, y: 8.883999, z: -579.43994}
+  - type: 2
+    key: 
+    name: b0c3004c-9da2-4fb6-aa01-2efc6c1cbb46
+    group: 
+    objective: 
+    detail: 
+    position: {x: -254.05301, y: 27.412447, z: -204.69098}
+  - type: 2
+    key: 
+    name: b118c88d-8e70-4901-81ba-7503a35de370
+    group: 
+    objective: 
+    detail: 
+    position: {x: 84.619995, y: 9.535999, z: -545.77}
+  - type: 3
+    key: 
+    name: ZoneRedHouse
+    group: 
+    objective: 
+    detail: 
+    position: {x: 63.216805, y: -7.5861483, z: 35.215813}
+  - type: 2
+    key: 
+    name: b3681e95-fcd9-41d9-b42f-e991e6203d83
+    group: 
+    objective: 
+    detail: 
+    position: {x: -537.1, y: -1.2624706, z: 294.64}
+  - type: 2
+    key: 
+    name: b3813ace-6fff-4e81-bc84-247eeb6e3e12
+    group: 
+    objective: 
+    detail: 
+    position: {x: 441.84894, y: -20.525167, z: 366.63916}
+  - type: 2
+    key: 
+    name: b68101ca-2da3-481c-bf0f-2fe50f4f7e83
+    group: 
+    objective: 
+    detail: 
+    position: {x: -492.6, y: 20.60238, z: -48.01999}
+  - type: 2
+    key: 
+    name: b6da0215-511d-4460-926f-e695c881f999
+    group: 
+    objective: 
+    detail: 
+    position: {x: 515.24, y: -20.81, z: 261.53}
+  - type: 2
+    key: 
+    name: b94019d5-3504-463a-a157-2677414060a3
+    group: 
+    objective: 
+    detail: 
+    position: {x: 86.91205, y: 9.165999, z: -547.537}
+  - type: 3
+    key: 
+    name: ZoneRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: -155.17, y: -2.1145964, z: 181.17}
+  - type: 3
+    key: 
+    name: ZoneClearVill
+    group: 
+    objective: 
+    detail: 
+    position: {x: -439.99, y: 15.485756, z: -325.17}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -658.13995, y: 10.91139, z: 114.229996}
+  - type: 2
+    key: 
+    name: bd5acc62-57c2-404a-abef-482fd235792d
+    group: 
+    objective: 
+    detail: 
+    position: {x: -519.41, y: 7.2753315, z: 154.59}
+  - type: 5
+    key: 
+    name: "\uC288\uD2B8\uB974\uB9CC"
+    group: 
+    objective: 
+    detail: "\uC288\uD2B8\uB974\uB9CC 75% (ZoneWoodCutter)"
+    position: {x: 297.18, y: 22.963827, z: -434.38998}
+  - type: 2
+    key: 
+    name: c29c3942-9b2e-4925-9879-82a3f99dafcd
+    group: 
+    objective: 
+    detail: 
+    position: {x: -359.75, y: 0.8591096, z: 239.67}
+  - type: 5
+    key: 
+    name: "\uC288\uD2B8\uB974\uB9CC"
+    group: 
+    objective: 
+    detail: "\uC288\uD2B8\uB974\uB9CC 75% (ZoneWoodCutter)"
+    position: {x: -298.83002, y: 16.031057, z: -388.75003}
+  - type: 5
+    key: 
+    name: Knight
+    group: 
+    objective: 
+    detail: Knight 25% (ZoneScavBase2)
+    position: {x: 268.69998, y: 17.461561, z: -756.9}
+  - type: 2
+    key: 
+    name: c43a0300-1028-48b1-9c2f-3bfe9160af2c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -519.45, y: 12.632335, z: -156.30002}
+  - type: 2
+    key: 
+    name: c4cda11c-7489-4aec-9027-51f91ac76602
+    group: 
+    objective: 
+    detail: 
+    position: {x: -357.55, y: 0.86243767, z: 237.46}
+  - type: 2
+    key: 
+    name: c84b89e2-af4e-4e30-8481-decf063c2d49
+    group: 
+    objective: 
+    detail: 
+    position: {x: -521.16, y: 7.2753315, z: 154.3}
+  - type: 2
+    key: 
+    name: c943b129-e33b-4747-b7d5-23a5dfa662cd
+    group: 
+    objective: 
+    detail: 
+    position: {x: 279.90002, y: -12.069431, z: 317.73}
+  - type: 2
+    key: 
+    name: c9b626e3-5419-4b15-8cf5-25e7cf1186a0
+    group: 
+    objective: 
+    detail: 
+    position: {x: 226.43, y: -8.698159, z: 197.5}
+  - type: 4
+    key: 
+    name: ZoneRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: -140.8, y: 61.43571, z: -206.84}
+  - type: 2
+    key: 
+    name: cc216e03-adb3-4e7b-bde7-153af087de33
+    group: 
+    objective: 
+    detail: 
+    position: {x: -280.28, y: -0.8622794, z: 332.87}
+  - type: 2
+    key: 
+    name: cccf844c-512d-4b63-80ff-ba7accbb47f4
+    group: 
+    objective: 
+    detail: 
+    position: {x: 389.72998, y: 13.24, z: -403.92996}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -663.52997, y: 8.017315, z: 169.03}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -701.05, y: 8.14782, z: 141.76999}
+  - type: 2
+    key: 
+    name: d0b04f96-cc0a-4fbc-88c7-3011e213d61b
+    group: 
+    objective: 
+    detail: 
+    position: {x: 234.96002, y: 26.92, z: -314.58}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -130.62, y: 13.04448, z: -623.1699}
+  - type: 5
+    key: 
+    name: Knight
+    group: 
+    objective: 
+    detail: Knight 25% (ZoneScavBase2)
+    position: {x: 280.36, y: 8.215275, z: -674.51}
+  - type: 2
+    key: 
+    name: d4f98c54-98a2-47be-95ae-fb8567193325
+    group: 
+    objective: 
+    detail: 
+    position: {x: 518.41003, y: -20.94, z: 264.3}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -702.72003, y: 8.16934, z: 100.76999}
+  - type: 2
+    key: 
+    name: d61bb401-a94f-4688-8a33-8f1c0bb10324
+    group: 
+    objective: 
+    detail: 
+    position: {x: -621, y: 14.91, z: -328.73}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -685.44403, y: 8.260168, z: 102.088}
+  - type: 2
+    key: 
+    name: d80c76d7-dfea-4efd-b5d4-296aa108f0cf
+    group: 
+    objective: 
+    detail: 
+    position: {x: -525.09, y: -2.5946693, z: 218.24}
+  - type: 2
+    key: 
+    name: d9848c81-3e74-4364-a2da-0906ce5ba1ef
+    group: 
+    objective: 
+    detail: 
+    position: {x: -518.69, y: 7.2753315, z: 145.43}
+  - type: 2
+    key: 
+    name: d9c0942f-b502-4e46-abc9-e4bc7f6c385f
+    group: 
+    objective: 
+    detail: 
+    position: {x: -522.07, y: 8.263999, z: 97.21001}
+  - type: 3
+    key: 
+    name: ZoneRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: -517.12, y: 14.095111, z: -160.30002}
+  - type: 2
+    key: 
+    name: db20edec-193d-45e1-947b-f03443f9cc0e
+    group: 
+    objective: 
+    detail: 
+    position: {x: 414.25, y: -5.7135515, z: 12.950012}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -174.46002, y: 9.405302, z: -713.92993}
+  - type: 2
+    key: 
+    name: dd9e36ad-1a0f-41d9-891d-ca75612e555e
+    group: 
+    objective: 
+    detail: 
+    position: {x: 229.96997, y: -7.7995057, z: 200.65}
+  - type: 2
+    key: 
+    name: de45f96d-1bfc-4e35-b645-58f666672988
+    group: 
+    objective: 
+    detail: 
+    position: {x: -252.10999, y: 27.04601, z: -205.00998}
+  - type: 2
+    key: 
+    name: df6a2043-8d22-4d1f-83fe-bb846abc2d91
+    group: 
+    objective: 
+    detail: 
+    position: {x: -517.55, y: 7.2753315, z: 153.66983}
+  - type: 2
+    key: 
+    name: e0628947-ad1b-42fe-b3cc-17f27658ad95
+    group: 
+    objective: 
+    detail: 
+    position: {x: -273.26, y: -1.596011, z: 333.25}
+  - type: 2
+    key: 
+    name: e39fb8b8-c074-4573-a787-e4f1368f61ce
+    group: 
+    objective: 
+    detail: 
+    position: {x: -515.51, y: 12.157628, z: -153.09}
+  - type: 2
+    key: 
+    name: e5100a09-62e9-4fb8-a669-4ee8a31cd734
+    group: 
+    objective: 
+    detail: 
+    position: {x: -256.11, y: 27.93854, z: -203.92099}
+  - type: 2
+    key: 
+    name: ea45ff70-9ca1-4fc8-b581-199b1d61d386
+    group: 
+    objective: 
+    detail: 
+    position: {x: -254.19, y: 28.177979, z: -207.9}
+  - type: 2
+    key: 
+    name: ea5e5130-1179-462c-9908-b988d8e94142
+    group: 
+    objective: 
+    detail: 
+    position: {x: 516.7999, y: -20.9, z: 264.43}
+  - type: 2
+    key: 
+    name: eaeca1b5-b44c-44fa-8a31-8f3d54a23ae2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -526.74, y: 11.2439995, z: 86.860016}
+  - type: 5
+    key: 
+    name: Knight
+    group: 
+    objective: 
+    detail: Knight 25% (ZoneScavBase2)
+    position: {x: 157.48999, y: 24.41977, z: -690.61}
+  - type: 2
+    key: 
+    name: edee4f82-514e-4100-8936-ac4c8958a8e6
+    group: 
+    objective: 
+    detail: 
+    position: {x: -522.77, y: -2.5946693, z: 218.57}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -6.4299927, y: 10.969829, z: -786.35}
+  - type: 2
+    key: 
+    name: f077bdd9-90fc-4f3c-9ee3-8ac948b05d7e
+    group: 
+    objective: 
+    detail: 
+    position: {x: -408.96, y: 12.584, z: -513.01}
+  - type: 2
+    key: 
+    name: f0ed0112-5b8a-43b3-9265-a8f9d0fff76a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 373.61, y: -1.9254198, z: -76.16}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -673.85004, y: 8.150501, z: 104.31}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -648.863, y: 8.315001, z: 119.97399}
+  - type: 2
+    key: 
+    name: f57291ab-3efd-4da7-8883-23f5657b830e
+    group: 
+    objective: 
+    detail: 
+    position: {x: -509.56, y: 11.967442, z: -147.49002}
+  - type: 2
+    key: 
+    name: f7bffc88-d067-4612-a9c3-b3aac391a101
+    group: 
+    objective: 
+    detail: 
+    position: {x: 368.65002, y: -1.6283187, z: -81.73999}
+  - type: 2
+    key: 
+    name: f7f8f08a-6f73-4d93-875d-e20149e5500b
+    group: 
+    objective: 
+    detail: 
+    position: {x: 487.35864, y: -18.615778, z: 330.75}
+  - type: 2
+    key: 
+    name: f83aa201-f4b3-40bb-a04d-6e668b3c0295
+    group: 
+    objective: 
+    detail: 
+    position: {x: -272.01, y: -2.0762434, z: 329.42}
+  - type: 2
+    key: 
+    name: f8cc899e-eb90-4faa-9011-2feda47c0097
+    group: 
+    objective: 
+    detail: 
+    position: {x: -260.74, y: 10.41, z: -639.7899}
+  - type: 3
+    key: 
+    name: ZoneRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: -442.60004, y: 15.327909, z: -180.74002}
+  - type: 5
+    key: 
+    name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C 30% (ZoneBrokenVill)"
+    position: {x: -710.12006, y: 8.111299, z: 129.2}
+  - type: 2
+    key: 
+    name: fd48df1a-f0d4-47f1-ad83-e28811a88585
+    group: 
+    objective: 
+    detail: 
+    position: {x: -420.16, y: 11.283999, z: -519.41003}
+  - type: 2
+    key: 
+    name: fe357fff-3375-4d19-8420-4d78717842f6
+    group: 
+    objective: 
+    detail: 
+    position: {x: 280.78003, y: -11.907231, z: 319.27902}
+  - type: 7
+    key: 5a68665c86f774255929b4c7
+    name: Health Care Privacy - Part 3
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 5a68776786f774759f1f55f6
+    detail: "\uD608\uC561 \uC0D8\uD50C"
+    position: {x: -94.25195, y: -15.702, z: 218.99298}
+  - type: 6
+    key: 5a68665c86f774255929b4c7
+    name: Health Care Privacy - Part 3
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 5a68770f86f774747d4b0d8b
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uD5EC\uC2A4 \uB9AC\uC870\uD2B8 \uC758\uB8CC
+      \uC11C\uBE44\uC2A4 \uCC45\uC784\uC790\uC758 \uBC34 \uCC28\uB7C9 \uCC3E\uAE30"
+    position: {x: -97.15, y: -13.19, z: 219.76}
+  - type: 6
+    key: 59675d6c86f7740a842fc482
+    name: Ice Cream Cones
+    group: "\uD504\uB77C\uD37C"
+    objective: 5a3fbe3a86f77414422e0d9b
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uC7A0\uACA8\uC788\uB294 \uBC99\uCEE4
+      \uCC3E\uAE30"
+    position: {x: 443.01038, y: -14.985401, z: 67.66608}
+  - type: 6
+    key: 5b4795fb86f7745876267770
+    name: Chumming
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5b47971086f774587877ad34
+    detail: "\uC0BC\uB9BC(Woods) \uC81C\uC7AC\uC18C\uC5D0\uC11C \uB098\uB780\uD788
+      \uB193\uC5EC\uC788\uB294 3\uAC1C\uC758 \uC219\uC18C \uC911, \uC911\uAC04 \uC219\uC18C\uC5D0
+      [\uAE08\uBAA9\uAC78\uC774] 3\uAC1C \uB193\uAE30"
+    position: {x: -6.21, y: -0.49, z: -75.55}
+  - type: 6
+    key: 5d25b6be86f77444001e1b89
+    name: The Survivalist Path - Thrifty
+    group: "\uC608\uAC70"
+    objective: 5d25beca86f77409dd5cdbb3
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C ZB-016 \uBC99\uCEE4\uC5D0 [Iskra \uC804\uD22C\uC2DD\uB7C9]
+      \uC228\uACA8\uB450\uAE30"
+    position: {x: -386.79, y: 4.22, z: 22.59}
+  - type: 6
+    key: 5d25b6be86f77444001e1b89
+    name: The Survivalist Path - Thrifty
+    group: "\uC608\uAC70"
+    objective: 5d25beeb86f77443fe45765f
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C ZB-016 \uBC99\uCEE4\uC5D0 [0.6L \uBB3C\uBCD1]
+      \uC228\uACA8\uB450\uAE30"
+    position: {x: -386.79, y: 4.22, z: 22.59}
+  - type: 6
+    key: 5d25b6be86f77444001e1b89
+    name: The Survivalist Path - Thrifty
+    group: "\uC608\uAC70"
+    objective: 5d2deedc86f77459121c3118
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C ZB-014 \uBC99\uCEE4\uC5D0 [Iskra \uC804\uD22C\uC2DD\uB7C9]
+      \uC228\uACA8\uB450\uAE30"
+    position: {x: 447.98, y: -13.19, z: 71.3}
+  - type: 6
+    key: 5d25b6be86f77444001e1b89
+    name: The Survivalist Path - Thrifty
+    group: "\uC608\uAC70"
+    objective: 5d2defc586f774591510e6b9
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C ZB-014 \uBC99\uCEE4\uC5D0 [0.6L \uBB3C\uBCD1]
+      \uC228\uACA8\uB450\uAE30"
+    position: {x: 447.98, y: -13.19, z: 71.3}
+  - type: 6
+    key: 665eec4a4dfc83b0ed0a9dca
+    name: Thirsty - Delivery
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6661a14545909ae2e92ca2d5
+    detail: "\uC0BC\uB9BC\uC5D0\uC11C \uC9C0\uC815\uB41C \uC740\uB2C9 \uC7A5\uC18C
+      \uCC3E\uAE30"
+    position: {x: 227.7, y: 21.06, z: -706.56}
+  - type: 6
+    key: 665eec4a4dfc83b0ed0a9dca
+    name: Thirsty - Delivery
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6661a14545909ae2e92ca2d5
+    detail: "\uC0BC\uB9BC\uC5D0\uC11C \uC9C0\uC815\uB41C \uC740\uB2C9 \uC7A5\uC18C
+      \uCC3E\uAE30"
+    position: {x: 227.7, y: 21.06, z: -706.56}
+  - type: 6
+    key: 665eec4a4dfc83b0ed0a9dca
+    name: Thirsty - Delivery
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6661a170945719c63f28d9c6
+    detail: "\uCCAB \uBC88\uC9F8 \uD504\uB85C\uD310 \uD0F1\uD06C(5L) \uC228\uAE30\uAE30"
+    position: {x: 227.7, y: 21.06, z: -706.56}
+  - type: 6
+    key: 665eec4a4dfc83b0ed0a9dca
+    name: Thirsty - Delivery
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6661a170945719c63f28d9c6
+    detail: "\uCCAB \uBC88\uC9F8 \uD504\uB85C\uD310 \uD0F1\uD06C(5L) \uC228\uAE30\uAE30"
+    position: {x: 227.7, y: 21.06, z: -706.56}
+  - type: 6
+    key: 666314b8312343839d032d24
+    name: Airmail
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 6672edebec0c3e2ad7d4e489
+    detail: "\uC0BC\uB9BC \uC61B \uC81C\uC7AC\uC18C\uC5D0\uC11C \uBE68\uAC04\uC0C9
+      \uC2E0\uD638\uD0C4 \uBC1C\uC0AC\uD558\uAE30"
+    position: {x: -518.1, y: 18.2, z: -182.4}
+  - type: 6
+    key: 666314bd920800278d0f6748
+    name: Viewer
+    group: "\uD504\uB77C\uD37C"
+    objective: 667bf8370849ce7edf2b124e
+    detail: "\uC0BC\uB9BC(Woods)\uC758 \uC0B0 \uB3CC\uCD9C\uBD80\uC5D0 WI-FI \uCE74\uBA54\uB77C
+      \uC124\uCE58\uD558\uAE30"
+    position: {x: -219.23, y: 64.62, z: -224.43}
+  - type: 6
+    key: 666314c3acf8442f8b0531a3
+    name: Proper Comeback
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 667442da875be5fb415df535
+    detail: "\uC0BC\uB9BC\uC5D0 \uC788\uB294 \uD504\uB77C\uD37C\uC758 WI-FI \uCE74\uBA54\uB77C
+      \uC606\uC5D0 \uD669\uAE08 \uC218\uD0C9 \uC870\uAC01\uC0C1 \uC228\uAE30\uAE30"
+    position: {x: -219.75, y: 62.62, z: -219.97}
+  - type: 6
+    key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    group: "\uD39C\uC2A4"
+    objective: 66debf2b9e4ce2ef233ee5b7
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0 \uC788\uB294 \uBD88\uD0C0\uB294 \uCC28\uC5D0
+      \uC549\uC544\uC788\uB294 \uACF0\uC774 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi
+      \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+    position: {x: -116.86, y: 22.46, z: -464.12}
+  - type: 6
+    key: 68400953506db3b4db0700e7
+    name: Fair Price - Part 2
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6841815b3d5e6b08d1f6e474
+    detail: "\uC740\uB2C9 \uC7A5\uC18C \uCC3E\uAE30"
+    position: {x: -542.37, y: 18.38, z: -203.87}
+  - type: 7
+    key: 68400953506db3b4db0700e7
+    name: Fair Price - Part 2
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6841814c20c9a6c68800ab79
+    detail: "AK-50 \uCD1D\uC5F4\uB36E\uAC1C \uBC0F \uAC00\uC2A4 \uD29C\uBE0C \uBB49\uCE58"
+    position: {x: -544.42566, y: 19.2192, z: -204.0365}
+  - type: 7
+    key: 68400953506db3b4db0700e7
+    name: Fair Price - Part 2
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6841814c20c9a6c68800ab79
+    detail: "AK-50 \uCD1D\uC5F4\uB36E\uAC1C \uBC0F \uAC00\uC2A4 \uD29C\uBE0C \uBB49\uCE58"
+    position: {x: -549.10596, y: 19.003, z: -200.84}
+  - type: 7
+    key: 68400953506db3b4db0700e7
+    name: Fair Price - Part 2
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6841814c20c9a6c68800ab79
+    detail: "AK-50 \uCD1D\uC5F4\uB36E\uAC1C \uBC0F \uAC00\uC2A4 \uD29C\uBE0C \uBB49\uCE58"
+    position: {x: -547.692, y: 15.73, z: -198.267}
+  - type: 7
+    key: 596a0e1686f7741ddf17dbee
+    name: Supply Plans
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 596a0e7086f7741ddf17dbef
+    detail: "\uBCF4\uC548 \uCF00\uC774\uC2A4 0052"
+    position: {x: -3.322, y: -1.4843, z: -81.1259}
+  - type: 6
+    key: 5a27ba1c86f77461ea5a3c56
+    name: Weapons Circulation
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 5a2806e086f774291b084041
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0 \uC788\uB294 \uCCAB \uBC88\uC9F8 \uC885\uAD50\uC758\uC2DD
+      \uD604\uC7A5\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+    position: {x: 195.98, y: 1.03, z: -7.24}
+  - type: 6
+    key: 5a27ba1c86f77461ea5a3c56
+    name: Weapons Circulation
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 5fe0e9ed3f3a7d4169035e8e
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0 \uC788\uB294 \uB450 \uBC88\uC9F8 \uC885\uAD50\uC758\uC2DD
+      \uD604\uC7A5\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+    position: {x: -88.7, y: 12.55, z: -717.61}
+  - type: 6
+    key: 5ae449b386f77446d8741719
+    name: Gratitude
+    group: "\uB798\uADF8\uB9E8"
+    objective: 5ae9e1c786f77403fb3f9674
+    detail: "\uBAA9\uD45C \uC704\uCE58\uC5D0 [\uC26C\uB9C8\uADF8 (\uCD08\uB85D\uC0C9)]
+      \uC228\uACA8\uB450\uAE30"
+    position: {x: 23.79, y: -15.41, z: 99.84}
+  - type: 6
+    key: 5ae449b386f77446d8741719
+    name: Gratitude
+    group: "\uB798\uADF8\uB9E8"
+    objective: 5ae9e1c786f77403fb3f9674
+    detail: "\uBAA9\uD45C \uC704\uCE58\uC5D0 [\uC26C\uB9C8\uADF8 (\uCD08\uB85D\uC0C9)]
+      \uC228\uACA8\uB450\uAE30"
+    position: {x: 23.79, y: -15.41, z: 99.84}
+  - type: 6
+    key: 5ae449b386f77446d8741719
+    name: Gratitude
+    group: "\uB798\uADF8\uB9E8"
+    objective: 5ae9e2a286f7740de4152a0a
+    detail: "\uBAA9\uD45C \uC704\uCE58\uC5D0 [\uB808\uC774\uBCA4\uCE58 \uD799\uC2A4\uD130
+      \uC120\uAE00\uB77C\uC2A4] \uC228\uACA8\uB450\uAE30"
+    position: {x: 23.79, y: -15.41, z: 99.84}
+  - type: 6
+    key: 5ae449b386f77446d8741719
+    name: Gratitude
+    group: "\uB798\uADF8\uB9E8"
+    objective: 5ae9e2a286f7740de4152a0a
+    detail: "\uBAA9\uD45C \uC704\uCE58\uC5D0 [\uB808\uC774\uBCA4\uCE58 \uD799\uC2A4\uD130
+      \uC120\uAE00\uB77C\uC2A4] \uC228\uACA8\uB450\uAE30"
+    position: {x: 23.79, y: -15.41, z: 99.84}
+  - type: 6
+    key: 5b47926a86f7747ccc057c15
+    name: Informed Means Armed
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5b47932586f7747cc908b5dd
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uC81C\uC7AC\uC18C \uBD80\uB450\uB97C
+      \uAC10\uC2DC\uD558\uAE30 \uC704\uD55C [WI-FI \uCE74\uBA54\uB77C] \uC124\uCE58\uD558\uAE30"
+    position: {x: 31.09, y: -13.61, z: 83.01}
+  - type: 7
+    key: 5b4794cb86f774598100d5d4
+    name: Metal Birds
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 66d078aadf338e6c13578080
+    detail: "\uBAA8\uD130 \uCEE8\uD2B8\uB864\uB7EC #1"
+    position: {x: 233.84302, y: -1.235, z: -71.10199}
+  - type: 7
+    key: 5b4794cb86f774598100d5d4
+    name: Metal Birds
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 5b47958e86f774598100d5e2
+    detail: "\uB2E8\uC77C \uCD95 \uAD11\uC12C\uC720 \uC790\uC774\uB85C\uC2A4\uCF54\uD504
+      #1"
+    position: {x: 56.714966, y: -1.791, z: -50.307007}
+  - type: 6
+    key: 5c10f94386f774227172c572
+    name: Small Things, Big Help
+    group: "\uB798\uADF8\uB9E8"
+    objective: 5c10f94386f774227172c574
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uC5F0\uB8CC\uAC00 \uC800\uC7A5\uB41C
+      \uCCAB \uBC88\uC9F8 \uC7A5\uC18C\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+    position: {x: 356.45, y: 0.35, z: -85.88}
+  - type: 6
+    key: 5c10f94386f774227172c572
+    name: Small Things, Big Help
+    group: "\uB798\uADF8\uB9E8"
+    objective: 5c10f94386f774227172c575
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uC5F0\uB8CC\uAC00 \uC800\uC7A5\uB41C
+      \uB450 \uBC88\uC9F8 \uC7A5\uC18C\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+    position: {x: -325.04, y: 15.32, z: 23.98}
+  - type: 6
+    key: 5c10f94386f774227172c572
+    name: Small Things, Big Help
+    group: "\uB798\uADF8\uB9E8"
+    objective: 5c10f94386f774227172c576
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uC5F0\uB8CC\uAC00 \uC800\uC7A5\uB41C
+      \uC138 \uBC88\uC9F8 \uC7A5\uC18C\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+    position: {x: -200.41, y: 31.3, z: -210.92}
+  - type: 6
+    key: 5d2495a886f77425cd51e403
+    name: Introduction
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 63ac18f4972364554162a25c
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uC608\uAC70\uC758 \uCEA0\uD504 \uCC3E\uAE30"
+    position: {x: -256, y: 9.58, z: 9.7}
+  - type: 7
+    key: 5d2495a886f77425cd51e403
+    name: Introduction
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 5d249a6e86f774791546e952
+    detail: "\uC554\uD638\uD654\uB41C \uBA54\uC2DC\uC9C0"
+    position: {x: -257.1476, y: 8.518, z: 7.9998}
+  - type: 6
+    key: 5fd9fad9c1ce6b1a3b486d00
+    name: Search Mission
+    group: "\uD504\uB77C\uD37C"
+    objective: 5fd9fad9c1ce6b1a3b486d03
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uC2E4\uC885\uB41C \uD504\uB77C\uD37C\uC758
+      \uD638\uC1A1\uB300 \uCC3E\uAE30"
+    position: {x: 195.56, y: 12.21, z: -595.82}
+  - type: 6
+    key: 5fd9fad9c1ce6b1a3b486d00
+    name: Search Mission
+    group: "\uD504\uB77C\uD37C"
+    objective: 5fd9fad9c1ce6b1a3b486d05
+    detail: "USEC \uC784\uC2DC \uCEA0\uD504 \uCC3E\uAE30"
+    position: {x: 283.05, y: 24.04, z: -439.39}
+  - type: 6
+    key: 60e71b9bbd90872cb85440f3
+    name: Capturing Outposts
+    group: "\uD504\uB77C\uD37C"
+    objective: 60ec18b73b5f7d790a7ad034
+    detail: "\uC138\uAD00, \uD574\uC548\uC120 \uB610\uB294 \uC0BC\uB9BC\uC758 \uC9C0\uC815\uB41C
+      \uC2A4\uCE90\uBE0C \uAE30\uC9C0\uC5D0\uC11C PMC \uCC98\uCE58\uD558\uAE30"
+    position: {x: -198.8, y: 5.1, z: 222}
+  - type: 6
+    key: 63966fe7ea74a47c2d3fc0e6
+    name: Return the Favor
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 639915f339cb4711771bedc6
+    detail: "\uC0BC\uB9BC(Woods)\uC758 USEC \uCEA0\uD504\uC5D0 \uC8FC\uCC28\uB41C
+      \uAC80\uC815 SUV\uC5D0 [\uD14C\uB77C\uADF8\uB8F9 '\uBE14\uB8E8 \uD3F4\uB354'
+      \uBB38\uC11C] \uC228\uAE30\uAE30"
+    position: {x: 289.97, y: 23.51, z: -439.01}
+  - type: 6
+    key: 63966fe7ea74a47c2d3fc0e6
+    name: Return the Favor
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 63991601deadb12b2d7c6027
+    detail: "\uC0BC\uB9BC(Woods)\uC758 USEC \uCEA0\uD504\uC5D0 \uC124\uCE58\uB41C
+      \uC704\uC131 \uC548\uD14C\uB098 \uC778\uADFC\uC5D0 [\uD14C\uB77C\uADF8\uB8F9
+      '\uBE14\uB8E8 \uD3F4\uB354' \uBB38\uC11C] \uC228\uAE30\uAE30"
+    position: {x: 292.48, y: 23.35, z: -507.38}
+  - type: 6
+    key: 6578ec473dbd035d04531a8d
+    name: Steady Signal
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 6578ec473dbd035d04531a92
+    detail: "\uC0BC\uB9BC(Woods)\uC758 \uC544\uBB34 \uAE30\uC0C1 \uAD00\uCE21\uC18C\uC5D0
+      MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
+    position: {x: 412.21, y: 13.71, z: -608.53}
+  - type: 6
+    key: 6578ec473dbd035d04531a8d
+    name: Steady Signal
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 6578ec473dbd035d04531a92
+    detail: "\uC0BC\uB9BC(Woods)\uC758 \uC544\uBB34 \uAE30\uC0C1 \uAD00\uCE21\uC18C\uC5D0
+      MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
+    position: {x: -209.22, y: 77.52, z: -279.78}
+  - type: 6
+    key: 6578ec473dbd035d04531a8d
+    name: Steady Signal
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 6578ec473dbd035d04531a92
+    detail: "\uC0BC\uB9BC(Woods)\uC758 \uC544\uBB34 \uAE30\uC0C1 \uAD00\uCE21\uC18C\uC5D0
+      MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
+    position: {x: -97.25, y: 13.99, z: -542.05}
+  - type: 6
+    key: 6578ec473dbd035d04531a8d
+    name: Steady Signal
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 6578ec473dbd035d04531a92
+    detail: "\uC0BC\uB9BC(Woods)\uC758 \uC544\uBB34 \uAE30\uC0C1 \uAD00\uCE21\uC18C\uC5D0
+      MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
+    position: {x: 247.27, y: -9.07, z: 291.49}
+  - type: 6
+    key: 6578ec473dbd035d04531a8d
+    name: Steady Signal
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 6578ec473dbd035d04531a92
+    detail: "\uC0BC\uB9BC(Woods)\uC758 \uC544\uBB34 \uAE30\uC0C1 \uAD00\uCE21\uC18C\uC5D0
+      MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
+    position: {x: -447.08, y: 2.06, z: 249}
+  - type: 6
+    key: 66631493312343839d032d22
+    name: Small Business - Part 3
+    group: "\uD39C\uC2A4"
+    objective: 666733e565831d5bafa18bbb
+    detail: "\uC0BC\uB9BC \uAC15\uAC00 \uB9C8\uC744\uC758 \uD45C\uC2DC\uB41C \uC6D0\uC5D0
+      \uAD11\uC2E0\uB3C4 \uCE7C \uC228\uAE30\uAE30"
+    position: {x: 195.98, y: 1.03, z: -7.24}
+  - type: 6
+    key: 66631493312343839d032d22
+    name: Small Business - Part 3
+    group: "\uD39C\uC2A4"
+    objective: 666733e7430c8972d6a5f438
+    detail: "\uC0BC\uB9BC \uC81C\uC7AC\uC18C\uC758 \uD45C\uC2DC\uB41C \uC6D0\uC5D0
+      \uAD11\uC2E0\uB3C4 \uCE7C \uC228\uAE30\uAE30"
+    position: {x: -88.7, y: 12.55, z: -717.61}
+  - type: 6
+    key: 669fa38fad7f1eac2607ed46
+    name: One Less Loose End
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 669faecceb01bf6324de66c4
+    detail: "\uC0BC\uB9BC \uC61B \uC81C\uC7AC\uC18C\uC5D0 \uC77C\uC9C0 \uC228\uAE30\uAE30"
+    position: {x: -510.89, y: 17.15, z: -178.23}
+  - type: 6
+    key: 669fa38fad7f1eac2607ed46
+    name: One Less Loose End
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 669faecceb01bf6324de66c4
+    detail: "\uC0BC\uB9BC \uC61B \uC81C\uC7AC\uC18C\uC5D0 \uC77C\uC9C0 \uC228\uAE30\uAE30"
+    position: {x: -510.89, y: 17.15, z: -178.23}
+  - type: 6
+    key: 66ab970848ddbe9d4a0c49a8
+    name: Special Comms
+    group: "\uD504\uB77C\uD37C"
+    objective: 66ab9c5c60199cdb0902f8cc
+    detail: "\uC0BC\uB9BC RUAF \uCD9C\uC785\uBB38 \uC606 \uBC14\uC704\uC5D0 \uAD70\uC6A9
+      \uCF00\uC774\uBE14 \uC228\uAE30\uAE30"
+    position: {x: -119.17, y: -0.73, z: 400.36}
+  - type: 6
+    key: 66b38c7bf85b8bf7250f9cb6
+    name: Rough Tarkov
+    group: "\uC608\uAC70"
+    objective: 66b38c7bf85b8bf7250f9cb7
+    detail: "\uC0BC\uB9BC USEC \uCEA0\uD504\uC758 \uC9C0\uB8B0\uAC00 \uB9CE\uC774
+      \uAE54\uB9B0 \uAD6C\uC5ED \uCC3E\uAE30"
+    position: {x: 337.33, y: 18.7, z: -490.93}
+  - type: 6
+    key: 673f2cd5d3346c2167020484
+    name: Shipping Delay - Part 2
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f2d9a73ff76dd6d5a6344
+    detail: "\uC0BC\uB9BC \uCC28\uB7C9\uAE30\uC9C0\uC758 \uC0AC\uBB34\uC2E4\uC744
+      \uCC3E\uC544 \uC815\uCC30\uD558\uAE30"
+    position: {x: -614.95, y: 9.7, z: 129.59}
+  - type: 6
+    key: 673f2cd5d3346c2167020484
+    name: Shipping Delay - Part 2
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f2d938504a2d993bc2e68
+    detail: "\uC0BC\uB9BC \uCC28\uB7C9\uAE30\uC9C0\uC758 \uCC3D\uACE0\uB97C \uCC3E\uC544
+      \uC815\uCC30\uD558\uAE30"
+    position: {x: -615.97, y: 9.7, z: 156.43}
+  - type: 6
+    key: 673f2cd5d3346c2167020484
+    name: Shipping Delay - Part 2
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f2da118e615f9f5550544
+    detail: "\uC0BC\uB9BC \uCC28\uB7C9\uAE30\uC9C0\uC758 \uCC28\uACE0\uB97C \uCC3E\uC544
+      \uC815\uCC30\uD558\uAE30"
+    position: {x: -687.45, y: 9.7, z: 105.03}
+  - type: 6
+    key: 673f61a066e6a521aa04b62b
+    name: Order From Outside
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 673f61ea87e01cfaf780a482
+    detail: "\uC0BC\uB9BC\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 \uC7A5\uCE58
+      \uC228\uAE30\uAE30"
+    position: {x: -56.36, y: 9.25, z: -496.78}
+  - type: 6
+    key: 6740b60c60a98cad1b0e0aa0
+    name: Another Shipping Delay
+    group: "\uB798\uADF8\uB9E8"
+    objective: 6740b64f024f0e44fbed2c48
+    detail: "\uC0BC\uB9BC\uC5D0\uC11C \uC2E4\uC885\uB41C \uC6B4\uC1A1\uD300 \uCC3E\uAE30"
+    position: {x: -44.44, y: 20.61, z: -251.5}
+  - type: 7
+    key: 6744ab1def61d56e020b5c56
+    name: Protect the Sky
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6744ab1def61d56e020b5c5f
+    detail: "KOSA UAV \uC804\uC790 \uC7AC\uBC0D \uC7A5\uCE58"
+    position: {x: -51.343384, y: 9.178821, z: -500.9088}
+  - type: 7
+    key: 6744ab1def61d56e020b5c56
+    name: Protect the Sky
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6744ab1def61d56e020b5c5f
+    detail: "KOSA UAV \uC804\uC790 \uC7AC\uBC0D \uC7A5\uCE58"
+    position: {x: -59.948486, y: 8.91482, z: -491.684}
+  - type: 7
+    key: 6744ab1def61d56e020b5c56
+    name: Protect the Sky
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6744ab1def61d56e020b5c5f
+    detail: "KOSA UAV \uC804\uC790 \uC7AC\uBC0D \uC7A5\uCE58"
+    position: {x: -57.89441, y: 8.998819, z: -501.51794}
+  - type: 7
+    key: 6744ab1def61d56e020b5c56
+    name: Protect the Sky
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6744ab1def61d56e020b5c5f
+    detail: "KOSA UAV \uC804\uC790 \uC7AC\uBC0D \uC7A5\uCE58"
+    position: {x: -54.61438, y: 8.867821, z: -494.30518}
+  - type: 7
+    key: 6744ab1def61d56e020b5c56
+    name: Protect the Sky
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6744ab1def61d56e020b5c5f
+    detail: "KOSA UAV \uC804\uC790 \uC7AC\uBC0D \uC7A5\uCE58"
+    position: {x: -54.814087, y: 8.82082, z: -495.8171}
+  - type: 6
+    key: 6744aca8d3346c216702c583
+    name: Discombobulate
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6744ae5cc771515803d615ec
+    detail: "\uC0BC\uB9BC\uC758 \uCCAB \uBC88\uC9F8 RPG \uD0C4\uC57D \uC0C1\uC790\uC5D0
+      VOG-25 \uD558\uD0C0\uBE0C\uCE74 \uC218\uB958\uD0C4 \uC228\uAE30\uAE30"
+    position: {x: -14.46, y: -2.69, z: 48.61}
+  - type: 6
+    key: 6744aca8d3346c216702c583
+    name: Discombobulate
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6744ae63b3b4be24ffc607a4
+    detail: "\uC0BC\uB9BC\uC758 \uB450 \uBC88\uC9F8 RPG \uD0C4\uC57D \uC0C1\uC790\uC5D0
+      VOG-25 \uD558\uD0C0\uBE0C\uCE74 \uC218\uB958\uD0C4 \uC228\uAE30\uAE30"
+    position: {x: 237.79, y: -1.05, z: -68.89}
+  - type: 6
+    key: 6744aca8d3346c216702c583
+    name: Discombobulate
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6744ae65f8c1438fb9374575
+    detail: "\uC0BC\uB9BC\uC758 \uC138 \uBC88\uC9F8 RPG \uD0C4\uC57D \uC0C1\uC790\uC5D0
+      VOG-25 \uD558\uD0C0\uBE0C\uCE74 \uC218\uB958\uD0C4 \uC228\uAE30\uAE30"
+    position: {x: -93.54, y: 27.39, z: -380.04}
+  - type: 6
+    key: 6745fdddd3346c216702e0bf
+    name: Simple Side Job
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 6745fe8d48cd7aeda7152b24
+    detail: "\uC0BC\uB9BC \uC2A4\uCE90\uBE0C \uC9D1\uC5D0 \uD654\uBB3C \uC228\uAE30\uAE30"
+    position: {x: 413.53, y: -12.61, z: 240.48}
+  - type: 6
+    key: 674602307e3818d5bb069489
+    name: Hindsight 20/20
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 674da90a45aa075a44b4d687
+    detail: "\uBC99\uCEE4 \uC548\uC5D0 \uCCAB \uBC88\uC9F8 \uB7EC\uC2DC\uC544 \uCCA0\uAC11\uD0C4
+      \uD329 \uC228\uAE30\uAE30"
+    position: {x: -273.56, y: 8.12, z: -411.06}
+  - type: 6
+    key: 674602307e3818d5bb069489
+    name: Hindsight 20/20
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 674da90f96d4f32d517cb770
+    detail: "\uBC99\uCEE4 \uC548\uC5D0 \uB450 \uBC88\uC9F8 \uB7EC\uC2DC\uC544 \uCCA0\uAC11\uD0C4
+      \uD329 \uC228\uAE30\uAE30"
+    position: {x: -269.8, y: 8.12, z: -412.44}
+  - type: 6
+    key: 674602307e3818d5bb069489
+    name: Hindsight 20/20
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 674602682cb1c1f5999f27aa
+    detail: "\uC0BC\uB9BC\uC5D0\uC11C \uC0B0 \uC544\uB798 \uBC99\uCEE4 \uCC3E\uAE30"
+    position: {x: -284.02, y: 14.48, z: -414.27}
+  - type: 6
+    key: 674602307e3818d5bb069489
+    name: Hindsight 20/20
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 674da9141cc05673dc69e7e7
+    detail: "\uBC99\uCEE4 \uC548\uC5D0 \uC138 \uBC88\uC9F8 \uB7EC\uC2DC\uC544 \uCCA0\uAC11\uD0C4
+      \uD329 \uC228\uAE30\uAE30"
+    position: {x: -269.17, y: 8.12, z: -416}
+  - type: 7
+    key: 674605df60a98cad1b0ec799
+    name: Killer Argument
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6746061983996c4aa4765025
+    detail: "\uB4F1\uB300\uC9C0\uAE30\uC758 \uCF00\uC774\uC2A4"
+    position: {x: 361.62598, y: -13.865008, z: 201.54868}
+  - type: 7
+    key: 674605df60a98cad1b0ec799
+    name: Killer Argument
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6746061983996c4aa4765025
+    detail: "\uB4F1\uB300\uC9C0\uAE30\uC758 \uCF00\uC774\uC2A4"
+    position: {x: 368.36108, y: -14.845004, z: 251.69794}
+  - type: 7
+    key: 674605df60a98cad1b0ec799
+    name: Killer Argument
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6746061983996c4aa4765025
+    detail: "\uB4F1\uB300\uC9C0\uAE30\uC758 \uCF00\uC774\uC2A4"
+    position: {x: 409.43433, y: -13.544999, z: 240.53363}
+  - type: 7
+    key: 674605df60a98cad1b0ec799
+    name: Killer Argument
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6746061983996c4aa4765025
+    detail: "\uB4F1\uB300\uC9C0\uAE30\uC758 \uCF00\uC774\uC2A4"
+    position: {x: 344.3452, y: -13.533008, z: 233.94592}
+  - type: 7
+    key: 674605df60a98cad1b0ec799
+    name: Killer Argument
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6746061983996c4aa4765025
+    detail: "\uB4F1\uB300\uC9C0\uAE30\uC758 \uCF00\uC774\uC2A4"
+    position: {x: 406.67554, y: -12.627, z: 228.49396}
+  - type: 7
+    key: 6752f6d83038f7df520c83e8
+    name: A Helping Hand
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 6752f86d538945df8cc3fc3a
+    detail: "\uD504\uB77C\uD37C\uC758 \uAFB8\uB7EC\uBBF8"
+    position: {x: -612.7649, y: 9.221001, z: 136.13657}
+  - type: 7
+    key: 6752f6d83038f7df520c83e8
+    name: A Helping Hand
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 6752f86d538945df8cc3fc3a
+    detail: "\uD504\uB77C\uD37C\uC758 \uAFB8\uB7EC\uBBF8"
+    position: {x: -619.19604, y: 8.457, z: 127.90881}
+  - type: 6
+    key: 6a5c1578f2689567c30eb0f3
+    name: Hiking
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 6a667849c90044ddde3e7c26
+    detail: "\uC0BC\uB9BC\uC758 USEC \uCEA0\uD504, \uC2A4\uCE90\uBE0C \uCEA0\uD504,
+      \uC81C\uC7AC\uC18C \uB610\uB294 \uBC84\uB824\uC9C4 \uB9C8\uC744\uC5D0\uC11C
+      \uC2A4\uCE90\uBE0C \uCC98\uCE58\uD558\uAE30"
+    position: {x: 125, y: 25, z: -378}
+  - type: 6
+    key: 69c27158e350f01390049e77
+    name: Saving Private Roman
+    group: "BTR \uC870\uC885\uC218"
+    objective: 69c2740bdbeade0b8e55eeea
+    detail: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uB4F1\uB300(Lighthouse)\uB85C \uAC00\uB294
+      \uAE38\uC744 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: 496.71, y: -16.73, z: 347.78}
+  - type: 7
+    key: 6a7b0df31ea00c9a980e2742
+    name: Sisyphus
+    group: "\uB798\uADF8\uB9E8"
+    objective: 6a7b0e38c6bb6d4b1474bf8a
+    detail: "\uBC00\uC218\uAFBC\uB4E4\uC5D0\uAC8C \uC804\uB2EC\uD560 1\uBC88 \uBC29\uD0C4\uD310
+      \uCF00\uC774\uC2A4"
+    position: {x: 444.3379, y: -13.726, z: 66.867004}
+  - type: 7
+    key: 6a7b0df31ea00c9a980e2742
+    name: Sisyphus
+    group: "\uB798\uADF8\uB9E8"
+    objective: 6a7b0e8a60e1bf7f0ccd78cf
+    detail: "\uBC00\uC218\uAFBC\uB4E4\uC5D0\uAC8C \uC804\uB2EC\uD560 2\uBC88 \uBC29\uD0C4\uD310
+      \uCF00\uC774\uC2A4"
+    position: {x: 243.68091, y: -1.407, z: -80.478}
+  quests:
+  - key: 5a68665c86f774255929b4c7
+    name: Health Care Privacy - Part 3
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 5a68776786f774759f1f55f6
+      description: "\uD608\uC561 \uC0D8\uD50C \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5a68770f86f774747d4b0d8b
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uD5EC\uC2A4 \uB9AC\uC870\uD2B8
+        \uC758\uB8CC \uC11C\uBE44\uC2A4 \uCC45\uC784\uC790\uC758 \uBC34 \uCC28\uB7C9
+        \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5a68777586f774747d4b0d9e
+      description: "\uD608\uC561 \uC0D8\uD50C \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 59675d6c86f7740a842fc482
+    name: Ice Cream Cones
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 5968ed3186f77420d2328013
+      description: "\uB808\uC774\uB4DC\uC5D0\uC11C [60\uBC1C, AK-74 5.45x39 6L31
+        \uD0C4\uCC3D] \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 5967938c86f77468cf5f9f54
+      description: "\uD14C\uB77C\uADF8\uB8F9 \uC9C1\uC6D0\uC758 \uC138\uAD00(Custosm)
+        \uAE30\uC219\uC0AC \uBC29(3\uCE35\uC9DC\uB9AC 220\uD638)\uC5D0\uC11C \uBC99\uCEE4
+        \uC5F4\uC1E0 \uD68D\uB4DD\uD558\uAE30"
+      optional: 1
+      thisMap: 0
+    - id: 5a3fbe3a86f77414422e0d9b
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uC7A0\uACA8\uC788\uB294 \uBC99\uCEE4
+        \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+    - id: 59675e1d86f77414b07f137d
+      description: "[60\uBC1C, AK-74 5.45x39 6L31 \uD0C4\uCC3D] \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 5b4795fb86f7745876267770
+    name: Chumming
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 5b4796c086f7745877352c2c
+      description: "\uC138\uAD00(Customs) \uAE30\uC219\uC0AC 3\uCE35\uC5D0 \uC788\uB294
+        \uC804\uC790\uB808\uC778\uC9C0 \uC548\uC5D0 [\uAE08\uBAA9\uAC78\uC774] 3\uAC1C
+        \uB193\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 5b47971086f774587877ad34
+      description: "\uC0BC\uB9BC(Woods) \uC81C\uC7AC\uC18C\uC5D0\uC11C \uB098\uB780\uD788
+        \uB193\uC5EC\uC788\uB294 3\uAC1C\uC758 \uC219\uC18C \uC911, \uC911\uAC04
+        \uC219\uC18C\uC5D0 [\uAE08\uBAA9\uAC78\uC774] 3\uAC1C \uB193\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 5d25b6be86f77444001e1b89
+    name: The Survivalist Path - Thrifty
+    trader: "\uC608\uAC70"
+    objectives:
+    - id: 5d25beca86f77409dd5cdbb3
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C ZB-016 \uBC99\uCEE4\uC5D0 [Iskra
+        \uC804\uD22C\uC2DD\uB7C9] \uC228\uACA8\uB450\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5d25beeb86f77443fe45765f
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C ZB-016 \uBC99\uCEE4\uC5D0 [0.6L
+        \uBB3C\uBCD1] \uC228\uACA8\uB450\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5d2deedc86f77459121c3118
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C ZB-014 \uBC99\uCEE4\uC5D0 [Iskra
+        \uC804\uD22C\uC2DD\uB7C9] \uC228\uACA8\uB450\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5d2defc586f774591510e6b9
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C ZB-014 \uBC99\uCEE4\uC5D0 [0.6L
+        \uBB3C\uBCD1] \uC228\uACA8\uB450\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 665eec4a4dfc83b0ed0a9dca
+    name: Thirsty - Delivery
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 6661a14545909ae2e92ca2d5
+      description: "\uC0BC\uB9BC\uC5D0\uC11C \uC9C0\uC815\uB41C \uC740\uB2C9 \uC7A5\uC18C
+        \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6661a18a12e8457716d59f5d
+      description: "\uC138\uAD00\uC5D0\uC11C \uC9C0\uC815\uB41C \uC740\uB2C9 \uC7A5\uC18C
+        \uCC3E\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 6661a170945719c63f28d9c6
+      description: "\uCCAB \uBC88\uC9F8 \uD504\uB85C\uD310 \uD0F1\uD06C(5L) \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6661a1a1b1953d6c96da8f0e
+      description: "\uB450 \uBC88\uC9F8 \uD504\uB85C\uD310 \uD0F1\uD06C(5L) \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 666314b8312343839d032d24
+    name: Airmail
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 6672edebec0c3e2ad7d4e489
+      description: "\uC0BC\uB9BC \uC61B \uC81C\uC7AC\uC18C\uC5D0\uC11C \uBE68\uAC04\uC0C9
+        \uC2E0\uD638\uD0C4 \uBC1C\uC0AC\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 666314bd920800278d0f6748
+    name: Viewer
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 66d07fa69d373d977f437fe0
+      description: "\uACF5\uC7A5(Factory) \uC0AC\uBB34\uC2E4 \uBCF5\uB3C4\uC5D0 WI-FI
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 667bf8370849ce7edf2b124e
+      description: "\uC0BC\uB9BC(Woods)\uC758 \uC0B0 \uB3CC\uCD9C\uBD80\uC5D0 WI-FI
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 667bf840981b1c594af358ce
+      description: "\uD574\uC548\uC120(Shoreline)\uC758 \uC120\uCC29\uC7A5\uC5D0
+        \uC788\uB294 \uD0C0\uC6CC\uC5D0 WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 666314c3acf8442f8b0531a3
+    name: Proper Comeback
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 667442da875be5fb415df535
+      description: "\uC0BC\uB9BC\uC5D0 \uC788\uB294 \uD504\uB77C\uD37C\uC758 WI-FI
+        \uCE74\uBA54\uB77C \uC606\uC5D0 \uD669\uAE08 \uC218\uD0C9 \uC870\uAC01\uC0C1
+        \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6682873d755938fa4cb73073
+      description: "\uD574\uC548\uC120\uC5D0 \uC788\uB294 \uD504\uB77C\uD37C\uC758
+        WI-FI \uCE74\uBA54\uB77C \uC606\uC5D0 \uD669\uAE08 \uC218\uD0C9 \uC870\uAC01\uC0C1
+        \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66d080533a3c33d823a3477d
+      description: "\uACF5\uC7A5\uC5D0 \uC788\uB294 \uD504\uB77C\uD37C\uC758 WI-FI
+        \uCE74\uBA54\uB77C \uC606\uC5D0 \uD669\uAE08 \uC218\uD0C9 \uC870\uAC01\uC0C1
+        \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    trader: "\uD39C\uC2A4"
+    objectives:
+    - id: 66d9cbb67b491f9d5304f6eb
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uCCA0\uC870\uB9DD\uC5D0 \uAC10\uAE34 \uC2DC\uCCB4\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66d9cbb67b491f9d5304f6e9
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uD53C\uC790\uB97C \uC88B\uC544\uD558\uB294 \uC591\uC11C\uB958\uB4E4\uC758
+        \uC740\uC2E0\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dacf2a88c7001436a67390
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uC815\uB9D0 \uC73C\uC2A4\uC2A4\uD55C \uBCBD\uC758 \uAD6C\uBA4D\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66d9cbb67b491f9d5304f6ea
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uBD88\uC5D0 \uD0C4 \uC18C\uB140\uC758 \uBCD1\uC2E4\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1d7811532f53e472c13
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+        \uB2E4\uC774\uD558\uB4DC\uC5D0 \uB098\uC628\uAC83 \uAC19\uC740 \uB140\uC11D\uC774
+        \uB9F9\uD65C\uC57D\uD588\uB358 \uAC83 \uAC19\uC740 \uACE0\uCE35 \uBE4C\uB529\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1d941756590432b0eaa
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+        \uD504\uB85C\uADF8\uB798\uBA38\uC5D0\uAC8C \uCE60 \uC7A5\uB09C\uC774 \uB744\uC6CC\uC9C4
+        \uCEF4\uD4E8\uD130\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1dbb16caebe0e214d89
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+        \uCEE4\uB2E4\uB780 \uAC80\uC740 \uC758\uC790\uB4E4\uC5D0 \uB458\uB7EC\uC2F8\uC778
+        \uC791\uC740 \uD558\uC580 \uC758\uC790\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1ddec53b0df3b10a1b9
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uB2F9\uC2E0\uC758
+        \uCE5C\uAD6C \uC70C\uC2A8 \uC606\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1de93c8fcffd5790d89
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uD654\uD1B3\uBD88\uC774
+        \uCF1C\uC9C4 \uD734\uC2DD\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1e0703b718902451ee4
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uBD88\uAE38\uD55C
+        \uC6F0\uCEF4 \uD45C\uC9C0\uD310\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1e21e7ef28d17a69a93
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uCC9C\uC7AC \uACFC\uD559\uC790\uC758
+        \uC790\uB9AC\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1e607181e2f78a3a0a2
+      description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uC9D5\uC9D1\uBCD1\uB4E4\uC774
+        \uC544\uC8FC \uC911\uC694\uD55C \uC791\uC5C5\uC744 \uD588\uB358 \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1e843a718561db0fdd3
+      description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uB450 \uC218\uC218\uAED8\uB07C
+        \uC758\uC790\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1ebc5c8e6cd26dd1d31
+      description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uC804\uCC28 \uC870\uC885\uC218\uB4E4\uC758
+        \uCCAB \uBE44\uB514\uC624 \uAC8C\uC784 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1edbc4fdd0c6eb38c5e
+      description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uBA38\uB9AC\uC5D0 \uC591\uB3D9\uC774\uB97C
+        \uC4F4 \uC545\uB2F9 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1f00e049ac7abb6d801
+      description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uC564\uBE4C 3-4 \uC804\uCC28
+        \uC2B9\uBB34\uC6D0\uC758 \uCC98\uD615 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1f22edc2103eb176de8
+      description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uBAA8\uB4E0 \uC778\uB514
+        \uAC1C\uBC1C\uC790\uB4E4\uC758 \uC545\uBABD\uC774 \uC788\uB294 \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f8d7539f4b4eb640aff
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC18C\uBC29\uAD00\uC774
+        \uD589\uBCF5\uD574\uC9C0\uAE30 \uC704\uD574 \uCC45\uC744 \uBD88\uD0DC\uC6B0\uB358
+        \uBC29\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f8f564045697071d934
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uBA87\uBA87 \uBC38\uBE0C
+        \uC5D4\uC9C0\uB2C8\uC5B4\uB4E4\uC774 \uC790\uC2E0\uB4E4\uC758 \uC138 \uBC88\uC9F8
+        \uD504\uB85C\uC81D\uD2B8\uB97C \uB05D\uB0B4\uC9C0 \uBABB\uD55C \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f928d59a9fe511dfc25
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC704\uD5D8\uD55C \uB7EC\uC2DC\uC544
+        \uCD08\uCF5C\uB9BF \uC18C\uB140\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f94a147d9840ec0dfba
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC74C\uBAA8\uB860\uC790\uC758
+        \uBC29\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f98b8e22a92437fe5c6
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uB204\uAD70\uAC00\uAC00
+        \uB9C8\uBC95 \uD559\uAD50\uB85C \uC774\uB3D9\uD560 \uC218 \uC788\uB2E4\uACE0
+        \uBBFF\uC5C8\uB358 \uC7A5\uC18C \uADFC\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f9b4f7bf01d937eb150
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uBAA8\uB4E0 \uC804\uB7B5
+        \uAC8C\uC784\uC758 \uC5B4\uBA38\uB2C8\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1ff798d52a5a8e4ed1f8
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uD558\uB298\uB85C \uC62C\uB77C\uAC00\uB294
+        \uACC4\uB2E8\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66debf2b9e4ce2ef233ee5b7
+      description: "\uC0BC\uB9BC(Woods)\uC5D0 \uC788\uB294 \uBD88\uD0C0\uB294 \uCC28\uC5D0
+        \uC549\uC544\uC788\uB294 \uACF0\uC774 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 66debf2e1e254957b82711ff
+      description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uB4A4\uC9D1\uD78C
+        \uC758\uC790\uAC00 \uC124\uCE58\uB41C \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66debf30802386a45d0adb60
+      description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uADF8\uB2E4\uC9C0
+        \uC678\uB86D\uC9C0\uB294 \uC54A\uC744 \uD654\uC7A5\uC2E4\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 68400953506db3b4db0700e7
+    name: Fair Price - Part 2
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 684181808b21759f04e1c4ee
+      description: "Hobby Club \uD018\uC2A4\uD2B8 \uC644\uB8CC\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 6841815b3d5e6b08d1f6e474
+      description: "\uC740\uB2C9 \uC7A5\uC18C \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+    - id: 6841814c20c9a6c68800ab79
+      description: "\uC0BC\uB9BC \uC61B \uC81C\uC7AC\uC18C\uC5D0\uC11C AK-50 \uD578\uB4DC\uAC00\uB4DC\uB97C
+        \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 1
+      thisMap: 1
+  - key: 596a0e1686f7741ddf17dbee
+    name: Supply Plans
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 596a0e7086f7741ddf17dbef
+      description: "\uC0BC\uB9BC(Woods)\uC5D0 \uC704\uCE58\uD55C \uC81C\uC7AC\uC18C
+        \uC219\uC18C\uC5D0\uC11C [\uBCF4\uC548 \uCF00\uC774\uC2A4 0052] \uC785\uC218\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 596a0eaf86f774576d4c957f
+      description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 596a0e8086f7741ddd6c104c
+      description: "\uBCF4\uC548 \uCF00\uC774\uC2A4 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 5a27ba1c86f77461ea5a3c56
+    name: Weapons Circulation
+    trader: "\uD53C\uC2A4\uD0A4\uD37C"
+    objectives:
+    - id: 5a2806e086f774291b084041
+      description: "\uC0BC\uB9BC(Woods)\uC5D0 \uC788\uB294 \uCCAB \uBC88\uC9F8 \uC885\uAD50\uC758\uC2DD
+        \uD604\uC7A5\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5fe0e9ed3f3a7d4169035e8e
+      description: "\uC0BC\uB9BC(Woods)\uC5D0 \uC788\uB294 \uB450 \uBC88\uC9F8 \uC885\uAD50\uC758\uC2DD
+        \uD604\uC7A5\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5a2806f886f774513d3e69f5
+      description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uC885\uAD50\uC758\uC2DD
+        \uD604\uC7A5\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 5ae449b386f77446d8741719
+    name: Gratitude
+    trader: "\uB798\uADF8\uB9E8"
+    objectives:
+    - id: 5ae9e1c786f77403fb3f9674
+      description: "\uBAA9\uD45C \uC704\uCE58\uC5D0 [\uC26C\uB9C8\uADF8 (\uCD08\uB85D\uC0C9)]
+        \uC228\uACA8\uB450\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5ae9e2a286f7740de4152a0a
+      description: "\uBAA9\uD45C \uC704\uCE58\uC5D0 [\uB808\uC774\uBCA4\uCE58 \uD799\uC2A4\uD130
+        \uC120\uAE00\uB77C\uC2A4] \uC228\uACA8\uB450\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 5b47926a86f7747ccc057c15
+    name: Informed Means Armed
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 5b47932586f7747cc908b5dd
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uC81C\uC7AC\uC18C \uBD80\uB450\uB97C
+        \uAC10\uC2DC\uD558\uAE30 \uC704\uD55C [WI-FI \uCE74\uBA54\uB77C] \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5b47938086f7747ccc057c22
+      description: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0 \uC788\uB294
+        Kiba Arms \uC0C1\uC810\uC758 \uC785\uAD6C\uB97C \uAC10\uC2DC\uD558\uAE30
+        \uC704\uD55C [WI-FI \uCE74\uBA54\uB77C] \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 5b4794cb86f774598100d5d4
+    name: Metal Birds
+    trader: "\uD53C\uC2A4\uD0A4\uD37C"
+    objectives:
+    - id: 66d078aadf338e6c13578080
+      description: "\uBAA8\uD130 \uCEE8\uD2B8\uB864\uB7EC\uB97C \uC0BC\uB9BC(woods)\uC5D0\uC11C
+        \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 66d07de6c7ef9040fff0b789
+      description: "\uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 5b47958e86f774598100d5e2
+      description: "\uC77C\uCD95 \uAD11\uC12C\uC720 \uC790\uC774\uB85C\uC2A4\uCF54\uD504\uB97C
+        \uC0BC\uB9BC(Woods)\uC5D0\uC11C \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5b4795a586f774587a39506d
+      description: "\uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 5c10f94386f774227172c572
+    name: Small Things, Big Help
+    trader: "\uB798\uADF8\uB9E8"
+    objectives:
+    - id: 5c10f94386f774227172c574
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uC5F0\uB8CC\uAC00 \uC800\uC7A5\uB41C
+        \uCCAB \uBC88\uC9F8 \uC7A5\uC18C\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5c10f94386f774227172c575
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uC5F0\uB8CC\uAC00 \uC800\uC7A5\uB41C
+        \uB450 \uBC88\uC9F8 \uC7A5\uC18C\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5c10f94386f774227172c576
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uC5F0\uB8CC\uAC00 \uC800\uC7A5\uB41C
+        \uC138 \uBC88\uC9F8 \uC7A5\uC18C\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 5d2495a886f77425cd51e403
+    name: Introduction
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 63ac18f4972364554162a25c
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uC608\uAC70\uC758 \uCEA0\uD504
+        \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5d249a6e86f774791546e952
+      description: "\uC608\uAC70\uAC00 \uB0A8\uAE34 \uC554\uD638 \uBA54\uC2DC\uC9C0
+        \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5d249aa286f77475e8376399
+      description: "\uBA54\uC2DC\uC9C0 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 5fd9fad9c1ce6b1a3b486d00
+    name: Search Mission
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 5fd9fad9c1ce6b1a3b486d03
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uC2E4\uC885\uB41C \uD504\uB77C\uD37C\uC758
+        \uD638\uC1A1\uB300 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5fd9fad9c1ce6b1a3b486d05
+      description: "USEC \uC784\uC2DC \uCEA0\uD504 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 60e71b9bbd90872cb85440f3
+    name: Capturing Outposts
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 60ec18b73b5f7d790a7ad034
+      description: "\uC138\uAD00, \uD574\uC548\uC120 \uB610\uB294 \uC0BC\uB9BC\uC758
+        \uC9C0\uC815\uB41C \uC2A4\uCE90\uBE0C \uAE30\uC9C0\uC5D0\uC11C PMC \uCC98\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 63966fe7ea74a47c2d3fc0e6
+    name: Return the Favor
+    trader: "\uB4F1\uB300\uC9C0\uAE30"
+    objectives:
+    - id: 639914b61c712b1e1d4dafcb
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C PMC \uC0AC\uC0B4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639915f339cb4711771bedc6
+      description: "\uC0BC\uB9BC(Woods)\uC758 USEC \uCEA0\uD504\uC5D0 \uC8FC\uCC28\uB41C
+        \uAC80\uC815 SUV\uC5D0 [\uD14C\uB77C\uADF8\uB8F9 '\uBE14\uB8E8 \uD3F4\uB354'
+        \uBB38\uC11C] \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63991601deadb12b2d7c6027
+      description: "\uC0BC\uB9BC(Woods)\uC758 USEC \uCEA0\uD504\uC5D0 \uC124\uCE58\uB41C
+        \uC704\uC131 \uC548\uD14C\uB098 \uC778\uADFC\uC5D0 [\uD14C\uB77C\uADF8\uB8F9
+        '\uBE14\uB8E8 \uD3F4\uB354' \uBB38\uC11C] \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 6578ec473dbd035d04531a8d
+    name: Steady Signal
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 6578ec473dbd035d04531a92
+      description: "\uC0BC\uB9BC(Woods)\uC758 \uC544\uBB34 \uAE30\uC0C1 \uAD00\uCE21\uC18C\uC5D0
+        MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 66631493312343839d032d22
+    name: Small Business - Part 3
+    trader: "\uD39C\uC2A4"
+    objectives:
+    - id: 666733e0c62a5c652f3c4b45
+      description: "\uD574\uC548\uC120 \uC218\uBAB0 \uB9C8\uC744\uC758 \uD45C\uC2DC\uB41C
+        \uC6D0\uC5D0 \uAD11\uC2E0\uB3C4 \uCE7C \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 666733e3f2c2969cf600991b
+      description: "\uD574\uC548\uC120 \uD734\uC591\uC18C \uB3D9\uAD00\uC758 \uD45C\uC2DC\uB41C
+        \uC6D0\uC5D0 \uAD11\uC2E0\uB3C4 \uCE7C \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 666733e565831d5bafa18bbb
+      description: "\uC0BC\uB9BC \uAC15\uAC00 \uB9C8\uC744\uC758 \uD45C\uC2DC\uB41C
+        \uC6D0\uC5D0 \uAD11\uC2E0\uB3C4 \uCE7C \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 666733e7430c8972d6a5f438
+      description: "\uC0BC\uB9BC \uC81C\uC7AC\uC18C\uC758 \uD45C\uC2DC\uB41C \uC6D0\uC5D0
+        \uAD11\uC2E0\uB3C4 \uCE7C \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 669fa38fad7f1eac2607ed46
+    name: One Less Loose End
+    trader: "\uD53C\uC2A4\uD0A4\uD37C"
+    objectives:
+    - id: 669faeb6a6e02d00c47ad812
+      description: "\uACF5\uC7A5\uC5D0\uC11C \uC5F0\uAD6C \uC77C\uC9C0\uB97C \uCC3E\uC544
+        \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 669faecceb01bf6324de66c4
+      description: "\uC0BC\uB9BC \uC61B \uC81C\uC7AC\uC18C\uC5D0 \uC77C\uC9C0 \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 66ab970848ddbe9d4a0c49a8
+    name: Special Comms
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 66ab9c5c60199cdb0902f8cc
+      description: "\uC0BC\uB9BC RUAF \uCD9C\uC785\uBB38 \uC606 \uBC14\uC704\uC5D0
+        \uAD70\uC6A9 \uCF00\uC774\uBE14 \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 66ab970848ddbe9d4a0c49ab
+      description: "\uC0BC\uB9BC\uC5D0\uC11C \uB9AC\uC800\uBE0C\uB85C \uD2B8\uB79C\uC9D3
+        \uC774\uC6A9\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 66ab9c7ea3a7219e87d4b75e
+      description: "\uB9AC\uC800\uBE0C \uC800\uC7A5 \uCC3D\uACE0 \uC704 LAV III \uC606
+        \uBAA8\uB798\uC8FC\uBA38\uB2C8\uC5D0 Bulbex \uCF00\uC774\uBE14 \uCEE4\uD130
+        \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 66b38c7bf85b8bf7250f9cb6
+    name: Rough Tarkov
+    trader: "\uC608\uAC70"
+    objectives:
+    - id: 66b38c7bf85b8bf7250f9cb7
+      description: "\uC0BC\uB9BC USEC \uCEA0\uD504\uC758 \uC9C0\uB8B0\uAC00 \uB9CE\uC774
+        \uAE54\uB9B0 \uAD6C\uC5ED \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 66b38de6a97d8cbafd711846
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C\uC5D0\uC11C \uD074\uB808\uC774\uBAA8\uC5B4
+        \uC9C0\uB8B0 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 673f2cd5d3346c2167020484
+    name: Shipping Delay - Part 2
+    trader: "BTR \uC870\uC885\uC218"
+    objectives:
+    - id: 673f2d9a73ff76dd6d5a6344
+      description: "\uC0BC\uB9BC \uCC28\uB7C9\uAE30\uC9C0\uC758 \uC0AC\uBB34\uC2E4\uC744
+        \uCC3E\uC544 \uC815\uCC30\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 673f2d938504a2d993bc2e68
+      description: "\uC0BC\uB9BC \uCC28\uB7C9\uAE30\uC9C0\uC758 \uCC3D\uACE0\uB97C
+        \uCC3E\uC544 \uC815\uCC30\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 673f2da118e615f9f5550544
+      description: "\uC0BC\uB9BC \uCC28\uB7C9\uAE30\uC9C0\uC758 \uCC28\uACE0\uB97C
+        \uCC3E\uC544 \uC815\uCC30\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 674eefb9b48df9e0cbba4e2f
+      description: "A Helping Hand \uD018\uC2A4\uD2B8 \uC644\uB8CC\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 673f61a066e6a521aa04b62b
+    name: Order From Outside
+    trader: "\uB4F1\uB300\uC9C0\uAE30"
+    objectives:
+    - id: 673f61d9c2bc3dc676297fde
+      description: "\uB9AC\uC800\uBE0C \uC804\uAE30\uAE30\uACC4 \uCC3D\uACE0\uC5D0\uC11C
+        \uC804\uC790 \uC7AC\uBA38\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 673f61ea87e01cfaf780a482
+      description: "\uC0BC\uB9BC\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 \uC7A5\uCE58
+        \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 6740b60c60a98cad1b0e0aa0
+    name: Another Shipping Delay
+    trader: "\uB798\uADF8\uB9E8"
+    objectives:
+    - id: 6740b64f024f0e44fbed2c48
+      description: "\uC0BC\uB9BC\uC5D0\uC11C \uC2E4\uC885\uB41C \uC6B4\uC1A1\uD300
+        \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6740b66079ff8ea717dad584
+      description: "\uC0DD\uC874\uD558\uC5EC \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 6744ab1def61d56e020b5c56
+    name: Protect the Sky
+    trader: "BTR \uC870\uC885\uC218"
+    objectives:
+    - id: 6744ab1def61d56e020b5c5f
+      description: "\uC0BC\uB9BC\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0\uC11C
+        \uAFB8\uB7EC\uBBF8 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6744ab1def61d56e020b5c60
+      description: "\uAFB8\uB7EC\uBBF8 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 6744aca8d3346c216702c583
+    name: Discombobulate
+    trader: "BTR \uC870\uC885\uC218"
+    objectives:
+    - id: 6744ae5cc771515803d615ec
+      description: "\uC0BC\uB9BC\uC758 \uCCAB \uBC88\uC9F8 RPG \uD0C4\uC57D \uC0C1\uC790\uC5D0
+        VOG-25 \uD558\uD0C0\uBE0C\uCE74 \uC218\uB958\uD0C4 \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6744ae63b3b4be24ffc607a4
+      description: "\uC0BC\uB9BC\uC758 \uB450 \uBC88\uC9F8 RPG \uD0C4\uC57D \uC0C1\uC790\uC5D0
+        VOG-25 \uD558\uD0C0\uBE0C\uCE74 \uC218\uB958\uD0C4 \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6744ae65f8c1438fb9374575
+      description: "\uC0BC\uB9BC\uC758 \uC138 \uBC88\uC9F8 RPG \uD0C4\uC57D \uC0C1\uC790\uC5D0
+        VOG-25 \uD558\uD0C0\uBE0C\uCE74 \uC218\uB958\uD0C4 \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 6745fdddd3346c216702e0bf
+    name: Simple Side Job
+    trader: "\uB4F1\uB300\uC9C0\uAE30"
+    objectives:
+    - id: 6745fe81eae30b9fb3bb6166
+      description: "\uB9AC\uC800\uBE0C \uAD70 \uBCD1\uC6D0 \uC625\uC0C1\uC5D0\uC11C
+        \uB4F1\uB300\uC9C0\uAE30\uC758 \uD654\uBB3C \uC0C1\uC790\uB97C \uCC3E\uC544
+        \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 6745fe8d48cd7aeda7152b24
+      description: "\uC0BC\uB9BC \uC2A4\uCE90\uBE0C \uC9D1\uC5D0 \uD654\uBB3C \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 674602307e3818d5bb069489
+    name: Hindsight 20/20
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 674da90a45aa075a44b4d687
+      description: "\uBC99\uCEE4 \uC548\uC5D0 \uCCAB \uBC88\uC9F8 \uB7EC\uC2DC\uC544
+        \uCCA0\uAC11\uD0C4 \uD329 \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 674da90f96d4f32d517cb770
+      description: "\uBC99\uCEE4 \uC548\uC5D0 \uB450 \uBC88\uC9F8 \uB7EC\uC2DC\uC544
+        \uCCA0\uAC11\uD0C4 \uD329 \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 674602682cb1c1f5999f27aa
+      description: "\uC0BC\uB9BC\uC5D0\uC11C \uC0B0 \uC544\uB798 \uBC99\uCEE4 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 674da9141cc05673dc69e7e7
+      description: "\uBC99\uCEE4 \uC548\uC5D0 \uC138 \uBC88\uC9F8 \uB7EC\uC2DC\uC544
+        \uCCA0\uAC11\uD0C4 \uD329 \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 674605df60a98cad1b0ec799
+    name: Killer Argument
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 6746061983996c4aa4765025
+      description: "\uC0BC\uB9BC\uC5D0\uC11C RPG \uD0C4\uC57D\uC774 \uB4E0 \uAFB8\uB7EC\uBBF8\uB97C
+        \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 674606266884ca9cfc83530e
+      description: "\uAFB8\uB7EC\uBBF8 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 6752f6d83038f7df520c83e8
+    name: A Helping Hand
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 6752f86d538945df8cc3fc3a
+      description: "\uC0BC\uB9BC\uC5D0\uC11C \uD504\uB77C\uD37C\uC758 \uAFB8\uB7EC\uBBF8\uB97C
+        \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6756bcb3f93f4c1fc2b2d685
+      description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6752f85800c5b2c48240c45f
+      description: "Shipping Delay - Part 1 \uD018\uC2A4\uD2B8 \uC644\uB8CC\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 6a5c1578f2689567c30eb0f3
+    name: Hiking
+    trader: "\uD53C\uC2A4\uD0A4\uD37C"
+    objectives:
+    - id: 6a667849c90044ddde3e7c26
+      description: "\uC0BC\uB9BC\uC758 USEC \uCEA0\uD504, \uC2A4\uCE90\uBE0C \uCEA0\uD504,
+        \uC81C\uC7AC\uC18C \uB610\uB294 \uBC84\uB824\uC9C4 \uB9C8\uC744\uC5D0\uC11C
+        \uC2A4\uCE90\uBE0C \uCC98\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 69c27158e350f01390049e77
+    name: Saving Private Roman
+    trader: "BTR \uC870\uC885\uC218"
+    objectives:
+    - id: 69c2740bdbeade0b8e55eeea
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uB4F1\uB300(Lighthouse)\uB85C
+        \uAC00\uB294 \uAE38\uC744 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 69c27425f79e528d73ed4b2e
+      description: "\uC0BC\uB9BC(Woods)\uC5D0\uC11C \uB4F1\uB300(Lighthouse)\uB85C
+        \uC9C0\uC5ED \uC774\uB3D9\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 69c2745137b8de0e367891c6
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0\uC11C \uC0BC\uB9BC(Woods)\uB85C
+        \uAC00\uB294 \uAE38\uC744 MS200 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 6a7b0df31ea00c9a980e2742
+    name: Sisyphus
+    trader: "\uB798\uADF8\uB9E8"
+    objectives:
+    - id: 6a7b0e6d485bcb39de7288de
+      description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0\uC11C \uC0BC\uB9BC(Woods)\uC73C\uB85C
+        \uC9C0\uC5ED\uC774\uB3D9\uC744 \uD558\uB294 \uAE38\uBAA9 \uADFC\uCC98\uC758
+        \uAC10\uC2DC \uCD08\uC18C\uC5D0 \uCCAB \uBC88\uC9F8 \uBC00\uC218\uAFBC \uC0C1\uC790
+        \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 6a7b0ea2a83358328235f137
+      description: "\uB4F1\uB300(Lighthouse)\uC758 \uAE30\uCC28\uC5ED\uC5D0 \uC788\uB294
+        \uC6B0\uB784 \uD2B8\uB7ED\uC774 \uC2E4\uB9B0 \uD654\uBB3C \uCE78\uC5D0 \uB450
+        \uBC88\uC9F8 \uBC00\uC218\uAFBC \uC0C1\uC790 \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 6a7b0e38c6bb6d4b1474bf8a
+      description: "\uC0BC\uB9BC(Woods)\uC758 ZB-014 \uBC99\uCEE4\uC5D0\uC11C \uCCAB
+        \uBC88\uC9F8 \uBC00\uC218\uAFBC \uC0C1\uC790 \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a7b0e8a60e1bf7f0ccd78cf
+      description: "\uC0BC\uB9BC(Woods)\uC758 USEC \uAC80\uBB38\uC18C \uC624\uB450\uB9C9
+        \uB4A4\uC5D0\uC11C \uB450 \uBC88\uC9F8 \uBC00\uC218\uAFBC \uC0C1\uC790 \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a7b0f2bd9debb2dc2a4841f
+      description: "\uB4F1\uB300(Lighthouse) \uD639\uC740 \uB9AC\uC800\uBE0C(Reserve)\uC5D0\uC11C
+        Armored Train\uC73C\uB85C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 0

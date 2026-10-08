@@ -273,11 +273,14 @@ public class TarkovApiWindow : EditorWindow
             // 이 맵에 마커가 하나라도 있는 퀘스트만 전체 목표 목록을 저장 (툴팁/도착 알림용)
             if (markers.Count == markerCountBefore) continue;
             var quest = new QuestData { key = taskId, name = taskName, trader = trader };
+            var markedObjectives = new HashSet<string>(markers.Skip(markerCountBefore).Select(m => m.objective));
             foreach (JToken obj in Items(task["objectives"]))
             {
                 string description = tr.Get(obj["description"]);
                 if (string.IsNullOrEmpty(description)) continue;
-                quest.objectives.Add(new QuestObjective { id = (string)obj["id"], description = description, optional = (bool?)obj["optional"] ?? false });
+                string id = (string)obj["id"];
+                bool thisMap = markedObjectives.Contains(id) || Items(obj["maps"]).Any(m => (string)m == mapId);
+                quest.objectives.Add(new QuestObjective { id = id, description = description, optional = (bool?)obj["optional"] ?? false, thisMap = thisMap });
             }
             quests.Add(quest);
         }

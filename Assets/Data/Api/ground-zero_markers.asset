@@ -1,0 +1,1818 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c2e9a4b1d3f4a6e8b5c0d2f9e1a3b7c, type: 3}
+  m_Name: ground-zero_markers
+  m_EditorClassIdentifier: Assembly-CSharp::MapMarkerData
+  mapNormalizedName: ground-zero
+  gameMode: pve
+  language: ko
+  downloadedAt: 2026-10-08 17:48
+  markers:
+  - type: 9
+    key: 
+    name: Nakatani Basement Stairs
+    group: 
+    objective: 
+    detail: shared
+    position: {x: -16.12, y: 14.76, z: 335.06}
+  - type: 9
+    key: 
+    name: Scav Checkpoint (Co-op)
+    group: 
+    objective: 
+    detail: shared
+    position: {x: 25.22, y: 24.51, z: -79.54}
+  - type: 0
+    key: 
+    name: Tartowers Sales Office
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 190.8, y: 17.64, z: 133.39}
+  - type: 9
+    key: 
+    name: Pinewood Basement (Co-Op)
+    group: 
+    objective: 
+    detail: shared
+    position: {x: -113.71, y: -2.93, z: 65.63}
+  - type: 0
+    key: 
+    name: "Mira Ave (\uC870\uBA85\uD0C4 \uD0C8\uCD9C\uAD6C)"
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 218.23, y: 17.99, z: -38.51}
+  - type: 0
+    key: 
+    name: UN Roadblock
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -527.87, y: 1.68, z: 288.23}
+  - type: 9
+    key: 
+    name: Emercom Checkpoint
+    group: 
+    objective: 
+    detail: shared
+    position: {x: 151.63, y: 24.66, z: -97.46}
+  - type: 8
+    key: 
+    name: Scav bunker
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 220.43, y: 20.54, z: -705.8}
+  - type: 0
+    key: 
+    name: Police Cordon V-Ex
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -19.51, y: 23.71, z: 114.94}
+  - type: 1
+    key: 
+    name: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uB85C \uC774\uB3D9"
+    group: 
+    objective: 
+    detail: 
+    position: {x: 229.6, y: 16.99, z: 65.36}
+  - type: 2
+    key: 
+    name: 0344832c-a6f2-4c58-8d89-85e9d451a7ed
+    group: 
+    objective: 
+    detail: 
+    position: {x: 72.81, y: 14.18, z: 5.4459996}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 109.396805, y: 22.688652, z: 239.43582}
+  - type: 2
+    key: 
+    name: 0524be03-bcd4-4e28-98d4-f477dd0e550d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 65.03, y: 14.722, z: 161.741}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 22.286804, y: 23.53865, z: 255.1308}
+  - type: 2
+    key: 
+    name: 0b110691-b8a9-4020-9ea1-910386dde586
+    group: 
+    objective: 
+    detail: 
+    position: {x: 127.158, y: 23.21, z: 187.909}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: -60.1112, y: 24.19465, z: 37.58181}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 55.266804, y: 14.068651, z: -32.35419}
+  - type: 2
+    key: 
+    name: 0dadcf0c-b3b8-4837-a16e-12ef201c21e1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 67.59, y: 14.18, z: 104.54}
+  - type: 2
+    key: 
+    name: 0eebe151-c53b-417e-a349-18c070ce5dac
+    group: 
+    objective: 
+    detail: 
+    position: {x: 137.37, y: 22.74, z: -70.18}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 72.22681, y: 13.958652, z: 159.3858}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 32.776802, y: 22.668652, z: 335.6558}
+  - type: 2
+    key: 
+    name: 14e76203-f6d3-49d3-bb5e-300ff6bd3773
+    group: 
+    objective: 
+    detail: 
+    position: {x: 121.832, y: 22.796, z: -1.133}
+  - type: 2
+    key: 
+    name: 16b9cd7d-ebea-41eb-8c9f-fe01aa2c9245
+    group: 
+    objective: 
+    detail: 
+    position: {x: 111.243, y: 23.193, z: 174.479}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 73.69881, y: 14.163651, z: 117.03481}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 98.94981, y: 22.87865, z: -85.03119}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 164.69681, y: 22.768652, z: -85.884186}
+  - type: 2
+    key: 
+    name: 1c2fe835-f486-4f7e-847d-9ff1dfadc5c5
+    group: 
+    objective: 
+    detail: 
+    position: {x: 180.9, y: 16.27, z: 114.89}
+  - type: 2
+    key: 
+    name: 1d60dfbb-d470-4557-8309-deb68d3cd7a4
+    group: 
+    objective: 
+    detail: 
+    position: {x: 184.961, y: 17.209, z: -8.589}
+  - type: 2
+    key: 
+    name: 2251a0dd-f096-483c-88c6-d8abe1f0a8d8
+    group: 
+    objective: 
+    detail: 
+    position: {x: 117.106, y: 28.963, z: 150.689}
+  - type: 2
+    key: 
+    name: 22c535e6-6d49-46bd-9009-e688aace63d1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 38.43, y: 23.44, z: 149.07}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 22.878803, y: 23.53865, z: 253.49982}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 44.226807, y: 23.30565, z: -104.87419}
+  - type: 2
+    key: 
+    name: 2790d68f-c087-45d2-8b63-660e26858b34
+    group: 
+    objective: 
+    detail: 
+    position: {x: 143.1, y: 23.3, z: 248.83}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: -15.647194, y: 23.87565, z: 101.71681}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 11.520805, y: 23.48965, z: 156.3288}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 172.2468, y: 16.988651, z: 9.425811}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 137.5668, y: 14.112651, z: 61.81581}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 71.756805, y: 14.138651, z: 0.6758108}
+  - type: 2
+    key: 
+    name: 31fca074-b125-48d7-9beb-4cc6f67c82d2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 110.661, y: 23.193, z: 171.344}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 127.31981, y: 23.192652, z: 195.12582}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: -10.458199, y: 23.982048, z: 19.654812}
+  - type: 2
+    key: 
+    name: 36a3716c-e3f2-43c7-8b98-ea68c59f8238
+    group: 
+    objective: 
+    detail: 
+    position: {x: -8.020001, y: 23.86, z: -4.959993}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 8.986805, y: 23.48965, z: 158.42581}
+  - type: 2
+    key: 
+    name: 3c5c66f2-5ce2-443f-b962-8938f67bf2b4
+    group: 
+    objective: 
+    detail: 
+    position: {x: 1.43, y: 23.89, z: -60.42}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 58.367805, y: 23.436651, z: 229.1268}
+  - type: 2
+    key: 
+    name: 3d869992-11e2-4ebf-9d24-f160b612ed17
+    group: 
+    objective: 
+    detail: 
+    position: {x: 112.67, y: 23.193, z: 175.8}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: -12.644196, y: 23.818651, z: -59.954185}
+  - type: 2
+    key: 
+    name: 412cc11b-b2ec-4d7b-bfbe-9691162949b7
+    group: 
+    objective: 
+    detail: 
+    position: {x: 67.764, y: 13.981, z: 163.128}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 163.6168, y: 22.768652, z: -88.24419}
+  - type: 2
+    key: 
+    name: 419a0f20-e32e-4f17-a526-675314485814
+    group: 
+    objective: 
+    detail: 
+    position: {x: -0.66, y: 23.89, z: -60.43}
+  - type: 2
+    key: 
+    name: 4274c09b-9544-45e0-aa8a-011b6e929b70
+    group: 
+    objective: 
+    detail: 
+    position: {x: 73.06999, y: 14.18, z: 2.2759976}
+  - type: 2
+    key: 
+    name: 442298dc-403c-4550-9c2f-60398a638c07
+    group: 
+    objective: 
+    detail: 
+    position: {x: 73.09, y: 14.147, z: -56.52}
+  - type: 2
+    key: 
+    name: 45bf1ce6-cab7-4b6b-a420-aefc135a942a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 64.94, y: 14.14, z: 103.31}
+  - type: 2
+    key: 
+    name: 469bf936-cee9-4b9c-9fa9-54ccdc5467f2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 139.255, y: 14.088, z: 65.609}
+  - type: 2
+    key: 
+    name: 46cb5fbc-3d56-45a1-a6ab-18b22b51cf15
+    group: 
+    objective: 
+    detail: 
+    position: {x: 36.95, y: 23.47, z: 146.98}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 73.880806, y: 14.138651, z: 37.23281}
+  - type: 2
+    key: 
+    name: 4a3e3ae1-e6fb-442f-99c6-f74b25b06a28
+    group: 
+    objective: 
+    detail: 
+    position: {x: 127.454, y: 23.204, z: 196.106}
+  - type: 2
+    key: 
+    name: 4ad4b25c-70f0-47a0-84fd-f8dc685cf399
+    group: 
+    objective: 
+    detail: 
+    position: {x: -6.3200006, y: 23.86, z: -2.0399947}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 17.098804, y: 24.20565, z: 73.366806}
+  - type: 2
+    key: 
+    name: 4e5dd2d4-cbee-4f97-8f88-18b9a7897e72
+    group: 
+    objective: 
+    detail: 
+    position: {x: 127.266, y: 23.199, z: 186.033}
+  - type: 2
+    key: 
+    name: 5051d4e9-291a-4384-9557-e10d149f3282
+    group: 
+    objective: 
+    detail: 
+    position: {x: 44.67, y: 23.276, z: -102.55}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 180.1868, y: 16.21865, z: 128.1658}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 176.3018, y: 16.995651, z: 10.248811}
+  - type: 2
+    key: 
+    name: 52521917-58bb-412f-b509-ed69191bf6a3
+    group: 
+    objective: 
+    detail: 
+    position: {x: 113.965996, y: 23.448, z: 269.982}
+  - type: 2
+    key: 
+    name: 551f5ea8-4bea-474d-a3d1-0af1e507aa73
+    group: 
+    objective: 
+    detail: 
+    position: {x: 75.119995, y: 14.18, z: 6.036}
+  - type: 2
+    key: 
+    name: 564c09fb-f464-4c30-b61b-4cc1943808be
+    group: 
+    objective: 
+    detail: 
+    position: {x: 102.15, y: 28.142405, z: 311.83}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 72.76581, y: 14.201652, z: 113.20881}
+  - type: 2
+    key: 
+    name: 5a4e21b9-8234-45a5-b24a-1cd71ffc9d4a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 117.61, y: 28.963, z: 146.43}
+  - type: 2
+    key: 
+    name: 5cb1309d-05b9-4043-ba3a-1ef53d52c012
+    group: 
+    objective: 
+    detail: 
+    position: {x: 40.19, y: 23.45, z: 148.61}
+  - type: 2
+    key: 
+    name: 5d711f09-edc9-4ec1-94f8-2e1765929dbd
+    group: 
+    objective: 
+    detail: 
+    position: {x: 73.815, y: 14.147, z: -54.394}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: -49.863197, y: 24.19465, z: 42.17581}
+  - type: 2
+    key: 
+    name: 5fa59046-4e17-408e-8531-14766ae4a7c4
+    group: 
+    objective: 
+    detail: 
+    position: {x: 117.49, y: 28.963, z: 148.6}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 74.686806, y: 14.008651, z: 160.9158}
+  - type: 2
+    key: 
+    name: 612fd960-fdd6-422b-9b5b-8161d4e5ec12
+    group: 
+    objective: 
+    detail: 
+    position: {x: 72.331, y: 14.147, z: -51.719}
+  - type: 2
+    key: 
+    name: 61bc3b0f-bbb7-41a6-a3cb-fc647cb4d57d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 137.174, y: 14.088, z: 67.36}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 96.256805, y: 22.87865, z: -85.19419}
+  - type: 2
+    key: 
+    name: 65f10e3a-3f0c-415a-82c9-65c494071117
+    group: 
+    objective: 
+    detail: 
+    position: {x: 131.006, y: 23.45, z: 268.826}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 133.4458, y: 14.112651, z: 66.43681}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 18.538803, y: 24.20565, z: 73.82181}
+  - type: 2
+    key: 
+    name: 6a18e621-14cc-4de5-83e9-4dbb5d57db3d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 180.8, y: 16.21, z: 117.5}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 130.6398, y: 14.112651, z: 63.12081}
+  - type: 2
+    key: 
+    name: 6a4b6afe-e215-4d9b-8d1e-4c2f7187baef
+    group: 
+    objective: 
+    detail: 
+    position: {x: 46.38, y: 23.276, z: -101.48}
+  - type: 2
+    key: 
+    name: 6acdf3c0-2c89-4824-97b9-7d5d10969670
+    group: 
+    objective: 
+    detail: 
+    position: {x: 64.41, y: 14.702, z: 164.414}
+  - type: 2
+    key: 
+    name: 6b4a840c-fc42-4b8c-bc68-04d7f6c2113a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 151.47, y: 22.85, z: 243.36}
+  - type: 2
+    key: 
+    name: 6bb1d97d-c152-4467-b67b-bcd052438a96
+    group: 
+    objective: 
+    detail: 
+    position: {x: 180.58, y: 16.2, z: 123.16}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 45.609802, y: 23.30565, z: -99.78419}
+  - type: 2
+    key: 
+    name: 6f70381f-dcd2-4b4b-8f7e-27a787298af6
+    group: 
+    objective: 
+    detail: 
+    position: {x: -4.45, y: 23.89, z: -58.9}
+  - type: 2
+    key: 
+    name: 71e27ce2-54ef-4070-942c-c8a136e81fcf
+    group: 
+    objective: 
+    detail: 
+    position: {x: 113.34599, y: 23.448, z: 273.162}
+  - type: 2
+    key: 
+    name: 734798e9-93cc-4239-93eb-8f23476b1f3d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 137.609, y: 14.088, z: 63.101}
+  - type: 2
+    key: 
+    name: 74ce5970-afa4-4bfa-9a57-5f1725adb6f6
+    group: 
+    objective: 
+    detail: 
+    position: {x: 73.57, y: 14.147, z: -48.848}
+  - type: 2
+    key: 
+    name: 74da28f8-d773-4ede-9c03-83811cf9563f
+    group: 
+    objective: 
+    detail: 
+    position: {x: 74.271, y: 14.147, z: -51.551}
+  - type: 2
+    key: 
+    name: 75f2a001-06c8-40a2-99f0-715c75b38138
+    group: 
+    objective: 
+    detail: 
+    position: {x: 135.18, y: 14.088, z: 66.07}
+  - type: 2
+    key: 
+    name: 76076875-b690-43f3-8917-68f7b077742f
+    group: 
+    objective: 
+    detail: 
+    position: {x: 117.819, y: 28.963, z: 152.665}
+  - type: 2
+    key: 
+    name: 7650aa3e-7ab6-4e76-9b71-af60211b4ad1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 143.83, y: 22.74, z: -71.39}
+  - type: 2
+    key: 
+    name: 7689966a-e33d-45af-bec8-7f4161438b74
+    group: 
+    objective: 
+    detail: 
+    position: {x: 133.66, y: 23.45, z: 268.62}
+  - type: 2
+    key: 
+    name: 7abcf691-7aa8-4dff-a592-5cd860701676
+    group: 
+    objective: 
+    detail: 
+    position: {x: 121.494, y: 22.834, z: -2.778}
+  - type: 2
+    key: 
+    name: 7b81d205-9028-4a06-81ce-b1d73922fce0
+    group: 
+    objective: 
+    detail: 
+    position: {x: 115.777, y: 23.426, z: 274.272}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: -10.793198, y: 23.982048, z: 16.735811}
+  - type: 2
+    key: 
+    name: 7f0d4fce-32a8-4d9a-ac19-d27ab617a45a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 132.107, y: 23.45, z: 270.349}
+  - type: 2
+    key: 
+    name: 811063e9-7b4c-4e88-b571-dda14fc5c422
+    group: 
+    objective: 
+    detail: 
+    position: {x: 111.826, y: 23.448, z: 269.082}
+  - type: 2
+    key: 
+    name: 818d8bb3-2bb9-4323-be8a-f03b1cfc2137
+    group: 
+    objective: 
+    detail: 
+    position: {x: 143.33, y: 22.74, z: -69.41}
+  - type: 2
+    key: 
+    name: 894397aa-eb45-4371-a2da-dcaa55bbc2df
+    group: 
+    objective: 
+    detail: 
+    position: {x: 111.535995, y: 23.448, z: 271.632}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 72.74081, y: 14.138651, z: 29.96981}
+  - type: 2
+    key: 
+    name: 8991994e-2dd2-4335-8fb9-5f906a80c0f8
+    group: 
+    objective: 
+    detail: 
+    position: {x: 179.893, y: 17.01, z: -6.997}
+  - type: 2
+    key: 
+    name: 8a478f38-07d3-4e3d-8322-d2f1f6137aff
+    group: 
+    objective: 
+    detail: 
+    position: {x: 99.644, y: 28.142405, z: 314.177}
+  - type: 2
+    key: 
+    name: 8aa4f53e-1ecd-4bda-900a-3c650e197c8e
+    group: 
+    objective: 
+    detail: 
+    position: {x: 134.04, y: 23.45, z: 271.91}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 57.717804, y: 23.436651, z: 226.73782}
+  - type: 2
+    key: 
+    name: 8e2cf7d7-6b81-4686-be31-1f169492165f
+    group: 
+    objective: 
+    detail: 
+    position: {x: 144.95, y: 22.949, z: 253.29}
+  - type: 2
+    key: 
+    name: 8e70071b-0949-4f6a-b106-dcc689714e07
+    group: 
+    objective: 
+    detail: 
+    position: {x: 109.208, y: 23.193, z: 174.245}
+  - type: 2
+    key: 
+    name: 8f3bef35-3e52-47ec-a072-02b3ad071433
+    group: 
+    objective: 
+    detail: 
+    position: {x: 183.821, y: 17.209, z: -6.948}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 112.2068, y: 22.688652, z: 220.92581}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: -13.111198, y: 23.87565, z: 98.92881}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 22.636803, y: 23.53865, z: 257.9848}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 57.236805, y: 14.098651, z: -31.15419}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: -60.634193, y: 24.19465, z: 43.00981}
+  - type: 2
+    key: 
+    name: 96c84440-4cc8-410e-afd2-15dc920dca8b
+    group: 
+    objective: 
+    detail: 
+    position: {x: 147.74, y: 23.3, z: 253.63}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 11.188805, y: 23.48965, z: 159.01682}
+  - type: 2
+    key: 
+    name: 989cfb81-3a2e-4cef-b3c1-a2a914dceaad
+    group: 
+    objective: 
+    detail: 
+    position: {x: 119.189, y: 22.834, z: -2.685}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 17.021805, y: 24.20565, z: 66.79081}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 57.486805, y: 14.068651, z: -33.82419}
+  - type: 2
+    key: 
+    name: 9c0e31a8-2008-41ef-b42b-b8888cc523ba
+    group: 
+    objective: 
+    detail: 
+    position: {x: 142.85, y: 22.74, z: -67.64}
+  - type: 2
+    key: 
+    name: 9cc6b2c3-948c-4902-8344-fa12d0c0e700
+    group: 
+    objective: 
+    detail: 
+    position: {x: 135.85, y: 14.088, z: 68.92}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 71.866806, y: 14.138651, z: -13.074188}
+  - type: 2
+    key: 
+    name: 9fbe814b-9217-4d81-84c2-cc43e67f7bda
+    group: 
+    objective: 
+    detail: 
+    position: {x: 117.413, y: 28.963, z: 154.495}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 36.136803, y: 22.668652, z: 334.6858}
+  - type: 2
+    key: 
+    name: a5654bc0-d8a6-4897-9f9a-768c4af478c1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -8.37, y: 23.86, z: -0.3899932}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: -10.593193, y: 23.982048, z: 22.86581}
+  - type: 2
+    key: 
+    name: a8b2e367-82fd-4e64-a37c-906955df399f
+    group: 
+    objective: 
+    detail: 
+    position: {x: 67.72, y: 13.981, z: 164.591}
+  - type: 2
+    key: 
+    name: a9f2fbc7-fa61-4538-9e91-39ca505f86e7
+    group: 
+    objective: 
+    detail: 
+    position: {x: -11.19, y: 23.86, z: -2.8199935}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 96.9698, y: 22.87865, z: -86.926186}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 29.926804, y: 23.86865, z: -25.214188}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 180.9668, y: 16.21865, z: 130.08582}
+  - type: 2
+    key: 
+    name: b2d85104-d574-4482-8962-9dbeae1221f5
+    group: 
+    objective: 
+    detail: 
+    position: {x: 74.228, y: 14.18, z: 8.865999}
+  - type: 2
+    key: 
+    name: b5e02957-b03d-4295-b05d-9be69f6f2e82
+    group: 
+    objective: 
+    detail: 
+    position: {x: 67.816, y: 13.981, z: 166.22}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 46.560806, y: 23.30565, z: -102.12119}
+  - type: 2
+    key: 
+    name: b7183870-a16c-4429-a8e7-2c2710fe3b57
+    group: 
+    objective: 
+    detail: 
+    position: {x: 103.8, y: 28.142405, z: 316.122}
+  - type: 2
+    key: 
+    name: ba5a0138-2a24-4ceb-bdb2-92d351fec342
+    group: 
+    objective: 
+    detail: 
+    position: {x: 42.021, y: 23.276, z: -104.487}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 26.606804, y: 23.86865, z: -26.964188}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 162.2768, y: 22.768652, z: -86.23419}
+  - type: 2
+    key: 
+    name: c081b15d-fb2d-4a02-afeb-b0664e2bdb02
+    group: 
+    objective: 
+    detail: 
+    position: {x: 38.7, y: 23.48, z: 147.19}
+  - type: 2
+    key: 
+    name: c106dee0-2b28-461f-8d43-1ca961ff1d04
+    group: 
+    objective: 
+    detail: 
+    position: {x: 127.225, y: 23.225, z: 192.607}
+  - type: 2
+    key: 
+    name: c6b7ada3-06e1-4c17-bbfc-805297968e04
+    group: 
+    objective: 
+    detail: 
+    position: {x: 101.579, y: 28.142405, z: 314.783}
+  - type: 2
+    key: 
+    name: c83cfa66-d6c2-4b78-8dfd-23d3fc83413c
+    group: 
+    objective: 
+    detail: 
+    position: {x: 147.55, y: 23.3, z: 250.06}
+  - type: 2
+    key: 
+    name: c94a8465-be54-4bf3-833b-b83822b582df
+    group: 
+    objective: 
+    detail: 
+    position: {x: 176.79, y: 17.01, z: -6.32}
+  - type: 2
+    key: 
+    name: cbf941fc-9b66-4a2c-aa00-b1d9b1ba7f9f
+    group: 
+    objective: 
+    detail: 
+    position: {x: 177.581, y: 17.01, z: -4.079}
+  - type: 2
+    key: 
+    name: cc5ed6f2-1e4e-43d4-9ad4-9fc3aaf1e162
+    group: 
+    objective: 
+    detail: 
+    position: {x: -11, y: 23.86, z: -5.77}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 104.531586, y: 33.44029, z: 107.52104}
+  - type: 2
+    key: 
+    name: ced4b14f-e478-467d-bed1-0314278e555a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 101.809, y: 28.142405, z: 317.117}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 71.97681, y: 14.138651, z: 20.19581}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 26.136803, y: 23.86865, z: -24.01419}
+  - type: 2
+    key: 
+    name: d4f55d16-038b-455e-bc9a-74a49e57ab89
+    group: 
+    objective: 
+    detail: 
+    position: {x: 119.705, y: 22.834, z: -4.314}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 109.116806, y: 22.70865, z: 234.20581}
+  - type: 2
+    key: 
+    name: d9e3c316-cf61-454b-8fca-aae78f2c0622
+    group: 
+    objective: 
+    detail: 
+    position: {x: 136.6, y: 22.74, z: -66.89}
+  - type: 2
+    key: 
+    name: db5b9d0d-3105-4814-b413-03d28d4a87d2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 47.123, y: 23.276, z: -103.068}
+  - type: 2
+    key: 
+    name: dcbe096a-7083-4dc0-a7e2-8149e7c153d4
+    group: 
+    objective: 
+    detail: 
+    position: {x: 130.538, y: 23.45, z: 271.616}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 121.452805, y: 23.192652, z: 190.08981}
+  - type: 2
+    key: 
+    name: de5f4d8c-1411-446e-b67b-269830a40a15
+    group: 
+    objective: 
+    detail: 
+    position: {x: 60.9, y: 14.18, z: 105.16}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: -14.633194, y: 23.818651, z: -58.76419}
+  - type: 2
+    key: 
+    name: df92e08a-08a9-4a19-8b90-cc8aa13b3062
+    group: 
+    objective: 
+    detail: 
+    position: {x: 122.356, y: 22.834, z: -4.153}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 57.486805, y: 23.436651, z: 229.5658}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 182.9868, y: 16.21865, z: 127.55581}
+  - type: 2
+    key: 
+    name: e545318d-f757-4a76-90be-079bf41998d2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 180.81, y: 16.24, z: 119.29}
+  - type: 2
+    key: 
+    name: eaa886c4-d771-4f7d-89f8-03b0c6d38365
+    group: 
+    objective: 
+    detail: 
+    position: {x: 110.82, y: 23.193, z: 176.03}
+  - type: 2
+    key: 
+    name: eb268aaa-dfde-4021-bdfa-44faed92c139
+    group: 
+    objective: 
+    detail: 
+    position: {x: 64.88, y: 14.22, z: 105.85}
+  - type: 2
+    key: 
+    name: ec099d7a-f15a-488b-8402-4113f56c5822
+    group: 
+    objective: 
+    detail: 
+    position: {x: 180.85, y: 16.24, z: 121.4}
+  - type: 2
+    key: 
+    name: ec13b292-f7ef-4a17-85ae-84b356502878
+    group: 
+    objective: 
+    detail: 
+    position: {x: 4.36, y: 23.89, z: -59.74}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: -15.473198, y: 23.818651, z: -56.62419}
+  - type: 2
+    key: 
+    name: f2187ee3-7751-441b-a7ef-b88e072a94c3
+    group: 
+    objective: 
+    detail: 
+    position: {x: -2.8, y: 23.89, z: -59.58}
+  - type: 2
+    key: 
+    name: f2a7bbe4-cd32-4e72-875e-3624083ec8e8
+    group: 
+    objective: 
+    detail: 
+    position: {x: 44.427, y: 23.276, z: -104.867}
+  - type: 2
+    key: 
+    name: f5481928-9ee3-47cd-8998-77edfd1626d3
+    group: 
+    objective: 
+    detail: 
+    position: {x: 74.49, y: 14.18, z: 10.55}
+  - type: 2
+    key: 
+    name: f5ba4d5f-08f4-411d-b246-2bac60595f01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 66.95, y: 14.18, z: 107.25}
+  - type: 2
+    key: 
+    name: f76c3749-0412-41cb-a61c-0d7bca49e779
+    group: 
+    objective: 
+    detail: 
+    position: {x: 127.474, y: 23.225, z: 194.108}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 175.10681, y: 16.995651, z: 2.1758108}
+  - type: 2
+    key: 
+    name: fc1387ee-e540-4433-9022-d3c53a04b8c2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 39.85, y: 23.42, z: 150.63}
+  - type: 3
+    key: 
+    name: ZoneSandbox
+    group: 
+    objective: 
+    detail: 
+    position: {x: 13.432804, y: 23.48965, z: 157.55981}
+  - type: 6
+    key: 657315ddab5a49b71f098853
+    name: First in Line
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 65732ac3c67dcd96adffa3c7
+    detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C EMERCOM
+      station \uCC3E\uAE30"
+    position: {x: 156.2, y: 25.52, z: -83.59}
+  - type: 6
+    key: 657315df034d76585f032e01
+    name: Shooting Cans
+    group: "\uD504\uB77C\uD37C"
+    objective: 657333fee3fbaa77d3b5cd7c
+    detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C NSV '\uC6B0\uD210\uC2A4'
+      \uC911\uAE30\uAD00\uCD1D\uC758 \uC704\uCE58\uB97C \uC54C\uC544\uB0B4\uAE30"
+    position: {x: 56.6, y: 32.34, z: 130.6}
+  - type: 6
+    key: 657315df034d76585f032e01
+    name: Shooting Cans
+    group: "\uD504\uB77C\uD37C"
+    objective: 6573340403f471fb2bb12df1
+    detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C AGS \uACE0\uC18D\uC720\uD0C4\uBC1C\uC0AC\uAE30\uC758
+      \uC704\uCE58\uB97C \uC54C\uC544\uB0B4\uAE30"
+    position: {x: 101.04, y: 34.16, z: 276.36}
+  - type: 6
+    key: 657315e4a6af4ab4b50f3459
+    name: Saving the Mole
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 6575a64d3fc09bdfb38b713d
+    detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C\uC5D0\uC11C \uC5F0\uAD6C\uC18C
+      \uACFC\uD559\uC790\uC758 \uC0AC\uBB34\uC2E4 \uB4E4\uC5B4\uAC00\uAE30"
+    position: {x: -13.48, y: 31.01, z: 51.33}
+  - type: 6
+    key: 657315e4a6af4ab4b50f3459
+    name: Saving the Mole
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 6575a524a39d2be74e620546
+    detail: "\uD14C\uB77C\uADF8\uB8F9 \uB2E8\uC9C0 \uC8FC\uCC28\uC7A5\uC5D0\uC11C
+      USEC \uADF8\uB8F9 \uCC3E\uAE30"
+    position: {x: -21.01, y: 24.23, z: -25.1}
+  - type: 6
+    key: 657315e4a6af4ab4b50f3459
+    name: Saving the Mole
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 6575a62a62028c6d5cb43cb7
+    detail: "\uD14C\uB77C\uADF8\uB8F9 \uB2E8\uC9C0\uC5D0\uC11C \uC5F0\uAD6C\uC18C
+      \uACFC\uD559\uC790 \uCC3E\uAE30"
+    position: {x: -60.45, y: 25.62, z: 27.42}
+  - type: 7
+    key: 657315e4a6af4ab4b50f3459
+    name: Saving the Mole
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 65817fbbb454159976c91917
+    detail: "\uD14C\uB77C\uADF8\uB8F9 \uACFC\uD559\uC790\uC758 \uD558\uB4DC \uB4DC\uB77C\uC774\uBE0C"
+    position: {x: -12.127326, y: 30.6906, z: 48.043213}
+  - type: 7
+    key: 657315e4a6af4ab4b50f3459
+    name: Saving the Mole
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 65817fbbb454159976c91917
+    detail: "\uD14C\uB77C\uADF8\uB8F9 \uACFC\uD559\uC790\uC758 \uD558\uB4DC \uB4DC\uB77C\uC774\uBE0C"
+    position: {x: -12.356882, y: 30.692001, z: 49.026344}
+  - type: 7
+    key: 657315e4a6af4ab4b50f3459
+    name: Saving the Mole
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 65817fbbb454159976c91917
+    detail: "\uD14C\uB77C\uADF8\uB8F9 \uACFC\uD559\uC790\uC758 \uD558\uB4DC \uB4DC\uB77C\uC774\uBE0C"
+    position: {x: -11.949866, y: 30.2254, z: 49.585052}
+  - type: 6
+    key: 68341c4babec72d95d0c1260
+    name: 'Create a Distraction - Part 1 [PVE ZONE]'
+    group: "\uB808\uD504"
+    objective: 68341c4babec72d95d0c1263
+    detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C \uCE74\uD398 2\uCE35\uC5D0 TP-200
+      TNT \uBE14\uB85D \uC124\uCE58\uD558\uAE30"
+    position: {x: 107.46, y: 29.09, z: 148.06}
+  - type: 6
+    key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    group: "\uD39C\uC2A4"
+    objective: 66dad1d7811532f53e472c13
+    detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+      \uB2E4\uC774\uD558\uB4DC\uC5D0 \uB098\uC628\uAC83 \uAC19\uC740 \uB140\uC11D\uC774
+      \uB9F9\uD65C\uC57D\uD588\uB358 \uAC83 \uAC19\uC740 \uACE0\uCE35 \uBE4C\uB529\uC5D0
+      Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+    position: {x: 3.99, y: 24.27, z: 336.33}
+  - type: 6
+    key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    group: "\uD39C\uC2A4"
+    objective: 66dad1d941756590432b0eaa
+    detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+      \uD504\uB85C\uADF8\uB798\uBA38\uC5D0\uAC8C \uCE60 \uC7A5\uB09C\uC774 \uB744\uC6CC\uC9C4
+      \uCEF4\uD4E8\uD130\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+    position: {x: 118.71, y: 24.51, z: 190.58}
+  - type: 6
+    key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    group: "\uD39C\uC2A4"
+    objective: 66dad1dbb16caebe0e214d89
+    detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+      \uCEE4\uB2E4\uB780 \uAC80\uC740 \uC758\uC790\uB4E4\uC5D0 \uB458\uB7EC\uC2F8\uC778
+      \uC791\uC740 \uD558\uC580 \uC758\uC790\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+    position: {x: 40.4, y: 31.68, z: 140.68}
+  - type: 6
+    key: 657315e1dccd301f1301416a
+    name: Luxurious Life
+    group: "\uD504\uB77C\uD37C"
+    objective: 6575aa67197bd678a0c3f552
+    detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C \uC8FC\uB958
+      \uD310\uB9E4\uC810 \uCC3E\uAE30"
+    position: {x: 117.06, y: 24.23, z: 26.86}
+  - type: 7
+    key: 657315e1dccd301f1301416a
+    name: Luxurious Life
+    group: "\uD504\uB77C\uD37C"
+    objective: 65817cabba2ba6ef71fc72ca
+    detail: "\uB974 \uC7A5 \uC640\uC778 \uBCD1"
+    position: {x: 129.716, y: 23.283699, z: 25.152}
+  - type: 7
+    key: 657315e1dccd301f1301416a
+    name: Luxurious Life
+    group: "\uD504\uB77C\uD37C"
+    objective: 65817cabba2ba6ef71fc72ca
+    detail: "\uB974 \uC7A5 \uC640\uC778 \uBCD1"
+    position: {x: 119.667, y: 23.7096, z: 22.886}
+  - type: 7
+    key: 657315e1dccd301f1301416a
+    name: Luxurious Life
+    group: "\uD504\uB77C\uD37C"
+    objective: 65817cabba2ba6ef71fc72ca
+    detail: "\uB974 \uC7A5 \uC640\uC778 \uBCD1"
+    position: {x: 130.274, y: 23.6646, z: 23.691}
+  - type: 6
+    key: 66aa58245ab22944110db6e9
+    name: New Paths
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 66aa5b2cecad9c067780924b
+    detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C\uC758 \uBBF8\uB77C \uB300\uB85C\uC640
+      \uACE0\uAC00\uB3C4\uB85C \uAD50\uCC28\uB85C \uC815\uCC30\uD558\uAE30 (\uD55C
+      \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
+    position: {x: 205.37, y: 17.31, z: 36.81}
+  - type: 6
+    key: 66aa58245ab22944110db6e9
+    name: New Paths
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 66aa5bb281dff8466b076894
+    detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C\uC5D0\uC11C \uD0C0\uB974\uCF54\uD504
+      \uC2DC\uB0B4\uB85C \uC774\uC5B4\uC9C0\uB294 \uD1B5\uB85C \uCC3E\uAE30 (\uD55C
+      \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
+    position: {x: 227.45, y: 16.99, z: 66.5}
+  - type: 6
+    key: 66b38c7bf85b8bf7250f9cb6
+    name: Rough Tarkov
+    group: "\uC608\uAC70"
+    objective: 66b38de6a97d8cbafd711846
+    detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C\uC5D0\uC11C \uD074\uB808\uC774\uBAA8\uC5B4
+      \uC9C0\uB8B0 \uCC3E\uAE30"
+    position: {x: 59.46, y: 24.29, z: 172.85}
+  - type: 6
+    key: 67a09636b8725511260bc421
+    name: Shady Contractor
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 67a0a91f4681b4e43d13892b
+    detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C \uD06C\uB178\uC18C\uC2A4
+      \uC720\uD55C\uD68C\uC0AC\uC758 \uC2DC\uB2C8\uC5B4 \uB9E4\uB2C8\uC800\uC758
+      \uCC28\uB7C9 \uCC3E\uAE30"
+    position: {x: 89.19, y: 23.79, z: 224.86}
+  - type: 7
+    key: 67a09636b8725511260bc421
+    name: Shady Contractor
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 67a0ab610345d81cb3cbb24c
+    detail: "\uD06C\uB178\uC18C\uC2A4 \uACE0\uC704 \uAD00\uB9AC\uC790\uC758 \uC77C\uAE30\uC7A5"
+    position: {x: 88.976, y: 23.175, z: 225.284}
+  - type: 7
+    key: 67a09636b8725511260bc421
+    name: Shady Contractor
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 67a0ab610345d81cb3cbb24c
+    detail: "\uD06C\uB178\uC18C\uC2A4 \uACE0\uC704 \uAD00\uB9AC\uC790\uC758 \uC77C\uAE30\uC7A5"
+    position: {x: 86.822205, y: 23.076801, z: 226.09749}
+  - type: 7
+    key: 67a09636b8725511260bc421
+    name: Shady Contractor
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 67a0ab610345d81cb3cbb24c
+    detail: "\uD06C\uB178\uC18C\uC2A4 \uACE0\uC704 \uAD00\uB9AC\uC790\uC758 \uC77C\uAE30\uC7A5"
+    position: {x: 89.392, y: 23.635998, z: 224.972}
+  - type: 6
+    key: 67a0964e972c11a3f507731b
+    name: Needle in a Haystack
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 67a0bc81fcbc1c559d09b58f
+    detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC704\uCE58\uD55C
+      \uD14C\uB77C\uADF8\uB8F9 \uBCF8\uBD80 \uC606 \uC815\uC6D0 \uAD11\uC7A5 \uC870\uC0AC\uD558\uAE30"
+    position: {x: 18.53, y: 23.79, z: 41.01}
+  - type: 7
+    key: 67a09673972c11a3f507731d
+    name: The Tarkov Butcher
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 67a0d92a6cf4a5745d0bc94f
+    detail: "\uC218\uC0C1\uD55C \uBB3C\uC9C8\uC774 \uB4E0 \uC6A9\uAE30"
+    position: {x: 78.8748, y: 15.758503, z: 96.33389}
+  - type: 7
+    key: 67a09673972c11a3f507731d
+    name: The Tarkov Butcher
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 67a0d92a6cf4a5745d0bc94f
+    detail: "\uC218\uC0C1\uD55C \uBB3C\uC9C8\uC774 \uB4E0 \uC6A9\uAE30"
+    position: {x: 80.1339, y: 15.839001, z: 96.27539}
+  - type: 7
+    key: 67a09673972c11a3f507731d
+    name: The Tarkov Butcher
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 67a0d92a6cf4a5745d0bc94f
+    detail: "\uC218\uC0C1\uD55C \uBB3C\uC9C8\uC774 \uB4E0 \uC6A9\uAE30"
+    position: {x: 78.571, y: 16.3689, z: 100.85899}
+  quests:
+  - key: 657315ddab5a49b71f098853
+    name: First in Line
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 65732ac3c67dcd96adffa3c7
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C
+        EMERCOM station \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 65817bf31404f3565aef9fec
+      description: "\uB808\uC774\uB4DC\uC5D0\uC11C \uCC3E\uC740 \uC758\uC57D\uD488
+        \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 657315df034d76585f032e01
+    name: Shooting Cans
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 657333fee3fbaa77d3b5cd7c
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C
+        NSV '\uC6B0\uD210\uC2A4' \uC911\uAE30\uAD00\uCD1D\uC758 \uC704\uCE58\uB97C
+        \uC54C\uC544\uB0B4\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6573340403f471fb2bb12df1
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C
+        AGS \uACE0\uC18D\uC720\uD0C4\uBC1C\uC0AC\uAE30\uC758 \uC704\uCE58\uB97C \uC54C\uC544\uB0B4\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a54a310b22ea41cf1c54a20
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C
+        \uC544\uBB34 \uC801 \uC0AC\uC0B4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 657315e4a6af4ab4b50f3459
+    name: Saving the Mole
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 6575a64d3fc09bdfb38b713d
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C\uC5D0\uC11C \uC5F0\uAD6C\uC18C
+        \uACFC\uD559\uC790\uC758 \uC0AC\uBB34\uC2E4 \uB4E4\uC5B4\uAC00\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6575a524a39d2be74e620546
+      description: "\uD14C\uB77C\uADF8\uB8F9 \uB2E8\uC9C0 \uC8FC\uCC28\uC7A5\uC5D0\uC11C
+        USEC \uADF8\uB8F9 \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+    - id: 6575a62a62028c6d5cb43cb7
+      description: "\uD14C\uB77C\uADF8\uB8F9 \uB2E8\uC9C0\uC5D0\uC11C \uC5F0\uAD6C\uC18C
+        \uACFC\uD559\uC790 \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+    - id: 65817fbbb454159976c91917
+      description: "\uACFC\uD559\uC790\uC758 \uD558\uB4DC \uB4DC\uB77C\uC774\uBE0C\uB97C
+        \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 65817fc99a039ed2e97896e4
+      description: "\uD558\uB4DC \uB4DC\uB77C\uC774\uBE0C \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 68341c4babec72d95d0c1260
+    name: 'Create a Distraction - Part 1 [PVE ZONE]'
+    trader: "\uB808\uD504"
+    objectives:
+    - id: 68341c4babec72d95d0c1263
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C \uCE74\uD398 2\uCE35\uC5D0
+        TP-200 TNT \uBE14\uB85D \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    trader: "\uD39C\uC2A4"
+    objectives:
+    - id: 66d9cbb67b491f9d5304f6eb
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uCCA0\uC870\uB9DD\uC5D0 \uAC10\uAE34 \uC2DC\uCCB4\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66d9cbb67b491f9d5304f6e9
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uD53C\uC790\uB97C \uC88B\uC544\uD558\uB294 \uC591\uC11C\uB958\uB4E4\uC758
+        \uC740\uC2E0\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dacf2a88c7001436a67390
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uC815\uB9D0 \uC73C\uC2A4\uC2A4\uD55C \uBCBD\uC758 \uAD6C\uBA4D\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66d9cbb67b491f9d5304f6ea
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uBD88\uC5D0 \uD0C4 \uC18C\uB140\uC758 \uBCD1\uC2E4\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1d7811532f53e472c13
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+        \uB2E4\uC774\uD558\uB4DC\uC5D0 \uB098\uC628\uAC83 \uAC19\uC740 \uB140\uC11D\uC774
+        \uB9F9\uD65C\uC57D\uD588\uB358 \uAC83 \uAC19\uC740 \uACE0\uCE35 \uBE4C\uB529\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 66dad1d941756590432b0eaa
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+        \uD504\uB85C\uADF8\uB798\uBA38\uC5D0\uAC8C \uCE60 \uC7A5\uB09C\uC774 \uB744\uC6CC\uC9C4
+        \uCEF4\uD4E8\uD130\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 66dad1dbb16caebe0e214d89
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+        \uCEE4\uB2E4\uB780 \uAC80\uC740 \uC758\uC790\uB4E4\uC5D0 \uB458\uB7EC\uC2F8\uC778
+        \uC791\uC740 \uD558\uC580 \uC758\uC790\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 66dad1ddec53b0df3b10a1b9
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uB2F9\uC2E0\uC758
+        \uCE5C\uAD6C \uC70C\uC2A8 \uC606\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1de93c8fcffd5790d89
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uD654\uD1B3\uBD88\uC774
+        \uCF1C\uC9C4 \uD734\uC2DD\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1e0703b718902451ee4
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uBD88\uAE38\uD55C
+        \uC6F0\uCEF4 \uD45C\uC9C0\uD310\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1e21e7ef28d17a69a93
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uCC9C\uC7AC \uACFC\uD559\uC790\uC758
+        \uC790\uB9AC\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1e607181e2f78a3a0a2
+      description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uC9D5\uC9D1\uBCD1\uB4E4\uC774
+        \uC544\uC8FC \uC911\uC694\uD55C \uC791\uC5C5\uC744 \uD588\uB358 \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1e843a718561db0fdd3
+      description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uB450 \uC218\uC218\uAED8\uB07C
+        \uC758\uC790\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1ebc5c8e6cd26dd1d31
+      description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uC804\uCC28 \uC870\uC885\uC218\uB4E4\uC758
+        \uCCAB \uBE44\uB514\uC624 \uAC8C\uC784 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1edbc4fdd0c6eb38c5e
+      description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uBA38\uB9AC\uC5D0 \uC591\uB3D9\uC774\uB97C
+        \uC4F4 \uC545\uB2F9 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1f00e049ac7abb6d801
+      description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uC564\uBE4C 3-4 \uC804\uCC28
+        \uC2B9\uBB34\uC6D0\uC758 \uCC98\uD615 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1f22edc2103eb176de8
+      description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uBAA8\uB4E0 \uC778\uB514
+        \uAC1C\uBC1C\uC790\uB4E4\uC758 \uC545\uBABD\uC774 \uC788\uB294 \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f8d7539f4b4eb640aff
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC18C\uBC29\uAD00\uC774
+        \uD589\uBCF5\uD574\uC9C0\uAE30 \uC704\uD574 \uCC45\uC744 \uBD88\uD0DC\uC6B0\uB358
+        \uBC29\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f8f564045697071d934
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uBA87\uBA87 \uBC38\uBE0C
+        \uC5D4\uC9C0\uB2C8\uC5B4\uB4E4\uC774 \uC790\uC2E0\uB4E4\uC758 \uC138 \uBC88\uC9F8
+        \uD504\uB85C\uC81D\uD2B8\uB97C \uB05D\uB0B4\uC9C0 \uBABB\uD55C \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f928d59a9fe511dfc25
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC704\uD5D8\uD55C \uB7EC\uC2DC\uC544
+        \uCD08\uCF5C\uB9BF \uC18C\uB140\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f94a147d9840ec0dfba
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC74C\uBAA8\uB860\uC790\uC758
+        \uBC29\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f98b8e22a92437fe5c6
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uB204\uAD70\uAC00\uAC00
+        \uB9C8\uBC95 \uD559\uAD50\uB85C \uC774\uB3D9\uD560 \uC218 \uC788\uB2E4\uACE0
+        \uBBFF\uC5C8\uB358 \uC7A5\uC18C \uADFC\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f9b4f7bf01d937eb150
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uBAA8\uB4E0 \uC804\uB7B5
+        \uAC8C\uC784\uC758 \uC5B4\uBA38\uB2C8\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1ff798d52a5a8e4ed1f8
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uD558\uB298\uB85C \uC62C\uB77C\uAC00\uB294
+        \uACC4\uB2E8\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66debf2b9e4ce2ef233ee5b7
+      description: "\uC0BC\uB9BC(Woods)\uC5D0 \uC788\uB294 \uBD88\uD0C0\uB294 \uCC28\uC5D0
+        \uC549\uC544\uC788\uB294 \uACF0\uC774 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66debf2e1e254957b82711ff
+      description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uB4A4\uC9D1\uD78C
+        \uC758\uC790\uAC00 \uC124\uCE58\uB41C \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66debf30802386a45d0adb60
+      description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uADF8\uB2E4\uC9C0
+        \uC678\uB86D\uC9C0\uB294 \uC54A\uC744 \uD654\uC7A5\uC2E4\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 657315e1dccd301f1301416a
+    name: Luxurious Life
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 6575aa67197bd678a0c3f552
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C
+        \uC8FC\uB958 \uD310\uB9E4\uC810 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 65817cabba2ba6ef71fc72ca
+      description: "\uD310\uB9E4\uC810\uC5D0\uC11C \uC640\uC778\uBCD1 \uCC3E\uC544\uC11C
+        \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 65817cd2881a7e07b3ec1249
+      description: "\uC640\uC778\uBCD1 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 66aa58245ab22944110db6e9
+    name: New Paths
+    trader: "\uD53C\uC2A4\uD0A4\uD37C"
+    objectives:
+    - id: 66aa5be8035c6a410dc570b2
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C\uC5D0\uC11C \uD0C0\uB974\uCF54\uD504
+        \uC2DC\uB0B4\uB85C \uD2B8\uB79C\uC9D3 \uC774\uC6A9\uD558\uAE30 (\uD55C \uB808\uC774\uB4DC
+        \uC548\uC5D0\uC11C)"
+      optional: 0
+      thisMap: 1
+    - id: 66aa5b2cecad9c067780924b
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C\uC758 \uBBF8\uB77C \uB300\uB85C\uC640
+        \uACE0\uAC00\uB3C4\uB85C \uAD50\uCC28\uB85C \uC815\uCC30\uD558\uAE30 (\uD55C
+        \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
+      optional: 0
+      thisMap: 1
+    - id: 66aa5bb281dff8466b076894
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C\uC5D0\uC11C \uD0C0\uB974\uCF54\uD504
+        \uC2DC\uB0B4\uB85C \uC774\uC5B4\uC9C0\uB294 \uD1B5\uB85C \uCC3E\uAE30 (\uD55C
+        \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
+      optional: 0
+      thisMap: 1
+  - key: 66b38c7bf85b8bf7250f9cb6
+    name: Rough Tarkov
+    trader: "\uC608\uAC70"
+    objectives:
+    - id: 66b38c7bf85b8bf7250f9cb7
+      description: "\uC0BC\uB9BC USEC \uCEA0\uD504\uC758 \uC9C0\uB8B0\uAC00 \uB9CE\uC774
+        \uAE54\uB9B0 \uAD6C\uC5ED \uCC3E\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66b38de6a97d8cbafd711846
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C\uC5D0\uC11C \uD074\uB808\uC774\uBAA8\uC5B4
+        \uC9C0\uB8B0 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 67a09636b8725511260bc421
+    name: Shady Contractor
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 67a0a91f4681b4e43d13892b
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C
+        \uD06C\uB178\uC18C\uC2A4 \uC720\uD55C\uD68C\uC0AC\uC758 \uC2DC\uB2C8\uC5B4
+        \uB9E4\uB2C8\uC800\uC758 \uCC28\uB7C9 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 67a0ab610345d81cb3cbb24c
+      description: "\uBA54\uB2C8\uC800\uC758 \uC77C\uC9C0 \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 67a0ab83359e2d00cf9d6b06
+      description: "\uC77C\uC9C0 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 67a0964e972c11a3f507731b
+    name: Needle in a Haystack
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 67a0bc81fcbc1c559d09b58f
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC704\uCE58\uD55C
+        \uD14C\uB77C\uADF8\uB8F9 \uBCF8\uBD80 \uC606 \uC815\uC6D0 \uAD11\uC7A5 \uC870\uC0AC\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 67a0bc83182c4b0c71edd0ce
+      description: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0 \uC704\uCE58\uD55C
+        \uCE74\uD2B8 \uACBD\uAE30\uC7A5 \uC870\uC0AC\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 67a0bc84f19d5b1120a55762
+      description: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0 \uC704\uCE58\uD55C
+        \uC2E4\uB0B4 \uB180\uC774\uD130 \uC870\uC0AC\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 67a0bc87c60a93d7a3f28b23
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC704\uCE58\uD55C \uCF69\uCF54\uB974\uB514\uC544 \uB2E8\uC9C0\uC758 \uB180\uC774\uD130
+        \uC870\uC0AC\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 67a0bc8848d9d2cbd274ffd9
+      description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC704\uCE58\uD55C \uD574\uBCC0\uAC00\uC758
+        \uACF5\uC0AC\uC7A5 \uC870\uC0AC\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 67a0bc8ab12fe4b1baa60e4c
+      description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC704\uCE58\uD55C \uD5EC\uC2A4
+        \uB9AC\uC870\uD2B8 \uB180\uC774\uD130 \uC870\uC0AC\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 67a09673972c11a3f507731d
+    name: The Tarkov Butcher
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 67a0d92a6cf4a5745d0bc94f
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8
+        \uC6A9\uAE30\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a57565d0c4e021f681b32f0
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uACBD\uCC30\uC11C \uC606\uC5D0
+        \uC6A9\uAE30 \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 0

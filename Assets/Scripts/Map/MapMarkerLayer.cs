@@ -42,12 +42,16 @@ public class MapMarkerLayer : MonoBehaviour
     public Sprite dotSprite;
     [Tooltip("NameTag 표시 배율 (화면 기준)")]
     public float nameTagScale = 0.5f;
-    [Tooltip("지도 기준 마커 배율. 마커는 지도와 함께 확대/축소된다 (PMC/Scav 화면 폭이 달라도 지도 대비 크기 동일)")]
-    public float markerScale = 2.3f;
+    [Tooltip("마커 배율. 지도 전체가 referenceViewSize에 맞춰 보일 때 마커가 화면에서 이 배율로 보인다. 마커는 지도와 함께 확대/축소된다")]
+    public float markerScale = 1f;
+    [Tooltip("마커 크기 기준이 되는 화면 영역(Canvas px). 맵 이미지 크기가 달라도 처음 화면에서 마커가 비슷한 크기로 보이게 맞춘다")]
+    public Vector2 referenceViewSize = new Vector2(1480f, 1000f);
     [Tooltip("켜면 지도를 확대해도 마커가 화면에서 같은 크기로 유지된다 (예전 방식)")]
     public bool keepScreenSize = false;
     [Tooltip("NameTag 프리팹 안에서 색을 바꿀 아이콘 Image 경로")]
     public string nameTagIconPath = "Icon";
+    [Tooltip("같은 종류 탈출구가 이 거리(m, 수평) 안에 모여 있으면 이름표 하나로 합친다. 0이면 합치지 않음")]
+    public float nameTagMergeDistance = 25f;
 
     [Header("Styles")]
     public List<Style> styles = new List<Style>();
@@ -120,7 +124,7 @@ public class MapMarkerLayer : MonoBehaviour
         foreach (Style s in styles) GetGroup(s.type, s);
 
         int skipped = 0;
-        foreach (MapMarker marker in data.markers)
+        foreach (MapMarker marker in MergeNameTags(data.markers))
         {
             if (!IsAvailable(marker.type)) continue;
             if (!mapView.config.IsInBounds(marker.position)) { skipped++; continue; }
@@ -284,7 +288,7 @@ public class MapMarkerLayer : MonoBehaviour
     void LateUpdate()
     {
         if (mapView == null) return;
-        float mapScale = keepScreenSize ? mapView.transform.localScale.x : 1f / markerScale;
+        float mapScale = keepScreenSize ? mapView.transform.localScale.x : ReferenceFitScale() / markerScale;
         if (Mathf.Approximately(mapScale, lastMapScale)) return;
         lastMapScale = mapScale;
 
@@ -294,6 +298,65 @@ public class MapMarkerLayer : MonoBehaviour
             float s = inv * itemScales[i];
             items[i].localScale = new Vector3(s, s, 1f);
         }
+    }
+
+    // 이 맵 이미지가 referenceViewSize 안에 꽉 차게 보일 때의 배율.
+    // PMC/Scav처럼 실제 화면 폭이 달라도 바뀌지 않아서 지도 대비 마커 크기가 항상 같다.
+    float ReferenceFitScale()
+    {
+        Vector2 size = ((RectTransform)mapView.transform).sizeDelta;
+        if (size.x <= 0f || size.y <= 0f) return 1f;
+        return Mathf.Min(referenceViewSize.x / size.x, referenceViewSize.y / size.y);
+    }
+
+    // 가까이 겹친 같은 종류 이름표(탈출구)를 하나로: 위치는 평균, 이름은 "A / B / C"
+    // 예) 해안선 Climber's Trail / Rock Passage / Cliff Descent (서로 20m 이내)
+    List<MapMarker> MergeNameTags(List<MapMarker> source)
+    {
+        var result = new List<MapMarker>(source.Count);
+        var merged = new bool[source.Count];
+        for (int i = 0; i < source.Count; i++)
+        {
+            if (merged[i]) continue;
+            MapMarker a = source[i];
+            if (!UsesNameTag(a.type) || nameTagMergeDistance <= 0f)
+            {
+                result.Add(a);
+                continue;
+            }
+
+            var group = new List<MapMarker> { a };
+            for (int j = i + 1; j < source.Count; j++)
+            {
+                MapMarker b = source[j];
+                if (merged[j] || b.type != a.type) continue;
+                Vector2 d = new Vector2(a.position.x - b.position.x, a.position.z - b.position.z);
+                if (d.magnitude > nameTagMergeDistance) continue;
+                group.Add(b);
+                merged[j] = true;
+            }
+            if (group.Count == 1)
+            {
+                result.Add(a);
+                continue;
+            }
+
+            Vector3 center = Vector3.zero;
+            var names = new List<string>();
+            foreach (MapMarker m in group)
+            {
+                center += m.position;
+                if (!names.Contains(m.name)) names.Add(m.name);
+            }
+            result.Add(new MapMarker
+            {
+                type = a.type,
+                name = string.Join(" / ", names),
+                detail = a.detail,
+                position = center / group.Count,
+            });
+        }
+        return result;
     }
 
     static bool UsesNameTag(MarkerType type) =>
@@ -310,6 +373,10 @@ public class MapMarkerLayer : MonoBehaviour
 
         Transform icon = go.transform.Find(nameTagIconPath);
         if (icon != null && icon.TryGetComponent(out Image iconImage)) iconImage.color = style.color;
+
+        // 이름표는 마우스를 받지 않는다: 아래에 가려진 퀘스트 마커에도 마우스가 닿아 툴팁이 뜨도록
+        foreach (Graphic graphic in go.GetComponentsInChildren<Graphic>(true))
+            graphic.raycastTarget = false;
 
         return (RectTransform)go.transform;
     }

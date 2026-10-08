@@ -1,0 +1,1209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c2e9a4b1d3f4a6e8b5c0d2f9e1a3b7c, type: 3}
+  m_Name: the-lab_markers
+  m_EditorClassIdentifier: Assembly-CSharp::MapMarkerData
+  mapNormalizedName: the-lab
+  gameMode: pve
+  language: ko
+  downloadedAt: 2026-10-08 17:48
+  markers:
+  - type: 0
+    key: 
+    name: Hangar Gate
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -170.49, y: 5.54, z: -218.87}
+  - type: 9
+    key: 
+    name: Medical Block Elevator
+    group: 
+    objective: 
+    detail: shared
+    position: {x: -112.3, y: -3.11, z: -344.04}
+  - type: 0
+    key: 
+    name: Ventilation Shaft
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -145.06, y: -2.46, z: -396.83}
+  - type: 9
+    key: 
+    name: Cargo Elevator
+    group: 
+    objective: 
+    detail: shared
+    position: {x: -111.79, y: 5.38, z: -408.55}
+  - type: 9
+    key: 
+    name: Main Elevator
+    group: 
+    objective: 
+    detail: shared
+    position: {x: -282.69, y: -2.81, z: -334.73}
+  - type: 0
+    key: 
+    name: Parking Gate
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -231.46, y: 6.19, z: -457.77}
+  - type: 0
+    key: 
+    name: Sewage Conduit
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -122.89, y: -3.66, z: -258.32}
+  - type: 1
+    key: 
+    name: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uB85C \uC774\uB3D9"
+    group: 
+    objective: 
+    detail: 
+    position: {x: -170.14, y: 1.18, z: -420.56}
+  - type: 2
+    key: 
+    name: 00a92ab8-28d7-4c1c-87a5-ef1c480e9900
+    group: 
+    objective: 
+    detail: 
+    position: {x: -118.336, y: -4.025, z: -403.071}
+  - type: 2
+    key: 
+    name: 01d14f42-45de-45fb-be52-bfff19f3a470
+    group: 
+    objective: 
+    detail: 
+    position: {x: -264.171, y: 0.039, z: -321.665}
+  - type: 2
+    key: 
+    name: 037af7bf-1a89-454d-af5c-83df829fbde0
+    group: 
+    objective: 
+    detail: 
+    position: {x: -115.37, y: -4.015, z: -321.759}
+  - type: 2
+    key: 
+    name: 037b1766-b66b-4c3e-adf1-390f67dc70bb
+    group: 
+    objective: 
+    detail: 
+    position: {x: -116.55, y: 0.01, z: -253.94}
+  - type: 2
+    key: 
+    name: 0483afba-89af-43a9-b2d3-47e2905440c5
+    group: 
+    objective: 
+    detail: 
+    position: {x: -276.03, y: -3.99, z: -358.44}
+  - type: 2
+    key: 
+    name: 08633a18-3bbd-4a4b-934a-b51e049817b1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -120.64, y: 0.01, z: -256.73}
+  - type: 2
+    key: 
+    name: 0d7728c8-59c8-493a-8849-fa22a1346fcd
+    group: 
+    objective: 
+    detail: 
+    position: {x: -254.79, y: -4.03, z: -298.46}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -262.57, y: 0.05000019, z: -330.62}
+  - type: 2
+    key: 
+    name: 0f8dedb9-f5f2-4c18-af92-968b0b22e54b
+    group: 
+    objective: 
+    detail: 
+    position: {x: -275.92, y: -4, z: -355.32}
+  - type: 3
+    key: 
+    name: BotZoneFloor1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -191.663, y: -4.05, z: -321.18698}
+  - type: 2
+    key: 
+    name: 12055345-4522-4b48-b08a-6a517bbf7c61
+    group: 
+    objective: 
+    detail: 
+    position: {x: -250.87, y: 4.14, z: -281.79}
+  - type: 2
+    key: 
+    name: 13ea441c-75e5-48a2-9d87-396590d9bc98
+    group: 
+    objective: 
+    detail: 
+    position: {x: -276.29, y: -3.99, z: -362.3}
+  - type: 3
+    key: 
+    name: BotZoneArmory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -116.089, y: 0.060213912, z: -339.412}
+  - type: 2
+    key: 
+    name: 16f8ebd0-39b4-4fe2-8128-ed2bc82008a1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -118.109, y: -4.025, z: -401.386}
+  - type: 2
+    key: 
+    name: 1780c396-0394-48cf-8871-a6feae1bc4b7
+    group: 
+    objective: 
+    detail: 
+    position: {x: -170.74, y: -3.99, z: -344.55}
+  - type: 2
+    key: 
+    name: 1d3d7178-c84f-47b2-9ea6-4cd11449dbfa
+    group: 
+    objective: 
+    detail: 
+    position: {x: -115.504, y: -4.039, z: -319.677}
+  - type: 2
+    key: 
+    name: 1d66c992-d022-490d-a451-18d19c284988
+    group: 
+    objective: 
+    detail: 
+    position: {x: -216.856, y: -3.997, z: -386.666}
+  - type: 2
+    key: 
+    name: 223b6e4d-2ead-45eb-ad5f-35abd028d2c3
+    group: 
+    objective: 
+    detail: 
+    position: {x: -206.699, y: 4.1613536, z: -291.862}
+  - type: 2
+    key: 
+    name: 242085cb-6ffa-4aa5-8268-dc8b138c7b74
+    group: 
+    objective: 
+    detail: 
+    position: {x: -118.503, y: -4.025, z: -399.522}
+  - type: 2
+    key: 
+    name: 24453a69-8df7-47cf-8449-b56ef868be5c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -126.86, y: -4.97, z: -266.17}
+  - type: 3
+    key: 
+    name: BotZoneArmory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -134.35501, y: 4.232121, z: -341.102}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -257.95502, y: 0.05000019, z: -385.453}
+  - type: 2
+    key: 
+    name: 293e014a-512d-4fe3-a3fd-1a40611e90da
+    group: 
+    objective: 
+    detail: 
+    position: {x: -118.224, y: -4.015, z: -326.516}
+  - type: 2
+    key: 
+    name: 29b9975d-3abf-4478-affb-cd0d29b4f3a5
+    group: 
+    objective: 
+    detail: 
+    position: {x: -110.12, y: 4.2, z: -413.71}
+  - type: 2
+    key: 
+    name: 2f66dafc-a2f1-4283-a383-aa64c84f6da7
+    group: 
+    objective: 
+    detail: 
+    position: {x: -279.44, y: -3.99, z: -348.87}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -262.57, y: 0.05000019, z: -356.56998}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -259.55, y: 0.05000019, z: -336.33}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -219.66, y: -4.008615, z: -389.026}
+  - type: 2
+    key: 
+    name: 32e05b2a-9847-45b8-b04b-36bafe5879f1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -170.86, y: -3.99, z: -340.1}
+  - type: 2
+    key: 
+    name: 3d6df899-9a65-48d3-9e55-2664c6c6c4c0
+    group: 
+    objective: 
+    detail: 
+    position: {x: -168.21, y: 0.06, z: -417.04}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -279.68, y: 0.097438484, z: -352.99}
+  - type: 2
+    key: 
+    name: 40b7da99-8f93-4ca6-bb33-c94b8a7c92a7
+    group: 
+    objective: 
+    detail: 
+    position: {x: -264.74, y: -3.99, z: -390.32}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -240.575, y: 0.07044677, z: -418.961}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -259.84, y: 0.19503069, z: -350.62997}
+  - type: 2
+    key: 
+    name: 4654cec6-f2e9-4118-830e-d633b39375f4
+    group: 
+    objective: 
+    detail: 
+    position: {x: -219.157, y: -3.997, z: -385.369}
+  - type: 3
+    key: 
+    name: BotZoneFloor1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -191.663, y: -4.0275474, z: -324.248}
+  - type: 3
+    key: 
+    name: BotZoneFloor2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -198.307, y: -5.05, z: -340.15}
+  - type: 2
+    key: 
+    name: 49367d3d-95f6-4b3f-9406-693ab39259bd
+    group: 
+    objective: 
+    detail: 
+    position: {x: -122.74, y: 8.16, z: -333.35}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -213.124, y: 0.05000019, z: -378.75497}
+  - type: 3
+    key: 
+    name: BotZoneFloor1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -202.231, y: 0.05000019, z: -393.88397}
+  - type: 3
+    key: 
+    name: BotZoneGate1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -158.61, y: 1.4500008, z: -253.28}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -279.611, y: 0.05000019, z: -365.44598}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -218.171, y: 0.05000019, z: -419.988}
+  - type: 3
+    key: 
+    name: BotZoneArmory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -170.1, y: 0.05000019, z: -370.66998}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -219.548, y: -4.0087376, z: -387.947}
+  - type: 2
+    key: 
+    name: 5aed643f-3714-49fc-bdf8-00168189da61
+    group: 
+    objective: 
+    detail: 
+    position: {x: -170.58, y: 0.06, z: -416.83}
+  - type: 3
+    key: 
+    name: BotZoneGate1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -182.72, y: 1.4864224, z: -253.56}
+  - type: 3
+    key: 
+    name: BotZoneFloor1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -185.68, y: 0.05000019, z: -359.06998}
+  - type: 2
+    key: 
+    name: 5efaabad-3df0-451c-ae8c-df707c90d24f
+    group: 
+    objective: 
+    detail: 
+    position: {x: -167.87, y: 0.06, z: -419.56}
+  - type: 2
+    key: 
+    name: 5f97a1fc-1cc0-4cb6-85dc-ab20c9d90fea
+    group: 
+    objective: 
+    detail: 
+    position: {x: -278.54, y: -4.03, z: -352}
+  - type: 2
+    key: 
+    name: 5f9d0c13-d935-48f5-9112-0852d8e8d9e0
+    group: 
+    objective: 
+    detail: 
+    position: {x: -125.38, y: -4.97, z: -264.91}
+  - type: 2
+    key: 
+    name: 604f6db8-2519-42b8-8d45-7b1b1290e97d
+    group: 
+    objective: 
+    detail: 
+    position: {x: -257.348, y: 0.031, z: -319.486}
+  - type: 2
+    key: 
+    name: 616552c2-e458-4b8c-b39b-4e26083cd722
+    group: 
+    objective: 
+    detail: 
+    position: {x: -253.22, y: 4.14, z: -282.73}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -265.66998, y: 0.05000019, z: -340.56}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -240.879, y: 0.08323602, z: -423.219}
+  - type: 2
+    key: 
+    name: 63a12c08-6718-4344-b9c4-d9c2b0550faa
+    group: 
+    objective: 
+    detail: 
+    position: {x: -260.981, y: 0.071, z: -321.761}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -239.7, y: 0.054835446, z: -423.27}
+  - type: 3
+    key: 
+    name: BotZoneFloor2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -206.267, y: 1.4500008, z: -290.977}
+  - type: 3
+    key: 
+    name: BotZoneFloor2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -231.636, y: 0.10000038, z: -286.69397}
+  - type: 2
+    key: 
+    name: 666a2681-4a93-4b9c-b96d-a1419149069d
+    group: 
+    objective: 
+    detail: 
+    position: {x: -115.122, y: -4.015, z: -328.625}
+  - type: 2
+    key: 
+    name: 666b38f8-c232-4b2e-994e-ead3b121990c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -219.433, y: -3.997, z: -383.072}
+  - type: 2
+    key: 
+    name: 66ea0d24-890a-4a5b-a0d1-2e13629f26b7
+    group: 
+    objective: 
+    detail: 
+    position: {x: -115.164, y: -4.015, z: -327.156}
+  - type: 2
+    key: 
+    name: 6715c896-cb94-4e04-8cea-06d8dd685f83
+    group: 
+    objective: 
+    detail: 
+    position: {x: -263, y: 0.06, z: -388.23}
+  - type: 2
+    key: 
+    name: 6ac4a2e0-f06e-4098-908f-c04ebfeada8c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -253.24, y: 4.14, z: -279.92}
+  - type: 2
+    key: 
+    name: 6b542eec-7db1-48e5-81ff-32af5b120663
+    group: 
+    objective: 
+    detail: 
+    position: {x: -122.48, y: 8.2, z: -338.15}
+  - type: 2
+    key: 
+    name: 6e2cf61e-85a6-4cfa-b232-ae4cd892e4e0
+    group: 
+    objective: 
+    detail: 
+    position: {x: -115.67, y: 0.01, z: -256.94}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -279.23, y: 0.07234617, z: -349.22998}
+  - type: 2
+    key: 
+    name: 707edb2a-0cbb-4c12-9fc5-49a34af4779d
+    group: 
+    objective: 
+    detail: 
+    position: {x: -266.107, y: 0.027, z: -321.662}
+  - type: 2
+    key: 
+    name: 70a6af86-3b7a-4687-8128-ff324774cf6f
+    group: 
+    objective: 
+    detail: 
+    position: {x: -256.67, y: -3.97, z: -295.16}
+  - type: 3
+    key: 
+    name: BotZoneFloor2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -198.307, y: -4.05, z: -322.68}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -255.632, y: 4.1714287, z: -376.374}
+  - type: 2
+    key: 
+    name: 75febbcd-6f56-495e-a74a-e93f0f8b7827
+    group: 
+    objective: 
+    detail: 
+    position: {x: -269.34, y: -2.06, z: -387.7}
+  - type: 2
+    key: 
+    name: 7a9b1874-adec-4a4a-bcab-04265a114afa
+    group: 
+    objective: 
+    detail: 
+    position: {x: -122.3, y: 8.19, z: -336.07}
+  - type: 3
+    key: 
+    name: BotZoneArmory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -161.77, y: 0.11899759, z: -365.28998}
+  - type: 2
+    key: 
+    name: 7b8911d0-dc36-43f1-9058-451f4cc6f362
+    group: 
+    objective: 
+    detail: 
+    position: {x: -256.56, y: 4.14, z: -282.41}
+  - type: 2
+    key: 
+    name: 7c978d56-01bd-4010-bf0c-80d4b52aba4a
+    group: 
+    objective: 
+    detail: 
+    position: {x: -216.98, y: -3.997, z: -385.218}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -279.611, y: 0.05000019, z: -365.44598}
+  - type: 3
+    key: 
+    name: BotZoneGate1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -226.68, y: 0.10000038, z: -279.617}
+  - type: 3
+    key: 
+    name: BotZoneArmory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -116.011, y: 0.05000019, z: -336.378}
+  - type: 2
+    key: 
+    name: 9174a2bb-e647-40d2-9f27-b02bb4256e5a
+    group: 
+    objective: 
+    detail: 
+    position: {x: -113.01, y: 4.2, z: -416.83}
+  - type: 3
+    key: 
+    name: BotZoneFloor1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -127.768, y: 4.1499996, z: -382.27197}
+  - type: 3
+    key: 
+    name: BotZoneFloor1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -178.15, y: 0.05000019, z: -415.292}
+  - type: 2
+    key: 
+    name: 93e73b75-40f6-48ec-9c41-a722c79b36df
+    group: 
+    objective: 
+    detail: 
+    position: {x: -125.79, y: -4.97, z: -263.38}
+  - type: 2
+    key: 
+    name: 98f72004-624d-4a11-a551-9b5150456369
+    group: 
+    objective: 
+    detail: 
+    position: {x: -134.75, y: -4.97, z: -263.9}
+  - type: 2
+    key: 
+    name: 994bc745-d017-41fe-a2cb-f26d13e016e6
+    group: 
+    objective: 
+    detail: 
+    position: {x: -168.02, y: -3.99, z: -337.48}
+  - type: 2
+    key: 
+    name: 9ad6d872-4797-47a9-a5a6-b4675b478913
+    group: 
+    objective: 
+    detail: 
+    position: {x: -120.62, y: 0.01, z: -253.47}
+  - type: 2
+    key: 
+    name: 9c1654a5-3808-4d52-becd-066428ec0660
+    group: 
+    objective: 
+    detail: 
+    position: {x: -112.04, y: 4.2, z: -413.63}
+  - type: 3
+    key: 
+    name: BotZoneFloor1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -184.597, y: 0.05000019, z: -416.456}
+  - type: 2
+    key: 
+    name: a0fdcb82-40f8-4996-83e5-39389c6b846a
+    group: 
+    objective: 
+    detail: 
+    position: {x: -125.39, y: 4.13, z: -338.41}
+  - type: 3
+    key: 
+    name: BotZoneFloor2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -197.461, y: 4.173475, z: -295.52197}
+  - type: 2
+    key: 
+    name: a55e3167-efff-4d96-807b-1e5de515bcca
+    group: 
+    objective: 
+    detail: 
+    position: {x: -269.88, y: -2.06, z: -390.79}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -275.248, y: 0.05000019, z: -381.09598}
+  - type: 2
+    key: 
+    name: a98ef4db-61cc-4588-a8e8-52e59ce8bace
+    group: 
+    objective: 
+    detail: 
+    position: {x: -205.847, y: 4.1613536, z: -289.085}
+  - type: 2
+    key: 
+    name: ab9fb40e-790c-40f2-aae0-f191aaecbf7e
+    group: 
+    objective: 
+    detail: 
+    position: {x: -252.58, y: -4.02, z: -293.91}
+  - type: 3
+    key: 
+    name: BotZoneFloor2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -198.307, y: -5.05, z: -346.482}
+  - type: 2
+    key: 
+    name: ad74c165-363f-4706-999c-2d33396865e4
+    group: 
+    objective: 
+    detail: 
+    position: {x: -118.55, y: 0.01, z: -252.22}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -266.02, y: 0.071238, z: -346.12}
+  - type: 2
+    key: 
+    name: b71e139d-c363-4b9a-b87e-1a6bef552641
+    group: 
+    objective: 
+    detail: 
+    position: {x: -170.49, y: 0.06, z: -419.39}
+  - type: 2
+    key: 
+    name: b89c86e5-5e60-4f09-96a9-8831685d807c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -205.86, y: 4.1613536, z: -293.588}
+  - type: 3
+    key: 
+    name: BotZoneGate1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -152.83, y: 1.4500008, z: -252.34999}
+  - type: 2
+    key: 
+    name: bcf0ec7f-9673-4fa1-aede-fdc6d6dd616b
+    group: 
+    objective: 
+    detail: 
+    position: {x: -257.18, y: 4.14, z: -280.05}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -244.796, y: -4.035016, z: -414.788}
+  - type: 3
+    key: 
+    name: BotZoneGate1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -116.4, y: 0, z: -256.52}
+  - type: 2
+    key: 
+    name: bf1d14c2-2c9b-4921-8534-76c1ae9430dc
+    group: 
+    objective: 
+    detail: 
+    position: {x: -258.094, y: 0.027, z: -321.203}
+  - type: 3
+    key: 
+    name: BotZoneFloor2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -207.064, y: 4.1499996, z: -295.159}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -253.55899, y: 4.1499996, z: -376.292}
+  - type: 2
+    key: 
+    name: c3a0e266-3318-4db6-9c31-b7b780686ea8
+    group: 
+    objective: 
+    detail: 
+    position: {x: -217.284, y: -3.997, z: -383.273}
+  - type: 2
+    key: 
+    name: c40614b7-e0bc-4a8a-944d-bcaca72a32fb
+    group: 
+    objective: 
+    detail: 
+    position: {x: -269.9, y: -2.06, z: -392.32}
+  - type: 3
+    key: 
+    name: BotZoneFloor2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -208.019, y: 4.1499996, z: -297.85498}
+  - type: 3
+    key: 
+    name: BotZoneBasement
+    group: 
+    objective: 
+    detail: 
+    position: {x: -260.287, y: 0.05000019, z: -390.578}
+  - type: 2
+    key: 
+    name: c7d01076-c9a0-4162-923e-bb2f51248500
+    group: 
+    objective: 
+    detail: 
+    position: {x: -170.8, y: -3.99, z: -342.4}
+  - type: 3
+    key: 
+    name: BotZoneFloor1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -141.906, y: -4.05, z: -416.66898}
+  - type: 2
+    key: 
+    name: c9cb436b-9821-44ef-8ac8-fbef720f45d8
+    group: 
+    objective: 
+    detail: 
+    position: {x: -171.01, y: -3.99, z: -337.56}
+  - type: 3
+    key: 
+    name: BotZoneGate1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -172.95, y: 0.07562107, z: -253.32999}
+  - type: 2
+    key: 
+    name: cf866867-a4ba-4355-bfac-198ca52e755c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -251.1, y: -3.98, z: -296.64}
+  - type: 2
+    key: 
+    name: cfd895b4-b565-4c8a-a10b-ac2058b019af
+    group: 
+    objective: 
+    detail: 
+    position: {x: -127.46, y: 6.18, z: -333.57}
+  - type: 3
+    key: 
+    name: BotZoneArmory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -174.89, y: 0.05000019, z: -368.53998}
+  - type: 2
+    key: 
+    name: d188e22c-8216-4371-b9af-8e900e372ea3
+    group: 
+    objective: 
+    detail: 
+    position: {x: -250.03, y: -4.01, z: -293.72}
+  - type: 2
+    key: 
+    name: d7eb2d80-10a1-48e1-b214-d7cac5eff13a
+    group: 
+    objective: 
+    detail: 
+    position: {x: -207.754, y: 4.1613536, z: -295.225}
+  - type: 2
+    key: 
+    name: db3d7424-1f39-4e33-b4d2-26821477c010
+    group: 
+    objective: 
+    detail: 
+    position: {x: -206.7, y: 4.1613536, z: -290.493}
+  - type: 3
+    key: 
+    name: BotZoneFloor1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -205.29, y: 0.05000019, z: -390.55}
+  - type: 2
+    key: 
+    name: dd19a5a1-b24b-4b4c-b0ff-12567bc35c48
+    group: 
+    objective: 
+    detail: 
+    position: {x: -166.67, y: 0.06, z: -416.11}
+  - type: 7
+    key: 6a91840a740be0cff50e0310
+    name: Preliminary Survey
+    group: "\uB808\uD504"
+    objective: 6a91bfe6964adc01452f2a42
+    detail: "\uC2E4\uD5D8 \uAD6C\uC5ED \uCCAD\uC0AC\uC9C4\uC774 \uB2F4\uAE34 USB"
+    position: {x: -167.97823, y: 1.01725, z: -359.4274}
+  - type: 7
+    key: 666314b696a9349baa021bac
+    name: Quality Standard
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6672e47f25ab92726912c3e5
+    detail: "LEDX \uD608\uAD00 \uD22C\uACFC\uC870\uBA85\uAE30 (\uBBF8\uAD6D \uBC84\uC804)"
+    position: {x: -173.7443, y: 1.2538, z: -374.4323}
+  - type: 6
+    key: 66aba85403e0ee3101042877
+    name: Beneath The Streets
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 66b090f5723e7bbe8b518ca8
+    detail: "\uC5F0\uAD6C\uC18C \uC11C\uBC84\uC2E4 \uC815\uCC30\uD558\uAE30 (\uD55C
+      \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
+    position: {x: -127.06, y: 5.22, z: -309.28}
+  - type: 6
+    key: 66aba85403e0ee3101042877
+    name: Beneath The Streets
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 66aba97b1000025218c82ea8
+    detail: "\uC5F0\uAD6C\uC18C\uC5D0\uC11C \uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uB85C
+      \uC774\uC5B4\uC9C0\uB294 \uD1B5\uB85C \uCC3E\uAE30 (\uD55C \uB808\uC774\uB4DC
+      \uC548\uC5D0\uC11C)"
+    position: {x: -169.96, y: 0.91, z: -419.24}
+  - type: 6
+    key: 66aba85403e0ee3101042877
+    name: Beneath The Streets
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 66b0910951c5294b9d213918
+    detail: "\uC5F0\uAD6C\uC18C \uC704\uD5D8 \uB3D4 \uC815\uCC30\uD558\uAE30 (\uD55C
+      \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
+    position: {x: -172.44, y: 1.12, z: -370.93}
+  - type: 6
+    key: 66aba85403e0ee3101042877
+    name: Beneath The Streets
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 66b10eef0951e90ec383850b
+    detail: "\uC5F0\uAD6C\uC18C \uC81C\uC5B4\uC2E4 \uC815\uCC30\uD558\uAE30 (\uD55C
+      \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
+    position: {x: -170.76, y: 5.11, z: -283.12}
+  - type: 6
+    key: 669fa3a3ad7f1eac2607ed48
+    name: Health Care Privacy - Part 6
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6a6070549ba7daf0a3ca7ae9
+    detail: "\uC5F0\uAD6C\uC18C \uC0AC\uB2C8\uD0C0\uB974\uC758 \uC0AC\uBB34\uC2E4\uC5D0
+      \uD608\uC561 \uC0D8\uD50C \uC228\uAE30\uAE30"
+    position: {x: -131.95, y: 5.41, z: -336.87}
+  - type: 6
+    key: 669fa3a3ad7f1eac2607ed48
+    name: Health Care Privacy - Part 6
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6a6070549ba7daf0a3ca7ae9
+    detail: "\uC5F0\uAD6C\uC18C \uC0AC\uB2C8\uD0C0\uB974\uC758 \uC0AC\uBB34\uC2E4\uC5D0
+      \uD608\uC561 \uC0D8\uD50C \uC228\uAE30\uAE30"
+    position: {x: -131.95, y: 5.41, z: -336.87}
+  - type: 7
+    key: 5edac63b930f5454f51e128b
+    name: TerraGroup Employee
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 5eff5674befb6436ce3bbaf7
+    detail: "\uD30C\uB780\uC0C9 \uD14C\uC774\uD504\uB85C \uD45C\uC2DC\uB41C \uD50C\uB798\uC2DC
+      \uB4DC\uB77C\uC774\uBE0C"
+    position: {x: -133.0114, y: 5.0157, z: -335.2083}
+  - type: 6
+    key: 5edac63b930f5454f51e128b
+    name: TerraGroup Employee
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 5eec9d054110547f1f545c99
+    detail: "\uC5F0\uAD6C\uC18C(The Lab)\uC5D0\uC11C \uC138\uB2C8\uD0C0\uC758 \uC791\uC5C5
+      \uACF5\uAC04 \uCC3E\uAE30"
+    position: {x: -131.95, y: 5.41, z: -336.87}
+  - type: 6
+    key: 639670029113f06a7c3b2377
+    name: Following the Bread Crumbs
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 63a7cf9f04d3dc28a52a20fa
+    detail: "\uC5F0\uAD6C\uC18C(The Lab)\uC758 \uBB34\uAE30 \uC2E4\uD5D8\uC2E4 \uC218\uC0C9\uD558\uAE30"
+    position: {x: -182.87, y: 1.29, z: -312.88}
+  - type: 6
+    key: 639670029113f06a7c3b2377
+    name: Following the Bread Crumbs
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 63a7cfe104d3dc28a52a20fc
+    detail: "\uC5F0\uAD6C\uC18C(The Lab)\uC758 \uC784\uC0C1 \uC2E4\uD5D8\uC2E4 \uC218\uC0C9\uD558\uAE30"
+    position: {x: -131.54, y: 1, z: -357.84}
+  - type: 7
+    key: 639670029113f06a7c3b2377
+    name: Following the Bread Crumbs
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 639ae49a5e3c9b787264d675
+    detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
+    position: {x: -169.11845, y: 5.15173, z: -342.1145}
+  - type: 7
+    key: 639670029113f06a7c3b2377
+    name: Following the Bread Crumbs
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 639ae49a5e3c9b787264d675
+    detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
+    position: {x: -178.46817, y: 4.99133, z: -343.61017}
+  - type: 7
+    key: 639670029113f06a7c3b2377
+    name: Following the Bread Crumbs
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 639ae49a5e3c9b787264d675
+    detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
+    position: {x: -167.89156, y: 4.13383, z: -343.64188}
+  - type: 7
+    key: 639670029113f06a7c3b2377
+    name: Following the Bread Crumbs
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 639ae49a5e3c9b787264d675
+    detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
+    position: {x: -170.75114, y: 5.1389303, z: -343.6096}
+  - type: 7
+    key: 639670029113f06a7c3b2377
+    name: Following the Bread Crumbs
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 639ae49a5e3c9b787264d675
+    detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
+    position: {x: -178.30911, y: 4.99103, z: -344.88052}
+  - type: 7
+    key: 639670029113f06a7c3b2377
+    name: Following the Bread Crumbs
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 639ae49a5e3c9b787264d675
+    detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
+    position: {x: -163.07448, y: 4.7945304, z: -342.11642}
+  - type: 7
+    key: 639670029113f06a7c3b2377
+    name: Following the Bread Crumbs
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 639ae49a5e3c9b787264d675
+    detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
+    position: {x: -160.83812, y: 4.5300303, z: -340.5346}
+  - type: 7
+    key: 639670029113f06a7c3b2377
+    name: Following the Bread Crumbs
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 639ae49a5e3c9b787264d675
+    detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
+    position: {x: -161.39708, y: 4.80383, z: -346.8847}
+  quests:
+  - key: 6a91840a740be0cff50e0310
+    name: Preliminary Survey
+    trader: "\uB808\uD504"
+    objectives:
+    - id: 6a91bfe6964adc01452f2a42
+      description: "\uC5F0\uAD6C\uC18C\uC5D0\uC11C \uC2E4\uD5D8 \uAD6C\uC5ED \uC124\uACC4\uB3C4
+        \uD50C\uB798\uC2DC \uB4DC\uB77C\uC774\uBE0C \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a91c02d74fa5c3dba8025fe
+      description: "\uC5F0\uAD6C\uC18C\uC5D0\uC11C \uC2E4\uD5D8 \uAD6C\uC5ED \uC124\uACC4\uB3C4
+        \uD50C\uB798\uC2DC \uB4DC\uB77C\uC774\uBE0C \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 666314b696a9349baa021bac
+    name: Quality Standard
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 6672e47f25ab92726912c3e5
+      description: "\uC5F0\uAD6C\uC18C\uC5D0\uC11C \uD2B9\uC218 \uBC84\uC804 LEDX
+        \uD53C\uBD80 \uD22C\uC2DC\uAE30\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6672e49679243c500ec02c2e
+      description: "\uCC3E\uC740 \uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 66aba85403e0ee3101042877
+    name: Beneath The Streets
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 66aba85403e0ee310104287a
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC5F0\uAD6C\uC18C\uB85C
+        \uD2B8\uB79C\uC9D3 \uC774\uC6A9\uD558\uAE30 (\uD55C \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
+      optional: 0
+      thisMap: 0
+    - id: 66b090f5723e7bbe8b518ca8
+      description: "\uC5F0\uAD6C\uC18C \uC11C\uBC84\uC2E4 \uC815\uCC30\uD558\uAE30
+        (\uD55C \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
+      optional: 0
+      thisMap: 1
+    - id: 66aba85403e0ee3101042878
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC5F0\uAD6C\uC18C\uB85C
+        \uC774\uC5B4\uC9C0\uB294 \uD1B5\uB85C \uCC3E\uAE30 (\uD55C \uB808\uC774\uB4DC
+        \uC548\uC5D0\uC11C)"
+      optional: 1
+      thisMap: 0
+    - id: 66aba97b1000025218c82ea8
+      description: "\uC5F0\uAD6C\uC18C\uC5D0\uC11C \uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uB85C
+        \uC774\uC5B4\uC9C0\uB294 \uD1B5\uB85C \uCC3E\uAE30 (\uD55C \uB808\uC774\uB4DC
+        \uC548\uC5D0\uC11C)"
+      optional: 1
+      thisMap: 1
+    - id: 66b0910951c5294b9d213918
+      description: "\uC5F0\uAD6C\uC18C \uC704\uD5D8 \uB3D4 \uC815\uCC30\uD558\uAE30
+        (\uD55C \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
+      optional: 0
+      thisMap: 1
+    - id: 66b10eef0951e90ec383850b
+      description: "\uC5F0\uAD6C\uC18C \uC81C\uC5B4\uC2E4 \uC815\uCC30\uD558\uAE30
+        (\uD55C \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
+      optional: 0
+      thisMap: 1
+  - key: 669fa3a3ad7f1eac2607ed48
+    name: Health Care Privacy - Part 6
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 66a0f391676953651bd8b796
+      description: "\uACF5\uC7A5\uC5D0\uC11C \uC8FD\uC740 \uB178\uB3D9\uC790\uB97C
+        \uCC3E\uC544 \uD608\uC561 \uC0D8\uD50C \uCC44\uCDE8\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 6a60703aaa77a4b86e07aa3b
+      description: "\uB808\uC774\uB4DC\uC5D0\uC11C \uCC3E\uC740 \uC544\uC774\uD15C
+        \uAC74\uB124\uC8FC\uAE30: LEDX \uD53C\uBD80 \uD22C\uC2DC\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 6a6070549ba7daf0a3ca7ae9
+      description: "\uC5F0\uAD6C\uC18C \uC0AC\uB2C8\uD0C0\uB974\uC758 \uC0AC\uBB34\uC2E4\uC5D0
+        \uD608\uC561 \uC0D8\uD50C \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 5edac63b930f5454f51e128b
+    name: TerraGroup Employee
+    trader: "\uD53C\uC2A4\uD0A4\uD37C"
+    objectives:
+    - id: 5eff5674befb6436ce3bbaf7
+      description: "\uC138\uB2C8\uD0C0\uC758 \uC791\uC5C5\uC5D0 \uB300\uD55C \uC815\uBCF4
+        \uC785\uC218\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5eec9d054110547f1f545c99
+      description: "\uC5F0\uAD6C\uC18C(The Lab)\uC5D0\uC11C \uC138\uB2C8\uD0C0\uC758
+        \uC791\uC5C5 \uACF5\uAC04 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 5edac8483c809a44ef12b4d2
+      description: "[\uD30C\uB780\uC0C9 \uD14C\uC774\uD504\uB85C \uD45C\uC2DC\uB41C
+        \uD50C\uB798\uC2DC \uB4DC\uB77C\uC774\uBE0C] \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 639670029113f06a7c3b2377
+    name: Following the Bread Crumbs
+    trader: "\uB4F1\uB300\uC9C0\uAE30"
+    objectives:
+    - id: 639adf3edbf1d842d260cda6
+      description: "\uC5F0\uAD6C\uC18C(The lab)\uC5D0\uC11C \uC544\uBB34 \uD45C\uC801
+        \uC0AC\uC0B4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63a7cf9f04d3dc28a52a20fa
+      description: "\uC5F0\uAD6C\uC18C(The Lab)\uC758 \uBB34\uAE30 \uC2E4\uD5D8\uC2E4
+        \uC218\uC0C9\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63a7cfe104d3dc28a52a20fc
+      description: "\uC5F0\uAD6C\uC18C(The Lab)\uC758 \uC784\uC0C1 \uC2E4\uD5D8\uC2E4
+        \uC218\uC0C9\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639ae49a5e3c9b787264d675
+      description: "\uC5F0\uAD6C\uC18C(The Lab)\uC758 \uB9E4\uB2C8\uC800 \uC0AC\uBB34\uC2E4\uC5D0\uC11C
+        \uBCF4\uC548 \uD14C\uC774\uD504 \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639ae5445b201a534f436ef3
+      description: "\uBC1C\uACAC\uD55C \uD14C\uC774\uD504\uB97C \uB4F1\uB300\uC9C0\uAE30\uC5D0\uAC8C
+        \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0

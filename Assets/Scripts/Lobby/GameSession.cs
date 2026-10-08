@@ -8,6 +8,7 @@ public enum PlayerSide
 public static class GameSession
 {
     public static MapConfig Map;
+    public static string MapPath;   // MapCatalog.Entry.configPath (로비 선택 복원용)
     public static PlayerSide Side = PlayerSide.Pmc;
 
     // 로비를 거치지 않고 맵 씬을 바로 실행하면 false

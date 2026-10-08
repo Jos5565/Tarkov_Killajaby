@@ -1,0 +1,4968 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c2e9a4b1d3f4a6e8b5c0d2f9e1a3b7c, type: 3}
+  m_Name: streets-of-tarkov_markers
+  m_EditorClassIdentifier: Assembly-CSharp::MapMarkerData
+  mapNormalizedName: streets-of-tarkov
+  gameMode: pve
+  language: ko
+  downloadedAt: 2026-10-08 17:48
+  markers:
+  - type: 0
+    key: 
+    name: Collapsed Crane
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 216.12, y: 3.44, z: 272.7}
+  - type: 0
+    key: 
+    name: Crash Site
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 312.74, y: 6.8, z: 405.96}
+  - type: 0
+    key: 
+    name: Damaged House
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -245.41, y: 6.17, z: 344.82}
+  - type: 8
+    key: 
+    name: Cardinal Apartment Complex Parking
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 104.84, y: 0.13, z: -161.17}
+  - type: 8
+    key: 
+    name: Entrance to Catacombs
+    group: 
+    objective: 
+    detail: scav
+    position: {x: -249.01, y: 2.57, z: 243.8}
+  - type: 9
+    key: 
+    name: Pinewood Basement (Co-Op)
+    group: 
+    objective: 
+    detail: shared
+    position: {x: -114.28, y: -2.05, z: 64.88}
+  - type: 8
+    key: 
+    name: Klimov Shopping Mall Exfil
+    group: 
+    objective: 
+    detail: scav
+    position: {x: -163.82, y: 1.59, z: -5.66}
+  - type: 0
+    key: 
+    name: Stylobate Building Elevator
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -44.74, y: 11.04, z: -72.15}
+  - type: 0
+    key: 
+    name: "Klimov Street (\uC870\uBA85\uD0C4 \uD0C8\uCD9C\uAD6C)"
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -263.41, y: 6.5, z: 43.19}
+  - type: 8
+    key: 
+    name: Near Kamchatskaya Arch
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 259.57, y: -3.93, z: 48.72}
+  - type: 0
+    key: 
+    name: Courtyard
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -150.51, y: 2.55, z: 500.13}
+  - type: 8
+    key: 
+    name: Ventilation Shaft
+    group: 
+    objective: 
+    detail: scav
+    position: {x: -124.13, y: 3.11, z: 423.93}
+  - type: 0
+    key: 
+    name: Expo Checkpoint
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 213.12, y: -0.74, z: -104.96}
+  - type: 0
+    key: 
+    name: Smugglers' Basement
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 75.99, y: -0.6, z: 50.01}
+  - type: 0
+    key: 
+    name: Sewer River
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -267.04, y: -1.53, z: 219.48}
+  - type: 0
+    key: 
+    name: Scav Checkpoint
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 211.34, y: -8.16, z: 82.31}
+  - type: 0
+    key: 
+    name: Primorsky Ave Taxi V-Ex
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -2.19, y: 3.2, z: 461.23}
+  - type: 8
+    key: 
+    name: Sewer Manhole
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 276.11, y: 5.36, z: 345.39}
+  - type: 8
+    key: 
+    name: Basement Entrance
+    group: 
+    objective: 
+    detail: scav
+    position: {x: -249.01, y: 2.57, z: 243.8}
+  - type: 1
+    key: 
+    name: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C\uB85C \uC774\uB3D9"
+    group: 
+    objective: 
+    detail: 
+    position: {x: -258.04, y: 3.19, z: 104.69}
+  - type: 1
+    key: 
+    name: "\uC778\uD130\uCCB4\uC778\uC9C0\uB85C \uC774\uB3D9"
+    group: 
+    objective: 
+    detail: 
+    position: {x: 290.55, y: 4.39, z: 501.98}
+  - type: 1
+    key: 
+    name: "\uC5F0\uAD6C\uC18C\uB85C \uC774\uB3D9"
+    group: 
+    objective: 
+    detail: 
+    position: {x: 209.52, y: -7.38, z: 82.4}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 269.852, y: -1.2470055, z: 381.269}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneClimova)
+    position: {x: -155.72, y: 0.66413015, z: -58.129997}
+  - type: 2
+    key: 
+    name: 04a5be55-bcdf-4eec-8820-9cbc932b9e5d
+    group: 
+    objective: 
+    detail: 
+    position: {x: -174.294, y: 1.218, z: 107.643}
+  - type: 2
+    key: 
+    name: 0501efa3-1bf3-4836-bbd1-a93a5b88a1de
+    group: 
+    objective: 
+    detail: 
+    position: {x: 104.25, y: -1.854, z: -162.48}
+  - type: 2
+    key: 
+    name: 05888ea1-729f-4504-92cb-6aafeab3ab90
+    group: 
+    objective: 
+    detail: 
+    position: {x: -178.03, y: 1.218, z: 107.92}
+  - type: 2
+    key: 
+    name: 05ab601e-69c1-4f76-973b-b4edbe942d91
+    group: 
+    objective: 
+    detail: 
+    position: {x: 272, y: -1.16, z: 374.65}
+  - type: 2
+    key: 
+    name: 06902445-011a-425e-9e7f-37ef08b233e6
+    group: 
+    objective: 
+    detail: 
+    position: {x: 45.106, y: 2.717, z: 413.596}
+  - type: 5
+    key: 
+    name: Kaban
+    group: 
+    objective: 
+    detail: Kaban 75% (ZoneCarShowroom)
+    position: {x: 85.81, y: 5.3829956, z: 348.52}
+  - type: 3
+    key: 
+    name: ZoneConstruction
+    group: 
+    objective: 
+    detail: 
+    position: {x: 204.5, y: 3.9689147, z: 297.93}
+  - type: 2
+    key: 
+    name: 0a473e0c-93a9-466d-b5f3-94e750d3a9f8
+    group: 
+    objective: 
+    detail: 
+    position: {x: -204.056, y: 3.367, z: 179.404}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 79.89801, y: 0.8953247, z: 165.156}
+  - type: 4
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -147.78, y: 14.205997, z: -7.2299995}
+  - type: 2
+    key: 
+    name: 0b5ca4c6-b704-4c25-8eac-32bd0626e7f9
+    group: 
+    objective: 
+    detail: 
+    position: {x: -205.115, y: 3.367, z: 182.111}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneMvd)
+    position: {x: -86.032, y: 1.4559975, z: 178.024}
+  - type: 2
+    key: 
+    name: 0d680d0f-f544-4977-89a1-a9c0cadf966c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -193.63, y: 3.137, z: 346.516}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 235.6, y: 0.4588127, z: 213.8}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 164.55402, y: 0.60338974, z: 138.12}
+  - type: 2
+    key: 
+    name: 10399f48-cbd0-4194-8ae4-6f6394b0c5a9
+    group: 
+    objective: 
+    detail: 
+    position: {x: 211.97, y: 0.444, z: 345.289}
+  - type: 2
+    key: 
+    name: 107db8fa-41d9-4e3d-8e99-dbb45658e2e4
+    group: 
+    objective: 
+    detail: 
+    position: {x: 231.32, y: 3.49, z: 410.43}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -47.515, y: 0.6508289, z: -67.681}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 76.42502, y: -0.79987335, z: 86.182}
+  - type: 2
+    key: 
+    name: 1245752e-ab3c-49f7-ba1f-dd1aaa83785d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 154.142, y: 3.624, z: 428.129}
+  - type: 2
+    key: 
+    name: 1287b564-ad87-4eba-bb77-7df3118189e8
+    group: 
+    objective: 
+    detail: 
+    position: {x: -47.652, y: 0.668, z: -65.516}
+  - type: 2
+    key: 
+    name: 12d298ce-2caf-4cd0-bdd4-068955709b90
+    group: 
+    objective: 
+    detail: 
+    position: {x: -226.153, y: 5.226, z: 280.783}
+  - type: 2
+    key: 
+    name: 12f7336a-8d9b-4e64-81e0-cdb95bbd2330
+    group: 
+    objective: 
+    detail: 
+    position: {x: 155.767, y: 3.624, z: 428.614}
+  - type: 5
+    key: 
+    name: Kaban
+    group: 
+    objective: 
+    detail: Kaban 75% (ZoneCarShowroom)
+    position: {x: 78.042, y: 2.8029969, z: 286.172}
+  - type: 2
+    key: 
+    name: 167d0b26-3dc4-422d-8b8a-f43d59115bb4
+    group: 
+    objective: 
+    detail: 
+    position: {x: 234.745, y: -2.049, z: -103.385}
+  - type: 2
+    key: 
+    name: 17379f67-5ac2-49a7-8edf-2a13128d9b9a
+    group: 
+    objective: 
+    detail: 
+    position: {x: -242.591, y: 3.685, z: 242.089}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -50.032, y: 5.1279945, z: -62.1}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 171.99301, y: 0.5811157, z: 153.186}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 58.914, y: 2.6289978, z: 324.237}
+  - type: 2
+    key: 
+    name: 18a02917-11cb-4fc0-836a-532fd3e91c19
+    group: 
+    objective: 
+    detail: 
+    position: {x: -50.879, y: 0.668, z: -67.271}
+  - type: 3
+    key: 
+    name: ZoneSnipeCarShowroom
+    group: 
+    objective: 
+    detail: 
+    position: {x: 55.02, y: 11.9109955, z: 297.38}
+  - type: 3
+    key: 
+    name: ZoneConcordia_1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 142.39, y: 3.4959946, z: 361.571}
+  - type: 2
+    key: 
+    name: 1a08013a-1304-4651-9c1a-8d0ac2a4a86a
+    group: 
+    objective: 
+    detail: 
+    position: {x: -178.507, y: 2.451, z: 415.023}
+  - type: 3
+    key: 
+    name: ZoneFactory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -96.61, y: 0.8015166, z: 83.229996}
+  - type: 2
+    key: 
+    name: 1b335cd7-9e7e-4f99-aa58-509d0f37bc76
+    group: 
+    objective: 
+    detail: 
+    position: {x: -14.886, y: 2.763, z: -139.338}
+  - type: 2
+    key: 
+    name: 1bd037a5-cfc2-4b7e-9423-23b88f32e072
+    group: 
+    objective: 
+    detail: 
+    position: {x: 53.22, y: 4.531, z: -132.52}
+  - type: 3
+    key: 
+    name: ZoneConstruction
+    group: 
+    objective: 
+    detail: 
+    position: {x: 226.77002, y: 0.5095291, z: 218.89}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneMvd)
+    position: {x: -35.53, y: 1.404995, z: 156.55}
+  - type: 2
+    key: 
+    name: 1cef1f99-a6b4-44c4-8589-1583db4e8223
+    group: 
+    objective: 
+    detail: 
+    position: {x: 166.96, y: -1.451, z: -132.76}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 189.16, y: 1.5685272, z: 206.87}
+  - type: 2
+    key: 
+    name: 1efb58f4-2e66-472e-a12f-0bbd002b0271
+    group: 
+    objective: 
+    detail: 
+    position: {x: 228.885, y: 4.007, z: 176.279}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: -192.37, y: 8.646996, z: 421.58}
+  - type: 2
+    key: 
+    name: 2005951f-e37f-49ce-aecf-a237b8118788
+    group: 
+    objective: 
+    detail: 
+    position: {x: -152.333, y: 0.736, z: -66.574}
+  - type: 2
+    key: 
+    name: 219a91b0-2629-4f7d-ab0d-bbd0d9b42a4c
+    group: 
+    objective: 
+    detail: 
+    position: {x: 53.182, y: 4.531, z: -138.587}
+  - type: 2
+    key: 
+    name: 2275bfb5-b4d5-4b5c-b286-78173816879a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 186.85, y: 3.529, z: 460.53}
+  - type: 2
+    key: 
+    name: 25395e8d-2b9d-4cef-a826-d13bf058db65
+    group: 
+    objective: 
+    detail: 
+    position: {x: -77.602, y: 3.235, z: 336.713}
+  - type: 2
+    key: 
+    name: 271b1f15-52d5-4bc6-8a0a-d61df33b3b6a
+    group: 
+    objective: 
+    detail: 
+    position: {x: -76.262, y: 3.337, z: 336.625}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneClimova)
+    position: {x: -123.55, y: 5.1279945, z: -31.509998}
+  - type: 3
+    key: 
+    name: ZoneConstruction
+    group: 
+    objective: 
+    detail: 
+    position: {x: 214.818, y: 3.3117442, z: 329.919}
+  - type: 2
+    key: 
+    name: 2826668e-aa2d-43ce-a598-653e61ebf136
+    group: 
+    objective: 
+    detail: 
+    position: {x: 211.022, y: 0.465, z: 346.075}
+  - type: 2
+    key: 
+    name: 28607dcc-29f6-4643-8e5a-95ef53bc671c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -65.728, y: 2.699, z: 457.559}
+  - type: 2
+    key: 
+    name: 2a6000c4-02ec-46ee-a21a-990e1d84f0be
+    group: 
+    objective: 
+    detail: 
+    position: {x: 231.865, y: -2.049, z: -106.136}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 195.24002, y: 0.98093414, z: 221.27}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 81.32602, y: 0.7583885, z: 163.591}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 212.68, y: -1.1960068, z: 350.13}
+  - type: 2
+    key: 
+    name: 2e38116e-0f05-46c7-b5eb-5f6d4ff9870c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -226.569, y: 5.26, z: 279.065}
+  - type: 2
+    key: 
+    name: 2e8b82e3-e0c5-4bd4-8ff7-de8699361df4
+    group: 
+    objective: 
+    detail: 
+    position: {x: -181.525, y: 2.451, z: 415.068}
+  - type: 2
+    key: 
+    name: 2ece89c9-3495-4949-8cb6-7cfea7d1cd14
+    group: 
+    objective: 
+    detail: 
+    position: {x: -227.27, y: 5.226, z: 282.533}
+  - type: 5
+    key: 
+    name: Kaban
+    group: 
+    objective: 
+    detail: Kaban 75% (ZoneCarShowroom)
+    position: {x: 76.327, y: 2.7819977, z: 288.368}
+  - type: 2
+    key: 
+    name: 2fc33a07-c820-4231-8c71-7ee2d15bffac
+    group: 
+    objective: 
+    detail: 
+    position: {x: -230.641, y: 2.196, z: 342.45}
+  - type: 3
+    key: 
+    name: ZoneSnipeCarShowroom
+    group: 
+    objective: 
+    detail: 
+    position: {x: 58.61, y: 11.9109955, z: 309.91}
+  - type: 2
+    key: 
+    name: 30664683-20c7-4607-b647-0234998043ba
+    group: 
+    objective: 
+    detail: 
+    position: {x: -106.422, y: 0.662, z: -29.223}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -1.164, y: -3.6950035, z: -4.179001}
+  - type: 2
+    key: 
+    name: 31bc90ef-ca4d-44ca-9227-95b4455dc973
+    group: 
+    objective: 
+    detail: 
+    position: {x: 221.598, y: 3.9490001, z: 175.266}
+  - type: 2
+    key: 
+    name: 3295124a-45ef-49df-955c-ea3f0edc3176
+    group: 
+    objective: 
+    detail: 
+    position: {x: -161.686, y: 3.221, z: 180.655}
+  - type: 2
+    key: 
+    name: 3413b03c-3714-49a4-bc83-2a69ab0b8780
+    group: 
+    objective: 
+    detail: 
+    position: {x: -203.631, y: 3.367, z: 180.776}
+  - type: 3
+    key: 
+    name: ZoneStilo
+    group: 
+    objective: 
+    detail: 
+    position: {x: -159.77, y: 0.6399956, z: -21.029999}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 39.257, y: 2.8534644, z: 200.375}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 164.55402, y: 0.60338974, z: 138.12}
+  - type: 2
+    key: 
+    name: 36778f65-4800-487e-ac44-76ca7a83f631
+    group: 
+    objective: 
+    detail: 
+    position: {x: -234.277, y: 2.196, z: 342.105}
+  - type: 2
+    key: 
+    name: 371e8b55-30cf-4c18-934a-992379885884
+    group: 
+    objective: 
+    detail: 
+    position: {x: -176.32, y: 1.218, z: 106.89}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: -52.284, y: -0.12500381, z: 386.267}
+  - type: 2
+    key: 
+    name: 398789eb-8b7e-4086-a9d5-cede075ab2bb
+    group: 
+    objective: 
+    detail: 
+    position: {x: -58.333, y: 3.214, z: -145.348}
+  - type: 2
+    key: 
+    name: 3a34012c-b699-44bc-8ae1-7a0488415136
+    group: 
+    objective: 
+    detail: 
+    position: {x: 99.03, y: -1.854, z: -158.78}
+  - type: 2
+    key: 
+    name: 3aa1c925-8e2c-48c3-8ff8-ce33fffe2b11
+    group: 
+    objective: 
+    detail: 
+    position: {x: 187.061, y: 1.574, z: 189.557}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: -135.905, y: 2.322998, z: 395.469}
+  - type: 3
+    key: 
+    name: ZoneConcordia_1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 142.932, y: 6.5049973, z: 361.238}
+  - type: 2
+    key: 
+    name: 3b977795-5b4f-4867-bab7-dffdc5320bc3
+    group: 
+    objective: 
+    detail: 
+    position: {x: 186.79, y: 3.529, z: 454.4}
+  - type: 2
+    key: 
+    name: 3c56f309-080b-405e-95e5-f13d89cf60cb
+    group: 
+    objective: 
+    detail: 
+    position: {x: 184.824, y: 2.528, z: 186.987}
+  - type: 2
+    key: 
+    name: 3d02ec19-a787-4822-9409-3bcdbcccc1b8
+    group: 
+    objective: 
+    detail: 
+    position: {x: 43.754, y: 2.717, z: 416.533}
+  - type: 2
+    key: 
+    name: 3d43fbb2-6511-46be-bc71-21525f91e214
+    group: 
+    objective: 
+    detail: 
+    position: {x: 168.3, y: -1.451, z: -130.72}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -16.872, y: 2.6551585, z: 242.265}
+  - type: 2
+    key: 
+    name: 3d7afaaa-4230-4fed-b71f-899ea57c6931
+    group: 
+    objective: 
+    detail: 
+    position: {x: -81.37, y: 3.296, z: 338.106}
+  - type: 2
+    key: 
+    name: 3e1d3537-1dbe-4871-8a7d-5354ddd07c24
+    group: 
+    objective: 
+    detail: 
+    position: {x: -203.697, y: 3.367, z: 182.271}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 38.39, y: 2.1699982, z: 194.976}
+  - type: 2
+    key: 
+    name: 409b0348-9e5c-4073-8ecc-f1fa5f221156
+    group: 
+    objective: 
+    detail: 
+    position: {x: 170.335, y: -1.451, z: -129.286}
+  - type: 2
+    key: 
+    name: 40de2598-4516-4b54-b0ca-8866728ddcc7
+    group: 
+    objective: 
+    detail: 
+    position: {x: -61.464, y: 2.699, z: 457.351}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 164.28001, y: 0.5776901, z: 136.68}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: -12.53, y: 2.640181, z: 231.915}
+  - type: 5
+    key: 
+    name: Kaban
+    group: 
+    objective: 
+    detail: Kaban 75% (ZoneCarShowroom)
+    position: {x: 101.45, y: 5.0385184, z: 312.85}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: -162, y: 2.2209969, z: 289.52}
+  - type: 2
+    key: 
+    name: 45572c34-7047-4740-8003-f2adef7853aa
+    group: 
+    objective: 
+    detail: 
+    position: {x: 102.07, y: -1.854, z: -158.58}
+  - type: 2
+    key: 
+    name: 45740b7d-5e9b-4c24-99c7-8a605d06d4f9
+    group: 
+    objective: 
+    detail: 
+    position: {x: -176.05, y: 1.218, z: 108.38}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 216.15001, y: -4.5195694, z: 30.71}
+  - type: 2
+    key: 
+    name: 472b64df-bcd9-4b07-be0b-d3689d2a7414
+    group: 
+    objective: 
+    detail: 
+    position: {x: 274.053, y: 4.782, z: 518.326}
+  - type: 3
+    key: 
+    name: ZoneConstruction
+    group: 
+    objective: 
+    detail: 
+    position: {x: 236.81001, y: 0.4869957, z: 216.9}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneMvd)
+    position: {x: -69.316, y: 1.4559975, z: 156.097}
+  - type: 2
+    key: 
+    name: 486f9efd-68cc-44af-8d6e-77d2a0fe5b64
+    group: 
+    objective: 
+    detail: 
+    position: {x: -155.781, y: 9.671, z: -26.933}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: -134.383, y: 2.322998, z: 395.888}
+  - type: 2
+    key: 
+    name: 49e573ab-b639-4401-beef-840a4179129a
+    group: 
+    objective: 
+    detail: 
+    position: {x: -195.947, y: 4.993, z: 389.306}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: -171.35, y: 2.2666585, z: 285.08}
+  - type: 2
+    key: 
+    name: 4a1ab513-ad4c-4197-a175-cce91769ef1d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 275.417, y: 4.782, z: 516.126}
+  - type: 2
+    key: 
+    name: 4ac09365-f5d1-45a9-97c1-d2dd55aaa50b
+    group: 
+    objective: 
+    detail: 
+    position: {x: -16.305, y: 2.763, z: -133.662}
+  - type: 2
+    key: 
+    name: 4b5cb67d-69e7-4ebf-bdb5-c0e786622403
+    group: 
+    objective: 
+    detail: 
+    position: {x: -152.769, y: 9.669, z: -26.856}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneMvd)
+    position: {x: -87.68, y: 1.4559975, z: 178.29599}
+  - type: 4
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -161.81, y: 14.2152195, z: -4.299999}
+  - type: 2
+    key: 
+    name: 5065d71f-ae2e-4917-80b4-062aa236ed19
+    group: 
+    objective: 
+    detail: 
+    position: {x: -149.896, y: 9.669, z: -27.344}
+  - type: 2
+    key: 
+    name: 51c8e95d-b2db-47d6-bd21-cd3946c151f6
+    group: 
+    objective: 
+    detail: 
+    position: {x: 257.34, y: -5.94, z: 50.955}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 186.52002, y: -4.3476677, z: 30.82}
+  - type: 4
+    key: 
+    name: ZoneConcordiaParking
+    group: 
+    objective: 
+    detail: 
+    position: {x: 41.18, y: 28.332996, z: -20.71}
+  - type: 2
+    key: 
+    name: 53d91e48-edd7-4c27-aca8-651a3a8b8510
+    group: 
+    objective: 
+    detail: 
+    position: {x: 273.3, y: -1.16, z: 377.25}
+  - type: 2
+    key: 
+    name: 54c6f065-d278-4808-a354-7747dc7a0ca9
+    group: 
+    objective: 
+    detail: 
+    position: {x: -111.445, y: 0.668, z: -30.917}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 137.99301, y: -1.451004, z: -55.086}
+  - type: 2
+    key: 
+    name: 565d7183-28a2-46f0-968e-b957bcfff65d
+    group: 
+    objective: 
+    detail: 
+    position: {x: -191.392, y: 3.137, z: 344.702}
+  - type: 3
+    key: 
+    name: ZoneConcordia_1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 142.866, y: 3.4959946, z: 363.484}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 251.74002, y: -1.4610901, z: 148.39}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: 271.007, y: 3.3939972, z: 371.175}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: -141.018, y: 2.3678474, z: 400.981}
+  - type: 3
+    key: 
+    name: ZoneFactory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -93.88, y: 0.9621054, z: 86.85}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 117.27002, y: 0.559227, z: 188.66}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 173.77002, y: -1.3836517, z: 56.25}
+  - type: 2
+    key: 
+    name: 6066bc08-b1c2-41cf-bc9a-5a00da7016b2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 93.93, y: 2.579, z: 451.26}
+  - type: 2
+    key: 
+    name: 61087b43-9195-4730-b52d-7757583857f2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 232.64, y: 3.49, z: 409.53}
+  - type: 2
+    key: 
+    name: 61581c78-e7ea-4b5a-b10d-d37efada66d6
+    group: 
+    objective: 
+    detail: 
+    position: {x: -43.209, y: 6.7, z: -114.198}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 258.023, y: -1.1994314, z: 357.136}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 224.48001, y: 0.435997, z: 182.29}
+  - type: 3
+    key: 
+    name: ZoneStilo
+    group: 
+    objective: 
+    detail: 
+    position: {x: -158.92, y: 0.65209895, z: -27.77}
+  - type: 2
+    key: 
+    name: 63d131ff-82c2-4f98-9ec0-40ec0c584469
+    group: 
+    objective: 
+    detail: 
+    position: {x: 244.71, y: -3.21, z: -36.95}
+  - type: 2
+    key: 
+    name: 63d8f515-1068-4c90-9017-ce902e8adebb
+    group: 
+    objective: 
+    detail: 
+    position: {x: 211.142, y: -1.221, z: 341.592}
+  - type: 3
+    key: 
+    name: ZoneFactory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -77.38, y: 0.80574983, z: 75.04}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: -103.881, y: 2.2209969, z: 267.98102}
+  - type: 2
+    key: 
+    name: 648ff6c1-d104-438a-b614-ecffd1169912
+    group: 
+    objective: 
+    detail: 
+    position: {x: -42.919, y: 6.677, z: -117.171}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 143.03001, y: -1.451004, z: -36.03}
+  - type: 3
+    key: 
+    name: ZoneFactory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -109.617, y: 1.3029976, z: 73.128}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 251.63, y: -1.4381943, z: 145.41}
+  - type: 2
+    key: 
+    name: 65d310cc-ace9-427d-9451-58600c241425
+    group: 
+    objective: 
+    detail: 
+    position: {x: 209.839, y: 3.935, z: 297.28}
+  - type: 2
+    key: 
+    name: 66f8e6df-6d38-4427-80ad-8b4b6d099186
+    group: 
+    objective: 
+    detail: 
+    position: {x: 211.905, y: -0.33, z: 343.2}
+  - type: 2
+    key: 
+    name: 677f6da4-a2cc-4258-9640-3d93d04f6557
+    group: 
+    objective: 
+    detail: 
+    position: {x: 272.018, y: -1.16, z: 375.369}
+  - type: 2
+    key: 
+    name: 68c07cb9-2faf-4ed8-8221-f6c6697e8bcb
+    group: 
+    objective: 
+    detail: 
+    position: {x: -135.79, y: 2.34, z: 401.49}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: -170.34, y: 2.2209969, z: 287.44}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneMvd)
+    position: {x: -84.273, y: 1.4559975, z: 177.886}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 256.02, y: -1.196003, z: 357.65}
+  - type: 2
+    key: 
+    name: 6c3a239e-5e8f-41b5-a7cb-80e9ebc29e4a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 44.472, y: 2.717, z: 414.922}
+  - type: 2
+    key: 
+    name: 6ca6135c-9c40-40d9-8d90-d1b9f5eacaf2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 233.368, y: -2.049, z: -107.123}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 260.21002, y: -1.4897385, z: 130.04001}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: -16.71, y: 2.6289978, z: 238.5}
+  - type: 2
+    key: 
+    name: 6dc12541-4b94-4f91-b218-e3853f0dadf6
+    group: 
+    objective: 
+    detail: 
+    position: {x: -150.644, y: 0.65, z: -63.383}
+  - type: 2
+    key: 
+    name: 6dffc6c5-e256-40e3-9ea2-7ca89ffcd303
+    group: 
+    objective: 
+    detail: 
+    position: {x: 209.973, y: -1.221, z: 341.66}
+  - type: 2
+    key: 
+    name: 6e3c4b20-a234-46ec-9a82-e95ff58a28b8
+    group: 
+    objective: 
+    detail: 
+    position: {x: 270.52, y: -4.431, z: 88.67}
+  - type: 5
+    key: 
+    name: Kaban
+    group: 
+    objective: 
+    detail: Kaban 75% (ZoneCarShowroom)
+    position: {x: 100.996, y: 2.6799965, z: 271.17102}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 243.63, y: -5.3455772, z: 29.31}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneMvd)
+    position: {x: 57.377014, y: 0.3289299, z: -55.492996}
+  - type: 2
+    key: 
+    name: 72acf3e4-d308-48c0-89da-bf069bfffef3
+    group: 
+    objective: 
+    detail: 
+    position: {x: -81.293, y: 3.301, z: 336.31}
+  - type: 2
+    key: 
+    name: 730d04d9-c227-425e-9ba6-482623497cc8
+    group: 
+    objective: 
+    detail: 
+    position: {x: 268.66, y: -4.431, z: 88.95}
+  - type: 3
+    key: 
+    name: ZoneStilo
+    group: 
+    objective: 
+    detail: 
+    position: {x: -133.321, y: 0.6787459, z: -26.729}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 172.87001, y: 0.56396484, z: 154.79001}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneMvd)
+    position: {x: 44.830017, y: 0.293602, z: -36.85}
+  - type: 2
+    key: 
+    name: 747b854c-129c-4a18-97fe-c4de65ca144f
+    group: 
+    objective: 
+    detail: 
+    position: {x: -188.923, y: 3.137, z: 340.446}
+  - type: 2
+    key: 
+    name: 75bc2253-2693-41e2-a8e0-9b9fde17caa1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -176.548, y: 2.455, z: 468.992}
+  - type: 2
+    key: 
+    name: 767fe813-013e-4ebd-bb50-dec414a4bcd3
+    group: 
+    objective: 
+    detail: 
+    position: {x: 185.557, y: 1.574, z: 188.963}
+  - type: 3
+    key: 
+    name: ZoneConstruction
+    group: 
+    objective: 
+    detail: 
+    position: {x: 215.331, y: 3.3429947, z: 331.588}
+  - type: 5
+    key: 
+    name: Kaban
+    group: 
+    objective: 
+    detail: Kaban 75% (ZoneCarShowroom)
+    position: {x: 81.4, y: 2.7309952, z: 297.38}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: 207.76, y: 3.3939972, z: 404.55}
+  - type: 4
+    key: 
+    name: ZoneConcordiaParking
+    group: 
+    objective: 
+    detail: 
+    position: {x: 43.74, y: 28.332996, z: -17.009998}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 257.73, y: -1.1375947, z: 359.39}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 165.54001, y: -1.309227, z: 106.77}
+  - type: 3
+    key: 
+    name: ZoneConstruction
+    group: 
+    objective: 
+    detail: 
+    position: {x: 207.14, y: 3.9975424, z: 298.55}
+  - type: 2
+    key: 
+    name: 791e37e9-fffa-4b3f-b1ef-5a07343b1e38
+    group: 
+    objective: 
+    detail: 
+    position: {x: 177.514, y: 3.093, z: 236.545}
+  - type: 2
+    key: 
+    name: 7a60cc80-4ef3-40b0-8227-c73162f7da61
+    group: 
+    objective: 
+    detail: 
+    position: {x: -175.222, y: 2.455, z: 468.656}
+  - type: 2
+    key: 
+    name: 7bc4ca3c-0834-4f69-9346-60dc306aba0f
+    group: 
+    objective: 
+    detail: 
+    position: {x: 206.924, y: 3.935, z: 295.835}
+  - type: 2
+    key: 
+    name: 7bd32eab-6df4-4bd0-80a9-dd798774030c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -151.106, y: 0.736, z: -66.902}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneMvd)
+    position: {x: -70.471, y: 1.4559975, z: 152.37201}
+  - type: 2
+    key: 
+    name: 7c816391-3f69-4ff6-9e30-e63e36694f3b
+    group: 
+    objective: 
+    detail: 
+    position: {x: 272.319, y: -4.493, z: 87.688}
+  - type: 3
+    key: 
+    name: ZoneFactory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -98.32, y: 0.94599533, z: 86.31}
+  - type: 2
+    key: 
+    name: 7d55b5f6-736c-4749-a4c5-dd9e88a865f1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -165.629, y: 3.158, z: 183.074}
+  - type: 2
+    key: 
+    name: 7dafd25f-76fc-400a-9d45-8adef57169b3
+    group: 
+    objective: 
+    detail: 
+    position: {x: 52.732, y: 4.531, z: -135.649}
+  - type: 2
+    key: 
+    name: 7dd08fa5-515f-4cf1-999e-72442b4ba9cb
+    group: 
+    objective: 
+    detail: 
+    position: {x: -162.757, y: 3.221, z: 177.965}
+  - type: 2
+    key: 
+    name: 7e56778d-addd-4e1e-95f6-f04745812036
+    group: 
+    objective: 
+    detail: 
+    position: {x: 227.6, y: 3.351, z: 410.72}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 207.36002, y: 0.46250916, z: 190.41}
+  - type: 3
+    key: 
+    name: ZoneStilo
+    group: 
+    objective: 
+    detail: 
+    position: {x: -155.71, y: 0.6399956, z: -22.779999}
+  - type: 3
+    key: 
+    name: ZoneFactory
+    group: 
+    objective: 
+    detail: 
+    position: {x: 70.99402, y: -0.12500381, z: -49.283997}
+  - type: 5
+    key: 
+    name: Kaban
+    group: 
+    objective: 
+    detail: Kaban 75% (ZoneCarShowroom)
+    position: {x: 89.824, y: 2.7090216, z: 314.917}
+  - type: 2
+    key: 
+    name: 7f77cf64-e515-46a1-bbfd-27986228adb1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 50.602, y: 4.465, z: -134.514}
+  - type: 2
+    key: 
+    name: 81580824-a85f-478f-8001-2f5ebadae55e
+    group: 
+    objective: 
+    detail: 
+    position: {x: -162.386, y: 3.158, z: 182.139}
+  - type: 3
+    key: 
+    name: ZoneFactory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -80.18, y: 0.94599533, z: 74.08}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 173.44, y: -1.3546638, z: 57.739998}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: 202.85, y: 3.40036, z: 402.46}
+  - type: 2
+    key: 
+    name: 823e63d8-c2a3-40a9-a878-1c1935318d90
+    group: 
+    objective: 
+    detail: 
+    position: {x: -231.978, y: 2.312, z: 344.996}
+  - type: 2
+    key: 
+    name: 827562b8-e202-4dc2-9467-35a927512c17
+    group: 
+    objective: 
+    detail: 
+    position: {x: -206.343, y: 3.367, z: 180.998}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 203.155, y: -1.2355236, z: 405.033}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 77.91002, y: 0.73958206, z: 165.45}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -30.119, y: 0.6399956, z: -63.183}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 39.037, y: 2.8329964, z: 203.36}
+  - type: 2
+    key: 
+    name: 8559fb81-5333-46c4-9019-187d808d406d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 227.794, y: 3.945, z: 174.694}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -50.974, y: 5.1279945, z: -29.553001}
+  - type: 2
+    key: 
+    name: 897ee842-8391-436d-94a8-71d7d93e867a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 259.911, y: -5.94, z: 52.289}
+  - type: 3
+    key: 
+    name: ZoneConcordia_1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 147.22, y: 3.4959946, z: 358}
+  - type: 2
+    key: 
+    name: 8acb9127-7fb5-443c-ac5e-110c61899cb8
+    group: 
+    objective: 
+    detail: 
+    position: {x: 95.66, y: 2.65, z: 448.81}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 269.506, y: -1.1960068, z: 379.56}
+  - type: 2
+    key: 
+    name: 8bdee447-62cf-40dc-bf81-690886dfa41e
+    group: 
+    objective: 
+    detail: 
+    position: {x: -134.489, y: 2.515, z: 399.622}
+  - type: 2
+    key: 
+    name: 8cb04618-b656-4197-938c-0b86eec5b237
+    group: 
+    objective: 
+    detail: 
+    position: {x: 158.33, y: 3.624, z: 428.53}
+  - type: 2
+    key: 
+    name: 8d38b13e-68fa-4bab-b1e8-8f22048a37f2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -173.311, y: 2.455, z: 467.431}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: 201.178, y: 3.5241363, z: 401.783}
+  - type: 2
+    key: 
+    name: 8dcd9ad6-1782-428a-85f9-762d59444ab0
+    group: 
+    objective: 
+    detail: 
+    position: {x: 186.511, y: 1.574, z: 188.445}
+  - type: 3
+    key: 
+    name: ZoneStilo
+    group: 
+    objective: 
+    detail: 
+    position: {x: -254.2, y: 2.9859962, z: 149.62999}
+  - type: 2
+    key: 
+    name: 8eff8790-45b6-48a6-becf-871325bcc02d
+    group: 
+    objective: 
+    detail: 
+    position: {x: -231.985, y: 2.196, z: 342.49}
+  - type: 2
+    key: 
+    name: 8f60a945-a5af-4dba-9c09-51e016bfe269
+    group: 
+    objective: 
+    detail: 
+    position: {x: 275.666, y: -4.431, z: 88.001}
+  - type: 2
+    key: 
+    name: 8ff22ac4-cfe3-457b-a2ba-07327aeda568
+    group: 
+    objective: 
+    detail: 
+    position: {x: 100.71, y: -1.854, z: -162.53}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: 271.1, y: 3.3939972, z: 374.04}
+  - type: 2
+    key: 
+    name: 90a45dc4-cbec-438b-8789-69d2ad577e74
+    group: 
+    objective: 
+    detail: 
+    position: {x: -225.555, y: 5.226, z: 282.178}
+  - type: 2
+    key: 
+    name: 91680e54-ea64-4ec6-b24a-a27e59cc6d19
+    group: 
+    objective: 
+    detail: 
+    position: {x: -180.504, y: 2.451, z: 419.05}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: -194.21, y: 8.646996, z: 423.09}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 259.06802, y: -5.378006, z: 76.575}
+  - type: 2
+    key: 
+    name: 91f3f907-11ea-4963-bf9e-d811fddd689d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 98.71, y: 2.76, z: 450.63}
+  - type: 2
+    key: 
+    name: 92ca8cdc-89dd-4c67-90cc-399c6bb1b2a3
+    group: 
+    objective: 
+    detail: 
+    position: {x: -195.641, y: 4.992, z: 387.005}
+  - type: 2
+    key: 
+    name: 931faf1e-4168-48f8-b1d8-45ad4f4b668d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 106.65, y: -1.854, z: -162.6}
+  - type: 2
+    key: 
+    name: 93333799-eb9a-426f-8643-0f37cb359d83
+    group: 
+    objective: 
+    detail: 
+    position: {x: 170.078, y: -1.451, z: -132.837}
+  - type: 2
+    key: 
+    name: 9492f6b9-cc91-4cb0-b611-6c6b3e0b84a0
+    group: 
+    objective: 
+    detail: 
+    position: {x: 273.202, y: 4.781, z: 516.697}
+  - type: 2
+    key: 
+    name: 959054b2-998d-4b49-8c59-19959a5b3f6a
+    group: 
+    objective: 
+    detail: 
+    position: {x: -50.789, y: 0.668, z: -65.073}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 271.591, y: -1.2470055, z: 379.893}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: -15.846, y: 2.6530812, z: 232.6}
+  - type: 2
+    key: 
+    name: 97993c1f-2b8f-4e93-bff2-90050f45e77c
+    group: 
+    objective: 
+    detail: 
+    position: {x: 167.90999, y: -1.451, z: -128.53}
+  - type: 2
+    key: 
+    name: 97bafe87-334d-4c04-98ef-ce8d21eee809
+    group: 
+    objective: 
+    detail: 
+    position: {x: -195.373, y: 4.992, z: 384.652}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 188.93002, y: 0.58234024, z: 195.19}
+  - type: 4
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -119.24, y: 14.205997, z: -12.25}
+  - type: 2
+    key: 
+    name: 9a27a229-affd-4130-85f4-dca4e85437cd
+    group: 
+    objective: 
+    detail: 
+    position: {x: 208.555, y: 3.935, z: 296.639}
+  - type: 2
+    key: 
+    name: 9aa670b2-5d92-4bd5-9d79-e605a4fb7246
+    group: 
+    objective: 
+    detail: 
+    position: {x: 185.446, y: 3.529, z: 456.849}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneClimova)
+    position: {x: -147.264, y: 0.6399956, z: -66.349}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: -191.95, y: 8.646996, z: 423.31}
+  - type: 3
+    key: 
+    name: ZoneConcordia_1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 142.932, y: 3.4959946, z: 357.98}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneClimova)
+    position: {x: -153.62, y: 0.6758954, z: -64.64}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 75.350006, y: -0.6773186, z: 90.229996}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 187.99002, y: 1.5579948, z: 191.28}
+  - type: 2
+    key: 
+    name: 9ecaa439-a3c8-4280-8ae4-c117ac2dfe33
+    group: 
+    objective: 
+    detail: 
+    position: {x: -46.121, y: 6.062, z: -114.006}
+  - type: 2
+    key: 
+    name: 9f2ce5fb-a92d-406c-a75d-5ad2be773b77
+    group: 
+    objective: 
+    detail: 
+    position: {x: 229.38, y: 3.37, z: 410.74}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 114.48001, y: 0.7243004, z: 189.07}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -16.204, y: 2.6289978, z: 253.572}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneMvd)
+    position: {x: -84.9, y: 1.4559975, z: 175.6}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 170.02002, y: -3.7763329, z: 30.06}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -32.96, y: 0.6399956, z: -69.863}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 184.84001, y: -4.339775, z: 30.2}
+  - type: 2
+    key: 
+    name: a2b5f44e-88ba-4cf5-af00-9d4f739034b5
+    group: 
+    objective: 
+    detail: 
+    position: {x: 185.6, y: 3.529, z: 459.37}
+  - type: 2
+    key: 
+    name: a2d8b1c4-eef7-4352-aae6-da50d21e4d4e
+    group: 
+    objective: 
+    detail: 
+    position: {x: 157, y: 3.624, z: 430.76}
+  - type: 2
+    key: 
+    name: a5e90566-7db0-40c2-905e-22cad95a3118
+    group: 
+    objective: 
+    detail: 
+    position: {x: 175.964, y: 3.093, z: 234.797}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -50.196, y: 5.1279945, z: -31.695}
+  - type: 2
+    key: 
+    name: a6d6d9d7-94bf-4373-936d-240584fd385a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 205.631, y: 3.935, z: 296.404}
+  - type: 2
+    key: 
+    name: a882c1be-6539-44c4-9959-92a0201e4ba4
+    group: 
+    objective: 
+    detail: 
+    position: {x: 232.682, y: -2.049, z: -103.148}
+  - type: 2
+    key: 
+    name: a89e2f86-4c94-4732-9272-9ef88f5ab3b4
+    group: 
+    objective: 
+    detail: 
+    position: {x: 244.86, y: -3.21, z: -40.06}
+  - type: 3
+    key: 
+    name: ZoneFactory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -96.1, y: 0.978087, z: 87}
+  - type: 2
+    key: 
+    name: a9075226-fb0d-4985-8967-72373ac95b58
+    group: 
+    objective: 
+    detail: 
+    position: {x: 226.23, y: 3.351, z: 410.5}
+  - type: 2
+    key: 
+    name: aa025b52-6565-4538-bd8a-aa51b2e33080
+    group: 
+    objective: 
+    detail: 
+    position: {x: 244.576, y: -3.21, z: -41.784}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 208.592, y: -1.2470055, z: 350.427}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -46.111, y: 0.649521, z: -67.664}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 214.87001, y: -4.5909653, z: 30.41}
+  - type: 2
+    key: 
+    name: ad2350ee-b91f-42a2-9df1-aba2ce7c2f87
+    group: 
+    objective: 
+    detail: 
+    position: {x: -179.339, y: 2.451, z: 416.352}
+  - type: 2
+    key: 
+    name: ad88110f-b1e0-4fcc-a46f-15f153c35bbe
+    group: 
+    objective: 
+    detail: 
+    position: {x: -152.382, y: 0.663, z: -62.95}
+  - type: 2
+    key: 
+    name: ae0d614f-5a19-428d-8c94-29d0cba97768
+    group: 
+    objective: 
+    detail: 
+    position: {x: -243.08, y: 3.685, z: 243.479}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 165.54001, y: -1.309227, z: 106.77}
+  - type: 2
+    key: 
+    name: af8fa561-8758-4a78-ae45-82addcb269b6
+    group: 
+    objective: 
+    detail: 
+    position: {x: 211.085, y: 3.935, z: 297.4}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: -189.93, y: 8.646996, z: 421.67}
+  - type: 3
+    key: 
+    name: ZoneStilo
+    group: 
+    objective: 
+    detail: 
+    position: {x: -253.98999, y: 2.9859962, z: 125.35999}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 140.69002, y: -1.451004, z: -51.709}
+  - type: 2
+    key: 
+    name: b0bf0adf-09bf-4075-95ee-9a650f2191b4
+    group: 
+    objective: 
+    detail: 
+    position: {x: -65.996, y: 2.699, z: 459.747}
+  - type: 2
+    key: 
+    name: b0db6a1a-34ed-49d5-b79a-926a920be100
+    group: 
+    objective: 
+    detail: 
+    position: {x: -10.48, y: 2.763, z: -137.96}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: -166.71, y: 23.200323, z: 390.43}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -31.626, y: 0.6752472, z: -59.596}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 114.21001, y: 1.1122856, z: 192.06}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 210.91, y: -1.2218319, z: 350.161}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: -166.03, y: 23.181995, z: 410.85}
+  - type: 2
+    key: 
+    name: b32da4a4-e845-48f2-adf4-2a47e637e5f9
+    group: 
+    objective: 
+    detail: 
+    position: {x: 91.666, y: 2.579, z: 450.023}
+  - type: 3
+    key: 
+    name: ZoneConstruction
+    group: 
+    objective: 
+    detail: 
+    position: {x: 184.84, y: 3.3939972, z: 328.16}
+  - type: 2
+    key: 
+    name: b4888e54-cafd-4b2a-883d-1502cdd31857
+    group: 
+    objective: 
+    detail: 
+    position: {x: -153.903, y: 0.654, z: -64.471}
+  - type: 3
+    key: 
+    name: ZoneStilo
+    group: 
+    objective: 
+    detail: 
+    position: {x: -258.28, y: 2.3165658, z: 140.75}
+  - type: 2
+    key: 
+    name: b6ff3d05-5fb5-435c-879e-d9f273fb4148
+    group: 
+    objective: 
+    detail: 
+    position: {x: 244.69, y: -3.21, z: -35.49}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 271.213, y: -1.2430884, z: 378.527}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: 204.66, y: 3.3939972, z: 404.31}
+  - type: 2
+    key: 
+    name: b87d5bfc-db79-4f56-8cd9-3af31363f7f7
+    group: 
+    objective: 
+    detail: 
+    position: {x: 260.742, y: -5.94, z: 48.666}
+  - type: 2
+    key: 
+    name: b8c2bc48-2caa-4b4b-bcf2-891c0440f21f
+    group: 
+    objective: 
+    detail: 
+    position: {x: -52.407, y: 0.668, z: -66.38}
+  - type: 2
+    key: 
+    name: b9c92bb9-abf4-4c93-97d0-30851ef59f0c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -61.886, y: 2.699, z: 461.654}
+  - type: 2
+    key: 
+    name: b9f9c8bc-e994-4a28-8e6a-7fd7d40ca3cb
+    group: 
+    objective: 
+    detail: 
+    position: {x: -134.814, y: 3.058, z: 399.605}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: -100.35, y: 2.2209969, z: 268.45}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 167.70001, y: -3.7460022, z: 29.57}
+  - type: 3
+    key: 
+    name: ZoneFactory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -76.42, y: 0.79299545, z: 76.47}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 259.267, y: -1.196003, z: 358.498}
+  - type: 5
+    key: 
+    name: Kaban
+    group: 
+    objective: 
+    detail: Kaban 75% (ZoneCarShowroom)
+    position: {x: 101.469, y: 2.6834636, z: 290.25}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 192.33002, y: 1.0479965, z: 221.81}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: 200.801, y: 3.4261672, z: 405.031}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 245.6, y: -5.6720314, z: 24.869999}
+  - type: 2
+    key: 
+    name: be5836ea-b4e7-445b-8388-cc167c92c167
+    group: 
+    objective: 
+    detail: 
+    position: {x: 274.738, y: 4.782, z: 517.334}
+  - type: 2
+    key: 
+    name: bf481e27-d2e2-48e5-95b4-efac3aebf5ed
+    group: 
+    objective: 
+    detail: 
+    position: {x: -59.838, y: 3.202, z: -147.273}
+  - type: 2
+    key: 
+    name: c00561fe-3d21-494d-9122-56d0ad5e702d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 99.35, y: 2.76, z: 446.78}
+  - type: 2
+    key: 
+    name: c13d5694-0e1b-4e52-9d0f-a9e52cc85311
+    group: 
+    objective: 
+    detail: 
+    position: {x: 261.511, y: -5.94, z: 49.977}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneMvd)
+    position: {x: 43.580017, y: 0.28299713, z: -43.65}
+  - type: 4
+    key: 
+    name: ZoneConcordiaParking
+    group: 
+    objective: 
+    detail: 
+    position: {x: 65.73, y: 28.332996, z: -16.060001}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 258.721, y: -5.3749733, z: 77.856}
+  - type: 2
+    key: 
+    name: c2a1b763-e2eb-460a-887d-433d1c7b422a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 234.399, y: -2.049, z: -105.547}
+  - type: 3
+    key: 
+    name: ZoneConstruction
+    group: 
+    objective: 
+    detail: 
+    position: {x: 206.164, y: 6.977217, z: 299.283}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 38.27, y: 2.1699982, z: 196.95}
+  - type: 2
+    key: 
+    name: c51b0778-2d1c-4d1a-92b4-e6f045ff47cd
+    group: 
+    objective: 
+    detail: 
+    position: {x: -192.658, y: 4.993, z: 386.326}
+  - type: 3
+    key: 
+    name: ZoneConcordia_1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 143.03, y: 3.4959946, z: 359.66}
+  - type: 3
+    key: 
+    name: ZoneConstruction
+    group: 
+    objective: 
+    detail: 
+    position: {x: 224.40001, y: 0.55189514, z: 219.96}
+  - type: 2
+    key: 
+    name: c7853584-bd20-4522-b389-770f96780258
+    group: 
+    objective: 
+    detail: 
+    position: {x: 45.792, y: 2.717, z: 417.082}
+  - type: 2
+    key: 
+    name: c81e6c77-2c35-460f-94a4-324140e408af
+    group: 
+    objective: 
+    detail: 
+    position: {x: -111.692, y: 0.659, z: -28.424}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 256.91, y: -5.366226, z: 77.06}
+  - type: 2
+    key: 
+    name: cad05276-ce87-4e41-ba26-68b72aa6bf7c
+    group: 
+    objective: 
+    detail: 
+    position: {x: 274.105, y: -1.16, z: 376.208}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneMvd)
+    position: {x: 38.52002, y: -0.11168671, z: -46.797997}
+  - type: 2
+    key: 
+    name: cafc22fb-6c4f-4233-97df-da9565c4175b
+    group: 
+    objective: 
+    detail: 
+    position: {x: 186.308, y: 1.65, z: 186.469}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneMvd)
+    position: {x: -70.735, y: 1.484183, z: 154.22101}
+  - type: 2
+    key: 
+    name: cca4b716-3276-46de-9913-b93573036d47
+    group: 
+    objective: 
+    detail: 
+    position: {x: -175.044, y: 2.455, z: 466.141}
+  - type: 2
+    key: 
+    name: cf68f498-38f5-4949-bab7-0b3f9730b411
+    group: 
+    objective: 
+    detail: 
+    position: {x: -59.728, y: 4.488, z: -149.696}
+  - type: 2
+    key: 
+    name: cf791fae-6c10-4feb-a0e1-c62f86118f08
+    group: 
+    objective: 
+    detail: 
+    position: {x: 175.713, y: 3.172, z: 236.73}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 210.467, y: -1.2280792, z: 351.635}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 144.93001, y: -1.451004, z: -42.800003}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -36.052, y: 5.1279945, z: -64.392}
+  - type: 3
+    key: 
+    name: ZoneConstruction
+    group: 
+    objective: 
+    detail: 
+    position: {x: 234.57202, y: 0.4775505, z: 215.794}
+  - type: 2
+    key: 
+    name: d151b312-c585-4f8e-874d-c7bc8474933f
+    group: 
+    objective: 
+    detail: 
+    position: {x: -136.856, y: 2.565, z: 399.57}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: 271.827, y: 3.4288855, z: 369.477}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneMvd)
+    position: {x: -71.95, y: 1.4559975, z: 154.76999}
+  - type: 5
+    key: 
+    name: Kaban
+    group: 
+    objective: 
+    detail: Kaban 75% (ZoneCarShowroom)
+    position: {x: 71.815, y: 2.6799965, z: 266.432}
+  - type: 2
+    key: 
+    name: d3888ef4-4167-44d2-a39e-efada635b23c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -13.868, y: 2.763, z: -132.861}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -31.45, y: 0.6399956, z: -70.643}
+  - type: 2
+    key: 
+    name: d466a13c-03d8-4d1d-aae8-255ffd10342c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -176.75, y: 1.218, z: 105.23}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 244.65001, y: -5.372505, z: 28.72}
+  - type: 2
+    key: 
+    name: d7571000-1819-4140-8c30-04d1a153e3dc
+    group: 
+    objective: 
+    detail: 
+    position: {x: -78.998, y: 3.308, z: 336.759}
+  - type: 2
+    key: 
+    name: d7af9be2-8054-4d32-8c9b-c45b4bf56b42
+    group: 
+    objective: 
+    detail: 
+    position: {x: -243.129, y: 3.43, z: 240.565}
+  - type: 2
+    key: 
+    name: d820e825-0c50-4e75-8ac6-1622ecf4d21b
+    group: 
+    objective: 
+    detail: 
+    position: {x: -244.442, y: 2.193, z: 237.972}
+  - type: 2
+    key: 
+    name: d83f3dfa-784e-4a4e-a91f-69a7db23651a
+    group: 
+    objective: 
+    detail: 
+    position: {x: -108.95, y: 0.662, z: -28.307}
+  - type: 2
+    key: 
+    name: d90fee6b-7031-4bcf-a92a-21a82c755a44
+    group: 
+    objective: 
+    detail: 
+    position: {x: -190.088, y: 3.137, z: 338.111}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 222.49701, y: 0.435997, z: 182.676}
+  - type: 2
+    key: 
+    name: da4f90cc-f09c-4da9-9682-7fae7b320591
+    group: 
+    objective: 
+    detail: 
+    position: {x: 277.164, y: -4.431, z: 87.967}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 76.02602, y: -0.7658005, z: 88.469}
+  - type: 3
+    key: 
+    name: ZoneConstruction
+    group: 
+    objective: 
+    detail: 
+    position: {x: 204.58, y: 6.8870726, z: 297.1}
+  - type: 2
+    key: 
+    name: db6cf0cf-a098-4ef2-a7ac-39393b8bd78c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -106.95, y: 0.662, z: -30.759}
+  - type: 2
+    key: 
+    name: dbc5718e-b57a-4692-948d-6e2d477b91e9
+    group: 
+    objective: 
+    detail: 
+    position: {x: 272.043, y: 4.773, z: 516.173}
+  - type: 4
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -132.87, y: 14.205997, z: -10.360001}
+  - type: 2
+    key: 
+    name: dc0c98ad-cf95-44c3-b0f5-f4529f4fbc8d
+    group: 
+    objective: 
+    detail: 
+    position: {x: -157.981, y: 9.684, z: -26.729}
+  - type: 2
+    key: 
+    name: dc178ec7-3993-4efe-9379-40a0e02066f0
+    group: 
+    objective: 
+    detail: 
+    position: {x: 216.25, y: 3.9729998, z: 174.019}
+  - type: 2
+    key: 
+    name: dd43ea0e-27a4-44bc-a7eb-6fed7255227e
+    group: 
+    objective: 
+    detail: 
+    position: {x: -163.933, y: 3.158, z: 183.069}
+  - type: 3
+    key: 
+    name: ZoneConstruction
+    group: 
+    objective: 
+    detail: 
+    position: {x: 209.379, y: 3.954998, z: 298.748}
+  - type: 2
+    key: 
+    name: dee2f4d2-4cb8-403d-b0d2-89b3836c3cbc
+    group: 
+    objective: 
+    detail: 
+    position: {x: -44.833, y: 6.678, z: -114.215}
+  - type: 2
+    key: 
+    name: e0911814-f1ab-455a-9761-7b81531fb901
+    group: 
+    objective: 
+    detail: 
+    position: {x: 177.294, y: 3.093, z: 234.762}
+  - type: 2
+    key: 
+    name: e0bee9a5-f480-4aaf-a96c-97f8a479f713
+    group: 
+    objective: 
+    detail: 
+    position: {x: -176.596, y: 2.455, z: 466.984}
+  - type: 2
+    key: 
+    name: e1520d20-f81d-4ceb-be9c-d74b349e6249
+    group: 
+    objective: 
+    detail: 
+    position: {x: 46.174, y: 2.717, z: 415.754}
+  - type: 2
+    key: 
+    name: e1a1fd30-2c91-4013-83eb-09b491e0aa76
+    group: 
+    objective: 
+    detail: 
+    position: {x: 179.062, y: 3.048, z: 233.031}
+  - type: 2
+    key: 
+    name: e1a74a99-bb54-4c17-8323-823dd3fc845b
+    group: 
+    objective: 
+    detail: 
+    position: {x: -65.706, y: 2.699, z: 461.359}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: -101.15, y: 2.2342827, z: 269.47}
+  - type: 2
+    key: 
+    name: e27a90a1-37b0-47c5-b157-f40d284d9058
+    group: 
+    objective: 
+    detail: 
+    position: {x: -235.154, y: 2.846, z: 345.06}
+  - type: 4
+    key: 
+    name: ZoneConstruction
+    group: 
+    objective: 
+    detail: 
+    position: {x: -24.67, y: 21.141994, z: 228.13}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 75.18001, y: -0.6959648, z: 92.28}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 164.55402, y: 0.60338974, z: 138.12}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -3.191, y: -3.6950035, z: -6.1349983}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -2.675, y: -3.6950035, z: -4.2229996}
+  - type: 2
+    key: 
+    name: e792ed06-38aa-41ff-93ac-ef403981927a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 226.23, y: 3.351, z: 410.5}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: -16.387, y: 2.6487265, z: 231.312}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: -164.56, y: 2.2209969, z: 291.57}
+  - type: 2
+    key: 
+    name: ea4981db-b383-4869-a884-15ea2c3c33a4
+    group: 
+    objective: 
+    detail: 
+    position: {x: -48.546, y: 0.668, z: -67.733}
+  - type: 2
+    key: 
+    name: ea92beeb-591e-487c-8b76-b0ac9ea09192
+    group: 
+    objective: 
+    detail: 
+    position: {x: -59.862, y: 3.737, z: -148.574}
+  - type: 2
+    key: 
+    name: eb922d2e-5284-4018-bcb2-cbb390423709
+    group: 
+    objective: 
+    detail: 
+    position: {x: -150.592, y: 9.644, z: -23.594}
+  - type: 2
+    key: 
+    name: ec56acbc-114e-4012-a243-15741254749d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 53.22, y: 4.781, z: -130.649}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 60.700012, y: 0.5633774, z: 169.49}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneClimova)
+    position: {x: -136.07, y: 0.6399956, z: -71.29}
+  - type: 2
+    key: 
+    name: eeb68d53-a8a9-4a1c-a252-071e1bee202b
+    group: 
+    objective: 
+    detail: 
+    position: {x: 214.21, y: 3.9989998, z: 172.474}
+  - type: 2
+    key: 
+    name: efc4d9d4-14aa-4e8b-a825-3a34c3621e05
+    group: 
+    objective: 
+    detail: 
+    position: {x: 155.154, y: 3.624, z: 430.339}
+  - type: 3
+    key: 
+    name: ZoneConstruction
+    group: 
+    objective: 
+    detail: 
+    position: {x: 215.231, y: 3.3269875, z: 330.802}
+  - type: 3
+    key: 
+    name: ZoneHotel_2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -29.740002, y: 5.164811, z: -64.77}
+  - type: 3
+    key: 
+    name: ZoneSW01
+    group: 
+    objective: 
+    detail: 
+    position: {x: 75.69002, y: 0.5886116, z: 165.33}
+  - type: 5
+    key: 
+    name: Kollontay
+    group: 
+    objective: 
+    detail: Kollontay 75% (ZoneMvd)
+    position: {x: 63.696014, y: 0.28299713, z: -55.239998}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: -139.949, y: 2.3600826, z: 401.048}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 273.069, y: -1.2154254, z: 375.708}
+  - type: 2
+    key: 
+    name: f4e9bc02-0692-415c-89ca-007de3c79bb4
+    group: 
+    objective: 
+    detail: 
+    position: {x: -42.942, y: 6.67, z: -115.674}
+  - type: 2
+    key: 
+    name: f5efc06e-92e7-4668-90ff-6620c39df0a4
+    group: 
+    objective: 
+    detail: 
+    position: {x: -242.312, y: 3.685, z: 242.94}
+  - type: 2
+    key: 
+    name: f63d3e4d-442b-4880-82fd-37bb1158abc3
+    group: 
+    objective: 
+    detail: 
+    position: {x: -227.329, y: 5.26, z: 277.332}
+  - type: 3
+    key: 
+    name: ZoneSW00
+    group: 
+    objective: 
+    detail: 
+    position: {x: -105.041, y: 2.2469058, z: 267.04102}
+  - type: 2
+    key: 
+    name: f6464602-ad24-4aa9-85a8-4ee7c5827530
+    group: 
+    objective: 
+    detail: 
+    position: {x: -10.37, y: 2.763, z: -135.41}
+  - type: 3
+    key: 
+    name: ZoneFactory
+    group: 
+    objective: 
+    detail: 
+    position: {x: -74.66, y: 0.82415026, z: 75.15}
+  - type: 3
+    key: 
+    name: ZoneCarShowroom
+    group: 
+    objective: 
+    detail: 
+    position: {x: 82.266, y: 2.7819977, z: 266.358}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: -135.394, y: 2.5269966, z: 399.657}
+  - type: 2
+    key: 
+    name: f9238b2b-bb17-4580-8643-f61caafeb5c0
+    group: 
+    objective: 
+    detail: 
+    position: {x: -192.295, y: 3.137, z: 345.684}
+  - type: 2
+    key: 
+    name: fca7e0cd-12ec-4317-911e-5244b20aec8f
+    group: 
+    objective: 
+    detail: 
+    position: {x: 258.622, y: -5.94, z: 48.843}
+  - type: 2
+    key: 
+    name: fcecf532-4e3a-4b5e-9af3-7f114fe25234
+    group: 
+    objective: 
+    detail: 
+    position: {x: 185.35, y: 3.529, z: 451.26}
+  - type: 2
+    key: 
+    name: fd523c9c-c95f-4da5-bf03-164913945e57
+    group: 
+    objective: 
+    detail: 
+    position: {x: -136.26, y: 2.34, z: 402.74}
+  - type: 3
+    key: 
+    name: ZoneCinema
+    group: 
+    objective: 
+    detail: 
+    position: {x: 203.78001, y: 0.4662285, z: 190.65}
+  - type: 2
+    key: 
+    name: fddd58f5-3c8c-418e-806a-9625abcc7381
+    group: 
+    objective: 
+    detail: 
+    position: {x: -193.902, y: 4.993, z: 389.207}
+  - type: 3
+    key: 
+    name: ZoneCard1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 126.70001, y: -1.4404335, z: -27.66}
+  - type: 5
+    key: 
+    name: Kaban
+    group: 
+    objective: 
+    detail: Kaban 75% (ZoneCarShowroom)
+    position: {x: 95.922, y: 2.6799965, z: 306.475}
+  - type: 4
+    key: 
+    name: ZoneFactory
+    group: 
+    objective: 
+    detail: 
+    position: {x: 89.28, y: 34.911995, z: 101.34}
+  - type: 2
+    key: 
+    name: ff16d22d-0c6d-4aab-a1c0-29e3e164ef4d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 271.36, y: -1.16, z: 376.28}
+  - type: 2
+    key: 
+    name: ff397e13-717b-49f6-9e9a-024f156cdb1c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -58.206, y: 3.214, z: -146.784}
+  - type: 2
+    key: 
+    name: ffb33dce-cfda-4fa4-b81e-23972a236090
+    group: 
+    objective: 
+    detail: 
+    position: {x: 245.03, y: -3.21, z: -38.56}
+  - type: 2
+    key: 
+    name: ffcd5d8a-1ef8-4fe0-b0a1-028a196da3e9
+    group: 
+    objective: 
+    detail: 
+    position: {x: -182.94, y: 2.41, z: 413.56}
+  - type: 3
+    key: 
+    name: ZoneConcordia_1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 144.582, y: 3.4959946, z: 357.876}
+  - type: 7
+    key: 639135d89444fb141f4e6eea
+    name: Population Census
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 639135d89444fb141f4e6eeb
+    detail: "\uC8FC\uD0DD \uAD00\uB9AC\uC18C \uC77C\uC9C0"
+    position: {x: 80.18001, y: 3.9165, z: 143.7027}
+  - type: 6
+    key: 64f5aac4b63b74469b6c14c2
+    name: Glory to CPSU
+    group: "\uD504\uB77C\uD37C"
+    objective: 64f5aac4b63b74469b6c14c7
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+      \uD504\uB77C\uD37C\uC758 \uCE5C\uAD6C\uC758 \uC9C1\uC7A5 \uCC3E\uAE30"
+    position: {x: 246.25, y: -0.33, z: 52.42}
+  - type: 6
+    key: 64f5aac4b63b74469b6c14c2
+    name: Glory to CPSU
+    group: "\uD504\uB77C\uD37C"
+    objective: 6a26943d55478d73e6b4fadf
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+      \uD504\uB77C\uD37C\uC758 \uCE5C\uAD6C\uC758 \uC544\uD30C\uD2B8 \uCC3E\uAE30"
+    position: {x: 131.43, y: 7.59, z: 232.37}
+  - type: 7
+    key: 64f5aac4b63b74469b6c14c2
+    name: Glory to CPSU
+    group: "\uD504\uB77C\uD37C"
+    objective: 64f5b876a2a5bb727b61c5ad
+    detail: "\uC77C\uC9C0"
+    position: {x: 245.89398, y: -0.6870003, z: 55.196}
+  - type: 7
+    key: 64f5aac4b63b74469b6c14c2
+    name: Glory to CPSU
+    group: "\uD504\uB77C\uD37C"
+    objective: 64f5b876a2a5bb727b61c5ad
+    detail: "\uC77C\uC9C0"
+    position: {x: 249.29099, y: -0.5653, z: 57.7654}
+  - type: 7
+    key: 64f5aac4b63b74469b6c14c2
+    name: Glory to CPSU
+    group: "\uD504\uB77C\uD37C"
+    objective: 64f5b876a2a5bb727b61c5ad
+    detail: "\uC77C\uC9C0"
+    position: {x: 247.16199, y: -0.47999954, z: 51.082}
+  - type: 7
+    key: 64f5aac4b63b74469b6c14c2
+    name: Glory to CPSU
+    group: "\uD504\uB77C\uD37C"
+    objective: 64f5b876a2a5bb727b61c5ad
+    detail: "\uC77C\uC9C0"
+    position: {x: 245.60138, y: -0.32450008, z: 57.9813}
+  - type: 7
+    key: 64f5e20652fc01298e2c61e3
+    name: Beyond the Red Meat
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 64f6a9e6dd44b6417729b535
+    detail: "\uC694\uB9AC\uC0AC\uC758 \uC77C\uAE30\uC7A5"
+    position: {x: -26.149, y: 10.6282, z: -56.0783}
+  - type: 7
+    key: 64f5e20652fc01298e2c61e3
+    name: Beyond the Red Meat
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 64f6a9e6dd44b6417729b535
+    detail: "\uC694\uB9AC\uC0AC\uC758 \uC77C\uAE30\uC7A5"
+    position: {x: -42.788002, y: 10.1146, z: -66.412}
+  - type: 7
+    key: 64f5e20652fc01298e2c61e3
+    name: Beyond the Red Meat
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 64f6a9e6dd44b6417729b535
+    detail: "\uC694\uB9AC\uC0AC\uC758 \uC77C\uAE30\uC7A5"
+    position: {x: -29.297, y: 10.104, z: -70.153}
+  - type: 7
+    key: 64f5e20652fc01298e2c61e3
+    name: Beyond the Red Meat
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 64f6a9e6dd44b6417729b535
+    detail: "\uC694\uB9AC\uC0AC\uC758 \uC77C\uAE30\uC7A5"
+    position: {x: -41.380898, y: 5.9082, z: -42.932404}
+  - type: 7
+    key: 638fcd23dc65553116701d33
+    name: Audit
+    group: "\uB798\uADF8\uB9E8"
+    objective: 638fd070202cd55bee01ca11
+    detail: "\uD68C\uACC4\uC0AC\uC758 \uBA54\uBAA8"
+    position: {x: -177.12001, y: 6.1466, z: 227.1259}
+  - type: 6
+    key: 639136fa9444fb141f4e6eee
+    name: Watching You
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 63a7d8665199ab1f7d4a7747
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uAC10\uC2DC \uC7A5\uC18C
+      \uCC3E\uAE30"
+    position: {x: -67.75, y: 5.95, z: 65.88}
+  - type: 7
+    key: 639136fa9444fb141f4e6eee
+    name: Watching You
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 639136fa9444fb141f4e6eef
+    detail: "\uB179\uC74C\uC774 \uB2F4\uAE34 \uD50C\uB798\uC2DC \uB4DC\uB77C\uC774\uBE0C"
+    position: {x: -70.079, y: 5.7520537, z: 69.437}
+  - type: 7
+    key: 639136fa9444fb141f4e6eee
+    name: Watching You
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 639136fa9444fb141f4e6eef
+    detail: "\uB179\uC74C\uC774 \uB2F4\uAE34 \uD50C\uB798\uC2DC \uB4DC\uB77C\uC774\uBE0C"
+    position: {x: -65.262, y: 5.8899994, z: 66.363}
+  - type: 6
+    key: 65734c186dc1e402c80dc19e
+    name: Dandies
+    group: "\uB798\uADF8\uB9E8"
+    objective: 657356c410becd24bc776f55
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uC774\uBC1C\uC18C \uC548\uC5D0
+      Bomber \uBE44\uB2C8 \uC228\uAE30\uAE30"
+    position: {x: 206.61, y: 4.33, z: 411.78}
+  - type: 6
+    key: 65734c186dc1e402c80dc19e
+    name: Dandies
+    group: "\uB798\uADF8\uB9E8"
+    objective: 657356d0a95a1e7e1a8d8d99
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uC774\uBC1C\uC18C \uC548\uC5D0
+      RayBench Hipster Reserve \uC120\uAE00\uB77C\uC2A4 \uC228\uAE30\uAE30"
+    position: {x: 214.29, y: 4.25, z: 409.26}
+  - type: 6
+    key: 63913715f8e5dd32bf4e3aaa
+    name: Broadcast - Part 2
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 63a7d99804d3dc28a52a2106
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uC2DD\uB8CC\uD488\uC810 \uC548\uC5D0\uC11C
+      \uD53C\uC758 \uBC29\uC1A1 \uC7A5\uC18C \uCC3E\uAE30"
+    position: {x: 157.36, y: 5.1, z: 314.25}
+  - type: 7
+    key: 666314c5a9290f9e0806cca5
+    name: Key to the City
+    group: "\uB798\uADF8\uB9E8"
+    objective: 6679884cef969161e3e9d64d
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC \uAE30\uB150\uD488 \uC5F4\uC1E0"
+    position: {x: 245.67201, y: -3.622, z: 50.760002}
+  - type: 7
+    key: 666314c5a9290f9e0806cca5
+    name: Key to the City
+    group: "\uB798\uADF8\uB9E8"
+    objective: 6679884cef969161e3e9d64d
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC \uAE30\uB150\uD488 \uC5F4\uC1E0"
+    position: {x: 246.69151, y: -0.07700001, z: 47.761}
+  - type: 7
+    key: 666314c5a9290f9e0806cca5
+    name: Key to the City
+    group: "\uB798\uADF8\uB9E8"
+    objective: 6679884cef969161e3e9d64d
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC \uAE30\uB150\uD488 \uC5F4\uC1E0"
+    position: {x: 247.70201, y: -0.403, z: 58.834}
+  - type: 7
+    key: 666314c5a9290f9e0806cca5
+    name: Key to the City
+    group: "\uB798\uADF8\uB9E8"
+    objective: 6679884cef969161e3e9d64d
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC \uAE30\uB150\uD488 \uC5F4\uC1E0"
+    position: {x: 243.3352, y: -3.6153, z: 52.953503}
+  - type: 7
+    key: 666314c5a9290f9e0806cca5
+    name: Key to the City
+    group: "\uB798\uADF8\uB9E8"
+    objective: 6679884cef969161e3e9d64d
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC \uAE30\uB150\uD488 \uC5F4\uC1E0"
+    position: {x: 248.9992, y: -3.6352, z: 53.766003}
+  - type: 7
+    key: 666314c5a9290f9e0806cca5
+    name: Key to the City
+    group: "\uB798\uADF8\uB9E8"
+    objective: 6679884cef969161e3e9d64d
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC \uAE30\uB150\uD488 \uC5F4\uC1E0"
+    position: {x: 242.953, y: -0.7722, z: 55.2452}
+  - type: 7
+    key: 666314c5a9290f9e0806cca5
+    name: Key to the City
+    group: "\uB798\uADF8\uB9E8"
+    objective: 6679884cef969161e3e9d64d
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC \uAE30\uB150\uD488 \uC5F4\uC1E0"
+    position: {x: 248.3334, y: -3.6317, z: 55.362602}
+  - type: 6
+    key: 639135b04ed9512be67647d7
+    name: Glory to CPSU - Part 1
+    group: "\uD504\uB77C\uD37C"
+    objective: 63a7db4a3e491955e65fb88b
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+      \uD504\uB77C\uD37C\uC758 \uCE5C\uAD6C\uC758 \uC544\uD30C\uD2B8 \uCC3E\uAE30"
+    position: {x: 131.43, y: 7.59, z: 232.37}
+  - type: 6
+    key: 63a511ea30d85e10e375b045
+    name: Broadcast - Part 3
+    group: "\uC608\uAC70"
+    objective: 63ac22b8f627f540861d1b2d
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uB0A1\uC740 \uC9D1 \uC548\uC5D0\uC11C
+      \uD53C\uC758 \uBC29\uC1A1 \uC7A5\uC18C \uCC3E\uAE30"
+    position: {x: -204.67, y: 3.26, z: 242.99}
+  - type: 6
+    key: 6391372c8ba6894d155e77d7
+    name: Broadcast - Part 4
+    group: "\uC608\uAC70"
+    objective: 63a7d6d61f06d111271f5aeb
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uAD11\uC2E0\uB3C4
+      \uBAA8\uC784 \uC7A5\uC18C \uCC3E\uAE30"
+    position: {x: -130.8, y: 9.49, z: 269.74}
+  - type: 6
+    key: 64ee99639878a0569d6ec8c9
+    name: Broadcast - Part 5
+    group: "\uC608\uAC70"
+    objective: 64ee9a979878a0569d6ec8cb
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uCCB4\uCE74\uB098\uC57C \uAC70\uB9AC\uC758
+      \uC758\uC2DD \uC7A5\uC18C \uCC3E\uAE30"
+    position: {x: 188.39, y: 0.76, z: 226.51}
+  - type: 6
+    key: 64ee99639878a0569d6ec8c9
+    name: Broadcast - Part 5
+    group: "\uC608\uAC70"
+    objective: 64ee9b5a1a5f313cb144bf87
+    detail: "\uC758\uC2DD \uC7A5\uC18C\uC5D0 \uAD11\uC2E0\uB3C4 \uCE7C \uC228\uAE30\uAE30"
+    position: {x: 188.59, y: 0.37, z: 226.38}
+  - type: 6
+    key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    group: "\uD39C\uC2A4"
+    objective: 66d9cbb67b491f9d5304f6eb
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC788\uB294
+      \uCCA0\uC870\uB9DD\uC5D0 \uAC10\uAE34 \uC2DC\uCCB4\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+      \uC124\uCE58\uD558\uAE30"
+    position: {x: 181.24, y: 1.17, z: 228.68}
+  - type: 6
+    key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    group: "\uD39C\uC2A4"
+    objective: 66d9cbb67b491f9d5304f6e9
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC788\uB294
+      \uD53C\uC790\uB97C \uC88B\uC544\uD558\uB294 \uC591\uC11C\uB958\uB4E4\uC758
+      \uC740\uC2E0\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+    position: {x: -263.27, y: -2.03, z: 206.44}
+  - type: 6
+    key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    group: "\uD39C\uC2A4"
+    objective: 66dacf2a88c7001436a67390
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC788\uB294
+      \uC815\uB9D0 \uC73C\uC2A4\uC2A4\uD55C \uBCBD\uC758 \uAD6C\uBA4D\uC5D0 Wi-Fi
+      \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+    position: {x: 209.4, y: 0.96, z: 231.01}
+  - type: 6
+    key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    group: "\uD39C\uC2A4"
+    objective: 66d9cbb67b491f9d5304f6ea
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC788\uB294
+      \uBD88\uC5D0 \uD0C4 \uC18C\uB140\uC758 \uBCD1\uC2E4\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+      \uC124\uCE58\uD558\uAE30"
+    position: {x: 182.81, y: 2.48, z: 111.74}
+  - type: 6
+    key: 639135bbc115f907b14700a6
+    name: Audiophile
+    group: "\uB798\uADF8\uB9E8"
+    objective: 63a7d8f404d3dc28a52a2104
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC74C\uC545\uAC00\uB4E4\uC758
+      \uBAA8\uC784 \uC7A5\uC18C \uCC3E\uAE30"
+    position: {x: 42.98, y: 11.75, z: 151.46}
+  - type: 7
+    key: 639135bbc115f907b14700a6
+    name: Audiophile
+    group: "\uB798\uADF8\uB9E8"
+    objective: 639135bbc115f907b14700a7
+    detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
+    position: {x: 41.052006, y: 12.560199, z: 154.98201}
+  - type: 7
+    key: 639135bbc115f907b14700a6
+    name: Audiophile
+    group: "\uB798\uADF8\uB9E8"
+    objective: 639135bbc115f907b14700a7
+    detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
+    position: {x: 34.95802, y: 12.501999, z: 152.32729}
+  - type: 7
+    key: 639135bbc115f907b14700a6
+    name: Audiophile
+    group: "\uB798\uADF8\uB9E8"
+    objective: 639135bbc115f907b14700a7
+    detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
+    position: {x: 36.349213, y: 12.278599, z: 148.5618}
+  - type: 7
+    key: 639135bbc115f907b14700a6
+    name: Audiophile
+    group: "\uB798\uADF8\uB9E8"
+    objective: 639135bbc115f907b14700a7
+    detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
+    position: {x: 42.291004, y: 12.553749, z: 148.51831}
+  - type: 7
+    key: 639135bbc115f907b14700a6
+    name: Audiophile
+    group: "\uB798\uADF8\uB9E8"
+    objective: 639135bbc115f907b14700a7
+    detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
+    position: {x: 42.913, y: 11.729299, z: 152.35751}
+  - type: 7
+    key: 639135bbc115f907b14700a6
+    name: Audiophile
+    group: "\uB798\uADF8\uB9E8"
+    objective: 639135bbc115f907b14700a7
+    detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
+    position: {x: 36.995472, y: 12.501999, z: 153.30731}
+  - type: 7
+    key: 639135bbc115f907b14700a6
+    name: Audiophile
+    group: "\uB798\uADF8\uB9E8"
+    objective: 639135bbc115f907b14700a7
+    detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
+    position: {x: 44.3447, y: 12.643499, z: 151.7695}
+  - type: 7
+    key: 639135bbc115f907b14700a6
+    name: Audiophile
+    group: "\uB798\uADF8\uB9E8"
+    objective: 639135bbc115f907b14700a7
+    detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
+    position: {x: 44.6515, y: 11.760698, z: 149.32391}
+  - type: 7
+    key: 639135bbc115f907b14700a6
+    name: Audiophile
+    group: "\uB798\uADF8\uB9E8"
+    objective: 639135bbc115f907b14700a7
+    detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
+    position: {x: 36.493984, y: 11.8429985, z: 157.48001}
+  - type: 7
+    key: 639135bbc115f907b14700a6
+    name: Audiophile
+    group: "\uB798\uADF8\uB9E8"
+    objective: 639135bbc115f907b14700a7
+    detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
+    position: {x: 40.601604, y: 11.7158985, z: 153.7631}
+  - type: 6
+    key: 639135cd8ba6894d155e77cb
+    name: House Arrest - Part 2
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 63a7dbefee7b4d0d5507baf8
+    detail: "\uAD50\uB3C4\uAD00\uC5D0\uAC8C \uBB34\uC2A8 \uC77C\uC774 \uC788\uC5C8\uB294\uC9C0
+      \uC54C\uC544\uB0B4\uAE30"
+    position: {x: 106.77, y: 4.65, z: 222.48}
+  - type: 6
+    key: 639135cd8ba6894d155e77cb
+    name: House Arrest - Part 2
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 63a7dbc31943b749b5021ec3
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC784\uC2DC \uAC10\uC625
+      \uAD50\uB3C4\uAD00\uC758 \uC544\uD30C\uD2B8 \uCC3E\uAE30"
+    position: {x: 107.93, y: 7.57, z: 232.19}
+  - type: 6
+    key: 64e7b99017ab941a6f7bf9d7
+    name: Gendarmerie - Mall Cop
+    group: "\uD504\uB77C\uD37C"
+    objective: 64e7bc2c5e6d3e61ca2ca097
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+      \uAD8C\uCD1D\uC73C\uB85C Stylobate \uAC74\uBB3C\uC5D0 \uC788\uB294 \uBAA8\uB4E0
+      \uBAA9\uD45C\uBB3C\uC744 \uC0AC\uC0B4\uD558\uAE30"
+    position: {x: -97.2, y: 8.6, z: -10.7}
+  - type: 6
+    key: 64e7b9a4aac4cd0a726562cb
+    name: Gendarmerie - Tickets, Please
+    group: "\uD504\uB77C\uD37C"
+    objective: 64e7bd0c6393886f74119f41
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+      SMG\uB97C \uC0AC\uC6A9\uD558\uC5EC Rodina \uC601\uD654\uAD00\uC5D0 \uC788\uB294
+      \uBAA8\uB4E0 \uBAA9\uD45C\uBB3C \uC0AC\uC0B4\uD558\uAE30"
+    position: {x: -180.4, y: 16.5, z: 399.5}
+  - type: 7
+    key: 639135534b15ca31f76bc317
+    name: Your Car Needs a Service
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 639135534b15ca31f76bc318
+    detail: "\uBCF4\uC548 \uD50C\uB798\uC2DC \uB4DC\uB77C\uC774\uBE0C"
+    position: {x: 66.800995, y: 7.7271996, z: 303.143}
+  - type: 7
+    key: 6391359b9444fb141f4e6ee6
+    name: You've Got Mail
+    group: "\uD504\uB77C\uD37C"
+    objective: 6391359b9444fb141f4e6ee7
+    detail: "\uB4F1\uAE30 \uD3B8\uC9C0"
+    position: {x: 36.107998, y: 1.2919998, z: 126.599}
+  - type: 7
+    key: 6391359b9444fb141f4e6ee6
+    name: You've Got Mail
+    group: "\uD504\uB77C\uD37C"
+    objective: 6391359b9444fb141f4e6ee7
+    detail: "\uB4F1\uAE30 \uD3B8\uC9C0"
+    position: {x: 39.234997, y: 1.5159998, z: 117.6931}
+  - type: 7
+    key: 6391359b9444fb141f4e6ee6
+    name: You've Got Mail
+    group: "\uD504\uB77C\uD37C"
+    objective: 6391359b9444fb141f4e6ee7
+    detail: "\uB4F1\uAE30 \uD3B8\uC9C0"
+    position: {x: 39.475, y: 1.1955996, z: 113.47099}
+  - type: 7
+    key: 6391359b9444fb141f4e6ee6
+    name: You've Got Mail
+    group: "\uD504\uB77C\uD37C"
+    objective: 6391359b9444fb141f4e6ee7
+    detail: "\uB4F1\uAE30 \uD3B8\uC9C0"
+    position: {x: 42.395695, y: 1.9179997, z: 118.768196}
+  - type: 6
+    key: 639135a7e705511c8a4a1b78
+    name: Ballet Lover
+    group: "\uB798\uADF8\uB9E8"
+    objective: 63a7da6f5199ab1f7d4a774a
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uBC1C\uB808 \uB9C8\uC2A4\uD130\uC758
+      \uC544\uD30C\uD2B8 \uCC3E\uAE30"
+    position: {x: 47.63, y: 12.66, z: 153.12}
+  - type: 6
+    key: 639135c3744e452011470807
+    name: House Arrest
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 63a7d767f32fa1316250c3da
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC2E4\uC885\uB41C
+      \uADF8\uB8F9\uC774 \uBD99\uC7A1\uD600 \uC788\uB358 \uACF3 \uCC3E\uAE30"
+    position: {x: 127.09, y: 10.64, z: 232.57}
+  - type: 6
+    key: 639135c3744e452011470807
+    name: House Arrest
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6a5a95f70cfa2d5efcf39d77
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uCC44\uBB34\uC790
+      \uCC3E\uAE30"
+    position: {x: -80.26, y: 5.98, z: 50.5}
+  - type: 6
+    key: 639135e0fa894f0a866afde6
+    name: Urban Medicine
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 63a7d64710b7a13eb015961f
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC704\uCE58\uD55C
+      \uD654\uD559 \uC2E4\uD5D8\uC2E4 \uCC3E\uAE30"
+    position: {x: 92.96, y: 3.59, z: 320.38}
+  - type: 7
+    key: 639135e0fa894f0a866afde6
+    name: Urban Medicine
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 639135e0fa894f0a866afde7
+    detail: "\uC0D8\uD50C\uC774 \uB4E0 \uD654\uD559\uBB3C\uC9C8 \uC6A9\uAE30"
+    position: {x: 95.8846, y: 2.6708999, z: 319.08118}
+  - type: 7
+    key: 639135e0fa894f0a866afde6
+    name: Urban Medicine
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 639135e0fa894f0a866afde7
+    detail: "\uC0D8\uD50C\uC774 \uB4E0 \uD654\uD559\uBB3C\uC9C8 \uC6A9\uAE30"
+    position: {x: 91.192, y: 2.6707, z: 323.2334}
+  - type: 7
+    key: 639135e8c115f907b14700aa
+    name: Surveillance
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 639135e8c115f907b14700ab
+    detail: "\uC791\uB3D9\uD558\uB294 \uD558\uB4DC \uB4DC\uB77C\uC774\uBE0C"
+    position: {x: 208.443, y: -0.3692007, z: 412.14648}
+  - type: 7
+    key: 639135e8c115f907b14700aa
+    name: Surveillance
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 639135e8c115f907b14700ab
+    detail: "\uC791\uB3D9\uD558\uB294 \uD558\uB4DC \uB4DC\uB77C\uC774\uBE0C"
+    position: {x: 208.7273, y: -0.44880104, z: 408.63458}
+  - type: 7
+    key: 639135e8c115f907b14700aa
+    name: Surveillance
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 639135e8c115f907b14700ab
+    detail: "\uC791\uB3D9\uD558\uB294 \uD558\uB4DC \uB4DC\uB77C\uC774\uBE0C"
+    position: {x: 210.5096, y: -0.773201, z: 407.50043}
+  - type: 7
+    key: 639135e8c115f907b14700aa
+    name: Surveillance
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 639135e8c115f907b14700ab
+    detail: "\uC791\uB3D9\uD558\uB294 \uD558\uB4DC \uB4DC\uB77C\uC774\uBE0C"
+    position: {x: 213.23589, y: -0.88670063, z: 410.32123}
+  - type: 6
+    key: 639135f286e646067c176a87
+    name: Revision - Streets of Tarkov
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 63927f14744e452011470816
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uC9C0\uC5ED\uC5D0\uC11C
+      \uCCAB \uBC88\uC9F8 LAV III\uB97C \uCC3E\uC544 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+    position: {x: -139.43, y: 3.56, z: 438.81}
+  - type: 6
+    key: 639135f286e646067c176a87
+    name: Revision - Streets of Tarkov
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 63927f2d8ba6894d155e77e6
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uC9C0\uC5ED\uC5D0\uC11C
+      Stryker \uC7A5\uAC11\uCC28\uB97C \uCC3E\uC544 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+    position: {x: 146.31, y: 4.7, z: 408.41}
+  - type: 6
+    key: 639135f286e646067c176a87
+    name: Revision - Streets of Tarkov
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 63927f349444fb141f4e6f24
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uC9C0\uC5ED\uC5D0\uC11C
+      \uB450 \uBC88\uC9F8 LAV III\uB97C \uCC3E\uC544 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+    position: {x: 2.19, y: 0.9, z: 34.04}
+  - type: 6
+    key: 639136d68ba6894d155e77cf
+    name: Green Corridor
+    group: "\uD504\uB77C\uD37C"
+    objective: 63a7d53904d3dc28a52a2100
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+      \uD654\uBB3C \uC218\uC1A1\uB300 \uCC3E\uAE30"
+    position: {x: 15.65, y: 3.39, z: 226.62}
+  - type: 6
+    key: 639136d68ba6894d155e77cf
+    name: Green Corridor
+    group: "\uD504\uB77C\uD37C"
+    objective: 63a7d58004d3dc28a52a2102
+    detail: "\uB9E4\uBCF5 \uC9C0\uC810 \uCC3E\uAE30"
+    position: {x: 62.18, y: 7.11, z: 272.84}
+  - type: 6
+    key: 639282134ed9512be67647ed
+    name: Road Closed
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 63a7d461f32fa1316250c3d7
+    detail: "\uB9E4\uBCF5 \uC9C0\uC810 \uCC3E\uAE30"
+    position: {x: 62.18, y: 7.11, z: 272.84}
+  - type: 6
+    key: 639282134ed9512be67647ed
+    name: Road Closed
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 63a7d444f32fa1316250c3d5
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+      \uD654\uBB3C \uC218\uC1A1\uB300 \uCC3E\uAE30"
+    position: {x: 15.65, y: 3.39, z: 226.62}
+  - type: 6
+    key: 63966fbeea19ac7ed845db2e
+    name: Missing Informant
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 63a7cee004d3dc28a52a20f8
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC815\uBCF4\uC6D0\uC758
+      \uC608\uBE44 \uC740\uC2E0\uCC98 \uCC3E\uAE30"
+    position: {x: -130.4, y: 3.2, z: 396.47}
+  - type: 7
+    key: 63966fbeea19ac7ed845db2e
+    name: Missing Informant
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 63990a1ddcdd126fef1771c1
+    detail: "\uC815\uBCF4\uC6D0\uC758 \uC77C\uC9C0"
+    position: {x: -127.914, y: 2.3809996, z: 397.04297}
+  - type: 7
+    key: 63966fbeea19ac7ed845db2e
+    name: Missing Informant
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 63990a1ddcdd126fef1771c1
+    detail: "\uC815\uBCF4\uC6D0\uC758 \uC77C\uC9C0"
+    position: {x: -129.309, y: 2.3735995, z: 392.5885}
+  - type: 7
+    key: 63966fbeea19ac7ed845db2e
+    name: Missing Informant
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 63990a1ddcdd126fef1771c1
+    detail: "\uC815\uBCF4\uC6D0\uC758 \uC77C\uC9C0"
+    position: {x: -132.2276, y: 2.3789997, z: 397.61707}
+  - type: 6
+    key: 6396700fea19ac7ed845db32
+    name: Spotter
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 63a7d2acee7b4d0d5507baf2
+    detail: "\uCF58\uCF54\uB974\uB514\uC544\uC5D0\uC11C \uACF5\uC0AC\uC7A5\uC774
+      \uB0B4\uB824\uB2E4\uBCF4\uC774\uB294 \uC88B\uC740 \uC800\uACA9 \uC704\uCE58
+      \uCC3E\uAE30"
+    position: {x: 219.39, y: 10.32, z: 397.48}
+  - type: 6
+    key: 6396700fea19ac7ed845db32
+    name: Spotter
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 63a7d2acee7b4d0d5507baf2
+    detail: "\uCF58\uCF54\uB974\uB514\uC544\uC5D0\uC11C \uACF5\uC0AC\uC7A5\uC774
+      \uB0B4\uB824\uB2E4\uBCF4\uC774\uB294 \uC88B\uC740 \uC800\uACA9 \uC704\uCE58
+      \uCC3E\uAE30"
+    position: {x: 224.98, y: 10.34, z: 396.67}
+  - type: 6
+    key: 6396700fea19ac7ed845db32
+    name: Spotter
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 63a7d2acee7b4d0d5507baf2
+    detail: "\uCF58\uCF54\uB974\uB514\uC544\uC5D0\uC11C \uACF5\uC0AC\uC7A5\uC774
+      \uB0B4\uB824\uB2E4\uBCF4\uC774\uB294 \uC88B\uC740 \uC800\uACA9 \uC704\uCE58
+      \uCC3E\uAE30"
+    position: {x: 214.79, y: 10.32, z: 398.14}
+  - type: 6
+    key: 6396700fea19ac7ed845db32
+    name: Spotter
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 639c359f0a20a7001f00c7a8
+    detail: "\uBE68\uAC04 \uD0C1\uC790 \uADFC\uCC98\uC5D0 AI Tactical Sound Moderator
+      .338 LM \uC228\uAE30\uAE30"
+    position: {x: 228.19, y: 9.88, z: 396.7}
+  - type: 6
+    key: 6396700fea19ac7ed845db32
+    name: Spotter
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 639c359f0a20a7001f00c7a8
+    detail: "\uBE68\uAC04 \uD0C1\uC790 \uADFC\uCC98\uC5D0 AI Tactical Sound Moderator
+      .338 LM \uC228\uAE30\uAE30"
+    position: {x: 218.21, y: 9.9, z: 396.31}
+  - type: 6
+    key: 6396700fea19ac7ed845db32
+    name: Spotter
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 639c359f0a20a7001f00c7a8
+    detail: "\uBE68\uAC04 \uD0C1\uC790 \uADFC\uCC98\uC5D0 AI Tactical Sound Moderator
+      .338 LM \uC228\uAE30\uAE30"
+    position: {x: 215.75, y: 9.79, z: 395.9}
+  - type: 6
+    key: 6396700fea19ac7ed845db32
+    name: Spotter
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 63a7d315f32fa1316250c3d2
+    detail: "\uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4\uC5D0\uC11C \uC601\uD654\uAD00\uC774
+      \uB0B4\uB824\uB2E4\uBCF4\uC774\uB294 \uC88B\uC740 \uC800\uACA9 \uC704\uCE58
+      \uCC3E\uAE30"
+    position: {x: 36.98, y: 11.08, z: 88.17}
+  - type: 6
+    key: 6396700fea19ac7ed845db32
+    name: Spotter
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 63a7d315f32fa1316250c3d2
+    detail: "\uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4\uC5D0\uC11C \uC601\uD654\uAD00\uC774
+      \uB0B4\uB824\uB2E4\uBCF4\uC774\uB294 \uC88B\uC740 \uC800\uACA9 \uC704\uCE58
+      \uCC3E\uAE30"
+    position: {x: 37.87, y: 12.66, z: 155.78}
+  - type: 6
+    key: 6396700fea19ac7ed845db32
+    name: Spotter
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 639c39807c1532d85b0162a9
+    detail: "\uB9C8\uD638\uB974\uC758 \uCE68\uB300 \uBC11\uC5D0 Trijicon REAP-IR
+      \uC5F4\uD654\uC0C1 \uC870\uC900\uACBD \uC228\uAE30\uAE30"
+    position: {x: 37.98, y: 12.15, z: 156.24}
+  - type: 6
+    key: 63967028c4a91c5cb76abd81
+    name: Trouble in the Big City
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 63bd64552803ffbfad0e3e48
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uD654\uBB3C\uC744
+      \uC6B4\uC1A1\uC911\uC774\uB358 \uAE30\uAC11 \uD638\uC1A1\uB300 \uC704\uCE58
+      \uD30C\uC545\uD558\uAE30"
+    position: {x: 15.65, y: 3.39, z: 226.62}
+  - type: 6
+    key: 63967028c4a91c5cb76abd81
+    name: Trouble in the Big City
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 639aea2228d8a21b593a3491
+    detail: "\uD654\uBB3C \uAD6C\uC5ED\uC5D0 MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
+    position: {x: 10.49, y: 4.75, z: 217.56}
+  - type: 6
+    key: 63967028c4a91c5cb76abd81
+    name: Trouble in the Big City
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 63bd64ba3d34b0e64b0d0a17
+    detail: "\uAE30\uAC11 \uD638\uC1A1\uB300 \uC778\uADFC\uC5D0\uC11C \uD669\uC0C9
+      \uC2E0\uD638\uD0C4 \uBC1C\uC0AC\uD558\uAE30"
+    position: {x: 9.69, y: 8.55, z: 217.15}
+  - type: 6
+    key: 639dbaf17c898a131e1cffff
+    name: Debtor
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 63a7cd3aee7b4d0d5507baee
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uCC44\uBB34\uC790
+      \uCC3E\uAE30"
+    position: {x: -80.26, y: 5.98, z: 50.5}
+  - type: 6
+    key: 639dbaf17c898a131e1cffff
+    name: Debtor
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6a5a9710671cbfe928bbfde2
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC0AC\uC124 \uAC10\uC625
+      \uAD50\uB3C4\uAD00\uC758 \uC544\uD30C\uD2B8 \uCC3E\uAE30"
+    position: {x: 107.93, y: 7.57, z: 232.19}
+  - type: 6
+    key: 63a88045abf76d719f42d715
+    name: The Delicious Sausage
+    group: "\uC608\uAC70"
+    objective: 63a98cfbc31b00242d28a95b
+    detail: "\uB2C8\uD0A4\uCE20\uCE74\uC57C \uAC70\uB9AC\uC758 \uC170\uC2A4\uD210\uB85C\uCE58\uCE74
+      \uB9E4\uC7A5 \uC815\uCC30\uD558\uAE30"
+    position: {x: -204.31, y: 4.3, z: 181.22}
+  - type: 6
+    key: 63a88045abf76d719f42d715
+    name: The Delicious Sausage
+    group: "\uC608\uAC70"
+    objective: 63a98d24655ec5555b4aa9e7
+    detail: "\uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4 \uB300\uB85C\uC758 \uC2A4\uD30C\uB7B4
+      \uB9E4\uC7A5 \uC815\uCC30\uD558\uAE30"
+    position: {x: 153.69, y: 4.68, z: 299.04}
+  - type: 6
+    key: 63a88045abf76d719f42d715
+    name: The Delicious Sausage
+    group: "\uC608\uAC70"
+    objective: 63a98d39da7999196148ba3a
+    detail: "\uD30C\uC778\uC6B0\uB4DC \uD638\uD154\uC758 \uC2A4\uD30C\uB7B4 \uB9E4\uC7A5
+      \uC815\uCC30\uD558\uAE30"
+    position: {x: -77.17, y: 2.33, z: 158.91}
+  - type: 6
+    key: 63a88045abf76d719f42d715
+    name: The Delicious Sausage
+    group: "\uC608\uAC70"
+    objective: 63a98d60c0f61a5d8731cd9f
+    detail: "\uCF58\uCF54\uB974\uB514\uC544\uC758 \uACE0\uC0E8 \uB9E4\uC7A5 \uC815\uCC30\uD558\uAE30"
+    position: {x: 275.65, y: 4.3, z: 380.83}
+  - type: 6
+    key: 64ee9df4496db64f9b7a4432
+    name: The Door
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 64ee9df4496db64f9b7a4433
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+      \uC804\uD30C \uBC29\uD574\uB97C \uC77C\uC73C\uD0A4\uB294 \uC6D0\uC778\uC744
+      \uC54C\uC544\uB0B4\uAE30"
+    position: {x: 184.42, y: 6.76, z: 55.58}
+  - type: 6
+    key: 64ee9df4496db64f9b7a4432
+    name: The Door
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 64ee9df4496db64f9b7a4435
+    detail: "\uBB38\uC744 \uAC10\uC2DC\uD558\uAE30 \uC704\uD55C Wi-Fi \uCE74\uBA54\uB77C
+      \uC124\uCE58\uD558\uAE30"
+    position: {x: 183.93, y: 6.09, z: 53.35}
+  - type: 6
+    key: 64ee9df4496db64f9b7a4432
+    name: The Door
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 64eea6059878a0569d6ec98b
+    detail: "\uACC4\uB2E8\uC744 \uAC10\uC2DC\uD558\uAE30 \uC704\uD55C Wi-Fi \uCE74\uBA54\uB77C
+      \uC124\uCE58\uD558\uAE30"
+    position: {x: 176.3, y: 6.29, z: 82.24}
+  - type: 7
+    key: 64f3176921045e77405d63b5
+    name: Paramedic
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 64f3176921045e77405d63ba
+    detail: "\uAD6C\uAE09\uB300\uC6D0\uC758 GPhone X"
+    position: {x: 157.91998, y: 3.6553307, z: 455.95703}
+  - type: 7
+    key: 64f3176921045e77405d63b5
+    name: Paramedic
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 64f3176921045e77405d63ba
+    detail: "\uAD6C\uAE09\uB300\uC6D0\uC758 GPhone X"
+    position: {x: 223.6565, y: 3.4719124, z: 369.44104}
+  - type: 7
+    key: 64f3176921045e77405d63b5
+    name: Paramedic
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 64f3176921045e77405d63ba
+    detail: "\uAD6C\uAE09\uB300\uC6D0\uC758 GPhone X"
+    position: {x: 311.462, y: 3.3989067, z: 413.36804}
+  - type: 7
+    key: 64f6aafd67e11a7c6206e0d0
+    name: The Secret Recipe
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 64f6aafd67e11a7c6206e0d1
+    detail: "\uBE44\uBC00 \uBD80\uD488"
+    position: {x: -28.5096, y: 7.3761997, z: -117.110794}
+  - type: 7
+    key: 64f6aafd67e11a7c6206e0d0
+    name: The Secret Recipe
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 64f6aafd67e11a7c6206e0d1
+    detail: "\uBE44\uBC00 \uBD80\uD488"
+    position: {x: -27.506, y: 7.433, z: -109.47299}
+  - type: 7
+    key: 64f6aafd67e11a7c6206e0d0
+    name: The Secret Recipe
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 64f6aafd67e11a7c6206e0d1
+    detail: "\uBE44\uBC00 \uBD80\uD488"
+    position: {x: 58.483997, y: 0.9229994, z: -72.764984}
+  - type: 7
+    key: 64f6aafd67e11a7c6206e0d0
+    name: The Secret Recipe
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 64f6aafd67e11a7c6206e0d1
+    detail: "\uBE44\uBC00 \uBD80\uD488"
+    position: {x: 41.592, y: 1.5759997, z: -53.944992}
+  - type: 7
+    key: 64f6aafd67e11a7c6206e0d0
+    name: The Secret Recipe
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 64f6aafd67e11a7c6206e0d1
+    detail: "\uBE44\uBC00 \uBD80\uD488"
+    position: {x: -41.1733, y: 7.6146, z: -110.08528}
+  - type: 6
+    key: 64f731ab83cfca080a361e42
+    name: Pets Won't Need It
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 64f731fa39e45b527a7c4300
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC758 \uB3D9\uBB3C\uBCD1\uC6D0\uC744
+      \uCC3E\uC544 \uC815\uCC30\uD558\uAE30"
+    position: {x: 224.87, y: 4.82, z: 172.81}
+  - type: 6
+    key: 64f731ab83cfca080a361e42
+    name: Pets Won't Need It
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 64f732240e186112c4455d84
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC758 \uC5D1\uC2A4\uB808\uC774
+      \uAE30\uC0AC\uC758 \uBC29\uC744 \uCC3E\uC544 \uC815\uCC30\uD558\uAE30"
+    position: {x: 182.99, y: 2.75, z: 102}
+  - type: 6
+    key: 64f731ab83cfca080a361e42
+    name: Pets Won't Need It
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6a568465f58d7f6b0a60fe7f
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4
+      \uB300\uB85C\uC758 \uCCAB \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
+    position: {x: 39.05, y: 3.65, z: 162.41}
+  - type: 6
+    key: 64f731ab83cfca080a361e42
+    name: Pets Won't Need It
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6a56846efc5f232676a88d09
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4
+      \uB300\uB85C\uC758 \uB450 \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
+    position: {x: -44.62, y: 4.19, z: 336.07}
+  - type: 6
+    key: 64f731ab83cfca080a361e42
+    name: Pets Won't Need It
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6a56847638efe4385b7efdb3
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uCE74\uB514\uB110 \uC544\uD30C\uD2B8
+      \uB2E8\uC9C0 \uADFC\uCC98\uC758 \uC57D\uAD6D \uCC3E\uAE30"
+    position: {x: 89.26, y: 5.07, z: -275.35}
+  - type: 6
+    key: 6572e876dc0d635f633a5714
+    name: Pyramid Scheme
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6a5b8db01dc53f0f3ec7f0d9
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uAC70\uB9AC\uC758
+      ATM \uC911 \uD558\uB098\uB97C MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: 83.02, y: 1.22, z: -30.5}
+  - type: 6
+    key: 6572e876dc0d635f633a5714
+    name: Pyramid Scheme
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6a5b8db01dc53f0f3ec7f0d9
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uAC70\uB9AC\uC758
+      ATM \uC911 \uD558\uB098\uB97C MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: 83.02, y: 1.22, z: -30.5}
+  - type: 6
+    key: 6572e876dc0d635f633a5714
+    name: Pyramid Scheme
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6572e876dc0d635f633a5718
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uAC70\uB9AC\uC758
+      \uCCAB \uBC88\uC9F8 ATM \uBB36\uC74C \uCC3E\uAE30"
+    position: {x: 97.42, y: 1.23, z: -22.25}
+  - type: 6
+    key: 6572e876dc0d635f633a5714
+    name: Pyramid Scheme
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6573058d6a542c099ce5d92b
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uC1FC\uD551\uBAB0
+      \uC548\uC758 \uCCAB \uBC88\uC9F8 ATM \uCC3E\uAE30"
+    position: {x: -148.57, y: 6.08, z: -62.75}
+  - type: 6
+    key: 6572e876dc0d635f633a5714
+    name: Pyramid Scheme
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 65730579d50436e87723dae4
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uAC70\uB9AC\uC758
+      \uCCAB \uBC88\uC9F8 ATM \uCC3E\uAE30"
+    position: {x: 83.02, y: 1.22, z: -30.5}
+  - type: 6
+    key: 6572e876dc0d635f633a5714
+    name: Pyramid Scheme
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 657305989d1d1fe81237e9e7
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uAC70\uB9AC\uC758
+      \uC138 \uBC88\uC9F8 ATM \uCC3E\uAE30"
+    position: {x: 8.29, y: -2.76, z: 5.15}
+  - type: 6
+    key: 6572e876dc0d635f633a5714
+    name: Pyramid Scheme
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 657305913186869491d7f5fd
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uC1FC\uD551\uBAB0
+      \uC548\uC758 \uB450 \uBC88\uC9F8 ATM \uCC3E\uAE30"
+    position: {x: -113.87, y: 1.61, z: -12.51}
+  - type: 6
+    key: 6572e876dc0d635f633a5714
+    name: Pyramid Scheme
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 65730593d4b1bd9359203a74
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uC1FC\uD551\uBAB0
+      \uC548\uC758 \uC138 \uBC88\uC9F8 ATM \uCC3E\uAE30"
+    position: {x: -166.48, y: 1.62, z: -3.38}
+  - type: 6
+    key: 6572e876dc0d635f633a5714
+    name: Pyramid Scheme
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6573058b4e3f646b0e364add
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uC1FC\uD551\uBAB0
+      \uC548\uC758 \uCCAB \uBC88\uC9F8 ATM \uBB36\uC74C \uCC3E\uAE30"
+    position: {x: -160.19, y: 1.6, z: -47.81}
+  - type: 6
+    key: 6572e876dc0d635f633a5714
+    name: Pyramid Scheme
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 65730597d64537696cc661c6
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uAC70\uB9AC\uC758
+      \uB450 \uBC88\uC9F8 ATM \uCC3E\uAE30"
+    position: {x: 0.45, y: -2.74, z: -18.79}
+  - type: 6
+    key: 6572e876dc0d635f633a5714
+    name: Pyramid Scheme
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6573058f5c2ba64444301c25
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uC1FC\uD551\uBAB0
+      \uC548\uC758 \uB450 \uBC88\uC9F8 ATM \uBB36\uC74C \uCC3E\uAE30"
+    position: {x: -35.2, y: 1.58, z: -69.98}
+  - type: 6
+    key: 6572e876dc0d635f633a5714
+    name: Pyramid Scheme
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 65730595fd5ec1426ebd5484
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uC1FC\uD551\uBAB0
+      \uC548\uC758 \uC138 \uBC88\uC9F8 ATM \uBB36\uC74C \uCC3E\uAE30"
+    position: {x: -53.58, y: 1.58, z: -69.35}
+  - type: 6
+    key: 65733403eefc2c312a759ddb
+    name: Corporate Perks
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 65733403eefc2c312a759ddc
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C IT \uD68C\uC0AC \uC0AC\uBB34\uC2E4
+      \uCC3E\uAE30"
+    position: {x: 164.36, y: 1.72, z: 148.11}
+  - type: 6
+    key: 65733403eefc2c312a759ddb
+    name: Corporate Perks
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 65801ad655315fdce2096bec
+    detail: "\uD68C\uC0AC \uC131\uACF5\uC758 \uBE44\uBC00 \uBC1D\uD600\uB0B4\uAE30"
+    position: {x: 164.25, y: 1.72, z: 167.29}
+  - type: 6
+    key: 6573382e557ff128bf3da536
+    name: The Secret to Productivity
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 6573382e557ff128bf3da537
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C IT \uD68C\uC0AC \uC9C1\uC6D0\uB4E4\uC758
+      \uB192\uC740 \uC0AC\uAE30\uC758 \uBE44\uBC00 \uBC1D\uD600\uB0B4\uAE30"
+    position: {x: -211.76, y: 4.2, z: 297.29}
+  - type: 6
+    key: 6573387d0b26ed4fde798de3
+    name: Pets Won't Need It - Part 2
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6573387d0b26ed4fde798de4
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4
+      \uB300\uB85C\uC758 \uCCAB \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
+    position: {x: 39.05, y: 3.65, z: 162.41}
+  - type: 6
+    key: 6573387d0b26ed4fde798de3
+    name: Pets Won't Need It - Part 2
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 657338ded9b444e1fb07b1a8
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4
+      \uB300\uB85C\uC758 \uB450 \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
+    position: {x: -44.62, y: 4.19, z: 336.07}
+  - type: 6
+    key: 6573387d0b26ed4fde798de3
+    name: Pets Won't Need It - Part 2
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 657338ed8e8e3a05445b760d
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uCE74\uB514\uB110 \uC544\uD30C\uD2B8
+      \uB2E8\uC9C0\uC758 \uC138 \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
+    position: {x: 89.26, y: 5.07, z: -275.35}
+  - type: 6
+    key: 6573397ef3f8344c4575cd87
+    name: Properties All Around
+    group: "\uD504\uB77C\uD37C"
+    objective: 6573397ef3f8344c4575cd88
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+      \uBD80\uB3D9\uC0B0 \uAE30\uAE08 \uCC3E\uAE30"
+    position: {x: -58.32, y: 3.58, z: 457.86}
+  - type: 7
+    key: 6573397ef3f8344c4575cd87
+    name: Properties All Around
+    group: "\uD504\uB77C\uD37C"
+    objective: 6581676e7a18ff402fd23e68
+    detail: "\uC9C0\uC801 \uB4F1\uB85D\uBD80 \uAE30\uB85D"
+    position: {x: -66.813, y: 7.970781, z: 459.4482}
+  - type: 7
+    key: 6573397ef3f8344c4575cd87
+    name: Properties All Around
+    group: "\uD504\uB77C\uD37C"
+    objective: 6581676e7a18ff402fd23e68
+    detail: "\uC9C0\uC801 \uB4F1\uB85D\uBD80 \uAE30\uB85D"
+    position: {x: -66.81177, y: 7.44332, z: 453.45218}
+  - type: 7
+    key: 6573397ef3f8344c4575cd87
+    name: Properties All Around
+    group: "\uD504\uB77C\uD37C"
+    objective: 6581676e7a18ff402fd23e68
+    detail: "\uC9C0\uC801 \uB4F1\uB85D\uBD80 \uAE30\uB85D"
+    position: {x: -41.541817, y: 8.560753, z: 455.14572}
+  - type: 6
+    key: 674600a366e6a521aa05eb66
+    name: Route Deviation
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 67460118d3498f1b35e0a025
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uBB34\uB108\uC9C4 \uD06C\uB808\uC778
+      BTR \uC815\uB958\uC7A5\uC744 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: 195.17, y: 4.09, z: 256.96}
+  - type: 6
+    key: 674600a366e6a521aa05eb66
+    name: Route Deviation
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6746011dfd1dc9d0f502e55d
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uC61B \uC2A4\uCE90\uBE0C \uAC80\uBB38\uC18C
+      BTR \uC815\uB958\uC7A5\uC744 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: 115.58, y: -1.56, z: 25.84}
+  - type: 6
+    key: 674600a366e6a521aa05eb66
+    name: Route Deviation
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 674601247aa943781a1cf3fc
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD30C\uC778\uC6B0\uB4DC \uD638\uD154
+      BTR \uC815\uB958\uC7A5\uC744 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: -133.05, y: 1.51, z: 63.87}
+  - type: 6
+    key: 674600a366e6a521aa05eb66
+    name: Route Deviation
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 674601282043d1ef3c6b2eec
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uB3C4\uC2EC BTR \uC815\uB958\uC7A5\uC744
+      MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: -13.13, y: 3.24, z: 218.33}
+  - type: 6
+    key: 674600a366e6a521aa05eb66
+    name: Route Deviation
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6746012a35218bb89951248e
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD2B8\uB7A8 BTR \uC815\uB958\uC7A5\uC744
+      MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: -233.66, y: 3.33, z: 235.94}
+  - type: 6
+    key: 674600a366e6a521aa05eb66
+    name: Route Deviation
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6746012d871e69a9abb5873d
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uB85C\uB514\uB098 \uC601\uD654\uAD00
+      BTR \uC815\uB958\uC7A5\uC744 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: -137.69, y: 2.8, z: 400.38}
+  - type: 6
+    key: 67a0964e972c11a3f507731b
+    name: Needle in a Haystack
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 67a0bc87c60a93d7a3f28b23
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC704\uCE58\uD55C
+      \uCF69\uCF54\uB974\uB514\uC544 \uB2E8\uC9C0\uC758 \uB180\uC774\uD130 \uC870\uC0AC\uD558\uAE30"
+    position: {x: 207.54, y: 6.93, z: 360.17}
+  - type: 6
+    key: 67a09673972c11a3f507731d
+    name: The Tarkov Butcher
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6a57565d0c4e021f681b32f0
+    detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uACBD\uCC30\uC11C \uC606\uC5D0
+      \uC6A9\uAE30 \uC228\uAE30\uAE30"
+    position: {x: -209.73, y: 4.86, z: 135.28}
+  quests:
+  - key: 639135d89444fb141f4e6eea
+    name: Population Census
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 639135d89444fb141f4e6eeb
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+        \uAC70\uC8FC\uC790 \uC815\uBCF4\uAC00 \uB4E4\uC5B4\uC788\uB294 \uC77C\uC9C0
+        \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639135d89444fb141f4e6eec
+      description: "\uC77C\uC9C0 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 64f5aac4b63b74469b6c14c2
+    name: Glory to CPSU
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 64f5aac4b63b74469b6c14c7
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+        \uD504\uB77C\uD37C\uC758 \uCE5C\uAD6C\uC758 \uC9C1\uC7A5 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a26943d55478d73e6b4fadf
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+        \uD504\uB77C\uD37C\uC758 \uCE5C\uAD6C\uC758 \uC544\uD30C\uD2B8 \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+    - id: 64f5b876a2a5bb727b61c5ad
+      description: "\uD504\uB77C\uD37C\uC758 \uCE5C\uAD6C\uC758 \uD589\uBC29\uC5D0
+        \uAD00\uD55C \uC815\uBCF4 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 64f5bbc967e11a7c6206e00e
+      description: "\uBC1C\uACAC\uD55C \uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 64f5e20652fc01298e2c61e3
+    name: Beyond the Red Meat
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 64f6a9e6dd44b6417729b535
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uBCA8\uB8E8\uAC00 \uB808\uC2A4\uD1A0\uB791\uC5D0\uC11C
+        \uC694\uB9AC \uBE44\uBC95 \uC815\uBCF4\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 64f6aa6cdd44b6417729b536
+      description: "\uCC3E\uC740 \uB370\uC774\uD130 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 638fcd23dc65553116701d33
+    name: Audit
+    trader: "\uB798\uADF8\uB9E8"
+    objectives:
+    - id: 638fd070202cd55bee01ca11
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC7AC\uBB34
+        \uAE30\uB85D \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 638fd0805e5a195d2c443754
+      description: "\uC77C\uC9C0 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 639136fa9444fb141f4e6eee
+    name: Watching You
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 63a7d8665199ab1f7d4a7747
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uAC10\uC2DC
+        \uC7A5\uC18C \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639136fa9444fb141f4e6eef
+      description: "\uAD00\uCC30 \uACB0\uACFC \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639136fa9444fb141f4e6ef0
+      description: "\uB370\uC774\uD130 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 65734c186dc1e402c80dc19e
+    name: Dandies
+    trader: "\uB798\uADF8\uB9E8"
+    objectives:
+    - id: 65734c186dc1e402c80dc1a2
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C Bomber \uBE44\uB2C8\uC640
+        RayBench Hipster Reserve \uC120\uAE00\uB77C\uC2A4\uB97C \uCC29\uC6A9\uD55C
+        \uCC44 \uC544\uBB34 \uB300\uC0C1\uC774\uB098 \uCC98\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 657356c410becd24bc776f55
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uC774\uBC1C\uC18C \uC548\uC5D0
+        Bomber \uBE44\uB2C8 \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 657356d0a95a1e7e1a8d8d99
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uC774\uBC1C\uC18C \uC548\uC5D0
+        RayBench Hipster Reserve \uC120\uAE00\uB77C\uC2A4 \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 63913715f8e5dd32bf4e3aaa
+    name: Broadcast - Part 2
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 63a7d99804d3dc28a52a2106
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uC2DD\uB8CC\uD488\uC810
+        \uC548\uC5D0\uC11C \uD53C\uC758 \uBC29\uC1A1 \uC7A5\uC18C \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639da5ec8fe84d33a25a1435
+      description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 666314c5a9290f9e0806cca5
+    name: Key to the City
+    trader: "\uB798\uADF8\uB9E8"
+    objectives:
+    - id: 6679884cef969161e3e9d64d
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uAE30\uB150\uD488
+        \uB3C4\uC2DC \uC5F4\uC1E0\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 667988545af9f7082798b67d
+      description: "\uCC3E\uC740 \uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 639135b04ed9512be67647d7
+    name: Glory to CPSU - Part 1
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 63a7db4a3e491955e65fb88b
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+        \uD504\uB77C\uD37C\uC758 \uCE5C\uAD6C\uC758 \uC544\uD30C\uD2B8 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639c8c875573fd6cc27d99bb
+      description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 63a511ea30d85e10e375b045
+    name: Broadcast - Part 3
+    trader: "\uC608\uAC70"
+    objectives:
+    - id: 63ac22b8f627f540861d1b2d
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uB0A1\uC740 \uC9D1 \uC548\uC5D0\uC11C
+        \uD53C\uC758 \uBC29\uC1A1 \uC7A5\uC18C \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63a511ea30d85e10e375b047
+      description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 6391372c8ba6894d155e77d7
+    name: Broadcast - Part 4
+    trader: "\uC608\uAC70"
+    objectives:
+    - id: 63a7d6d61f06d111271f5aeb
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uAD11\uC2E0\uB3C4
+        \uBAA8\uC784 \uC7A5\uC18C \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639da86bad9d7e3216668fd7
+      description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 64ee99639878a0569d6ec8c9
+    name: Broadcast - Part 5
+    trader: "\uC608\uAC70"
+    objectives:
+    - id: 64eea404a2a5bb727b61c31e
+      description: "\uC0AC\uC81C\uB97C \uCC3E\uC544 \uC81C\uAC70\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 64ee9a979878a0569d6ec8cb
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uCCB4\uCE74\uB098\uC57C
+        \uAC70\uB9AC\uC758 \uC758\uC2DD \uC7A5\uC18C \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 64ee9b5a1a5f313cb144bf87
+      description: "\uC758\uC2DD \uC7A5\uC18C\uC5D0 \uAD11\uC2E0\uB3C4 \uCE7C \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    trader: "\uD39C\uC2A4"
+    objectives:
+    - id: 66d9cbb67b491f9d5304f6eb
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uCCA0\uC870\uB9DD\uC5D0 \uAC10\uAE34 \uC2DC\uCCB4\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 66d9cbb67b491f9d5304f6e9
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uD53C\uC790\uB97C \uC88B\uC544\uD558\uB294 \uC591\uC11C\uB958\uB4E4\uC758
+        \uC740\uC2E0\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 66dacf2a88c7001436a67390
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uC815\uB9D0 \uC73C\uC2A4\uC2A4\uD55C \uBCBD\uC758 \uAD6C\uBA4D\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 66d9cbb67b491f9d5304f6ea
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uBD88\uC5D0 \uD0C4 \uC18C\uB140\uC758 \uBCD1\uC2E4\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 66dad1d7811532f53e472c13
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+        \uB2E4\uC774\uD558\uB4DC\uC5D0 \uB098\uC628\uAC83 \uAC19\uC740 \uB140\uC11D\uC774
+        \uB9F9\uD65C\uC57D\uD588\uB358 \uAC83 \uAC19\uC740 \uACE0\uCE35 \uBE4C\uB529\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1d941756590432b0eaa
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+        \uD504\uB85C\uADF8\uB798\uBA38\uC5D0\uAC8C \uCE60 \uC7A5\uB09C\uC774 \uB744\uC6CC\uC9C4
+        \uCEF4\uD4E8\uD130\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1dbb16caebe0e214d89
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+        \uCEE4\uB2E4\uB780 \uAC80\uC740 \uC758\uC790\uB4E4\uC5D0 \uB458\uB7EC\uC2F8\uC778
+        \uC791\uC740 \uD558\uC580 \uC758\uC790\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1ddec53b0df3b10a1b9
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uB2F9\uC2E0\uC758
+        \uCE5C\uAD6C \uC70C\uC2A8 \uC606\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1de93c8fcffd5790d89
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uD654\uD1B3\uBD88\uC774
+        \uCF1C\uC9C4 \uD734\uC2DD\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1e0703b718902451ee4
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uBD88\uAE38\uD55C
+        \uC6F0\uCEF4 \uD45C\uC9C0\uD310\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1e21e7ef28d17a69a93
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uCC9C\uC7AC \uACFC\uD559\uC790\uC758
+        \uC790\uB9AC\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1e607181e2f78a3a0a2
+      description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uC9D5\uC9D1\uBCD1\uB4E4\uC774
+        \uC544\uC8FC \uC911\uC694\uD55C \uC791\uC5C5\uC744 \uD588\uB358 \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1e843a718561db0fdd3
+      description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uB450 \uC218\uC218\uAED8\uB07C
+        \uC758\uC790\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1ebc5c8e6cd26dd1d31
+      description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uC804\uCC28 \uC870\uC885\uC218\uB4E4\uC758
+        \uCCAB \uBE44\uB514\uC624 \uAC8C\uC784 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1edbc4fdd0c6eb38c5e
+      description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uBA38\uB9AC\uC5D0 \uC591\uB3D9\uC774\uB97C
+        \uC4F4 \uC545\uB2F9 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1f00e049ac7abb6d801
+      description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uC564\uBE4C 3-4 \uC804\uCC28
+        \uC2B9\uBB34\uC6D0\uC758 \uCC98\uD615 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66dad1f22edc2103eb176de8
+      description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uBAA8\uB4E0 \uC778\uB514
+        \uAC1C\uBC1C\uC790\uB4E4\uC758 \uC545\uBABD\uC774 \uC788\uB294 \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f8d7539f4b4eb640aff
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC18C\uBC29\uAD00\uC774
+        \uD589\uBCF5\uD574\uC9C0\uAE30 \uC704\uD574 \uCC45\uC744 \uBD88\uD0DC\uC6B0\uB358
+        \uBC29\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f8f564045697071d934
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uBA87\uBA87 \uBC38\uBE0C
+        \uC5D4\uC9C0\uB2C8\uC5B4\uB4E4\uC774 \uC790\uC2E0\uB4E4\uC758 \uC138 \uBC88\uC9F8
+        \uD504\uB85C\uC81D\uD2B8\uB97C \uB05D\uB0B4\uC9C0 \uBABB\uD55C \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f928d59a9fe511dfc25
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC704\uD5D8\uD55C \uB7EC\uC2DC\uC544
+        \uCD08\uCF5C\uB9BF \uC18C\uB140\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f94a147d9840ec0dfba
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC74C\uBAA8\uB860\uC790\uC758
+        \uBC29\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f98b8e22a92437fe5c6
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uB204\uAD70\uAC00\uAC00
+        \uB9C8\uBC95 \uD559\uAD50\uB85C \uC774\uB3D9\uD560 \uC218 \uC788\uB2E4\uACE0
+        \uBBFF\uC5C8\uB358 \uC7A5\uC18C \uADFC\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1f9b4f7bf01d937eb150
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uBAA8\uB4E0 \uC804\uB7B5
+        \uAC8C\uC784\uC758 \uC5B4\uBA38\uB2C8\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66db1ff798d52a5a8e4ed1f8
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uD558\uB298\uB85C \uC62C\uB77C\uAC00\uB294
+        \uACC4\uB2E8\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66debf2b9e4ce2ef233ee5b7
+      description: "\uC0BC\uB9BC(Woods)\uC5D0 \uC788\uB294 \uBD88\uD0C0\uB294 \uCC28\uC5D0
+        \uC549\uC544\uC788\uB294 \uACF0\uC774 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66debf2e1e254957b82711ff
+      description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uB4A4\uC9D1\uD78C
+        \uC758\uC790\uAC00 \uC124\uCE58\uB41C \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 66debf30802386a45d0adb60
+      description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uADF8\uB2E4\uC9C0
+        \uC678\uB86D\uC9C0\uB294 \uC54A\uC744 \uD654\uC7A5\uC2E4\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 639135bbc115f907b14700a6
+    name: Audiophile
+    trader: "\uB798\uADF8\uB9E8"
+    objectives:
+    - id: 63a7d8f404d3dc28a52a2104
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC74C\uC545\uAC00\uB4E4\uC758
+        \uBAA8\uC784 \uC7A5\uC18C \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639135bbc115f907b14700a7
+      description: "\uAC01\uC778\uB41C \uAE30\uD0C0 \uD53C\uD06C\uB97C \uCC3E\uC544
+        \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639135bbc115f907b14700a8
+      description: "\uAE30\uD0C0 \uD53C\uD06C \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 639135cd8ba6894d155e77cb
+    name: House Arrest - Part 2
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 63a7dbefee7b4d0d5507baf8
+      description: "\uAD50\uB3C4\uAD00\uC5D0\uAC8C \uBB34\uC2A8 \uC77C\uC774 \uC788\uC5C8\uB294\uC9C0
+        \uC54C\uC544\uB0B4\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63a7dbc31943b749b5021ec3
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC784\uC2DC
+        \uAC10\uC625 \uAD50\uB3C4\uAD00\uC758 \uC544\uD30C\uD2B8 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63972db222ea23711e21aaaa
+      description: "\uC0DD\uC874\uD558\uC5EC \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 64e7b99017ab941a6f7bf9d7
+    name: Gendarmerie - Mall Cop
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 64e7bc2c5e6d3e61ca2ca097
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+        \uAD8C\uCD1D\uC73C\uB85C Stylobate \uAC74\uBB3C\uC5D0 \uC788\uB294 \uBAA8\uB4E0
+        \uBAA9\uD45C\uBB3C\uC744 \uC0AC\uC0B4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 64e7b9a4aac4cd0a726562cb
+    name: Gendarmerie - Tickets, Please
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 64e7bd0c6393886f74119f41
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+        SMG\uB97C \uC0AC\uC6A9\uD558\uC5EC Rodina \uC601\uD654\uAD00\uC5D0 \uC788\uB294
+        \uBAA8\uB4E0 \uBAA9\uD45C\uBB3C \uC0AC\uC0B4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 639135534b15ca31f76bc317
+    name: Your Car Needs a Service
+    trader: "\uD53C\uC2A4\uD0A4\uD37C"
+    objectives:
+    - id: 639135534b15ca31f76bc318
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uC790\uB3D9\uCC28 \uB300\uB9AC\uC810
+        \uAD00\uB9AC\uC790 \uC0AC\uBB34\uC2E4\uC5D0\uC11C \uB514\uC9C0\uD138 \uC800\uC7A5
+        \uC7A5\uCE58 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639135534b15ca31f76bc319
+      description: "\uC800\uC7A5 \uC7A5\uCE58 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 6391359b9444fb141f4e6ee6
+    name: You've Got Mail
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 6391359b9444fb141f4e6ee7
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+        \uBD09\uC778\uB41C \uD3B8\uC9C0 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6391359b9444fb141f4e6ee8
+      description: "\uD3B8\uC9C0 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 639135a7e705511c8a4a1b78
+    name: Ballet Lover
+    trader: "\uB798\uADF8\uB9E8"
+    objectives:
+    - id: 63a7da6f5199ab1f7d4a774a
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uBC1C\uB808
+        \uB9C8\uC2A4\uD130\uC758 \uC544\uD30C\uD2B8 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63a7daae04d3dc28a52a2109
+      description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 639135c3744e452011470807
+    name: House Arrest
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 63a7d767f32fa1316250c3da
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC2E4\uC885\uB41C
+        \uADF8\uB8F9\uC774 \uBD99\uC7A1\uD600 \uC788\uB358 \uACF3 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a5a95f70cfa2d5efcf39d77
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uCC44\uBB34\uC790
+        \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a5a962ba945960673b0e2d2
+      description: "\uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30: \uCCB4\uCE74\uB098\uC57C
+        15\uBC88\uC9C0 \uC544\uD30C\uD2B8 \uC5F4\uC1E0"
+      optional: 0
+      thisMap: 0
+  - key: 639135e0fa894f0a866afde6
+    name: Urban Medicine
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 63a7d64710b7a13eb015961f
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC704\uCE58\uD55C \uD654\uD559 \uC2E4\uD5D8\uC2E4 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639135e0fa894f0a866afde7
+      description: "\uC57D\uBB3C\uC774 \uB2F4\uAE34 \uBCF4\uAD00\uD568 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639135e0fa894f0a866afde8
+      description: "\uBCF4\uAD00\uD568 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 6a5675112830d55110e00a8f
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC2A4\uCE90\uBE0C
+        \uCC98\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 639135e8c115f907b14700aa
+    name: Surveillance
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 639135e8c115f907b14700ab
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uCF58\uCF54\uB974\uB514\uC544
+        \uC8FC\uAC70 \uB2E8\uC9C0 \uC8FC\uCC28\uC7A5\uC5D0\uC11C \uCC28\uB7C9 \uC774\uB3D9
+        \uB370\uC774\uD130 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639135e8c115f907b14700ac
+      description: "\uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 639135f286e646067c176a87
+    name: Revision - Streets of Tarkov
+    trader: "\uD53C\uC2A4\uD0A4\uD37C"
+    objectives:
+    - id: 63927f14744e452011470816
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uC9C0\uC5ED\uC5D0\uC11C
+        \uCCAB \uBC88\uC9F8 LAV III\uB97C \uCC3E\uC544 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63927f2d8ba6894d155e77e6
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uC9C0\uC5ED\uC5D0\uC11C
+        Stryker \uC7A5\uAC11\uCC28\uB97C \uCC3E\uC544 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63927f349444fb141f4e6f24
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uC9C0\uC5ED\uC5D0\uC11C
+        \uB450 \uBC88\uC9F8 LAV III\uB97C \uCC3E\uC544 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 639136d68ba6894d155e77cf
+    name: Green Corridor
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 63a7d53904d3dc28a52a2100
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+        \uD654\uBB3C \uC218\uC1A1\uB300 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63a7d58004d3dc28a52a2102
+      description: "\uB9E4\uBCF5 \uC9C0\uC810 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639cee16f5765f47cc7f0ea1
+      description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 639282134ed9512be67647ed
+    name: Road Closed
+    trader: "\uD53C\uC2A4\uD0A4\uD37C"
+    objectives:
+    - id: 63a7d461f32fa1316250c3d7
+      description: "\uB9E4\uBCF5 \uC9C0\uC810 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63a7d444f32fa1316250c3d5
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+        \uD654\uBB3C \uC218\uC1A1\uB300 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639cdf9aad9d7e3216668fd0
+      description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 63966fbeea19ac7ed845db2e
+    name: Missing Informant
+    trader: "\uB4F1\uB300\uC9C0\uAE30"
+    objectives:
+    - id: 63a7cee004d3dc28a52a20f8
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC815\uBCF4\uC6D0\uC758
+        \uC608\uBE44 \uC740\uC2E0\uCC98 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63990a1ddcdd126fef1771c1
+      description: "\uC815\uBCF4\uC6D0\uC758 \uC77C\uC9C0 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63990ae2dcdd126fef1771c2
+      description: "\uB4F1\uB300\uC9C0\uAE30\uC5D0\uAC8C \uC815\uBCF4 \uAC00\uC838\uAC00\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 6396700fea19ac7ed845db32
+    name: Spotter
+    trader: "\uB4F1\uB300\uC9C0\uAE30"
+    objectives:
+    - id: 63a7d2acee7b4d0d5507baf2
+      description: "\uCF58\uCF54\uB974\uB514\uC544\uC5D0\uC11C \uACF5\uC0AC\uC7A5\uC774
+        \uB0B4\uB824\uB2E4\uBCF4\uC774\uB294 \uC88B\uC740 \uC800\uACA9 \uC704\uCE58
+        \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639c359f0a20a7001f00c7a8
+      description: "\uBE68\uAC04 \uD0C1\uC790 \uADFC\uCC98\uC5D0 AI Tactical Sound
+        Moderator .338 LM \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63a7d315f32fa1316250c3d2
+      description: "\uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4\uC5D0\uC11C \uC601\uD654\uAD00\uC774
+        \uB0B4\uB824\uB2E4\uBCF4\uC774\uB294 \uC88B\uC740 \uC800\uACA9 \uC704\uCE58
+        \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639c39807c1532d85b0162a9
+      description: "\uB9C8\uD638\uB974\uC758 \uCE68\uB300 \uBC11\uC5D0 Trijicon REAP-IR
+        \uC5F4\uD654\uC0C1 \uC870\uC900\uACBD \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 63967028c4a91c5cb76abd81
+    name: Trouble in the Big City
+    trader: "\uB4F1\uB300\uC9C0\uAE30"
+    objectives:
+    - id: 63bd64552803ffbfad0e3e48
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uD654\uBB3C\uC744
+        \uC6B4\uC1A1\uC911\uC774\uB358 \uAE30\uAC11 \uD638\uC1A1\uB300 \uC704\uCE58
+        \uD30C\uC545\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a873af3498d10cbc7991405
+      description: "\uB808\uC774\uB4DC\uC5D0 MS2000 \uB9C8\uCEE4 \uC9C0\uCC38\uD558\uAE30"
+      optional: 1
+      thisMap: 0
+    - id: 6a873b146d658e33f8c105c8
+      description: "\uB808\uC774\uB4DC\uC5D0 \uD669\uC0C9 \uC2E0\uD638\uD0C4 \uC9C0\uCC38\uD558\uAE30"
+      optional: 1
+      thisMap: 0
+    - id: 639ae7423174277743234bb7
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+        PMC \uC0AC\uC0B4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a8739e3690e17bca39a4664
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+        \uC544\uBB34 \uBCF4\uC2A4 \uD639\uC740 \uBCF4\uC2A4\uC758 \uACBD\uD638\uC6D0
+        \uC0AC\uC0B4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 639aea2228d8a21b593a3491
+      description: "\uD654\uBB3C \uAD6C\uC5ED\uC5D0 MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63bd64ba3d34b0e64b0d0a17
+      description: "\uAE30\uAC11 \uD638\uC1A1\uB300 \uC778\uADFC\uC5D0\uC11C \uD669\uC0C9
+        \uC2E0\uD638\uD0C4 \uBC1C\uC0AC\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 639dbaf17c898a131e1cffff
+    name: Debtor
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 63a7cd3aee7b4d0d5507baee
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uCC44\uBB34\uC790
+        \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a5a9710671cbfe928bbfde2
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC0AC\uC124
+        \uAC10\uC625 \uAD50\uB3C4\uAD00\uC758 \uC544\uD30C\uD2B8 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a5a96d23542bf577a87a59d
+      description: "\uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30: \uCCA0\uBB38 \uC5F4\uC1E0"
+      optional: 0
+      thisMap: 0
+  - key: 63a88045abf76d719f42d715
+    name: The Delicious Sausage
+    trader: "\uC608\uAC70"
+    objectives:
+    - id: 63a98cfbc31b00242d28a95b
+      description: "\uB2C8\uD0A4\uCE20\uCE74\uC57C \uAC70\uB9AC\uC758 \uC170\uC2A4\uD210\uB85C\uCE58\uCE74
+        \uB9E4\uC7A5 \uC815\uCC30\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63a98d24655ec5555b4aa9e7
+      description: "\uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4 \uB300\uB85C\uC758 \uC2A4\uD30C\uB7B4
+        \uB9E4\uC7A5 \uC815\uCC30\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63a98d39da7999196148ba3a
+      description: "\uD30C\uC778\uC6B0\uB4DC \uD638\uD154\uC758 \uC2A4\uD30C\uB7B4
+        \uB9E4\uC7A5 \uC815\uCC30\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63a98d60c0f61a5d8731cd9f
+      description: "\uCF58\uCF54\uB974\uB514\uC544\uC758 \uACE0\uC0E8 \uB9E4\uC7A5
+        \uC815\uCC30\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 63a98cdf655ec5555b4aa9e6
+      description: "\uB808\uC774\uB4DC\uC5D0\uC11C \uCC3E\uC740 \uC544\uC774\uD15C
+        \uAC74\uB124\uC8FC\uAE30: Salty Dog \uC18C\uACE0\uAE30 \uC18C\uC2DC\uC9C0"
+      optional: 0
+      thisMap: 0
+  - key: 64ee9df4496db64f9b7a4432
+    name: The Door
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 64ee9df4496db64f9b7a4433
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+        \uC804\uD30C \uBC29\uD574\uB97C \uC77C\uC73C\uD0A4\uB294 \uC6D0\uC778\uC744
+        \uC54C\uC544\uB0B4\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 64ee9df4496db64f9b7a4435
+      description: "\uBB38\uC744 \uAC10\uC2DC\uD558\uAE30 \uC704\uD55C Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 64eea6059878a0569d6ec98b
+      description: "\uACC4\uB2E8\uC744 \uAC10\uC2DC\uD558\uAE30 \uC704\uD55C Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 64f3176921045e77405d63b5
+    name: Paramedic
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 64f3176921045e77405d63ba
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uAD6C\uAE09\uCC28
+        \uAD6C\uAE09\uB300\uC6D0\uC758 \uC2A4\uB9C8\uD2B8\uD3F0\uC744 \uCC3E\uC544
+        \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 64f4fdfa67e11a7c6206de72
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4
+        \uB300\uB85C \uD0DD\uC2DC \uCC28\uB7C9 \uD0C8\uCD9C\uAD6C\uB85C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 64f3176921045e77405d63bb
+      description: "\uC2A4\uB9C8\uD2B8\uD3F0 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 64f6aafd67e11a7c6206e0d0
+    name: The Secret Recipe
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 64f6aafd67e11a7c6206e0d1
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD14C\uB77C\uADF8\uB8F9
+        \uC0AC\uBB34\uC2E4\uC5D0\uC11C \uBE68\uAC04 \uBC14\uC774\uC54C\uC744 \uCC3E\uC544
+        \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 64f6aafd67e11a7c6206e0d2
+      description: "\uCC3E\uC740 \uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 64f731ab83cfca080a361e42
+    name: Pets Won't Need It
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 64f731fa39e45b527a7c4300
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC758 \uB3D9\uBB3C\uBCD1\uC6D0\uC744
+        \uCC3E\uC544 \uC815\uCC30\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 64f732240e186112c4455d84
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC758 \uC5D1\uC2A4\uB808\uC774
+        \uAE30\uC0AC\uC758 \uBC29\uC744 \uCC3E\uC544 \uC815\uCC30\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a568465f58d7f6b0a60fe7f
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4
+        \uB300\uB85C\uC758 \uCCAB \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a56846efc5f232676a88d09
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4
+        \uB300\uB85C\uC758 \uB450 \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a56847638efe4385b7efdb3
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uCE74\uB514\uB110 \uC544\uD30C\uD2B8
+        \uB2E8\uC9C0 \uADFC\uCC98\uC758 \uC57D\uAD6D \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6a5684f79688ddb4fea39af6
+      description: "\uB808\uC774\uB4DC\uC5D0\uC11C \uCC3E\uC740 \uC758\uC57D\uD488
+        \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 6572e876dc0d635f633a5714
+    name: Pyramid Scheme
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 6a5b8db01dc53f0f3ec7f0d9
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504
+        \uAC70\uB9AC\uC758 ATM \uC911 \uD558\uB098\uB97C MS2000 \uB9C8\uCEE4\uB85C
+        \uD45C\uC2DC\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6572e876dc0d635f633a5718
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504
+        \uAC70\uB9AC\uC758 \uCCAB \uBC88\uC9F8 ATM \uBB36\uC74C \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+    - id: 6573058d6a542c099ce5d92b
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504
+        \uC1FC\uD551\uBAB0 \uC548\uC758 \uCCAB \uBC88\uC9F8 ATM \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+    - id: 65730579d50436e87723dae4
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504
+        \uAC70\uB9AC\uC758 \uCCAB \uBC88\uC9F8 ATM \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+    - id: 657305989d1d1fe81237e9e7
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504
+        \uAC70\uB9AC\uC758 \uC138 \uBC88\uC9F8 ATM \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+    - id: 657305913186869491d7f5fd
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504
+        \uC1FC\uD551\uBAB0 \uC548\uC758 \uB450 \uBC88\uC9F8 ATM \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+    - id: 65730593d4b1bd9359203a74
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504
+        \uC1FC\uD551\uBAB0 \uC548\uC758 \uC138 \uBC88\uC9F8 ATM \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+    - id: 6573058b4e3f646b0e364add
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504
+        \uC1FC\uD551\uBAB0 \uC548\uC758 \uCCAB \uBC88\uC9F8 ATM \uBB36\uC74C \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+    - id: 65730597d64537696cc661c6
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504
+        \uAC70\uB9AC\uC758 \uB450 \uBC88\uC9F8 ATM \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+    - id: 6573058f5c2ba64444301c25
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504
+        \uC1FC\uD551\uBAB0 \uC548\uC758 \uB450 \uBC88\uC9F8 ATM \uBB36\uC74C \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+    - id: 65730595fd5ec1426ebd5484
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504
+        \uC1FC\uD551\uBAB0 \uC548\uC758 \uC138 \uBC88\uC9F8 ATM \uBB36\uC74C \uCC3E\uAE30"
+      optional: 1
+      thisMap: 1
+  - key: 65733403eefc2c312a759ddb
+    name: Corporate Perks
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 65733403eefc2c312a759ddc
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C IT \uD68C\uC0AC
+        \uC0AC\uBB34\uC2E4 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 65801ad655315fdce2096bec
+      description: "\uD68C\uC0AC \uC131\uACF5\uC758 \uBE44\uBC00 \uBC1D\uD600\uB0B4\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 65801b07a26e65a69c2fedd1
+      description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 6573382e557ff128bf3da536
+    name: The Secret to Productivity
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 6573382e557ff128bf3da537
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C IT \uD68C\uC0AC
+        \uC9C1\uC6D0\uB4E4\uC758 \uB192\uC740 \uC0AC\uAE30\uC758 \uBE44\uBC00 \uBC1D\uD600\uB0B4\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 65800413f41301adef3c9698
+      description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 6573387d0b26ed4fde798de3
+    name: Pets Won't Need It - Part 2
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 6573387d0b26ed4fde798de4
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4
+        \uB300\uB85C\uC758 \uCCAB \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 657338ded9b444e1fb07b1a8
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4
+        \uB300\uB85C\uC758 \uB450 \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 657338ed8e8e3a05445b760d
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uCE74\uB514\uB110 \uC544\uD30C\uD2B8
+        \uB2E8\uC9C0\uC758 \uC138 \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 658009db6b313a8a4ed58851
+      description: "\uC0DD\uC874\uD558\uC5EC \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 6573397ef3f8344c4575cd87
+    name: Properties All Around
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 6573397ef3f8344c4575cd88
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
+        \uBD80\uB3D9\uC0B0 \uAE30\uAE08 \uCC3E\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6581676e7a18ff402fd23e68
+      description: "\uD0C0\uB974\uCF54\uD504 \uBD80\uB3D9\uC0B0 \uAE30\uB85D \uCC3E\uC544\uC11C
+        \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 658167a0e53c40116f8632fa
+      description: "\uD68D\uB4DD\uD55C \uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 674600a366e6a521aa05eb66
+    name: Route Deviation
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 67460118d3498f1b35e0a025
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uBB34\uB108\uC9C4 \uD06C\uB808\uC778
+        BTR \uC815\uB958\uC7A5\uC744 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6746011dfd1dc9d0f502e55d
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uC61B \uC2A4\uCE90\uBE0C
+        \uAC80\uBB38\uC18C BTR \uC815\uB958\uC7A5\uC744 MS2000 \uB9C8\uCEE4\uB85C
+        \uD45C\uC2DC\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 674601247aa943781a1cf3fc
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD30C\uC778\uC6B0\uB4DC
+        \uD638\uD154 BTR \uC815\uB958\uC7A5\uC744 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 674601282043d1ef3c6b2eec
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uB3C4\uC2EC BTR \uC815\uB958\uC7A5\uC744
+        MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6746012a35218bb89951248e
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD2B8\uB7A8 BTR \uC815\uB958\uC7A5\uC744
+        MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 6746012d871e69a9abb5873d
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uB85C\uB514\uB098 \uC601\uD654\uAD00
+        BTR \uC815\uB958\uC7A5\uC744 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+  - key: 67a0964e972c11a3f507731b
+    name: Needle in a Haystack
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 67a0bc81fcbc1c559d09b58f
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC704\uCE58\uD55C
+        \uD14C\uB77C\uADF8\uB8F9 \uBCF8\uBD80 \uC606 \uC815\uC6D0 \uAD11\uC7A5 \uC870\uC0AC\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 67a0bc83182c4b0c71edd0ce
+      description: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0 \uC704\uCE58\uD55C
+        \uCE74\uD2B8 \uACBD\uAE30\uC7A5 \uC870\uC0AC\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 67a0bc84f19d5b1120a55762
+      description: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0 \uC704\uCE58\uD55C
+        \uC2E4\uB0B4 \uB180\uC774\uD130 \uC870\uC0AC\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 67a0bc87c60a93d7a3f28b23
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC704\uCE58\uD55C \uCF69\uCF54\uB974\uB514\uC544 \uB2E8\uC9C0\uC758 \uB180\uC774\uD130
+        \uC870\uC0AC\uD558\uAE30"
+      optional: 0
+      thisMap: 1
+    - id: 67a0bc8848d9d2cbd274ffd9
+      description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC704\uCE58\uD55C \uD574\uBCC0\uAC00\uC758
+        \uACF5\uC0AC\uC7A5 \uC870\uC0AC\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 67a0bc8ab12fe4b1baa60e4c
+      description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC704\uCE58\uD55C \uD5EC\uC2A4
+        \uB9AC\uC870\uD2B8 \uB180\uC774\uD130 \uC870\uC0AC\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+  - key: 67a09673972c11a3f507731d
+    name: The Tarkov Butcher
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 67a0d92a6cf4a5745d0bc94f
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8
+        \uC6A9\uAE30\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+      thisMap: 0
+    - id: 6a57565d0c4e021f681b32f0
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uACBD\uCC30\uC11C \uC606\uC5D0
+        \uC6A9\uAE30 \uC228\uAE30\uAE30"
+      optional: 0
+      thisMap: 1

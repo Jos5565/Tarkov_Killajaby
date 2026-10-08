@@ -15,40 +15,40 @@ MonoBehaviour:
   maps:
   - displayName: "\uACF5\uC7A5"
     icon: {fileID: 21300000, guid: 709340e70a6a4364b76a2b1c365c1e58, type: 3}
-    config: {fileID: 0}
+    configPath: Maps/Factory
   - displayName: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C"
     icon: {fileID: 21300000, guid: 15ae4aae6d284f77a2161395dd8e79c4, type: 3}
-    config: {fileID: 0}
+    configPath: Maps/GroundZero
   - displayName: "\uB4F1\uB300"
     icon: {fileID: 21300000, guid: 29dd7fc2a70041a994fd85e293eb8cf1, type: 3}
-    config: {fileID: 0}
+    configPath: Maps/Lighthouse
   - displayName: "\uB9AC\uC800\uBE0C"
     icon: {fileID: 21300000, guid: 15411fcb3e6f4bb3820fc632b59e22fa, type: 3}
-    config: {fileID: 0}
+    configPath: Maps/Reserve
   - displayName: "\uBBF8\uAD81"
     icon: {fileID: 21300000, guid: 2f0fa8b3ca5e4758a0379b16e98a34c4, type: 3}
-    config: {fileID: 0}
+    configPath: 
   - displayName: "\uC0BC\uB9BC"
     icon: {fileID: 21300000, guid: c2137d00197e42808d84714d8bd38741, type: 3}
-    config: {fileID: 0}
+    configPath: Maps/Woods
   - displayName: "\uC138\uAD00"
     icon: {fileID: 21300000, guid: 203aeb194ad345ec9514b42402a0143b, type: 3}
-    config: {fileID: 11400000, guid: 85025a9e85a57cf4dbbc205961fd0061, type: 2}
+    configPath: Maps/Customs
   - displayName: "\uC1C4\uBE59\uC120"
     icon: {fileID: 21300000, guid: 2450026193f34d68a4d39be4795444dc, type: 3}
-    config: {fileID: 0}
+    configPath: 
   - displayName: "\uC5F0\uAD6C\uC18C"
     icon: {fileID: 21300000, guid: 7ee4d9800fa24371b2d55dbb07d5538e, type: 3}
-    config: {fileID: 0}
+    configPath: Maps/Labs
   - displayName: "\uC778\uD130\uCCB4\uC778\uC9C0"
     icon: {fileID: 21300000, guid: 520ef150121d460eadb90122129232fa, type: 3}
-    config: {fileID: 0}
+    configPath: Maps/Interchange
   - displayName: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4"
     icon: {fileID: 21300000, guid: 2b70faea1d554dcda6e44a13f0a89537, type: 3}
-    config: {fileID: 0}
+    configPath: Maps/StreetsOfTarkov
   - displayName: "\uD130\uBBF8\uB110"
     icon: {fileID: 21300000, guid: 09d555e57aa14725aa1830a5f99f1730, type: 3}
-    config: {fileID: 0}
+    configPath: Maps/Terminal
   - displayName: "\uD574\uC548\uC120"
     icon: {fileID: 21300000, guid: 2c5f25c5c23249ae8d007a01e8c64ec5, type: 3}
-    config: {fileID: 0}
+    configPath: Maps/Shoreline

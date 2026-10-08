@@ -2661,11 +2661,13 @@ MonoBehaviour:
         \uC804\uC790\uB808\uC778\uC9C0 \uC548\uC5D0 [\uAE08\uBAA9\uAC78\uC774] 3\uAC1C
         \uB193\uAE30"
       optional: 0
+      thisMap: 1
     - id: 5b47971086f774587877ad34
       description: "\uC0BC\uB9BC(Woods) \uC81C\uC7AC\uC18C\uC5D0\uC11C \uB098\uB780\uD788
         \uB193\uC5EC\uC788\uB294 3\uAC1C\uC758 \uC219\uC18C \uC911, \uC911\uAC04
         \uC219\uC18C\uC5D0 [\uAE08\uBAA9\uAC78\uC774] 3\uAC1C \uB193\uAE30"
       optional: 0
+      thisMap: 0
   - key: 66b38e144f2ab7cc530c3fe7
     name: Every Hunter Knows This
     trader: "\uC608\uAC70"
@@ -2674,11 +2676,13 @@ MonoBehaviour:
       description: "\uACF5\uC7A5 \uB3CC\uD30C\uC2E4\uC5D0\uC11C \uD2B8\uB9BD\uC640\uC774\uC5B4\uB97C
         \uC124\uCE58\uD558\uAE30 \uC88B\uC740 \uC7A5\uC18C \uCC3E\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66b38e144f2ab7cc530c3fea
       description: "\uC138\uAD00 3\uCE35 \uAE30\uC219\uC0AC \uACC4\uB2E8\uC5D0\uC11C
         \uD2B8\uB9BD\uC640\uC774\uC5B4\uB97C \uC124\uCE58\uD558\uAE30 \uC88B\uC740
         \uC7A5\uC18C \uCC3E\uAE30"
       optional: 0
+      thisMap: 1
   - key: 597a0f5686f774273b74f676
     name: Chemical - Part 4
     trader: "\uC2A4\uD0A4\uC5B4"
@@ -2687,10 +2691,12 @@ MonoBehaviour:
       description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744
         \uC2E3\uACE0 \uC788\uB294 \uCC28\uB7C9 \uCC3E\uAE30"
       optional: 0
+      thisMap: 1
     - id: 59b242ea86f7741e6e0e7a86
       description: "\uD654\uD559\uBB3C\uC9C8 \uC218\uC1A1 \uCC28\uB7C9\uC5D0 MS2000
         \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
   - key: 597a160786f77477531d39d2
     name: Out of Curiosity
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
@@ -2699,9 +2705,11 @@ MonoBehaviour:
       description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744
         \uC2E3\uACE0 \uC788\uB294 \uCC28\uB7C9 \uCC3E\uAE30"
       optional: 0
+      thisMap: 1
     - id: 5998366886f77455853b2d9f
       description: "\uCC28\uB7C9\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
   - key: 597a171586f77405ba6887d3
     name: Big Customer
     trader: "\uD504\uB77C\uD37C"
@@ -2710,10 +2718,12 @@ MonoBehaviour:
       description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744
         \uC2E3\uACE0 \uC788\uB294 \uCC28\uB7C9 \uCC3E\uAE30"
       optional: 0
+      thisMap: 1
     - id: 5998360886f77456936817f3
       description: "\uD654\uD559\uBB3C\uC9C8 \uC218\uC1A1 \uCC28\uB7C9\uC5D0 MS2000
         \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
   - key: 665eec4a4dfc83b0ed0a9dca
     name: Thirsty - Delivery
     trader: "\uC2A4\uD0A4\uC5B4"
@@ -2722,16 +2732,20 @@ MonoBehaviour:
       description: "\uC0BC\uB9BC\uC5D0\uC11C \uC9C0\uC815\uB41C \uC740\uB2C9 \uC7A5\uC18C
         \uCC3E\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6661a18a12e8457716d59f5d
       description: "\uC138\uAD00\uC5D0\uC11C \uC9C0\uC815\uB41C \uC740\uB2C9 \uC7A5\uC18C
         \uCC3E\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6661a170945719c63f28d9c6
       description: "\uCCAB \uBC88\uC9F8 \uD504\uB85C\uD310 \uD0F1\uD06C(5L) \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6661a1a1b1953d6c96da8f0e
       description: "\uB450 \uBC88\uC9F8 \uD504\uB85C\uD310 \uD0F1\uD06C(5L) \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 1
   - key: 6834145ebc1f443d7603c8a7
     name: 'Easy Money - Part 1 [PVE ZONE]'
     trader: "\uC2A4\uD0A4\uC5B4"
@@ -2741,6 +2755,7 @@ MonoBehaviour:
         \uAC70\uC2E4\uC5D0 \uBC14\uC774\uC2A8 vs \uC5B8\uB354\uD14C\uC774\uCEE4 \uD3EC\uC2A4\uD130
         \uBD80\uCC29\uD558\uAE30"
       optional: 0
+      thisMap: 1
   - key: 6834254f2f0e2a7eb90b62ef
     name: 'Decisions, Decisions [PVE ZONE]'
     trader: "\uB808\uD504"
@@ -2749,9 +2764,11 @@ MonoBehaviour:
       description: "\uB808\uD504\uC758 \uC57D\uC810\uC774 \uB420 \uC815\uBCF4\uB97C
         \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6834254f2f0e2a7eb90b62f2
       description: "\uCC3E\uC740 \uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 683425dd8f5b18d29a05d9d1
     name: 'Between Two Fires [PVE ZONE]'
     trader: "\uD39C\uC2A4"
@@ -2760,13 +2777,16 @@ MonoBehaviour:
       description: "\uC138\uAD00\uC5D0 \uC788\uB294 \uC61B \uCC54\uD53C\uC5B8\uC758
         \uC740\uC2E0\uCC98\uB85C \uB3CC\uC544\uAC00\uAE30"
       optional: 0
+      thisMap: 1
     - id: 683425dd8f5b18d29a05d9d6
       description: "\uB808\uD504\uC758 \uC57D\uC810\uC774 \uB420 \uC815\uBCF4\uB97C
         \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 683425dd8f5b18d29a05d9d8
       description: "\uCC3E\uC740 \uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 6834233fecd5cf3a440d855b
     name: 'Against the Conscience - Part 1 [PVE ZONE]'
     trader: "\uD39C\uC2A4"
@@ -2775,17 +2795,21 @@ MonoBehaviour:
       description: "\uC138\uAD00\uC5D0\uC11C \uC61B \uCC54\uD53C\uC5B8\uC758 \uBC29
         \uCC3E\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6834233fecd5cf3a440d8567
       description: "\uD574\uC548\uC120 \uBC00\uC218\uC5C5\uC790 \uAE30\uC9C0\uC5D0\uC11C
         \uC5F4\uC1E0\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
       optional: 1
+      thisMap: 0
     - id: 6834233fecd5cf3a440d8561
       description: "\uCC54\uD53C\uC5B8\uC5D0\uAC8C \uBB34\uC2A8 \uC77C\uC774 \uC788\uC5C8\uB294\uC9C0
         \uC54C\uC544\uB0B4\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6834233fecd5cf3a440d8564
       description: "\uC0DD\uC874\uD558\uC5EC \uD0C8\uCD9C\uD558\uAE30"
       optional: 0
+      thisMap: 1
   - key: 675c085d59b0575973005f52
     name: Break the Deal
     trader: "\uB798\uADF8\uB9E8"
@@ -2794,18 +2818,22 @@ MonoBehaviour:
       description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 DVL-10
         \uC800\uACA9\uC18C\uCD1D \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 1
     - id: 675c152299549b5b62094f06
       description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 DVL-10
         \uD0C4\uCC3D \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 1
     - id: 675c153ae96d38136d02f670
       description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 ELCAN
         SpecterDR \uC870\uC900\uACBD \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 1
     - id: 67604476b1ae3717835ccaed
       description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 7.62x51
         \uD0C4\uC57D \uD329(\uC885\uB958 \uBB34\uAD00) \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 1
   - key: 66d9cbb67b491f9d5304f6e6
     name: Is This a Reference?
     trader: "\uD39C\uC2A4"
@@ -2815,132 +2843,159 @@ MonoBehaviour:
         \uC788\uB294 \uCCA0\uC870\uB9DD\uC5D0 \uAC10\uAE34 \uC2DC\uCCB4\uC5D0 Wi-Fi
         \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66d9cbb67b491f9d5304f6e9
       description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
         \uC788\uB294 \uD53C\uC790\uB97C \uC88B\uC544\uD558\uB294 \uC591\uC11C\uB958\uB4E4\uC758
         \uC740\uC2E0\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66dacf2a88c7001436a67390
       description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
         \uC788\uB294 \uC815\uB9D0 \uC73C\uC2A4\uC2A4\uD55C \uBCBD\uC758 \uAD6C\uBA4D\uC5D0
         Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66d9cbb67b491f9d5304f6ea
       description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
         \uC788\uB294 \uBD88\uC5D0 \uD0C4 \uC18C\uB140\uC758 \uBCD1\uC2E4\uC5D0 Wi-Fi
         \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66dad1d7811532f53e472c13
       description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
         \uB2E4\uC774\uD558\uB4DC\uC5D0 \uB098\uC628\uAC83 \uAC19\uC740 \uB140\uC11D\uC774
         \uB9F9\uD65C\uC57D\uD588\uB358 \uAC83 \uAC19\uC740 \uACE0\uCE35 \uBE4C\uB529\uC5D0
         Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66dad1d941756590432b0eaa
       description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
         \uD504\uB85C\uADF8\uB798\uBA38\uC5D0\uAC8C \uCE60 \uC7A5\uB09C\uC774 \uB744\uC6CC\uC9C4
         \uCEF4\uD4E8\uD130\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66dad1dbb16caebe0e214d89
       description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
         \uCEE4\uB2E4\uB780 \uAC80\uC740 \uC758\uC790\uB4E4\uC5D0 \uB458\uB7EC\uC2F8\uC778
         \uC791\uC740 \uD558\uC580 \uC758\uC790\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66dad1ddec53b0df3b10a1b9
       description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uB2F9\uC2E0\uC758
         \uCE5C\uAD6C \uC70C\uC2A8 \uC606\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66dad1de93c8fcffd5790d89
       description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uD654\uD1B3\uBD88\uC774
         \uCF1C\uC9C4 \uD734\uC2DD\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66dad1e0703b718902451ee4
       description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uBD88\uAE38\uD55C
         \uC6F0\uCEF4 \uD45C\uC9C0\uD310\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66dad1e21e7ef28d17a69a93
       description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uCC9C\uC7AC \uACFC\uD559\uC790\uC758
         \uC790\uB9AC\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66dad1e607181e2f78a3a0a2
       description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uC9D5\uC9D1\uBCD1\uB4E4\uC774
         \uC544\uC8FC \uC911\uC694\uD55C \uC791\uC5C5\uC744 \uD588\uB358 \uC7A5\uC18C\uC5D0
         Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66dad1e843a718561db0fdd3
       description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uB450 \uC218\uC218\uAED8\uB07C
         \uC758\uC790\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
         \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66dad1ebc5c8e6cd26dd1d31
       description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uC804\uCC28 \uC870\uC885\uC218\uB4E4\uC758
         \uCCAB \uBE44\uB514\uC624 \uAC8C\uC784 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
         \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66dad1edbc4fdd0c6eb38c5e
       description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uBA38\uB9AC\uC5D0 \uC591\uB3D9\uC774\uB97C
         \uC4F4 \uC545\uB2F9 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 66dad1f00e049ac7abb6d801
       description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uC564\uBE4C 3-4 \uC804\uCC28
         \uC2B9\uBB34\uC6D0\uC758 \uCC98\uD615 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
         \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 66dad1f22edc2103eb176de8
       description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uBAA8\uB4E0 \uC778\uB514
         \uAC1C\uBC1C\uC790\uB4E4\uC758 \uC545\uBABD\uC774 \uC788\uB294 \uC7A5\uC18C\uC5D0
         Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 66db1f8d7539f4b4eb640aff
       description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC18C\uBC29\uAD00\uC774
         \uD589\uBCF5\uD574\uC9C0\uAE30 \uC704\uD574 \uCC45\uC744 \uBD88\uD0DC\uC6B0\uB358
         \uBC29\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66db1f8f564045697071d934
       description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uBA87\uBA87 \uBC38\uBE0C
         \uC5D4\uC9C0\uB2C8\uC5B4\uB4E4\uC774 \uC790\uC2E0\uB4E4\uC758 \uC138 \uBC88\uC9F8
         \uD504\uB85C\uC81D\uD2B8\uB97C \uB05D\uB0B4\uC9C0 \uBABB\uD55C \uC7A5\uC18C\uC5D0
         Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66db1f928d59a9fe511dfc25
       description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC704\uD5D8\uD55C \uB7EC\uC2DC\uC544
         \uCD08\uCF5C\uB9BF \uC18C\uB140\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi
         \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66db1f94a147d9840ec0dfba
       description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC74C\uBAA8\uB860\uC790\uC758
         \uBC29\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66db1f98b8e22a92437fe5c6
       description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uB204\uAD70\uAC00\uAC00
         \uB9C8\uBC95 \uD559\uAD50\uB85C \uC774\uB3D9\uD560 \uC218 \uC788\uB2E4\uACE0
         \uBBFF\uC5C8\uB358 \uC7A5\uC18C \uADFC\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
         \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66db1f9b4f7bf01d937eb150
       description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uBAA8\uB4E0 \uC804\uB7B5
         \uAC8C\uC784\uC758 \uC5B4\uBA38\uB2C8\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0
         Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66db1ff798d52a5a8e4ed1f8
       description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uD558\uB298\uB85C \uC62C\uB77C\uAC00\uB294
         \uACC4\uB2E8\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66debf2b9e4ce2ef233ee5b7
       description: "\uC0BC\uB9BC(Woods)\uC5D0 \uC788\uB294 \uBD88\uD0C0\uB294 \uCC28\uC5D0
         \uC549\uC544\uC788\uB294 \uACF0\uC774 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi
         \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66debf2e1e254957b82711ff
       description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uB4A4\uC9D1\uD78C
         \uC758\uC790\uAC00 \uC124\uCE58\uB41C \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
         \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 66debf30802386a45d0adb60
       description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uADF8\uB2E4\uC9C0
         \uC678\uB86D\uC9C0\uB294 \uC54A\uC744 \uD654\uC7A5\uC2E4\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
         \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
   - key: 683427418f5b18d29a05d9e3
     name: 'Surprise Gift [PVE ZONE]'
     trader: "\uB4F1\uB300\uC9C0\uAE30"
@@ -2949,13 +3004,16 @@ MonoBehaviour:
       description: "\uC138\uAD00\uC5D0 \uC788\uB294 \uC61B \uCC54\uD53C\uC5B8\uC758
         \uC740\uC2E0\uCC98\uB85C \uB3CC\uC544\uAC00\uAE30"
       optional: 0
+      thisMap: 1
     - id: 683427418f5b18d29a05d9e7
       description: "\uB808\uD504\uC758 \uC57D\uC810\uC774 \uB420 \uC815\uBCF4\uB97C
         \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 683427418f5b18d29a05d9e9
       description: "\uCC3E\uC740 \uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 684009026ceedc792c09b2a7
     name: Hobby Club
     trader: "\uBA54\uCE74\uB2C9"
@@ -2964,38 +3022,47 @@ MonoBehaviour:
       description: "\uB9AC\uC800\uBE0C\uC5D0\uC11C AK-50 \uCD1D\uC5F4\uC744 \uCC3E\uC544
         \uD655\uBCF4\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6840711071516aad97bd9156
       description: "\uB9AC\uC800\uBE0C\uC5D0\uC11C \uAE00\uB8E8\uD558\uB974\uC758
         \uC791\uC5C5\uC7A5 \uCC3E\uAE30"
       optional: 1
+      thisMap: 0
     - id: 684070a1a550c194cf2f833a
       description: "\uD0C0\uB974\uCF54\uD504 \uBCF4\uC548 \uAC80\uBB38\uC18C \uC911
         \uD55C \uACF3\uC5D0\uC11C AK-50 \uB354\uC2A4\uD2B8 \uCEE4\uBC84\uB97C \uCC3E\uC544
         \uD655\uBCF4\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6840714469caa738cc1225c3
       description: "\uC555\uC218\uB41C \uD654\uBB3C\uC774 \uC788\uB294 \uAC80\uBB38\uC18C
         \uCC3E\uAE30"
       optional: 1
+      thisMap: 1
     - id: 685e95c44b14e68996ad6590
       description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 AK-50
         \uBCF8\uCCB4 \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 1
     - id: 685e97f9892281cf7a89f39c
       description: "AK-50 \uBCF8\uCCB4 \uC870\uB9BD\uD558\uAE30"
       optional: 1
+      thisMap: 0
     - id: 685e95d28ba62d57a3235675
       description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 AK-50
         \uD578\uB4DC\uAC00\uB4DC \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 1
     - id: 685e95def338135da83ff978
       description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 AK-50
         \uCD1D\uC5F4 \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 1
     - id: 685e95f0ac5f975749f6c1f3
       description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 AK-50
         \uB354\uC2A4\uD2B8 \uCEE4\uBC84 \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 1
   - key: 5936da9e86f7742d65037edf
     name: Background Check
     trader: "\uD504\uB77C\uD37C"
@@ -3004,12 +3071,15 @@ MonoBehaviour:
       description: "\uC138\uAD00(Customs)\uC5D0\uC11C [\uCCAD\uB3D9 \uD68C\uC911\uC2DC\uACC4]
         \uD68D\uB4DD\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 5975de1f86f7744ca53b7c82
       description: "\uC720\uC870\uCC28 \uC5F4\uC1E0 \uD68D\uB4DD\uD558\uAE30"
       optional: 1
+      thisMap: 0
     - id: 5967920f86f77468d219d632
       description: "[\uCCAD\uB3D9 \uD68C\uC911\uC2DC\uACC4] \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 59674eb386f774539f14813a
     name: Delivery From the Past
     trader: "\uD504\uB77C\uD37C"
@@ -3019,11 +3089,13 @@ MonoBehaviour:
         \uD68C\uC0AC \uAC10\uB3C5\uAD00\uC758 \uC0AC\uBB34\uC2E4(\uBE68\uAC04\uCC3D\uACE0)\uC5D0\uC11C
         \uBCF4\uC548 \uCF00\uC774\uC2A4 \uD68D\uB4DD\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 59674fe586f7744f4e358aa2
       description: "\uACF5\uC7A5(Factory) 3\uBC88 \uAC8C\uC774\uD2B8 \uADFC\uCC98
         2\uCE35\uC5D0 \uC788\uB294 \uD734\uAC8C\uC2E4\uC5D0 \uCF00\uC774\uC2A4 \uB193\uACE0
         \uAC00\uAE30"
       optional: 0
+      thisMap: 0
   - key: 5967530a86f77462ba22226b
     name: Bad Rep Evidence
     trader: "\uD504\uB77C\uD37C"
@@ -3032,19 +3104,24 @@ MonoBehaviour:
       description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uCEE8\uD14C\uC774\uB108
         \uC219\uC18C\uC5D0\uC11C [\uBCF4\uC548 \uCF00\uC774\uC2A4 0031] \uD68D\uB4DD\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 5a3fbdb086f7745a554f0c31
       description: "\uACF5\uC7A5(Factory)\uB9F5 3\uCE35 \uBCF5\uB3C4\uC758 \uC7A0\uAE34
         \uBC29 \uD655\uC778\uD558\uAE30"
       optional: 1
+      thisMap: 0
     - id: 5968941f86f7740d1570bbd2
       description: "[Portable bunkhouse key] \uD68D\uB4DD\uD558\uAE30"
       optional: 1
+      thisMap: 0
     - id: 5968948986f7740d121082d4
       description: "[\uBCF4\uC548 \uCF00\uC774\uC2A4 0031] \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
     - id: 596762ec86f77426d3687a87
       description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
       optional: 0
+      thisMap: 1
   - key: 5967725e86f774601a446662
     name: Shaking Up the Teller
     trader: "\uD504\uB77C\uD37C"
@@ -3053,13 +3130,16 @@ MonoBehaviour:
       description: "\uC138\uAD00(Customs) 3\uCE35\uC9DC\uB9AC \uAE30\uC219\uC0AC
         203\uD638\uC5D0\uC11C \uAC00\uCE58 \uC788\uB294 \uBB3C\uAC74 \uD68C\uC218\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 5a3fc03286f77414d64f9941
       description: "\uAE30\uC219\uC0AC 214\uD638\uC5D0 \uB4E4\uC5B4\uAC08 \uBC29\uBC95
         \uCC3E\uAE30"
       optional: 1
+      thisMap: 1
     - id: 5968988286f7740d14064724
       description: "\uD68C\uC218\uD55C \uBB3C\uAC74 \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 59689fbd86f7740d137ebfc4
     name: Operation Aquarius
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
@@ -3068,10 +3148,12 @@ MonoBehaviour:
       description: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC\uC5D0\uC11C \uBB3C\uC774
         \uC228\uACA8\uC9C4 \uD638\uC2E4 \uCC3E\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6a541b897b253a0f64adfafc
       description: "\uB808\uC774\uB4DC\uC5D0\uC11C \uBC1C\uACAC\uD55C \uBB3C \uCE74\uD14C\uACE0\uB9AC
         \uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 5969f9e986f7741dde183a50
     name: Pharmacist
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
@@ -3080,17 +3162,21 @@ MonoBehaviour:
       description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC758\uB8CC\uC7A5\uBE44\uAC00
         \uB4E4\uC5B4\uC788\uB294 \uAC00\uBC29 \uD68D\uB4DD\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 5a3fb8f686f7742384533f10
       description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uAD6C\uC870\uB300\uC6D0\uC758
         \uC790\uB3D9\uCC28 \uCC3E\uAE30"
       optional: 1
+      thisMap: 1
     - id: 5a3fb92286f77422b46cdb18
       description: "\uC138\uAD00(Customs)\uC5D0 \uC704\uCE58\uD55C 2\uCE35\uC9DC\uB9AC
         \uAE30\uC219\uC0AC\uC758 114\uD638\uC2E4\uC5D0 \uB4E4\uC5B4\uAC00\uAE30"
       optional: 1
+      thisMap: 1
     - id: 5969fa8986f7741ddc2d3154
       description: "\uD14C\uB77C\uD53C\uC2A4\uD2B8\uC5D0\uAC8C \uAC00\uBC29 \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 596b43fb86f77457ca186186
     name: The Extortionist
     trader: "\uC2A4\uD0A4\uC5B4"
@@ -3099,16 +3185,20 @@ MonoBehaviour:
       description: "\uC138\uAD00(Customs)\uC5D0\uC11C [\uBCF4\uC548 \uCF00\uC774\uC2A4
         0048] \uD68D\uB4DD\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 5a3fbabc86f774231d75afbe
       description: "\uBC30\uB2EC\uBD80\uC758 \uC2DC\uCCB4 \uCC3E\uAE30"
       optional: 1
+      thisMap: 1
     - id: 5a3fbab086f77421593d9bf0
       description: "\uBC30\uB2EC\uBD80\uAC00 \uC228\uACA8\uB454 \uBB3C\uAC74\uC758
         \uC704\uCE58 \uCC3E\uAE30"
       optional: 1
+      thisMap: 1
     - id: 596b450986f7745a7e510b54
       description: "\uD68C\uC218\uD55C \uBB3C\uAC74 \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 5979eee086f774311955e614
     name: Golden Swag
     trader: "\uC2A4\uD0A4\uC5B4"
@@ -3117,13 +3207,16 @@ MonoBehaviour:
       description: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC\uC758 303\uD638\uC2E4\uC5D0\uC11C
         \uD669\uAE08\uC0C9 \uC9C0\uBF40 \uB77C\uC774\uD130 \uD68D\uB4DD\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6a5a91ade94475b65ec117ef
       description: "\uD669\uAE08\uC0C9 \uC9C0\uBF40 \uB77C\uC774\uD130 \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
     - id: 5979ef7986f77431307dc514
       description: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC\uC758 303\uD638\uC2E4\uC5D0\uC11C
         \uC77C\uBC18 \uC9C0\uBF40 \uB77C\uC774\uD130 \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 1
   - key: 5979f9ba86f7740f6c3fe9f2
     name: Chemical - Part 1
     trader: "\uC2A4\uD0A4\uC5B4"
@@ -3132,20 +3225,25 @@ MonoBehaviour:
       description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uBCF4\uC548 \uBD80\uC7A5\uC758
         \uACFC\uAC70 \uC2DC\uC808\uC5D0 \uB300\uD55C \uC815\uBCF4 \uCC3E\uAE30"
       optional: 0
+      thisMap: 1
     - id: 5a3fbbfd86f77459d52a16a8
       description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC804 \uBCF4\uC548 \uBD80\uC7A5\uC758
         \uAC70\uCC98 \uCC3E\uAE30"
       optional: 1
+      thisMap: 1
     - id: 5979fc5386f77426d702a0f3
       description: "\uC218\uC0AC\uC5D0 \uB3C4\uC6C0 \uB420\uB9CC\uD55C \uBB3C\uAC74
         \uCC3E\uAE30"
       optional: 0
+      thisMap: 0
     - id: 5979fc7e86f77426d702a0f4
       description: "\uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
     - id: 5979fc9286f77426d702a0f5
       description: "\uBB3C\uAC74 \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 597a0b2986f77426d66c0633
     name: Chemical - Part 2
     trader: "\uC2A4\uD0A4\uC5B4"
@@ -3154,16 +3252,20 @@ MonoBehaviour:
       description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC870\uC0AC\uC5D0 \uB3C4\uC6C0
         \uB420\uB9CC\uD55C \uC99D\uAC70 \uCC3E\uAE30"
       optional: 0
+      thisMap: 1
     - id: 597a0bb486f77426d66c0634
       description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC870\uC0AC\uC5D0 \uB3C4\uC6C0
         \uB420\uB9CC\uD55C \uC815\uBCF4 \uCC3E\uAE30"
       optional: 0
+      thisMap: 1
     - id: 597a0bf886f7742717106d13
       description: "\uC99D\uAC70 \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
     - id: 597a0bdb86f7742717106d12
       description: "\uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 59c124d686f774189b3c843f
     name: Oil Run
     trader: "\uD504\uB77C\uD37C"
@@ -3172,6 +3274,7 @@ MonoBehaviour:
       description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC544\uBB34 \uC720\uC870\uCC28\uC5D0
         MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
       optional: 0
+      thisMap: 1
   - key: 5a27b7a786f774579c3eb376
     name: Tigr Safari
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
@@ -3180,6 +3283,7 @@ MonoBehaviour:
       description: "\uC138\uAD00\uC5D0\uC11C UN \uD2F0\uADF8\uB974(Tigr) \uCC28\uB7C9
         \uC911 \uD558\uB098\uC5D0 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
       optional: 0
+      thisMap: 1
   - key: 5a27bafb86f7741c73584017
     name: Chemical Experiments
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
@@ -3188,6 +3292,7 @@ MonoBehaviour:
       description: "\uC138\uAD00 \uC758\uB8CC \uC5F0\uAD6C\uC2E4\uC5D0 \uC8FC\uB984\uAD00
         \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 1
   - key: 5ac3462b86f7741d6118b983
     name: Farming
     trader: "\uBA54\uCE74\uB2C9"
@@ -3196,14 +3301,17 @@ MonoBehaviour:
       description: "[\uADF8\uB798\uD53D \uCE74\uB4DC\uAC00 \uB2F4\uAE34 \uC0C1\uC790]
         \uD68C\uC218\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 5ac6240786f77417204ca2b9
       description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC555\uB958\uB41C \uBB3C\uD488\uC744
         \uBCF4\uAD00\uD558\uB294 \uCC3D\uACE0 \uCC3E\uAE30"
       optional: 0
+      thisMap: 1
     - id: 5ac624b286f77416781dd3ac
       description: "[\uADF8\uB798\uD53D \uCE74\uB4DC\uAC00 \uB2F4\uAE34 \uC0C1\uC790]
         \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 5b478ff486f7744d184ecbbf
     name: Supplements
     trader: "\uC2A4\uD0A4\uC5B4"
@@ -3211,24 +3319,30 @@ MonoBehaviour:
     - id: 5b47905886f7746807461fe2
       description: "\uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
     - id: 5cb5ffd986f7746ef55de2c7
       description: "\uB808\uC774\uB4DC\uC5D0\uC11C \uC544\uC774\uD15C \uCC3E\uAE30:
         \uD638\uD761\uAE30"
       optional: 0
+      thisMap: 0
     - id: 5ec1388d83b69d213d3c2ee0
       description: "\uB808\uC774\uB4DC\uC5D0\uC11C \uC544\uC774\uD15C \uCC3E\uAE30:
         \uC758\uB8CC\uC6A9 \uD608\uC561 \uC138\uD2B8"
       optional: 0
+      thisMap: 0
     - id: 5b4790a886f774563c7a489f
       description: "\uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6a5ab1920a2a6d86771ee14a
       description: "\uC138\uAD00\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8 \uBC14\uC774\uC54C\uC744
         \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6a5ab19ed7c5bd68ea2803b6
       description: "\uBC14\uC774\uC54C \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 5d25e44386f77409453bce7b
     name: The Huntsman Path - Angry Watchman
     trader: "\uC608\uAC70"
@@ -3237,6 +3351,7 @@ MonoBehaviour:
       description: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC \uC9C0\uC5ED\uC5D0\uC11C
         PMC \uC0AC\uC0B4\uD558\uAE30"
       optional: 0
+      thisMap: 1
   - key: 60e71b9bbd90872cb85440f3
     name: Capturing Outposts
     trader: "\uD504\uB77C\uD37C"
@@ -3245,6 +3360,7 @@ MonoBehaviour:
       description: "\uC138\uAD00, \uD574\uC548\uC120 \uB610\uB294 \uC0BC\uB9BC\uC758
         \uC9C0\uC815\uB41C \uC2A4\uCE90\uBE0C \uAE30\uC9C0\uC5D0\uC11C PMC \uCC98\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
   - key: 60e71d6d7fcf9c556f325055
     name: The Courier
     trader: "\uBA54\uCE74\uB2C9"
@@ -3254,6 +3370,7 @@ MonoBehaviour:
         \uC4F0\uB808\uAE30\uD1B5 \uB4A4\uC5D0 [Trijicon REAP-IR \uC5F4\uD654\uC0C1
         \uC870\uC900\uACBD] \uC228\uACA8\uB450\uAE30"
       optional: 0
+      thisMap: 1
   - key: 66aa74571e5e199ecd094f18
     name: Secrets of Polikhim
     trader: "\uBA54\uCE74\uB2C9"
@@ -3262,14 +3379,17 @@ MonoBehaviour:
       description: "\uC138\uAD00\uC5D0\uC11C \uACF5\uC7A5\uC73C\uB85C \uD2B8\uB79C\uC9D3
         \uC774\uC6A9\uD558\uAE30 (\uD55C \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
       optional: 0
+      thisMap: 1
     - id: 66ab97a5c74ce045d6c32578
       description: "\uC138\uAD00 \uC758\uB8CC \uC5F0\uAD6C\uC2E4\uC5D0\uC11C \uC815\uBC00
         \uACF5\uAD6C \uAFB8\uB7EC\uBBF8\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 66ab97d56cb6e3bfd7c79fbc
       description: "\uACF5\uC7A5 \uC5F0\uAD6C\uC2E4 \uCC3D\uACE0\uC5D0 \uAFB8\uB7EC\uBBF8
         \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 0
   - key: 673f4e956f1b89c7bc0f56ef
     name: Hot Wheels
     trader: "BTR \uC870\uC885\uC218"
@@ -3278,9 +3398,11 @@ MonoBehaviour:
       description: "\uC608\uBE44 BTR \uBC14\uD034\uC5D0 MS2000 \uB9C8\uCEE4\uB85C
         \uD45C\uC2DC\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 673f5065cdfe082966842575
       description: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
       optional: 1
+      thisMap: 1
   - key: 6744af0969a58fceba101fed
     name: The Price of Independence
     trader: "BTR \uC870\uC885\uC218"
@@ -3289,41 +3411,51 @@ MonoBehaviour:
       description: "\uC138\uAD00\uC5D0\uC11C \uBC94\uC8C4 \uC99D\uAC70\uAC00 \uB2F4\uAE34
         \uD3B8\uC9C0\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6745c8ee54d6972417ad7bad
       description: "\uC138\uAD00\uC5D0\uC11C \uB9AC\uC800\uBE0C\uB85C \uD2B8\uB79C\uC9D3
         \uC774\uC6A9\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6745c8de22c7ee46e3319c34
       description: "\uB9AC\uC800\uBE0C \uAD70 \uBCF8\uBD80 3\uCE35\uC5D0 \uD3B8\uC9C0
         \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6745c90842db81af412eae97
       description: "\uB9AC\uC800\uBE0C\uC5D0\uC11C \uC0BC\uB9BC\uC73C\uB85C \uD2B8\uB79C\uC9D3
         \uC774\uC6A9\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6745c9482ac6bee79dca869a
       description: "\uC0BC\uB9BC\uC5D0\uC11C \uC544\uBB34 \uB300\uC0C1\uC774\uB098
         \uCC98\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6745c9623d362cd373b1de93
       description: "\uC0BC\uB9BC\uC5D0\uC11C \uB4F1\uB300\uB85C \uD2B8\uB79C\uC9D3
         \uC774\uC6A9\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6745c986a3e10e0bf6472d8e
       description: "\uB4F1\uB300 \uAE30\uCC28\uC5ED \uCC3D\uACE0\uC5D0\uC11C \uB178\uB780\uC0C9
         \uC2E0\uD638\uD0C4 \uBC1C\uC0AC\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6745c992bf76b3aeaf6370e0
       description: "\uB4F1\uB300 \uBD80\uB450\uC5D0\uC11C \uB178\uB780\uC0C9 \uC2E0\uD638\uD0C4
         \uBC1C\uC0AC\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6745c9b89c84a273d4a2dc28
       description: "\uB2E4\uB978 \uBAA9\uD45C\uB97C \uC9C4\uD589\uD558\uB294 \uB3D9\uC548
         \uC2A4\uCE90\uBE0C \uCC98\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6745c9a86086867a2c723e9d
       description: "\uB4F1\uB300(Lighthouse)\uC5D0\uC11C \uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
       optional: 0
+      thisMap: 0
   - key: 6745cbee909d2013670a4a55
     name: The Price of Independence
     trader: "BTR \uC870\uC885\uC218"
@@ -3332,41 +3464,51 @@ MonoBehaviour:
       description: "\uC138\uAD00\uC5D0\uC11C \uBC94\uC8C4 \uC99D\uAC70\uAC00 \uB2F4\uAE34
         \uD3B8\uC9C0\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6745cbee909d2013670a4a61
       description: "\uC138\uAD00\uC5D0\uC11C \uB9AC\uC800\uBE0C\uB85C \uD2B8\uB79C\uC9D3
         \uC774\uC6A9\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6745cbee909d2013670a4a63
       description: "\uB9AC\uC800\uBE0C \uAD70 \uBCF8\uBD80 3\uCE35\uC5D0 \uD3B8\uC9C0
         \uC228\uAE30\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6745cbee909d2013670a4a64
       description: "\uB9AC\uC800\uBE0C\uC5D0\uC11C \uC0BC\uB9BC\uC73C\uB85C \uD2B8\uB79C\uC9D3
         \uC774\uC6A9\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6745cbee909d2013670a4a66
       description: "\uC0BC\uB9BC\uC5D0\uC11C \uC544\uBB34 \uB300\uC0C1\uC774\uB098
         \uCC98\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6745cbee909d2013670a4a68
       description: "\uC0BC\uB9BC\uC5D0\uC11C \uB4F1\uB300\uB85C \uD2B8\uB79C\uC9D3
         \uC774\uC6A9\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6745cbee909d2013670a4a6a
       description: "\uB4F1\uB300 \uAE30\uCC28\uC5ED \uCC3D\uACE0\uC5D0\uC11C \uB178\uB780\uC0C9
         \uC2E0\uD638\uD0C4 \uBC1C\uC0AC\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6745cbee909d2013670a4a6c
       description: "\uB4F1\uB300 \uBD80\uB450\uC5D0\uC11C \uB178\uB780\uC0C9 \uC2E0\uD638\uD0C4
         \uBC1C\uC0AC\uD558\uAE30"
       optional: 0
+      thisMap: 0
     - id: 6745cbee909d2013670a4a6e
       description: "\uB2E4\uB978 \uBAA9\uD45C\uB97C \uC9C4\uD589\uD558\uB294 \uB3D9\uC548
         \uC2A4\uCE90\uBE0C \uCC98\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6745cbee909d2013670a4a70
       description: "\uB4F1\uB300(Lighthouse)\uC5D0\uC11C \uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
       optional: 0
+      thisMap: 0
   - key: 675c03d1f7da9792a405549a
     name: Abandoned Cargo
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
@@ -3376,34 +3518,42 @@ MonoBehaviour:
         \uD654\uBB3C \uC0C1\uC790 \uC911 \uD558\uB098\uC5D0 MS2000 \uB9C8\uCEE4\uB85C
         \uD45C\uC2DC\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6a574fe188bf38e4f6c954f6
       description: "\uC138\uAD00\uC5D0\uC11C \uCCAB \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
         \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
       optional: 1
+      thisMap: 1
     - id: 6a574ff13e5804d879146872
       description: "\uC138\uAD00\uC5D0\uC11C \uB450 \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
         \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
       optional: 1
+      thisMap: 1
     - id: 6a574ff78f1b3fc8bdbb8755
       description: "\uC138\uAD00\uC5D0\uC11C \uC138 \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
         \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
       optional: 1
+      thisMap: 1
     - id: 6a574ffc261a237f28375818
       description: "\uC138\uAD00\uC5D0\uC11C \uB124 \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
         \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
       optional: 1
+      thisMap: 1
     - id: 6a575000eddb07c675a2567c
       description: "\uC138\uAD00\uC5D0\uC11C \uB2E4\uC12F \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
         \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
       optional: 1
+      thisMap: 1
     - id: 6a575004d14917ff71ab6aec
       description: "\uC138\uAD00\uC5D0\uC11C \uC5EC\uC12F \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
         \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
       optional: 1
+      thisMap: 1
     - id: 6a57500b923ac62ea96d47aa
       description: "\uC138\uAD00\uC5D0\uC11C \uC77C\uACF1 \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
         \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
       optional: 1
+      thisMap: 1
   - key: 675c047fa46173572a0bd878
     name: Shipment Tracking
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
@@ -3412,9 +3562,11 @@ MonoBehaviour:
       description: "\uC138\uAD00\uC5D0\uC11C \uD14C\uB77C\uADF8\uB8F9 \uD654\uBB3C
         \uBAA9\uB85D\uC744 \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 675c04c1b68cc8180efb38c6
       description: "\uCC3E\uC740 \uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 675c04f4db8807b75d0f38e8
     name: Closer to the People
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
@@ -3423,9 +3575,11 @@ MonoBehaviour:
       description: "\uC138\uAD00\uC5D0\uC11C \uBC30\uC1A1\uD300\uC758 \uD654\uBB3C
         \uAE30\uB85D\uC744 \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 675c04f4db8807b75d0f38ec
       description: "\uCC3E\uC740 \uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 675c1570526ff496850895d9
     name: Passion for Ergonomics
     trader: "\uBA54\uCE74\uB2C9"
@@ -3434,9 +3588,11 @@ MonoBehaviour:
       description: "\uC138\uAD00 \uCC28\uACE0 \uB2E8\uC9C0\uC5D0\uC11C \uAC1C\uC870\uB41C
         \uACF5\uAD6C \uC138\uD2B8\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 675c1595a4c063af74ee5279
       description: "\uCC3E\uC740 \uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0
   - key: 675c15fbf7da9792a4059871
     name: Provide Viewership
     trader: "\uB808\uD504"
@@ -3445,22 +3601,27 @@ MonoBehaviour:
       description: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0 \uCCAB
         \uBC88\uC9F8 WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 676047054c9696a7d071bc08
       description: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0 \uB450
         \uBC88\uC9F8 WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6760470877d1b7790af5de11
       description: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0 \uC138
         \uBC88\uC9F8 WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 6760470b7d65f702a6295820
       description: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0 \uB124
         \uBC88\uC9F8 WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 675c1c980fd114390c638b89
       description: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0\uC11C
         \uC544\uBB34 \uB300\uC0C1\uC774\uB098 \uCC98\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
   - key: 675c1cf4a757ddd00404f0a3
     name: Work Smarter
     trader: "\uC608\uAC70"
@@ -3468,10 +3629,12 @@ MonoBehaviour:
     - id: 675c1cf4a757ddd00404f0a6
       description: "\uC138\uAD00\uC758 \uBE44\uBC00 \uD0C8\uCD9C\uAD6C \uCC3E\uAE30"
       optional: 0
+      thisMap: 1
     - id: 676ab31c058363b09072c78e
       description: "\uBE44\uBC00 \uD0C8\uCD9C\uAD6C\uB85C \uD0C8\uCD9C\uD558\uB294
         \uB370 \uD544\uC694\uD55C \uD2B9\uC218 \uC544\uC774\uD15C \uD655\uBCF4\uD558\uAE30"
       optional: 1
+      thisMap: 0
   - key: 675c1ec7a46173572a0bf20a
     name: Rite of Passage
     trader: "\uC608\uAC70"
@@ -3480,14 +3643,17 @@ MonoBehaviour:
       description: "\uC138\uAD00 \uAD6C \uC8FC\uC720\uC18C\uC5D0\uC11C \uC2A4\uCE90\uBE0C
         \uCC98\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 675c1f17cf59d5433be7ae77
       description: "\uC138\uAD00 \uC2E0 \uC8FC\uC720\uC18C\uC5D0\uC11C \uC2A4\uCE90\uBE0C
         \uCC98\uCE58\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 675c1f311bd716cdb87947d1
       description: "\uB808\uC774\uB4DC\uC5D0\uC11C \uCC3E\uC740 \uC544\uC774\uD15C
         \uAC74\uB124\uC8FC\uAE30: \uAE08\uC18D \uC5F0\uB8CC \uD0F1\uD06C"
       optional: 0
+      thisMap: 0
   - key: 675c3582f6ddc329a90f9c6d
     name: Private Club
     trader: "\uC2A4\uD0A4\uC5B4"
@@ -3496,6 +3662,8 @@ MonoBehaviour:
       description: "\uC138\uAD00\uC5D0\uC11C \uC2A4\uD0A4\uC5B4\uC758 \uC9C0\uAC11\uC744
         \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
       optional: 0
+      thisMap: 1
     - id: 675c37e07ac1a33fff170966
       description: "\uCC3E\uC740 \uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
       optional: 0
+      thisMap: 0

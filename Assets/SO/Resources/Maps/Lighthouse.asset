@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64605281bee0acd4f8b1f28eae6019d2, type: 3}
+  m_Name: Lighthouse
+  m_EditorClassIdentifier: Assembly-CSharp::MapConfig
+  normalizedName: lighthouse
+  displayName: "\uB4F1\uB300"
+  sceneName: Map
+  icon: {fileID: 21300000, guid: 29dd7fc2a70041a994fd85e293eb8cf1, type: 3}
+  boundsA: {x: 515, y: -998}
+  boundsB: {x: -545, y: 725}
+  coordinateRotation: 180
+  baseSprite: {fileID: 21300000, guid: d0df9682cbbedf149aa736fd9358f90a, type: 3}
+  layers: []
+  markerData: {fileID: 11400000, guid: 4de924ce98c63a54580190c078fdf7cd, type: 2}

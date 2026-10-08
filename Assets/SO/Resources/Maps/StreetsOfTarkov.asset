@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64605281bee0acd4f8b1f28eae6019d2, type: 3}
+  m_Name: StreetsOfTarkov
+  m_EditorClassIdentifier: Assembly-CSharp::MapConfig
+  normalizedName: streets-of-tarkov
+  displayName: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4"
+  sceneName: Map
+  icon: {fileID: 21300000, guid: 2b70faea1d554dcda6e44a13f0a89537, type: 3}
+  boundsA: {x: 323, y: -295}
+  boundsB: {x: -280, y: 532}
+  coordinateRotation: 180
+  baseSprite: {fileID: 21300000, guid: bfc60002415339747ad32e1dcc9a4a5b, type: 3}
+  layers: []
+  markerData: {fileID: 11400000, guid: 46642c359e87c8940b5a23b52d4b2ff0, type: 2}

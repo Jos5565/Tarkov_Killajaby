@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64605281bee0acd4f8b1f28eae6019d2, type: 3}
+  m_Name: Woods
+  m_EditorClassIdentifier: Assembly-CSharp::MapConfig
+  normalizedName: woods
+  displayName: "\uC0BC\uB9BC"
+  sceneName: Map
+  icon: {fileID: 21300000, guid: c2137d00197e42808d84714d8bd38741, type: 3}
+  boundsA: {x: 646, y: -914}
+  boundsB: {x: -761, y: 442}
+  coordinateRotation: 180
+  baseSprite: {fileID: 21300000, guid: 22c3d0dea0fb76c4e9c60d621a3f2dd5, type: 3}
+  layers: []
+  markerData: {fileID: 11400000, guid: 082e26cb18408d447843625cb563cffc, type: 2}

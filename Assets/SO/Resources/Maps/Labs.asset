@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64605281bee0acd4f8b1f28eae6019d2, type: 3}
-  m_Name: Custion
+  m_Name: Labs
   m_EditorClassIdentifier: Assembly-CSharp::MapConfig
-  normalizedName: customs
-  displayName: "\uC138\uAD00"
+  normalizedName: the-lab
+  displayName: "\uC5F0\uAD6C\uC18C"
   sceneName: Map
-  icon: {fileID: 21300000, guid: 203aeb194ad345ec9514b42402a0143b, type: 3}
-  boundsA: {x: 698, y: -307}
-  boundsB: {x: -371, y: 237}
-  coordinateRotation: 180
-  baseSprite: {fileID: 21300000, guid: 8fb4d8f3affafb848b9cdc543009f318, type: 3}
+  icon: {fileID: 21300000, guid: 7ee4d9800fa24371b2d55dbb07d5538e, type: 3}
+  boundsA: {x: -91, y: -477}
+  boundsB: {x: -287, y: -193}
+  coordinateRotation: 270
+  baseSprite: {fileID: 21300000, guid: dfbc023bd83da934bb6f8b54a4664028, type: 3}
   layers: []
-  markerData: {fileID: 11400000, guid: a27e1e39424dd994c91cfc63d40ea791, type: 2}
+  markerData: {fileID: 11400000, guid: 559bdef7eae3d204e8a375297a8b57e8, type: 2}

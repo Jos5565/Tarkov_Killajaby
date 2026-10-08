@@ -637,9 +637,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900000001}
-  m_LocalRotation: {x: 0, y: 0, z: 0.65543664, w: 0.75525016}
+  m_LocalRotation: {x: 0, y: 0, z: 0.65546715, w: 0.7552237}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.5588236, y: 2.5588236, z: 1}
+  m_LocalScale: {x: 2.9793103, y: 2.9793103, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 900000011}
@@ -648,7 +648,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 137.99846, y: 121.89603}
+  m_AnchoredPosition: {x: 138.07837, y: 121.89603}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &900000003
@@ -688,7 +688,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &900000011
 RectTransform:
   m_ObjectHideFlags: 0
@@ -781,7 +781,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 24, y: 24}
+  m_SizeDelta: {x: 56.4, y: 63.36105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &900000022
 CanvasRenderer:
@@ -811,7 +811,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: ab5e3df87c852bc4f807ceb9535cc5bf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -873,20 +873,29 @@ MonoBehaviour:
   nameTagPrefab: {fileID: 4888652072380559427, guid: d18d95d9d5b85b64e95b6dd4792cbc0e, type: 3}
   dotSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   nameTagScale: 0.5
+  markerScale: 1
+  referenceViewSize: {x: 1480, y: 1000}
+  keepScreenSize: 0
   nameTagIconPath: Icon
   styles:
   - type: 3
     visible: 1
     color: {r: 1, g: 0.85, b: 0.2, a: 1}
     size: 10
+    sprite: {fileID: 0}
+    showInfo: 0
   - type: 2
     visible: 1
     color: {r: 0.35, g: 0.9, b: 0.35, a: 1}
     size: 12
+    sprite: {fileID: 0}
+    showInfo: 0
   - type: 4
     visible: 1
     color: {r: 1, g: 0.5, b: 0.1, a: 1}
     size: 12
+    sprite: {fileID: 0}
+    showInfo: 0
   - type: 5
     visible: 1
     color: {r: 0.85, g: 0.3, b: 1, a: 1}
@@ -909,18 +918,26 @@ MonoBehaviour:
     visible: 1
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 14
+    sprite: {fileID: 0}
+    showInfo: 0
   - type: 9
     visible: 1
     color: {r: 0.21961, g: 0.37647, b: 0.99608, a: 1}
     size: 14
+    sprite: {fileID: 0}
+    showInfo: 0
   - type: 8
     visible: 1
     color: {r: 0.85098, g: 0.65882, b: 0.03137, a: 1}
     size: 14
+    sprite: {fileID: 0}
+    showInfo: 0
   - type: 0
     visible: 1
     color: {r: 0.13333, g: 0.70588, b: 0.01569, a: 1}
     size: 14
+    sprite: {fileID: 0}
+    showInfo: 0
 --- !u!1 &900000301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,6 +1123,422 @@ MonoBehaviour:
     - label: Quest Item
       type: 7
       icon: {fileID: 0}
+--- !u!1 &900000501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900000502}
+  - component: {fileID: 900000503}
+  m_Layer: 5
+  m_Name: LobbyButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &900000502
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900000501}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1758642434}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -192, y: -20}
+  m_SizeDelta: {x: 160, y: 52}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &900000503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900000501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b3f6d2a9e1c4a5b7d0f3e6c2a9b5d1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LobbyBackButton
+  lobbySceneName: KillaJaby
+  label: "\uB85C\uBE44"
+  font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
+  icon: {fileID: 0}
+  fontSize: 22
+  escapeKey: 1
+  normal:
+    border: {r: 0.604, g: 0.533, b: 0.4, a: 1}
+    fill: {r: 0.16, g: 0.16, b: 0.16, a: 1}
+    label: {r: 0.604, g: 0.533, b: 0.4, a: 1}
+    icon: {r: 1, g: 1, b: 1, a: 1}
+  selected:
+    border: {r: 0.765, g: 0.694, b: 0.565, a: 1}
+    fill: {r: 0.765, g: 0.694, b: 0.565, a: 1}
+    label: {r: 0.08, g: 0.08, b: 0.08, a: 1}
+    icon: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &900000601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900000602}
+  - component: {fileID: 900000603}
+  m_Layer: 5
+  m_Name: QuestPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &900000602
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900000601}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1758642434}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -180, y: -36}
+  m_SizeDelta: {x: 320, y: -112}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &900000603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900000601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5c8e3a7b2f4a9c6e0d4b8f2a7c3e5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuestListPanel
+  markerLayer: {fileID: 900000203}
+  mapViewport: {fileID: 1862011288}
+  font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
+  circleSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  roundedSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  title: "\uD018\uC2A4\uD2B8"
+  searchPlaceholder: "\uD018\uC2A4\uD2B8 \uAC80\uC0C9"
+  allToggleLabel: ALL ON/OFF
+  rowHeight: 30
+  fontSize: 16
+  titleFontSize: 18
+  backgroundColor: {r: 0.09, g: 0.09, b: 0.1, a: 0.95}
+  accentColor: {r: 0.95, g: 0.45, b: 0.1, a: 1}
+  textColor: {r: 0.88, g: 0.88, b: 0.88, a: 1}
+  subTextColor: {r: 0.55, g: 0.55, b: 0.55, a: 1}
+  inputColor: {r: 0.16, g: 0.16, b: 0.17, a: 1}
+  offColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+--- !u!1 &900000701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900000702}
+  - component: {fileID: 900000703}
+  m_Layer: 5
+  m_Name: Tooltip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &900000702
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900000701}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1758642434}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &900000703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900000701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2a9c4f1b6d4e3a8c5f0b2d9e6a1c4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MapTooltip
+  font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
+  width: 380
+  titleFontSize: 20
+  bodyFontSize: 16
+  cursorOffset: {x: 18, y: -18}
+  backgroundColor: {r: 0.07, g: 0.07, b: 0.07, a: 0.95}
+  titleColor: {r: 0.765, g: 0.694, b: 0.565, a: 1}
+  subColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+  bodyColor: {r: 0.88, g: 0.88, b: 0.88, a: 1}
+--- !u!1 &900000801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900000802}
+  - component: {fileID: 900000803}
+  m_Layer: 5
+  m_Name: QuestRoute
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &900000802
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900000801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 408035024}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &900000803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900000801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9d5f1c7e2b4d8a9f6c1e4b7d2a5c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuestRoute
+  mapView: {fileID: 1724962790}
+  markerLayer: {fileID: 900000203}
+  whereIAM: {fileID: 900000003}
+  font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
+  badgeSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  lineColor: {r: 0.95, g: 0.45, b: 0.1, a: 0.85}
+  lineWidth: 4
+  badgeColor: {r: 0.95, g: 0.45, b: 0.1, a: 1}
+  badgeTextColor: {r: 1, g: 1, b: 1, a: 1}
+  badgeSize: 22
+  badgeOffset: {x: 14, y: 14}
+  exactLimit: 12
+--- !u!1 &900000901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900000902}
+  - component: {fileID: 900000903}
+  m_Layer: 5
+  m_Name: RouteButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &900000902
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900000901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1758642434}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -20, y: -20}
+  m_SizeDelta: {x: 160, y: 52}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &900000903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900000901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1e8a3d9b7f4c2e6a0d3f8b1c5e7a9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RouteToggleButton
+  route: {fileID: 900000803}
+  label: "\uACBD\uB85C"
+  font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
+  fontSize: 22
+  unavailableAlpha: 0.35
+  normal:
+    border: {r: 0.604, g: 0.533, b: 0.4, a: 1}
+    fill: {r: 0.16, g: 0.16, b: 0.16, a: 1}
+    label: {r: 0.604, g: 0.533, b: 0.4, a: 1}
+    icon: {r: 1, g: 1, b: 1, a: 1}
+  selected:
+    border: {r: 0.765, g: 0.694, b: 0.565, a: 1}
+    fill: {r: 0.765, g: 0.694, b: 0.565, a: 1}
+    label: {r: 0.08, g: 0.08, b: 0.08, a: 1}
+    icon: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &900001001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900001002}
+  - component: {fileID: 900001003}
+  m_Layer: 0
+  m_Name: ScreenshotWatcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &900001002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900001001}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &900001003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900001001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2b6d4e8a1c4f7b3e5d0a9c6b2e8f1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScreenshotWatcher
+  whereIAM: {fileID: 900000003}
+  applyLatestOnStart: 1
+  pollInterval: 2
+--- !u!1 &900001101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900001102}
+  - component: {fileID: 900001103}
+  m_Layer: 5
+  m_Name: ArrivalPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &900001102
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900001101}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1758642434}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -10}
+  m_SizeDelta: {x: 0, y: -20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &900001103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900001101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d3b9e1f4a7c4e2d8b5f1a3c9e7d2b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuestArrivalPanel
+  whereIAM: {fileID: 900000003}
+  markerLayer: {fileID: 900000203}
+  font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
+  arrivalRadius: 30
+  maxHeightDifference: 10
+  maxQuests: 3
+  width: 520
+  headerText: "\uD018\uC2A4\uD2B8 \uC704\uCE58 \uB3C4\uCC29"
+  backgroundColor: {r: 0.07, g: 0.07, b: 0.07, a: 0.95}
+  borderColor: {r: 0.604, g: 0.533, b: 0.4, a: 1}
+  titleColor: {r: 0.765, g: 0.694, b: 0.565, a: 1}
+  subColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
 --- !u!1 &1724962788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,7 +1565,7 @@ RectTransform:
   m_GameObject: {fileID: 1724962788}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3908046, y: 0.3908046, z: 1}
+  m_LocalScale: {x: 0.33564815, y: 0.33564815, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 410728767}
@@ -1143,7 +1576,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 3454, y: 1740}
+  m_SizeDelta: {x: 3456, y: 1740}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1724962790
 MonoBehaviour:
@@ -1509,361 +1942,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &900000501
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 900000502}
-  - component: {fileID: 900000503}
-  m_Layer: 5
-  m_Name: LobbyButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &900000502
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900000501}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1758642434}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -192, y: -20}
-  m_SizeDelta: {x: 160, y: 52}
-  m_Pivot: {x: 1, y: 1}
---- !u!114 &900000503
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900000501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b3f6d2a9e1c4a5b7d0f3e6c2a9b5d1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LobbyBackButton
-  font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
---- !u!1 &900000601
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 900000602}
-  - component: {fileID: 900000603}
-  m_Layer: 5
-  m_Name: QuestPanel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &900000602
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900000601}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1758642434}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -180, y: -36}
-  m_SizeDelta: {x: 320, y: -112}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &900000603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900000601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d5c8e3a7b2f4a9c6e0d4b8f2a7c3e5d, type: 3}
-  m_Name:
-  m_EditorClassIdentifier: Assembly-CSharp::QuestListPanel
-  markerLayer: {fileID: 900000203}
-  mapViewport: {fileID: 1862011288}
-  font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
-  circleSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  roundedSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
---- !u!1 &900000701
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 900000702}
-  - component: {fileID: 900000703}
-  m_Layer: 5
-  m_Name: Tooltip
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &900000702
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900000701}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1758642434}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &900000703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900000701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e2a9c4f1b6d4e3a8c5f0b2d9e6a1c4f, type: 3}
-  m_Name:
-  m_EditorClassIdentifier: Assembly-CSharp::MapTooltip
-  font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
---- !u!1 &900000801
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 900000802}
-  - component: {fileID: 900000803}
-  m_Layer: 5
-  m_Name: QuestRoute
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &900000802
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900000801}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 408035024}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &900000803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900000801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a9d5f1c7e2b4d8a9f6c1e4b7d2a5c8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::QuestRoute
-  mapView: {fileID: 1724962790}
-  markerLayer: {fileID: 900000203}
-  whereIAM: {fileID: 900000003}
-  font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
-  badgeSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
---- !u!1 &900000901
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 900000902}
-  - component: {fileID: 900000903}
-  m_Layer: 5
-  m_Name: RouteButton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &900000902
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900000901}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1758642434}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20, y: -20}
-  m_SizeDelta: {x: 160, y: 52}
-  m_Pivot: {x: 1, y: 1}
---- !u!114 &900000903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900000901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c1e8a3d9b7f4c2e6a0d3f8b1c5e7a9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RouteToggleButton
-  route: {fileID: 900000803}
-  font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
---- !u!1 &900001001
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 900001002}
-  - component: {fileID: 900001003}
-  m_Layer: 0
-  m_Name: ScreenshotWatcher
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &900001002
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900001001}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &900001003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900001001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f2b6d4e8a1c4f7b3e5d0a9c6b2e8f1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ScreenshotWatcher
-  whereIAM: {fileID: 900000003}
-  applyLatestOnStart: 1
-  pollInterval: 2
---- !u!1 &900001101
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 900001102}
-  - component: {fileID: 900001103}
-  m_Layer: 5
-  m_Name: ArrivalPanel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &900001102
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900001101}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1758642434}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -10}
-  m_SizeDelta: {x: 0, y: -20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &900001103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900001101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d3b9e1f4a7c4e2d8b5f1a3c9e7d2b4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::QuestArrivalPanel
-  whereIAM: {fileID: 900000003}
-  markerLayer: {fileID: 900000203}
-  font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
-  arrivalRadius: 30
-  maxHeightDifference: 10
-  maxQuests: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

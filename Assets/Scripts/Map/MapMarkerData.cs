@@ -35,6 +35,7 @@ public class QuestObjective
     public string id;
     public string description;
     public bool optional;
+    public bool thisMap;   // 이 맵에서 하는 목표 (목표의 maps에 이 맵이 있거나, 이 맵에 위치 마커가 있음)
 }
 
 // 이 맵에 위치가 있는 퀘스트의 전체 목표 (위치가 없는 목표 포함: "처치", "아이템 전달" 등)
