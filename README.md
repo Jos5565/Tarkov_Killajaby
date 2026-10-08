@@ -130,8 +130,8 @@ Assets/
 
 | 파일 | 위치 |
 |---|---|
-| 앱 설정 (스크린샷 폴더) | `%USERPROFILE%\AppData\LocalLow\DefaultCompany\TarkovKilaJaby\AppSettings.json` |
-| 맵별 설정 | `%USERPROFILE%\AppData\LocalLow\DefaultCompany\TarkovKilaJaby\MapSettings\{맵}.json` |
+| 앱 설정 (스크린샷 폴더) | `%USERPROFILE%\AppData\LocalLow\Jos\TarkovKilaJaby\AppSettings.json` |
+| 맵별 설정 | `%USERPROFILE%\AppData\LocalLow\Jos\TarkovKilaJaby\MapSettings\{맵}.json` |
 
 ## 알려진 제한
 
