@@ -42,6 +42,10 @@ public class MapMarkerLayer : MonoBehaviour
     public Sprite dotSprite;
     [Tooltip("NameTag 표시 배율 (화면 기준)")]
     public float nameTagScale = 0.5f;
+    [Tooltip("지도 기준 마커 배율. 마커는 지도와 함께 확대/축소된다 (PMC/Scav 화면 폭이 달라도 지도 대비 크기 동일)")]
+    public float markerScale = 2.3f;
+    [Tooltip("켜면 지도를 확대해도 마커가 화면에서 같은 크기로 유지된다 (예전 방식)")]
+    public bool keepScreenSize = false;
     [Tooltip("NameTag 프리팹 안에서 색을 바꿀 아이콘 Image 경로")]
     public string nameTagIconPath = "Icon";
 
@@ -275,11 +279,12 @@ public class MapMarkerLayer : MonoBehaviour
         if (settings != null) settings.Save(SettingsKey);
     }
 
-    // 지도를 확대해도 마커가 화면에서 같은 크기로 보이게 한다 (줌이 바뀔 때만)
+    // 마커 크기: 기본은 지도 기준 고정 배율(지도와 함께 확대/축소).
+    // keepScreenSize면 줌이 바뀔 때마다 역보정해 화면 크기를 유지한다.
     void LateUpdate()
     {
         if (mapView == null) return;
-        float mapScale = mapView.transform.localScale.x;
+        float mapScale = keepScreenSize ? mapView.transform.localScale.x : 1f / markerScale;
         if (Mathf.Approximately(mapScale, lastMapScale)) return;
         lastMapScale = mapScale;
 
