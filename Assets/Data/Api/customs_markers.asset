@@ -1,0 +1,3501 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c2e9a4b1d3f4a6e8b5c0d2f9e1a3b7c, type: 3}
+  m_Name: customs_markers
+  m_EditorClassIdentifier: Assembly-CSharp::MapMarkerData
+  mapNormalizedName: customs
+  gameMode: pve
+  language: ko
+  downloadedAt: 2026-10-08 17:48
+  markers:
+  - type: 8
+    key: 
+    name: Old Gas Station Gate
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 310.71, y: -1.63, z: -174.95}
+  - type: 8
+    key: 
+    name: Railroad to Milbase
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 489.06, y: 3.83, z: 221.39}
+  - type: 0
+    key: 
+    name: Crossroads
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -336.33, y: 2.19, z: -86.39}
+  - type: 8
+    key: 
+    name: Administration Gate
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 664.71, y: 2.88, z: -55.33}
+  - type: 8
+    key: 
+    name: Old Road Gate
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 181.77, y: 1.5, z: 214.01}
+  - type: 0
+    key: 
+    name: RUAF Roadblock
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -10.25, y: 1.92, z: -138.45}
+  - type: 8
+    key: 
+    name: RUAF Roadblock
+    group: 
+    objective: 
+    detail: scav
+    position: {x: -9.44, y: 1.65, z: -138.74}
+  - type: 8
+    key: 
+    name: Sniper Roadblock
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 15.08, y: 0.14, z: 126.29}
+  - type: 8
+    key: 
+    name: Factory Shacks
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 205.59, y: 3.72, z: 3.31}
+  - type: 8
+    key: 
+    name: Warehouse 4
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 341.57, y: 3.55, z: -25.85}
+  - type: 9
+    key: 
+    name: Boiler Room Basement (Co-op)
+    group: 
+    objective: 
+    detail: shared
+    position: {x: 106.97, y: -4.71, z: -43.62}
+  - type: 0
+    key: 
+    name: "Railroad Passage (\uC870\uBA85\uD0C4 \uD0C8\uCD9C\uAD6C)"
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 140.63, y: 3.75, z: -322.83}
+  - type: 8
+    key: 
+    name: Railroad To Military Base
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 489.06, y: 3.95, z: 221.39}
+  - type: 8
+    key: 
+    name: Railroad To Port
+    group: 
+    objective: 
+    detail: scav
+    position: {x: -149.11, y: -0.63, z: 46.68}
+  - type: 8
+    key: 
+    name: Warehouse 17
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 62.26, y: 2.71, z: -174.48}
+  - type: 0
+    key: 
+    name: ZB-1013
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 200.98, y: -1.15, z: -153.09}
+  - type: 0
+    key: 
+    name: ZB-1011
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 621.5, y: -2.07, z: -126.48}
+  - type: 8
+    key: 
+    name: Railroad To Tarkov
+    group: 
+    objective: 
+    detail: scav
+    position: {x: -153.36, y: 2.51, z: -217.71}
+  - type: 8
+    key: 
+    name: Scav checkpoint
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 644.88, y: 2.4, z: 126.87}
+  - type: 0
+    key: 
+    name: Trailer Park
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -316.05, y: -1.72, z: -233.13}
+  - type: 0
+    key: 
+    name: Dorms V-Ex
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 181.08, y: -0.71, z: 213.25}
+  - type: 0
+    key: 
+    name: Old Gas Station
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 310.39, y: -1.63, z: -174.12}
+  - type: 8
+    key: 
+    name: Passage Between Rocks
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 539.39, y: 11.82, z: 200.34}
+  - type: 8
+    key: 
+    name: Factory Far Corner
+    group: 
+    objective: 
+    detail: scav
+    position: {x: 625.57, y: -2.72, z: -127.71}
+  - type: 0
+    key: 
+    name: Smugglers' Boat
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: -41.51, y: -12.63, z: 122.67}
+  - type: 8
+    key: 
+    name: Trailer Park Workers' Shack
+    group: 
+    objective: 
+    detail: scav
+    position: {x: -315.79, y: 2.55, z: -231.76}
+  - type: 0
+    key: 
+    name: Smugglers' Bunker (ZB-1012)
+    group: 
+    objective: 
+    detail: pmc
+    position: {x: 462.47, y: -1.46, z: -112.25}
+  - type: 1
+    key: 
+    name: "\uB9AC\uC800\uBE0C\uB85C \uC774\uB3D9"
+    group: 
+    objective: 
+    detail: 
+    position: {x: 650.64, y: 1.59, z: 124.94}
+  - type: 1
+    key: 
+    name: "\uACF5\uC7A5\uC73C\uB85C \uC774\uB3D9"
+    group: 
+    objective: 
+    detail: 
+    position: {x: 354.31, y: 2.31, z: -190.1}
+  - type: 1
+    key: 
+    name: "\uC778\uD130\uCCB4\uC778\uC9C0\uB85C \uC774\uB3D9"
+    group: 
+    objective: 
+    detail: 
+    position: {x: -334.22, y: 2.11, z: -211.95}
+  - type: 1
+    key: 
+    name: "\uD574\uC548\uC120\uC73C\uB85C \uC774\uB3D9"
+    group: 
+    objective: 
+    detail: 
+    position: {x: 20.94, y: -0.33, z: 139.61}
+  - type: 2
+    key: 
+    name: 0327c5d1-cc7f-432f-92dc-f95fb4719f1b
+    group: 
+    objective: 
+    detail: 
+    position: {x: 571.41, y: 1.49, z: -53.479996}
+  - type: 2
+    key: 
+    name: 06305c94-bdc3-4355-b2df-4b9060f54ed2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 584.06, y: 9.66, z: 146.22}
+  - type: 2
+    key: 
+    name: 0a780428-48e0-4268-9ef8-0a7f999cc632
+    group: 
+    objective: 
+    detail: 
+    position: {x: -220.212, y: 1.0710001, z: -141.936}
+  - type: 3
+    key: 
+    name: ZoneCrossRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: 181.1043, y: -0.1127597, z: 178.05379}
+  - type: 2
+    key: 
+    name: 0bfe7760-902e-4b79-8722-7ce2ad0a970c
+    group: 
+    objective: 
+    detail: 
+    position: {x: 288.068, y: 1.718, z: -201.166}
+  - type: 3
+    key: 
+    name: ZoneCustoms
+    group: 
+    objective: 
+    detail: 
+    position: {x: 286.3263, y: 1.4922403, z: -52.319214}
+  - type: 2
+    key: 
+    name: 0f054aeb-dae4-4de4-8f19-e96baac1def6
+    group: 
+    objective: 
+    detail: 
+    position: {x: 531.88, y: 9.52, z: 195.79001}
+  - type: 2
+    key: 
+    name: 0fd52df3-8419-4644-917f-efd18d99c85a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 546.888, y: 2.208, z: 45.563995}
+  - type: 2
+    key: 
+    name: 105e161c-c1ad-4004-8c02-f3c95164a75e
+    group: 
+    objective: 
+    detail: 
+    position: {x: 574, y: 1.46, z: -114.85}
+  - type: 2
+    key: 
+    name: 11e7dc8d-ee50-4800-a400-a2f2761b6e9f
+    group: 
+    objective: 
+    detail: 
+    position: {x: -195.952, y: 1.458, z: -234.646}
+  - type: 2
+    key: 
+    name: 158ea18b-12e5-4495-8774-0cb185ce83ba
+    group: 
+    objective: 
+    detail: 
+    position: {x: 587.85, y: 8.89, z: 141.94998}
+  - type: 2
+    key: 
+    name: 15a5b4ce-8d57-41b8-8f2b-bcf806a8e803
+    group: 
+    objective: 
+    detail: 
+    position: {x: -223.232, y: 1.118, z: -147.516}
+  - type: 3
+    key: 
+    name: ZoneFactoryCenter
+    group: 
+    objective: 
+    detail: 
+    position: {x: 208.2033, y: 1.7822403, z: -116.860214}
+  - type: 2
+    key: 
+    name: 1a39d596-25e4-4b63-b6da-325aa8409576
+    group: 
+    objective: 
+    detail: 
+    position: {x: 570.06, y: 1.49, z: -54.979996}
+  - type: 3
+    key: 
+    name: ZoneCrossRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: 174.65228, y: -0.12775971, z: 152.70679}
+  - type: 2
+    key: 
+    name: 1b636e5b-ae6d-4df3-93ea-159f5a2437fd
+    group: 
+    objective: 
+    detail: 
+    position: {x: -132.9, y: -1.6699998, z: 39.899994}
+  - type: 2
+    key: 
+    name: 1b9fddbc-f667-4344-98ef-3d198229bd41
+    group: 
+    objective: 
+    detail: 
+    position: {x: -151.782, y: 1.258, z: -129.81601}
+  - type: 2
+    key: 
+    name: 1c26a886-b1f5-490e-8fdd-153d991dc393
+    group: 
+    objective: 
+    detail: 
+    position: {x: 363.248, y: 12.698, z: 155.594}
+  - type: 2
+    key: 
+    name: 1d0f26c8-85e5-42d0-b115-7d8f325f97d4
+    group: 
+    objective: 
+    detail: 
+    position: {x: -130.65, y: -2.11, z: 38.910004}
+  - type: 2
+    key: 
+    name: 1d80614c-e211-42d5-b661-8e2bb1aeae79
+    group: 
+    objective: 
+    detail: 
+    position: {x: 100.59801, y: 1.168, z: -110.826004}
+  - type: 3
+    key: 
+    name: ZoneCustoms
+    group: 
+    objective: 
+    detail: 
+    position: {x: -183.647, y: 1.6017246, z: -190.065}
+  - type: 2
+    key: 
+    name: 1fb2eba7-250e-4fd1-ba2a-75fb3d640ed7
+    group: 
+    objective: 
+    detail: 
+    position: {x: -131.27, y: -2.09, z: 42.690002}
+  - type: 2
+    key: 
+    name: 20495255-3094-4add-8744-14efc6e05308
+    group: 
+    objective: 
+    detail: 
+    position: {x: 525.62, y: 8.88, z: 199}
+  - type: 2
+    key: 
+    name: 2051eb7b-3ae8-49b8-adcb-c13f0ddc7972
+    group: 
+    objective: 
+    detail: 
+    position: {x: 317.338, y: 1.128, z: -78.756}
+  - type: 3
+    key: 
+    name: ZoneFactoryCenter
+    group: 
+    objective: 
+    detail: 
+    position: {x: 195.33629, y: 1.7862403, z: -126.12923}
+  - type: 3
+    key: 
+    name: ZoneWade
+    group: 
+    objective: 
+    detail: 
+    position: {x: 581.8, y: 3.0649996, z: 0.9200001}
+  - type: 2
+    key: 
+    name: 253e504c-4d28-4aa0-926d-14dcbdeebc1c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -309.95, y: 0.99, z: -94.51}
+  - type: 2
+    key: 
+    name: 27aa4110-1b16-4454-b505-35026255b7f9
+    group: 
+    objective: 
+    detail: 
+    position: {x: -147.872, y: 1.678, z: -135.636}
+  - type: 5
+    key: 
+    name: "\uB974\uC0EC\uB77C, Knight, \uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uB974\uC0EC\uB77C 75%, Knight 25%, \uAD11\uC2E0\uB3C4 \uC0AC\uC81C
+      30% (ZoneScavBase)"
+    position: {x: 125.17629, y: 1.3222404, z: -146.1392}
+  - type: 2
+    key: 
+    name: 2b5a6af0-0e2e-4fa1-bbf3-a390276b0b13
+    group: 
+    objective: 
+    detail: 
+    position: {x: -216.552, y: -1.4619999, z: -2.1060028}
+  - type: 2
+    key: 
+    name: 2c286540-f748-4719-9a6d-6bd0e9a3c143
+    group: 
+    objective: 
+    detail: 
+    position: {x: 13.098007, y: 1.1980001, z: -125.62599}
+  - type: 2
+    key: 
+    name: 2c5cc586-9010-4b6c-8a67-fbfacb76a225
+    group: 
+    objective: 
+    detail: 
+    position: {x: 518.3, y: 8.35, z: 187.45999}
+  - type: 2
+    key: 
+    name: 2cb9950d-20ec-484e-919c-5489bb7abd5c
+    group: 
+    objective: 
+    detail: 
+    position: {x: 478, y: 2.7, z: -83.14}
+  - type: 3
+    key: 
+    name: ZoneBlockPost
+    group: 
+    objective: 
+    detail: 
+    position: {x: 568.8878, y: -1.4694223, z: -25.535982}
+  - type: 2
+    key: 
+    name: 3735903c-ebbd-407d-ba27-46129dc360c3
+    group: 
+    objective: 
+    detail: 
+    position: {x: 539.688, y: 2.948, z: 48.003998}
+  - type: 2
+    key: 
+    name: 38a13157-f0cd-48d5-bada-dff42472b410
+    group: 
+    objective: 
+    detail: 
+    position: {x: 569.75, y: 1.49, z: -52.54001}
+  - type: 2
+    key: 
+    name: 38aaf44a-c4a7-49a0-a669-96520c28332d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 582.31, y: 9.79, z: 147.5}
+  - type: 3
+    key: 
+    name: ZoneCustoms
+    group: 
+    objective: 
+    detail: 
+    position: {x: 269.2033, y: 1.5312403, z: -55.63521}
+  - type: 2
+    key: 
+    name: 3b128730-ba41-4ac8-9c08-517655a787dd
+    group: 
+    objective: 
+    detail: 
+    position: {x: 570.45, y: 1.48, z: -111.76}
+  - type: 2
+    key: 
+    name: 3bb03dcc-70b9-455d-ab44-058121da9469
+    group: 
+    objective: 
+    detail: 
+    position: {x: -221.702, y: -0.74199986, z: -3.3560028}
+  - type: 3
+    key: 
+    name: ZoneCustoms
+    group: 
+    objective: 
+    detail: 
+    position: {x: 283.4763, y: 1.5242403, z: -70.01221}
+  - type: 2
+    key: 
+    name: 3ef3c5d0-afaf-44cb-82c5-530c0e6300ab
+    group: 
+    objective: 
+    detail: 
+    position: {x: 385.70996, y: 1.12, z: -116.17}
+  - type: 2
+    key: 
+    name: 413a6ac7-3f9d-4a38-9652-f3c68505dcc0
+    group: 
+    objective: 
+    detail: 
+    position: {x: -154.35199, y: 1.038, z: -128.09601}
+  - type: 2
+    key: 
+    name: 41440b15-7ff8-42fa-893a-5b4b59eaf13b
+    group: 
+    objective: 
+    detail: 
+    position: {x: -313.92, y: 0.94000006, z: -88.66}
+  - type: 2
+    key: 
+    name: 426e619c-f5a9-4529-b10b-4796f82d9f6d
+    group: 
+    objective: 
+    detail: 
+    position: {x: -190.972, y: 1.518, z: -236.686}
+  - type: 2
+    key: 
+    name: 42904c13-d45a-4375-9bd1-67a9da6cdb2e
+    group: 
+    objective: 
+    detail: 
+    position: {x: -218.68199, y: 1.072, z: -148.42801}
+  - type: 2
+    key: 
+    name: 42933fa9-9478-4db3-a97f-7d120afa4ca9
+    group: 
+    objective: 
+    detail: 
+    position: {x: 503.2, y: 1.18, z: -59.83}
+  - type: 2
+    key: 
+    name: 4293a264-a66e-4d7d-8ce7-65cade015117
+    group: 
+    objective: 
+    detail: 
+    position: {x: 585.74, y: 9.53, z: 145.81}
+  - type: 3
+    key: 
+    name: ZoneCrossRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: 219.26, y: -0.5611635, z: 196.37}
+  - type: 2
+    key: 
+    name: 468b8eec-29bd-430f-920b-e32d89e2beda
+    group: 
+    objective: 
+    detail: 
+    position: {x: 548.068, y: 2.838, z: 47.554}
+  - type: 2
+    key: 
+    name: 471799c4-3aed-4c0e-9489-fabc2e76dd06
+    group: 
+    objective: 
+    detail: 
+    position: {x: -14.371994, y: -7.7420006, z: 126.36398}
+  - type: 3
+    key: 
+    name: ZoneOldAZS
+    group: 
+    objective: 
+    detail: 
+    position: {x: 294.9489, y: 2.1000822, z: -160.2394}
+  - type: 4
+    key: 
+    name: ZoneScavBase
+    group: 
+    objective: 
+    detail: 
+    position: {x: 253.80042, y: 51.982998, z: -19.413477}
+  - type: 2
+    key: 
+    name: 4ba3ef50-0c41-4f25-9419-58152197b15b
+    group: 
+    objective: 
+    detail: 
+    position: {x: 315.797, y: 1.128, z: -82.132}
+  - type: 2
+    key: 
+    name: 4c18262a-245d-47ee-99c9-f4d36a095d56
+    group: 
+    objective: 
+    detail: 
+    position: {x: 645.31, y: 1.5, z: 46.22}
+  - type: 2
+    key: 
+    name: 4d2e6d0c-078c-4918-8227-8df098a47a39
+    group: 
+    objective: 
+    detail: 
+    position: {x: 478.86, y: 2.7, z: -79.23001}
+  - type: 2
+    key: 
+    name: 4d676699-1243-452b-b4d7-3353616854fb
+    group: 
+    objective: 
+    detail: 
+    position: {x: 614.44, y: -0.3499999, z: -102.62}
+  - type: 3
+    key: 
+    name: ZoneCustoms
+    group: 
+    objective: 
+    detail: 
+    position: {x: 276.5163, y: 1.5242403, z: -57.063217}
+  - type: 2
+    key: 
+    name: 4fb8d6d8-c158-42f5-b4d2-5e28feb8c675
+    group: 
+    objective: 
+    detail: 
+    position: {x: 503.82996, y: 1.19, z: -55.25}
+  - type: 2
+    key: 
+    name: 51169827-146f-4993-af37-0de3ccec8d45
+    group: 
+    objective: 
+    detail: 
+    position: {x: 291.65802, y: 1.4580001, z: -197.106}
+  - type: 2
+    key: 
+    name: 519599b1-5b4d-4c91-8530-13042c3a3a37
+    group: 
+    objective: 
+    detail: 
+    position: {x: -197.232, y: 1.508, z: -233.506}
+  - type: 2
+    key: 
+    name: 52e74209-8ff4-4121-85ef-a54b5b6689be
+    group: 
+    objective: 
+    detail: 
+    position: {x: 391.58997, y: 1.32, z: -117.73}
+  - type: 2
+    key: 
+    name: 53635fda-547d-4b4c-af82-e9adfd93daf2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -217.642, y: 1.0680001, z: -144.936}
+  - type: 2
+    key: 
+    name: 537c1307-b83a-4c57-8c51-21380f5605a1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 641.47, y: 1.27, z: 43.53}
+  - type: 2
+    key: 
+    name: 54991d80-f85d-49fd-8ae0-f686d6fdf828
+    group: 
+    objective: 
+    detail: 
+    position: {x: -1.9319916, y: -5.042, z: 126.95401}
+  - type: 2
+    key: 
+    name: 5621e44b-9f44-494b-9695-143a88146d43
+    group: 
+    objective: 
+    detail: 
+    position: {x: 294.28802, y: 1.398, z: -195.73601}
+  - type: 3
+    key: 
+    name: ZoneFactorySide
+    group: 
+    objective: 
+    detail: 
+    position: {x: 195.09628, y: 1.4922403, z: -170.1392}
+  - type: 2
+    key: 
+    name: 582b9ea6-4404-4af1-8443-da3db48fcaad
+    group: 
+    objective: 
+    detail: 
+    position: {x: 480.55, y: 2.7, z: -81.46}
+  - type: 2
+    key: 
+    name: 58a91424-a24c-44e1-9f8a-c5cc6c66489f
+    group: 
+    objective: 
+    detail: 
+    position: {x: 314.128, y: 1.2080001, z: -90.726006}
+  - type: 2
+    key: 
+    name: 5a551a12-ca0e-41af-9845-270ffce6808a
+    group: 
+    objective: 
+    detail: 
+    position: {x: 620.14, y: -0.3499999, z: -96.98}
+  - type: 2
+    key: 
+    name: 61e3a2a4-55af-4b66-bf4f-302f9cdac5b2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 348.438, y: 8.858, z: 152.824}
+  - type: 2
+    key: 
+    name: 62a46181-d31d-4abb-855d-3e24886e171b
+    group: 
+    objective: 
+    detail: 
+    position: {x: -323.862, y: 1.16, z: -225.59601}
+  - type: 3
+    key: 
+    name: ZoneCrossRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: 171.88928, y: 2.8330002, z: 172.20879}
+  - type: 3
+    key: 
+    name: ZoneWade
+    group: 
+    objective: 
+    detail: 
+    position: {x: 580, y: -0.59401417, z: 33.12}
+  - type: 3
+    key: 
+    name: ZoneCustoms
+    group: 
+    objective: 
+    detail: 
+    position: {x: 267.5843, y: 1.471, z: -75.20322}
+  - type: 3
+    key: 
+    name: ZoneFactorySide
+    group: 
+    objective: 
+    detail: 
+    position: {x: 654.80396, y: 1.1198153, z: -164.4396}
+  - type: 2
+    key: 
+    name: 66ab21e5-21b1-42aa-bb0a-e7525f793536
+    group: 
+    objective: 
+    detail: 
+    position: {x: 569.89, y: 1.49, z: -50.449997}
+  - type: 2
+    key: 
+    name: 6889bd40-9338-4297-8c15-0f1af8f4f74f
+    group: 
+    objective: 
+    detail: 
+    position: {x: 15.958008, y: 1.3080001, z: -126.866005}
+  - type: 2
+    key: 
+    name: 6d8626ec-449b-4d63-a066-38e802756ec9
+    group: 
+    objective: 
+    detail: 
+    position: {x: 480.24, y: 2.7, z: -84.47}
+  - type: 2
+    key: 
+    name: 6df008d3-3928-4213-b05b-8285bd15e7c2
+    group: 
+    objective: 
+    detail: 
+    position: {x: 377.708, y: 1.418, z: -93.356}
+  - type: 3
+    key: 
+    name: ZoneOldAZS
+    group: 
+    objective: 
+    detail: 
+    position: {x: 476.11853, y: 14.750012, z: -71.85715}
+  - type: 2
+    key: 
+    name: 6fbb2585-70d7-4f2f-9242-11f88d8dc2f3
+    group: 
+    objective: 
+    detail: 
+    position: {x: 647.48, y: 1.88, z: 48.369995}
+  - type: 2
+    key: 
+    name: 75b634c6-60a6-4846-8d15-c8e79cab0c78
+    group: 
+    objective: 
+    detail: 
+    position: {x: -134.19, y: -1.3700001, z: 38.11}
+  - type: 3
+    key: 
+    name: ZoneOldAZS
+    group: 
+    objective: 
+    detail: 
+    position: {x: 356.54138, y: 1.1500976, z: -24.188492}
+  - type: 2
+    key: 
+    name: 7994d5ba-6c84-44fc-a66e-a16a169fbaed
+    group: 
+    objective: 
+    detail: 
+    position: {x: -206.282, y: -1.2819998, z: 2.2440033}
+  - type: 2
+    key: 
+    name: 7afa635c-296e-42be-8a76-26be3f736827
+    group: 
+    objective: 
+    detail: 
+    position: {x: 375.088, y: 1.418, z: -88.796005}
+  - type: 2
+    key: 
+    name: 7bf576fa-4a6f-48dc-90a8-8ddd3029816f
+    group: 
+    objective: 
+    detail: 
+    position: {x: 519.84, y: 7.7699995, z: 204.15}
+  - type: 2
+    key: 
+    name: 7c349cb6-2e80-4166-919d-63ae486f618c
+    group: 
+    objective: 
+    detail: 
+    position: {x: 98.088, y: 1.138, z: -107.216}
+  - type: 2
+    key: 
+    name: 7d47b29d-9758-4925-a614-3e70ed1374f4
+    group: 
+    objective: 
+    detail: 
+    position: {x: -148.302, y: 1.608, z: -143.646}
+  - type: 3
+    key: 
+    name: ZoneCustoms
+    group: 
+    objective: 
+    detail: 
+    position: {x: -170.24002, y: 1.063748, z: -46.462997}
+  - type: 5
+    key: 
+    name: "\uB974\uC0EC\uB77C, Knight, \uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uB974\uC0EC\uB77C 75%, Knight 25%, \uAD11\uC2E0\uB3C4 \uC0AC\uC81C
+      30% (ZoneScavBase)"
+    position: {x: 103.16629, y: 1.2122403, z: -114.61922}
+  - type: 2
+    key: 
+    name: 81fa9972-7d9f-4ad9-9f86-6db8656e211c
+    group: 
+    objective: 
+    detail: 
+    position: {x: 544.698, y: 2.898, z: 48.063995}
+  - type: 3
+    key: 
+    name: ZoneCrossRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: 185.44328, y: 2.8362403, z: 182.80179}
+  - type: 2
+    key: 
+    name: 85efb186-180f-4fdc-9d1b-abf4b1b07696
+    group: 
+    objective: 
+    detail: 
+    position: {x: 394.92798, y: 1.418, z: -84.026}
+  - type: 2
+    key: 
+    name: 8878252a-9516-4f33-a54d-56f9705098b6
+    group: 
+    objective: 
+    detail: 
+    position: {x: 617.51, y: -0.3499999, z: -103.12}
+  - type: 2
+    key: 
+    name: 8998cdf3-aa44-40e9-b34e-df32f1bf4540
+    group: 
+    objective: 
+    detail: 
+    position: {x: 642.1, y: 1.43, z: 45.54001}
+  - type: 2
+    key: 
+    name: 89fe6e6f-7ebc-458e-8297-621824d1d6ac
+    group: 
+    objective: 
+    detail: 
+    position: {x: 568.08, y: 1.48, z: -111.66}
+  - type: 2
+    key: 
+    name: 8bae21f5-6d20-4368-a820-0a05730f81ad
+    group: 
+    objective: 
+    detail: 
+    position: {x: 569.03, y: 1.48, z: -117.38}
+  - type: 2
+    key: 
+    name: 8cb5b38c-2355-4093-8b47-f99c6673a566
+    group: 
+    objective: 
+    detail: 
+    position: {x: 355.818, y: 10.018, z: 152.064}
+  - type: 2
+    key: 
+    name: 8d6e133a-e996-431b-a120-efa9a96f69e7
+    group: 
+    objective: 
+    detail: 
+    position: {x: -151.962, y: 1.288, z: -137.946}
+  - type: 2
+    key: 
+    name: 8e31a0d6-0d23-4e79-bf7d-089bf232f4ac
+    group: 
+    objective: 
+    detail: 
+    position: {x: 378.97797, y: 1.22, z: -116.846}
+  - type: 2
+    key: 
+    name: 8e59cd3f-750b-4d00-841a-9ebfc41a1ac1
+    group: 
+    objective: 
+    detail: 
+    position: {x: 8.678009, y: 1.258, z: -127.796005}
+  - type: 3
+    key: 
+    name: ZoneOldAZS
+    group: 
+    objective: 
+    detail: 
+    position: {x: 291.5036, y: 2.3539963, z: -169.44952}
+  - type: 2
+    key: 
+    name: 92eddb79-cfd5-491d-85ed-23769ee28f95
+    group: 
+    objective: 
+    detail: 
+    position: {x: 368.438, y: 1.418, z: -90.076004}
+  - type: 2
+    key: 
+    name: 95259830-27ef-4056-8bee-cfbba562dedc
+    group: 
+    objective: 
+    detail: 
+    position: {x: -309.94, y: 1, z: -96.98}
+  - type: 3
+    key: 
+    name: ZoneCrossRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: 172.60529, y: 2.8432403, z: 157.33778}
+  - type: 2
+    key: 
+    name: 967f3d09-de07-4f11-b68f-2f42ba684f51
+    group: 
+    objective: 
+    detail: 
+    position: {x: -14.701996, y: -7.7420006, z: 121.60397}
+  - type: 4
+    key: 
+    name: ZoneSnipeBrige
+    group: 
+    objective: 
+    detail: 
+    position: {x: 107.138275, y: 16.215782, z: -47.88827}
+  - type: 2
+    key: 
+    name: 989f1148-f609-4191-8a09-de4d40b117e4
+    group: 
+    objective: 
+    detail: 
+    position: {x: 571.17, y: 1.49, z: -51.70999}
+  - type: 2
+    key: 
+    name: 9a904fab-076c-4fc5-89e3-d6983cba8d89
+    group: 
+    objective: 
+    detail: 
+    position: {x: 90.12901, y: 1.357, z: -102.023}
+  - type: 2
+    key: 
+    name: 9b6a8b4a-f315-4dc2-b294-49094c0c0490
+    group: 
+    objective: 
+    detail: 
+    position: {x: 388.41998, y: 1.12, z: -114.33}
+  - type: 2
+    key: 
+    name: 9d396201-600c-4920-a915-3e5d0aff2280
+    group: 
+    objective: 
+    detail: 
+    position: {x: 545.018, y: 3.238, z: 50.95401}
+  - type: 2
+    key: 
+    name: 9d4a13b3-bad7-41ee-9d4e-d83149736816
+    group: 
+    objective: 
+    detail: 
+    position: {x: 388.888, y: 1.418, z: -97.196}
+  - type: 2
+    key: 
+    name: a092494e-01bf-496f-b789-8e9790639784
+    group: 
+    objective: 
+    detail: 
+    position: {x: 502.34998, y: 1.18, z: -64.42999}
+  - type: 3
+    key: 
+    name: ZoneCrossRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: 178.5893, y: -0.1337597, z: 181.28279}
+  - type: 2
+    key: 
+    name: a1e820f6-34ae-474c-818f-aa67c35266aa
+    group: 
+    objective: 
+    detail: 
+    position: {x: -194.30199, y: 1.558, z: -232.946}
+  - type: 2
+    key: 
+    name: a44d5d64-8570-48b7-b696-52db3db8ac13
+    group: 
+    objective: 
+    detail: 
+    position: {x: 648.75, y: 1.81, z: 50.160004}
+  - type: 2
+    key: 
+    name: a64e8bd1-42f5-4c0d-b132-ddc01cd46d33
+    group: 
+    objective: 
+    detail: 
+    position: {x: -189.07199, y: 1.538, z: -235.216}
+  - type: 2
+    key: 
+    name: a8dafd79-4811-4598-9061-7062654a1200
+    group: 
+    objective: 
+    detail: 
+    position: {x: 96.618, y: 1.268, z: -106.206}
+  - type: 2
+    key: 
+    name: a97b15dc-9f2b-4de6-ae02-ec4417bef821
+    group: 
+    objective: 
+    detail: 
+    position: {x: 394.91998, y: 2.18, z: -120.68}
+  - type: 3
+    key: 
+    name: ZoneFactorySide
+    group: 
+    objective: 
+    detail: 
+    position: {x: 587.9925, y: 1.0999551, z: -64.35727}
+  - type: 3
+    key: 
+    name: ZoneFactorySide
+    group: 
+    objective: 
+    detail: 
+    position: {x: 658.0241, y: 1.1298354, z: -59.183426}
+  - type: 2
+    key: 
+    name: b1a57f2f-89ab-49ae-81ab-3d4e5f6e9f1c
+    group: 
+    objective: 
+    detail: 
+    position: {x: -217.362, y: 1.19, z: -136.95601}
+  - type: 5
+    key: 
+    name: "\uB974\uC0EC\uB77C, Knight, \uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uB974\uC0EC\uB77C 75%, Knight 25%, \uAD11\uC2E0\uB3C4 \uC0AC\uC81C
+      30% (ZoneScavBase)"
+    position: {x: 105.84629, y: 1.2122403, z: -114.139206}
+  - type: 2
+    key: 
+    name: b523d044-6957-4cd1-b039-b653cd4acbe4
+    group: 
+    objective: 
+    detail: 
+    position: {x: -320.612, y: 0.94000006, z: -223.796}
+  - type: 2
+    key: 
+    name: b54ce786-74b8-41b1-889f-0fe62c36d8e0
+    group: 
+    objective: 
+    detail: 
+    position: {x: 481.06, y: 2.7, z: -79.22}
+  - type: 2
+    key: 
+    name: b5552110-2313-4285-9a06-769077e3c16b
+    group: 
+    objective: 
+    detail: 
+    position: {x: -132.87, y: -1.8100002, z: 43.979996}
+  - type: 2
+    key: 
+    name: b623ab89-4538-4afa-b6a6-49e9aad4324a
+    group: 
+    objective: 
+    detail: 
+    position: {x: -21.261993, y: -8.542, z: 115.303986}
+  - type: 2
+    key: 
+    name: b736a3e7-270e-4797-92d0-6c3a7927f008
+    group: 
+    objective: 
+    detail: 
+    position: {x: 18.778, y: 1.358, z: -127.086}
+  - type: 2
+    key: 
+    name: bb1128eb-b548-48b8-a785-c18ef08d7c37
+    group: 
+    objective: 
+    detail: 
+    position: {x: 571.59, y: 11.37, z: 145.26999}
+  - type: 5
+    key: 
+    name: "\uB974\uC0EC\uB77C, Knight, \uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uB974\uC0EC\uB77C 75%, Knight 25%, \uAD11\uC2E0\uB3C4 \uC0AC\uC81C
+      30% (ZoneScavBase)"
+    position: {x: 77.77829, y: 1.4322402, z: -108.103226}
+  - type: 2
+    key: 
+    name: c11f719c-3491-4a60-901e-cf20832b432e
+    group: 
+    objective: 
+    detail: 
+    position: {x: 617.72, y: -0.3499999, z: -96.86}
+  - type: 2
+    key: 
+    name: c21695bd-f460-4e72-8138-54d7aa92b965
+    group: 
+    objective: 
+    detail: 
+    position: {x: 522.43, y: 10.14, z: 179.68}
+  - type: 2
+    key: 
+    name: c26390c5-80e1-428e-a11f-5d34d33fcc69
+    group: 
+    objective: 
+    detail: 
+    position: {x: -323.872, y: 1.13, z: -222.056}
+  - type: 2
+    key: 
+    name: c351748e-915b-4be3-ae56-2bb13470f278
+    group: 
+    objective: 
+    detail: 
+    position: {x: 296.55798, y: 1.868, z: -200.606}
+  - type: 2
+    key: 
+    name: c70da15f-6bc8-4dda-b666-e4163754bcd5
+    group: 
+    objective: 
+    detail: 
+    position: {x: 576.38, y: 1.48, z: -115.35}
+  - type: 2
+    key: 
+    name: c838176a-28e6-4871-89a2-827ec044b3f4
+    group: 
+    objective: 
+    detail: 
+    position: {x: -321.022, y: 0.95000005, z: -220.86601}
+  - type: 2
+    key: 
+    name: c98a753b-d534-4fa4-9430-478b7d8bf27d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 502.7, y: 1.18, z: -62.119995}
+  - type: 2
+    key: 
+    name: cd52aa33-141e-4f89-9120-2dd899fd23f2
+    group: 
+    objective: 
+    detail: 
+    position: {x: -209.142, y: -1.4319999, z: 0.69400024}
+  - type: 2
+    key: 
+    name: ce469ace-55c1-4381-b3a1-6458f1bea611
+    group: 
+    objective: 
+    detail: 
+    position: {x: 503.40997, y: 1.18, z: -57.559998}
+  - type: 2
+    key: 
+    name: cfb2039d-a575-4246-9903-bd20336478de
+    group: 
+    objective: 
+    detail: 
+    position: {x: 315.768, y: 1.128, z: -79.116}
+  - type: 2
+    key: 
+    name: d12962b9-c23f-47c4-96fa-afe2b1ef30be
+    group: 
+    objective: 
+    detail: 
+    position: {x: -19.772003, y: -8.492001, z: 113.283966}
+  - type: 3
+    key: 
+    name: ZoneCustoms
+    group: 
+    objective: 
+    detail: 
+    position: {x: -160.84001, y: 3.1217644, z: -101.729996}
+  - type: 3
+    key: 
+    name: ZoneOldAZS
+    group: 
+    objective: 
+    detail: 
+    position: {x: 339.32144, y: 1.189998, z: -190.77199}
+  - type: 3
+    key: 
+    name: ZoneOldAZS
+    group: 
+    objective: 
+    detail: 
+    position: {x: 313.80228, y: 1.1641818, z: -191.56816}
+  - type: 2
+    key: 
+    name: d591be31-c6f9-444d-9b7e-15faf5825066
+    group: 
+    objective: 
+    detail: 
+    position: {x: 288.998, y: 1.388, z: -196.146}
+  - type: 2
+    key: 
+    name: d7bae537-f5a0-416d-9849-d939cc3575f4
+    group: 
+    objective: 
+    detail: 
+    position: {x: 615.61, y: -0.3499999, z: -96.83}
+  - type: 3
+    key: 
+    name: ZoneCrossRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: 122.02629, y: 0.2622403, z: 129.29079}
+  - type: 2
+    key: 
+    name: dbab2e51-b5f5-4bd8-9324-9f3fd4cc977f
+    group: 
+    objective: 
+    detail: 
+    position: {x: 365.458, y: 11.478, z: 149.264}
+  - type: 2
+    key: 
+    name: dd81d0d1-c0de-48c2-afed-49522f652d00
+    group: 
+    objective: 
+    detail: 
+    position: {x: -306.09, y: 1.01, z: -89.42}
+  - type: 3
+    key: 
+    name: ZoneFactorySide
+    group: 
+    objective: 
+    detail: 
+    position: {x: 663.25244, y: 1.2178165, z: -99.46105}
+  - type: 5
+    key: 
+    name: "\uB974\uC0EC\uB77C, Knight, \uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+    group: 
+    objective: 
+    detail: "\uB974\uC0EC\uB77C 75%, Knight 25%, \uAD11\uC2E0\uB3C4 \uC0AC\uC81C
+      30% (ZoneScavBase)"
+    position: {x: 41.746292, y: 1.2342403, z: -143.6092}
+  - type: 3
+    key: 
+    name: ZoneOldAZS
+    group: 
+    objective: 
+    detail: 
+    position: {x: 310.72284, y: 1.3319902, z: -157.0032}
+  - type: 3
+    key: 
+    name: ZoneFactorySide
+    group: 
+    objective: 
+    detail: 
+    position: {x: 537.49146, y: 1.0800261, z: -130.86816}
+  - type: 2
+    key: 
+    name: e765e08d-9ea3-46f0-ad0b-774d78da5478
+    group: 
+    objective: 
+    detail: 
+    position: {x: 91.29799, y: 1.218, z: -104.936005}
+  - type: 2
+    key: 
+    name: e8dcecc5-1fda-4553-bffb-7efbd681c11d
+    group: 
+    objective: 
+    detail: 
+    position: {x: 20.428009, y: 1.218, z: -124.846}
+  - type: 2
+    key: 
+    name: f02af868-e415-4779-bbf6-a1eabeee7ae3
+    group: 
+    objective: 
+    detail: 
+    position: {x: -214.582, y: -1.2319999, z: -0.3959961}
+  - type: 2
+    key: 
+    name: f2755660-ab11-4982-a774-26119ce5241e
+    group: 
+    objective: 
+    detail: 
+    position: {x: 359.958, y: 11.478, z: 154.314}
+  - type: 3
+    key: 
+    name: ZoneCrossRoad
+    group: 
+    objective: 
+    detail: 
+    position: {x: 226.41, y: -0.86117595, z: 121.28}
+  - type: 2
+    key: 
+    name: f87de9ef-e4f7-4cf4-b241-85cc17724acd
+    group: 
+    objective: 
+    detail: 
+    position: {x: -303.39, y: 1.01, z: -89.49}
+  - type: 2
+    key: 
+    name: f8fa00b6-4941-4c21-b10b-77ff30b0c382
+    group: 
+    objective: 
+    detail: 
+    position: {x: 314.86798, y: 1.158, z: -93.116005}
+  - type: 2
+    key: 
+    name: fd246e19-a658-4f37-ad29-43b37ca413a1
+    group: 
+    objective: 
+    detail: 
+    position: {x: -320.57202, y: 0.94000006, z: -227.806}
+  - type: 6
+    key: 5b4795fb86f7745876267770
+    name: Chumming
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5b4796c086f7745877352c2c
+    detail: "\uC138\uAD00(Customs) \uAE30\uC219\uC0AC 3\uCE35\uC5D0 \uC788\uB294
+      \uC804\uC790\uB808\uC778\uC9C0 \uC548\uC5D0 [\uAE08\uBAA9\uAC78\uC774] 3\uAC1C
+      \uB193\uAE30"
+    position: {x: 170.79, y: 6.88, z: 172}
+  - type: 6
+    key: 66b38e144f2ab7cc530c3fe7
+    name: Every Hunter Knows This
+    group: "\uC608\uAC70"
+    objective: 66b38e144f2ab7cc530c3fea
+    detail: "\uC138\uAD00 3\uCE35 \uAE30\uC219\uC0AC \uACC4\uB2E8\uC5D0\uC11C \uD2B8\uB9BD\uC640\uC774\uC5B4\uB97C
+      \uC124\uCE58\uD558\uAE30 \uC88B\uC740 \uC7A5\uC18C \uCC3E\uAE30"
+    position: {x: 171.76, y: 1, z: 160.04}
+  - type: 6
+    key: 597a0f5686f774273b74f676
+    name: Chemical - Part 4
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5a3fbc9586f77459d52a16c4
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744 \uC2E3\uACE0
+      \uC788\uB294 \uCC28\uB7C9 \uCC3E\uAE30"
+    position: {x: 480.77, y: 3.29, z: -76.69}
+  - type: 6
+    key: 597a0f5686f774273b74f676
+    name: Chemical - Part 4
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5a3fbc9586f77459d52a16c4
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744 \uC2E3\uACE0
+      \uC788\uB294 \uCC28\uB7C9 \uCC3E\uAE30"
+    position: {x: 480.77, y: 3.29, z: -76.69}
+  - type: 6
+    key: 597a0f5686f774273b74f676
+    name: Chemical - Part 4
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 59b242ea86f7741e6e0e7a86
+    detail: "\uD654\uD559\uBB3C\uC9C8 \uC218\uC1A1 \uCC28\uB7C9\uC5D0 MS2000 \uB9C8\uCEE4
+      \uC124\uCE58\uD558\uAE30"
+    position: {x: 480.77, y: 3.29, z: -76.69}
+  - type: 6
+    key: 597a0f5686f774273b74f676
+    name: Chemical - Part 4
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 59b242ea86f7741e6e0e7a86
+    detail: "\uD654\uD559\uBB3C\uC9C8 \uC218\uC1A1 \uCC28\uB7C9\uC5D0 MS2000 \uB9C8\uCEE4
+      \uC124\uCE58\uD558\uAE30"
+    position: {x: 480.77, y: 3.29, z: -76.69}
+  - type: 6
+    key: 597a160786f77477531d39d2
+    name: Out of Curiosity
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 5a3fc1f286f7744ccc15d643
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744 \uC2E3\uACE0
+      \uC788\uB294 \uCC28\uB7C9 \uCC3E\uAE30"
+    position: {x: 480.77, y: 3.29, z: -76.69}
+  - type: 6
+    key: 597a160786f77477531d39d2
+    name: Out of Curiosity
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 5a3fc1f286f7744ccc15d643
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744 \uC2E3\uACE0
+      \uC788\uB294 \uCC28\uB7C9 \uCC3E\uAE30"
+    position: {x: 480.77, y: 3.29, z: -76.69}
+  - type: 6
+    key: 597a160786f77477531d39d2
+    name: Out of Curiosity
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 5998366886f77455853b2d9f
+    detail: "\uCC28\uB7C9\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+    position: {x: 480.77, y: 3.29, z: -76.69}
+  - type: 6
+    key: 597a160786f77477531d39d2
+    name: Out of Curiosity
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 5998366886f77455853b2d9f
+    detail: "\uCC28\uB7C9\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+    position: {x: 480.77, y: 3.29, z: -76.69}
+  - type: 6
+    key: 597a171586f77405ba6887d3
+    name: Big Customer
+    group: "\uD504\uB77C\uD37C"
+    objective: 5a3fbec386f77413bd5fc20a
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744 \uC2E3\uACE0
+      \uC788\uB294 \uCC28\uB7C9 \uCC3E\uAE30"
+    position: {x: 480.77, y: 3.29, z: -76.69}
+  - type: 6
+    key: 597a171586f77405ba6887d3
+    name: Big Customer
+    group: "\uD504\uB77C\uD37C"
+    objective: 5a3fbec386f77413bd5fc20a
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744 \uC2E3\uACE0
+      \uC788\uB294 \uCC28\uB7C9 \uCC3E\uAE30"
+    position: {x: 480.77, y: 3.29, z: -76.69}
+  - type: 6
+    key: 597a171586f77405ba6887d3
+    name: Big Customer
+    group: "\uD504\uB77C\uD37C"
+    objective: 5998360886f77456936817f3
+    detail: "\uD654\uD559\uBB3C\uC9C8 \uC218\uC1A1 \uCC28\uB7C9\uC5D0 MS2000 \uB9C8\uCEE4
+      \uC124\uCE58\uD558\uAE30"
+    position: {x: 480.77, y: 3.29, z: -76.69}
+  - type: 6
+    key: 597a171586f77405ba6887d3
+    name: Big Customer
+    group: "\uD504\uB77C\uD37C"
+    objective: 5998360886f77456936817f3
+    detail: "\uD654\uD559\uBB3C\uC9C8 \uC218\uC1A1 \uCC28\uB7C9\uC5D0 MS2000 \uB9C8\uCEE4
+      \uC124\uCE58\uD558\uAE30"
+    position: {x: 480.77, y: 3.29, z: -76.69}
+  - type: 6
+    key: 665eec4a4dfc83b0ed0a9dca
+    name: Thirsty - Delivery
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6661a18a12e8457716d59f5d
+    detail: "\uC138\uAD00\uC5D0\uC11C \uC9C0\uC815\uB41C \uC740\uB2C9 \uC7A5\uC18C
+      \uCC3E\uAE30"
+    position: {x: 11.71, y: -0.72, z: 35.59}
+  - type: 6
+    key: 665eec4a4dfc83b0ed0a9dca
+    name: Thirsty - Delivery
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6661a18a12e8457716d59f5d
+    detail: "\uC138\uAD00\uC5D0\uC11C \uC9C0\uC815\uB41C \uC740\uB2C9 \uC7A5\uC18C
+      \uCC3E\uAE30"
+    position: {x: 11.71, y: -0.72, z: 35.59}
+  - type: 6
+    key: 665eec4a4dfc83b0ed0a9dca
+    name: Thirsty - Delivery
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6661a1a1b1953d6c96da8f0e
+    detail: "\uB450 \uBC88\uC9F8 \uD504\uB85C\uD310 \uD0F1\uD06C(5L) \uC228\uAE30\uAE30"
+    position: {x: 11.71, y: -0.72, z: 35.59}
+  - type: 6
+    key: 665eec4a4dfc83b0ed0a9dca
+    name: Thirsty - Delivery
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6661a1a1b1953d6c96da8f0e
+    detail: "\uB450 \uBC88\uC9F8 \uD504\uB85C\uD310 \uD0F1\uD06C(5L) \uC228\uAE30\uAE30"
+    position: {x: 11.71, y: -0.72, z: 35.59}
+  - type: 6
+    key: 6834145ebc1f443d7603c8a7
+    name: 'Easy Money - Part 1 [PVE ZONE]'
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6834145ebc1f443d7603c8ab
+    detail: "\uC138\uAD00(Customs)\uC758 \uC2A4\uCE90\uBE0C \uC694\uC0C8 \uB0B4 \uAC70\uC2E4\uC5D0
+      \uBC14\uC774\uC2A8 vs \uC5B8\uB354\uD14C\uC774\uCEE4 \uD3EC\uC2A4\uD130 \uBD80\uCC29\uD558\uAE30"
+    position: {x: 203.19, y: 1.98, z: -116.58}
+  - type: 6
+    key: 6834145ebc1f443d7603c8a7
+    name: 'Easy Money - Part 1 [PVE ZONE]'
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6834145ebc1f443d7603c8ab
+    detail: "\uC138\uAD00(Customs)\uC758 \uC2A4\uCE90\uBE0C \uC694\uC0C8 \uB0B4 \uAC70\uC2E4\uC5D0
+      \uBC14\uC774\uC2A8 vs \uC5B8\uB354\uD14C\uC774\uCEE4 \uD3EC\uC2A4\uD130 \uBD80\uCC29\uD558\uAE30"
+    position: {x: 206.75, y: 2.05, z: -120.2}
+  - type: 6
+    key: 6834145ebc1f443d7603c8a7
+    name: 'Easy Money - Part 1 [PVE ZONE]'
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6834145ebc1f443d7603c8ab
+    detail: "\uC138\uAD00(Customs)\uC758 \uC2A4\uCE90\uBE0C \uC694\uC0C8 \uB0B4 \uAC70\uC2E4\uC5D0
+      \uBC14\uC774\uC2A8 vs \uC5B8\uB354\uD14C\uC774\uCEE4 \uD3EC\uC2A4\uD130 \uBD80\uCC29\uD558\uAE30"
+    position: {x: 192.34, y: 2.17, z: -103.75}
+  - type: 6
+    key: 6834145ebc1f443d7603c8a7
+    name: 'Easy Money - Part 1 [PVE ZONE]'
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6834145ebc1f443d7603c8ab
+    detail: "\uC138\uAD00(Customs)\uC758 \uC2A4\uCE90\uBE0C \uC694\uC0C8 \uB0B4 \uAC70\uC2E4\uC5D0
+      \uBC14\uC774\uC2A8 vs \uC5B8\uB354\uD14C\uC774\uCEE4 \uD3EC\uC2A4\uD130 \uBD80\uCC29\uD558\uAE30"
+    position: {x: 187.22, y: 2.17, z: -101.97}
+  - type: 6
+    key: 6834145ebc1f443d7603c8a7
+    name: 'Easy Money - Part 1 [PVE ZONE]'
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6834145ebc1f443d7603c8ab
+    detail: "\uC138\uAD00(Customs)\uC758 \uC2A4\uCE90\uBE0C \uC694\uC0C8 \uB0B4 \uAC70\uC2E4\uC5D0
+      \uBC14\uC774\uC2A8 vs \uC5B8\uB354\uD14C\uC774\uCEE4 \uD3EC\uC2A4\uD130 \uBD80\uCC29\uD558\uAE30"
+    position: {x: 206.88, y: 1.98, z: -124.64}
+  - type: 7
+    key: 6834254f2f0e2a7eb90b62ef
+    name: 'Decisions, Decisions [PVE ZONE]'
+    group: "\uB808\uD504"
+    objective: 6834254f2f0e2a7eb90b62f1
+    detail: "\uB808\uD504\uC758 \uC57D\uC810 \uC790\uB8CC"
+    position: {x: 183.09608, y: 2.8125, z: 164.0104}
+  - type: 6
+    key: 683425dd8f5b18d29a05d9d1
+    name: 'Between Two Fires [PVE ZONE]'
+    group: "\uD39C\uC2A4"
+    objective: 683425dd8f5b18d29a05d9d4
+    detail: "\uC138\uAD00\uC5D0 \uC788\uB294 \uC61B \uCC54\uD53C\uC5B8\uC758 \uC740\uC2E0\uCC98\uB85C
+      \uB3CC\uC544\uAC00\uAE30"
+    position: {x: 179.94, y: 3.98, z: 164.8}
+  - type: 6
+    key: 683425dd8f5b18d29a05d9d1
+    name: 'Between Two Fires [PVE ZONE]'
+    group: "\uD39C\uC2A4"
+    objective: 683425dd8f5b18d29a05d9d4
+    detail: "\uC138\uAD00\uC5D0 \uC788\uB294 \uC61B \uCC54\uD53C\uC5B8\uC758 \uC740\uC2E0\uCC98\uB85C
+      \uB3CC\uC544\uAC00\uAE30"
+    position: {x: 179.94, y: 3.98, z: 164.8}
+  - type: 7
+    key: 683425dd8f5b18d29a05d9d1
+    name: 'Between Two Fires [PVE ZONE]'
+    group: "\uD39C\uC2A4"
+    objective: 683425dd8f5b18d29a05d9d6
+    detail: "\uB808\uD504\uC758 \uC57D\uC810 \uC790\uB8CC"
+    position: {x: 183.09608, y: 2.8125, z: 164.0104}
+  - type: 6
+    key: 6834233fecd5cf3a440d855b
+    name: 'Against the Conscience - Part 1 [PVE ZONE]'
+    group: "\uD39C\uC2A4"
+    objective: 6834233fecd5cf3a440d855f
+    detail: "\uC138\uAD00\uC5D0\uC11C \uC61B \uCC54\uD53C\uC5B8\uC758 \uBC29 \uCC3E\uAE30"
+    position: {x: 179.94, y: 3.98, z: 164.8}
+  - type: 6
+    key: 6834233fecd5cf3a440d855b
+    name: 'Against the Conscience - Part 1 [PVE ZONE]'
+    group: "\uD39C\uC2A4"
+    objective: 6834233fecd5cf3a440d855f
+    detail: "\uC138\uAD00\uC5D0\uC11C \uC61B \uCC54\uD53C\uC5B8\uC758 \uBC29 \uCC3E\uAE30"
+    position: {x: 179.94, y: 3.98, z: 164.8}
+  - type: 6
+    key: 6834233fecd5cf3a440d855b
+    name: 'Against the Conscience - Part 1 [PVE ZONE]'
+    group: "\uD39C\uC2A4"
+    objective: 6834233fecd5cf3a440d8561
+    detail: "\uCC54\uD53C\uC5B8\uC5D0\uAC8C \uBB34\uC2A8 \uC77C\uC774 \uC788\uC5C8\uB294\uC9C0
+      \uC54C\uC544\uB0B4\uAE30"
+    position: {x: 182.77, y: 3.41, z: 163.85}
+  - type: 6
+    key: 6834233fecd5cf3a440d855b
+    name: 'Against the Conscience - Part 1 [PVE ZONE]'
+    group: "\uD39C\uC2A4"
+    objective: 6834233fecd5cf3a440d8561
+    detail: "\uCC54\uD53C\uC5B8\uC5D0\uAC8C \uBB34\uC2A8 \uC77C\uC774 \uC788\uC5C8\uB294\uC9C0
+      \uC54C\uC544\uB0B4\uAE30"
+    position: {x: 182.77, y: 3.41, z: 163.85}
+  - type: 6
+    key: 675c085d59b0575973005f52
+    name: Break the Deal
+    group: "\uB798\uADF8\uB9E8"
+    objective: 675c14f54662a2fae349dbb9
+    detail: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 DVL-10 \uC800\uACA9\uC18C\uCD1D
+      \uC228\uAE30\uAE30"
+    position: {x: 248.55, y: 12.71, z: -36.53}
+  - type: 6
+    key: 675c085d59b0575973005f52
+    name: Break the Deal
+    group: "\uB798\uADF8\uB9E8"
+    objective: 675c152299549b5b62094f06
+    detail: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 DVL-10 \uD0C4\uCC3D
+      \uC228\uAE30\uAE30"
+    position: {x: 251.24, y: 9.36, z: -20.99}
+  - type: 6
+    key: 675c085d59b0575973005f52
+    name: Break the Deal
+    group: "\uB798\uADF8\uB9E8"
+    objective: 675c153ae96d38136d02f670
+    detail: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 ELCAN SpecterDR
+      \uC870\uC900\uACBD \uC228\uAE30\uAE30"
+    position: {x: 248.86, y: 5.87, z: -36.68}
+  - type: 6
+    key: 675c085d59b0575973005f52
+    name: Break the Deal
+    group: "\uB798\uADF8\uB9E8"
+    objective: 67604476b1ae3717835ccaed
+    detail: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 7.62x51 \uD0C4\uC57D
+      \uD329(\uC885\uB958 \uBB34\uAD00) \uC228\uAE30\uAE30"
+    position: {x: 255.69, y: 12.21, z: -3.66}
+  - type: 6
+    key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    group: "\uD39C\uC2A4"
+    objective: 66dad1edbc4fdd0c6eb38c5e
+    detail: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uBA38\uB9AC\uC5D0 \uC591\uB3D9\uC774\uB97C
+      \uC4F4 \uC545\uB2F9 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+    position: {x: 568.4, y: 8.03, z: -58.33}
+  - type: 6
+    key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    group: "\uD39C\uC2A4"
+    objective: 66dad1f00e049ac7abb6d801
+    detail: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uC564\uBE4C 3-4 \uC804\uCC28
+      \uC2B9\uBB34\uC6D0\uC758 \uCC98\uD615 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+      \uC124\uCE58\uD558\uAE30"
+    position: {x: 568.47, y: 7.62, z: -80.72}
+  - type: 6
+    key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    group: "\uD39C\uC2A4"
+    objective: 66dad1f22edc2103eb176de8
+    detail: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uBAA8\uB4E0 \uC778\uB514 \uAC1C\uBC1C\uC790\uB4E4\uC758
+      \uC545\uBABD\uC774 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+      \uC124\uCE58\uD558\uAE30"
+    position: {x: 172.44, y: 4.01, z: 182.44}
+  - type: 6
+    key: 683427418f5b18d29a05d9e3
+    name: 'Surprise Gift [PVE ZONE]'
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 683427418f5b18d29a05d9e5
+    detail: "\uC138\uAD00\uC5D0 \uC788\uB294 \uC61B \uCC54\uD53C\uC5B8\uC758 \uC740\uC2E0\uCC98\uB85C
+      \uB3CC\uC544\uAC00\uAE30"
+    position: {x: 179.94, y: 3.98, z: 164.8}
+  - type: 6
+    key: 683427418f5b18d29a05d9e3
+    name: 'Surprise Gift [PVE ZONE]'
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 683427418f5b18d29a05d9e5
+    detail: "\uC138\uAD00\uC5D0 \uC788\uB294 \uC61B \uCC54\uD53C\uC5B8\uC758 \uC740\uC2E0\uCC98\uB85C
+      \uB3CC\uC544\uAC00\uAE30"
+    position: {x: 179.94, y: 3.98, z: 164.8}
+  - type: 7
+    key: 683427418f5b18d29a05d9e3
+    name: 'Surprise Gift [PVE ZONE]'
+    group: "\uB4F1\uB300\uC9C0\uAE30"
+    objective: 683427418f5b18d29a05d9e7
+    detail: "\uB808\uD504\uC758 \uC57D\uC810 \uC790\uB8CC"
+    position: {x: 183.09608, y: 2.8125, z: 164.0104}
+  - type: 7
+    key: 684009026ceedc792c09b2a7
+    name: Hobby Club
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 684070a1a550c194cf2f833a
+    detail: "AK-50 \uBA3C\uC9C0\uB36E\uAC1C"
+    position: {x: 582.0181, y: 3.949, z: 5.894165}
+  - type: 6
+    key: 684009026ceedc792c09b2a7
+    name: Hobby Club
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 6840714469caa738cc1225c3
+    detail: "\uC555\uC218\uB41C \uD654\uBB3C\uC774 \uC788\uB294 \uAC80\uBB38\uC18C
+      \uCC3E\uAE30"
+    position: {x: 584.28, y: 0.94, z: 5.02}
+  - type: 6
+    key: 684009026ceedc792c09b2a7
+    name: Hobby Club
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 685e95c44b14e68996ad6590
+    detail: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 AK-50 \uBCF8\uCCB4
+      \uC228\uAE30\uAE30"
+    position: {x: 502.76, y: 15.97, z: 91.81}
+  - type: 6
+    key: 684009026ceedc792c09b2a7
+    name: Hobby Club
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 685e95d28ba62d57a3235675
+    detail: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 AK-50 \uD578\uB4DC\uAC00\uB4DC
+      \uC228\uAE30\uAE30"
+    position: {x: 502.76, y: 15.97, z: 91.81}
+  - type: 6
+    key: 684009026ceedc792c09b2a7
+    name: Hobby Club
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 685e95def338135da83ff978
+    detail: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 AK-50 \uCD1D\uC5F4
+      \uC228\uAE30\uAE30"
+    position: {x: 502.76, y: 15.97, z: 91.81}
+  - type: 6
+    key: 684009026ceedc792c09b2a7
+    name: Hobby Club
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 685e95f0ac5f975749f6c1f3
+    detail: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 AK-50 \uB354\uC2A4\uD2B8
+      \uCEE4\uBC84 \uC228\uAE30\uAE30"
+    position: {x: 502.76, y: 15.97, z: 91.81}
+  - type: 7
+    key: 5936da9e86f7742d65037edf
+    name: Background Check
+    group: "\uD504\uB77C\uD37C"
+    objective: 5968ec9986f7741ddd6c1012
+    detail: "\uBAA9\uAC78\uC774\uC5D0 \uB2EC\uB9B0 \uCCAD\uB3D9 \uD68C\uC911\uC2DC\uACC4"
+    position: {x: 102.2964, y: 2.9634, z: -5.9064}
+  - type: 7
+    key: 59674eb386f774539f14813a
+    name: Delivery From the Past
+    group: "\uD504\uB77C\uD37C"
+    objective: 5968929e86f7740d121082d3
+    detail: "\uBCF4\uC548 \uCF00\uC774\uC2A4 0022"
+    position: {x: -202.8806, y: 7.6911, z: -102.4012}
+  - type: 7
+    key: 5967530a86f77462ba22226b
+    name: Bad Rep Evidence
+    group: "\uD504\uB77C\uD37C"
+    objective: 5968943f86f7740d137ebfc2
+    detail: "\uBCF4\uC548 \uCF00\uC774\uC2A4 0031"
+    position: {x: 204.073, y: 4.6952, z: 12.3975}
+  - type: 7
+    key: 5967725e86f774601a446662
+    name: Shaking Up the Teller
+    group: "\uD504\uB77C\uD37C"
+    objective: 5968981986f7740d1648df42
+    detail: "\uC740\uD589 \uAC00\uBC29"
+    position: {x: 178.07, y: 2.877, z: 148.702}
+  - type: 6
+    key: 5967725e86f774601a446662
+    name: Shaking Up the Teller
+    group: "\uD504\uB77C\uD37C"
+    objective: 5a3fc03286f77414d64f9941
+    detail: "\uAE30\uC219\uC0AC 214\uD638\uC5D0 \uB4E4\uC5B4\uAC08 \uBC29\uBC95 \uCC3E\uAE30"
+    position: {x: 176.42, y: 3.33, z: 184.25}
+  - type: 6
+    key: 5967725e86f774601a446662
+    name: Shaking Up the Teller
+    group: "\uD504\uB77C\uD37C"
+    objective: 5a3fc03286f77414d64f9941
+    detail: "\uAE30\uC219\uC0AC 214\uD638\uC5D0 \uB4E4\uC5B4\uAC08 \uBC29\uBC95 \uCC3E\uAE30"
+    position: {x: 176.42, y: 3.33, z: 184.25}
+  - type: 6
+    key: 59689fbd86f7740d137ebfc4
+    name: Operation Aquarius
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 5a3fb73b86f77458e0324376
+    detail: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC\uC5D0\uC11C \uBB3C\uC774
+      \uC228\uACA8\uC9C4 \uD638\uC2E4 \uCC3E\uAE30"
+    position: {x: 232.24, y: 3.39, z: 138.88}
+  - type: 6
+    key: 59689fbd86f7740d137ebfc4
+    name: Operation Aquarius
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 5a3fb73b86f77458e0324376
+    detail: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC\uC5D0\uC11C \uBB3C\uC774
+      \uC228\uACA8\uC9C4 \uD638\uC2E4 \uCC3E\uAE30"
+    position: {x: 232.24, y: 3.39, z: 138.88}
+  - type: 7
+    key: 5969f9e986f7741dde183a50
+    name: Pharmacist
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 5969fa4886f7741ddb481544
+    detail: "\uCE74\uBCF8 \uAC00\uBC29"
+    position: {x: 239.183, y: 0.713, z: 160.595}
+  - type: 6
+    key: 5969f9e986f7741dde183a50
+    name: Pharmacist
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 5a3fb8f686f7742384533f10
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uAD6C\uC870\uB300\uC6D0\uC758 \uC790\uB3D9\uCC28
+      \uCC3E\uAE30"
+    position: {x: 579.37, y: 0.13, z: -1.82}
+  - type: 6
+    key: 5969f9e986f7741dde183a50
+    name: Pharmacist
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 5a3fb8f686f7742384533f10
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uAD6C\uC870\uB300\uC6D0\uC758 \uC790\uB3D9\uCC28
+      \uCC3E\uAE30"
+    position: {x: 579.37, y: 0.13, z: -1.82}
+  - type: 6
+    key: 5969f9e986f7741dde183a50
+    name: Pharmacist
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 5a3fb92286f77422b46cdb18
+    detail: "\uC138\uAD00(Customs)\uC5D0 \uC704\uCE58\uD55C 2\uCE35\uC9DC\uB9AC \uAE30\uC219\uC0AC\uC758
+      114\uD638\uC2E4\uC5D0 \uB4E4\uC5B4\uAC00\uAE30"
+    position: {x: 235.48, y: 0.43, z: 160.07}
+  - type: 6
+    key: 5969f9e986f7741dde183a50
+    name: Pharmacist
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 5a3fb92286f77422b46cdb18
+    detail: "\uC138\uAD00(Customs)\uC5D0 \uC704\uCE58\uD55C 2\uCE35\uC9DC\uB9AC \uAE30\uC219\uC0AC\uC758
+      114\uD638\uC2E4\uC5D0 \uB4E4\uC5B4\uAC00\uAE30"
+    position: {x: 235.48, y: 0.43, z: 160.07}
+  - type: 7
+    key: 596b43fb86f77457ca186186
+    name: The Extortionist
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 596b44b686f77457cb50ecca
+    detail: "\uBCF4\uC548 \uCF00\uC774\uC2A4 0048"
+    position: {x: 367.6828, y: 1.3008, z: -50.5712}
+  - type: 6
+    key: 596b43fb86f77457ca186186
+    name: The Extortionist
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5a3fbabc86f774231d75afbe
+    detail: "\uBC30\uB2EC\uBD80\uC758 \uC2DC\uCCB4 \uCC3E\uAE30"
+    position: {x: 27.49, y: 1.49, z: -110.2}
+  - type: 6
+    key: 596b43fb86f77457ca186186
+    name: The Extortionist
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5a3fbabc86f774231d75afbe
+    detail: "\uBC30\uB2EC\uBD80\uC758 \uC2DC\uCCB4 \uCC3E\uAE30"
+    position: {x: 27.49, y: 1.49, z: -110.2}
+  - type: 6
+    key: 596b43fb86f77457ca186186
+    name: The Extortionist
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5a3fbab086f77421593d9bf0
+    detail: "\uBC30\uB2EC\uBD80\uAC00 \uC228\uACA8\uB454 \uBB3C\uAC74\uC758 \uC704\uCE58
+      \uCC3E\uAE30"
+    position: {x: 368.89, y: 1.6, z: -49.89}
+  - type: 6
+    key: 596b43fb86f77457ca186186
+    name: The Extortionist
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5a3fbab086f77421593d9bf0
+    detail: "\uBC30\uB2EC\uBD80\uAC00 \uC228\uACA8\uB454 \uBB3C\uAC74\uC758 \uC704\uCE58
+      \uCC3E\uAE30"
+    position: {x: 368.89, y: 1.6, z: -49.89}
+  - type: 7
+    key: 5979eee086f774311955e614
+    name: Golden Swag
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5979ef4586f77431307dc513
+    detail: "\uD669\uAE08\uC0C9 Zibbo \uB77C\uC774\uD130"
+    position: {x: 180.8072, y: 6.7378, z: 150.0781}
+  - type: 6
+    key: 5979eee086f774311955e614
+    name: Golden Swag
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5979ef7986f77431307dc514
+    detail: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC\uC758 303\uD638\uC2E4\uC5D0\uC11C
+      \uC77C\uBC18 \uC9C0\uBF40 \uB77C\uC774\uD130 \uC228\uAE30\uAE30"
+    position: {x: 180.56, y: 6.79, z: 149.34}
+  - type: 7
+    key: 5979f9ba86f7740f6c3fe9f2
+    name: Chemical - Part 1
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5979fc2686f77426d702a0f2
+    detail: "\uBCF4\uC548 \uCF00\uC774\uC2A4 0013"
+    position: {x: 498.5496, y: 5.6390033, z: -141.5012}
+  - type: 7
+    key: 5979f9ba86f7740f6c3fe9f2
+    name: Chemical - Part 1
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5979fc2686f77426d702a0f2
+    detail: "\uBCF4\uC548 \uCF00\uC774\uC2A4 0013"
+    position: {x: 487.27258, y: 5.6429906, z: -138.6152}
+  - type: 7
+    key: 5979f9ba86f7740f6c3fe9f2
+    name: Chemical - Part 1
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5979fc2686f77426d702a0f2
+    detail: "\uBCF4\uC548 \uCF00\uC774\uC2A4 0013"
+    position: {x: 485.8996, y: 5.639, z: -140.5882}
+  - type: 6
+    key: 5979f9ba86f7740f6c3fe9f2
+    name: Chemical - Part 1
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5a3fbbfd86f77459d52a16a8
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC804 \uBCF4\uC548 \uBD80\uC7A5\uC758
+      \uAC70\uCC98 \uCC3E\uAE30"
+    position: {x: 487.89, y: 6.11, z: -139.85}
+  - type: 6
+    key: 5979f9ba86f7740f6c3fe9f2
+    name: Chemical - Part 1
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 5a3fbbfd86f77459d52a16a8
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC804 \uBCF4\uC548 \uBD80\uC7A5\uC758
+      \uAC70\uCC98 \uCC3E\uAE30"
+    position: {x: 487.89, y: 6.11, z: -139.85}
+  - type: 7
+    key: 597a0b2986f77426d66c0633
+    name: Chemical - Part 2
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 597a0be986f774273b74f673
+    detail: "\uC2AC\uB77C\uC774\uB354\uD0A4 \uBCF4\uC548 \uD50C\uB798\uC2DC \uB4DC\uB77C\uC774\uBE0C"
+    position: {x: 194.2243, y: 3.7256, z: 171.0656}
+  - type: 7
+    key: 597a0b2986f77426d66c0633
+    name: Chemical - Part 2
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 597a0bb486f77426d66c0634
+    detail: "TG \uB85C\uACE0\uAC00 \uC788\uB294 \uBD09\uC778\uB41C \uD3B8\uC9C0"
+    position: {x: 194.7797, y: 4.4267, z: 173.1325}
+  - type: 6
+    key: 59c124d686f774189b3c843f
+    name: Oil Run
+    group: "\uD504\uB77C\uD37C"
+    objective: 59c128b986f77415037680df
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC544\uBB34 \uC720\uC870\uCC28\uC5D0
+      MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
+    position: {x: 429.86, y: 2.74, z: 16.23}
+  - type: 6
+    key: 59c124d686f774189b3c843f
+    name: Oil Run
+    group: "\uD504\uB77C\uD37C"
+    objective: 59c128b986f77415037680df
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC544\uBB34 \uC720\uC870\uCC28\uC5D0
+      MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
+    position: {x: 101.45, y: 3.06, z: -14.1}
+  - type: 6
+    key: 59c124d686f774189b3c843f
+    name: Oil Run
+    group: "\uD504\uB77C\uD37C"
+    objective: 59c128b986f77415037680df
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC544\uBB34 \uC720\uC870\uCC28\uC5D0
+      MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
+    position: {x: 334.96, y: 3.04, z: -189.97}
+  - type: 6
+    key: 59c124d686f774189b3c843f
+    name: Oil Run
+    group: "\uD504\uB77C\uD37C"
+    objective: 59c128b986f77415037680df
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC544\uBB34 \uC720\uC870\uCC28\uC5D0
+      MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
+    position: {x: -334.93, y: 2.22, z: -163.46}
+  - type: 6
+    key: 5a27b7a786f774579c3eb376
+    name: Tigr Safari
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 66698a9eddc21e9441645819
+    detail: "\uC138\uAD00\uC5D0\uC11C UN \uD2F0\uADF8\uB974(Tigr) \uCC28\uB7C9 \uC911
+      \uD558\uB098\uC5D0 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: 505.03, y: 1.24, z: -11.29}
+  - type: 6
+    key: 5a27b7a786f774579c3eb376
+    name: Tigr Safari
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 66698a9eddc21e9441645819
+    detail: "\uC138\uAD00\uC5D0\uC11C UN \uD2F0\uADF8\uB974(Tigr) \uCC28\uB7C9 \uC911
+      \uD558\uB098\uC5D0 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: 17.86, y: 0.35, z: 0.36}
+  - type: 6
+    key: 5a27b7a786f774579c3eb376
+    name: Tigr Safari
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 66698a9eddc21e9441645819
+    detail: "\uC138\uAD00\uC5D0\uC11C UN \uD2F0\uADF8\uB974(Tigr) \uCC28\uB7C9 \uC911
+      \uD558\uB098\uC5D0 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: 565.76, y: -0.01, z: -24.17}
+  - type: 6
+    key: 5a27bafb86f7741c73584017
+    name: Chemical Experiments
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 6a5c10e883a51e292d11b976
+    detail: "\uC138\uAD00 \uC758\uB8CC \uC5F0\uAD6C\uC2E4\uC5D0 \uC8FC\uB984\uAD00
+      \uC228\uAE30\uAE30"
+    position: {x: 88.56, y: 5.65, z: -145.75}
+  - type: 6
+    key: 5a27bafb86f7741c73584017
+    name: Chemical Experiments
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 6a5c10e883a51e292d11b976
+    detail: "\uC138\uAD00 \uC758\uB8CC \uC5F0\uAD6C\uC2E4\uC5D0 \uC8FC\uB984\uAD00
+      \uC228\uAE30\uAE30"
+    position: {x: 90.55, y: 5.66, z: -156.64}
+  - type: 7
+    key: 5ac3462b86f7741d6118b983
+    name: Farming
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 5ac6248586f77416781dd3a3
+    detail: "\uADF8\uB798\uD53D \uCE74\uB4DC\uAC00 \uB2F4\uAE34 \uC0C1\uC790"
+    position: {x: -201.84921, y: 7.3305416, z: -102.94797}
+  - type: 7
+    key: 5ac3462b86f7741d6118b983
+    name: Farming
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 5ac6248586f77416781dd3a3
+    detail: "\uADF8\uB798\uD53D \uCE74\uB4DC\uAC00 \uB2F4\uAE34 \uC0C1\uC790"
+    position: {x: -202.591, y: 7.223, z: -98.431}
+  - type: 7
+    key: 5ac3462b86f7741d6118b983
+    name: Farming
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 5ac6248586f77416781dd3a3
+    detail: "\uADF8\uB798\uD53D \uCE74\uB4DC\uAC00 \uB2F4\uAE34 \uC0C1\uC790"
+    position: {x: -204.38757, y: 7.32987, z: -98.63279}
+  - type: 7
+    key: 5ac3462b86f7741d6118b983
+    name: Farming
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 5ac6248586f77416781dd3a3
+    detail: "\uADF8\uB798\uD53D \uCE74\uB4DC\uAC00 \uB2F4\uAE34 \uC0C1\uC790"
+    position: {x: -200.80325, y: 7.2233152, z: -100.563126}
+  - type: 6
+    key: 5ac3462b86f7741d6118b983
+    name: Farming
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 5ac6240786f77417204ca2b9
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC555\uB958\uB41C \uBB3C\uD488\uC744
+      \uBCF4\uAD00\uD558\uB294 \uCC3D\uACE0 \uCC3E\uAE30"
+    position: {x: -212.57, y: 1.16, z: -109.05}
+  - type: 6
+    key: 5ac3462b86f7741d6118b983
+    name: Farming
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 5ac6240786f77417204ca2b9
+    detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC555\uB958\uB41C \uBB3C\uD488\uC744
+      \uBCF4\uAD00\uD558\uB294 \uCC3D\uACE0 \uCC3E\uAE30"
+    position: {x: -212.57, y: 1.16, z: -109.05}
+  - type: 7
+    key: 5b478ff486f7744d184ecbbf
+    name: Supplements
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6a5ab1920a2a6d86771ee14a
+    detail: "\uD654\uD559 \uC57D\uD488 \uBCF4\uAD00\uD568 #2"
+    position: {x: 88.985306, y: 5.7676, z: -143.67578}
+  - type: 7
+    key: 5b478ff486f7744d184ecbbf
+    name: Supplements
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 6a5ab1920a2a6d86771ee14a
+    detail: "\uD654\uD559 \uC57D\uD488 \uBCF4\uAD00\uD568 #2"
+    position: {x: 91.58272, y: 5.5889997, z: -158.77757}
+  - type: 6
+    key: 5d25e44386f77409453bce7b
+    name: The Huntsman Path - Angry Watchman
+    group: "\uC608\uAC70"
+    objective: 5d2733c586f7741dea4f3072
+    detail: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC \uC9C0\uC5ED\uC5D0\uC11C
+      PMC \uC0AC\uC0B4\uD558\uAE30"
+    position: {x: 194.58, y: 5.31, z: 116.43}
+  - type: 6
+    key: 60e71b9bbd90872cb85440f3
+    name: Capturing Outposts
+    group: "\uD504\uB77C\uD37C"
+    objective: 60ec18b73b5f7d790a7ad034
+    detail: "\uC138\uAD00, \uD574\uC548\uC120 \uB610\uB294 \uC0BC\uB9BC\uC758 \uC9C0\uC815\uB41C
+      \uC2A4\uCE90\uBE0C \uAE30\uC9C0\uC5D0\uC11C PMC \uCC98\uCE58\uD558\uAE30"
+    position: {x: 202.68, y: 7.91, z: -126.77}
+  - type: 6
+    key: 60e71b9bbd90872cb85440f3
+    name: Capturing Outposts
+    group: "\uD504\uB77C\uD37C"
+    objective: 60ec18b73b5f7d790a7ad034
+    detail: "\uC138\uAD00, \uD574\uC548\uC120 \uB610\uB294 \uC0BC\uB9BC\uC758 \uC9C0\uC815\uB41C
+      \uC2A4\uCE90\uBE0C \uAE30\uC9C0\uC5D0\uC11C PMC \uCC98\uCE58\uD558\uAE30"
+    position: {x: 202.68, y: 7.91, z: -126.77}
+  - type: 6
+    key: 60e71d6d7fcf9c556f325055
+    name: The Courier
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 60e85b2a26b88043510e0ada
+    detail: "\uC138\uAD00(Customs)\uC758 \uC2E0 \uC8FC\uC720\uC18C \uB4A4\uD3B8\uC758
+      \uC4F0\uB808\uAE30\uD1B5 \uB4A4\uC5D0 [Trijicon REAP-IR \uC5F4\uD654\uC0C1
+      \uC870\uC900\uACBD] \uC228\uACA8\uB450\uAE30"
+    position: {x: 424.96, y: 2.31, z: 28.41}
+  - type: 7
+    key: 66aa74571e5e199ecd094f18
+    name: Secrets of Polikhim
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 66ab97a5c74ce045d6c32578
+    detail: "\uC815\uBC00 \uACF5\uAD6C \uCF00\uC774\uC2A4"
+    position: {x: 88.0565, y: 5.207, z: -146.9258}
+  - type: 7
+    key: 66aa74571e5e199ecd094f18
+    name: Secrets of Polikhim
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 66ab97a5c74ce045d6c32578
+    detail: "\uC815\uBC00 \uACF5\uAD6C \uCF00\uC774\uC2A4"
+    position: {x: 81.09361, y: 4.701, z: -152.63136}
+  - type: 7
+    key: 66aa74571e5e199ecd094f18
+    name: Secrets of Polikhim
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 66ab97a5c74ce045d6c32578
+    detail: "\uC815\uBC00 \uACF5\uAD6C \uCF00\uC774\uC2A4"
+    position: {x: 87.87459, y: 4.687, z: -162.60088}
+  - type: 7
+    key: 66aa74571e5e199ecd094f18
+    name: Secrets of Polikhim
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 66ab97a5c74ce045d6c32578
+    detail: "\uC815\uBC00 \uACF5\uAD6C \uCF00\uC774\uC2A4"
+    position: {x: 92.35701, y: 4.666, z: -161.4822}
+  - type: 7
+    key: 66aa74571e5e199ecd094f18
+    name: Secrets of Polikhim
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 66ab97a5c74ce045d6c32578
+    detail: "\uC815\uBC00 \uACF5\uAD6C \uCF00\uC774\uC2A4"
+    position: {x: 88.46846, y: 4.668, z: -142.76546}
+  - type: 7
+    key: 66aa74571e5e199ecd094f18
+    name: Secrets of Polikhim
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 66ab97a5c74ce045d6c32578
+    detail: "\uC815\uBC00 \uACF5\uAD6C \uCF00\uC774\uC2A4"
+    position: {x: 76.28398, y: 4.637, z: -151.6633}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: 377.28, y: 0.81, z: 20.87}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: 117.62, y: 1.78, z: -85.58}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: 317.76, y: 1.88, z: -191.18}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: 573.08, y: 1.99, z: -89.95}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: 6.04, y: 1.72, z: -98.7}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: 343.13, y: 1.91, z: -158.93}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: 557.52, y: -0.06, z: -0.95}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: -176.7, y: 1.87, z: -209.03}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: -279.06, y: 1.5, z: -141.9}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: 43.82, y: 1.71, z: -157.24}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: 113.24, y: 2.49, z: -94.7}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: 21.94, y: -0.54, z: 96.8}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: 96.38, y: 1.8, z: -86.8}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: -226.73, y: 1.53, z: -89.03}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: 92.34, y: 1.73, z: -152}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: 67.26, y: 1.79, z: -142.79}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: -203.24, y: 1.54, z: -188.28}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: -254.82, y: 1.55, z: -91.26}
+  - type: 6
+    key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    group: "BTR \uC870\uC885\uC218"
+    objective: 673f5065cdfe082966842575
+    detail: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+    position: {x: -226.13, y: 1.57, z: -91.69}
+  - type: 7
+    key: 6744af0969a58fceba101fed
+    name: The Price of Independence
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6745c8ccb4adeab3910332cc
+    detail: "\uBC94\uC8C4 \uC99D\uAC70 \uD3B8\uC9C0"
+    position: {x: 268.5923, y: 12.743282, z: -73.78987}
+  - type: 7
+    key: 6744af0969a58fceba101fed
+    name: The Price of Independence
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6745c8ccb4adeab3910332cc
+    detail: "\uBC94\uC8C4 \uC99D\uAC70 \uD3B8\uC9C0"
+    position: {x: 264.34637, y: 13.310482, z: -75.3349}
+  - type: 7
+    key: 6744af0969a58fceba101fed
+    name: The Price of Independence
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6745c8ccb4adeab3910332cc
+    detail: "\uBC94\uC8C4 \uC99D\uAC70 \uD3B8\uC9C0"
+    position: {x: 263.97394, y: 14.140682, z: -76.90471}
+  - type: 7
+    key: 6744af0969a58fceba101fed
+    name: The Price of Independence
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6745c8ccb4adeab3910332cc
+    detail: "\uBC94\uC8C4 \uC99D\uAC70 \uD3B8\uC9C0"
+    position: {x: 271.05127, y: 12.777287, z: -72.37828}
+  - type: 7
+    key: 6744af0969a58fceba101fed
+    name: The Price of Independence
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6745c8ccb4adeab3910332cc
+    detail: "\uBC94\uC8C4 \uC99D\uAC70 \uD3B8\uC9C0"
+    position: {x: 269.86456, y: 13.439083, z: -77.52385}
+  - type: 7
+    key: 6745cbee909d2013670a4a55
+    name: The Price of Independence
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6745cbee909d2013670a4a60
+    detail: "\uBC94\uC8C4 \uC99D\uAC70 \uD3B8\uC9C0"
+    position: {x: 268.5923, y: 12.743282, z: -73.78987}
+  - type: 7
+    key: 6745cbee909d2013670a4a55
+    name: The Price of Independence
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6745cbee909d2013670a4a60
+    detail: "\uBC94\uC8C4 \uC99D\uAC70 \uD3B8\uC9C0"
+    position: {x: 264.34637, y: 13.310482, z: -75.3349}
+  - type: 7
+    key: 6745cbee909d2013670a4a55
+    name: The Price of Independence
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6745cbee909d2013670a4a60
+    detail: "\uBC94\uC8C4 \uC99D\uAC70 \uD3B8\uC9C0"
+    position: {x: 263.97394, y: 14.140682, z: -76.90471}
+  - type: 7
+    key: 6745cbee909d2013670a4a55
+    name: The Price of Independence
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6745cbee909d2013670a4a60
+    detail: "\uBC94\uC8C4 \uC99D\uAC70 \uD3B8\uC9C0"
+    position: {x: 271.05127, y: 12.777287, z: -72.37828}
+  - type: 7
+    key: 6745cbee909d2013670a4a55
+    name: The Price of Independence
+    group: "BTR \uC870\uC885\uC218"
+    objective: 6745cbee909d2013670a4a60
+    detail: "\uBC94\uC8C4 \uC99D\uAC70 \uD3B8\uC9C0"
+    position: {x: 269.86456, y: 13.439083, z: -77.52385}
+  - type: 6
+    key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c0444db2b69f48942f37c
+    detail: "\uC138\uAD00\uC5D0\uC11C \uD14C\uB77C\uADF8\uB8F9 \uD2B9\uC218 \uD654\uBB3C
+      \uC0C1\uC790 \uC911 \uD558\uB098\uC5D0 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: -184.33, y: 1.57, z: -132.6}
+  - type: 6
+    key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c0444db2b69f48942f37c
+    detail: "\uC138\uAD00\uC5D0\uC11C \uD14C\uB77C\uADF8\uB8F9 \uD2B9\uC218 \uD654\uBB3C
+      \uC0C1\uC790 \uC911 \uD558\uB098\uC5D0 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: 147.94, y: 1.94, z: -67.52}
+  - type: 6
+    key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c0444db2b69f48942f37c
+    detail: "\uC138\uAD00\uC5D0\uC11C \uD14C\uB77C\uADF8\uB8F9 \uD2B9\uC218 \uD654\uBB3C
+      \uC0C1\uC790 \uC911 \uD558\uB098\uC5D0 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: 60.26, y: 5.26, z: -65.58}
+  - type: 6
+    key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c0444db2b69f48942f37c
+    detail: "\uC138\uAD00\uC5D0\uC11C \uD14C\uB77C\uADF8\uB8F9 \uD2B9\uC218 \uD654\uBB3C
+      \uC0C1\uC790 \uC911 \uD558\uB098\uC5D0 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: 115.56, y: 2.16, z: -38.2}
+  - type: 6
+    key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c0444db2b69f48942f37c
+    detail: "\uC138\uAD00\uC5D0\uC11C \uD14C\uB77C\uADF8\uB8F9 \uD2B9\uC218 \uD654\uBB3C
+      \uC0C1\uC790 \uC911 \uD558\uB098\uC5D0 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: 103.07, y: 2.16, z: -64.84}
+  - type: 6
+    key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c0444db2b69f48942f37c
+    detail: "\uC138\uAD00\uC5D0\uC11C \uD14C\uB77C\uADF8\uB8F9 \uD2B9\uC218 \uD654\uBB3C
+      \uC0C1\uC790 \uC911 \uD558\uB098\uC5D0 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: 66.58, y: 9.54, z: -60.27}
+  - type: 6
+    key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c0444db2b69f48942f37c
+    detail: "\uC138\uAD00\uC5D0\uC11C \uD14C\uB77C\uADF8\uB8F9 \uD2B9\uC218 \uD654\uBB3C
+      \uC0C1\uC790 \uC911 \uD558\uB098\uC5D0 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+    position: {x: 65.16, y: 1.95, z: -47.69}
+  - type: 6
+    key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6a574fe188bf38e4f6c954f6
+    detail: "\uC138\uAD00\uC5D0\uC11C \uCCAB \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
+      \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
+    position: {x: 147.94, y: 1.91, z: -67.8}
+  - type: 6
+    key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6a574ff13e5804d879146872
+    detail: "\uC138\uAD00\uC5D0\uC11C \uB450 \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
+      \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
+    position: {x: -184.33, y: 1.64, z: -132.6}
+  - type: 6
+    key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6a574ff78f1b3fc8bdbb8755
+    detail: "\uC138\uAD00\uC5D0\uC11C \uC138 \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
+      \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
+    position: {x: 60.26, y: 5.26, z: -66.22}
+  - type: 6
+    key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6a574ffc261a237f28375818
+    detail: "\uC138\uAD00\uC5D0\uC11C \uB124 \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
+      \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
+    position: {x: 115.56, y: 2.16, z: -38.55}
+  - type: 6
+    key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6a575000eddb07c675a2567c
+    detail: "\uC138\uAD00\uC5D0\uC11C \uB2E4\uC12F \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
+      \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
+    position: {x: 103.07, y: 2.16, z: -65.35}
+  - type: 6
+    key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6a575004d14917ff71ab6aec
+    detail: "\uC138\uAD00\uC5D0\uC11C \uC5EC\uC12F \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
+      \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
+    position: {x: 66.58, y: 9.54, z: -60.27}
+  - type: 6
+    key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 6a57500b923ac62ea96d47aa
+    detail: "\uC138\uAD00\uC5D0\uC11C \uC77C\uACF1 \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
+      \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
+    position: {x: 65.1, y: 1.95, z: -47.69}
+  - type: 7
+    key: 675c047fa46173572a0bd878
+    name: Shipment Tracking
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c04b3fc6b273a36ed294a
+    detail: "\uD14C\uB77C\uADF8\uB8F9 \uD654\uBB3C \uBCF4\uACE0\uC11C"
+    position: {x: 89.91673, y: 7.25, z: -58.057663}
+  - type: 7
+    key: 675c047fa46173572a0bd878
+    name: Shipment Tracking
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c04b3fc6b273a36ed294a
+    detail: "\uD14C\uB77C\uADF8\uB8F9 \uD654\uBB3C \uBCF4\uACE0\uC11C"
+    position: {x: 90.65941, y: 7.704, z: -56.366837}
+  - type: 7
+    key: 675c047fa46173572a0bd878
+    name: Shipment Tracking
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c04b3fc6b273a36ed294a
+    detail: "\uD14C\uB77C\uADF8\uB8F9 \uD654\uBB3C \uBCF4\uACE0\uC11C"
+    position: {x: 90.80946, y: 7.099, z: -54.595688}
+  - type: 7
+    key: 675c047fa46173572a0bd878
+    name: Shipment Tracking
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c04b3fc6b273a36ed294a
+    detail: "\uD14C\uB77C\uADF8\uB8F9 \uD654\uBB3C \uBCF4\uACE0\uC11C"
+    position: {x: 90.26784, y: 7.894, z: -59.860718}
+  - type: 7
+    key: 675c04f4db8807b75d0f38e8
+    name: Closer to the People
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c04f4db8807b75d0f38eb
+    detail: "\uBC30\uC1A1\uD300 \uBCF4\uACE0\uC11C"
+    position: {x: 93.2574, y: 1.3489997, z: -61.865417}
+  - type: 7
+    key: 675c04f4db8807b75d0f38e8
+    name: Closer to the People
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c04f4db8807b75d0f38eb
+    detail: "\uBC30\uC1A1\uD300 \uBCF4\uACE0\uC11C"
+    position: {x: 96.90181, y: 1.3229997, z: -64.52138}
+  - type: 7
+    key: 675c04f4db8807b75d0f38e8
+    name: Closer to the People
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c04f4db8807b75d0f38eb
+    detail: "\uBC30\uC1A1\uD300 \uBCF4\uACE0\uC11C"
+    position: {x: 95.282974, y: 1.8920999, z: -59.045044}
+  - type: 7
+    key: 675c04f4db8807b75d0f38e8
+    name: Closer to the People
+    group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objective: 675c04f4db8807b75d0f38eb
+    detail: "\uBC30\uC1A1\uD300 \uBCF4\uACE0\uC11C"
+    position: {x: 90.44954, y: 2.8818998, z: -57.470688}
+  - type: 7
+    key: 675c1570526ff496850895d9
+    name: Passion for Ergonomics
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 675c15916580a378dc0f012f
+    detail: "\uAC1C\uB7C9 \uACF5\uAD6C \uC0C1\uC790"
+    position: {x: -319.97205, y: 1.0969999, z: -178.6625}
+  - type: 7
+    key: 675c1570526ff496850895d9
+    name: Passion for Ergonomics
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 675c15916580a378dc0f012f
+    detail: "\uAC1C\uB7C9 \uACF5\uAD6C \uC0C1\uC790"
+    position: {x: -318.4618, y: 1.1559999, z: -175.95013}
+  - type: 7
+    key: 675c1570526ff496850895d9
+    name: Passion for Ergonomics
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 675c15916580a378dc0f012f
+    detail: "\uAC1C\uB7C9 \uACF5\uAD6C \uC0C1\uC790"
+    position: {x: -316.35687, y: 1.0849998, z: -179.94904}
+  - type: 7
+    key: 675c1570526ff496850895d9
+    name: Passion for Ergonomics
+    group: "\uBA54\uCE74\uB2C9"
+    objective: 675c15916580a378dc0f012f
+    detail: "\uAC1C\uB7C9 \uACF5\uAD6C \uC0C1\uC790"
+    position: {x: -316.70236, y: 1.1042001, z: -178.13792}
+  - type: 6
+    key: 675c15fbf7da9792a4059871
+    name: Provide Viewership
+    group: "\uB808\uD504"
+    objective: 675c1c87caddcfa893af10e9
+    detail: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0 \uCCAB \uBC88\uC9F8
+      WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+    position: {x: 256.98, y: 14.13, z: -75.38}
+  - type: 6
+    key: 675c15fbf7da9792a4059871
+    name: Provide Viewership
+    group: "\uB808\uD504"
+    objective: 676047054c9696a7d071bc08
+    detail: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0 \uB450 \uBC88\uC9F8
+      WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+    position: {x: 254.7, y: 2.54, z: -75.2}
+  - type: 6
+    key: 675c15fbf7da9792a4059871
+    name: Provide Viewership
+    group: "\uB808\uD504"
+    objective: 6760470877d1b7790af5de11
+    detail: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0 \uC138 \uBC88\uC9F8
+      WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+    position: {x: 264.03, y: 7.03, z: -38.9}
+  - type: 6
+    key: 675c15fbf7da9792a4059871
+    name: Provide Viewership
+    group: "\uB808\uD504"
+    objective: 6760470b7d65f702a6295820
+    detail: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0 \uB124 \uBC88\uC9F8
+      WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+    position: {x: 278.25, y: 2.71, z: -51.58}
+  - type: 6
+    key: 675c15fbf7da9792a4059871
+    name: Provide Viewership
+    group: "\uB808\uD504"
+    objective: 675c1c980fd114390c638b89
+    detail: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0\uC11C \uC544\uBB34
+      \uB300\uC0C1\uC774\uB098 \uCC98\uCE58\uD558\uAE30"
+    position: {x: 267.13, y: 8.61, z: -51.6}
+  - type: 6
+    key: 675c1cf4a757ddd00404f0a3
+    name: Work Smarter
+    group: "\uC608\uAC70"
+    objective: 675c1cf4a757ddd00404f0a6
+    detail: "\uC138\uAD00\uC758 \uBE44\uBC00 \uD0C8\uCD9C\uAD6C \uCC3E\uAE30"
+    position: {x: -41.51, y: -12.63, z: 122.67}
+  - type: 6
+    key: 675c1cf4a757ddd00404f0a3
+    name: Work Smarter
+    group: "\uC608\uAC70"
+    objective: 675c1cf4a757ddd00404f0a6
+    detail: "\uC138\uAD00\uC758 \uBE44\uBC00 \uD0C8\uCD9C\uAD6C \uCC3E\uAE30"
+    position: {x: 463.18, y: -1.46, z: -112.36}
+  - type: 6
+    key: 675c1cf4a757ddd00404f0a3
+    name: Work Smarter
+    group: "\uC608\uAC70"
+    objective: 675c1cf4a757ddd00404f0a6
+    detail: "\uC138\uAD00\uC758 \uBE44\uBC00 \uD0C8\uCD9C\uAD6C \uCC3E\uAE30"
+    position: {x: 462.47, y: -1.46, z: -112.25}
+  - type: 6
+    key: 675c1ec7a46173572a0bf20a
+    name: Rite of Passage
+    group: "\uC608\uAC70"
+    objective: 675c1f040a1128e59422a876
+    detail: "\uC138\uAD00 \uAD6C \uC8FC\uC720\uC18C\uC5D0\uC11C \uC2A4\uCE90\uBE0C
+      \uCC98\uCE58\uD558\uAE30"
+    position: {x: 307.91, y: 3.72, z: -144.64}
+  - type: 6
+    key: 675c1ec7a46173572a0bf20a
+    name: Rite of Passage
+    group: "\uC608\uAC70"
+    objective: 675c1f17cf59d5433be7ae77
+    detail: "\uC138\uAD00 \uC2E0 \uC8FC\uC720\uC18C\uC5D0\uC11C \uC2A4\uCE90\uBE0C
+      \uCC98\uCE58\uD558\uAE30"
+    position: {x: 417.35, y: 9.18, z: 35.85}
+  - type: 7
+    key: 675c3582f6ddc329a90f9c6d
+    name: Private Club
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 675c37d2da4b531ba8daaadd
+    detail: "\uC2A4\uD0A4\uC5B4\uC758 \uC9C0\uAC11"
+    position: {x: 44.590317, y: 4.4372, z: -58.400833}
+  - type: 7
+    key: 675c3582f6ddc329a90f9c6d
+    name: Private Club
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 675c37d2da4b531ba8daaadd
+    detail: "\uC2A4\uD0A4\uC5B4\uC758 \uC9C0\uAC11"
+    position: {x: 46.778778, y: 4.462, z: -58.13228}
+  - type: 7
+    key: 675c3582f6ddc329a90f9c6d
+    name: Private Club
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 675c37d2da4b531ba8daaadd
+    detail: "\uC2A4\uD0A4\uC5B4\uC758 \uC9C0\uAC11"
+    position: {x: 50.02237, y: 5.24, z: -57.845093}
+  - type: 7
+    key: 675c3582f6ddc329a90f9c6d
+    name: Private Club
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 675c37d2da4b531ba8daaadd
+    detail: "\uC2A4\uD0A4\uC5B4\uC758 \uC9C0\uAC11"
+    position: {x: 46.575928, y: 5.278, z: -57.778732}
+  quests:
+  - key: 5b4795fb86f7745876267770
+    name: Chumming
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 5b4796c086f7745877352c2c
+      description: "\uC138\uAD00(Customs) \uAE30\uC219\uC0AC 3\uCE35\uC5D0 \uC788\uB294
+        \uC804\uC790\uB808\uC778\uC9C0 \uC548\uC5D0 [\uAE08\uBAA9\uAC78\uC774] 3\uAC1C
+        \uB193\uAE30"
+      optional: 0
+    - id: 5b47971086f774587877ad34
+      description: "\uC0BC\uB9BC(Woods) \uC81C\uC7AC\uC18C\uC5D0\uC11C \uB098\uB780\uD788
+        \uB193\uC5EC\uC788\uB294 3\uAC1C\uC758 \uC219\uC18C \uC911, \uC911\uAC04
+        \uC219\uC18C\uC5D0 [\uAE08\uBAA9\uAC78\uC774] 3\uAC1C \uB193\uAE30"
+      optional: 0
+  - key: 66b38e144f2ab7cc530c3fe7
+    name: Every Hunter Knows This
+    trader: "\uC608\uAC70"
+    objectives:
+    - id: 66b38e144f2ab7cc530c3fe8
+      description: "\uACF5\uC7A5 \uB3CC\uD30C\uC2E4\uC5D0\uC11C \uD2B8\uB9BD\uC640\uC774\uC5B4\uB97C
+        \uC124\uCE58\uD558\uAE30 \uC88B\uC740 \uC7A5\uC18C \uCC3E\uAE30"
+      optional: 0
+    - id: 66b38e144f2ab7cc530c3fea
+      description: "\uC138\uAD00 3\uCE35 \uAE30\uC219\uC0AC \uACC4\uB2E8\uC5D0\uC11C
+        \uD2B8\uB9BD\uC640\uC774\uC5B4\uB97C \uC124\uCE58\uD558\uAE30 \uC88B\uC740
+        \uC7A5\uC18C \uCC3E\uAE30"
+      optional: 0
+  - key: 597a0f5686f774273b74f676
+    name: Chemical - Part 4
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 5a3fbc9586f77459d52a16c4
+      description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744
+        \uC2E3\uACE0 \uC788\uB294 \uCC28\uB7C9 \uCC3E\uAE30"
+      optional: 0
+    - id: 59b242ea86f7741e6e0e7a86
+      description: "\uD654\uD559\uBB3C\uC9C8 \uC218\uC1A1 \uCC28\uB7C9\uC5D0 MS2000
+        \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+      optional: 0
+  - key: 597a160786f77477531d39d2
+    name: Out of Curiosity
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 5a3fc1f286f7744ccc15d643
+      description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744
+        \uC2E3\uACE0 \uC788\uB294 \uCC28\uB7C9 \uCC3E\uAE30"
+      optional: 0
+    - id: 5998366886f77455853b2d9f
+      description: "\uCC28\uB7C9\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+      optional: 0
+  - key: 597a171586f77405ba6887d3
+    name: Big Customer
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 5a3fbec386f77413bd5fc20a
+      description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744
+        \uC2E3\uACE0 \uC788\uB294 \uCC28\uB7C9 \uCC3E\uAE30"
+      optional: 0
+    - id: 5998360886f77456936817f3
+      description: "\uD654\uD559\uBB3C\uC9C8 \uC218\uC1A1 \uCC28\uB7C9\uC5D0 MS2000
+        \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
+      optional: 0
+  - key: 665eec4a4dfc83b0ed0a9dca
+    name: Thirsty - Delivery
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 6661a14545909ae2e92ca2d5
+      description: "\uC0BC\uB9BC\uC5D0\uC11C \uC9C0\uC815\uB41C \uC740\uB2C9 \uC7A5\uC18C
+        \uCC3E\uAE30"
+      optional: 0
+    - id: 6661a18a12e8457716d59f5d
+      description: "\uC138\uAD00\uC5D0\uC11C \uC9C0\uC815\uB41C \uC740\uB2C9 \uC7A5\uC18C
+        \uCC3E\uAE30"
+      optional: 0
+    - id: 6661a170945719c63f28d9c6
+      description: "\uCCAB \uBC88\uC9F8 \uD504\uB85C\uD310 \uD0F1\uD06C(5L) \uC228\uAE30\uAE30"
+      optional: 0
+    - id: 6661a1a1b1953d6c96da8f0e
+      description: "\uB450 \uBC88\uC9F8 \uD504\uB85C\uD310 \uD0F1\uD06C(5L) \uC228\uAE30\uAE30"
+      optional: 0
+  - key: 6834145ebc1f443d7603c8a7
+    name: 'Easy Money - Part 1 [PVE ZONE]'
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 6834145ebc1f443d7603c8ab
+      description: "\uC138\uAD00(Customs)\uC758 \uC2A4\uCE90\uBE0C \uC694\uC0C8 \uB0B4
+        \uAC70\uC2E4\uC5D0 \uBC14\uC774\uC2A8 vs \uC5B8\uB354\uD14C\uC774\uCEE4 \uD3EC\uC2A4\uD130
+        \uBD80\uCC29\uD558\uAE30"
+      optional: 0
+  - key: 6834254f2f0e2a7eb90b62ef
+    name: 'Decisions, Decisions [PVE ZONE]'
+    trader: "\uB808\uD504"
+    objectives:
+    - id: 6834254f2f0e2a7eb90b62f1
+      description: "\uB808\uD504\uC758 \uC57D\uC810\uC774 \uB420 \uC815\uBCF4\uB97C
+        \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+    - id: 6834254f2f0e2a7eb90b62f2
+      description: "\uCC3E\uC740 \uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 683425dd8f5b18d29a05d9d1
+    name: 'Between Two Fires [PVE ZONE]'
+    trader: "\uD39C\uC2A4"
+    objectives:
+    - id: 683425dd8f5b18d29a05d9d4
+      description: "\uC138\uAD00\uC5D0 \uC788\uB294 \uC61B \uCC54\uD53C\uC5B8\uC758
+        \uC740\uC2E0\uCC98\uB85C \uB3CC\uC544\uAC00\uAE30"
+      optional: 0
+    - id: 683425dd8f5b18d29a05d9d6
+      description: "\uB808\uD504\uC758 \uC57D\uC810\uC774 \uB420 \uC815\uBCF4\uB97C
+        \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+    - id: 683425dd8f5b18d29a05d9d8
+      description: "\uCC3E\uC740 \uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 6834233fecd5cf3a440d855b
+    name: 'Against the Conscience - Part 1 [PVE ZONE]'
+    trader: "\uD39C\uC2A4"
+    objectives:
+    - id: 6834233fecd5cf3a440d855f
+      description: "\uC138\uAD00\uC5D0\uC11C \uC61B \uCC54\uD53C\uC5B8\uC758 \uBC29
+        \uCC3E\uAE30"
+      optional: 0
+    - id: 6834233fecd5cf3a440d8567
+      description: "\uD574\uC548\uC120 \uBC00\uC218\uC5C5\uC790 \uAE30\uC9C0\uC5D0\uC11C
+        \uC5F4\uC1E0\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 1
+    - id: 6834233fecd5cf3a440d8561
+      description: "\uCC54\uD53C\uC5B8\uC5D0\uAC8C \uBB34\uC2A8 \uC77C\uC774 \uC788\uC5C8\uB294\uC9C0
+        \uC54C\uC544\uB0B4\uAE30"
+      optional: 0
+    - id: 6834233fecd5cf3a440d8564
+      description: "\uC0DD\uC874\uD558\uC5EC \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+  - key: 675c085d59b0575973005f52
+    name: Break the Deal
+    trader: "\uB798\uADF8\uB9E8"
+    objectives:
+    - id: 675c14f54662a2fae349dbb9
+      description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 DVL-10
+        \uC800\uACA9\uC18C\uCD1D \uC228\uAE30\uAE30"
+      optional: 0
+    - id: 675c152299549b5b62094f06
+      description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 DVL-10
+        \uD0C4\uCC3D \uC228\uAE30\uAE30"
+      optional: 0
+    - id: 675c153ae96d38136d02f670
+      description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 ELCAN
+        SpecterDR \uC870\uC900\uACBD \uC228\uAE30\uAE30"
+      optional: 0
+    - id: 67604476b1ae3717835ccaed
+      description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 7.62x51
+        \uD0C4\uC57D \uD329(\uC885\uB958 \uBB34\uAD00) \uC228\uAE30\uAE30"
+      optional: 0
+  - key: 66d9cbb67b491f9d5304f6e6
+    name: Is This a Reference?
+    trader: "\uD39C\uC2A4"
+    objectives:
+    - id: 66d9cbb67b491f9d5304f6eb
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uCCA0\uC870\uB9DD\uC5D0 \uAC10\uAE34 \uC2DC\uCCB4\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66d9cbb67b491f9d5304f6e9
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uD53C\uC790\uB97C \uC88B\uC544\uD558\uB294 \uC591\uC11C\uB958\uB4E4\uC758
+        \uC740\uC2E0\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66dacf2a88c7001436a67390
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uC815\uB9D0 \uC73C\uC2A4\uC2A4\uD55C \uBCBD\uC758 \uAD6C\uBA4D\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66d9cbb67b491f9d5304f6ea
+      description: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0
+        \uC788\uB294 \uBD88\uC5D0 \uD0C4 \uC18C\uB140\uC758 \uBCD1\uC2E4\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66dad1d7811532f53e472c13
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+        \uB2E4\uC774\uD558\uB4DC\uC5D0 \uB098\uC628\uAC83 \uAC19\uC740 \uB140\uC11D\uC774
+        \uB9F9\uD65C\uC57D\uD588\uB358 \uAC83 \uAC19\uC740 \uACE0\uCE35 \uBE4C\uB529\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66dad1d941756590432b0eaa
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+        \uD504\uB85C\uADF8\uB798\uBA38\uC5D0\uAC8C \uCE60 \uC7A5\uB09C\uC774 \uB744\uC6CC\uC9C4
+        \uCEF4\uD4E8\uD130\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66dad1dbb16caebe0e214d89
+      description: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
+        \uCEE4\uB2E4\uB780 \uAC80\uC740 \uC758\uC790\uB4E4\uC5D0 \uB458\uB7EC\uC2F8\uC778
+        \uC791\uC740 \uD558\uC580 \uC758\uC790\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66dad1ddec53b0df3b10a1b9
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uB2F9\uC2E0\uC758
+        \uCE5C\uAD6C \uC70C\uC2A8 \uC606\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66dad1de93c8fcffd5790d89
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uD654\uD1B3\uBD88\uC774
+        \uCF1C\uC9C4 \uD734\uC2DD\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66dad1e0703b718902451ee4
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uBD88\uAE38\uD55C
+        \uC6F0\uCEF4 \uD45C\uC9C0\uD310\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66dad1e21e7ef28d17a69a93
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0 \uC788\uB294 \uCC9C\uC7AC \uACFC\uD559\uC790\uC758
+        \uC790\uB9AC\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66dad1e607181e2f78a3a0a2
+      description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uC9D5\uC9D1\uBCD1\uB4E4\uC774
+        \uC544\uC8FC \uC911\uC694\uD55C \uC791\uC5C5\uC744 \uD588\uB358 \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66dad1e843a718561db0fdd3
+      description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uB450 \uC218\uC218\uAED8\uB07C
+        \uC758\uC790\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66dad1ebc5c8e6cd26dd1d31
+      description: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uC804\uCC28 \uC870\uC885\uC218\uB4E4\uC758
+        \uCCAB \uBE44\uB514\uC624 \uAC8C\uC784 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66dad1edbc4fdd0c6eb38c5e
+      description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uBA38\uB9AC\uC5D0 \uC591\uB3D9\uC774\uB97C
+        \uC4F4 \uC545\uB2F9 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66dad1f00e049ac7abb6d801
+      description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uC564\uBE4C 3-4 \uC804\uCC28
+        \uC2B9\uBB34\uC6D0\uC758 \uCC98\uD615 \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66dad1f22edc2103eb176de8
+      description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uBAA8\uB4E0 \uC778\uB514
+        \uAC1C\uBC1C\uC790\uB4E4\uC758 \uC545\uBABD\uC774 \uC788\uB294 \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66db1f8d7539f4b4eb640aff
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC18C\uBC29\uAD00\uC774
+        \uD589\uBCF5\uD574\uC9C0\uAE30 \uC704\uD574 \uCC45\uC744 \uBD88\uD0DC\uC6B0\uB358
+        \uBC29\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66db1f8f564045697071d934
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uBA87\uBA87 \uBC38\uBE0C
+        \uC5D4\uC9C0\uB2C8\uC5B4\uB4E4\uC774 \uC790\uC2E0\uB4E4\uC758 \uC138 \uBC88\uC9F8
+        \uD504\uB85C\uC81D\uD2B8\uB97C \uB05D\uB0B4\uC9C0 \uBABB\uD55C \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66db1f928d59a9fe511dfc25
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC704\uD5D8\uD55C \uB7EC\uC2DC\uC544
+        \uCD08\uCF5C\uB9BF \uC18C\uB140\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66db1f94a147d9840ec0dfba
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC74C\uBAA8\uB860\uC790\uC758
+        \uBC29\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66db1f98b8e22a92437fe5c6
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uB204\uAD70\uAC00\uAC00
+        \uB9C8\uBC95 \uD559\uAD50\uB85C \uC774\uB3D9\uD560 \uC218 \uC788\uB2E4\uACE0
+        \uBBFF\uC5C8\uB358 \uC7A5\uC18C \uADFC\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66db1f9b4f7bf01d937eb150
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uBAA8\uB4E0 \uC804\uB7B5
+        \uAC8C\uC784\uC758 \uC5B4\uBA38\uB2C8\uAC00 \uC788\uB294 \uC7A5\uC18C\uC5D0
+        Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66db1ff798d52a5a8e4ed1f8
+      description: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uD558\uB298\uB85C \uC62C\uB77C\uAC00\uB294
+        \uACC4\uB2E8\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66debf2b9e4ce2ef233ee5b7
+      description: "\uC0BC\uB9BC(Woods)\uC5D0 \uC788\uB294 \uBD88\uD0C0\uB294 \uCC28\uC5D0
+        \uC549\uC544\uC788\uB294 \uACF0\uC774 \uC788\uB294 \uC7A5\uC18C\uC5D0 Wi-Fi
+        \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66debf2e1e254957b82711ff
+      description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uB4A4\uC9D1\uD78C
+        \uC758\uC790\uAC00 \uC124\uCE58\uB41C \uC7A5\uC18C\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 66debf30802386a45d0adb60
+      description: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uADF8\uB2E4\uC9C0
+        \uC678\uB86D\uC9C0\uB294 \uC54A\uC744 \uD654\uC7A5\uC2E4\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
+        \uC124\uCE58\uD558\uAE30"
+      optional: 0
+  - key: 683427418f5b18d29a05d9e3
+    name: 'Surprise Gift [PVE ZONE]'
+    trader: "\uB4F1\uB300\uC9C0\uAE30"
+    objectives:
+    - id: 683427418f5b18d29a05d9e5
+      description: "\uC138\uAD00\uC5D0 \uC788\uB294 \uC61B \uCC54\uD53C\uC5B8\uC758
+        \uC740\uC2E0\uCC98\uB85C \uB3CC\uC544\uAC00\uAE30"
+      optional: 0
+    - id: 683427418f5b18d29a05d9e7
+      description: "\uB808\uD504\uC758 \uC57D\uC810\uC774 \uB420 \uC815\uBCF4\uB97C
+        \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+    - id: 683427418f5b18d29a05d9e9
+      description: "\uCC3E\uC740 \uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 684009026ceedc792c09b2a7
+    name: Hobby Club
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 68406fd3b614b3db64e6097d
+      description: "\uB9AC\uC800\uBE0C\uC5D0\uC11C AK-50 \uCD1D\uC5F4\uC744 \uCC3E\uC544
+        \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+    - id: 6840711071516aad97bd9156
+      description: "\uB9AC\uC800\uBE0C\uC5D0\uC11C \uAE00\uB8E8\uD558\uB974\uC758
+        \uC791\uC5C5\uC7A5 \uCC3E\uAE30"
+      optional: 1
+    - id: 684070a1a550c194cf2f833a
+      description: "\uD0C0\uB974\uCF54\uD504 \uBCF4\uC548 \uAC80\uBB38\uC18C \uC911
+        \uD55C \uACF3\uC5D0\uC11C AK-50 \uB354\uC2A4\uD2B8 \uCEE4\uBC84\uB97C \uCC3E\uC544
+        \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+    - id: 6840714469caa738cc1225c3
+      description: "\uC555\uC218\uB41C \uD654\uBB3C\uC774 \uC788\uB294 \uAC80\uBB38\uC18C
+        \uCC3E\uAE30"
+      optional: 1
+    - id: 685e95c44b14e68996ad6590
+      description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 AK-50
+        \uBCF8\uCCB4 \uC228\uAE30\uAE30"
+      optional: 0
+    - id: 685e97f9892281cf7a89f39c
+      description: "AK-50 \uBCF8\uCCB4 \uC870\uB9BD\uD558\uAE30"
+      optional: 1
+    - id: 685e95d28ba62d57a3235675
+      description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 AK-50
+        \uD578\uB4DC\uAC00\uB4DC \uC228\uAE30\uAE30"
+      optional: 0
+    - id: 685e95def338135da83ff978
+      description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 AK-50
+        \uCD1D\uC5F4 \uC228\uAE30\uAE30"
+      optional: 0
+    - id: 685e95f0ac5f975749f6c1f3
+      description: "\uC138\uAD00\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 AK-50
+        \uB354\uC2A4\uD2B8 \uCEE4\uBC84 \uC228\uAE30\uAE30"
+      optional: 0
+  - key: 5936da9e86f7742d65037edf
+    name: Background Check
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 5968ec9986f7741ddd6c1012
+      description: "\uC138\uAD00(Customs)\uC5D0\uC11C [\uCCAD\uB3D9 \uD68C\uC911\uC2DC\uACC4]
+        \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+    - id: 5975de1f86f7744ca53b7c82
+      description: "\uC720\uC870\uCC28 \uC5F4\uC1E0 \uD68D\uB4DD\uD558\uAE30"
+      optional: 1
+    - id: 5967920f86f77468d219d632
+      description: "[\uCCAD\uB3D9 \uD68C\uC911\uC2DC\uACC4] \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 59674eb386f774539f14813a
+    name: Delivery From the Past
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 5968929e86f7740d121082d3
+      description: "\uC138\uAD00(Customs) \uD130\uBBF8\uB110\uC5D0 \uC788\uB294 Tarcone
+        \uD68C\uC0AC \uAC10\uB3C5\uAD00\uC758 \uC0AC\uBB34\uC2E4(\uBE68\uAC04\uCC3D\uACE0)\uC5D0\uC11C
+        \uBCF4\uC548 \uCF00\uC774\uC2A4 \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+    - id: 59674fe586f7744f4e358aa2
+      description: "\uACF5\uC7A5(Factory) 3\uBC88 \uAC8C\uC774\uD2B8 \uADFC\uCC98
+        2\uCE35\uC5D0 \uC788\uB294 \uD734\uAC8C\uC2E4\uC5D0 \uCF00\uC774\uC2A4 \uB193\uACE0
+        \uAC00\uAE30"
+      optional: 0
+  - key: 5967530a86f77462ba22226b
+    name: Bad Rep Evidence
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 5968943f86f7740d137ebfc2
+      description: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uCEE8\uD14C\uC774\uB108
+        \uC219\uC18C\uC5D0\uC11C [\uBCF4\uC548 \uCF00\uC774\uC2A4 0031] \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+    - id: 5a3fbdb086f7745a554f0c31
+      description: "\uACF5\uC7A5(Factory)\uB9F5 3\uCE35 \uBCF5\uB3C4\uC758 \uC7A0\uAE34
+        \uBC29 \uD655\uC778\uD558\uAE30"
+      optional: 1
+    - id: 5968941f86f7740d1570bbd2
+      description: "[Portable bunkhouse key] \uD68D\uB4DD\uD558\uAE30"
+      optional: 1
+    - id: 5968948986f7740d121082d4
+      description: "[\uBCF4\uC548 \uCF00\uC774\uC2A4 0031] \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+    - id: 596762ec86f77426d3687a87
+      description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+  - key: 5967725e86f774601a446662
+    name: Shaking Up the Teller
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 5968981986f7740d1648df42
+      description: "\uC138\uAD00(Customs) 3\uCE35\uC9DC\uB9AC \uAE30\uC219\uC0AC
+        203\uD638\uC5D0\uC11C \uAC00\uCE58 \uC788\uB294 \uBB3C\uAC74 \uD68C\uC218\uD558\uAE30"
+      optional: 0
+    - id: 5a3fc03286f77414d64f9941
+      description: "\uAE30\uC219\uC0AC 214\uD638\uC5D0 \uB4E4\uC5B4\uAC08 \uBC29\uBC95
+        \uCC3E\uAE30"
+      optional: 1
+    - id: 5968988286f7740d14064724
+      description: "\uD68C\uC218\uD55C \uBB3C\uAC74 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 59689fbd86f7740d137ebfc4
+    name: Operation Aquarius
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 5a3fb73b86f77458e0324376
+      description: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC\uC5D0\uC11C \uBB3C\uC774
+        \uC228\uACA8\uC9C4 \uD638\uC2E4 \uCC3E\uAE30"
+      optional: 0
+    - id: 6a541b897b253a0f64adfafc
+      description: "\uB808\uC774\uB4DC\uC5D0\uC11C \uBC1C\uACAC\uD55C \uBB3C \uCE74\uD14C\uACE0\uB9AC
+        \uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 5969f9e986f7741dde183a50
+    name: Pharmacist
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 5969fa4886f7741ddb481544
+      description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC758\uB8CC\uC7A5\uBE44\uAC00
+        \uB4E4\uC5B4\uC788\uB294 \uAC00\uBC29 \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+    - id: 5a3fb8f686f7742384533f10
+      description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uAD6C\uC870\uB300\uC6D0\uC758
+        \uC790\uB3D9\uCC28 \uCC3E\uAE30"
+      optional: 1
+    - id: 5a3fb92286f77422b46cdb18
+      description: "\uC138\uAD00(Customs)\uC5D0 \uC704\uCE58\uD55C 2\uCE35\uC9DC\uB9AC
+        \uAE30\uC219\uC0AC\uC758 114\uD638\uC2E4\uC5D0 \uB4E4\uC5B4\uAC00\uAE30"
+      optional: 1
+    - id: 5969fa8986f7741ddc2d3154
+      description: "\uD14C\uB77C\uD53C\uC2A4\uD2B8\uC5D0\uAC8C \uAC00\uBC29 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 596b43fb86f77457ca186186
+    name: The Extortionist
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 596b44b686f77457cb50ecca
+      description: "\uC138\uAD00(Customs)\uC5D0\uC11C [\uBCF4\uC548 \uCF00\uC774\uC2A4
+        0048] \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+    - id: 5a3fbabc86f774231d75afbe
+      description: "\uBC30\uB2EC\uBD80\uC758 \uC2DC\uCCB4 \uCC3E\uAE30"
+      optional: 1
+    - id: 5a3fbab086f77421593d9bf0
+      description: "\uBC30\uB2EC\uBD80\uAC00 \uC228\uACA8\uB454 \uBB3C\uAC74\uC758
+        \uC704\uCE58 \uCC3E\uAE30"
+      optional: 1
+    - id: 596b450986f7745a7e510b54
+      description: "\uD68C\uC218\uD55C \uBB3C\uAC74 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 5979eee086f774311955e614
+    name: Golden Swag
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 5979ef4586f77431307dc513
+      description: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC\uC758 303\uD638\uC2E4\uC5D0\uC11C
+        \uD669\uAE08\uC0C9 \uC9C0\uBF40 \uB77C\uC774\uD130 \uD68D\uB4DD\uD558\uAE30"
+      optional: 0
+    - id: 6a5a91ade94475b65ec117ef
+      description: "\uD669\uAE08\uC0C9 \uC9C0\uBF40 \uB77C\uC774\uD130 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+    - id: 5979ef7986f77431307dc514
+      description: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC\uC758 303\uD638\uC2E4\uC5D0\uC11C
+        \uC77C\uBC18 \uC9C0\uBF40 \uB77C\uC774\uD130 \uC228\uAE30\uAE30"
+      optional: 0
+  - key: 5979f9ba86f7740f6c3fe9f2
+    name: Chemical - Part 1
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 5979fc2686f77426d702a0f2
+      description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uBCF4\uC548 \uBD80\uC7A5\uC758
+        \uACFC\uAC70 \uC2DC\uC808\uC5D0 \uB300\uD55C \uC815\uBCF4 \uCC3E\uAE30"
+      optional: 0
+    - id: 5a3fbbfd86f77459d52a16a8
+      description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC804 \uBCF4\uC548 \uBD80\uC7A5\uC758
+        \uAC70\uCC98 \uCC3E\uAE30"
+      optional: 1
+    - id: 5979fc5386f77426d702a0f3
+      description: "\uC218\uC0AC\uC5D0 \uB3C4\uC6C0 \uB420\uB9CC\uD55C \uBB3C\uAC74
+        \uCC3E\uAE30"
+      optional: 0
+    - id: 5979fc7e86f77426d702a0f4
+      description: "\uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+    - id: 5979fc9286f77426d702a0f5
+      description: "\uBB3C\uAC74 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 597a0b2986f77426d66c0633
+    name: Chemical - Part 2
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 597a0be986f774273b74f673
+      description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC870\uC0AC\uC5D0 \uB3C4\uC6C0
+        \uB420\uB9CC\uD55C \uC99D\uAC70 \uCC3E\uAE30"
+      optional: 0
+    - id: 597a0bb486f77426d66c0634
+      description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC870\uC0AC\uC5D0 \uB3C4\uC6C0
+        \uB420\uB9CC\uD55C \uC815\uBCF4 \uCC3E\uAE30"
+      optional: 0
+    - id: 597a0bf886f7742717106d13
+      description: "\uC99D\uAC70 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+    - id: 597a0bdb86f7742717106d12
+      description: "\uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 59c124d686f774189b3c843f
+    name: Oil Run
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 59c128b986f77415037680df
+      description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC544\uBB34 \uC720\uC870\uCC28\uC5D0
+        MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
+      optional: 0
+  - key: 5a27b7a786f774579c3eb376
+    name: Tigr Safari
+    trader: "\uD53C\uC2A4\uD0A4\uD37C"
+    objectives:
+    - id: 66698a9eddc21e9441645819
+      description: "\uC138\uAD00\uC5D0\uC11C UN \uD2F0\uADF8\uB974(Tigr) \uCC28\uB7C9
+        \uC911 \uD558\uB098\uC5D0 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
+      optional: 0
+  - key: 5a27bafb86f7741c73584017
+    name: Chemical Experiments
+    trader: "\uD53C\uC2A4\uD0A4\uD37C"
+    objectives:
+    - id: 6a5c10e883a51e292d11b976
+      description: "\uC138\uAD00 \uC758\uB8CC \uC5F0\uAD6C\uC2E4\uC5D0 \uC8FC\uB984\uAD00
+        \uC228\uAE30\uAE30"
+      optional: 0
+  - key: 5ac3462b86f7741d6118b983
+    name: Farming
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 5ac6248586f77416781dd3a3
+      description: "[\uADF8\uB798\uD53D \uCE74\uB4DC\uAC00 \uB2F4\uAE34 \uC0C1\uC790]
+        \uD68C\uC218\uD558\uAE30"
+      optional: 0
+    - id: 5ac6240786f77417204ca2b9
+      description: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC555\uB958\uB41C \uBB3C\uD488\uC744
+        \uBCF4\uAD00\uD558\uB294 \uCC3D\uACE0 \uCC3E\uAE30"
+      optional: 0
+    - id: 5ac624b286f77416781dd3ac
+      description: "[\uADF8\uB798\uD53D \uCE74\uB4DC\uAC00 \uB2F4\uAE34 \uC0C1\uC790]
+        \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 5b478ff486f7744d184ecbbf
+    name: Supplements
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 5b47905886f7746807461fe2
+      description: "\uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+    - id: 5cb5ffd986f7746ef55de2c7
+      description: "\uB808\uC774\uB4DC\uC5D0\uC11C \uC544\uC774\uD15C \uCC3E\uAE30:
+        \uD638\uD761\uAE30"
+      optional: 0
+    - id: 5ec1388d83b69d213d3c2ee0
+      description: "\uB808\uC774\uB4DC\uC5D0\uC11C \uC544\uC774\uD15C \uCC3E\uAE30:
+        \uC758\uB8CC\uC6A9 \uD608\uC561 \uC138\uD2B8"
+      optional: 0
+    - id: 5b4790a886f774563c7a489f
+      description: "\uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+    - id: 6a5ab1920a2a6d86771ee14a
+      description: "\uC138\uAD00\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8 \uBC14\uC774\uC54C\uC744
+        \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+    - id: 6a5ab19ed7c5bd68ea2803b6
+      description: "\uBC14\uC774\uC54C \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 5d25e44386f77409453bce7b
+    name: The Huntsman Path - Angry Watchman
+    trader: "\uC608\uAC70"
+    objectives:
+    - id: 5d2733c586f7741dea4f3072
+      description: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC \uC9C0\uC5ED\uC5D0\uC11C
+        PMC \uC0AC\uC0B4\uD558\uAE30"
+      optional: 0
+  - key: 60e71b9bbd90872cb85440f3
+    name: Capturing Outposts
+    trader: "\uD504\uB77C\uD37C"
+    objectives:
+    - id: 60ec18b73b5f7d790a7ad034
+      description: "\uC138\uAD00, \uD574\uC548\uC120 \uB610\uB294 \uC0BC\uB9BC\uC758
+        \uC9C0\uC815\uB41C \uC2A4\uCE90\uBE0C \uAE30\uC9C0\uC5D0\uC11C PMC \uCC98\uCE58\uD558\uAE30"
+      optional: 0
+  - key: 60e71d6d7fcf9c556f325055
+    name: The Courier
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 60e85b2a26b88043510e0ada
+      description: "\uC138\uAD00(Customs)\uC758 \uC2E0 \uC8FC\uC720\uC18C \uB4A4\uD3B8\uC758
+        \uC4F0\uB808\uAE30\uD1B5 \uB4A4\uC5D0 [Trijicon REAP-IR \uC5F4\uD654\uC0C1
+        \uC870\uC900\uACBD] \uC228\uACA8\uB450\uAE30"
+      optional: 0
+  - key: 66aa74571e5e199ecd094f18
+    name: Secrets of Polikhim
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 66aa74571e5e199ecd094f1b
+      description: "\uC138\uAD00\uC5D0\uC11C \uACF5\uC7A5\uC73C\uB85C \uD2B8\uB79C\uC9D3
+        \uC774\uC6A9\uD558\uAE30 (\uD55C \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
+      optional: 0
+    - id: 66ab97a5c74ce045d6c32578
+      description: "\uC138\uAD00 \uC758\uB8CC \uC5F0\uAD6C\uC2E4\uC5D0\uC11C \uC815\uBC00
+        \uACF5\uAD6C \uAFB8\uB7EC\uBBF8\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+    - id: 66ab97d56cb6e3bfd7c79fbc
+      description: "\uACF5\uC7A5 \uC5F0\uAD6C\uC2E4 \uCC3D\uACE0\uC5D0 \uAFB8\uB7EC\uBBF8
+        \uC228\uAE30\uAE30"
+      optional: 0
+  - key: 673f4e956f1b89c7bc0f56ef
+    name: Hot Wheels
+    trader: "BTR \uC870\uC885\uC218"
+    objectives:
+    - id: 673f507029a1128d5c4d7498
+      description: "\uC608\uBE44 BTR \uBC14\uD034\uC5D0 MS2000 \uB9C8\uCEE4\uB85C
+        \uD45C\uC2DC\uD558\uAE30"
+      optional: 0
+    - id: 673f5065cdfe082966842575
+      description: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
+      optional: 1
+  - key: 6744af0969a58fceba101fed
+    name: The Price of Independence
+    trader: "BTR \uC870\uC885\uC218"
+    objectives:
+    - id: 6745c8ccb4adeab3910332cc
+      description: "\uC138\uAD00\uC5D0\uC11C \uBC94\uC8C4 \uC99D\uAC70\uAC00 \uB2F4\uAE34
+        \uD3B8\uC9C0\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+    - id: 6745c8ee54d6972417ad7bad
+      description: "\uC138\uAD00\uC5D0\uC11C \uB9AC\uC800\uBE0C\uB85C \uD2B8\uB79C\uC9D3
+        \uC774\uC6A9\uD558\uAE30"
+      optional: 0
+    - id: 6745c8de22c7ee46e3319c34
+      description: "\uB9AC\uC800\uBE0C \uAD70 \uBCF8\uBD80 3\uCE35\uC5D0 \uD3B8\uC9C0
+        \uC228\uAE30\uAE30"
+      optional: 0
+    - id: 6745c90842db81af412eae97
+      description: "\uB9AC\uC800\uBE0C\uC5D0\uC11C \uC0BC\uB9BC\uC73C\uB85C \uD2B8\uB79C\uC9D3
+        \uC774\uC6A9\uD558\uAE30"
+      optional: 0
+    - id: 6745c9482ac6bee79dca869a
+      description: "\uC0BC\uB9BC\uC5D0\uC11C \uC544\uBB34 \uB300\uC0C1\uC774\uB098
+        \uCC98\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 6745c9623d362cd373b1de93
+      description: "\uC0BC\uB9BC\uC5D0\uC11C \uB4F1\uB300\uB85C \uD2B8\uB79C\uC9D3
+        \uC774\uC6A9\uD558\uAE30"
+      optional: 0
+    - id: 6745c986a3e10e0bf6472d8e
+      description: "\uB4F1\uB300 \uAE30\uCC28\uC5ED \uCC3D\uACE0\uC5D0\uC11C \uB178\uB780\uC0C9
+        \uC2E0\uD638\uD0C4 \uBC1C\uC0AC\uD558\uAE30"
+      optional: 0
+    - id: 6745c992bf76b3aeaf6370e0
+      description: "\uB4F1\uB300 \uBD80\uB450\uC5D0\uC11C \uB178\uB780\uC0C9 \uC2E0\uD638\uD0C4
+        \uBC1C\uC0AC\uD558\uAE30"
+      optional: 0
+    - id: 6745c9b89c84a273d4a2dc28
+      description: "\uB2E4\uB978 \uBAA9\uD45C\uB97C \uC9C4\uD589\uD558\uB294 \uB3D9\uC548
+        \uC2A4\uCE90\uBE0C \uCC98\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 6745c9a86086867a2c723e9d
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0\uC11C \uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+  - key: 6745cbee909d2013670a4a55
+    name: The Price of Independence
+    trader: "BTR \uC870\uC885\uC218"
+    objectives:
+    - id: 6745cbee909d2013670a4a60
+      description: "\uC138\uAD00\uC5D0\uC11C \uBC94\uC8C4 \uC99D\uAC70\uAC00 \uB2F4\uAE34
+        \uD3B8\uC9C0\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+    - id: 6745cbee909d2013670a4a61
+      description: "\uC138\uAD00\uC5D0\uC11C \uB9AC\uC800\uBE0C\uB85C \uD2B8\uB79C\uC9D3
+        \uC774\uC6A9\uD558\uAE30"
+      optional: 0
+    - id: 6745cbee909d2013670a4a63
+      description: "\uB9AC\uC800\uBE0C \uAD70 \uBCF8\uBD80 3\uCE35\uC5D0 \uD3B8\uC9C0
+        \uC228\uAE30\uAE30"
+      optional: 0
+    - id: 6745cbee909d2013670a4a64
+      description: "\uB9AC\uC800\uBE0C\uC5D0\uC11C \uC0BC\uB9BC\uC73C\uB85C \uD2B8\uB79C\uC9D3
+        \uC774\uC6A9\uD558\uAE30"
+      optional: 0
+    - id: 6745cbee909d2013670a4a66
+      description: "\uC0BC\uB9BC\uC5D0\uC11C \uC544\uBB34 \uB300\uC0C1\uC774\uB098
+        \uCC98\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 6745cbee909d2013670a4a68
+      description: "\uC0BC\uB9BC\uC5D0\uC11C \uB4F1\uB300\uB85C \uD2B8\uB79C\uC9D3
+        \uC774\uC6A9\uD558\uAE30"
+      optional: 0
+    - id: 6745cbee909d2013670a4a6a
+      description: "\uB4F1\uB300 \uAE30\uCC28\uC5ED \uCC3D\uACE0\uC5D0\uC11C \uB178\uB780\uC0C9
+        \uC2E0\uD638\uD0C4 \uBC1C\uC0AC\uD558\uAE30"
+      optional: 0
+    - id: 6745cbee909d2013670a4a6c
+      description: "\uB4F1\uB300 \uBD80\uB450\uC5D0\uC11C \uB178\uB780\uC0C9 \uC2E0\uD638\uD0C4
+        \uBC1C\uC0AC\uD558\uAE30"
+      optional: 0
+    - id: 6745cbee909d2013670a4a6e
+      description: "\uB2E4\uB978 \uBAA9\uD45C\uB97C \uC9C4\uD589\uD558\uB294 \uB3D9\uC548
+        \uC2A4\uCE90\uBE0C \uCC98\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 6745cbee909d2013670a4a70
+      description: "\uB4F1\uB300(Lighthouse)\uC5D0\uC11C \uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
+      optional: 0
+  - key: 675c03d1f7da9792a405549a
+    name: Abandoned Cargo
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 675c0444db2b69f48942f37c
+      description: "\uC138\uAD00\uC5D0\uC11C \uD14C\uB77C\uADF8\uB8F9 \uD2B9\uC218
+        \uD654\uBB3C \uC0C1\uC790 \uC911 \uD558\uB098\uC5D0 MS2000 \uB9C8\uCEE4\uB85C
+        \uD45C\uC2DC\uD558\uAE30"
+      optional: 0
+    - id: 6a574fe188bf38e4f6c954f6
+      description: "\uC138\uAD00\uC5D0\uC11C \uCCAB \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
+        \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
+      optional: 1
+    - id: 6a574ff13e5804d879146872
+      description: "\uC138\uAD00\uC5D0\uC11C \uB450 \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
+        \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
+      optional: 1
+    - id: 6a574ff78f1b3fc8bdbb8755
+      description: "\uC138\uAD00\uC5D0\uC11C \uC138 \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
+        \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
+      optional: 1
+    - id: 6a574ffc261a237f28375818
+      description: "\uC138\uAD00\uC5D0\uC11C \uB124 \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
+        \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
+      optional: 1
+    - id: 6a575000eddb07c675a2567c
+      description: "\uC138\uAD00\uC5D0\uC11C \uB2E4\uC12F \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
+        \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
+      optional: 1
+    - id: 6a575004d14917ff71ab6aec
+      description: "\uC138\uAD00\uC5D0\uC11C \uC5EC\uC12F \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
+        \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
+      optional: 1
+    - id: 6a57500b923ac62ea96d47aa
+      description: "\uC138\uAD00\uC5D0\uC11C \uC77C\uACF1 \uBC88\uC9F8 \uD14C\uB77C\uADF8\uB8F9
+        \uD2B9\uC218 \uD654\uBB3C \uCC3E\uAE30"
+      optional: 1
+  - key: 675c047fa46173572a0bd878
+    name: Shipment Tracking
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 675c04b3fc6b273a36ed294a
+      description: "\uC138\uAD00\uC5D0\uC11C \uD14C\uB77C\uADF8\uB8F9 \uD654\uBB3C
+        \uBAA9\uB85D\uC744 \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+    - id: 675c04c1b68cc8180efb38c6
+      description: "\uCC3E\uC740 \uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 675c04f4db8807b75d0f38e8
+    name: Closer to the People
+    trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
+    objectives:
+    - id: 675c04f4db8807b75d0f38eb
+      description: "\uC138\uAD00\uC5D0\uC11C \uBC30\uC1A1\uD300\uC758 \uD654\uBB3C
+        \uAE30\uB85D\uC744 \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+    - id: 675c04f4db8807b75d0f38ec
+      description: "\uCC3E\uC740 \uC815\uBCF4 \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 675c1570526ff496850895d9
+    name: Passion for Ergonomics
+    trader: "\uBA54\uCE74\uB2C9"
+    objectives:
+    - id: 675c15916580a378dc0f012f
+      description: "\uC138\uAD00 \uCC28\uACE0 \uB2E8\uC9C0\uC5D0\uC11C \uAC1C\uC870\uB41C
+        \uACF5\uAD6C \uC138\uD2B8\uB97C \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+    - id: 675c1595a4c063af74ee5279
+      description: "\uCC3E\uC740 \uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
+  - key: 675c15fbf7da9792a4059871
+    name: Provide Viewership
+    trader: "\uB808\uD504"
+    objectives:
+    - id: 675c1c87caddcfa893af10e9
+      description: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0 \uCCAB
+        \uBC88\uC9F8 WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 676047054c9696a7d071bc08
+      description: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0 \uB450
+        \uBC88\uC9F8 WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 6760470877d1b7790af5de11
+      description: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0 \uC138
+        \uBC88\uC9F8 WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 6760470b7d65f702a6295820
+      description: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0 \uB124
+        \uBC88\uC9F8 WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 675c1c980fd114390c638b89
+      description: "\uC138\uAD00 \uACF5\uC5C5 \uB2E8\uC9C0 \uB0B4\uBD80\uC5D0\uC11C
+        \uC544\uBB34 \uB300\uC0C1\uC774\uB098 \uCC98\uCE58\uD558\uAE30"
+      optional: 0
+  - key: 675c1cf4a757ddd00404f0a3
+    name: Work Smarter
+    trader: "\uC608\uAC70"
+    objectives:
+    - id: 675c1cf4a757ddd00404f0a6
+      description: "\uC138\uAD00\uC758 \uBE44\uBC00 \uD0C8\uCD9C\uAD6C \uCC3E\uAE30"
+      optional: 0
+    - id: 676ab31c058363b09072c78e
+      description: "\uBE44\uBC00 \uD0C8\uCD9C\uAD6C\uB85C \uD0C8\uCD9C\uD558\uB294
+        \uB370 \uD544\uC694\uD55C \uD2B9\uC218 \uC544\uC774\uD15C \uD655\uBCF4\uD558\uAE30"
+      optional: 1
+  - key: 675c1ec7a46173572a0bf20a
+    name: Rite of Passage
+    trader: "\uC608\uAC70"
+    objectives:
+    - id: 675c1f040a1128e59422a876
+      description: "\uC138\uAD00 \uAD6C \uC8FC\uC720\uC18C\uC5D0\uC11C \uC2A4\uCE90\uBE0C
+        \uCC98\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 675c1f17cf59d5433be7ae77
+      description: "\uC138\uAD00 \uC2E0 \uC8FC\uC720\uC18C\uC5D0\uC11C \uC2A4\uCE90\uBE0C
+        \uCC98\uCE58\uD558\uAE30"
+      optional: 0
+    - id: 675c1f311bd716cdb87947d1
+      description: "\uB808\uC774\uB4DC\uC5D0\uC11C \uCC3E\uC740 \uC544\uC774\uD15C
+        \uAC74\uB124\uC8FC\uAE30: \uAE08\uC18D \uC5F0\uB8CC \uD0F1\uD06C"
+      optional: 0
+  - key: 675c3582f6ddc329a90f9c6d
+    name: Private Club
+    trader: "\uC2A4\uD0A4\uC5B4"
+    objectives:
+    - id: 675c37d2da4b531ba8daaadd
+      description: "\uC138\uAD00\uC5D0\uC11C \uC2A4\uD0A4\uC5B4\uC758 \uC9C0\uAC11\uC744
+        \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
+      optional: 0
+    - id: 675c37e07ac1a33fff170966
+      description: "\uCC3E\uC740 \uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
+      optional: 0
