@@ -1342,7 +1342,7 @@ MonoBehaviour:
     position: {x: 137.963, y: 24.107, z: 268.126}
   - type: 6
     key: 5ae448e586f7744dcf0c2a67
-    name: Big Sale
+    name: "\uB9E4\uC7A5 \uAD6C\uACBD"
     group: "\uB798\uADF8\uB9E8"
     objective: 5ae4508386f7741250488337
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0 \uC788\uB294 AVOKADO
@@ -1350,7 +1350,7 @@ MonoBehaviour:
     position: {x: -33.16, y: 28.63, z: 25.81}
   - type: 6
     key: 5ae448e586f7744dcf0c2a67
-    name: Big Sale
+    name: "\uB9E4\uC7A5 \uAD6C\uACBD"
     group: "\uB798\uADF8\uB9E8"
     objective: 5ae450db86f7741250488359
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0 \uC788\uB294 KOSTIN
@@ -1358,7 +1358,7 @@ MonoBehaviour:
     position: {x: -24.67, y: 28.62, z: -103.52}
   - type: 6
     key: 5ae448e586f7744dcf0c2a67
-    name: Big Sale
+    name: "\uB9E4\uC7A5 \uAD6C\uACBD"
     group: "\uB798\uADF8\uB9E8"
     objective: 5ae450ee86f7740f9307859d
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0 \uC788\uB294 tRend
@@ -1366,7 +1366,7 @@ MonoBehaviour:
     position: {x: 64.17, y: 28.07, z: -155.4}
   - type: 6
     key: 5ae448e586f7744dcf0c2a67
-    name: Big Sale
+    name: "\uB9E4\uC7A5 \uAD6C\uACBD"
     group: "\uB798\uADF8\uB9E8"
     objective: 5ae4510786f7740fa614399f
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0 \uC788\uB294 DINO
@@ -1374,7 +1374,7 @@ MonoBehaviour:
     position: {x: 94.39, y: 28.16, z: -120.64}
   - type: 6
     key: 5ae448e586f7744dcf0c2a67
-    name: Big Sale
+    name: "\uB9E4\uC7A5 \uAD6C\uACBD"
     group: "\uB798\uADF8\uB9E8"
     objective: 5ae4511d86f7740ffc31ccb5
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0 \uC788\uB294 TOP BRAND
@@ -1382,7 +1382,7 @@ MonoBehaviour:
     position: {x: 94.2, y: 28.2, z: 10.22}
   - type: 6
     key: 5ae448f286f77448d73c0131
-    name: Fuel Crisis
+    name: "\uC5F0\uB8CC \uC704\uAE30"
     group: "\uB798\uADF8\uB9E8"
     objective: 5ae452c086f774336a397578
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC758 \uBC1C\uC804\uC18C
@@ -1391,7 +1391,7 @@ MonoBehaviour:
     position: {x: -208.36, y: 22.84, z: -74.42}
   - type: 6
     key: 5ae448f286f77448d73c0131
-    name: Fuel Crisis
+    name: "\uC5F0\uB8CC \uC704\uAE30"
     group: "\uB798\uADF8\uB9E8"
     objective: 5ae452c086f774336a397578
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC758 \uBC1C\uC804\uC18C
@@ -1400,7 +1400,7 @@ MonoBehaviour:
     position: {x: -172.62, y: 22.81, z: -359.48}
   - type: 6
     key: 5ae448f286f77448d73c0131
-    name: Fuel Crisis
+    name: "\uC5F0\uB8CC \uC704\uAE30"
     group: "\uB798\uADF8\uB9E8"
     objective: 5ae452de86f77450595c4333
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC758 \uBD81\uBD80\uC758
@@ -1408,7 +1408,7 @@ MonoBehaviour:
     position: {x: 429.07, y: 28.67, z: 125.04}
   - type: 6
     key: 5ae448f286f77448d73c0131
-    name: Fuel Crisis
+    name: "\uC5F0\uB8CC \uC704\uAE30"
     group: "\uB798\uADF8\uB9E8"
     objective: 5ae452de86f77450595c4333
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC758 \uBD81\uBD80\uC758
@@ -1416,21 +1416,21 @@ MonoBehaviour:
     position: {x: 40.74, y: 23.23, z: 308.33}
   - type: 7
     key: 5ae4493486f7744efa289417
-    name: Inventory Files
+    name: "\uC7AC\uACE0 \uBAA9\uB85D \uBB38\uC11C"
     group: "\uB798\uADF8\uB9E8"
     objective: 5ae9b32486f7745bbc72275a
     detail: "Goshan \uD654\uBB3C \uBAA9\uB85D"
     position: {x: -76.48059, y: 27.959812, z: -157.71924}
   - type: 7
     key: 5ae4493486f7744efa289417
-    name: Inventory Files
+    name: "\uC7AC\uACE0 \uBAA9\uB85D \uBB38\uC11C"
     group: "\uB798\uADF8\uB9E8"
     objective: 5ae9b36c86f774307c29df04
     detail: "OLI \uD654\uBB3C \uBAA9\uB85D"
     position: {x: 38.008423, y: 27.952808, z: 147.14368}
   - type: 7
     key: 5ae4493486f7744efa289417
-    name: Inventory Files
+    name: "\uC7AC\uACE0 \uBAA9\uB85D \uBB38\uC11C"
     group: "\uB798\uADF8\uB9E8"
     objective: 5ae9b3b186f7745bbc722762
     detail: "IDEA \uD654\uBB3C \uBAA9\uB85D"
@@ -1444,21 +1444,21 @@ MonoBehaviour:
     position: {x: 86.60339, y: 28.06081, z: 120.86072}
   - type: 7
     key: 5ae4498786f7744bde357695
-    name: The Key to Success
+    name: "\uC131\uACF5\uC744 \uC704\uD55C \uC5F4\uC1E0"
     group: "\uB798\uADF8\uB9E8"
     objective: 5ae9c0a686f774703201f143
     detail: "\uC758\uB958 \uB514\uC790\uC778 \uD578\uB4DC\uBD81 \uC81C1\uAD8C"
     position: {x: 20.271362, y: 36.60581, z: -4.425293}
   - type: 7
     key: 5ae4498786f7744bde357695
-    name: The Key to Success
+    name: "\uC131\uACF5\uC744 \uC704\uD55C \uC5F4\uC1E0"
     group: "\uB798\uADF8\uB9E8"
     objective: 5ae9c0e186f7746419683c5e
     detail: "\uC758\uB958 \uB514\uC790\uC778 \uD578\uB4DC\uBD81 \uC81C2\uAD8C"
     position: {x: -31.44458, y: 27.566807, z: -136.19128}
   - type: 6
     key: 5ae449c386f7744bde357697
-    name: Pathfinder
+    name: "\uAE38\uC7A1\uC774"
     group: "\uB798\uADF8\uB9E8"
     objective: 5bb60cbc88a45011a8235cc5
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC758 Railway Exfil \uD0C8\uCD9C\uAD6C
@@ -1466,7 +1466,7 @@ MonoBehaviour:
     position: {x: 462.9, y: 27.22, z: -415.8}
   - type: 6
     key: 5ae449c386f7744bde357697
-    name: Pathfinder
+    name: "\uAE38\uC7A1\uC774"
     group: "\uB798\uADF8\uB9E8"
     objective: 6a60968c58aab7961885e537
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC758 Emercom Checkpoint
@@ -1474,7 +1474,7 @@ MonoBehaviour:
     position: {x: -311.5, y: 21.33, z: 260.36}
   - type: 6
     key: 5ae449c386f7744bde357697
-    name: Pathfinder
+    name: "\uAE38\uC7A1\uC774"
     group: "\uB798\uADF8\uB9E8"
     objective: 6a6096d81284478fd859003a
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC758 Power Station V-Ex
@@ -1482,7 +1482,7 @@ MonoBehaviour:
     position: {x: -252.22, y: 21.84, z: -367.17}
   - type: 6
     key: 5ae449d986f774453a54a7e1
-    name: Supervisor
+    name: "\uAC10\uB3C5\uAD00"
     group: "\uB798\uADF8\uB9E8"
     objective: 6a60aab8ada1a08abcaa3649
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC758 BIZARRO \uB9E4\uC7A5\uC5D0
@@ -1490,7 +1490,7 @@ MonoBehaviour:
     position: {x: -62.01, y: 27.6, z: -99.06}
   - type: 6
     key: 5ae449d986f774453a54a7e1
-    name: Supervisor
+    name: "\uAC10\uB3C5\uAD00"
     group: "\uB798\uADF8\uB9E8"
     objective: 6a60aaba4566667d4c8eefad
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC758 9\uBC88 \uACC4\uC0B0\uB300\uC5D0
@@ -1498,7 +1498,7 @@ MonoBehaviour:
     position: {x: 25.28, y: 28.24, z: -242.53}
   - type: 6
     key: 5ae449d986f774453a54a7e1
-    name: Supervisor
+    name: "\uAC10\uB3C5\uAD00"
     group: "\uB798\uADF8\uB9E8"
     objective: 6a60aabcecee1ccc0876e5e6
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC758 7-8\uBC88 \uACC4\uC0B0\uB300\uC5D0
@@ -1506,7 +1506,7 @@ MonoBehaviour:
     position: {x: -3.16, y: 28.24, z: 99.79}
   - type: 6
     key: 5b478b1886f7744d1b23c57d
-    name: Hot Delivery
+    name: "\uD035\uC11C\uBE44\uC2A4"
     group: "\uB798\uADF8\uB9E8"
     objective: 5b478c4c86f7744d1a393fac
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0
@@ -1514,7 +1514,7 @@ MonoBehaviour:
     position: {x: -50.39, y: 27.69, z: 25.08}
   - type: 6
     key: 5b478b1886f7744d1b23c57d
-    name: Hot Delivery
+    name: "\uD035\uC11C\uBE44\uC2A4"
     group: "\uB798\uADF8\uB9E8"
     objective: 5b478c7386f7744d1a393fb1
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0\uC758 \uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0
@@ -1522,7 +1522,7 @@ MonoBehaviour:
     position: {x: -50.39, y: 27.69, z: 25.08}
   - type: 6
     key: 5b478b1886f7744d1b23c57d
-    name: Hot Delivery
+    name: "\uD035\uC11C\uBE44\uC2A4"
     group: "\uB798\uADF8\uB9E8"
     objective: 5b478cb586f7744d1a393fb5
     detail: "\uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 [BNTI Gzhel-K \uBC29\uD0C4\uBCF5]
@@ -1530,7 +1530,7 @@ MonoBehaviour:
     position: {x: 179.86, y: 22.31, z: -40.9}
   - type: 6
     key: 5b478d0f86f7744d190d91b5
-    name: Minibus
+    name: "\uBBF8\uB2C8\uBC84\uC2A4"
     group: "\uB798\uADF8\uB9E8"
     objective: 5b478d8986f774563c7a4809
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0\uC11C \uCCAB \uBC88\uC9F8
@@ -1538,7 +1538,7 @@ MonoBehaviour:
     position: {x: 109.87, y: 22.33, z: 288.77}
   - type: 6
     key: 5b478d0f86f7744d190d91b5
-    name: Minibus
+    name: "\uBBF8\uB2C8\uBC84\uC2A4"
     group: "\uB798\uADF8\uB9E8"
     objective: 5b478daf86f7744d1c35339b
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0\uC11C \uB450 \uBC88\uC9F8
@@ -1546,7 +1546,7 @@ MonoBehaviour:
     position: {x: 17.56, y: 22.83, z: -25.5}
   - type: 6
     key: 5b478d0f86f7744d190d91b5
-    name: Minibus
+    name: "\uBBF8\uB2C8\uBC84\uC2A4"
     group: "\uB798\uADF8\uB9E8"
     objective: 5b478dca86f7744d190d91c2
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0\uC11C \uC138 \uBC88\uC9F8
@@ -1554,7 +1554,7 @@ MonoBehaviour:
     position: {x: -49.77, y: 22.85, z: 59.04}
   - type: 6
     key: 5b47926a86f7747ccc057c15
-    name: Informed Means Armed
+    name: "\uC544\uB294 \uAC83\uC774 \uD798\uC774\uB2E4"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5b47938086f7747ccc057c22
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0 \uC788\uB294 Kiba
@@ -1563,7 +1563,7 @@ MonoBehaviour:
     position: {x: 8.1, y: 27.55, z: -36.7}
   - type: 6
     key: 63966ff54c3ef01b6f3ffad8
-    name: Provocation
+    name: "\uB3C4\uBC1C"
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639a76e3e4aa7349085cb6e3
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0\uC11C ASh-12 \uB3CC\uACA9\uC18C\uCD1D\uC744
@@ -1571,7 +1571,7 @@ MonoBehaviour:
     position: {x: -19.36, y: 33.15, z: -239.9}
   - type: 6
     key: 63966ff54c3ef01b6f3ffad8
-    name: Provocation
+    name: "\uB3C4\uBC1C"
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639a76e3e4aa7349085cb6e3
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0\uC11C ASh-12 \uB3CC\uACA9\uC18C\uCD1D\uC744
@@ -1579,7 +1579,7 @@ MonoBehaviour:
     position: {x: -19.36, y: 33.15, z: 129.34}
   - type: 6
     key: 63966ff54c3ef01b6f3ffad8
-    name: Provocation
+    name: "\uB3C4\uBC1C"
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639a76e3e4aa7349085cb6e3
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0\uC11C ASh-12 \uB3CC\uACA9\uC18C\uCD1D\uC744
@@ -1587,7 +1587,7 @@ MonoBehaviour:
     position: {x: -40.71, y: 33.15, z: -54.56}
   - type: 6
     key: 63966ff54c3ef01b6f3ffad8
-    name: Provocation
+    name: "\uB3C4\uBC1C"
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639a77b97cb1a8023d49f683
     detail: "\uD0A4\uBC14 \uC554\uC988 \uCD1D\uAE30 \uC0C1\uC810 \uB0B4\uBD80\uC5D0
@@ -1595,7 +1595,7 @@ MonoBehaviour:
     position: {x: -19.5, y: 27.57, z: -22.4}
   - type: 6
     key: 63966ff54c3ef01b6f3ffad8
-    name: Provocation
+    name: "\uB3C4\uBC1C"
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639a78046402c537c15d012f
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC758 Saferoom Exfil \uD0C8\uCD9C\uAD6C\uC758
@@ -1604,7 +1604,7 @@ MonoBehaviour:
     position: {x: -49.32, y: 21.8, z: 45.03}
   - type: 6
     key: 63966ff54c3ef01b6f3ffad8
-    name: Provocation
+    name: "\uB3C4\uBC1C"
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639a78c27cb1a8023d49f684
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(interchange)\uC758 \uBE44\uBC00 \uCEE8\uD14C\uC774\uB108
@@ -1621,7 +1621,7 @@ MonoBehaviour:
     position: {x: 438.79, y: 32.4, z: 145.6}
   - type: 6
     key: 67a0964e972c11a3f507731b
-    name: Needle in a Haystack
+    name: "\uBAA8\uB798\uC0AC\uC7A5\uC5D0\uC11C \uBC14\uB298 \uCC3E\uAE30"
     group: "\uBA54\uCE74\uB2C9"
     objective: 67a0bc83182c4b0c71edd0ce
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0 \uC704\uCE58\uD55C
@@ -1629,7 +1629,7 @@ MonoBehaviour:
     position: {x: 159.9, y: 23.4, z: -246.7}
   - type: 6
     key: 67a0964e972c11a3f507731b
-    name: Needle in a Haystack
+    name: "\uBAA8\uB798\uC0AC\uC7A5\uC5D0\uC11C \uBC14\uB298 \uCC3E\uAE30"
     group: "\uBA54\uCE74\uB2C9"
     objective: 67a0bc84f19d5b1120a55762
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0 \uC704\uCE58\uD55C
@@ -1663,7 +1663,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 5ae448e586f7744dcf0c2a67
-    name: Big Sale
+    name: "\uB9E4\uC7A5 \uAD6C\uACBD"
     trader: "\uB798\uADF8\uB9E8"
     objectives:
     - id: 5ae4508386f7741250488337
@@ -1692,7 +1692,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5ae448f286f77448d73c0131
-    name: Fuel Crisis
+    name: "\uC5F0\uB8CC \uC704\uAE30"
     trader: "\uB798\uADF8\uB9E8"
     objectives:
     - id: 5ae452c086f774336a397578
@@ -1707,7 +1707,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5ae4493486f7744efa289417
-    name: Inventory Files
+    name: "\uC7AC\uACE0 \uBAA9\uB85D \uBB38\uC11C"
     trader: "\uB798\uADF8\uB9E8"
     objectives:
     - id: 5ae9b32486f7745bbc72275a
@@ -1751,7 +1751,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 5ae4498786f7744bde357695
-    name: The Key to Success
+    name: "\uC131\uACF5\uC744 \uC704\uD55C \uC5F4\uC1E0"
     trader: "\uB798\uADF8\uB9E8"
     objectives:
     - id: 5ae9c0a686f774703201f143
@@ -1775,7 +1775,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 5ae449c386f7744bde357697
-    name: Pathfinder
+    name: "\uAE38\uC7A1\uC774"
     trader: "\uB798\uADF8\uB9E8"
     objectives:
     - id: 5bb60cbc88a45011a8235cc5
@@ -1794,7 +1794,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5ae449d986f774453a54a7e1
-    name: Supervisor
+    name: "\uAC10\uB3C5\uAD00"
     trader: "\uB798\uADF8\uB9E8"
     objectives:
     - id: 6a60aab8ada1a08abcaa3649
@@ -1825,7 +1825,7 @@ MonoBehaviour:
       optional: 1
       thisMap: 0
   - key: 5b478b1886f7744d1b23c57d
-    name: Hot Delivery
+    name: "\uD035\uC11C\uBE44\uC2A4"
     trader: "\uB798\uADF8\uB9E8"
     objectives:
     - id: 5b478c4c86f7744d1a393fac
@@ -1844,7 +1844,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5b478d0f86f7744d190d91b5
-    name: Minibus
+    name: "\uBBF8\uB2C8\uBC84\uC2A4"
     trader: "\uB798\uADF8\uB9E8"
     objectives:
     - id: 5b478d8986f774563c7a4809
@@ -1866,7 +1866,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5b47926a86f7747ccc057c15
-    name: Informed Means Armed
+    name: "\uC544\uB294 \uAC83\uC774 \uD798\uC774\uB2E4"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 5b47932586f7747cc908b5dd
@@ -1881,7 +1881,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 63966ff54c3ef01b6f3ffad8
-    name: Provocation
+    name: "\uB3C4\uBC1C"
     trader: "\uB4F1\uB300\uC9C0\uAE30"
     objectives:
     - id: 639a76e3e4aa7349085cb6e3
@@ -1917,7 +1917,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 67a0964e972c11a3f507731b
-    name: Needle in a Haystack
+    name: "\uBAA8\uB798\uC0AC\uC7A5\uC5D0\uC11C \uBC14\uB298 \uCC3E\uAE30"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 67a0bc81fcbc1c559d09b58f

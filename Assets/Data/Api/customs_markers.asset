@@ -1375,7 +1375,7 @@ MonoBehaviour:
     position: {x: -320.57202, y: 0.94000006, z: -227.806}
   - type: 6
     key: 5b4795fb86f7745876267770
-    name: Chumming
+    name: "\uB5A1\uBC25 \uBFCC\uB9AC\uAE30"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5b4796c086f7745877352c2c
     detail: "\uC138\uAD00(Customs) \uAE30\uC219\uC0AC 3\uCE35\uC5D0 \uC788\uB294
@@ -1392,7 +1392,7 @@ MonoBehaviour:
     position: {x: 171.76, y: 1, z: 160.04}
   - type: 6
     key: 597a0f5686f774273b74f676
-    name: Chemical - Part 4
+    name: "\uD654\uD559 - \uD30C\uD2B8 4"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5a3fbc9586f77459d52a16c4
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744 \uC2E3\uACE0
@@ -1400,7 +1400,7 @@ MonoBehaviour:
     position: {x: 480.77, y: 3.29, z: -76.69}
   - type: 6
     key: 597a0f5686f774273b74f676
-    name: Chemical - Part 4
+    name: "\uD654\uD559 - \uD30C\uD2B8 4"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5a3fbc9586f77459d52a16c4
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744 \uC2E3\uACE0
@@ -1408,7 +1408,7 @@ MonoBehaviour:
     position: {x: 480.77, y: 3.29, z: -76.69}
   - type: 6
     key: 597a0f5686f774273b74f676
-    name: Chemical - Part 4
+    name: "\uD654\uD559 - \uD30C\uD2B8 4"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 59b242ea86f7741e6e0e7a86
     detail: "\uD654\uD559\uBB3C\uC9C8 \uC218\uC1A1 \uCC28\uB7C9\uC5D0 MS2000 \uB9C8\uCEE4
@@ -1416,7 +1416,7 @@ MonoBehaviour:
     position: {x: 480.77, y: 3.29, z: -76.69}
   - type: 6
     key: 597a0f5686f774273b74f676
-    name: Chemical - Part 4
+    name: "\uD654\uD559 - \uD30C\uD2B8 4"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 59b242ea86f7741e6e0e7a86
     detail: "\uD654\uD559\uBB3C\uC9C8 \uC218\uC1A1 \uCC28\uB7C9\uC5D0 MS2000 \uB9C8\uCEE4
@@ -1424,7 +1424,7 @@ MonoBehaviour:
     position: {x: 480.77, y: 3.29, z: -76.69}
   - type: 6
     key: 597a160786f77477531d39d2
-    name: Out of Curiosity
+    name: "\uD638\uAE30\uC2EC\uC73C\uB85C\uBD80\uD130"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a3fc1f286f7744ccc15d643
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744 \uC2E3\uACE0
@@ -1432,7 +1432,7 @@ MonoBehaviour:
     position: {x: 480.77, y: 3.29, z: -76.69}
   - type: 6
     key: 597a160786f77477531d39d2
-    name: Out of Curiosity
+    name: "\uD638\uAE30\uC2EC\uC73C\uB85C\uBD80\uD130"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a3fc1f286f7744ccc15d643
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744 \uC2E3\uACE0
@@ -1440,21 +1440,21 @@ MonoBehaviour:
     position: {x: 480.77, y: 3.29, z: -76.69}
   - type: 6
     key: 597a160786f77477531d39d2
-    name: Out of Curiosity
+    name: "\uD638\uAE30\uC2EC\uC73C\uB85C\uBD80\uD130"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5998366886f77455853b2d9f
     detail: "\uCC28\uB7C9\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
     position: {x: 480.77, y: 3.29, z: -76.69}
   - type: 6
     key: 597a160786f77477531d39d2
-    name: Out of Curiosity
+    name: "\uD638\uAE30\uC2EC\uC73C\uB85C\uBD80\uD130"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5998366886f77455853b2d9f
     detail: "\uCC28\uB7C9\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
     position: {x: 480.77, y: 3.29, z: -76.69}
   - type: 6
     key: 597a171586f77405ba6887d3
-    name: Big Customer
+    name: "\uD070 \uC190"
     group: "\uD504\uB77C\uD37C"
     objective: 5a3fbec386f77413bd5fc20a
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744 \uC2E3\uACE0
@@ -1462,7 +1462,7 @@ MonoBehaviour:
     position: {x: 480.77, y: 3.29, z: -76.69}
   - type: 6
     key: 597a171586f77405ba6887d3
-    name: Big Customer
+    name: "\uD070 \uC190"
     group: "\uD504\uB77C\uD37C"
     objective: 5a3fbec386f77413bd5fc20a
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uD654\uD559\uBB3C\uC9C8\uC744 \uC2E3\uACE0
@@ -1470,7 +1470,7 @@ MonoBehaviour:
     position: {x: 480.77, y: 3.29, z: -76.69}
   - type: 6
     key: 597a171586f77405ba6887d3
-    name: Big Customer
+    name: "\uD070 \uC190"
     group: "\uD504\uB77C\uD37C"
     objective: 5998360886f77456936817f3
     detail: "\uD654\uD559\uBB3C\uC9C8 \uC218\uC1A1 \uCC28\uB7C9\uC5D0 MS2000 \uB9C8\uCEE4
@@ -1478,7 +1478,7 @@ MonoBehaviour:
     position: {x: 480.77, y: 3.29, z: -76.69}
   - type: 6
     key: 597a171586f77405ba6887d3
-    name: Big Customer
+    name: "\uD070 \uC190"
     group: "\uD504\uB77C\uD37C"
     objective: 5998360886f77456936817f3
     detail: "\uD654\uD559\uBB3C\uC9C8 \uC218\uC1A1 \uCC28\uB7C9\uC5D0 MS2000 \uB9C8\uCEE4
@@ -1516,7 +1516,7 @@ MonoBehaviour:
     position: {x: 11.71, y: -0.72, z: 35.59}
   - type: 6
     key: 6834145ebc1f443d7603c8a7
-    name: 'Easy Money - Part 1 [PVE ZONE]'
+    name: "\uC190\uC26C\uC6B4 \uB3C8\uBC8C\uC774 - \uD30C\uD2B8 1 [PVE ZONE]"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 6834145ebc1f443d7603c8ab
     detail: "\uC138\uAD00(Customs)\uC758 \uC2A4\uCE90\uBE0C \uC694\uC0C8 \uB0B4 \uAC70\uC2E4\uC5D0
@@ -1524,7 +1524,7 @@ MonoBehaviour:
     position: {x: 203.19, y: 1.98, z: -116.58}
   - type: 6
     key: 6834145ebc1f443d7603c8a7
-    name: 'Easy Money - Part 1 [PVE ZONE]'
+    name: "\uC190\uC26C\uC6B4 \uB3C8\uBC8C\uC774 - \uD30C\uD2B8 1 [PVE ZONE]"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 6834145ebc1f443d7603c8ab
     detail: "\uC138\uAD00(Customs)\uC758 \uC2A4\uCE90\uBE0C \uC694\uC0C8 \uB0B4 \uAC70\uC2E4\uC5D0
@@ -1532,7 +1532,7 @@ MonoBehaviour:
     position: {x: 206.75, y: 2.05, z: -120.2}
   - type: 6
     key: 6834145ebc1f443d7603c8a7
-    name: 'Easy Money - Part 1 [PVE ZONE]'
+    name: "\uC190\uC26C\uC6B4 \uB3C8\uBC8C\uC774 - \uD30C\uD2B8 1 [PVE ZONE]"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 6834145ebc1f443d7603c8ab
     detail: "\uC138\uAD00(Customs)\uC758 \uC2A4\uCE90\uBE0C \uC694\uC0C8 \uB0B4 \uAC70\uC2E4\uC5D0
@@ -1540,7 +1540,7 @@ MonoBehaviour:
     position: {x: 192.34, y: 2.17, z: -103.75}
   - type: 6
     key: 6834145ebc1f443d7603c8a7
-    name: 'Easy Money - Part 1 [PVE ZONE]'
+    name: "\uC190\uC26C\uC6B4 \uB3C8\uBC8C\uC774 - \uD30C\uD2B8 1 [PVE ZONE]"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 6834145ebc1f443d7603c8ab
     detail: "\uC138\uAD00(Customs)\uC758 \uC2A4\uCE90\uBE0C \uC694\uC0C8 \uB0B4 \uAC70\uC2E4\uC5D0
@@ -1548,7 +1548,7 @@ MonoBehaviour:
     position: {x: 187.22, y: 2.17, z: -101.97}
   - type: 6
     key: 6834145ebc1f443d7603c8a7
-    name: 'Easy Money - Part 1 [PVE ZONE]'
+    name: "\uC190\uC26C\uC6B4 \uB3C8\uBC8C\uC774 - \uD30C\uD2B8 1 [PVE ZONE]"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 6834145ebc1f443d7603c8ab
     detail: "\uC138\uAD00(Customs)\uC758 \uC2A4\uCE90\uBE0C \uC694\uC0C8 \uB0B4 \uAC70\uC2E4\uC5D0
@@ -1648,7 +1648,7 @@ MonoBehaviour:
     position: {x: 255.69, y: 12.21, z: -3.66}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66dad1edbc4fdd0c6eb38c5e
     detail: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uBA38\uB9AC\uC5D0 \uC591\uB3D9\uC774\uB97C
@@ -1656,7 +1656,7 @@ MonoBehaviour:
     position: {x: 568.4, y: 8.03, z: -58.33}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66dad1f00e049ac7abb6d801
     detail: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uC564\uBE4C 3-4 \uC804\uCC28
@@ -1665,7 +1665,7 @@ MonoBehaviour:
     position: {x: 568.47, y: 7.62, z: -80.72}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66dad1f22edc2103eb176de8
     detail: "\uC138\uAD00(Customs)\uC5D0 \uC788\uB294 \uBAA8\uB4E0 \uC778\uB514 \uAC1C\uBC1C\uC790\uB4E4\uC758
@@ -1744,49 +1744,49 @@ MonoBehaviour:
     position: {x: 502.76, y: 15.97, z: 91.81}
   - type: 7
     key: 5936da9e86f7742d65037edf
-    name: Background Check
+    name: "\uBC30\uACBD \uC870\uC0AC"
     group: "\uD504\uB77C\uD37C"
     objective: 5968ec9986f7741ddd6c1012
     detail: "\uBAA9\uAC78\uC774\uC5D0 \uB2EC\uB9B0 \uCCAD\uB3D9 \uD68C\uC911\uC2DC\uACC4"
     position: {x: 102.2964, y: 2.9634, z: -5.9064}
   - type: 7
     key: 59674eb386f774539f14813a
-    name: Delivery From the Past
+    name: "\uACFC\uAC70\uC5D0\uC11C \uC628 \uBC30\uB2EC"
     group: "\uD504\uB77C\uD37C"
     objective: 5968929e86f7740d121082d3
     detail: "\uBCF4\uC548 \uCF00\uC774\uC2A4 0022"
     position: {x: -202.8806, y: 7.6911, z: -102.4012}
   - type: 7
     key: 5967530a86f77462ba22226b
-    name: Bad Rep Evidence
+    name: "\uB098\uC05C \uD3C9\uD310\uC758 \uC99D\uAC70"
     group: "\uD504\uB77C\uD37C"
     objective: 5968943f86f7740d137ebfc2
     detail: "\uBCF4\uC548 \uCF00\uC774\uC2A4 0031"
     position: {x: 204.073, y: 4.6952, z: 12.3975}
   - type: 7
     key: 5967725e86f774601a446662
-    name: Shaking Up the Teller
+    name: "\uB3C8\uAC00\uBC29\uC744 \uAC16\uACE0 \uD280\uC5B4\uB77C"
     group: "\uD504\uB77C\uD37C"
     objective: 5968981986f7740d1648df42
     detail: "\uC740\uD589 \uAC00\uBC29"
     position: {x: 178.07, y: 2.877, z: 148.702}
   - type: 6
     key: 5967725e86f774601a446662
-    name: Shaking Up the Teller
+    name: "\uB3C8\uAC00\uBC29\uC744 \uAC16\uACE0 \uD280\uC5B4\uB77C"
     group: "\uD504\uB77C\uD37C"
     objective: 5a3fc03286f77414d64f9941
     detail: "\uAE30\uC219\uC0AC 214\uD638\uC5D0 \uB4E4\uC5B4\uAC08 \uBC29\uBC95 \uCC3E\uAE30"
     position: {x: 176.42, y: 3.33, z: 184.25}
   - type: 6
     key: 5967725e86f774601a446662
-    name: Shaking Up the Teller
+    name: "\uB3C8\uAC00\uBC29\uC744 \uAC16\uACE0 \uD280\uC5B4\uB77C"
     group: "\uD504\uB77C\uD37C"
     objective: 5a3fc03286f77414d64f9941
     detail: "\uAE30\uC219\uC0AC 214\uD638\uC5D0 \uB4E4\uC5B4\uAC08 \uBC29\uBC95 \uCC3E\uAE30"
     position: {x: 176.42, y: 3.33, z: 184.25}
   - type: 6
     key: 59689fbd86f7740d137ebfc4
-    name: Operation Aquarius
+    name: "\uBB3C\uBCD1\uC790\uB9AC \uC791\uC804"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a3fb73b86f77458e0324376
     detail: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC\uC5D0\uC11C \uBB3C\uC774
@@ -1794,7 +1794,7 @@ MonoBehaviour:
     position: {x: 232.24, y: 3.39, z: 138.88}
   - type: 6
     key: 59689fbd86f7740d137ebfc4
-    name: Operation Aquarius
+    name: "\uBB3C\uBCD1\uC790\uB9AC \uC791\uC804"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a3fb73b86f77458e0324376
     detail: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC\uC5D0\uC11C \uBB3C\uC774
@@ -1802,14 +1802,14 @@ MonoBehaviour:
     position: {x: 232.24, y: 3.39, z: 138.88}
   - type: 7
     key: 5969f9e986f7741dde183a50
-    name: Pharmacist
+    name: "\uC57D\uC0AC"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5969fa4886f7741ddb481544
     detail: "\uCE74\uBCF8 \uAC00\uBC29"
     position: {x: 239.183, y: 0.713, z: 160.595}
   - type: 6
     key: 5969f9e986f7741dde183a50
-    name: Pharmacist
+    name: "\uC57D\uC0AC"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a3fb8f686f7742384533f10
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uAD6C\uC870\uB300\uC6D0\uC758 \uC790\uB3D9\uCC28
@@ -1817,7 +1817,7 @@ MonoBehaviour:
     position: {x: 579.37, y: 0.13, z: -1.82}
   - type: 6
     key: 5969f9e986f7741dde183a50
-    name: Pharmacist
+    name: "\uC57D\uC0AC"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a3fb8f686f7742384533f10
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uAD6C\uC870\uB300\uC6D0\uC758 \uC790\uB3D9\uCC28
@@ -1825,7 +1825,7 @@ MonoBehaviour:
     position: {x: 579.37, y: 0.13, z: -1.82}
   - type: 6
     key: 5969f9e986f7741dde183a50
-    name: Pharmacist
+    name: "\uC57D\uC0AC"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a3fb92286f77422b46cdb18
     detail: "\uC138\uAD00(Customs)\uC5D0 \uC704\uCE58\uD55C 2\uCE35\uC9DC\uB9AC \uAE30\uC219\uC0AC\uC758
@@ -1833,7 +1833,7 @@ MonoBehaviour:
     position: {x: 235.48, y: 0.43, z: 160.07}
   - type: 6
     key: 5969f9e986f7741dde183a50
-    name: Pharmacist
+    name: "\uC57D\uC0AC"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a3fb92286f77422b46cdb18
     detail: "\uC138\uAD00(Customs)\uC5D0 \uC704\uCE58\uD55C 2\uCE35\uC9DC\uB9AC \uAE30\uC219\uC0AC\uC758
@@ -1841,28 +1841,28 @@ MonoBehaviour:
     position: {x: 235.48, y: 0.43, z: 160.07}
   - type: 7
     key: 596b43fb86f77457ca186186
-    name: The Extortionist
+    name: "\uC57D\uD0C8\uC790"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 596b44b686f77457cb50ecca
     detail: "\uBCF4\uC548 \uCF00\uC774\uC2A4 0048"
     position: {x: 367.6828, y: 1.3008, z: -50.5712}
   - type: 6
     key: 596b43fb86f77457ca186186
-    name: The Extortionist
+    name: "\uC57D\uD0C8\uC790"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5a3fbabc86f774231d75afbe
     detail: "\uBC30\uB2EC\uBD80\uC758 \uC2DC\uCCB4 \uCC3E\uAE30"
     position: {x: 27.49, y: 1.49, z: -110.2}
   - type: 6
     key: 596b43fb86f77457ca186186
-    name: The Extortionist
+    name: "\uC57D\uD0C8\uC790"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5a3fbabc86f774231d75afbe
     detail: "\uBC30\uB2EC\uBD80\uC758 \uC2DC\uCCB4 \uCC3E\uAE30"
     position: {x: 27.49, y: 1.49, z: -110.2}
   - type: 6
     key: 596b43fb86f77457ca186186
-    name: The Extortionist
+    name: "\uC57D\uD0C8\uC790"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5a3fbab086f77421593d9bf0
     detail: "\uBC30\uB2EC\uBD80\uAC00 \uC228\uACA8\uB454 \uBB3C\uAC74\uC758 \uC704\uCE58
@@ -1870,7 +1870,7 @@ MonoBehaviour:
     position: {x: 368.89, y: 1.6, z: -49.89}
   - type: 6
     key: 596b43fb86f77457ca186186
-    name: The Extortionist
+    name: "\uC57D\uD0C8\uC790"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5a3fbab086f77421593d9bf0
     detail: "\uBC30\uB2EC\uBD80\uAC00 \uC228\uACA8\uB454 \uBB3C\uAC74\uC758 \uC704\uCE58
@@ -1878,14 +1878,14 @@ MonoBehaviour:
     position: {x: 368.89, y: 1.6, z: -49.89}
   - type: 7
     key: 5979eee086f774311955e614
-    name: Golden Swag
+    name: "\uD669\uAE08\uBE5B \uC2A4\uC6E9"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5979ef4586f77431307dc513
     detail: "\uD669\uAE08\uC0C9 Zibbo \uB77C\uC774\uD130"
     position: {x: 180.8072, y: 6.7378, z: 150.0781}
   - type: 6
     key: 5979eee086f774311955e614
-    name: Golden Swag
+    name: "\uD669\uAE08\uBE5B \uC2A4\uC6E9"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5979ef7986f77431307dc514
     detail: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC\uC758 303\uD638\uC2E4\uC5D0\uC11C
@@ -1893,28 +1893,28 @@ MonoBehaviour:
     position: {x: 180.56, y: 6.79, z: 149.34}
   - type: 7
     key: 5979f9ba86f7740f6c3fe9f2
-    name: Chemical - Part 1
+    name: "\uD654\uD559 - \uD30C\uD2B8 1"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5979fc2686f77426d702a0f2
     detail: "\uBCF4\uC548 \uCF00\uC774\uC2A4 0013"
     position: {x: 498.5496, y: 5.6390033, z: -141.5012}
   - type: 7
     key: 5979f9ba86f7740f6c3fe9f2
-    name: Chemical - Part 1
+    name: "\uD654\uD559 - \uD30C\uD2B8 1"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5979fc2686f77426d702a0f2
     detail: "\uBCF4\uC548 \uCF00\uC774\uC2A4 0013"
     position: {x: 487.27258, y: 5.6429906, z: -138.6152}
   - type: 7
     key: 5979f9ba86f7740f6c3fe9f2
-    name: Chemical - Part 1
+    name: "\uD654\uD559 - \uD30C\uD2B8 1"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5979fc2686f77426d702a0f2
     detail: "\uBCF4\uC548 \uCF00\uC774\uC2A4 0013"
     position: {x: 485.8996, y: 5.639, z: -140.5882}
   - type: 6
     key: 5979f9ba86f7740f6c3fe9f2
-    name: Chemical - Part 1
+    name: "\uD654\uD559 - \uD30C\uD2B8 1"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5a3fbbfd86f77459d52a16a8
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC804 \uBCF4\uC548 \uBD80\uC7A5\uC758
@@ -1922,7 +1922,7 @@ MonoBehaviour:
     position: {x: 487.89, y: 6.11, z: -139.85}
   - type: 6
     key: 5979f9ba86f7740f6c3fe9f2
-    name: Chemical - Part 1
+    name: "\uD654\uD559 - \uD30C\uD2B8 1"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5a3fbbfd86f77459d52a16a8
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC804 \uBCF4\uC548 \uBD80\uC7A5\uC758
@@ -1930,21 +1930,21 @@ MonoBehaviour:
     position: {x: 487.89, y: 6.11, z: -139.85}
   - type: 7
     key: 597a0b2986f77426d66c0633
-    name: Chemical - Part 2
+    name: "\uD654\uD559 - \uD30C\uD2B8 2"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 597a0be986f774273b74f673
     detail: "\uC2AC\uB77C\uC774\uB354\uD0A4 \uBCF4\uC548 \uD50C\uB798\uC2DC \uB4DC\uB77C\uC774\uBE0C"
     position: {x: 194.2243, y: 3.7256, z: 171.0656}
   - type: 7
     key: 597a0b2986f77426d66c0633
-    name: Chemical - Part 2
+    name: "\uD654\uD559 - \uD30C\uD2B8 2"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 597a0bb486f77426d66c0634
     detail: "TG \uB85C\uACE0\uAC00 \uC788\uB294 \uBD09\uC778\uB41C \uD3B8\uC9C0"
     position: {x: 194.7797, y: 4.4267, z: 173.1325}
   - type: 6
     key: 59c124d686f774189b3c843f
-    name: Oil Run
+    name: "\uC5F0\uB8CC \uC218\uC1A1"
     group: "\uD504\uB77C\uD37C"
     objective: 59c128b986f77415037680df
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC544\uBB34 \uC720\uC870\uCC28\uC5D0
@@ -1952,7 +1952,7 @@ MonoBehaviour:
     position: {x: 429.86, y: 2.74, z: 16.23}
   - type: 6
     key: 59c124d686f774189b3c843f
-    name: Oil Run
+    name: "\uC5F0\uB8CC \uC218\uC1A1"
     group: "\uD504\uB77C\uD37C"
     objective: 59c128b986f77415037680df
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC544\uBB34 \uC720\uC870\uCC28\uC5D0
@@ -1960,7 +1960,7 @@ MonoBehaviour:
     position: {x: 101.45, y: 3.06, z: -14.1}
   - type: 6
     key: 59c124d686f774189b3c843f
-    name: Oil Run
+    name: "\uC5F0\uB8CC \uC218\uC1A1"
     group: "\uD504\uB77C\uD37C"
     objective: 59c128b986f77415037680df
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC544\uBB34 \uC720\uC870\uCC28\uC5D0
@@ -1968,7 +1968,7 @@ MonoBehaviour:
     position: {x: 334.96, y: 3.04, z: -189.97}
   - type: 6
     key: 59c124d686f774189b3c843f
-    name: Oil Run
+    name: "\uC5F0\uB8CC \uC218\uC1A1"
     group: "\uD504\uB77C\uD37C"
     objective: 59c128b986f77415037680df
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC544\uBB34 \uC720\uC870\uCC28\uC5D0
@@ -1976,7 +1976,7 @@ MonoBehaviour:
     position: {x: -334.93, y: 2.22, z: -163.46}
   - type: 6
     key: 5a27b7a786f774579c3eb376
-    name: Tigr Safari
+    name: "Tigr \uC0AC\uD30C\uB9AC"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 66698a9eddc21e9441645819
     detail: "\uC138\uAD00\uC5D0\uC11C UN \uD2F0\uADF8\uB974(Tigr) \uCC28\uB7C9 \uC911
@@ -1984,7 +1984,7 @@ MonoBehaviour:
     position: {x: 505.03, y: 1.24, z: -11.29}
   - type: 6
     key: 5a27b7a786f774579c3eb376
-    name: Tigr Safari
+    name: "Tigr \uC0AC\uD30C\uB9AC"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 66698a9eddc21e9441645819
     detail: "\uC138\uAD00\uC5D0\uC11C UN \uD2F0\uADF8\uB974(Tigr) \uCC28\uB7C9 \uC911
@@ -1992,7 +1992,7 @@ MonoBehaviour:
     position: {x: 17.86, y: 0.35, z: 0.36}
   - type: 6
     key: 5a27b7a786f774579c3eb376
-    name: Tigr Safari
+    name: "Tigr \uC0AC\uD30C\uB9AC"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 66698a9eddc21e9441645819
     detail: "\uC138\uAD00\uC5D0\uC11C UN \uD2F0\uADF8\uB974(Tigr) \uCC28\uB7C9 \uC911
@@ -2074,7 +2074,7 @@ MonoBehaviour:
     position: {x: 91.58272, y: 5.5889997, z: -158.77757}
   - type: 6
     key: 5d25e44386f77409453bce7b
-    name: The Huntsman Path - Angry Watchman
+    name: "\uC0AC\uB0E5\uAFBC\uC758 \uAE38 - \uC0AC\uC545\uD55C \uACBD\uBE44\uC6D0"
     group: "\uC608\uAC70"
     objective: 5d2733c586f7741dea4f3072
     detail: "\uC138\uAD00(Customs)\uC758 \uAE30\uC219\uC0AC \uC9C0\uC5ED\uC5D0\uC11C
@@ -2082,7 +2082,7 @@ MonoBehaviour:
     position: {x: 194.58, y: 5.31, z: 116.43}
   - type: 6
     key: 60e71b9bbd90872cb85440f3
-    name: Capturing Outposts
+    name: "\uC694\uCDA9\uC9C0 \uD0C8\uD658"
     group: "\uD504\uB77C\uD37C"
     objective: 60ec18b73b5f7d790a7ad034
     detail: "\uC138\uAD00, \uD574\uC548\uC120 \uB610\uB294 \uC0BC\uB9BC\uC758 \uC9C0\uC815\uB41C
@@ -2090,7 +2090,7 @@ MonoBehaviour:
     position: {x: 202.68, y: 7.91, z: -126.77}
   - type: 6
     key: 60e71b9bbd90872cb85440f3
-    name: Capturing Outposts
+    name: "\uC694\uCDA9\uC9C0 \uD0C8\uD658"
     group: "\uD504\uB77C\uD37C"
     objective: 60ec18b73b5f7d790a7ad034
     detail: "\uC138\uAD00, \uD574\uC548\uC120 \uB610\uB294 \uC0BC\uB9BC\uC758 \uC9C0\uC815\uB41C
@@ -2098,7 +2098,7 @@ MonoBehaviour:
     position: {x: 202.68, y: 7.91, z: -126.77}
   - type: 6
     key: 60e71d6d7fcf9c556f325055
-    name: The Courier
+    name: "\uBC30\uB2EC\uBD80"
     group: "\uBA54\uCE74\uB2C9"
     objective: 60e85b2a26b88043510e0ada
     detail: "\uC138\uAD00(Customs)\uC758 \uC2E0 \uC8FC\uC720\uC18C \uB4A4\uD3B8\uC758
@@ -2653,7 +2653,7 @@ MonoBehaviour:
     position: {x: 46.575928, y: 5.278, z: -57.778732}
   quests:
   - key: 5b4795fb86f7745876267770
-    name: Chumming
+    name: "\uB5A1\uBC25 \uBFCC\uB9AC\uAE30"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 5b4796c086f7745877352c2c
@@ -2684,7 +2684,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 597a0f5686f774273b74f676
-    name: Chemical - Part 4
+    name: "\uD654\uD559 - \uD30C\uD2B8 4"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 5a3fbc9586f77459d52a16c4
@@ -2698,7 +2698,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 597a160786f77477531d39d2
-    name: Out of Curiosity
+    name: "\uD638\uAE30\uC2EC\uC73C\uB85C\uBD80\uD130"
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objectives:
     - id: 5a3fc1f286f7744ccc15d643
@@ -2711,7 +2711,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 597a171586f77405ba6887d3
-    name: Big Customer
+    name: "\uD070 \uC190"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 5a3fbec386f77413bd5fc20a
@@ -2747,7 +2747,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 6834145ebc1f443d7603c8a7
-    name: 'Easy Money - Part 1 [PVE ZONE]'
+    name: "\uC190\uC26C\uC6B4 \uB3C8\uBC8C\uC774 - \uD30C\uD2B8 1 [PVE ZONE]"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 6834145ebc1f443d7603c8ab
@@ -2835,7 +2835,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     trader: "\uD39C\uC2A4"
     objectives:
     - id: 66d9cbb67b491f9d5304f6eb
@@ -3064,7 +3064,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5936da9e86f7742d65037edf
-    name: Background Check
+    name: "\uBC30\uACBD \uC870\uC0AC"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 5968ec9986f7741ddd6c1012
@@ -3081,7 +3081,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 59674eb386f774539f14813a
-    name: Delivery From the Past
+    name: "\uACFC\uAC70\uC5D0\uC11C \uC628 \uBC30\uB2EC"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 5968929e86f7740d121082d3
@@ -3097,7 +3097,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 5967530a86f77462ba22226b
-    name: Bad Rep Evidence
+    name: "\uB098\uC05C \uD3C9\uD310\uC758 \uC99D\uAC70"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 5968943f86f7740d137ebfc2
@@ -3123,7 +3123,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5967725e86f774601a446662
-    name: Shaking Up the Teller
+    name: "\uB3C8\uAC00\uBC29\uC744 \uAC16\uACE0 \uD280\uC5B4\uB77C"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 5968981986f7740d1648df42
@@ -3141,7 +3141,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 59689fbd86f7740d137ebfc4
-    name: Operation Aquarius
+    name: "\uBB3C\uBCD1\uC790\uB9AC \uC791\uC804"
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objectives:
     - id: 5a3fb73b86f77458e0324376
@@ -3155,7 +3155,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 5969f9e986f7741dde183a50
-    name: Pharmacist
+    name: "\uC57D\uC0AC"
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objectives:
     - id: 5969fa4886f7741ddb481544
@@ -3178,7 +3178,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 596b43fb86f77457ca186186
-    name: The Extortionist
+    name: "\uC57D\uD0C8\uC790"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 596b44b686f77457cb50ecca
@@ -3200,7 +3200,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 5979eee086f774311955e614
-    name: Golden Swag
+    name: "\uD669\uAE08\uBE5B \uC2A4\uC6E9"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 5979ef4586f77431307dc513
@@ -3218,7 +3218,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5979f9ba86f7740f6c3fe9f2
-    name: Chemical - Part 1
+    name: "\uD654\uD559 - \uD30C\uD2B8 1"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 5979fc2686f77426d702a0f2
@@ -3245,7 +3245,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 597a0b2986f77426d66c0633
-    name: Chemical - Part 2
+    name: "\uD654\uD559 - \uD30C\uD2B8 2"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 597a0be986f774273b74f673
@@ -3267,7 +3267,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 59c124d686f774189b3c843f
-    name: Oil Run
+    name: "\uC5F0\uB8CC \uC218\uC1A1"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 59c128b986f77415037680df
@@ -3276,7 +3276,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5a27b7a786f774579c3eb376
-    name: Tigr Safari
+    name: "Tigr \uC0AC\uD30C\uB9AC"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
     objectives:
     - id: 66698a9eddc21e9441645819
@@ -3344,7 +3344,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 5d25e44386f77409453bce7b
-    name: The Huntsman Path - Angry Watchman
+    name: "\uC0AC\uB0E5\uAFBC\uC758 \uAE38 - \uC0AC\uC545\uD55C \uACBD\uBE44\uC6D0"
     trader: "\uC608\uAC70"
     objectives:
     - id: 5d2733c586f7741dea4f3072
@@ -3353,7 +3353,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 60e71b9bbd90872cb85440f3
-    name: Capturing Outposts
+    name: "\uC694\uCDA9\uC9C0 \uD0C8\uD658"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 60ec18b73b5f7d790a7ad034
@@ -3362,7 +3362,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 60e71d6d7fcf9c556f325055
-    name: The Courier
+    name: "\uBC30\uB2EC\uBD80"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 60e85b2a26b88043510e0ada

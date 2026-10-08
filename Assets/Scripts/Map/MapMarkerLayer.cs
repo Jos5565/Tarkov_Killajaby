@@ -63,6 +63,7 @@ public class MapMarkerLayer : MonoBehaviour
     readonly HashSet<string> visibleKeys = new HashSet<string>();   // Play 중 켜진 퀘스트 (저장/불러오기)
     readonly List<KeyInfo> quests = new List<KeyInfo>();
     readonly List<MapMarker> placed = new List<MapMarker>();
+    readonly List<(RectTransform rt, MapMarker marker)> nameTags = new List<(RectTransform, MapMarker)>();
     MapUserSettings settings;   // Play 중에만 사용. 편집 모드 미리보기는 전부 표시
     float lastMapScale = -1f;
 
@@ -141,6 +142,7 @@ public class MapMarkerLayer : MonoBehaviour
             EditorPreview.MarkDontSave(rt.gameObject);
             items.Add(rt);
             itemScales.Add(isNameTag ? nameTagScale : 1f);
+            if (isNameTag) nameTags.Add((rt, marker));
 
             if (!string.IsNullOrEmpty(marker.key))
             {
@@ -185,6 +187,25 @@ public class MapMarkerLayer : MonoBehaviour
     public bool QuestsAvailable => IsAvailable(MarkerType.Quest) || IsAvailable(MarkerType.QuestItem);
 
     public Color GetColor(MarkerType type) => GetStyle(type).color;
+
+    // 화면 좌표 아래에 있는 이름표(탈출구/트랜짓). 숨겨진 종류는 제외, 나중에 그려진(위에 있는) 것 우선.
+    // 이름표는 마우스를 받지 않으므로(아래 퀘스트 툴팁용) 클릭은 이렇게 직접 찾는다.
+    public bool TryGetNameTagAt(Vector2 screenPosition, Camera eventCamera, out MapMarker marker)
+    {
+        for (int i = nameTags.Count - 1; i >= 0; i--)
+        {
+            var (rt, m) = nameTags[i];
+            if (rt == null || !rt.gameObject.activeInHierarchy) continue;
+            if (!RectTransformUtility.RectangleContainsScreenPoint(rt, screenPosition, eventCamera)) continue;
+            marker = m;
+            return true;
+        }
+        marker = null;
+        return false;
+    }
+
+    // 배치된 이름표 오브젝트 (없으면 null)
+    public RectTransform GetNameTag(MapMarker marker) => nameTags.Find(n => n.marker == marker).rt;
 
     // 퀘스트 전체 목표 (마커 데이터에 없으면 null)
     public QuestData GetQuest(string key) =>
@@ -359,7 +380,7 @@ public class MapMarkerLayer : MonoBehaviour
         return result;
     }
 
-    static bool UsesNameTag(MarkerType type) =>
+    public static bool UsesNameTag(MarkerType type) =>
         type == MarkerType.ExtractPmc || type == MarkerType.ExtractScav || type == MarkerType.ExtractShared ||
         type == MarkerType.Transit;
 
@@ -447,6 +468,7 @@ public class MapMarkerLayer : MonoBehaviour
         keyItems.Clear();
         quests.Clear();
         placed.Clear();
+        nameTags.Clear();
         IsBuilt = false;
     }
 }

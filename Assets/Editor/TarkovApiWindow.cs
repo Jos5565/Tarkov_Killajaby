@@ -247,7 +247,7 @@ public class TarkovApiWindow : EditorWindow
         {
             JToken task = prop.Value;
             string taskId = (string)task["id"] ?? prop.Name;
-            string taskName = tr.GetEnglish(task["name"]);   // 퀘스트 이름은 영어 원문 (상세 정보만 번역)
+            string taskName = tr.Get(task["name"]);   // 공식 한글 이름이 있으면 한글, 없으면 영어 원문
             string trader = tr.Get(tradersData[(string)task["trader"] ?? ""]?["name"]);
             int markerCountBefore = markers.Count;
 
@@ -368,14 +368,6 @@ public class TarkovApiWindow : EditorWindow
             if (string.IsNullOrEmpty(k)) return k;
             if (overrides.TryGetValue(k, out string v)) return v;
             return primary.TryGetValue(k, out v) ? v : fallback.TryGetValue(k, out v) ? v : k;
-        }
-
-        // 영어 원문 (선택 언어가 en이면 fallback을 따로 읽지 않으므로 primary가 영어)
-        public string GetEnglish(JToken key)
-        {
-            string k = (string)key;
-            if (string.IsNullOrEmpty(k)) return k;
-            return fallback.TryGetValue(k, out string v) ? v : primary.TryGetValue(k, out v) ? v : k;
         }
     }
 }

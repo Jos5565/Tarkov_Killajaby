@@ -1,10 +1,11 @@
 using UnityEngine;
 
 // [ExecuteAlways] 컴포넌트가 편집 모드(Play 전)에서 미리보기 오브젝트를 만들 때 사용.
-// 편집 모드에서 만든 오브젝트는 DontSaveInEditor로 표시해 씬 파일에 저장되지 않게 한다.
+// 편집 모드에서 만든 오브젝트는 씬 파일에도, 빌드에도 저장되지 않게 표시한다.
+// (DontSaveInEditor만 쓰면 빌드할 때 씬을 열면서 만든 미리보기가 빌드에 들어가 UI가 두 벌로 겹친다)
 public static class EditorPreview
 {
-    const HideFlags PreviewFlags = HideFlags.DontSaveInEditor;
+    const HideFlags PreviewFlags = HideFlags.DontSaveInEditor | HideFlags.DontSaveInBuild;
 
     public static bool IsEditMode => !Application.isPlaying;
 

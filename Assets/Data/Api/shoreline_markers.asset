@@ -1482,14 +1482,14 @@ MonoBehaviour:
     position: {x: 223.15996, y: -52.907, z: 249.3}
   - type: 7
     key: 5a68663e86f774501078f78a
-    name: Health Care Privacy - Part 2
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 2"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a68760f86f7743cc55d8709
     detail: "\uBCF4\uC548 \uCF00\uC774\uC2A4 0060"
     position: {x: -218.02002, y: 2.815, z: -86.09}
   - type: 6
     key: 5a27b75b86f7742e97191958
-    name: Fishing Gear
+    name: "\uB09A\uC2DC \uC7A5\uBE44"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a3ba11786f7742c9d4f5d29
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uBC29\uD30C\uC81C \uC606\uC5D0
@@ -1497,7 +1497,7 @@ MonoBehaviour:
     position: {x: -182.04, y: -63.72, z: 459.85}
   - type: 6
     key: 5a27b75b86f7742e97191958
-    name: Fishing Gear
+    name: "\uB09A\uC2DC \uC7A5\uBE44"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a3ba11786f7742c9d4f5d29
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uBC29\uD30C\uC81C \uC606\uC5D0
@@ -1505,28 +1505,28 @@ MonoBehaviour:
     position: {x: -182.04, y: -63.72, z: 459.85}
   - type: 6
     key: 5a27b75b86f7742e97191958
-    name: Fishing Gear
+    name: "\uB09A\uC2DC \uC7A5\uBE44"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a27d81a86f774472a6e0456
     detail: "\uBCF4\uD2B8\uC5D0 MF-UNTAR \uBC29\uD0C4\uBCF5 \uC228\uAE30\uAE30"
     position: {x: -182.04, y: -63.72, z: 459.85}
   - type: 6
     key: 5a27b75b86f7742e97191958
-    name: Fishing Gear
+    name: "\uB09A\uC2DC \uC7A5\uBE44"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a27d81a86f774472a6e0456
     detail: "\uBCF4\uD2B8\uC5D0 MF-UNTAR \uBC29\uD0C4\uBCF5 \uC228\uAE30\uAE30"
     position: {x: -182.04, y: -63.72, z: 459.85}
   - type: 6
     key: 5a27b75b86f7742e97191958
-    name: Fishing Gear
+    name: "\uB09A\uC2DC \uC7A5\uBE44"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a27d85286f77448d82084e7
     detail: "\uBCF4\uD2B8\uC5D0 [\uBA40\uD2F0\uD234] \uC228\uACA8\uB450\uAE30"
     position: {x: -182.04, y: -63.72, z: 459.85}
   - type: 6
     key: 5a27b75b86f7742e97191958
-    name: Fishing Gear
+    name: "\uB09A\uC2DC \uC7A5\uBE44"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a27d85286f77448d82084e7
     detail: "\uBCF4\uD2B8\uC5D0 [\uBA40\uD2F0\uD234] \uC228\uACA8\uB450\uAE30"
@@ -1541,7 +1541,7 @@ MonoBehaviour:
     position: {x: 287.07, y: -49.35, z: -42.33}
   - type: 6
     key: 5a27bbf886f774333a418eeb
-    name: Wet Job - Part 2
+    name: "\uCCAD\uBD80\uC0B4\uC778 - \uD30C\uD2B8 2"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a3ba97386f77459df27d10e
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uC5B4\uBD80\uC758 \uAC70\uCC98
@@ -1549,7 +1549,7 @@ MonoBehaviour:
     position: {x: 235.56, y: -64.46, z: 442.02}
   - type: 6
     key: 5a27bbf886f774333a418eeb
-    name: Wet Job - Part 2
+    name: "\uCCAD\uBD80\uC0B4\uC778 - \uD30C\uD2B8 2"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a3ba97386f77459df27d10e
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uC5B4\uBD80\uC758 \uAC70\uCC98
@@ -1557,14 +1557,14 @@ MonoBehaviour:
     position: {x: 235.56, y: -64.46, z: 442.02}
   - type: 6
     key: 5a27bbf886f774333a418eeb
-    name: Wet Job - Part 2
+    name: "\uCCAD\uBD80\uC0B4\uC778 - \uD30C\uD2B8 2"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a281efe86f7745bc42005cc
     detail: "\uB09A\uC2DC \uD14C\uC774\uBE14\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
     position: {x: 235.56, y: -64.46, z: 442.02}
   - type: 6
     key: 5a27bbf886f774333a418eeb
-    name: Wet Job - Part 2
+    name: "\uCCAD\uBD80\uC0B4\uC778 - \uD30C\uD2B8 2"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a281efe86f7745bc42005cc
     detail: "\uB09A\uC2DC \uD14C\uC774\uBE14\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
@@ -1614,7 +1614,7 @@ MonoBehaviour:
     position: {x: 227.17, y: -54.91, z: -159.88}
   - type: 6
     key: 5a03173786f77451cb427172
-    name: Spa Tour - Part 2
+    name: "\uC2A4\uD30C \uAD00\uAD11 - \uD30C\uD2B8 2"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a0317da86f77451cb427295
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uD5EC\uB9AC\uCF65\uD130\uC5D0
@@ -1622,7 +1622,7 @@ MonoBehaviour:
     position: {x: -250.5, y: -5.14, z: -48.28}
   - type: 6
     key: 5a03173786f77451cb427172
-    name: Spa Tour - Part 2
+    name: "\uC2A4\uD30C \uAD00\uAD11 - \uD30C\uD2B8 2"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a0317da86f77451cb427295
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uD5EC\uB9AC\uCF65\uD130\uC5D0
@@ -1630,7 +1630,7 @@ MonoBehaviour:
     position: {x: -250.5, y: -5.14, z: -48.28}
   - type: 6
     key: 5a03173786f77451cb427172
-    name: Spa Tour - Part 2
+    name: "\uC2A4\uD30C \uAD00\uAD11 - \uD30C\uD2B8 2"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a0325f286f7744384509230
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uD5EC\uB9AC\uCF65\uD130
@@ -1639,7 +1639,7 @@ MonoBehaviour:
     position: {x: -280.55, y: -4.78, z: -41.31}
   - type: 6
     key: 5a03173786f77451cb427172
-    name: Spa Tour - Part 2
+    name: "\uC2A4\uD30C \uAD00\uAD11 - \uD30C\uD2B8 2"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a0325f286f7744384509230
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uD5EC\uB9AC\uCF65\uD130
@@ -1648,7 +1648,7 @@ MonoBehaviour:
     position: {x: -280.55, y: -4.78, z: -41.31}
   - type: 6
     key: 666314bd920800278d0f6748
-    name: Viewer
+    name: "\uC2DC\uCCAD\uC790"
     group: "\uD504\uB77C\uD37C"
     objective: 667bf840981b1c594af358ce
     detail: "\uD574\uC548\uC120(Shoreline)\uC758 \uC120\uCC29\uC7A5\uC5D0 \uC788\uB294
@@ -1756,7 +1756,7 @@ MonoBehaviour:
     position: {x: -459.72, y: -47.77, z: 564.83}
   - type: 6
     key: 5ac346cf86f7741d63233a02
-    name: Signal - Part 3
+    name: "\uC2E0\uD638 - \uD30C\uD2B8 3"
     group: "\uBA54\uCE74\uB2C9"
     objective: 5ac7a7bf86f774132252a524
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uD2B9\uC815 \uC704\uCE58\uC5D0
@@ -1764,7 +1764,7 @@ MonoBehaviour:
     position: {x: -483.81, y: -24.47, z: 248.83}
   - type: 6
     key: 5ac346cf86f7741d63233a02
-    name: Signal - Part 3
+    name: "\uC2E0\uD638 - \uD30C\uD2B8 3"
     group: "\uBA54\uCE74\uB2C9"
     objective: 5ac7a83b86f774665012340b
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uD2B9\uC815 \uC704\uCE58\uC5D0
@@ -1772,7 +1772,7 @@ MonoBehaviour:
     position: {x: -230.55, y: 8.32, z: -92.39}
   - type: 6
     key: 5ac346cf86f7741d63233a02
-    name: Signal - Part 3
+    name: "\uC2E0\uD638 - \uD30C\uD2B8 3"
     group: "\uBA54\uCE74\uB2C9"
     objective: 5ac7a8d386f7741321499e3c
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uD2B9\uC815 \uC704\uCE58\uC5D0
@@ -1825,7 +1825,7 @@ MonoBehaviour:
     position: {x: -149.87, y: -6.08, z: -77}
   - type: 6
     key: 5a27bc1586f7741f6d40fa2f
-    name: Wet Job - Part 3
+    name: "\uCCAD\uBD80\uC0B4\uC778 - \uD30C\uD2B8 3"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a3baa2586f7745b791b72fa
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uC544\uB974\uD2F0\uC634\uC758
@@ -1833,7 +1833,7 @@ MonoBehaviour:
     position: {x: 72.91, y: -59.67, z: 348.73}
   - type: 6
     key: 5a27bc1586f7741f6d40fa2f
-    name: Wet Job - Part 3
+    name: "\uCCAD\uBD80\uC0B4\uC778 - \uD30C\uD2B8 3"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 6a5de9b9fee6abb95244f018
     detail: "\uC544\uB974\uD2F0\uC634\uC758 \uC790\uB3D9\uCC28\uC5D0 MS2000 \uB9C8\uCEE4
@@ -1841,7 +1841,7 @@ MonoBehaviour:
     position: {x: 73.02, y: -58.14, z: 348.66}
   - type: 6
     key: 5a27bb5986f7741dfb660900
-    name: Cargo X - Part 3
+    name: "\uD654\uBB3C X - \uD30C\uD2B8 3"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a3ba7db86f7744f0e568c9c
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uD14C\uB77C\uADF8\uB8F9\uC774
@@ -1849,14 +1849,14 @@ MonoBehaviour:
     position: {x: -149.87, y: -6.08, z: -77}
   - type: 7
     key: 5a27bc3686f7741c73584026
-    name: Wet Job - Part 4
+    name: "\uCCAD\uBD80\uC0B4\uC778 - \uD30C\uD2B8 4"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a28221e86f7741d5b719624
     detail: "\uC2AC\uB77C\uC774\uB354\uD0A4 \uD50C\uB798\uC2DC \uB4DC\uB77C\uC774\uBE0C"
     position: {x: -267.22095, y: -0.017, z: -145.576}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66debf2e1e254957b82711ff
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uB4A4\uC9D1\uD78C
@@ -1865,7 +1865,7 @@ MonoBehaviour:
     position: {x: 326.86, y: -54.2, z: 129.38}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66debf30802386a45d0adb60
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uADF8\uB2E4\uC9C0
@@ -1874,7 +1874,7 @@ MonoBehaviour:
     position: {x: -322.45, y: -60.68, z: 488.13}
   - type: 7
     key: 5a27bc6986f7741c7358402b
-    name: Wet Job - Part 5
+    name: "\uCCAD\uBD80\uC0B4\uC778 - \uD30C\uD2B8 5"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a2e958d86f77416be092111
     detail: "\uC791\uB3D9\uB418\uB294 \uD558\uB4DC \uB4DC\uB77C\uC774\uBE0C"
@@ -1904,7 +1904,7 @@ MonoBehaviour:
     position: {x: -152.34998, y: -14.546, z: -301.219}
   - type: 6
     key: 5a27b7d686f77460d847e6a6
-    name: Scrap Metal
+    name: "\uACE0\uCCA0"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a37e8ae86f77415076b401d
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uCCAB \uBC88\uC9F8 T-90 \uC804\uCC28\uC5D0
@@ -1912,7 +1912,7 @@ MonoBehaviour:
     position: {x: -153.08, y: -17.05, z: -280.18}
   - type: 6
     key: 5a27b7d686f77460d847e6a6
-    name: Scrap Metal
+    name: "\uACE0\uCCA0"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a37e8ae86f77415076b401d
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uCCAB \uBC88\uC9F8 T-90 \uC804\uCC28\uC5D0
@@ -1920,7 +1920,7 @@ MonoBehaviour:
     position: {x: -153.08, y: -17.05, z: -280.18}
   - type: 6
     key: 5a27b7d686f77460d847e6a6
-    name: Scrap Metal
+    name: "\uACE0\uCCA0"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a27fc8186f7746371546243
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uB450 \uBC88\uC9F8 T-90 \uC804\uCC28\uC5D0
@@ -1928,7 +1928,7 @@ MonoBehaviour:
     position: {x: 378.74, y: -54.38, z: 166.86}
   - type: 6
     key: 5a27b7d686f77460d847e6a6
-    name: Scrap Metal
+    name: "\uACE0\uCCA0"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a27fc8186f7746371546243
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uB450 \uBC88\uC9F8 T-90 \uC804\uCC28\uC5D0
@@ -1936,7 +1936,7 @@ MonoBehaviour:
     position: {x: 378.74, y: -54.38, z: 166.86}
   - type: 6
     key: 5a27b7d686f77460d847e6a6
-    name: Scrap Metal
+    name: "\uACE0\uCCA0"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a27fc9686f774675744bb60
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uC138 \uBC88\uC9F8 T-90 \uC804\uCC28\uC5D0
@@ -1944,7 +1944,7 @@ MonoBehaviour:
     position: {x: -349.68, y: -39.86, z: 185.87}
   - type: 6
     key: 5a27b7d686f77460d847e6a6
-    name: Scrap Metal
+    name: "\uACE0\uCCA0"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a27fc9686f774675744bb60
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uC138 \uBC88\uC9F8 T-90 \uC804\uCC28\uC5D0
@@ -1952,7 +1952,7 @@ MonoBehaviour:
     position: {x: -349.68, y: -39.86, z: 185.87}
   - type: 6
     key: 5a27b80086f774429a5d7e20
-    name: Eagle Eye
+    name: "\uB9E4\uC758 \uB208"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a3ba34286f7744eb240406a
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uCCAB \uBC88\uC9F8 UAV \uCD94\uB77D
@@ -1960,21 +1960,21 @@ MonoBehaviour:
     position: {x: -553.09, y: -29.35, z: -127.68}
   - type: 7
     key: 5a27b80086f774429a5d7e20
-    name: Eagle Eye
+    name: "\uB9E4\uC758 \uB208"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a294f1686f774340c7b7e4a
     detail: "UAV SAS \uB514\uC2A4\uD06C #2"
     position: {x: 81.433716, y: -31.8154, z: -166.845}
   - type: 7
     key: 5a27b80086f774429a5d7e20
-    name: Eagle Eye
+    name: "\uB9E4\uC758 \uB208"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a27ffb186f774192932b3d5
     detail: "UAV SAS \uB514\uC2A4\uD06C #1"
     position: {x: -552.9468, y: -31.2057, z: -128.2434}
   - type: 6
     key: 5a27b80086f774429a5d7e20
-    name: Eagle Eye
+    name: "\uB9E4\uC758 \uB208"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a3ba3b086f7745ab1081101
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uB450 \uBC88\uC9F8 UAV \uCD94\uB77D
@@ -1982,7 +1982,7 @@ MonoBehaviour:
     position: {x: 81.43, y: -31.82, z: -166.85}
   - type: 6
     key: 5a27b87686f77460de0252a8
-    name: Humanitarian Supplies
+    name: "\uC778\uB3C4\uC8FC\uC758\uC801 \uBCF4\uAE09\uD488"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a28017786f77452f6318b1b
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uCCAB \uBC88\uC9F8
@@ -1990,7 +1990,7 @@ MonoBehaviour:
     position: {x: -234.49, y: -3.47, z: -164.42}
   - type: 6
     key: 5a27b87686f77460de0252a8
-    name: Humanitarian Supplies
+    name: "\uC778\uB3C4\uC8FC\uC758\uC801 \uBCF4\uAE09\uD488"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a28017786f77452f6318b1b
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uCCAB \uBC88\uC9F8
@@ -1998,7 +1998,7 @@ MonoBehaviour:
     position: {x: -234.49, y: -3.47, z: -164.42}
   - type: 6
     key: 5a27b87686f77460de0252a8
-    name: Humanitarian Supplies
+    name: "\uC778\uB3C4\uC8FC\uC758\uC801 \uBCF4\uAE09\uD488"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a3ba47986f7744df8667505
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uC783\uC5B4\uBC84\uB9B0 UN\uAD70
@@ -2007,7 +2007,7 @@ MonoBehaviour:
     position: {x: -234.49, y: -3.47, z: -164.42}
   - type: 6
     key: 5a27b87686f77460de0252a8
-    name: Humanitarian Supplies
+    name: "\uC778\uB3C4\uC8FC\uC758\uC801 \uBCF4\uAE09\uD488"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a3ba47986f7744df8667505
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uC783\uC5B4\uBC84\uB9B0 UN\uAD70
@@ -2016,7 +2016,7 @@ MonoBehaviour:
     position: {x: -234.49, y: -3.47, z: -164.42}
   - type: 6
     key: 5a27b87686f77460de0252a8
-    name: Humanitarian Supplies
+    name: "\uC778\uB3C4\uC8FC\uC758\uC801 \uBCF4\uAE09\uD488"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a2801f986f774531b679875
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uB450 \uBC88\uC9F8
@@ -2024,7 +2024,7 @@ MonoBehaviour:
     position: {x: -596.26, y: -58.53, z: 475.53}
   - type: 6
     key: 5a27b87686f77460de0252a8
-    name: Humanitarian Supplies
+    name: "\uC778\uB3C4\uC8FC\uC758\uC801 \uBCF4\uAE09\uD488"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a2801f986f774531b679875
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC788\uB294 \uB450 \uBC88\uC9F8
@@ -2032,7 +2032,7 @@ MonoBehaviour:
     position: {x: -596.26, y: -58.53, z: 475.53}
   - type: 6
     key: 5a27b87686f77460de0252a8
-    name: Humanitarian Supplies
+    name: "\uC778\uB3C4\uC8FC\uC758\uC801 \uBCF4\uAE09\uD488"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a3ba4ba86f7744df759b1e5
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uC783\uC5B4\uBC84\uB9B0 UN\uAD70
@@ -2041,7 +2041,7 @@ MonoBehaviour:
     position: {x: -596.26, y: -58.53, z: 475.53}
   - type: 6
     key: 5a27b87686f77460de0252a8
-    name: Humanitarian Supplies
+    name: "\uC778\uB3C4\uC8FC\uC758\uC801 \uBCF4\uAE09\uD488"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 5a3ba4ba86f7744df759b1e5
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uC783\uC5B4\uBC84\uB9B0 UN\uAD70
@@ -2073,7 +2073,7 @@ MonoBehaviour:
     position: {x: -285.10303, y: 2.512, z: -89.350006}
   - type: 6
     key: 5a68661a86f774500f48afb0
-    name: Health Care Privacy - Part 1
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 1"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a6873bc86f7741f8d4589a3
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uCCAB \uBC88\uC9F8 \uAD6C\uAE09\uCC28\uB97C
@@ -2081,7 +2081,7 @@ MonoBehaviour:
     position: {x: 312.7, y: -59.18, z: 314.5}
   - type: 6
     key: 5a68661a86f774500f48afb0
-    name: Health Care Privacy - Part 1
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 1"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a6873bc86f7741f8d4589a3
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uCCAB \uBC88\uC9F8 \uAD6C\uAE09\uCC28\uB97C
@@ -2089,7 +2089,7 @@ MonoBehaviour:
     position: {x: 312.7, y: -59.18, z: 314.5}
   - type: 6
     key: 5a68661a86f774500f48afb0
-    name: Health Care Privacy - Part 1
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 1"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a6873d786f7743ad1151d6e
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uB450 \uBC88\uC9F8 \uAD6C\uAE09\uCC28\uB97C
@@ -2097,7 +2097,7 @@ MonoBehaviour:
     position: {x: 354.92, y: -58.63, z: 306.12}
   - type: 6
     key: 5a68661a86f774500f48afb0
-    name: Health Care Privacy - Part 1
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 1"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a6873d786f7743ad1151d6e
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uB450 \uBC88\uC9F8 \uAD6C\uAE09\uCC28\uB97C
@@ -2105,7 +2105,7 @@ MonoBehaviour:
     position: {x: 354.92, y: -58.63, z: 306.12}
   - type: 6
     key: 5a68661a86f774500f48afb0
-    name: Health Care Privacy - Part 1
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 1"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a6873ec86f7743cc55d8622
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uC138 \uBC88\uC9F8 \uAD6C\uAE09\uCC28\uB97C
@@ -2113,7 +2113,7 @@ MonoBehaviour:
     position: {x: -258.07, y: -3.96, z: -85.66}
   - type: 6
     key: 5a68661a86f774500f48afb0
-    name: Health Care Privacy - Part 1
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 1"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a6873ec86f7743cc55d8622
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uC138 \uBC88\uC9F8 \uAD6C\uAE09\uCC28\uB97C
@@ -2121,7 +2121,7 @@ MonoBehaviour:
     position: {x: -258.07, y: -3.96, z: -85.66}
   - type: 6
     key: 5a68661a86f774500f48afb0
-    name: Health Care Privacy - Part 1
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 1"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 6a6072ab2b1e6883ea9d9311
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uB124 \uBC88\uC9F8 \uAD6C\uAE09\uCC28\uC5D0
@@ -2129,7 +2129,7 @@ MonoBehaviour:
     position: {x: 97.66, y: -47.25, z: 70.8}
   - type: 6
     key: 5a68661a86f774500f48afb0
-    name: Health Care Privacy - Part 1
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 1"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 6a6072ab2b1e6883ea9d9311
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uB124 \uBC88\uC9F8 \uAD6C\uAE09\uCC28\uC5D0
@@ -2137,7 +2137,7 @@ MonoBehaviour:
     position: {x: 97.66, y: -47.25, z: 70.8}
   - type: 6
     key: 5ac3467986f7741d6224abc2
-    name: Ill-Wisher
+    name: "\uC545\uC758\uB97C \uD488\uC740 \uC790"
     group: "\uBA54\uCE74\uB2C9"
     objective: 5ac5e0fa86f77431c305d243
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uCCAB \uBC88\uC9F8 \uC2E0\uD638\uC6D0
@@ -2145,7 +2145,7 @@ MonoBehaviour:
     position: {x: -230.4, y: 8.35, z: -93.62}
   - type: 6
     key: 5ac3467986f7741d6224abc2
-    name: Ill-Wisher
+    name: "\uC545\uC758\uB97C \uD488\uC740 \uC790"
     group: "\uBA54\uCE74\uB2C9"
     objective: 6a61fc7472fae1c698d421eb
     detail: "\uCCAB \uBC88\uC9F8 \uC2E0\uD638 \uBC1C\uC2E0\uC9C0\uC5D0 \uC804\uD30C
@@ -2153,7 +2153,7 @@ MonoBehaviour:
     position: {x: -230.55, y: 8.32, z: -92.39}
   - type: 6
     key: 5ac3467986f7741d6224abc2
-    name: Ill-Wisher
+    name: "\uC545\uC758\uB97C \uD488\uC740 \uC790"
     group: "\uBA54\uCE74\uB2C9"
     objective: 5ac5e13586f7746074388f93
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uB450 \uBC88\uC9F8 \uC2E0\uD638\uC6D0
@@ -2161,7 +2161,7 @@ MonoBehaviour:
     position: {x: -483.31, y: -25.76, z: 253.66}
   - type: 6
     key: 5ac3467986f7741d6224abc2
-    name: Ill-Wisher
+    name: "\uC545\uC758\uB97C \uD488\uC740 \uC790"
     group: "\uBA54\uCE74\uB2C9"
     objective: 6a61fc76ed2d982d9dea238d
     detail: "\uB450 \uBC88\uC9F8 \uC2E0\uD638 \uBC1C\uC2E0\uC9C0\uC5D0 \uC804\uD30C
@@ -2176,7 +2176,7 @@ MonoBehaviour:
     position: {x: -186.06189, y: -2.7302, z: -86.115204}
   - type: 6
     key: 5d25e48186f77443e625e386
-    name: Courtesy Visit
+    name: "\uC608\uC758\uC0C1 \uBC29\uBB38"
     group: "\uC608\uAC70"
     objective: 5d357b6c86f774588d4d7e25
     detail: "\uD574\uC548\uC120(Shoreline)\uC758 \uBC84\uB824\uC9C4 \uB9C8\uC744\uC5D0\uC11C
@@ -2184,7 +2184,7 @@ MonoBehaviour:
     position: {x: 405.94, y: -51.93, z: -44.5}
   - type: 6
     key: 5d25e48186f77443e625e386
-    name: Courtesy Visit
+    name: "\uC608\uC758\uC0C1 \uBC29\uBB38"
     group: "\uC608\uAC70"
     objective: 5d357b9586f7745b422d653f
     detail: "\uD574\uC548\uC120(Shoreline)\uC758 \uBC84\uB824\uC9C4 \uB9C8\uC744\uC5D0\uC11C
@@ -2192,7 +2192,7 @@ MonoBehaviour:
     position: {x: 382.94, y: -51.93, z: -125.9}
   - type: 6
     key: 5d25e48186f77443e625e386
-    name: Courtesy Visit
+    name: "\uC608\uC758\uC0C1 \uBC29\uBB38"
     group: "\uC608\uAC70"
     objective: 5d357bb786f774588d4d7e27
     detail: "\uD574\uC548\uC120(Shoreline)\uC758 \uBC84\uB824\uC9C4 \uB9C8\uC744\uC5D0\uC11C
@@ -2200,14 +2200,14 @@ MonoBehaviour:
     position: {x: 287.14, y: -49.2, z: -46.32}
   - type: 7
     key: 5d25e4ad86f77443e625e387
-    name: Nostalgia
+    name: "\uD5A5\uC218"
     group: "\uC608\uAC70"
     objective: 5d357e8786f7745b5e66a51a
     detail: "\uC0AC\uC9C4\uCCA9"
     position: {x: -226.552, y: 2.089, z: -87.571}
   - type: 6
     key: 5d25e4ad86f77443e625e387
-    name: Nostalgia
+    name: "\uD5A5\uC218"
     group: "\uC608\uAC70"
     objective: 5d357e0e86f7745b3f307c56
     detail: "\uD5EC\uC2A4 \uB9AC\uC870\uD2B8\uC5D0\uC11C \uCC3D\uBC16\uC73C\uB85C
@@ -2215,7 +2215,7 @@ MonoBehaviour:
     position: {x: -229.06, y: 3.29, z: -88.86}
   - type: 6
     key: 5eda19f0edce541157209cee
-    name: Anesthesia
+    name: "\uB9C8\uCDE8"
     group: "\uD504\uB77C\uD37C"
     objective: 5eda1d6ec586607c09662d54
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uCCAB \uBC88\uC9F8 \uAC70\uB798
@@ -2223,7 +2223,7 @@ MonoBehaviour:
     position: {x: -263.98, y: -3.96, z: -85.26}
   - type: 6
     key: 5eda19f0edce541157209cee
-    name: Anesthesia
+    name: "\uB9C8\uCDE8"
     group: "\uD504\uB77C\uD37C"
     objective: 5eda1da9a58a4c49c74165ee
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uB450 \uBC88\uC9F8 \uAC70\uB798
@@ -2231,7 +2231,7 @@ MonoBehaviour:
     position: {x: 96.73, y: -47.19, z: 97.1}
   - type: 6
     key: 5eda19f0edce541157209cee
-    name: Anesthesia
+    name: "\uB9C8\uCDE8"
     group: "\uD504\uB77C\uD37C"
     objective: 5eda1dd3317f6066993c1744
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0\uC11C \uC138 \uBC88\uC9F8 \uAC70\uB798
@@ -2254,7 +2254,7 @@ MonoBehaviour:
     position: {x: 99.45056, y: -44.3777, z: 107.002594}
   - type: 6
     key: 5edabd13218d181e29451442
-    name: Rigged Game
+    name: "\uC870\uC791\uB41C \uAC8C\uC784"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5f071a9727cec53d5d24fe3b
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC704\uCE58\uD55C \uD5EC\uC2A4
@@ -2263,7 +2263,7 @@ MonoBehaviour:
     position: {x: -263.59, y: -3.96, z: -85.72}
   - type: 6
     key: 5edabd13218d181e29451442
-    name: Rigged Game
+    name: "\uC870\uC791\uB41C \uAC8C\uC784"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5f071ae396d1ae55e476abc4
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC704\uCE58\uD55C \uC8FC\uD0DD\uC5D0
@@ -2271,7 +2271,7 @@ MonoBehaviour:
     position: {x: 98.1, y: -47.19, z: 96.98}
   - type: 6
     key: 5edabd13218d181e29451442
-    name: Rigged Game
+    name: "\uC870\uC791\uB41C \uAC8C\uC784"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5f071b2a8ca6db7f3b41215f
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC704\uCE58\uD55C \uC120\uCC29\uC7A5\uC5D0
@@ -2279,7 +2279,7 @@ MonoBehaviour:
     position: {x: -305.38, y: -60.86, z: 492.2}
   - type: 6
     key: 5f04886a3937dc337a6b8238
-    name: Chemistry Closet
+    name: "\uD654\uD559\uC790\uC758 \uC637\uC7A5"
     group: "\uBA54\uCE74\uB2C9"
     objective: 5f0488c590eea473df674002
     detail: "\uD574\uC548\uC120 \uC9C0\uC5ED\uC758 \uD5EC\uC2A4 \uB9AC\uC870\uD2B8\uC5D0
@@ -2287,7 +2287,7 @@ MonoBehaviour:
     position: {x: -322.83, y: -2.75, z: -77.54}
   - type: 6
     key: 60e71b9bbd90872cb85440f3
-    name: Capturing Outposts
+    name: "\uC694\uCDA9\uC9C0 \uD0C8\uD658"
     group: "\uD504\uB77C\uD37C"
     objective: 60ec18b73b5f7d790a7ad034
     detail: "\uC138\uAD00, \uD574\uC548\uC120 \uB610\uB294 \uC0BC\uB9BC\uC758 \uC9C0\uC815\uB41C
@@ -2295,7 +2295,7 @@ MonoBehaviour:
     position: {x: -257.1, y: -5.7, z: -99.5}
   - type: 6
     key: 6193850f60b34236ee0483de
-    name: Long Road
+    name: "\uAE34 \uB3C4\uB85C"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 6193dabd5f6468204470571f
     detail: "\uB4F1\uB300 \uB610\uB294 \uD574\uC548\uC120\uC758 \uD574\uC548\uAC00\uC640
@@ -2395,7 +2395,7 @@ MonoBehaviour:
     position: {x: -310.60645, y: -60.476, z: 484.37933}
   - type: 6
     key: 67a0964e972c11a3f507731b
-    name: Needle in a Haystack
+    name: "\uBAA8\uB798\uC0AC\uC7A5\uC5D0\uC11C \uBC14\uB298 \uCC3E\uAE30"
     group: "\uBA54\uCE74\uB2C9"
     objective: 67a0bc8848d9d2cbd274ffd9
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC704\uCE58\uD55C \uD574\uBCC0\uAC00\uC758
@@ -2403,7 +2403,7 @@ MonoBehaviour:
     position: {x: -625.82, y: -54.72, z: 482.17}
   - type: 6
     key: 67a0964e972c11a3f507731b
-    name: Needle in a Haystack
+    name: "\uBAA8\uB798\uC0AC\uC7A5\uC5D0\uC11C \uBC14\uB298 \uCC3E\uAE30"
     group: "\uBA54\uCE74\uB2C9"
     objective: 67a0bc8ab12fe4b1baa60e4c
     detail: "\uD574\uC548\uC120(Shoreline)\uC5D0 \uC704\uCE58\uD55C \uD5EC\uC2A4
@@ -2411,7 +2411,7 @@ MonoBehaviour:
     position: {x: -351.33, y: -1.17, z: -134}
   - type: 6
     key: 67a096577e86e067eb045733
-    name: Hidden Layer
+    name: "\uC228\uACA8\uC9C4 \uB0B4\uB9C9"
     group: "\uBA54\uCE74\uB2C9"
     objective: 67a0bf7103442ae640dba835
     detail: "\uD06C\uB178\uC18C\uC2A4 \uC720\uD55C\uD68C\uC0AC\uC640 \uAD00\uB828\uB41C
@@ -2419,7 +2419,7 @@ MonoBehaviour:
     position: {x: -196.5, y: -6, z: -81}
   - type: 6
     key: 67a096577e86e067eb045733
-    name: Hidden Layer
+    name: "\uC228\uACA8\uC9C4 \uB0B4\uB9C9"
     group: "\uBA54\uCE74\uB2C9"
     objective: 67dbdd4d6a2e4b8e002b647d
     detail: "\uD06C\uB178\uC18C\uC2A4 \uC720\uD55C\uD68C\uC0AC \uC2DC\uC124 \uB0B4\uBD80\uB85C
@@ -2427,7 +2427,7 @@ MonoBehaviour:
     position: {x: -196, y: -6.5, z: -77}
   quests:
   - key: 5a68663e86f774501078f78a
-    name: Health Care Privacy - Part 2
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 2"
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objectives:
     - id: 5a68760f86f7743cc55d8709
@@ -2445,7 +2445,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5a27b75b86f7742e97191958
-    name: Fishing Gear
+    name: "\uB09A\uC2DC \uC7A5\uBE44"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
     objectives:
     - id: 5a3ba11786f7742c9d4f5d29
@@ -2475,7 +2475,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5a27bbf886f774333a418eeb
-    name: Wet Job - Part 2
+    name: "\uCCAD\uBD80\uC0B4\uC778 - \uD30C\uD2B8 2"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
     objectives:
     - id: 5a3ba97386f77459df27d10e
@@ -2518,7 +2518,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5a03173786f77451cb427172
-    name: Spa Tour - Part 2
+    name: "\uC2A4\uD30C \uAD00\uAD11 - \uD30C\uD2B8 2"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
     objectives:
     - id: 5a0317da86f77451cb427295
@@ -2533,7 +2533,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 666314bd920800278d0f6748
-    name: Viewer
+    name: "\uC2DC\uCCAD\uC790"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 66d07fa69d373d977f437fe0
@@ -2587,7 +2587,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 5ac346cf86f7741d63233a02
-    name: Signal - Part 3
+    name: "\uC2E0\uD638 - \uD30C\uD2B8 3"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 5ac7a7bf86f774132252a524
@@ -2650,7 +2650,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5a27bc1586f7741f6d40fa2f
-    name: Wet Job - Part 3
+    name: "\uCCAD\uBD80\uC0B4\uC778 - \uD30C\uD2B8 3"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
     objectives:
     - id: 5a3baa2586f7745b791b72fa
@@ -2664,7 +2664,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5a27bb5986f7741dfb660900
-    name: Cargo X - Part 3
+    name: "\uD654\uBB3C X - \uD30C\uD2B8 3"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
     objectives:
     - id: 5a3ba7db86f7744f0e568c9c
@@ -2677,7 +2677,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5a27bc3686f7741c73584026
-    name: Wet Job - Part 4
+    name: "\uCCAD\uBD80\uC0B4\uC778 - \uD30C\uD2B8 4"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
     objectives:
     - id: 5a28221e86f7741d5b719624
@@ -2690,7 +2690,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     trader: "\uD39C\uC2A4"
     objectives:
     - id: 66d9cbb67b491f9d5304f6eb
@@ -2852,7 +2852,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5a27bc6986f7741c7358402b
-    name: Wet Job - Part 5
+    name: "\uCCAD\uBD80\uC0B4\uC778 - \uD30C\uD2B8 5"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
     objectives:
     - id: 5a2e958d86f77416be092111
@@ -2898,7 +2898,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 5a27b7d686f77460d847e6a6
-    name: Scrap Metal
+    name: "\uACE0\uCCA0"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
     objectives:
     - id: 5a37e8ae86f77415076b401d
@@ -2917,7 +2917,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5a27b80086f774429a5d7e20
-    name: Eagle Eye
+    name: "\uB9E4\uC758 \uB208"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
     objectives:
     - id: 5a3ba34286f7744eb240406a
@@ -2949,7 +2949,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 5a27b87686f77460de0252a8
-    name: Humanitarian Supplies
+    name: "\uC778\uB3C4\uC8FC\uC758\uC801 \uBCF4\uAE09\uD488"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
     objectives:
     - id: 5a28017786f77452f6318b1b
@@ -3016,7 +3016,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 5a68661a86f774500f48afb0
-    name: Health Care Privacy - Part 1
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 1"
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objectives:
     - id: 5a6873bc86f7741f8d4589a3
@@ -3040,7 +3040,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5ac3467986f7741d6224abc2
-    name: Ill-Wisher
+    name: "\uC545\uC758\uB97C \uD488\uC740 \uC790"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 5ac5e0fa86f77431c305d243
@@ -3095,7 +3095,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 5d25e48186f77443e625e386
-    name: Courtesy Visit
+    name: "\uC608\uC758\uC0C1 \uBC29\uBB38"
     trader: "\uC608\uAC70"
     objectives:
     - id: 5d357b6c86f774588d4d7e25
@@ -3118,7 +3118,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5d25e4ad86f77443e625e387
-    name: Nostalgia
+    name: "\uD5A5\uC218"
     trader: "\uC608\uAC70"
     objectives:
     - id: 5d357e8786f7745b5e66a51a
@@ -3135,7 +3135,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 5eda19f0edce541157209cee
-    name: Anesthesia
+    name: "\uB9C8\uCDE8"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 5eda1d6ec586607c09662d54
@@ -3175,7 +3175,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 5edabd13218d181e29451442
-    name: Rigged Game
+    name: "\uC870\uC791\uB41C \uAC8C\uC784"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 5f071a9727cec53d5d24fe3b
@@ -3195,7 +3195,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5f04886a3937dc337a6b8238
-    name: Chemistry Closet
+    name: "\uD654\uD559\uC790\uC758 \uC637\uC7A5"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 5f0488c590eea473df674002
@@ -3208,7 +3208,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 60e71b9bbd90872cb85440f3
-    name: Capturing Outposts
+    name: "\uC694\uCDA9\uC9C0 \uD0C8\uD658"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 60ec18b73b5f7d790a7ad034
@@ -3217,7 +3217,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 6193850f60b34236ee0483de
-    name: Long Road
+    name: "\uAE34 \uB3C4\uB85C"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 6193dabd5f6468204470571f
@@ -3287,7 +3287,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 67a0964e972c11a3f507731b
-    name: Needle in a Haystack
+    name: "\uBAA8\uB798\uC0AC\uC7A5\uC5D0\uC11C \uBC14\uB298 \uCC3E\uAE30"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 67a0bc81fcbc1c559d09b58f
@@ -3322,7 +3322,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 67a096577e86e067eb045733
-    name: Hidden Layer
+    name: "\uC228\uACA8\uC9C4 \uB0B4\uB9C9"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 67a0bf7103442ae640dba835

@@ -16,6 +16,9 @@ public class MapZoomPan : MonoBehaviour, IBeginDragHandler, IDragHandler, IScrol
     [Tooltip("더블클릭으로 화면 맞춤")]
     public bool doubleClickToReset = true;
 
+    // 지도 클릭(드래그 아님). true를 돌려주면 처리된 것으로 보고 더블클릭 맞춤을 하지 않는다 (예: 탈출구 이름표 클릭)
+    public event System.Func<PointerEventData, bool> Clicking;
+
     RectTransform viewport;
     Vector2 lastDragPoint;
 
@@ -59,7 +62,9 @@ public class MapZoomPan : MonoBehaviour, IBeginDragHandler, IDragHandler, IScrol
 
     public void OnPointerClick(PointerEventData e)
     {
-        if (doubleClickToReset && e.clickCount == 2 && !e.dragging)
+        if (e.dragging) return;
+        if (Clicking != null && Clicking(e)) return;
+        if (doubleClickToReset && e.clickCount == 2)
             ResetView();
     }
 

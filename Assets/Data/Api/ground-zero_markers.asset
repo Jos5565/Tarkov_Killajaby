@@ -1252,7 +1252,7 @@ MonoBehaviour:
     position: {x: 156.2, y: 25.52, z: -83.59}
   - type: 6
     key: 657315df034d76585f032e01
-    name: Shooting Cans
+    name: "\uC0AC\uACA9 \uC5F0\uC2B5"
     group: "\uD504\uB77C\uD37C"
     objective: 657333fee3fbaa77d3b5cd7c
     detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C NSV '\uC6B0\uD210\uC2A4'
@@ -1260,7 +1260,7 @@ MonoBehaviour:
     position: {x: 56.6, y: 32.34, z: 130.6}
   - type: 6
     key: 657315df034d76585f032e01
-    name: Shooting Cans
+    name: "\uC0AC\uACA9 \uC5F0\uC2B5"
     group: "\uD504\uB77C\uD37C"
     objective: 6573340403f471fb2bb12df1
     detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C AGS \uACE0\uC18D\uC720\uD0C4\uBC1C\uC0AC\uAE30\uC758
@@ -1321,7 +1321,7 @@ MonoBehaviour:
     position: {x: 107.46, y: 29.09, z: 148.06}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66dad1d7811532f53e472c13
     detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
@@ -1331,7 +1331,7 @@ MonoBehaviour:
     position: {x: 3.99, y: 24.27, z: 336.33}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66dad1d941756590432b0eaa
     detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
@@ -1340,7 +1340,7 @@ MonoBehaviour:
     position: {x: 118.71, y: 24.51, z: 190.58}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66dad1dbb16caebe0e214d89
     detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC788\uB294
@@ -1349,7 +1349,7 @@ MonoBehaviour:
     position: {x: 40.4, y: 31.68, z: 140.68}
   - type: 6
     key: 657315e1dccd301f1301416a
-    name: Luxurious Life
+    name: "\uD638\uD654\uB85C\uC6B4 \uC0B6"
     group: "\uD504\uB77C\uD37C"
     objective: 6575aa67197bd678a0c3f552
     detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C \uC8FC\uB958
@@ -1357,21 +1357,21 @@ MonoBehaviour:
     position: {x: 117.06, y: 24.23, z: 26.86}
   - type: 7
     key: 657315e1dccd301f1301416a
-    name: Luxurious Life
+    name: "\uD638\uD654\uB85C\uC6B4 \uC0B6"
     group: "\uD504\uB77C\uD37C"
     objective: 65817cabba2ba6ef71fc72ca
     detail: "\uB974 \uC7A5 \uC640\uC778 \uBCD1"
     position: {x: 129.716, y: 23.283699, z: 25.152}
   - type: 7
     key: 657315e1dccd301f1301416a
-    name: Luxurious Life
+    name: "\uD638\uD654\uB85C\uC6B4 \uC0B6"
     group: "\uD504\uB77C\uD37C"
     objective: 65817cabba2ba6ef71fc72ca
     detail: "\uB974 \uC7A5 \uC640\uC778 \uBCD1"
     position: {x: 119.667, y: 23.7096, z: 22.886}
   - type: 7
     key: 657315e1dccd301f1301416a
-    name: Luxurious Life
+    name: "\uD638\uD654\uB85C\uC6B4 \uC0B6"
     group: "\uD504\uB77C\uD37C"
     objective: 65817cabba2ba6ef71fc72ca
     detail: "\uB974 \uC7A5 \uC640\uC778 \uBCD1"
@@ -1404,7 +1404,7 @@ MonoBehaviour:
     position: {x: 59.46, y: 24.29, z: 172.85}
   - type: 6
     key: 67a09636b8725511260bc421
-    name: Shady Contractor
+    name: "\uBBF8\uC2EC\uCA4D\uC740 \uD558\uCCAD\uC5C5\uCCB4"
     group: "\uBA54\uCE74\uB2C9"
     objective: 67a0a91f4681b4e43d13892b
     detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0\uC11C \uD06C\uB178\uC18C\uC2A4
@@ -1413,28 +1413,28 @@ MonoBehaviour:
     position: {x: 89.19, y: 23.79, z: 224.86}
   - type: 7
     key: 67a09636b8725511260bc421
-    name: Shady Contractor
+    name: "\uBBF8\uC2EC\uCA4D\uC740 \uD558\uCCAD\uC5C5\uCCB4"
     group: "\uBA54\uCE74\uB2C9"
     objective: 67a0ab610345d81cb3cbb24c
     detail: "\uD06C\uB178\uC18C\uC2A4 \uACE0\uC704 \uAD00\uB9AC\uC790\uC758 \uC77C\uAE30\uC7A5"
     position: {x: 88.976, y: 23.175, z: 225.284}
   - type: 7
     key: 67a09636b8725511260bc421
-    name: Shady Contractor
+    name: "\uBBF8\uC2EC\uCA4D\uC740 \uD558\uCCAD\uC5C5\uCCB4"
     group: "\uBA54\uCE74\uB2C9"
     objective: 67a0ab610345d81cb3cbb24c
     detail: "\uD06C\uB178\uC18C\uC2A4 \uACE0\uC704 \uAD00\uB9AC\uC790\uC758 \uC77C\uAE30\uC7A5"
     position: {x: 86.822205, y: 23.076801, z: 226.09749}
   - type: 7
     key: 67a09636b8725511260bc421
-    name: Shady Contractor
+    name: "\uBBF8\uC2EC\uCA4D\uC740 \uD558\uCCAD\uC5C5\uCCB4"
     group: "\uBA54\uCE74\uB2C9"
     objective: 67a0ab610345d81cb3cbb24c
     detail: "\uD06C\uB178\uC18C\uC2A4 \uACE0\uC704 \uAD00\uB9AC\uC790\uC758 \uC77C\uAE30\uC7A5"
     position: {x: 89.392, y: 23.635998, z: 224.972}
   - type: 6
     key: 67a0964e972c11a3f507731b
-    name: Needle in a Haystack
+    name: "\uBAA8\uB798\uC0AC\uC7A5\uC5D0\uC11C \uBC14\uB298 \uCC3E\uAE30"
     group: "\uBA54\uCE74\uB2C9"
     objective: 67a0bc81fcbc1c559d09b58f
     detail: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C(Ground Zero)\uC5D0 \uC704\uCE58\uD55C
@@ -1477,7 +1477,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 657315df034d76585f032e01
-    name: Shooting Cans
+    name: "\uC0AC\uACA9 \uC5F0\uC2B5"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 657333fee3fbaa77d3b5cd7c
@@ -1534,7 +1534,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     trader: "\uD39C\uC2A4"
     objectives:
     - id: 66d9cbb67b491f9d5304f6eb
@@ -1696,7 +1696,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 657315e1dccd301f1301416a
-    name: Luxurious Life
+    name: "\uD638\uD654\uB85C\uC6B4 \uC0B6"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 6575aa67197bd678a0c3f552
@@ -1750,7 +1750,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 67a09636b8725511260bc421
-    name: Shady Contractor
+    name: "\uBBF8\uC2EC\uCA4D\uC740 \uD558\uCCAD\uC5C5\uCCB4"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 67a0a91f4681b4e43d13892b
@@ -1768,7 +1768,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 67a0964e972c11a3f507731b
-    name: Needle in a Haystack
+    name: "\uBAA8\uB798\uC0AC\uC7A5\uC5D0\uC11C \uBC14\uB298 \uCC3E\uAE30"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 67a0bc81fcbc1c559d09b58f

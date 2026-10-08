@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 // 켜져 있는 퀘스트들을 내 위치(WhereIAM)에서 출발해 도는 최단 루트(직선거리)를 그린다.
 // 마지막 퀘스트 지점에서 끝난다. MapContent/Markers 아래(ApiMarkers와 WhereIAM 사이)에 둔다.
+//   - 탈출구/트랜짓 이름표를 클릭하면 그곳을 도착점으로 지정 (마지막 목표 → 탈출구까지 포함해 순서 계산)
+//     같은 이름표를 다시 클릭하면 해제. 맵별로 저장된다.
 //   - 한 목표에 위치가 여러 개면(퀘스트 아이템 후보 등) 그중 루트상 가장 유리한 한 곳만 방문
 //   - 위치가 없으면(WhereIAM 미설정) 출발점 없이 가장 짧은 순서
 // Play 중에만 동작한다 (편집 모드에서는 퀘스트가 전부 켜져 있어 루트가 의미 없음).
@@ -15,6 +17,8 @@ public class QuestRoute : MonoBehaviour
     public MapView mapView;
     public MapMarkerLayer markerLayer;
     public WhereIAM whereIAM;
+    [Tooltip("이름표 클릭을 받을 지도 Viewport. 비우면 씬에서 찾는다")]
+    public MapZoomPan zoomPan;
 
     [Header("Look")]
     public TMP_FontAsset font;
@@ -27,6 +31,8 @@ public class QuestRoute : MonoBehaviour
     public float badgeSize = 22f;
     [Tooltip("순서 번호를 마커 오른쪽 위로 비켜 놓는 거리 (화면 px)")]
     public Vector2 badgeOffset = new Vector2(14f, 14f);
+    [Tooltip("도착으로 지정한 이름표 배경 색")]
+    public Color destinationTagColor = new Color(0.95f, 0.45f, 0.1f, 0.95f);
 
     [Header("Solver")]
     [Tooltip("목표 수가 이 이하이면 정확한 최단 경로, 넘으면 근사 계산")]
@@ -34,6 +40,9 @@ public class QuestRoute : MonoBehaviour
 
     public float RouteLength { get; private set; }   // 게임 단위(m)
     public int StopCount { get; private set; }
+
+    // 도착점으로 지정한 탈출구/트랜짓 (없으면 null)
+    public MapMarker Destination { get; private set; }
 
     // [경로] 버튼으로 전체 켜기/끄기. 맵별로 저장된다.
     public bool RouteEnabled => markerLayer == null || markerLayer.Settings == null || markerLayer.Settings.routeEnabled;
@@ -48,7 +57,19 @@ public class QuestRoute : MonoBehaviour
         RouteEnabledChanged?.Invoke(enabled);
     }
 
+    // 도착 탈출구 이름표를 클릭으로 지정/해제한다 (같은 것을 다시 고르면 해제)
+    public void ToggleDestination(MapMarker marker)
+    {
+        if (markerLayer == null || markerLayer.Settings == null) return;
+        bool same = marker != null && Destination != null && marker.name == Destination.name;
+        markerLayer.Settings.routeEnd = same || marker == null ? "" : marker.name;
+        markerLayer.SaveSettings();
+        dirty = true;
+    }
+
     UILineGraphic line;
+    Graphic destinationTag;   // 이름표 배경 (RoundImage)
+    Color destinationTagOriginal;
     readonly List<(RectTransform rt, Vector2 local)> badges = new List<(RectTransform, Vector2)>();
     bool dirty = true;
     float lastScale = -1f;
@@ -64,6 +85,8 @@ public class QuestRoute : MonoBehaviour
             markerLayer.VisibilityChanged += OnTypeChanged;
         }
         if (whereIAM != null) whereIAM.PoseChanged += OnPoseChanged;
+        if (zoomPan == null) zoomPan = FindAnyObjectByType<MapZoomPan>();
+        if (zoomPan != null) zoomPan.Clicking += OnMapClicking;
         dirty = true;
     }
 
@@ -76,6 +99,15 @@ public class QuestRoute : MonoBehaviour
             markerLayer.VisibilityChanged -= OnTypeChanged;
         }
         if (whereIAM != null) whereIAM.PoseChanged -= OnPoseChanged;
+        if (zoomPan != null) zoomPan.Clicking -= OnMapClicking;
+    }
+
+    // 지도 클릭이 이름표 위면 도착점 지정/해제. 이름표 위 더블클릭은 화면 맞춤도 하지 않는다.
+    bool OnMapClicking(UnityEngine.EventSystems.PointerEventData e)
+    {
+        if (markerLayer == null || !markerLayer.TryGetNameTagAt(e.position, e.pressEventCamera, out MapMarker marker)) return false;
+        if (e.clickCount == 1) ToggleDestination(marker);
+        return true;
     }
 
     void MarkDirty() => dirty = true;
@@ -111,7 +143,11 @@ public class QuestRoute : MonoBehaviour
     public void Recalculate()
     {
         ClearBadges();
-        if (markerLayer == null || !markerLayer.IsBuilt || !RouteEnabled)
+        UpdateDestination();
+
+        // 스캐브는 [경로] 버튼이 꺼져 있으니(퀘스트 없음) 도착 탈출구까지의 선만 그린다
+        bool enabled = RouteEnabled || (markerLayer != null && !markerLayer.QuestsAvailable);
+        if (markerLayer == null || !markerLayer.IsBuilt || !enabled)
         {
             RouteLength = 0f;
             StopCount = 0;
@@ -143,7 +179,8 @@ public class QuestRoute : MonoBehaviour
 
         Vector2? start = whereIAM != null && whereIAM.HasPosition ? Ground(whereIAM.GamePosition) : (Vector2?)null;
         var points = clusters.Select(c => (IReadOnlyList<Vector2>)c.Select(m => Ground(m.position)).ToList()).ToList();
-        RouteSolver.Result result = RouteSolver.Solve(points, start, exactLimit);
+        Vector2? end = Destination != null ? Ground(Destination.position) : (Vector2?)null;
+        RouteSolver.Result result = RouteSolver.Solve(points, start, end, exactLimit);
 
         RouteLength = result.length;
         StopCount = result.clusterOrder.Length;
@@ -158,7 +195,8 @@ public class QuestRoute : MonoBehaviour
             stops.Add(pos);
             path.Add(mapView.GameToLocal(pos));
         }
-        line.SetPoints(path);
+        if (Destination != null) path.Add(mapView.GameToLocal(Destination.position));
+        line.SetPoints(path.Count >= 2 ? path : new List<Vector2>());
 
         // 번호: 같은 자리에 여러 순서가 겹치면 "3·4"처럼 하나로
         var labels = new List<(Vector3 pos, string text)>();
@@ -170,8 +208,29 @@ public class QuestRoute : MonoBehaviour
         }
         foreach (var (pos, text) in labels) CreateBadge(mapView.GameToLocal(pos), text);
 
-        if (StopCount > 0)
-            Debug.Log($"[QuestRoute] 목표 {StopCount}곳, 약 {RouteLength:0}m (직선거리)");
+        if (StopCount > 0 || Destination != null)
+            Debug.Log($"[QuestRoute] 목표 {StopCount}곳{(Destination != null ? $" → {Destination.name}" : "")}, 약 {RouteLength:0}m (직선거리)");
+    }
+
+    // 저장된 도착 이름표 이름 → 지금 지도에 있는 이름표. 진영이 바뀌어 없는 탈출구면 지정하지 않는다.
+    void UpdateDestination()
+    {
+        if (destinationTag != null) destinationTag.color = destinationTagOriginal;
+        destinationTag = null;
+        Destination = null;
+
+        string endName = markerLayer != null && markerLayer.Settings != null ? markerLayer.Settings.routeEnd : null;
+        if (string.IsNullOrEmpty(endName) || !markerLayer.IsBuilt) return;
+
+        Destination = markerLayer.Placed.FirstOrDefault(m => MapMarkerLayer.UsesNameTag(m.type) && m.name == endName && markerLayer.IsVisible(m.type));
+        if (Destination == null) return;
+
+        RectTransform tag = markerLayer.GetNameTag(Destination);
+        if (tag != null && tag.TryGetComponent(out destinationTag))
+        {
+            destinationTagOriginal = destinationTag.color;
+            destinationTag.color = destinationTagColor;
+        }
     }
 
     static Vector2 Ground(Vector3 p) => new Vector2(p.x, p.z);

@@ -866,7 +866,7 @@ MonoBehaviour:
     position: {x: -47.25, y: -6.49, z: 14.269989}
   - type: 6
     key: 5d25e4d586f77443e625e388
-    name: Reserve
+    name: "\uB9AC\uC800\uBE0C"
     group: "\uC608\uAC70"
     objective: 5d8a05d086f77410b4225d10
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uC2DD\uB7C9\uCC3D\uACE0\uC758
@@ -892,7 +892,7 @@ MonoBehaviour:
     position: {x: 130.39, y: 0.35, z: -139.45}
   - type: 6
     key: 6086c852c945025d41566124
-    name: Revision - Reserve
+    name: "\uAC1C\uC815 \uC791\uC5C5 - \uB9AC\uC800\uBE0C"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 6087d553d79a2b4e943482bf
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0\uC11C \uCCAB \uBC88\uC9F8 BMP-2\uB97C
@@ -900,7 +900,7 @@ MonoBehaviour:
     position: {x: -100.4, y: -4.32, z: -155.69}
   - type: 6
     key: 6086c852c945025d41566124
-    name: Revision - Reserve
+    name: "\uAC1C\uC815 \uC791\uC5C5 - \uB9AC\uC800\uBE0C"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 60882695949eb1096c454fcd
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0\uC11C \uB450 \uBC88\uC9F8 BMP-2\uB97C
@@ -908,7 +908,7 @@ MonoBehaviour:
     position: {x: 79.01, y: -4.63, z: -31.55}
   - type: 6
     key: 6086c852c945025d41566124
-    name: Revision - Reserve
+    name: "\uAC1C\uC815 \uC791\uC5C5 - \uB9AC\uC800\uBE0C"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 608826f3949eb1096c454fd0
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0\uC11C \uC138 \uBC88\uC9F8 BMP-2\uB97C
@@ -916,7 +916,7 @@ MonoBehaviour:
     position: {x: 103.38, y: -4.63, z: 63.87}
   - type: 6
     key: 6086c852c945025d41566124
-    name: Revision - Reserve
+    name: "\uAC1C\uC815 \uC791\uC5C5 - \uB9AC\uC800\uBE0C"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 6088274a82e40b3c727fd164
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0\uC11C \uB124 \uBC88\uC9F8 BMP-2\uB97C
@@ -924,42 +924,42 @@ MonoBehaviour:
     position: {x: 53.83, y: -4.14, z: 122.03}
   - type: 6
     key: 6086c852c945025d41566124
-    name: Revision - Reserve
+    name: "\uAC1C\uC815 \uC791\uC5C5 - \uB9AC\uC800\uBE0C"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 6086c8ed1b0bb8063d5babb7
     detail: "\uCCAB \uBC88\uC9F8 BMP-2\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
     position: {x: -100.62, y: -3.72, z: -155.97}
   - type: 6
     key: 6086c852c945025d41566124
-    name: Revision - Reserve
+    name: "\uAC1C\uC815 \uC791\uC5C5 - \uB9AC\uC800\uBE0C"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 608826d0a3994358a0751cfc
     detail: "\uB450 \uBC88\uC9F8 BMP-2\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
     position: {x: 79.03, y: -5.44, z: -31.79}
   - type: 6
     key: 6086c852c945025d41566124
-    name: Revision - Reserve
+    name: "\uAC1C\uC815 \uC791\uC5C5 - \uB9AC\uC800\uBE0C"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 60882714c18cfa2a4e2afe59
     detail: "\uC138 \uBC88\uC9F8 BMP-2\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
     position: {x: 101.73, y: -5.59, z: 64.44}
   - type: 6
     key: 6086c852c945025d41566124
-    name: Revision - Reserve
+    name: "\uAC1C\uC815 \uC791\uC5C5 - \uB9AC\uC800\uBE0C"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 60882779d241f77b8a49785d
     detail: "\uB124 \uBC88\uC9F8 BMP-2\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
     position: {x: 53.62, y: -4, z: 122.66}
   - type: 6
     key: 5ede55112c95834b583f052a
-    name: The Bunker
+    name: "\uBC99\uCEE4"
     group: "\uD504\uB77C\uD37C"
     objective: 5ee8eea538ca5b3b4f3c4647
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0\uC11C \uC9C0\uD558 \uBC99\uCEE4 \uCC3E\uAE30"
     position: {x: -115.03, y: -11.86, z: 33.88}
   - type: 6
     key: 5ede55112c95834b583f052a
-    name: The Bunker
+    name: "\uBC99\uCEE4"
     group: "\uD504\uB77C\uD37C"
     objective: 5ee8eecc0b4ef7326256c660
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0\uC11C \uC9C0\uD558 \uBC99\uCEE4\uC5D0
@@ -967,7 +967,7 @@ MonoBehaviour:
     position: {x: -116.75, y: -13.16, z: 31.69}
   - type: 6
     key: 5ede55112c95834b583f052a
-    name: The Bunker
+    name: "\uBC99\uCEE4"
     group: "\uD504\uB77C\uD37C"
     objective: 6a5f419a91369c05ae763827
     detail: "\uBCD1\uC6D0(\uD654\uC774\uD2B8 \uBE44\uC20D)\uC73C\uB85C \uD5A5\uD558\uB294
@@ -975,7 +975,7 @@ MonoBehaviour:
     position: {x: -90.31, y: -13.42, z: -5.15}
   - type: 6
     key: 5ede55112c95834b583f052a
-    name: The Bunker
+    name: "\uBC99\uCEE4"
     group: "\uD504\uB77C\uD37C"
     objective: 6a5f419cca7ba5dbb6dfec49
     detail: "\uC544\uCE74\uB370\uBBF8 \uAC74\uBB3C(\uBE14\uB799 \uBE44\uC20D)\uB85C
@@ -984,7 +984,7 @@ MonoBehaviour:
     position: {x: -144.25, y: -9.98, z: 6.19}
   - type: 6
     key: 5ede55112c95834b583f052a
-    name: The Bunker
+    name: "\uBC99\uCEE4"
     group: "\uD504\uB77C\uD37C"
     objective: 6a5f419eae9bbeb8ca0c46d0
     detail: "1\uBC88 \uB9C9\uC0AC(\uBE14\uB799 \uD3F0)\uB85C \uD5A5\uD558\uB294 \uB450
@@ -992,7 +992,7 @@ MonoBehaviour:
     position: {x: -149.41, y: -9.33, z: 50}
   - type: 6
     key: 5ede55112c95834b583f052a
-    name: The Bunker
+    name: "\uBC99\uCEE4"
     group: "\uD504\uB77C\uD37C"
     objective: 6a5f41a021f78bafb63c3d47
     detail: "2\uBC88 \uB9C9\uC0AC(\uD654\uC774\uD2B8 \uD3F0)\uB85C \uD5A5\uD558\uB294
@@ -1000,7 +1000,7 @@ MonoBehaviour:
     position: {x: -107.01, y: -9.39, z: 77.49}
   - type: 6
     key: 5ede55112c95834b583f052a
-    name: The Bunker
+    name: "\uBC99\uCEE4"
     group: "\uD504\uB77C\uD37C"
     objective: 6a5f41bf54a91e0d977db806
     detail: "\uD56D\uACF5 \uAD00\uC81C \uC13C\uD130 \uAC74\uBB3C(\uD0B9)\uB85C \uD5A5\uD558\uB294
@@ -1008,7 +1008,7 @@ MonoBehaviour:
     position: {x: -73, y: -9.65, z: 29.99}
   - type: 6
     key: 60896bca6ee58f38c417d4f2
-    name: No Place for Renegades
+    name: "\uBC30\uC2E0\uC790\uB4E4\uC744 \uC704\uD55C \uACF3\uC740 \uC5C6\uB2E4"
     group: "\uD504\uB77C\uD37C"
     objective: 608bffeee0cc9c2d4d2ccb29
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uB9F5\uC758 \uC9C0\uD718 \uBC99\uCEE4(\uC9C0\uD558)\uC5D0
@@ -1016,7 +1016,7 @@ MonoBehaviour:
     position: {x: -111.41, y: -12.83, z: 37.95}
   - type: 6
     key: 5ede567cfa6dc072ce15d6e3
-    name: The Bunker - Part 2
+    name: "\uBC99\uCEE4 - \uD30C\uD2B8 2"
     group: "\uD504\uB77C\uD37C"
     objective: 5ee8ec5ed72d953f5d2aabd1
     detail: "\uBCD1\uC6D0(\uD654\uC774\uD2B8 \uBE44\uC20D)\uC73C\uB85C \uD5A5\uD558\uB294
@@ -1024,7 +1024,7 @@ MonoBehaviour:
     position: {x: -90.31, y: -13.42, z: -5.15}
   - type: 6
     key: 5ede567cfa6dc072ce15d6e3
-    name: The Bunker - Part 2
+    name: "\uBC99\uCEE4 - \uD30C\uD2B8 2"
     group: "\uD504\uB77C\uD37C"
     objective: 5ee8ecd75eb3205dae135d17
     detail: "\uC544\uCE74\uB370\uBBF8 \uAC74\uBB3C(\uBE14\uB799 \uBE44\uC20D)\uB85C
@@ -1033,7 +1033,7 @@ MonoBehaviour:
     position: {x: -144.25, y: -9.98, z: 6.19}
   - type: 6
     key: 5ede567cfa6dc072ce15d6e3
-    name: The Bunker - Part 2
+    name: "\uBC99\uCEE4 - \uD30C\uD2B8 2"
     group: "\uD504\uB77C\uD37C"
     objective: 5ee8ed18d72d953f5d2aabd4
     detail: "\u21161 \uB9C9\uC0AC(\uBE14\uB799 \uD3F0)\uB85C \uD5A5\uD558\uB294 \uB450
@@ -1041,7 +1041,7 @@ MonoBehaviour:
     position: {x: -149.41, y: -9.33, z: 50}
   - type: 6
     key: 5ede567cfa6dc072ce15d6e3
-    name: The Bunker - Part 2
+    name: "\uBC99\uCEE4 - \uD30C\uD2B8 2"
     group: "\uD504\uB77C\uD37C"
     objective: 5ee8eddde932d53763761b2c
     detail: "\u21162 \uB9C9\uC0AC(\uD654\uC774\uD2B8 \uD3F0)\uB85C \uD5A5\uD558\uB294
@@ -1049,7 +1049,7 @@ MonoBehaviour:
     position: {x: -107.01, y: -9.39, z: 77.49}
   - type: 6
     key: 5ede567cfa6dc072ce15d6e3
-    name: The Bunker - Part 2
+    name: "\uBC99\uCEE4 - \uD30C\uD2B8 2"
     group: "\uD504\uB77C\uD37C"
     objective: 5ee8edf1500391756d7498a7
     detail: "\uD56D\uACF5\uAD00\uC81C\uC18C \uAC74\uBB3C(\uD654\uC774\uD2B8 \uD0B9)\uB85C
@@ -1057,14 +1057,14 @@ MonoBehaviour:
     position: {x: -73, y: -9.65, z: 29.99}
   - type: 7
     key: 60896888e4a85c72ef3fa300
-    name: Classified Technologies
+    name: "\uAD70\uC0AC\uAE30\uBC00"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 60929ad46342771d851b827a
     detail: "T-90M \uC9C0\uD718\uAD00 \uC81C\uC5B4 \uD328\uB110"
     position: {x: -88.065, y: -19.129, z: 151.055}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66dad1e607181e2f78a3a0a2
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uC9D5\uC9D1\uBCD1\uB4E4\uC774
@@ -1073,7 +1073,7 @@ MonoBehaviour:
     position: {x: -84.41, y: -6.55, z: 60.69}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66dad1e843a718561db0fdd3
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uB450 \uC218\uC218\uAED8\uB07C
@@ -1082,7 +1082,7 @@ MonoBehaviour:
     position: {x: 125.41, y: -6.21, z: -88.93}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66dad1ebc5c8e6cd26dd1d31
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0 \uC788\uB294 \uC804\uCC28 \uC870\uC885\uC218\uB4E4\uC758
@@ -1091,14 +1091,14 @@ MonoBehaviour:
     position: {x: -77.12, y: -6.28, z: -20.02}
   - type: 7
     key: 6089732b59b92115597ad789
-    name: Surplus Goods
+    name: "\uB0A8\uB294 \uBB3C\uAC74"
     group: "\uBA54\uCE74\uB2C9"
     objective: 6092942fb0f07c6ea1246e3a
     detail: "MBT \uD1B5\uD569 \uB0B4\uBE44\uAC8C\uC774\uC158 \uC2DC\uC2A4\uD15C"
     position: {x: 99.78601, y: -6.725, z: 59.160034}
   - type: 6
     key: 6089736efa70fc097863b8f6
-    name: Back Door
+    name: "\uB4B7\uBB38"
     group: "\uBA54\uCE74\uB2C9"
     objective: 608a94101a66564e74191fc3
     detail: "\uB9AC\uC800\uBE0C\uC758 \uBE44\uBC00 \uC9C0\uD558 \uBC99\uCEE4 \uCD9C\uAD6C
@@ -1106,7 +1106,7 @@ MonoBehaviour:
     position: {x: -119.75, y: -16.65, z: 171.79}
   - type: 6
     key: 6089736efa70fc097863b8f6
-    name: Back Door
+    name: "\uB4B7\uBB38"
     group: "\uBA54\uCE74\uB2C9"
     objective: 6a4e6a3ee26b316718da2390
     detail: "\uCD9C\uAD6C\uB97C \uC791\uB3D9\uC2DC\uD0A4\uB294 \uC2A4\uC704\uCE58
@@ -1114,7 +1114,7 @@ MonoBehaviour:
     position: {x: -117.22, y: -13.01, z: 22.4}
   - type: 6
     key: 608974d01a66564e74191fc0
-    name: A Fuel Matter
+    name: "\uC5F0\uB8CC \uBB38\uC81C"
     group: "\uB798\uADF8\uB9E8"
     objective: 60a4dc7e4e734e57d07fb335
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0\uC11C \uCCAB \uBC88\uC9F8 \uC5F0\uB8CC
@@ -1122,7 +1122,7 @@ MonoBehaviour:
     position: {x: 11.95, y: -4.96, z: 73.8}
   - type: 6
     key: 608974d01a66564e74191fc0
-    name: A Fuel Matter
+    name: "\uC5F0\uB8CC \uBB38\uC81C"
     group: "\uB798\uADF8\uB9E8"
     objective: 60b90232ec7c6f5eb510c195
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0\uC11C \uB450 \uBC88\uC9F8 \uC5F0\uB8CC
@@ -1159,7 +1159,7 @@ MonoBehaviour:
     position: {x: 45.47, y: 2.14, z: -117.47}
   - type: 6
     key: 59c124d686f774189b3c843f
-    name: Oil Run
+    name: "\uC5F0\uB8CC \uC218\uC1A1"
     group: "\uD504\uB77C\uD37C"
     objective: 59c128b986f77415037680df
     detail: "\uC138\uAD00(Customs)\uC5D0\uC11C \uC544\uBB34 \uC720\uC870\uCC28\uC5D0
@@ -1167,42 +1167,42 @@ MonoBehaviour:
     position: {x: -334.93, y: -101.46, z: -163.46}
   - type: 7
     key: 60896b7bfa70fc097863b8f5
-    name: Documents
+    name: "\uBB38\uC11C"
     group: "\uD504\uB77C\uD37C"
     objective: 60916aeac49cf53e4772cc3c
     detail: "\uAD70\uC0AC \uBB38\uC11C #1"
     position: {x: -114.36499, y: -13.7081, z: 27.359009}
   - type: 7
     key: 60896b7bfa70fc097863b8f5
-    name: Documents
+    name: "\uBB38\uC11C"
     group: "\uD504\uB77C\uD37C"
     objective: 60ae0dfe2d6a8320983d19ba
     detail: "\uAD70\uC0AC \uBB38\uC11C #2"
     position: {x: -114.18103, y: -13.6893, z: 39.788025}
   - type: 7
     key: 60896b7bfa70fc097863b8f5
-    name: Documents
+    name: "\uBB38\uC11C"
     group: "\uD504\uB77C\uD37C"
     objective: 60ae0e2c79e83a2cf96f35ce
     detail: "\uAD70\uC0AC \uBB38\uC11C #3"
     position: {x: -121.867004, y: -14.314, z: 38.656006}
   - type: 7
     key: 60896e28e4a85c72ef3fa301
-    name: Disease History
+    name: "\uBCD1\uB825"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 6091698a30bb620b3239874c
     detail: "\uC758\uBB34 \uAE30\uB85D #1"
     position: {x: -59.020996, y: -3.637, z: -36.191986}
   - type: 7
     key: 60896e28e4a85c72ef3fa301
-    name: Disease History
+    name: "\uBCD1\uB825"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 60ae12ffb809a474875907aa
     detail: "\uC758\uBB34 \uAE30\uB85D #2"
     position: {x: -80.47601, y: -3.647, z: -30.765991}
   - type: 6
     key: 6089743983426423753cd58a
-    name: Safe Corridor
+    name: "\uC548\uC804\uD55C \uD1B5\uB85C"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 608ab22755f4ac386d7e7fdc
     detail: "\uB9AC\uC800\uBE0C \uC9C0\uD558 \uC800\uC7A5 \uCC3D\uACE0\uC5D0\uC11C
@@ -1210,7 +1210,7 @@ MonoBehaviour:
     position: {x: 74.39, y: -20.25, z: -107.05}
   - type: 6
     key: 608974af4b05530f55550c21
-    name: Reserve Expert
+    name: "\uB9AC\uC800\uBE0C \uC804\uBB38\uAC00"
     group: "\uB798\uADF8\uB9E8"
     objective: 608bd0a053b9dd01a116f474
     detail: "\uB9AC\uC800\uBE0C \uB3D9\uCABD \uB9C9\uC0AC(\uAC80\uC740 \uD3F0)\uC758
@@ -1218,7 +1218,7 @@ MonoBehaviour:
     position: {x: -167.38, y: 3.64, z: 31.36}
   - type: 6
     key: 608974af4b05530f55550c21
-    name: Reserve Expert
+    name: "\uB9AC\uC800\uBE0C \uC804\uBB38\uAC00"
     group: "\uB798\uADF8\uB9E8"
     objective: 608bd2465e0ef91ab810f98a
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uB9F5\uC758 \uB3D9\uCABD \uBCD1\uC601(\uAC80\uC740\uC0C9
@@ -1226,7 +1226,7 @@ MonoBehaviour:
     position: {x: -164.96, y: 0.71, z: 34.53}
   - type: 6
     key: 608974af4b05530f55550c21
-    name: Reserve Expert
+    name: "\uB9AC\uC800\uBE0C \uC804\uBB38\uAC00"
     group: "\uB798\uADF8\uB9E8"
     objective: 608bd0c20637f21f9934b6e4
     detail: "\uB9AC\uC800\uBE0C \uB3D9\uCABD \uB9C9\uC0AC(\uAC80\uC740 \uD3F0)\uC758
@@ -1234,7 +1234,7 @@ MonoBehaviour:
     position: {x: -167.38, y: -2.12, z: 31.36}
   - type: 6
     key: 608974af4b05530f55550c21
-    name: Reserve Expert
+    name: "\uB9AC\uC800\uBE0C \uC804\uBB38\uAC00"
     group: "\uB798\uADF8\uB9E8"
     objective: 608bd136c61c4b541b381da3
     detail: "\uB9AC\uC800\uBE0C \uB0A8\uCABD \uB9C9\uC0AC(\uD770 \uD3F0)\uC758 \uCCAB
@@ -1242,7 +1242,7 @@ MonoBehaviour:
     position: {x: -125.54, y: 3.64, z: 95.68}
   - type: 6
     key: 608974af4b05530f55550c21
-    name: Reserve Expert
+    name: "\uB9AC\uC800\uBE0C \uC804\uBB38\uAC00"
     group: "\uB798\uADF8\uB9E8"
     objective: 608bd149f597ad0a33574d74
     detail: "\uB9AC\uC800\uBE0C \uB0A8\uCABD \uB9C9\uC0AC(\uD770 \uD3F0)\uC758 \uB450
@@ -1250,7 +1250,7 @@ MonoBehaviour:
     position: {x: -125.52, y: -2.12, z: 95.68}
   - type: 6
     key: 608a768d82e40b3c727fd17d
-    name: Pest Control
+    name: "\uD574\uCDA9 \uAD6C\uC81C"
     group: "\uC608\uAC70"
     objective: 608a8356fa70fc097863b8f8
     detail: "\uB9AC\uC800\uBE0C \uBCF8 \uB9C9\uC0AC \uC8FC\uBCC0\uC5D0\uC11C \uC2A4\uCE90\uBE0C
@@ -1273,7 +1273,7 @@ MonoBehaviour:
     position: {x: 101.73, y: -5.59, z: 64.44}
   - type: 6
     key: 63966fd9ea19ac7ed845db30
-    name: Payback
+    name: "\uB418\uAC1A\uC544\uC8FC\uAE30"
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 63a9ad4cc31b00242d28a99d
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uC758 \uB808\uC774\uB354 \uAE30\uC9C0\uC5D0\uC11C
@@ -1368,7 +1368,7 @@ MonoBehaviour:
     position: {x: -83.632996, y: -0.545, z: -28.823975}
   - type: 6
     key: 6a7b0df31ea00c9a980e2742
-    name: Sisyphus
+    name: "\uC2DC\uC2DC\uD3EC\uC2A4"
     group: "\uB798\uADF8\uB9E8"
     objective: 6a7b0e6d485bcb39de7288de
     detail: "\uB9AC\uC800\uBE0C(Reserve)\uC5D0\uC11C \uC0BC\uB9BC(Woods)\uC73C\uB85C
@@ -1378,7 +1378,7 @@ MonoBehaviour:
     position: {x: 208.4, y: -6.11, z: -171.76}
   quests:
   - key: 5d25e4d586f77443e625e388
-    name: Reserve
+    name: "\uB9AC\uC800\uBE0C"
     trader: "\uC608\uAC70"
     objectives:
     - id: 5d8a05d086f77410b4225d10
@@ -1407,7 +1407,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 6086c852c945025d41566124
-    name: Revision - Reserve
+    name: "\uAC1C\uC815 \uC791\uC5C5 - \uB9AC\uC800\uBE0C"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
     objectives:
     - id: 6087d553d79a2b4e943482bf
@@ -1447,7 +1447,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5ede55112c95834b583f052a
-    name: The Bunker
+    name: "\uBC99\uCEE4"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 5ee8eea538ca5b3b4f3c4647
@@ -1487,7 +1487,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 60896bca6ee58f38c417d4f2
-    name: No Place for Renegades
+    name: "\uBC30\uC2E0\uC790\uB4E4\uC744 \uC704\uD55C \uACF3\uC740 \uC5C6\uB2E4"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 608bffeee0cc9c2d4d2ccb29
@@ -1496,7 +1496,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5ede567cfa6dc072ce15d6e3
-    name: The Bunker - Part 2
+    name: "\uBC99\uCEE4 - \uD30C\uD2B8 2"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 5ee8ec5ed72d953f5d2aabd1
@@ -1530,7 +1530,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 60896888e4a85c72ef3fa300
-    name: Classified Technologies
+    name: "\uAD70\uC0AC\uAE30\uBC00"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 60929ad46342771d851b827a
@@ -1543,7 +1543,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     trader: "\uD39C\uC2A4"
     objectives:
     - id: 66d9cbb67b491f9d5304f6eb
@@ -1705,7 +1705,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 6089732b59b92115597ad789
-    name: Surplus Goods
+    name: "\uB0A8\uB294 \uBB3C\uAC74"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 6092942fb0f07c6ea1246e3a
@@ -1719,7 +1719,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 6089736efa70fc097863b8f6
-    name: Back Door
+    name: "\uB4B7\uBB38"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 608a94101a66564e74191fc3
@@ -1737,7 +1737,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 608974d01a66564e74191fc0
-    name: A Fuel Matter
+    name: "\uC5F0\uB8CC \uBB38\uC81C"
     trader: "\uB798\uADF8\uB9E8"
     objectives:
     - id: 60a4dc7e4e734e57d07fb335
@@ -1800,7 +1800,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 59c124d686f774189b3c843f
-    name: Oil Run
+    name: "\uC5F0\uB8CC \uC218\uC1A1"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 59c128b986f77415037680df
@@ -1809,7 +1809,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 60896b7bfa70fc097863b8f5
-    name: Documents
+    name: "\uBB38\uC11C"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 60916aeac49cf53e4772cc3c
@@ -1840,7 +1840,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 60896e28e4a85c72ef3fa301
-    name: Disease History
+    name: "\uBCD1\uB825"
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objectives:
     - id: 6091698a30bb620b3239874c
@@ -1862,7 +1862,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 6089743983426423753cd58a
-    name: Safe Corridor
+    name: "\uC548\uC804\uD55C \uD1B5\uB85C"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 608ab22755f4ac386d7e7fdc
@@ -1876,7 +1876,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 608974af4b05530f55550c21
-    name: Reserve Expert
+    name: "\uB9AC\uC800\uBE0C \uC804\uBB38\uAC00"
     trader: "\uB798\uADF8\uB9E8"
     objectives:
     - id: 608bd0a053b9dd01a116f474
@@ -1914,7 +1914,7 @@ MonoBehaviour:
       optional: 1
       thisMap: 0
   - key: 608a768d82e40b3c727fd17d
-    name: Pest Control
+    name: "\uD574\uCDA9 \uAD6C\uC81C"
     trader: "\uC608\uAC70"
     objectives:
     - id: 608a8356fa70fc097863b8f8
@@ -1951,7 +1951,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 63966fd9ea19ac7ed845db30
-    name: Payback
+    name: "\uB418\uAC1A\uC544\uC8FC\uAE30"
     trader: "\uB4F1\uB300\uC9C0\uAE30"
     objectives:
     - id: 6397ae22e301557ae24cbfe7
@@ -2151,7 +2151,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 6a7b0df31ea00c9a980e2742
-    name: Sisyphus
+    name: "\uC2DC\uC2DC\uD3EC\uC2A4"
     trader: "\uB798\uADF8\uB9E8"
     objectives:
     - id: 6a7b0e6d485bcb39de7288de

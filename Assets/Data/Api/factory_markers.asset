@@ -733,21 +733,21 @@ MonoBehaviour:
     position: {x: -5.0550003, y: -2.657, z: 18.582003}
   - type: 7
     key: 597a0e5786f77426d66c0636
-    name: Chemical - Part 3
+    name: "\uD654\uD559 - \uD30C\uD2B8 3"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 597a15b386f774799e5cd152
     detail: "\uD654\uD559\uBB3C\uC9C8\uC774 \uB4E0 \uC8FC\uC0AC\uAE30"
     position: {x: 25.56231, y: 8.0731945, z: 38.48874}
   - type: 7
     key: 597a0e5786f77426d66c0636
-    name: Chemical - Part 3
+    name: "\uD654\uD559 - \uD30C\uD2B8 3"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 597a15b386f774799e5cd152
     detail: "\uD654\uD559\uBB3C\uC9C8\uC774 \uB4E0 \uC8FC\uC0AC\uAE30"
     position: {x: 23.249971, y: 8.535252, z: 39.403866}
   - type: 7
     key: 597a0e5786f77426d66c0636
-    name: Chemical - Part 3
+    name: "\uD654\uD559 - \uD30C\uD2B8 3"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 597a15b386f774799e5cd152
     detail: "\uD654\uD559\uBB3C\uC9C8\uC774 \uB4E0 \uC8FC\uC0AC\uAE30"
@@ -814,7 +814,7 @@ MonoBehaviour:
     position: {x: 45.62, y: -1.6, z: -36.13}
   - type: 6
     key: 666314bd920800278d0f6748
-    name: Viewer
+    name: "\uC2DC\uCCAD\uC790"
     group: "\uD504\uB77C\uD37C"
     objective: 66d07fa69d373d977f437fe0
     detail: "\uACF5\uC7A5(Factory) \uC0AC\uBB34\uC2E4 \uBCF5\uB3C4\uC5D0 WI-FI \uCE74\uBA54\uB77C
@@ -830,7 +830,7 @@ MonoBehaviour:
     position: {x: 34.79, y: 8.53, z: 35.5}
   - type: 6
     key: 5a68669a86f774255929b4d4
-    name: Health Care Privacy - Part 5
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 5"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a6879be86f774284429b1bb
     detail: "\uC57C\uAC04 \uACF5\uC7A5(Factory)\uC5D0\uC11C \uBB3C\uAC74\uC744 \uB193\uC544\uB458
@@ -838,7 +838,7 @@ MonoBehaviour:
     position: {x: 24.61, y: 9.17, z: 39.08}
   - type: 6
     key: 5a68669a86f774255929b4d4
-    name: Health Care Privacy - Part 5
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 5"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a6879be86f774284429b1bb
     detail: "\uC57C\uAC04 \uACF5\uC7A5(Factory)\uC5D0\uC11C \uBB3C\uAC74\uC744 \uB193\uC544\uB458
@@ -846,7 +846,7 @@ MonoBehaviour:
     position: {x: 24.61, y: 9.17, z: 39.08}
   - type: 6
     key: 5a68669a86f774255929b4d4
-    name: Health Care Privacy - Part 5
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 5"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a687a1c86f7745f2152168c
     detail: "\uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 \uD654\uC57D(\uC885\uB958 \uBB34\uAD00)
@@ -854,7 +854,7 @@ MonoBehaviour:
     position: {x: 24.61, y: 9.17, z: 39.08}
   - type: 6
     key: 5a68669a86f774255929b4d4
-    name: Health Care Privacy - Part 5
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 5"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 5a687a1c86f7745f2152168c
     detail: "\uC9C0\uC815\uB41C \uC7A5\uC18C\uC5D0 \uD654\uC57D(\uC885\uB958 \uBB34\uAD00)
@@ -862,7 +862,7 @@ MonoBehaviour:
     position: {x: 24.61, y: 9.17, z: 39.08}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66db1f8d7539f4b4eb640aff
     detail: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC18C\uBC29\uAD00\uC774 \uD589\uBCF5\uD574\uC9C0\uAE30
@@ -871,7 +871,7 @@ MonoBehaviour:
     position: {x: 16.38, y: 1.8, z: 42.78}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66db1f8f564045697071d934
     detail: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uBA87\uBA87 \uBC38\uBE0C \uC5D4\uC9C0\uB2C8\uC5B4\uB4E4\uC774
@@ -881,7 +881,7 @@ MonoBehaviour:
     position: {x: 21, y: -1.61, z: 12.06}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66db1f928d59a9fe511dfc25
     detail: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC704\uD5D8\uD55C \uB7EC\uC2DC\uC544
@@ -890,7 +890,7 @@ MonoBehaviour:
     position: {x: -49.38, y: 2.69, z: 60.41}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66db1f94a147d9840ec0dfba
     detail: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uC74C\uBAA8\uB860\uC790\uC758
@@ -898,7 +898,7 @@ MonoBehaviour:
     position: {x: 27.6, y: 9.46, z: 38.63}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66db1f98b8e22a92437fe5c6
     detail: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uB204\uAD70\uAC00\uAC00 \uB9C8\uBC95
@@ -907,7 +907,7 @@ MonoBehaviour:
     position: {x: 52.72, y: 1.45, z: -17.25}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66db1f9b4f7bf01d937eb150
     detail: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uBAA8\uB4E0 \uC804\uB7B5 \uAC8C\uC784\uC758
@@ -916,7 +916,7 @@ MonoBehaviour:
     position: {x: 30.39, y: 4.46, z: -31}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66db1ff798d52a5a8e4ed1f8
     detail: "\uACF5\uC7A5(Factory)\uC5D0 \uC788\uB294 \uD558\uB298\uB85C \uC62C\uB77C\uAC00\uB294
@@ -931,7 +931,7 @@ MonoBehaviour:
     position: {x: -19.473001, y: 0.518, z: -52.22601}
   - type: 6
     key: 59674eb386f774539f14813a
-    name: Delivery From the Past
+    name: "\uACFC\uAC70\uC5D0\uC11C \uC628 \uBC30\uB2EC"
     group: "\uD504\uB77C\uD37C"
     objective: 59674fe586f7744f4e358aa2
     detail: "\uACF5\uC7A5(Factory) 3\uBC88 \uAC8C\uC774\uD2B8 \uADFC\uCC98 2\uCE35\uC5D0
@@ -939,7 +939,7 @@ MonoBehaviour:
     position: {x: 41.74, y: 5.45, z: 40.82}
   - type: 6
     key: 5967530a86f77462ba22226b
-    name: Bad Rep Evidence
+    name: "\uB098\uC05C \uD3C9\uD310\uC758 \uC99D\uAC70"
     group: "\uD504\uB77C\uD37C"
     objective: 5a3fbdb086f7745a554f0c31
     detail: "\uACF5\uC7A5(Factory)\uB9F5 3\uCE35 \uBCF5\uB3C4\uC758 \uC7A0\uAE34
@@ -947,14 +947,14 @@ MonoBehaviour:
     position: {x: 30.13, y: 8.72, z: 38.89}
   - type: 7
     key: 59675ea386f77414b32bded2
-    name: Postman Pat - Part 1
+    name: "\uD589\uBCF5\uBC30\uB2EC\uBD80 \uD33B\uC544\uC800\uC528 - \uD30C\uD2B8 1"
     group: "\uD504\uB77C\uD37C"
     objective: 596895f986f7740d14064722
     detail: "\uBD09\uC778\uB41C \uD3B8\uC9C0"
     position: {x: -19.961002, y: 0.047, z: 21.943003}
   - type: 6
     key: 59689ee586f7740d1570bbd5
-    name: Sanitary Standards
+    name: "\uC704\uC0DD \uD45C\uC900"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 6a576ccec23300f0309ab511
     detail: "\uC8FC\uAC04 \uACF5\uC7A5(Daytime Factory)\uC758 \uC758\uC57D\uD488
@@ -962,7 +962,7 @@ MonoBehaviour:
     position: {x: 27.72, y: 4.55, z: -31.87}
   - type: 6
     key: 59689ee586f7740d1570bbd5
-    name: Sanitary Standards
+    name: "\uC704\uC0DD \uD45C\uC900"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 6a56800fc1311a6bb4cecf9b
     detail: "\uACF5\uC7A5(Factory)\uC5D0\uC11C \uAC00\uC2A4 \uBD84\uC11D\uAE30\uAC00
@@ -970,7 +970,7 @@ MonoBehaviour:
     position: {x: 40.29, y: 1.09, z: -11.64}
   - type: 6
     key: 5ac345dc86f774288030817f
-    name: Playing the Market
+    name: "\uC2DC\uC138 \uC870\uC791"
     group: "\uBA54\uCE74\uB2C9"
     objective: 5ac7a4ba86f77409f3423628
     detail: "\uACF5\uC7A5(Factory)\uC5D0\uC11C [\uACF5\uAD6C\uC138\uD2B8]\uB85C \uCCAB
@@ -978,7 +978,7 @@ MonoBehaviour:
     position: {x: 68.19, y: 1.06, z: -7.38}
   - type: 6
     key: 5ac345dc86f774288030817f
-    name: Playing the Market
+    name: "\uC2DC\uC138 \uC870\uC791"
     group: "\uBA54\uCE74\uB2C9"
     objective: 5ac7a4ba86f77409f3423628
     detail: "\uACF5\uC7A5(Factory)\uC5D0\uC11C [\uACF5\uAD6C\uC138\uD2B8]\uB85C \uCCAB
@@ -986,7 +986,7 @@ MonoBehaviour:
     position: {x: 68.19, y: 1.06, z: -7.38}
   - type: 6
     key: 5ac345dc86f774288030817f
-    name: Playing the Market
+    name: "\uC2DC\uC138 \uC870\uC791"
     group: "\uBA54\uCE74\uB2C9"
     objective: 5ac7a51a86f774738a4ffc96
     detail: "\uACF5\uC7A5(Factory)\uC5D0\uC11C [\uACF5\uAD6C\uC138\uD2B8]\uB85C \uB450
@@ -994,7 +994,7 @@ MonoBehaviour:
     position: {x: 60.08, y: 1.09, z: -48.39}
   - type: 6
     key: 5ac345dc86f774288030817f
-    name: Playing the Market
+    name: "\uC2DC\uC138 \uC870\uC791"
     group: "\uBA54\uCE74\uB2C9"
     objective: 5ac7a51a86f774738a4ffc96
     detail: "\uACF5\uC7A5(Factory)\uC5D0\uC11C [\uACF5\uAD6C\uC138\uD2B8]\uB85C \uB450
@@ -1002,7 +1002,7 @@ MonoBehaviour:
     position: {x: 60.08, y: 1.09, z: -48.39}
   - type: 6
     key: 5ac3477486f7741d651d6885
-    name: Scout
+    name: "\uC815\uCC30"
     group: "\uBA54\uCE74\uB2C9"
     objective: 5ac61a8a86f7743a8d663c77
     detail: "\uACF5\uC7A5(Factory)\uB9F5\uC758 \uCCAB \uBC88\uC9F8 \uD0C8\uCD9C\uAD6C
@@ -1010,7 +1010,7 @@ MonoBehaviour:
     position: {x: 66.67, y: -1.68, z: -28.88}
   - type: 6
     key: 5ac3477486f7741d651d6885
-    name: Scout
+    name: "\uC815\uCC30"
     group: "\uBA54\uCE74\uB2C9"
     objective: 5ac61ab986f7746e352cec8c
     detail: "\uACF5\uC7A5(Factory)\uB9F5\uC758 \uB450 \uBC88\uC9F8 \uD0C8\uCD9C\uAD6C
@@ -1018,7 +1018,7 @@ MonoBehaviour:
     position: {x: -53.11, y: 2.29, z: 58.19}
   - type: 6
     key: 5ac3477486f7741d651d6885
-    name: Scout
+    name: "\uC815\uCC30"
     group: "\uBA54\uCE74\uB2C9"
     objective: 5ac61adf86f774741c1bf096
     detail: "\uACF5\uC7A5(Factory)\uB9F5\uC758 \uC138 \uBC88\uC9F8 \uD0C8\uCD9C\uAD6C
@@ -1026,7 +1026,7 @@ MonoBehaviour:
     position: {x: 59.7, y: 1.16, z: 56.98}
   - type: 6
     key: 5ac3477486f7741d651d6885
-    name: Scout
+    name: "\uC815\uCC30"
     group: "\uBA54\uCE74\uB2C9"
     objective: 63a865ce1943b749b5021f86
     detail: "\uACF5\uC7A5(Factory)\uB9F5\uC758 \uB124 \uBC88\uC9F8 \uD0C8\uCD9C\uAD6C
@@ -1116,7 +1116,7 @@ MonoBehaviour:
     position: {x: 19.81, y: -2.56, z: 46.84}
   - type: 7
     key: 669fa399033a3ce9870338a8
-    name: Possessor
+    name: "\uC18C\uC720\uC790"
     group: "\uD504\uB77C\uD37C"
     objective: 669fb4a56e66d3d79183a5c9
     detail: "\uC870\uC885\uC0AC \uBE44\uD589 \uC77C\uC9C0"
@@ -1168,7 +1168,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 597a0e5786f77426d66c0636
-    name: Chemical - Part 3
+    name: "\uD654\uD559 - \uD30C\uD2B8 3"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 597a15b386f774799e5cd152
@@ -1218,7 +1218,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 666314bd920800278d0f6748
-    name: Viewer
+    name: "\uC2DC\uCCAD\uC790"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 66d07fa69d373d977f437fe0
@@ -1259,7 +1259,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5a68669a86f774255929b4d4
-    name: Health Care Privacy - Part 5
+    name: "\uC758\uB8CC \uAC1C\uC778 \uC815\uBCF4 \uBCF4\uD638 - \uD30C\uD2B8 5"
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objectives:
     - id: 5a6879be86f774284429b1bb
@@ -1273,7 +1273,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     trader: "\uD39C\uC2A4"
     objectives:
     - id: 66d9cbb67b491f9d5304f6eb
@@ -1454,7 +1454,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 59674eb386f774539f14813a
-    name: Delivery From the Past
+    name: "\uACFC\uAC70\uC5D0\uC11C \uC628 \uBC30\uB2EC"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 5968929e86f7740d121082d3
@@ -1470,7 +1470,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5967530a86f77462ba22226b
-    name: Bad Rep Evidence
+    name: "\uB098\uC05C \uD3C9\uD310\uC758 \uC99D\uAC70"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 5968943f86f7740d137ebfc2
@@ -1496,7 +1496,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 59675ea386f77414b32bded2
-    name: Postman Pat - Part 1
+    name: "\uD589\uBCF5\uBC30\uB2EC\uBD80 \uD33B\uC544\uC800\uC528 - \uD30C\uD2B8 1"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 596895f986f7740d14064722
@@ -1513,7 +1513,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 59689ee586f7740d1570bbd5
-    name: Sanitary Standards
+    name: "\uC704\uC0DD \uD45C\uC900"
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objectives:
     - id: 59689f7586f7740d14064726
@@ -1532,7 +1532,7 @@ MonoBehaviour:
       optional: 1
       thisMap: 1
   - key: 5ac345dc86f774288030817f
-    name: Playing the Market
+    name: "\uC2DC\uC138 \uC870\uC791"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 5ac7a4ba86f77409f3423628
@@ -1546,7 +1546,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 5ac3477486f7741d651d6885
-    name: Scout
+    name: "\uC815\uCC30"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 5ac61a8a86f7743a8d663c77
@@ -1627,7 +1627,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 669fa399033a3ce9870338a8
-    name: Possessor
+    name: "\uC18C\uC720\uC790"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 669fb4a56e66d3d79183a5c9

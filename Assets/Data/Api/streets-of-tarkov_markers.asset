@@ -2924,14 +2924,14 @@ MonoBehaviour:
     position: {x: 144.582, y: 3.4959946, z: 357.876}
   - type: 7
     key: 639135d89444fb141f4e6eea
-    name: Population Census
+    name: "\uC778\uAD6C\uC870\uC0AC"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 639135d89444fb141f4e6eeb
     detail: "\uC8FC\uD0DD \uAD00\uB9AC\uC18C \uC77C\uC9C0"
     position: {x: 80.18001, y: 3.9165, z: 143.7027}
   - type: 6
     key: 64f5aac4b63b74469b6c14c2
-    name: Glory to CPSU
+    name: "\uC18C\uB828 \uACF5\uC0B0\uB2F9\uC5D0 \uC601\uAD11\uC744"
     group: "\uD504\uB77C\uD37C"
     objective: 64f5aac4b63b74469b6c14c7
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
@@ -2939,7 +2939,7 @@ MonoBehaviour:
     position: {x: 246.25, y: -0.33, z: 52.42}
   - type: 6
     key: 64f5aac4b63b74469b6c14c2
-    name: Glory to CPSU
+    name: "\uC18C\uB828 \uACF5\uC0B0\uB2F9\uC5D0 \uC601\uAD11\uC744"
     group: "\uD504\uB77C\uD37C"
     objective: 6a26943d55478d73e6b4fadf
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
@@ -2947,28 +2947,28 @@ MonoBehaviour:
     position: {x: 131.43, y: 7.59, z: 232.37}
   - type: 7
     key: 64f5aac4b63b74469b6c14c2
-    name: Glory to CPSU
+    name: "\uC18C\uB828 \uACF5\uC0B0\uB2F9\uC5D0 \uC601\uAD11\uC744"
     group: "\uD504\uB77C\uD37C"
     objective: 64f5b876a2a5bb727b61c5ad
     detail: "\uC77C\uC9C0"
     position: {x: 245.89398, y: -0.6870003, z: 55.196}
   - type: 7
     key: 64f5aac4b63b74469b6c14c2
-    name: Glory to CPSU
+    name: "\uC18C\uB828 \uACF5\uC0B0\uB2F9\uC5D0 \uC601\uAD11\uC744"
     group: "\uD504\uB77C\uD37C"
     objective: 64f5b876a2a5bb727b61c5ad
     detail: "\uC77C\uC9C0"
     position: {x: 249.29099, y: -0.5653, z: 57.7654}
   - type: 7
     key: 64f5aac4b63b74469b6c14c2
-    name: Glory to CPSU
+    name: "\uC18C\uB828 \uACF5\uC0B0\uB2F9\uC5D0 \uC601\uAD11\uC744"
     group: "\uD504\uB77C\uD37C"
     objective: 64f5b876a2a5bb727b61c5ad
     detail: "\uC77C\uC9C0"
     position: {x: 247.16199, y: -0.47999954, z: 51.082}
   - type: 7
     key: 64f5aac4b63b74469b6c14c2
-    name: Glory to CPSU
+    name: "\uC18C\uB828 \uACF5\uC0B0\uB2F9\uC5D0 \uC601\uAD11\uC744"
     group: "\uD504\uB77C\uD37C"
     objective: 64f5b876a2a5bb727b61c5ad
     detail: "\uC77C\uC9C0"
@@ -3105,7 +3105,7 @@ MonoBehaviour:
     position: {x: 248.3334, y: -3.6317, z: 55.362602}
   - type: 6
     key: 639135b04ed9512be67647d7
-    name: Glory to CPSU - Part 1
+    name: "\uC18C\uB828\uACF5\uC0B0\uB2F9\uC5D0 \uC601\uAD11\uC744 - \uD30C\uD2B8 1"
     group: "\uD504\uB77C\uD37C"
     objective: 63a7db4a3e491955e65fb88b
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
@@ -3144,7 +3144,7 @@ MonoBehaviour:
     position: {x: 188.59, y: 0.37, z: 226.38}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66d9cbb67b491f9d5304f6eb
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC788\uB294
@@ -3153,7 +3153,7 @@ MonoBehaviour:
     position: {x: 181.24, y: 1.17, z: 228.68}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66d9cbb67b491f9d5304f6e9
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC788\uB294
@@ -3162,7 +3162,7 @@ MonoBehaviour:
     position: {x: -263.27, y: -2.03, z: 206.44}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66dacf2a88c7001436a67390
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC788\uB294
@@ -3171,7 +3171,7 @@ MonoBehaviour:
     position: {x: 209.4, y: 0.96, z: 231.01}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     group: "\uD39C\uC2A4"
     objective: 66d9cbb67b491f9d5304f6ea
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC788\uB294
@@ -3274,7 +3274,7 @@ MonoBehaviour:
     position: {x: 107.93, y: 7.57, z: 232.19}
   - type: 6
     key: 64e7b99017ab941a6f7bf9d7
-    name: Gendarmerie - Mall Cop
+    name: "\uD5CC\uBCD1\uB300 - \uC1FC\uD551\uBAB0 \uACBD\uBE44\uB300"
     group: "\uD504\uB77C\uD37C"
     objective: 64e7bc2c5e6d3e61ca2ca097
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
@@ -3283,7 +3283,7 @@ MonoBehaviour:
     position: {x: -97.2, y: 8.6, z: -10.7}
   - type: 6
     key: 64e7b9a4aac4cd0a726562cb
-    name: Gendarmerie - Tickets, Please
+    name: "\uD5CC\uBCD1\uB300 - \uD45C \uAC80\uC0AC"
     group: "\uD504\uB77C\uD37C"
     objective: 64e7bd0c6393886f74119f41
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
@@ -3299,28 +3299,28 @@ MonoBehaviour:
     position: {x: 66.800995, y: 7.7271996, z: 303.143}
   - type: 7
     key: 6391359b9444fb141f4e6ee6
-    name: You've Got Mail
+    name: "\uD3B8\uC9C0\uAC00 \uB3C4\uCC29\uD588\uC2B5\uB2C8\uB2E4"
     group: "\uD504\uB77C\uD37C"
     objective: 6391359b9444fb141f4e6ee7
     detail: "\uB4F1\uAE30 \uD3B8\uC9C0"
     position: {x: 36.107998, y: 1.2919998, z: 126.599}
   - type: 7
     key: 6391359b9444fb141f4e6ee6
-    name: You've Got Mail
+    name: "\uD3B8\uC9C0\uAC00 \uB3C4\uCC29\uD588\uC2B5\uB2C8\uB2E4"
     group: "\uD504\uB77C\uD37C"
     objective: 6391359b9444fb141f4e6ee7
     detail: "\uB4F1\uAE30 \uD3B8\uC9C0"
     position: {x: 39.234997, y: 1.5159998, z: 117.6931}
   - type: 7
     key: 6391359b9444fb141f4e6ee6
-    name: You've Got Mail
+    name: "\uD3B8\uC9C0\uAC00 \uB3C4\uCC29\uD588\uC2B5\uB2C8\uB2E4"
     group: "\uD504\uB77C\uD37C"
     objective: 6391359b9444fb141f4e6ee7
     detail: "\uB4F1\uAE30 \uD3B8\uC9C0"
     position: {x: 39.475, y: 1.1955996, z: 113.47099}
   - type: 7
     key: 6391359b9444fb141f4e6ee6
-    name: You've Got Mail
+    name: "\uD3B8\uC9C0\uAC00 \uB3C4\uCC29\uD588\uC2B5\uB2C8\uB2E4"
     group: "\uD504\uB77C\uD37C"
     objective: 6391359b9444fb141f4e6ee7
     detail: "\uB4F1\uAE30 \uD3B8\uC9C0"
@@ -3351,7 +3351,7 @@ MonoBehaviour:
     position: {x: -80.26, y: 5.98, z: 50.5}
   - type: 6
     key: 639135e0fa894f0a866afde6
-    name: Urban Medicine
+    name: "\uB3C4\uC2DC \uC57D\uD488"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 63a7d64710b7a13eb015961f
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC704\uCE58\uD55C
@@ -3359,14 +3359,14 @@ MonoBehaviour:
     position: {x: 92.96, y: 3.59, z: 320.38}
   - type: 7
     key: 639135e0fa894f0a866afde6
-    name: Urban Medicine
+    name: "\uB3C4\uC2DC \uC57D\uD488"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 639135e0fa894f0a866afde7
     detail: "\uC0D8\uD50C\uC774 \uB4E0 \uD654\uD559\uBB3C\uC9C8 \uC6A9\uAE30"
     position: {x: 95.8846, y: 2.6708999, z: 319.08118}
   - type: 7
     key: 639135e0fa894f0a866afde6
-    name: Urban Medicine
+    name: "\uB3C4\uC2DC \uC57D\uD488"
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 639135e0fa894f0a866afde7
     detail: "\uC0D8\uD50C\uC774 \uB4E0 \uD654\uD559\uBB3C\uC9C8 \uC6A9\uAE30"
@@ -3401,7 +3401,7 @@ MonoBehaviour:
     position: {x: 213.23589, y: -0.88670063, z: 410.32123}
   - type: 6
     key: 639135f286e646067c176a87
-    name: Revision - Streets of Tarkov
+    name: "\uAC1C\uC815 \uC791\uC5C5 - \uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 63927f14744e452011470816
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uC9C0\uC5ED\uC5D0\uC11C
@@ -3409,7 +3409,7 @@ MonoBehaviour:
     position: {x: -139.43, y: 3.56, z: 438.81}
   - type: 6
     key: 639135f286e646067c176a87
-    name: Revision - Streets of Tarkov
+    name: "\uAC1C\uC815 \uC791\uC5C5 - \uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 63927f2d8ba6894d155e77e6
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uC9C0\uC5ED\uC5D0\uC11C
@@ -3417,7 +3417,7 @@ MonoBehaviour:
     position: {x: 146.31, y: 4.7, z: 408.41}
   - type: 6
     key: 639135f286e646067c176a87
-    name: Revision - Streets of Tarkov
+    name: "\uAC1C\uC815 \uC791\uC5C5 - \uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 63927f349444fb141f4e6f24
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uC9C0\uC5ED\uC5D0\uC11C
@@ -3425,7 +3425,7 @@ MonoBehaviour:
     position: {x: 2.19, y: 0.9, z: 34.04}
   - type: 6
     key: 639136d68ba6894d155e77cf
-    name: Green Corridor
+    name: "\uC548\uC804\uD55C \uD1B5\uB85C"
     group: "\uD504\uB77C\uD37C"
     objective: 63a7d53904d3dc28a52a2100
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
@@ -3433,21 +3433,21 @@ MonoBehaviour:
     position: {x: 15.65, y: 3.39, z: 226.62}
   - type: 6
     key: 639136d68ba6894d155e77cf
-    name: Green Corridor
+    name: "\uC548\uC804\uD55C \uD1B5\uB85C"
     group: "\uD504\uB77C\uD37C"
     objective: 63a7d58004d3dc28a52a2102
     detail: "\uB9E4\uBCF5 \uC9C0\uC810 \uCC3E\uAE30"
     position: {x: 62.18, y: 7.11, z: 272.84}
   - type: 6
     key: 639282134ed9512be67647ed
-    name: Road Closed
+    name: "\uB3C4\uB85C \uD3D0\uC1C4"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 63a7d461f32fa1316250c3d7
     detail: "\uB9E4\uBCF5 \uC9C0\uC810 \uCC3E\uAE30"
     position: {x: 62.18, y: 7.11, z: 272.84}
   - type: 6
     key: 639282134ed9512be67647ed
-    name: Road Closed
+    name: "\uB3C4\uB85C \uD3D0\uC1C4"
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 63a7d444f32fa1316250c3d5
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
@@ -3561,7 +3561,7 @@ MonoBehaviour:
     position: {x: 37.98, y: 12.15, z: 156.24}
   - type: 6
     key: 63967028c4a91c5cb76abd81
-    name: Trouble in the Big City
+    name: "\uB300\uB3C4\uC2DC\uC5D0\uC11C \uBC8C\uC5B4\uC9C0\uB294 \uC18C\uB3D9"
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 63bd64552803ffbfad0e3e48
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uD654\uBB3C\uC744
@@ -3570,14 +3570,14 @@ MonoBehaviour:
     position: {x: 15.65, y: 3.39, z: 226.62}
   - type: 6
     key: 63967028c4a91c5cb76abd81
-    name: Trouble in the Big City
+    name: "\uB300\uB3C4\uC2DC\uC5D0\uC11C \uBC8C\uC5B4\uC9C0\uB294 \uC18C\uB3D9"
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639aea2228d8a21b593a3491
     detail: "\uD654\uBB3C \uAD6C\uC5ED\uC5D0 MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
     position: {x: 10.49, y: 4.75, z: 217.56}
   - type: 6
     key: 63967028c4a91c5cb76abd81
-    name: Trouble in the Big City
+    name: "\uB300\uB3C4\uC2DC\uC5D0\uC11C \uBC8C\uC5B4\uC9C0\uB294 \uC18C\uB3D9"
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 63bd64ba3d34b0e64b0d0a17
     detail: "\uAE30\uAC11 \uD638\uC1A1\uB300 \uC778\uADFC\uC5D0\uC11C \uD669\uC0C9
@@ -3585,7 +3585,7 @@ MonoBehaviour:
     position: {x: 9.69, y: 8.55, z: 217.15}
   - type: 6
     key: 639dbaf17c898a131e1cffff
-    name: Debtor
+    name: "\uCC44\uBB34\uC790"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 63a7cd3aee7b4d0d5507baee
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uCC44\uBB34\uC790
@@ -3593,7 +3593,7 @@ MonoBehaviour:
     position: {x: -80.26, y: 5.98, z: 50.5}
   - type: 6
     key: 639dbaf17c898a131e1cffff
-    name: Debtor
+    name: "\uCC44\uBB34\uC790"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 6a5a9710671cbfe928bbfde2
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC0AC\uC124 \uAC10\uC625
@@ -3632,7 +3632,7 @@ MonoBehaviour:
     position: {x: 275.65, y: 4.3, z: 380.83}
   - type: 6
     key: 64ee9df4496db64f9b7a4432
-    name: The Door
+    name: "\uBBF8\uC9C0\uC758 \uBB38"
     group: "\uBA54\uCE74\uB2C9"
     objective: 64ee9df4496db64f9b7a4433
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
@@ -3641,7 +3641,7 @@ MonoBehaviour:
     position: {x: 184.42, y: 6.76, z: 55.58}
   - type: 6
     key: 64ee9df4496db64f9b7a4432
-    name: The Door
+    name: "\uBBF8\uC9C0\uC758 \uBB38"
     group: "\uBA54\uCE74\uB2C9"
     objective: 64ee9df4496db64f9b7a4435
     detail: "\uBB38\uC744 \uAC10\uC2DC\uD558\uAE30 \uC704\uD55C Wi-Fi \uCE74\uBA54\uB77C
@@ -3649,7 +3649,7 @@ MonoBehaviour:
     position: {x: 183.93, y: 6.09, z: 53.35}
   - type: 6
     key: 64ee9df4496db64f9b7a4432
-    name: The Door
+    name: "\uBBF8\uC9C0\uC758 \uBB38"
     group: "\uBA54\uCE74\uB2C9"
     objective: 64eea6059878a0569d6ec98b
     detail: "\uACC4\uB2E8\uC744 \uAC10\uC2DC\uD558\uAE30 \uC704\uD55C Wi-Fi \uCE74\uBA54\uB77C
@@ -3896,7 +3896,7 @@ MonoBehaviour:
     position: {x: 89.26, y: 5.07, z: -275.35}
   - type: 6
     key: 6573397ef3f8344c4575cd87
-    name: Properties All Around
+    name: "\uB3C4\uC2DC\uC758 \uBD80\uB3D9\uC0B0"
     group: "\uD504\uB77C\uD37C"
     objective: 6573397ef3f8344c4575cd88
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
@@ -3904,21 +3904,21 @@ MonoBehaviour:
     position: {x: -58.32, y: 3.58, z: 457.86}
   - type: 7
     key: 6573397ef3f8344c4575cd87
-    name: Properties All Around
+    name: "\uB3C4\uC2DC\uC758 \uBD80\uB3D9\uC0B0"
     group: "\uD504\uB77C\uD37C"
     objective: 6581676e7a18ff402fd23e68
     detail: "\uC9C0\uC801 \uB4F1\uB85D\uBD80 \uAE30\uB85D"
     position: {x: -66.813, y: 7.970781, z: 459.4482}
   - type: 7
     key: 6573397ef3f8344c4575cd87
-    name: Properties All Around
+    name: "\uB3C4\uC2DC\uC758 \uBD80\uB3D9\uC0B0"
     group: "\uD504\uB77C\uD37C"
     objective: 6581676e7a18ff402fd23e68
     detail: "\uC9C0\uC801 \uB4F1\uB85D\uBD80 \uAE30\uB85D"
     position: {x: -66.81177, y: 7.44332, z: 453.45218}
   - type: 7
     key: 6573397ef3f8344c4575cd87
-    name: Properties All Around
+    name: "\uB3C4\uC2DC\uC758 \uBD80\uB3D9\uC0B0"
     group: "\uD504\uB77C\uD37C"
     objective: 6581676e7a18ff402fd23e68
     detail: "\uC9C0\uC801 \uB4F1\uB85D\uBD80 \uAE30\uB85D"
@@ -3973,7 +3973,7 @@ MonoBehaviour:
     position: {x: -137.69, y: 2.8, z: 400.38}
   - type: 6
     key: 67a0964e972c11a3f507731b
-    name: Needle in a Haystack
+    name: "\uBAA8\uB798\uC0AC\uC7A5\uC5D0\uC11C \uBC14\uB298 \uCC3E\uAE30"
     group: "\uBA54\uCE74\uB2C9"
     objective: 67a0bc87c60a93d7a3f28b23
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC704\uCE58\uD55C
@@ -3989,7 +3989,7 @@ MonoBehaviour:
     position: {x: -209.73, y: 4.86, z: 135.28}
   quests:
   - key: 639135d89444fb141f4e6eea
-    name: Population Census
+    name: "\uC778\uAD6C\uC870\uC0AC"
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objectives:
     - id: 639135d89444fb141f4e6eeb
@@ -4003,7 +4003,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 64f5aac4b63b74469b6c14c2
-    name: Glory to CPSU
+    name: "\uC18C\uB828 \uACF5\uC0B0\uB2F9\uC5D0 \uC601\uAD11\uC744"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 64f5aac4b63b74469b6c14c7
@@ -4115,7 +4115,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 639135b04ed9512be67647d7
-    name: Glory to CPSU - Part 1
+    name: "\uC18C\uB828\uACF5\uC0B0\uB2F9\uC5D0 \uC601\uAD11\uC744 - \uD30C\uD2B8 1"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 63a7db4a3e491955e65fb88b
@@ -4171,7 +4171,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 66d9cbb67b491f9d5304f6e6
-    name: Is This a Reference?
+    name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     trader: "\uD39C\uC2A4"
     objectives:
     - id: 66d9cbb67b491f9d5304f6eb
@@ -4369,7 +4369,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 64e7b99017ab941a6f7bf9d7
-    name: Gendarmerie - Mall Cop
+    name: "\uD5CC\uBCD1\uB300 - \uC1FC\uD551\uBAB0 \uACBD\uBE44\uB300"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 64e7bc2c5e6d3e61ca2ca097
@@ -4379,7 +4379,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 64e7b9a4aac4cd0a726562cb
-    name: Gendarmerie - Tickets, Please
+    name: "\uD5CC\uBCD1\uB300 - \uD45C \uAC80\uC0AC"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 64e7bd0c6393886f74119f41
@@ -4403,7 +4403,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 6391359b9444fb141f4e6ee6
-    name: You've Got Mail
+    name: "\uD3B8\uC9C0\uAC00 \uB3C4\uCC29\uD588\uC2B5\uB2C8\uB2E4"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 6391359b9444fb141f4e6ee7
@@ -4448,7 +4448,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 639135e0fa894f0a866afde6
-    name: Urban Medicine
+    name: "\uB3C4\uC2DC \uC57D\uD488"
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objectives:
     - id: 63a7d64710b7a13eb015961f
@@ -4484,7 +4484,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 639135f286e646067c176a87
-    name: Revision - Streets of Tarkov
+    name: "\uAC1C\uC815 \uC791\uC5C5 - \uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
     objectives:
     - id: 63927f14744e452011470816
@@ -4503,7 +4503,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 639136d68ba6894d155e77cf
-    name: Green Corridor
+    name: "\uC548\uC804\uD55C \uD1B5\uB85C"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 63a7d53904d3dc28a52a2100
@@ -4520,7 +4520,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 639282134ed9512be67647ed
-    name: Road Closed
+    name: "\uB3C4\uB85C \uD3D0\uC1C4"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
     objectives:
     - id: 63a7d461f32fa1316250c3d7
@@ -4580,7 +4580,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 63967028c4a91c5cb76abd81
-    name: Trouble in the Big City
+    name: "\uB300\uB3C4\uC2DC\uC5D0\uC11C \uBC8C\uC5B4\uC9C0\uB294 \uC18C\uB3D9"
     trader: "\uB4F1\uB300\uC9C0\uAE30"
     objectives:
     - id: 63bd64552803ffbfad0e3e48
@@ -4618,7 +4618,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 639dbaf17c898a131e1cffff
-    name: Debtor
+    name: "\uCC44\uBB34\uC790"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 63a7cd3aee7b4d0d5507baee
@@ -4665,7 +4665,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 64ee9df4496db64f9b7a4432
-    name: The Door
+    name: "\uBBF8\uC9C0\uC758 \uBB38"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 64ee9df4496db64f9b7a4433
@@ -4865,7 +4865,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 0
   - key: 6573397ef3f8344c4575cd87
-    name: Properties All Around
+    name: "\uB3C4\uC2DC\uC758 \uBD80\uB3D9\uC0B0"
     trader: "\uD504\uB77C\uD37C"
     objectives:
     - id: 6573397ef3f8344c4575cd88
@@ -4918,7 +4918,7 @@ MonoBehaviour:
       optional: 0
       thisMap: 1
   - key: 67a0964e972c11a3f507731b
-    name: Needle in a Haystack
+    name: "\uBAA8\uB798\uC0AC\uC7A5\uC5D0\uC11C \uBC14\uB298 \uCC3E\uAE30"
     trader: "\uBA54\uCE74\uB2C9"
     objectives:
     - id: 67a0bc81fcbc1c559d09b58f
