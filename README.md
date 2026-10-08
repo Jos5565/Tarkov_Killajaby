@@ -1,4 +1,4 @@
-# Tarkov KillaJaby
+# Tarkov 길라잡이
 
 타르코프(Escape from Tarkov)를 하면서 옆에 띄워두는 **위치 추적 지도 앱**입니다.
 게임에서 찍은 스크린샷 파일명에 들어 있는 좌표로 내 위치를 지도에 표시하고,
