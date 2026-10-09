@@ -8,6 +8,17 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "MapCatalog", menuName = "Tarkov/Map Catalog")]
 public class MapCatalog : ScriptableObject
 {
+    // 맵 버튼에 마우스를 올리면 보여주는 보스 정보 (Tools > Tarkov > API Data가 채운다)
+    [Serializable]
+    public class BossInfo
+    {
+        public string name;
+        public float chanceMin;   // 같은 보스가 여러 그룹으로 나오면 그룹별 확률 범위
+        public float chanceMax;
+        public int groups = 1;
+        public int locations;     // 출현 구역 수 (0이면 위치 정보 없음)
+    }
+
     [Serializable]
     public class Entry
     {
@@ -15,6 +26,9 @@ public class MapCatalog : ScriptableObject
         public Sprite icon;
         [Tooltip("Resources 기준 MapConfig 경로 (예: Maps/Customs). 비어 있으면 버튼 비활성화")]
         public string configPath;
+        [Tooltip("tarkov.dev 맵 이름 (예: customs). 보스 정보를 채울 때 사용")]
+        public string normalizedName;
+        public List<BossInfo> bosses = new List<BossInfo>();
 
         public bool IsAvailable => !string.IsNullOrEmpty(configPath);
 

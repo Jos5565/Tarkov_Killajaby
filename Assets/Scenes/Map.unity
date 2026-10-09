@@ -938,6 +938,48 @@ MonoBehaviour:
     size: 14
     sprite: {fileID: 0}
     showInfo: 0
+  - type: 10
+    visible: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 22
+    sprite: {fileID: 21300000, guid: 37d992fc754a4c049f71dc65c9919008, type: 3}
+    showInfo: 1
+  - type: 11
+    visible: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 22
+    sprite: {fileID: 21300000, guid: 6673f925530940ed9da24eaa4f072c93, type: 3}
+    showInfo: 1
+  - type: 12
+    visible: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 22
+    sprite: {fileID: 21300000, guid: c556f460c49248d9b6dcc280ea499b39, type: 3}
+    showInfo: 1
+  - type: 13
+    visible: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 22
+    sprite: {fileID: 21300000, guid: 9ca2a8bcd8494cdab1ee9afad2795820, type: 3}
+    showInfo: 1
+  - type: 14
+    visible: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 22
+    sprite: {fileID: 21300000, guid: c235527bd7be4b708415c688c62e3792, type: 3}
+    showInfo: 1
+  - type: 15
+    visible: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 22
+    sprite: {fileID: 21300000, guid: 3ca139125c9640539bd7806b2f851756, type: 3}
+    showInfo: 1
+  - type: 16
+    visible: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 22
+    sprite: {fileID: 21300000, guid: 5ef1039469a947cb87fd88a01bdd10a3, type: 3}
+    showInfo: 1
 --- !u!1 &900000301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,7 +1126,7 @@ MonoBehaviour:
   boxColor: {r: 0.25, g: 0.25, b: 0.25, a: 1}
   checkColor: {r: 1, g: 1, b: 1, a: 1}
   groups:
-  - title: Extracts
+  - title: "\uD0C8\uCD9C\uAD6C"
     expanded: 1
     entries:
     - label: PMC
@@ -1099,7 +1141,7 @@ MonoBehaviour:
     - label: Transit
       type: 1
       icon: {fileID: 0}
-  - title: Spawns
+  - title: "\uC2A4\uD3F0 \uC704\uCE58"
     expanded: 1
     entries:
     - label: PMC
@@ -1114,7 +1156,7 @@ MonoBehaviour:
     - label: Boss
       type: 5
       icon: {fileID: 0}
-  - title: Quests
+  - title: "\uD018\uC2A4\uD2B8"
     expanded: 1
     entries:
     - label: Objective
@@ -1123,6 +1165,31 @@ MonoBehaviour:
     - label: Quest Item
       type: 7
       icon: {fileID: 0}
+  - title: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    expanded: 1
+    onlyPresent: 1
+    entries:
+    - label: "\uD68C\uACC4 \uBB38\uC11C"
+      type: 10
+      icon: {fileID: 21300000, guid: 37d992fc754a4c049f71dc65c9919008, type: 3}
+    - label: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+      type: 11
+      icon: {fileID: 21300000, guid: 6673f925530940ed9da24eaa4f072c93, type: 3}
+    - label: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+      type: 12
+      icon: {fileID: 21300000, guid: c556f460c49248d9b6dcc280ea499b39, type: 3}
+    - label: "\uAE30\uC220 \uBB38\uC11C"
+      type: 13
+      icon: {fileID: 21300000, guid: 9ca2a8bcd8494cdab1ee9afad2795820, type: 3}
+    - label: "\uD14C\uC2A4\uD2B8 \uBB38\uC11C"
+      type: 14
+      icon: {fileID: 21300000, guid: c235527bd7be4b708415c688c62e3792, type: 3}
+    - label: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+      type: 15
+      icon: {fileID: 21300000, guid: 3ca139125c9640539bd7806b2f851756, type: 3}
+    - label: "\uC758\uB8CC \uBB38\uC11C"
+      type: 16
+      icon: {fileID: 21300000, guid: 5ef1039469a947cb87fd88a01bdd10a3, type: 3}
 --- !u!1 &900000501
 GameObject:
   m_ObjectHideFlags: 0

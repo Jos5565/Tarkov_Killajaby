@@ -26,6 +26,9 @@ public class TarkovApiWindow : EditorWindow
     const string FallbackLanguage = "en";
     const string PrefGameMode = "TarkovApi.GameMode";
     const string PrefLanguage = "TarkovApi.Language";
+    // 층 정의(높이 범위 + 건물 영역): tarkov.dev 웹사이트 소스의 지도 설정. API에는 층 정보가 없다
+    const string FloorUrl = "https://raw.githubusercontent.com/the-hideout/tarkov-dev/main/src/data/maps.json";
+    const string FloorPath = RawDir + "/tarkovdev_maps.json";
 
     static readonly string[] GameModes = { "regular", "pve" };
     static readonly string[] Languages = { "en", "ko", "ru", "ja", "zh", "de", "fr", "es" };
@@ -112,6 +115,13 @@ public class TarkovApiWindow : EditorWindow
                 File.WriteAllText($"{RawDir}/{GameMode}_{file}.json", text, Encoding.UTF8);
             }
 
+            SetStatus("다운로드 중: 층 정의 (tarkov-dev maps.json)");
+            using (HttpResponseMessage res = await client.GetAsync(FloorUrl))
+            {
+                if (res.IsSuccessStatusCode) File.WriteAllText(FloorPath, await res.Content.ReadAsStringAsync(), Encoding.UTF8);
+                else Debug.LogWarning($"[TarkovApi] 층 정의를 받지 못해 기존 파일을 사용합니다: HTTP {(int)res.StatusCode}");
+            }
+
             AssetDatabase.Refresh();
             BuildAllMarkers();
         }
@@ -141,6 +151,7 @@ public class TarkovApiWindow : EditorWindow
                 tr.Add(LoadData(RawPath(dataset, FallbackLanguage)), primary: false);
             }
             tr.AddOverrides(LoadData($"{TranslationDir}/{Language}.json"));
+            JArray floorMaps = File.Exists(FloorPath) ? JArray.Parse(File.ReadAllText(FloorPath)) : new JArray();
 
             var log = new StringBuilder();
             foreach (string guid in AssetDatabase.FindAssets("t:MapConfig"))
@@ -160,13 +171,27 @@ public class TarkovApiWindow : EditorWindow
                 data.gameMode = GameMode;
                 data.language = Language;
                 data.downloadedAt = File.GetLastWriteTime(RawPath("maps")).ToString("yyyy-MM-dd HH:mm");
-                data.markers = Convert(map, (JObject)mapsData["mobs"], tasksData, tradersData, tr, out data.quests);
+                data.markers = Convert(map, (JObject)mapsData["mobs"], tasksData, tradersData, tr, FloorLayers(floorMaps, config.normalizedName), out data.quests);
                 EditorUtility.SetDirty(data);
 
                 config.markerData = data;
                 EditorUtility.SetDirty(config);
 
                 log.AppendLine($"{config.name}: {Summary(data.markers)}");
+            }
+
+            // 로비 맵 버튼 툴팁용 보스 정보 (지도를 불러오지 않고 보여주기 위해 MapCatalog에 저장)
+            foreach (string guid in AssetDatabase.FindAssets("t:MapCatalog"))
+            {
+                var catalog = AssetDatabase.LoadAssetAtPath<MapCatalog>(AssetDatabase.GUIDToAssetPath(guid));
+                foreach (MapCatalog.Entry entry in catalog.maps)
+                {
+                    JObject map = mapsData["maps"]?.Children<JProperty>()
+                        .Select(p => (JObject)p.Value)
+                        .FirstOrDefault(m => (string)m["normalizedName"] == entry.normalizedName);
+                    entry.bosses = map != null ? BossSummary(map, (JObject)mapsData["mobs"], tr) : new List<MapCatalog.BossInfo>();
+                }
+                EditorUtility.SetDirty(catalog);
             }
 
             AssetDatabase.SaveAssets();
@@ -181,7 +206,7 @@ public class TarkovApiWindow : EditorWindow
     }
 
     // tarkov.dev 웹사이트(src/pages/map/index.jsx)의 분류 방식을 따른다
-    static List<MapMarker> Convert(JObject map, JObject mobs, JObject tasksData, JObject tradersData, Translator tr, out List<QuestData> quests)
+    static List<MapMarker> Convert(JObject map, JObject mobs, JObject tasksData, JObject tradersData, Translator tr, JArray floors, out List<QuestData> quests)
     {
         quests = new List<QuestData>();
         var markers = new List<MapMarker>();
@@ -242,6 +267,19 @@ public class TarkovApiWindow : EditorWindow
             markers.Add(marker);
         }
 
+        // 배틀패스 문서: 문서가 나올 수 있는 자리마다 종류별 마커. 한 자리에 여러 종류면 설명에 함께 적는다
+        foreach (JToken loot in Items(map["lootLoose"]))
+        {
+            if (!TryPos(loot["position"], out Vector3 pos)) continue;
+            var docs = Strings(loot["items"])
+                .Select(id => BattlePassDocs.TryGetByItem(id, out BattlePassDocs.Doc doc) ? doc : (BattlePassDocs.Doc?)null)
+                .Where(d => d.HasValue).Select(d => d.Value)
+                .OrderBy(d => d.type).ToList();
+            string detail = docs.Count > 1 ? "이 자리: " + string.Join(", ", docs.Select(d => d.name)) : BattlePassDocs.Title;
+            foreach (BattlePassDocs.Doc doc in docs)
+                markers.Add(new MapMarker { type = doc.type, name = doc.name, detail = detail, floor = FloorName(floors, pos), position = pos });
+        }
+
         var questItems = tasksData["questItems"] as JObject;
         foreach (JProperty prop in tasksData["tasks"]?.Children<JProperty>() ?? Enumerable.Empty<JProperty>())
         {
@@ -287,6 +325,71 @@ public class TarkovApiWindow : EditorWindow
 
         return markers;
     }
+
+    // ---- 층 ----
+
+    // tarkov-dev maps.json에서 이 맵(interactive 지도)의 layers. 없으면 빈 배열
+    static JArray FloorLayers(JArray floorMaps, string normalizedName)
+    {
+        JToken group = floorMaps.FirstOrDefault(g => (string)g["normalizedName"] == normalizedName);
+        JToken interactive = Items(group?["maps"]).FirstOrDefault(m => (string)m["projection"] == "interactive");
+        return interactive?["layers"] as JArray ?? new JArray();
+    }
+
+    // tarkov.dev 웹사이트와 같은 방식: 높이가 층의 범위 안이고, 영역(bounds)이 있으면 그 안일 때 그 층.
+    // 어느 층에도 안 들어가면 지상. 층 정의가 없는 맵(삼림 등)은 빈 문자열
+    static string FloorName(JArray layers, Vector3 pos)
+    {
+        if (layers.Count == 0) return "";
+        foreach (JToken layer in layers)
+            foreach (JToken extent in Items(layer["extents"]))
+            {
+                if (!(extent["height"] is JArray h) || h.Count < 2) continue;
+                if (pos.y < (float)h[0] || pos.y >= (float)h[1]) continue;
+                var bounds = extent["bounds"] as JArray;
+                if (bounds == null || bounds.Count == 0 || bounds.Any(b => InRect(b, pos)))
+                    return FloorLabel((string)layer["name"]);
+            }
+        return "지상";
+    }
+
+    // bounds 항목: [[x1, z1], [x2, z2], "이름"]
+    static bool InRect(JToken b, Vector3 pos)
+    {
+        if (!(b is JArray r) || r.Count < 2) return false;
+        float x1 = (float)r[0][0], z1 = (float)r[0][1], x2 = (float)r[1][0], z2 = (float)r[1][1];
+        return pos.x >= Mathf.Min(x1, x2) && pos.x <= Mathf.Max(x1, x2) && pos.z >= Mathf.Min(z1, z2) && pos.z <= Mathf.Max(z1, z2);
+    }
+
+    static string FloorLabel(string name) => name switch
+    {
+        "2nd Floor" or "Second Level" => "2층",
+        "3rd Floor" => "3층",
+        "4th Floor" => "4층",
+        "5th Floor" => "5층",
+        "Underground" => "지하",
+        "Tunnels" => "지하 터널",
+        "Bunkers" => "지하 벙커",
+        "Garage" => "지하 차고",
+        "Technical" => "지하 기술층",
+        _ => name,
+    };
+
+    // 맵의 보스 목록을 이름별로 묶는다 (PvE의 PMC 봇 제외). 같은 보스가 여러 그룹이면 확률 범위와 그룹 수
+    static List<MapCatalog.BossInfo> BossSummary(JObject map, JObject mobs, Translator tr) =>
+        Items(map["bosses"])
+            .Where(b => !((string)b["mob"] ?? "").StartsWith("pmc", StringComparison.OrdinalIgnoreCase))
+            .GroupBy(b => MobName(b, mobs, tr))
+            .Select(g => new MapCatalog.BossInfo
+            {
+                name = g.Key,
+                chanceMin = g.Min(b => (float?)b["spawnChance"] ?? 0f),
+                chanceMax = g.Max(b => (float?)b["spawnChance"] ?? 0f),
+                groups = g.Count(),
+                locations = g.SelectMany(b => Items(b["spawnLocations"]))
+                    .Select(l => (string)l["spawnKey"] ?? (string)l["name"]).Distinct().Count(),
+            })
+            .ToList();
 
     // extracts[].faction: "pmc" / "scav" / "shared"
     static MarkerType ExtractType(string faction) => faction switch

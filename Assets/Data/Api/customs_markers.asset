@@ -2651,6 +2651,246 @@ MonoBehaviour:
     objective: 675c37d2da4b531ba8daaadd
     detail: "\uC2A4\uD0A4\uC5B4\uC758 \uC9C0\uAC11"
     position: {x: 46.575928, y: 5.278, z: -57.778732}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 77.94991, y: 5.510450199999999, z: -154.79681}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -204.00900000000001, y: 7.8488871, z: -109.54463333333335}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -205.275, y: 2.5129, z: -32.772}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "3\uCE35"
+    position: {x: 90.15172, y: 8.1948989, z: -54.08369100000001}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 203.43005, y: 2.5127, z: -121.90015}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 464.5646233333334, y: 3.639526, z: -62.499321666666674}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 64.258, y: 2.3764, z: -106.896}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "3\uCE35"
+    position: {x: 68.632, y: 8.5007, z: -63.534}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 227.169, y: 2.8912, z: 161.088}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 317.568, y: 2.306, z: -186.194}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "4\uCE35"
+    position: {x: 264.69421833333337, y: 13.652344, z: -75.730435}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 224.078795, y: 0.9781, z: 140.91712}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "3\uCE35"
+    position: {x: 170.985, y: 6.5414, z: 154.7}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uC774 \uC790\uB9AC: \uD68C\uACC4 \uBB38\uC11C, \uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 173.38185, y: 3.5027, z: 182.90155}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uC774 \uC790\uB9AC: \uD68C\uACC4 \uBB38\uC11C, \uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 173.38185, y: 3.5027, z: 182.90155}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uC774 \uC790\uB9AC: \uD68C\uACC4 \uBB38\uC11C, \uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 78.37125, y: 5.28743065, z: -159.2998}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uC774 \uC790\uB9AC: \uD68C\uACC4 \uBB38\uC11C, \uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 78.37125, y: 5.28743065, z: -159.2998}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -202.299, y: 7.2610464, z: -104.785}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -185.166, y: 1.759, z: -184.338}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "3\uCE35"
+    position: {x: 90.40503925, y: 8.073824625, z: -59.91013937500001}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 197.14839, y: 3.2755, z: -101.67119}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 106.35458, y: 2.6216666666666666, z: -87.03519333333334}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 78.537105, y: 4.984351, z: -164.522655}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "3\uCE35"
+    position: {x: 63.2276, y: 7.9429, z: -64.7025}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 68.58, y: 1.4945, z: -169.4294}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 236.988, y: 2.9118, z: 158.705}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 316.009, y: 1.6648, z: -179.937}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 580.1345, y: 6.898, z: -50.110767}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 224.27646666666666, y: 2.0305999999999997, z: 138.25840000000002}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 25.374966666666666, y: 5.404866666666667, z: -58.78626666666667}
   quests:
   - key: 5b4795fb86f7745876267770
     name: "\uB5A1\uBC25 \uBFCC\uB9AC\uAE30"

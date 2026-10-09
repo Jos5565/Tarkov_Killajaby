@@ -1076,6 +1076,294 @@ MonoBehaviour:
     objective: 639ae49a5e3c9b787264d675
     detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
     position: {x: -161.39708, y: 4.80383, z: -346.8847}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -131.957, y: 5.0880279999999996, z: -377.93449999999996}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -86.5924065, y: 1.5266544266666664, z: -432.78026499999993}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -109.14052187499999, y: 1.13183225625, z: -443.85794625}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -128.61933333333334, y: 0.9649997999999999, z: -392.69699999999995}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -139.641, y: 0.8690464, z: -389.392}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -125.7653775, y: 0.32433962875, z: -352.360075}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -230.216, y: 5.017678, z: -345.0195}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -233.6133, y: 5.27452, z: -312.3447}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -183.696, y: 1.0469576, z: -362.996}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -114.3995, y: 4.82895, z: -364.45855}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -124.0565, y: 5.2897, z: -393.8677}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -139.765, y: 4.1060977, z: -388.849}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -122.67745, y: 5.40425, z: -397.7785}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -135.44436666666664, y: 5.316371333333334, z: -407.5663333333334}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -134.12558, y: 0.9047027000000001, z: -410.7185}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -138.18131499999998, y: 0.6835441145000001, z: -401.665925}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -133.37492400000002, y: 0.983804232, z: -397.3067}
+  - type: 16
+    key: 
+    name: "\uC758\uB8CC \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -121.861, y: 4.9875, z: -360.9185}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -263.788, y: 0.62165, z: -343.904}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -163.132, y: 4.937200000000001, z: -347.6415}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -171.87791, y: 1.0800216, z: -344.869}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -216.03300000000002, y: 4.89255, z: -382.15}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -244.06787, y: 5.0131307, z: -382.4635}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -225.92, y: 4.7021, z: -308.566}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -139.449, y: 5.1772, z: -283.299}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -171.37808, y: 5.368650000000001, z: -285.10073}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -119.290932, y: 0.908394532, z: -445.1569659999999}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -265.66795, y: 5.2411681, z: -369.3814}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -252.20403333333334, y: 5.019157533333334, z: -367.7153666666666}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -268.73773, y: 4.957995, z: -326.09802}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -193.75475, y: 4.974225, z: -401.76475}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -187.352, y: 4.6663, z: -407.278}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -142.739, y: 4.722126, z: -409.538}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -148.8275, y: 5.16315, z: -393.6055}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -172.52862, y: 4.64053635, z: -342.28200000000004}
+  - type: 15
+    key: 
+    name: "\uC0AC\uC6A9\uC790 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -230.4852, y: 4.8477, z: -341.3651}
   quests:
   - key: 6a91840a740be0cff50e0310
     name: Preliminary Survey

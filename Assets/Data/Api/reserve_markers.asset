@@ -1376,6 +1376,134 @@ MonoBehaviour:
       \uAC10\uC2DC \uCD08\uC18C\uC5D0 \uCCAB \uBC88\uC9F8 \uBC00\uC218\uAFBC \uC0C1\uC790
       \uC228\uAE30\uAE30"
     position: {x: 208.4, y: -6.11, z: -171.76}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -4.08450315, y: 22.64385, z: 176.19098}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "3\uCE35"
+    position: {x: 77.479614, y: -0.6699, z: -18.130005}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "4\uCE35"
+    position: {x: -163.56702, y: 2.9087, z: 31.308502}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -154.953, y: -3.2012, z: 72.992004}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -123.09033, y: -2.7678, z: 95.74951}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -86.862976, y: -2.8068, z: 82.85498}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uD558 \uBC99\uCEE4"
+    position: {x: -116.08301, y: -14.5068, z: 33.148987}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uD558 \uBC99\uCEE4"
+    position: {x: -108.028015, y: -14.3217, z: 17.445984}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 58.420288, y: -5.5864, z: 99.26959}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -14.824402, y: 22.5805, z: 172.23822}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -43.36731, y: 18.783, z: 185.67548}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "3\uCE35"
+    position: {x: -54.39081, y: -0.492, z: 37.108887}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "3\uCE35"
+    position: {x: -61.609375, y: -0.4926, z: 13.290192}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -129.0890342857143, y: -2.4689632857142856, z: -16.587106}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "3\uCE35"
+    position: {x: -173.37769, y: 0.4144, z: -10.606995}
+  - type: 11
+    key: 
+    name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "3\uCE35"
+    position: {x: 13.585999, y: -0.0099, z: -27.372711}
   quests:
   - key: 5d25e4d586f77443e625e388
     name: "\uB9AC\uC800\uBE0C"

@@ -460,9 +460,22 @@ MonoBehaviour:
   pmcLabel: PMC
   scavLabel: "\uC2A4\uCE90\uBE0C"
   enterLabel: "\uC785\uC7A5"
+  folderTitle: "\uC2A4\uD06C\uB9B0\uC0F7 \uD3F4\uB354"
+  folderResetLabel: "\uAE30\uBCF8\uAC12"
+  folderCleanLabel: "\uD3F4\uB354 \uC815\uB9AC"
+  folderCleanConfirmLabel: "\uC0AD\uC81C \uD655\uC778"
+  cleanConfirmSeconds: 4
+  showBossTooltip: 1
+  bossTooltipSub: "\uBCF4\uC2A4 \uCD9C\uD604 \uC815\uBCF4 (PvE \uAE30\uC900)"
+  tooltipWidth: 360
+  versionFormat: Killajaby Version {0}
+  versionFontSize: 16
+  versionMargin: {x: 20, y: 14}
+  versionColor: {r: 0.55, g: 0.55, b: 0.55, a: 1}
   mapColumns: 5
   cardSize: {x: 260, y: 96}
   enterButtonSize: {x: 260, y: 56}
+  folderInputSize: {x: 760, y: 48}
   titleFontSize: 26
   cardFontSize: 26
   unavailableAlpha: 0.35
@@ -478,6 +491,8 @@ MonoBehaviour:
     icon: {r: 0.6039216, g: 0.53333336, b: 0.4, a: 1}
   iconBoxColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
   titleColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  folderOkColor: {r: 0.45, g: 0.8, b: 0.35, a: 1}
+  folderErrorColor: {r: 0.95, g: 0.4, b: 0.3, a: 1}
 --- !u!1 &900000431
 GameObject:
   m_ObjectHideFlags: 0

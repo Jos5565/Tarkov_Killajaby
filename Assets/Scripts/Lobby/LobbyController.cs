@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -34,6 +35,19 @@ public class LobbyController : MonoBehaviour
     [Tooltip("[폴더 정리]를 누른 뒤 이 시간(초) 안에 한 번 더 눌러야 삭제한다")]
     public float cleanConfirmSeconds = 4f;
 
+    [Header("Boss Tooltip")]
+    [Tooltip("맵 버튼에 마우스를 올리면 보스 정보를 보여준다")]
+    public bool showBossTooltip = true;
+    public string bossTooltipSub = "보스 출현 정보 (PvE 기준)";
+    public float tooltipWidth = 360f;
+
+    [Header("Version")]
+    [Tooltip("좌측 하단 버전 표시. {0} = Player Settings의 Version (Application.version)")]
+    public string versionFormat = "Version {0}";
+    public float versionFontSize = 16f;
+    public Vector2 versionMargin = new Vector2(20f, 14f);
+    public Color versionColor = new Color(0.55f, 0.55f, 0.55f);
+
     [Header("Layout")]
     public int mapColumns = 7;
     [Tooltip("맵 버튼과 플레이어 타입 버튼 공통 크기")]
@@ -57,6 +71,7 @@ public class LobbyController : MonoBehaviour
     readonly SelectGroup<MapCatalog.Entry> mapGroup = new SelectGroup<MapCatalog.Entry>();
     readonly SelectGroup<PlayerSide> sideGroup = new SelectGroup<PlayerSide>();
     GameObject panel;
+    GameObject versionLabel;
     Button enterButton;
     TMP_InputField folderInput;
     TMP_Text folderStatus;
@@ -82,7 +97,9 @@ public class LobbyController : MonoBehaviour
     void OnDisable()
     {
         EditorPreview.DestroyLater(panel);
+        EditorPreview.DestroyLater(versionLabel);
         panel = null;
+        versionLabel = null;
     }
 
 #if UNITY_EDITOR
@@ -99,9 +116,13 @@ public class LobbyController : MonoBehaviour
     public void Build()
     {
         EditorPreview.Destroy(panel);
+        EditorPreview.Destroy(versionLabel);
         EditorPreview.ClearLeftovers(transform);
+        CreateVersionLabel();
         mapGroup.Clear();
         sideGroup.Clear();
+
+        if (showBossTooltip) EnsureTooltip();
 
         // 세로로 쌓는 가운데 정렬 패널
         panel = new GameObject("LobbyPanel", typeof(RectTransform), typeof(VerticalLayoutGroup), typeof(ContentSizeFitter));
@@ -127,6 +148,8 @@ public class LobbyController : MonoBehaviour
             string name = !string.IsNullOrEmpty(entry.displayName) ? entry.displayName : entry.configPath;
             Sprite icon = entry.icon;
             SelectButton card = CreateCard(grid, name, icon, true, cardFontSize, null);
+            if (showBossTooltip && Application.isPlaying)
+                card.gameObject.AddComponent<TooltipTrigger>().content = () => BossTooltip(entry);
 
             if (entry.IsAvailable)
             {
@@ -313,7 +336,70 @@ public class LobbyController : MonoBehaviour
         }
     }
 
+    // ---- 보스 툴팁 ----
+
+    // 맵 씬과 같은 MapTooltip을 캔버스 맨 위에 만든다 (Play 중에만)
+    void EnsureTooltip()
+    {
+        if (!Application.isPlaying || MapTooltip.Instance != null) return;
+        Canvas canvas = GetComponentInParent<Canvas>();
+        if (canvas == null) return;
+
+        var go = new GameObject("Tooltip", typeof(RectTransform));
+        go.SetActive(false);   // 글꼴을 넣은 뒤 켜야 MapTooltip이 그 글꼴로 만들어진다
+        go.transform.SetParent(canvas.rootCanvas.transform, false);
+        var tooltip = go.AddComponent<MapTooltip>();
+        tooltip.font = font;
+        tooltip.width = tooltipWidth;
+        go.transform.SetAsLastSibling();
+        go.SetActive(true);
+    }
+
+    // 예)  레쉴라  75%  위치 3곳
+    //      로그  50~100%  위치 5곳 · 5그룹
+    (string title, string sub, string body) BossTooltip(MapCatalog.Entry entry)
+    {
+        string sub = entry.IsAvailable ? bossTooltipSub : bossTooltipSub + " · 지도 준비 중";
+        if (entry.bosses == null || entry.bosses.Count == 0)
+            return (entry.displayName, sub, "출현하는 보스가 없습니다");
+
+        var sb = new StringBuilder();
+        foreach (MapCatalog.BossInfo boss in entry.bosses)
+        {
+            string chance = Mathf.Approximately(boss.chanceMin, boss.chanceMax)
+                ? Percent(boss.chanceMax)
+                : $"{Percent(boss.chanceMin)}~{Percent(boss.chanceMax)}";
+            string where = boss.locations > 0 ? $"위치 {boss.locations}곳" : "위치 정보 없음";
+            if (boss.groups > 1) where += $" · {boss.groups}그룹";
+            sb.AppendLine($"<b><noparse>{boss.name}</noparse></b>  <color=#C3B190>{chance}</color>  <color=#9A9A9A>{where}</color>");
+        }
+        return (entry.displayName, sub, sb.ToString().TrimEnd());
+    }
+
+    static string Percent(float chance) => $"{chance * 100f:0}%";
+
     // ---- UI 생성 ----
+
+    // 좌측 하단: Version 0.1.1 (Edit > Project Settings > Player > Version)
+    void CreateVersionLabel()
+    {
+        versionLabel = new GameObject("Version", typeof(RectTransform), typeof(TextMeshProUGUI));
+        var rt = (RectTransform)versionLabel.transform;
+        rt.SetParent(transform, false);
+        rt.anchorMin = rt.anchorMax = rt.pivot = Vector2.zero;
+        rt.anchoredPosition = versionMargin;
+        rt.sizeDelta = new Vector2(400f, versionFontSize * 1.5f);
+
+        var label = versionLabel.GetComponent<TextMeshProUGUI>();
+        if (font != null) label.font = font;
+        label.text = string.Format(versionFormat, Application.version);
+        label.fontSize = versionFontSize;
+        label.color = versionColor;
+        label.alignment = TextAlignmentOptions.BottomLeft;
+        label.textWrappingMode = TextWrappingModes.NoWrap;
+        label.raycastTarget = false;
+        EditorPreview.MarkDontSave(versionLabel);
+    }
 
     // 금색 테두리 입력창. 비어 있으면 기본 폴더 경로를 흐리게 보여준다.
     TMP_InputField CreateFolderInput(RectTransform parent)

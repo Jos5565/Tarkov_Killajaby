@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 // MapConfig.markerData의 마커들을 지도 위에 배치한다. MapContent/Markers 아래에 둔다.
@@ -36,6 +38,8 @@ public class MapMarkerLayer : MonoBehaviour
     }
 
     public MapView mapView;
+    [Tooltip("이름표 호버 감지용 지도 Viewport. 비우면 씬에서 찾는다")]
+    public MapZoomPan zoomPan;
 
     [Header("Prefabs")]
     public GameObject nameTagPrefab;
@@ -53,6 +57,15 @@ public class MapMarkerLayer : MonoBehaviour
     [Tooltip("같은 종류 탈출구가 이 거리(m, 수평) 안에 모여 있으면 이름표 하나로 합친다. 0이면 합치지 않음")]
     public float nameTagMergeDistance = 25f;
 
+    [Header("Transit Label")]
+    [Tooltip("트랜짓 이름표 \"리저브로 이동\" → \"리저브 이동\" (이동은 작고 흐리게)")]
+    public bool shortTransitLabel = true;
+    public string transitSuffix = "이동";
+    public Color transitSuffixColor = new Color(0.6f, 0.6f, 0.6f, 1f);
+    [Range(0.3f, 1f)]
+    [Tooltip("이름 대비 '이동' 글자 크기")]
+    public float transitSuffixScale = 0.7f;
+
     [Header("Styles")]
     public List<Style> styles = new List<Style>();
 
@@ -65,6 +78,9 @@ public class MapMarkerLayer : MonoBehaviour
     readonly List<MapMarker> placed = new List<MapMarker>();
     readonly List<(RectTransform rt, MapMarker marker)> nameTags = new List<(RectTransform, MapMarker)>();
     MapUserSettings settings;   // Play 중에만 사용. 편집 모드 미리보기는 전부 표시
+    RectTransform hoverLayer;   // 마우스를 올린 마커를 잠시 옮겨 두는 맨 위 묶음
+    (RectTransform rt, Transform parent, int index) lifted;
+    bool dropPending;
     float lastMapScale = -1f;
 
     public bool IsBuilt { get; private set; }
@@ -92,6 +108,7 @@ public class MapMarkerLayer : MonoBehaviour
         if (mapView != null) mapView.Loaded -= OnMapLoaded;
         foreach (RectTransform group in groups.Values)
             if (group != null) EditorPreview.DestroyLater(group.gameObject);
+        if (hoverLayer != null) EditorPreview.DestroyLater(hoverLayer.gameObject);
         ResetLists();
     }
 
@@ -123,6 +140,7 @@ public class MapMarkerLayer : MonoBehaviour
 
         // styles 순서대로 그룹을 먼저 만든다 (뒤에 있을수록 위에 그려짐)
         foreach (Style s in styles) GetGroup(s.type, s);
+        CreateHoverLayer();
 
         int skipped = 0;
         foreach (MapMarker marker in MergeNameTags(data.markers))
@@ -256,21 +274,87 @@ public class MapMarkerLayer : MonoBehaviour
         VisibilityChanged?.Invoke(type, visible);
     }
 
-    // 필터 패널 그룹 접힘 상태 (맵별 저장)
+    // 필터 패널 그룹 펼침 상태 (맵별 저장). Play 중 저장된 적 없으면 접힘, 편집 모드는 fallback(Inspector 값)
     public bool IsGroupExpanded(string title, bool fallback)
     {
         if (!Application.isPlaying) return fallback;
         EnsureSettings();
-        return !settings.collapsedGroups.Contains(title);
+        return settings.expandedGroups.Contains(title);
     }
 
     public void SetGroupExpanded(string title, bool expanded)
     {
         if (!Application.isPlaying) return;
         EnsureSettings();
-        settings.collapsedGroups.Remove(title);
-        if (!expanded) settings.collapsedGroups.Add(title);
+        settings.expandedGroups.Remove(title);
+        if (expanded) settings.expandedGroups.Add(title);
         SaveSettings();
+    }
+
+    // 이 종류의 마커가 지도에 하나라도 있는지 (필터 패널에서 이 맵에 없는 항목 숨김용)
+    public bool HasPlaced(MarkerType type) => placed.Exists(m => m.type == type);
+
+    // ---- 마우스를 올린 마커를 맨 위로 ----
+
+    // 마커를 다른 마커들 위에 그린다. 한 번에 하나만 (이전 것은 제자리로)
+    public void Lift(RectTransform marker)
+    {
+        if (hoverLayer == null || marker == null || marker.parent == hoverLayer) return;
+        Drop();
+        lifted = (marker, marker.parent, marker.GetSiblingIndex());
+        marker.SetParent(hoverLayer, false);   // 그룹과 hoverLayer는 크기·위치가 같아 좌표가 그대로 유지된다
+    }
+
+    // 원래 그룹, 원래 순서로 되돌린다
+    public void Drop(RectTransform marker = null)
+    {
+        if (lifted.rt == null || (marker != null && marker != lifted.rt)) return;
+        if (lifted.parent != null)
+        {
+            lifted.rt.SetParent(lifted.parent, false);
+            lifted.rt.SetSiblingIndex(lifted.index);
+        }
+        lifted = default;
+    }
+
+    // 이름표는 마우스를 받지 않으므로(아래 퀘스트 툴팁용) 커서 위치로 직접 찾아 올린다.
+    // 툴팁이 있는 마커(퀘스트, 보스, 문서)에 마우스가 올라가 있으면 그쪽이 우선
+    void UpdateNameTagHover()
+    {
+        bool liftedIsTag = lifted.rt != null && nameTags.Exists(n => n.rt == lifted.rt);
+        if (lifted.rt != null && !liftedIsTag) return;
+
+        if (zoomPan == null) zoomPan = FindAnyObjectByType<MapZoomPan>();
+        RectTransform hit = null;
+        if (zoomPan != null && zoomPan.IsPointerInside && Mouse.current != null)
+        {
+            Vector2 pointer = Mouse.current.position.ReadValue();
+            // 이미 올라와 있는 이름표 위면 유지 (겹친 이름표 사이에서 깜빡이지 않게)
+            if (liftedIsTag && RectTransformUtility.RectangleContainsScreenPoint(lifted.rt, pointer, zoomPan.EventCamera)) return;
+            if (TryGetNameTagAt(pointer, zoomPan.EventCamera, out MapMarker marker)) hit = GetNameTag(marker);
+        }
+
+        if (hit == lifted.rt) return;
+        if (hit != null) Lift(hit);
+        else Drop();
+    }
+
+    // OnDisable 안에서는 계층을 바꿀 수 없으므로 다음 LateUpdate에서 되돌린다
+    public void DropLater(RectTransform marker)
+    {
+        if (lifted.rt != null && marker == lifted.rt) dropPending = true;
+    }
+
+    void CreateHoverLayer()
+    {
+        var go = new GameObject("Hover", typeof(RectTransform));
+        hoverLayer = (RectTransform)go.transform;
+        hoverLayer.SetParent(transform, false);
+        hoverLayer.anchorMin = Vector2.zero;
+        hoverLayer.anchorMax = Vector2.one;
+        hoverLayer.offsetMin = hoverLayer.offsetMax = Vector2.zero;
+        hoverLayer.SetAsLastSibling();
+        EditorPreview.MarkDontSave(go);
     }
 
     // ---- 맵별 사용자 설정 ----
@@ -308,6 +392,13 @@ public class MapMarkerLayer : MonoBehaviour
     // keepScreenSize면 줌이 바뀔 때마다 역보정해 화면 크기를 유지한다.
     void LateUpdate()
     {
+        if (dropPending)
+        {
+            dropPending = false;
+            Drop();
+        }
+        if (Application.isPlaying) UpdateNameTagHover();
+
         if (mapView == null) return;
         float mapScale = keepScreenSize ? mapView.transform.localScale.x : ReferenceFitScale() / markerScale;
         if (Mathf.Approximately(mapScale, lastMapScale)) return;
@@ -390,7 +481,7 @@ public class MapMarkerLayer : MonoBehaviour
         go.name = $"{marker.type}_{marker.name}";
 
         TMP_Text label = go.GetComponentInChildren<TMP_Text>();
-        if (label != null) label.text = marker.name;
+        if (label != null) label.text = marker.type == MarkerType.Transit && shortTransitLabel ? TransitLabel(marker.name) : marker.name;
 
         Transform icon = go.transform.Find(nameTagIconPath);
         if (icon != null && icon.TryGetComponent(out Image iconImage)) iconImage.color = style.color;
@@ -400,6 +491,22 @@ public class MapMarkerLayer : MonoBehaviour
             graphic.raycastTarget = false;
 
         return (RectTransform)go.transform;
+    }
+
+    // "리저브로 이동", "해안선으로 지역이동" → "리저브 <작은 회색>이동</>". 형식이 다르면 그대로 둔다
+    static readonly Regex TransitPattern = new Regex(@"^(?<map>.+?)\??\s*(으로|로)\s*(지역)?\s*이동$");
+
+    string TransitLabel(string name)
+    {
+        string color = ColorUtility.ToHtmlStringRGBA(transitSuffixColor);
+        string suffix = $"<size={transitSuffixScale * 100f:0}%><color=#{color}>{transitSuffix}</color></size>";
+        var parts = name.Split(new[] { " / " }, StringSplitOptions.None);   // 합쳐진 이름표 "A / B"
+        for (int i = 0; i < parts.Length; i++)
+        {
+            Match m = TransitPattern.Match(parts[i].Trim());
+            parts[i] = m.Success ? $"<noparse>{m.Groups["map"].Value}</noparse> {suffix}" : $"<noparse>{parts[i]}</noparse>";
+        }
+        return string.Join(" / ", parts);
     }
 
     RectTransform CreateDot(MapMarker marker, Style style, RectTransform parent)
@@ -417,6 +524,7 @@ public class MapMarkerLayer : MonoBehaviour
         if (style.showInfo)
         {
             var info = go.AddComponent<MapMarkerInfo>();
+            info.layer = this;
             info.marker = marker;
             info.quest = GetQuest(marker.key);
         }
@@ -456,6 +564,7 @@ public class MapMarkerLayer : MonoBehaviour
     {
         foreach (RectTransform group in groups.Values)
             if (group != null) EditorPreview.Destroy(group.gameObject);
+        if (hoverLayer != null) EditorPreview.Destroy(hoverLayer.gameObject);
         ResetLists();
         EditorPreview.ClearLeftovers(transform);
     }
@@ -469,6 +578,9 @@ public class MapMarkerLayer : MonoBehaviour
         quests.Clear();
         placed.Clear();
         nameTags.Clear();
+        hoverLayer = null;
+        lifted = default;
+        dropPending = false;
         IsBuilt = false;
     }
 }

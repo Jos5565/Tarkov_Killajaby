@@ -17,7 +17,7 @@ public class MapUserSettings
 
     public List<string> visibleQuests = new List<string>();     // 켜진 퀘스트 key (task id)
     public List<TypeState> types = new List<TypeState>();      // 왼쪽 필터 패널 종류별 표시
-    public List<string> collapsedGroups = new List<string>();  // 접힌 필터 그룹 제목
+    public List<string> expandedGroups = new List<string>();   // 펼친 필터 그룹 제목 (처음에는 전부 접힘)
     public bool routeEnabled = true;                            // [경로] 버튼
     public string routeEnd = "";                                // 경로 도착 탈출구 이름표 이름 (비면 마지막 퀘스트에서 끝남)
 

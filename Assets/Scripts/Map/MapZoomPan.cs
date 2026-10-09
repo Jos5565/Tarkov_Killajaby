@@ -4,7 +4,8 @@ using UnityEngine.EventSystems;
 // 지도 확대(마우스 휠, 커서 기준)와 이동(드래그). Viewport에 붙인다.
 // Viewport에 raycastTarget이 켜진 Graphic(투명 Image)이 있어야 입력을 받는다.
 [RequireComponent(typeof(RectTransform))]
-public class MapZoomPan : MonoBehaviour, IBeginDragHandler, IDragHandler, IScrollHandler, IPointerClickHandler
+public class MapZoomPan : MonoBehaviour, IBeginDragHandler, IDragHandler, IScrollHandler, IPointerClickHandler,
+    IPointerEnterHandler, IPointerExitHandler
 {
     public MapView mapView;
     public RectTransform content;
@@ -21,6 +22,20 @@ public class MapZoomPan : MonoBehaviour, IBeginDragHandler, IDragHandler, IScrol
 
     RectTransform viewport;
     Vector2 lastDragPoint;
+
+    // 마우스가 지도 위에 있는지 (필터 패널, 퀘스트 목록 등 다른 UI 위면 false)
+    public bool IsPointerInside { get; private set; }
+    public Camera EventCamera { get; private set; }
+
+    public void OnPointerEnter(PointerEventData e)
+    {
+        IsPointerInside = true;
+        EventCamera = e.enterEventCamera;
+    }
+
+    public void OnPointerExit(PointerEventData e) => IsPointerInside = false;
+
+    void OnDisable() => IsPointerInside = false;
 
     float MinScale => mapView.FitScale;
     float MaxScale => MinScale * maxZoom;

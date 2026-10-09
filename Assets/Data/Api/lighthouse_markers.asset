@@ -1461,6 +1461,134 @@ MonoBehaviour:
       \uC6B0\uB784 \uD2B8\uB7ED\uC774 \uC2E4\uB9B0 \uD654\uBB3C \uCE78\uC5D0 \uB450
       \uBC88\uC9F8 \uBC00\uC218\uAFBC \uC0C1\uC790 \uC228\uAE30\uAE30"
     position: {x: -16.62, y: 14.03, z: -823.72}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: -72.1615, y: 10.0981, z: -279.417}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: 133.92855, y: 6.254433, z: 290.7756}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: -67.0875, y: 28.4502, z: 109.634}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: -119.324, y: 39.8928, z: 94.2025}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: -84.679, y: 24.456, z: -71.46}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: -81.38634, y: 19.1317, z: -84.40438}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: -60.662, y: 20.334, z: -130.275}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: -188.79216333333332, y: 13.579733, z: -199.30848}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: -94.724988, y: 14.4616, z: -741.92415}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: -175.2815, y: 8.73165, z: -650.85872}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: -172.07445, y: 5.646211375, z: -497.34575}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: -100.0882, y: 0.7605500000000001, z: -492.19259999999997}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: 48.193, y: 6.2791, z: -551.9166}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: 33.8998, y: 12.2034, z: -849.2716}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: 135.9274, y: 3.7892399600000006, z: -187.393602}
+  - type: 13
+    key: 
+    name: "\uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    position: {x: 53.219248, y: 8.995429999999999, z: -638.24905}
   quests:
   - key: 626bd75e47ea7f506e5493c5
     name: "\uBC29\uC1A1 - \uD30C\uD2B8 1"

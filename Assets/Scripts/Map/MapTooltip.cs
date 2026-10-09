@@ -46,11 +46,30 @@ public class MapTooltip : MonoBehaviour
         if (panel == null) return;
         Current = marker;
 
-        title.text = marker.name;
+        title.text = string.IsNullOrEmpty(marker.floor)
+            ? marker.name
+            : $"<noparse>{marker.name}</noparse> <color=#{ColorUtility.ToHtmlStringRGB(subColor)}>· {marker.floor}</color>";
         sub.text = string.IsNullOrEmpty(marker.group) ? "" : $"[{marker.group}]";
         sub.gameObject.SetActive(!string.IsNullOrEmpty(marker.group));
         body.text = BodyText(marker, quest);
         body.gameObject.SetActive(!string.IsNullOrEmpty(body.text));
+
+        panel.gameObject.SetActive(true);
+        LayoutRebuilder.ForceRebuildLayoutImmediate(panel);
+        Move(screenPos);
+    }
+
+    // 마커가 아닌 일반 툴팁 (예: 로비 맵 버튼의 보스 정보). sub/body가 비면 그 줄은 숨긴다
+    public void Show(string titleText, string subText, string bodyText, Vector2 screenPos)
+    {
+        if (panel == null) return;
+        Current = null;
+
+        title.text = titleText;
+        sub.text = subText ?? "";
+        sub.gameObject.SetActive(!string.IsNullOrEmpty(subText));
+        body.text = bodyText ?? "";
+        body.gameObject.SetActive(!string.IsNullOrEmpty(bodyText));
 
         panel.gameObject.SetActive(true);
         LayoutRebuilder.ForceRebuildLayoutImmediate(panel);

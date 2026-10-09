@@ -16,39 +16,240 @@ MonoBehaviour:
   - displayName: "\uACF5\uC7A5"
     icon: {fileID: 21300000, guid: 709340e70a6a4364b76a2b1c365c1e58, type: 3}
     configPath: Maps/Factory
+    normalizedName: factory
+    bosses:
+    - name: "\uD0C0\uAE38\uB77C"
+      chanceMin: 0.5
+      chanceMax: 0.5
+      groups: 1
+      locations: 1
   - displayName: "\uADF8\uB77C\uC6B4\uB4DC \uC81C\uB85C"
     icon: {fileID: 21300000, guid: 15ae4aae6d284f77a2161395dd8e79c4, type: 3}
     configPath: Maps/GroundZero
+    normalizedName: ground-zero
+    bosses: []
   - displayName: "\uB4F1\uB300"
     icon: {fileID: 21300000, guid: 29dd7fc2a70041a994fd85e293eb8cf1, type: 3}
     configPath: Maps/Lighthouse
+    normalizedName: lighthouse
+    bosses:
+    - name: "\uC988\uB9AC\uC57C\uCE58"
+      chanceMin: 1
+      chanceMax: 1
+      groups: 1
+      locations: 1
+    - name: "Knight"
+      chanceMin: 0.3
+      chanceMax: 0.3
+      groups: 1
+      locations: 1
+    - name: "Partisan"
+      chanceMin: 0.15
+      chanceMax: 0.15
+      groups: 1
+      locations: 0
+    - name: "\uB85C\uADF8"
+      chanceMin: 0.5
+      chanceMax: 1
+      groups: 5
+      locations: 2
+    - name: "\uAE00\uB8E8\uD558"
+      chanceMin: 1
+      chanceMax: 1
+      groups: 1
+      locations: 1
   - displayName: "\uB9AC\uC800\uBE0C"
     icon: {fileID: 21300000, guid: 15411fcb3e6f4bb3820fc632b59e22fa, type: 3}
     configPath: Maps/Reserve
+    normalizedName: reserve
+    bosses: []
   - displayName: "\uBBF8\uAD81"
     icon: {fileID: 21300000, guid: 2f0fa8b3ca5e4758a0379b16e98a34c4, type: 3}
     configPath: 
+    normalizedName: the-labyrinth
+    bosses:
+    - name: "Shadow of Tagilla"
+      chanceMin: 1
+      chanceMax: 1
+      groups: 1
+      locations: 0
   - displayName: "\uC0BC\uB9BC"
     icon: {fileID: 21300000, guid: c2137d00197e42808d84714d8bd38741, type: 3}
     configPath: Maps/Woods
+    normalizedName: woods
+    bosses:
+    - name: "\uC288\uD2B8\uB974\uB9CC"
+      chanceMin: 0.75
+      chanceMax: 0.75
+      groups: 1
+      locations: 1
+    - name: "Knight"
+      chanceMin: 0.25
+      chanceMax: 0.25
+      groups: 1
+      locations: 1
+    - name: "Partisan"
+      chanceMin: 0.15
+      chanceMax: 0.15
+      groups: 1
+      locations: 0
+    - name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+      chanceMin: 0.3
+      chanceMax: 0.3
+      groups: 1
+      locations: 2
   - displayName: "\uC138\uAD00"
     icon: {fileID: 21300000, guid: 203aeb194ad345ec9514b42402a0143b, type: 3}
     configPath: Maps/Customs
+    normalizedName: customs
+    bosses:
+    - name: "\uB974\uC0EC\uB77C"
+      chanceMin: 0.75
+      chanceMax: 0.75
+      groups: 1
+      locations: 3
+    - name: "Knight"
+      chanceMin: 0.25
+      chanceMax: 0.25
+      groups: 1
+      locations: 1
+    - name: "Partisan"
+      chanceMin: 0.15
+      chanceMax: 0.15
+      groups: 1
+      locations: 0
+    - name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+      chanceMin: 0.3
+      chanceMax: 0.3
+      groups: 1
+      locations: 1
   - displayName: "\uC1C4\uBE59\uC120"
     icon: {fileID: 21300000, guid: 2450026193f34d68a4d39be4795444dc, type: 3}
     configPath: 
+    normalizedName: icebreaker
+    bosses:
+    - name: "Knight"
+      chanceMin: 1
+      chanceMax: 1
+      groups: 1
+      locations: 1
+    - name: "\uB85C\uADF8"
+      chanceMin: 0.5
+      chanceMax: 1
+      groups: 6
+      locations: 6
+    - name: "\uBE14\uB799 \uB514\uBE44\uC804"
+      chanceMin: 1
+      chanceMax: 1
+      groups: 11
+      locations: 2
+    - name: "The Wedge"
+      chanceMin: 1
+      chanceMax: 1
+      groups: 12
+      locations: 3
   - displayName: "\uC5F0\uAD6C\uC18C"
     icon: {fileID: 21300000, guid: 7ee4d9800fa24371b2d55dbb07d5538e, type: 3}
     configPath: Maps/Labs
+    normalizedName: the-lab
+    bosses: []
   - displayName: "\uC778\uD130\uCCB4\uC778\uC9C0"
     icon: {fileID: 21300000, guid: 520ef150121d460eadb90122129232fa, type: 3}
     configPath: Maps/Interchange
+    normalizedName: interchange
+    bosses:
+    - name: "\uD0AC\uB77C"
+      chanceMin: 0.75
+      chanceMax: 0.75
+      groups: 1
+      locations: 4
+    - name: "\uD0C0\uAE38\uB77C"
+      chanceMin: 0.5
+      chanceMax: 0.5
+      groups: 1
+      locations: 1
   - displayName: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4"
     icon: {fileID: 21300000, guid: 2b70faea1d554dcda6e44a13f0a89537, type: 3}
     configPath: Maps/StreetsOfTarkov
+    normalizedName: streets-of-tarkov
+    bosses:
+    - name: "Kaban"
+      chanceMin: 0.75
+      chanceMax: 0.75
+      groups: 1
+      locations: 1
+    - name: "Kollontay"
+      chanceMin: 0.75
+      chanceMax: 0.75
+      groups: 1
+      locations: 2
   - displayName: "\uD130\uBBF8\uB110"
     icon: {fileID: 21300000, guid: 09d555e57aa14725aa1830a5f99f1730, type: 3}
     configPath: Maps/Terminal
+    normalizedName: terminal
+    bosses:
+    - name: "\uBE14\uB799 \uB514\uBE44\uC804"
+      chanceMin: 1
+      chanceMax: 1
+      groups: 14
+      locations: 11
+    - name: "\uB7EC\uC2DC\uC544\uAD70"
+      chanceMin: 1
+      chanceMax: 1
+      groups: 9
+      locations: 7
+    - name: "\uD0AC\uB77C"
+      chanceMin: 0.2
+      chanceMax: 0.2
+      groups: 1
+      locations: 1
+    - name: "\uAE00\uB8E8\uD558"
+      chanceMin: 0.2
+      chanceMax: 0.2
+      groups: 1
+      locations: 1
+    - name: "\uB974\uC0EC\uB77C"
+      chanceMin: 0.2
+      chanceMax: 0.2
+      groups: 1
+      locations: 1
+    - name: "\uC138\uB2C8\uD0C0"
+      chanceMin: 0.2
+      chanceMax: 0.2
+      groups: 1
+      locations: 1
+    - name: "\uD0C0\uAE38\uB77C"
+      chanceMin: 0.2
+      chanceMax: 0.2
+      groups: 1
+      locations: 1
   - displayName: "\uD574\uC548\uC120"
     icon: {fileID: 21300000, guid: 2c5f25c5c23249ae8d007a01e8c64ec5, type: 3}
     configPath: Maps/Shoreline
+    normalizedName: shoreline
+    bosses:
+    - name: "\uC138\uB2C8\uD0C0"
+      chanceMin: 0.75
+      chanceMax: 0.75
+      groups: 1
+      locations: 2
+    - name: "Knight"
+      chanceMin: 0.3
+      chanceMax: 0.3
+      groups: 1
+      locations: 1
+    - name: "Partisan"
+      chanceMin: 0.15
+      chanceMax: 0.15
+      groups: 1
+      locations: 0
+    - name: "\uAD11\uC2E0\uB3C4 \uC0AC\uC81C"
+      chanceMin: 0.25
+      chanceMax: 0.25
+      groups: 1
+      locations: 3
+    - name: "\uB7EC\uC2DC\uC544\uAD70"
+      chanceMin: 1
+      chanceMax: 1
+      groups: 2
+      locations: 2

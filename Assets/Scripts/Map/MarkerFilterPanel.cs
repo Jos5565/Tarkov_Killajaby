@@ -27,7 +27,10 @@ public class MarkerFilterPanel : MonoBehaviour
     public class Group
     {
         public string title;
+        [Tooltip("편집 모드 미리보기에서 펼칠지. Play 중에는 맵별 저장값 (처음에는 접힘)")]
         public bool expanded = true;
+        [Tooltip("이 맵에 마커가 있는 항목만 보여준다 (예: 배틀패스 문서는 맵마다 종류가 다름)")]
+        public bool onlyPresent;
         public List<Entry> entries = new List<Entry>();
     }
 
@@ -58,13 +61,21 @@ public class MarkerFilterPanel : MonoBehaviour
 
     void OnEnable()
     {
-        if (markerLayer != null) markerLayer.VisibilityChanged += OnVisibilityChanged;
+        if (markerLayer != null)
+        {
+            markerLayer.VisibilityChanged += OnVisibilityChanged;
+            markerLayer.Built += Build;   // onlyPresent 그룹은 마커가 배치된 뒤에 항목이 정해진다
+        }
         Build();
     }
 
     void OnDisable()
     {
-        if (markerLayer != null) markerLayer.VisibilityChanged -= OnVisibilityChanged;
+        if (markerLayer != null)
+        {
+            markerLayer.VisibilityChanged -= OnVisibilityChanged;
+            markerLayer.Built -= Build;
+        }
         foreach (GameObject row in rows) EditorPreview.DestroyLater(row);
         ResetLists();
     }
@@ -90,7 +101,9 @@ public class MarkerFilterPanel : MonoBehaviour
         foreach (Group group in groups)
         {
             // 로비에서 고른 플레이어 타입으로 쓸 수 없는 항목은 숨긴다 (예: PMC면 Scav 탈출구)
-            List<Entry> entries = group.entries.Where(e => markerLayer.IsAvailable(e.type)).ToList();
+            List<Entry> entries = group.entries
+                .Where(e => markerLayer.IsAvailable(e.type) && (!group.onlyPresent || markerLayer.HasPlaced(e.type)))
+                .ToList();
             if (entries.Count == 0) continue;
 
             // 헤더: [-] [v] Title

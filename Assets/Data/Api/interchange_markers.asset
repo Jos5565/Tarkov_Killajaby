@@ -1635,6 +1635,254 @@ MonoBehaviour:
     detail: "\uC778\uD130\uCCB4\uC778\uC9C0(Interchange)\uC5D0 \uC704\uCE58\uD55C
       \uC2E4\uB0B4 \uB180\uC774\uD130 \uC870\uC0AC\uD558\uAE30"
     position: {x: 42.5, y: 29.9, z: -216.4}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 1.043, y: 27.9648, z: -302.932}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -59.8134, y: 28.0352, z: -49.7742}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -66.1276, y: 27.9547, z: 40.944714}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -63.7824, y: 28.1144, z: 53.0488}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 86.573, y: 27.57404, z: 104.21}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 429.43799999999993, y: 28.041733333333337, z: 164.01233333333334}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 137.95253, y: 25.6291, z: 268.1021}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -204.187, y: 18.3573, z: -358.223}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: -201.5999, y: 22.623007, z: -360.7614}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -64.725, y: 27.9643, z: -162.513}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -77.953, y: 27.9644, z: -152.925}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -21.736, y: 28.1879, z: -166.97}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 24.717428, y: 28.1006, z: -136.55136}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "3\uCE35"
+    position: {x: 27.9119, y: 37.688915, z: -134.00798}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "3\uCE35"
+    position: {x: -11.639, y: 37.1727, z: -99.031}
+  - type: 10
+    key: 
+    name: "\uD68C\uACC4 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 40.270176, y: 27.7634, z: -205.80276}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -25.148, y: 27.2867, z: -199.413}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -84.893, y: 27.9197, z: 112.884}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -46.7287, y: 27.9649, z: 126.3718}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 89.761, y: 27.9401, z: 114.94}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 85.666195, y: 28.1831045, z: 98.7149025}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "\uC9C0\uC0C1"
+    position: {x: 478.9686, y: 29.25, z: 80.5155}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -78.817, y: 27.9506, z: -148.369}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -68.578, y: 27.5945, z: -159.754}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -63.49, y: 27.8616, z: -105.2957}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 98.1537, y: 27.2843, z: -87.1281}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 64.783, y: 28.4058, z: -28.897}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -68.35050000000001, y: 28.31425, z: 53.107699999999994}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -79.085, y: 27.9424, z: 45.961}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: -91.31, y: 27.9417, z: 110.605}
+  - type: 12
+    key: 
+    name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: "2\uCE35"
+    position: {x: 3.1471924, y: 28.022786, z: -293.44016}
   quests:
   - key: 666314bc1d3ec95634095e77
     name: Minute of Fame
