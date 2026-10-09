@@ -23,6 +23,8 @@ public enum MarkerType
     DocTest,
     DocUser,
     DocMedical,
+    // 지도 위 구역 이름 (마커가 아니라 글자. 필터에서 켜고 끄기 위해 종류로 둔다)
+    AreaLabel,
 }
 
 // 배틀패스 문서: tarkov.dev 아이템 분류 "Battle Pass Document".
@@ -93,6 +95,18 @@ public class QuestObjective
     public bool thisMap;   // 이 맵에서 하는 목표 (목표의 maps에 이 맵이 있거나, 이 맵에 위치 마커가 있음)
 }
 
+// 퀘스트에 필요한 아이템 (건네기·찾기·설치·판매·표시할 아이템, 열쇠)
+[Serializable]
+public class QuestRequirement
+{
+    public string objective;          // 관련 목표 ID (열쇠는 비어 있음)
+    public string kind;               // give / find / plant / sell / mark / key
+    public List<string> items = new List<string>();   // 아이템 이름. 여러 개면 그중 아무거나 (최대 몇 개만 저장)
+    public int alternatives = 1;      // 고를 수 있는 아이템 전체 수 (items보다 많을 수 있음)
+    public int count = 1;
+    public bool foundInRaid;          // 레이드에서 찾은(인레이드) 아이템만 인정
+}
+
 // 이 맵에 위치가 있는 퀘스트의 전체 목표 (위치가 없는 목표 포함: "처치", "아이템 전달" 등)
 [Serializable]
 public class QuestData
@@ -101,6 +115,17 @@ public class QuestData
     public string name;
     public string trader;
     public List<QuestObjective> objectives = new List<QuestObjective>();
+    public List<QuestRequirement> requirements = new List<QuestRequirement>();
+}
+
+// 지도 위 구역 이름 (예: 세관 "구골조"). tarkov-dev 지도 설정의 labels
+[Serializable]
+public class MapLabel
+{
+    public string text;
+    public Vector2 position;      // 게임 좌표 (x, z)
+    public float size = 100f;     // 글자 크기 비율 (%). 작은 건물·가게 이름은 60~90
+    public float rotation;        // 시계 방향 각도 (길 이름 등)
 }
 
 // tarkov.dev API에서 받아 변환한 맵 마커 데이터 (Tools > Tarkov > API Data 창에서 생성)
@@ -112,6 +137,7 @@ public class MapMarkerData : ScriptableObject
     public string downloadedAt;
     public List<MapMarker> markers = new List<MapMarker>();
     public List<QuestData> quests = new List<QuestData>();
+    public List<MapLabel> labels = new List<MapLabel>();
 
     public QuestData FindQuest(string key) => string.IsNullOrEmpty(key) ? null : quests.Find(q => q.key == key);
 }

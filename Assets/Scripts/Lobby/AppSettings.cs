@@ -7,6 +7,8 @@ using UnityEngine;
 public class AppSettings
 {
     public string screenshotFolder = "";
+    // 타르코프 로그 폴더 ({게임 폴더}\Logs). 비우면 자동으로 찾는다 (TarkovLogWatcher)
+    public string gameLogFolder = "";
 
     // 타르코프 기본 스크린샷 폴더: 문서\Escape from Tarkov\Screenshots
     public static string DefaultScreenshotFolder =>

@@ -1518,6 +1518,7 @@ MonoBehaviour:
       description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements: []
   - key: 639136df4b15ca31f76bc31f
     name: The Huntsman Path - Administrator
     trader: "\uC608\uAC70"
@@ -1534,6 +1535,7 @@ MonoBehaviour:
         \uC548\uC5D0\uC11C)"
       optional: 0
       thisMap: 1
+    requirements: []
   - key: 6086c852c945025d41566124
     name: "\uAC1C\uC815 \uC791\uC5C5 - \uB9AC\uC800\uBE0C"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
@@ -1574,6 +1576,42 @@ MonoBehaviour:
       description: "\uB124 \uBC88\uC9F8 BMP-2\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements:
+    - objective: 6086c8ed1b0bb8063d5babb7
+      kind: mark
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 608826d0a3994358a0751cfc
+      kind: mark
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 60882714c18cfa2a4e2afe59
+      kind: mark
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 60882779d241f77b8a49785d
+      kind: mark
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 
+      kind: key
+      items:
+      - "RB-ST key"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 5ede55112c95834b583f052a
     name: "\uBC99\uCEE4"
     trader: "\uD504\uB77C\uD37C"
@@ -1614,6 +1652,7 @@ MonoBehaviour:
         \uD5A5\uD558\uB294 \uBC99\uCEE4 \uCD9C\uC785\uBB38 \uCC3E\uAE30"
       optional: 0
       thisMap: 1
+    requirements: []
   - key: 60896bca6ee58f38c417d4f2
     name: "\uBC30\uC2E0\uC790\uB4E4\uC744 \uC704\uD55C \uACF3\uC740 \uC5C6\uB2E4"
     trader: "\uD504\uB77C\uD37C"
@@ -1623,6 +1662,7 @@ MonoBehaviour:
         \uC788\uB294 \uB808\uC774\uB354\uB97C \uCC98\uCE58\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements: []
   - key: 5ede567cfa6dc072ce15d6e3
     name: "\uBC99\uCEE4 - \uD30C\uD2B8 2"
     trader: "\uD504\uB77C\uD37C"
@@ -1657,6 +1697,7 @@ MonoBehaviour:
       description: "\uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements: []
   - key: 60896888e4a85c72ef3fa300
     name: "\uAD70\uC0AC\uAE30\uBC00"
     trader: "\uC2A4\uD0A4\uC5B4"
@@ -1670,6 +1711,7 @@ MonoBehaviour:
       description: "\uBB3C\uAC74 \uAC74\uB124\uC8FC\uAE30"
       optional: 0
       thisMap: 0
+    requirements: []
   - key: 66d9cbb67b491f9d5304f6e6
     name: "\uC774\uAC70 \uD639\uC2DC \uD328\uB7EC\uB514\uC778\uAC00?"
     trader: "\uD39C\uC2A4"
@@ -1832,6 +1874,196 @@ MonoBehaviour:
         \uC124\uCE58\uD558\uAE30"
       optional: 0
       thisMap: 0
+    requirements:
+    - objective: 66d9cbb67b491f9d5304f6eb
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66d9cbb67b491f9d5304f6e9
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66dacf2a88c7001436a67390
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66d9cbb67b491f9d5304f6ea
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66dad1d7811532f53e472c13
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66dad1d941756590432b0eaa
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66dad1dbb16caebe0e214d89
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66dad1ddec53b0df3b10a1b9
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66dad1de93c8fcffd5790d89
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66dad1e0703b718902451ee4
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66dad1e21e7ef28d17a69a93
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66dad1e607181e2f78a3a0a2
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66dad1e843a718561db0fdd3
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66dad1ebc5c8e6cd26dd1d31
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66dad1edbc4fdd0c6eb38c5e
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66dad1f00e049ac7abb6d801
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66dad1f22edc2103eb176de8
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66db1f8d7539f4b4eb640aff
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66db1f8f564045697071d934
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66db1f928d59a9fe511dfc25
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66db1f94a147d9840ec0dfba
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66db1f98b8e22a92437fe5c6
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66db1f9b4f7bf01d937eb150
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66db1ff798d52a5a8e4ed1f8
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66debf2b9e4ce2ef233ee5b7
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66debf2e1e254957b82711ff
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66debf30802386a45d0adb60
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 6089732b59b92115597ad789
     name: "\uB0A8\uB294 \uBB3C\uAC74"
     trader: "\uBA54\uCE74\uB2C9"
@@ -1846,6 +2078,14 @@ MonoBehaviour:
         \uAC74\uB124\uC8FC\uAE30"
       optional: 0
       thisMap: 0
+    requirements:
+    - objective: 
+      kind: key
+      items:
+      - "RB-ST key"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 6089736efa70fc097863b8f6
     name: "\uB4B7\uBB38"
     trader: "\uBA54\uCE74\uB2C9"
@@ -1864,6 +2104,7 @@ MonoBehaviour:
       description: "\uBE44\uBC00 \uD0C8\uCD9C\uAD6C\uB85C \uD0C8\uCD9C\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements: []
   - key: 608974d01a66564e74191fc0
     name: "\uC5F0\uB8CC \uBB38\uC81C"
     trader: "\uB798\uADF8\uB9E8"
@@ -1878,6 +2119,21 @@ MonoBehaviour:
         \uD0F1\uD06C \uC800\uC7A5\uC18C\uC5D0 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements:
+    - objective: 60a4dc7e4e734e57d07fb335
+      kind: mark
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 60b90232ec7c6f5eb510c195
+      kind: mark
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 684009026ceedc792c09b2a7
     name: Hobby Club
     trader: "\uBA54\uCE74\uB2C9"
@@ -1927,6 +2183,21 @@ MonoBehaviour:
         \uB354\uC2A4\uD2B8 \uCEE4\uBC84 \uC228\uAE30\uAE30"
       optional: 0
       thisMap: 0
+    requirements:
+    - objective: 685e95c44b14e68996ad6590
+      kind: plant
+      items:
+      - "TheAKGuy AK-50 .50 BMG \uB300\uBB3C \uC800\uACA9\uC18C\uCD1D"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 685e97f9892281cf7a89f39c
+      kind: find
+      items:
+      - "TheAKGuy AK-50 .50 BMG \uB300\uBB3C \uC800\uACA9\uC18C\uCD1D"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 59c124d686f774189b3c843f
     name: "\uC5F0\uB8CC \uC218\uC1A1"
     trader: "\uD504\uB77C\uD37C"
@@ -1936,6 +2207,14 @@ MonoBehaviour:
         MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements:
+    - objective: 59c128b986f77415037680df
+      kind: mark
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 60896b7bfa70fc097863b8f5
     name: "\uBB38\uC11C"
     trader: "\uD504\uB77C\uD37C"
@@ -1967,6 +2246,7 @@ MonoBehaviour:
       description: "\uC138 \uBC88\uC9F8 \uBB38\uC11C \uAC74\uB124\uC8FC\uAE30"
       optional: 0
       thisMap: 0
+    requirements: []
   - key: 60896e28e4a85c72ef3fa301
     name: "\uBCD1\uB825"
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
@@ -1989,6 +2269,15 @@ MonoBehaviour:
       description: "\uB450 \uBC88\uC9F8 \uC77C\uC9C0 \uAC74\uB124\uAE30"
       optional: 0
       thisMap: 0
+    requirements:
+    - objective: 
+      kind: key
+      items:
+      - "RB-KSM key"
+      - "RB-SMP key"
+      alternatives: 2
+      count: 1
+      foundInRaid: 0
   - key: 6089743983426423753cd58a
     name: "\uC548\uC804\uD55C \uD1B5\uB85C"
     trader: "\uC2A4\uD0A4\uC5B4"
@@ -2003,6 +2292,17 @@ MonoBehaviour:
         \uCC3D\uACE0 \uC5F4\uC1E0(RB-PSP, RB-PSV) \uAC74\uB124\uC8FC\uAE30"
       optional: 0
       thisMap: 0
+    requirements:
+    - objective: 6a5ab8ac7119466cb512579d
+      kind: give
+      items:
+      - "RB-PSP1 key"
+      - "RB-PSP2 key"
+      - "RB-PSV1 key"
+      - "RB-PSV2 key"
+      alternatives: 4
+      count: 3
+      foundInRaid: 1
   - key: 608974af4b05530f55550c21
     name: "\uB9AC\uC800\uBE0C \uC804\uBB38\uAC00"
     trader: "\uB798\uADF8\uB9E8"
@@ -2041,6 +2341,35 @@ MonoBehaviour:
         \uCC3E\uC544 \uD655\uBCF4\uD558\uAE30"
       optional: 1
       thisMap: 0
+    requirements:
+    - objective: 6a5761ff44baf1d1830bfa5c
+      kind: give
+      items:
+      - "FORT Redut-M \uBC29\uD0C4\uBCF5"
+      - "FORT Defender-2 \uBC29\uD0C4\uBCF5"
+      - "6B43 Zabralo-Sh \uBC29\uD0C4\uBCF5"
+      alternatives: 3
+      count: 3
+      foundInRaid: 1
+    - objective: 6a6d0ec764f81ad96ce823eb
+      kind: find
+      items:
+      - "6B43 Zabralo-Sh \uBC29\uD0C4\uBCF5"
+      - "FORT Redut-M \uBC29\uD0C4\uBCF5"
+      - "FORT Defender-2 \uBC29\uD0C4\uBCF5"
+      alternatives: 3
+      count: 3
+      foundInRaid: 1
+    - objective: 
+      kind: key
+      items:
+      - "RB-OB \uC5F4\uC1E0"
+      - "RB-ORB3 \uC5F4\uC1E0"
+      - "RB-ORB1 \uC5F4\uC1E0"
+      - "RB-ORB2 \uC5F4\uC1E0"
+      alternatives: 4
+      count: 1
+      foundInRaid: 0
   - key: 608a768d82e40b3c727fd17d
     name: "\uD574\uCDA9 \uAD6C\uC81C"
     trader: "\uC608\uAC70"
@@ -2050,6 +2379,7 @@ MonoBehaviour:
         \uC2A4\uCE90\uBE0C \uCC98\uCE58\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements: []
   - key: 63966fccac6f8f3c677b9d89
     name: Snatch
     trader: "\uB4F1\uB300\uC9C0\uAE30"
@@ -2078,6 +2408,14 @@ MonoBehaviour:
         \uAC00\uC838\uAC00\uAE30"
       optional: 0
       thisMap: 0
+    requirements:
+    - objective: 
+      kind: key
+      items:
+      - "RB-ST key"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 63966fd9ea19ac7ed845db30
     name: "\uB418\uAC1A\uC544\uC8FC\uAE30"
     trader: "\uB4F1\uB300\uC9C0\uAE30"
@@ -2102,6 +2440,14 @@ MonoBehaviour:
         \uD0C8\uCD9C\uD558\uAE30 (\uD55C \uB808\uC774\uB4DC \uB0B4\uC5D0)"
       optional: 0
       thisMap: 1
+    requirements:
+    - objective: 6a8735fd06a97914ea936857
+      kind: find
+      items:
+      - "RSP-30 \uBC18\uC751\uD615 \uC2E0\uD638\uD0C4 (\uB178\uB791)"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 66ab970848ddbe9d4a0c49a8
     name: Special Comms
     trader: "\uD504\uB77C\uD37C"
@@ -2122,6 +2468,21 @@ MonoBehaviour:
         \uC228\uAE30\uAE30"
       optional: 0
       thisMap: 1
+    requirements:
+    - objective: 66ab9c5c60199cdb0902f8cc
+      kind: plant
+      items:
+      - "Military cable \uAD70\uC6A9 \uCF00\uC774\uBE14"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 66ab9c7ea3a7219e87d4b75e
+      kind: plant
+      items:
+      - "Bulbex \uCF00\uC774\uBE14 \uCEE4\uD130"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 673f4e956f1b89c7bc0f56ef
     name: Hot Wheels
     trader: "BTR \uC870\uC885\uC218"
@@ -2135,6 +2496,21 @@ MonoBehaviour:
       description: "\uC8FC \uBAA9\uD45C\uB97C \uCD5C\uB300\uD55C \uBE68\uB9AC \uC644\uB8CC\uD558\uAE30"
       optional: 1
       thisMap: 0
+    requirements:
+    - objective: 673f507029a1128d5c4d7498
+      kind: plant
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 673f5065cdfe082966842575
+      kind: plant
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 673f5a4976553f78350bdac1
     name: Hot Wheels - Let's Try Again
     trader: "BTR \uC870\uC885\uC218"
@@ -2144,6 +2520,14 @@ MonoBehaviour:
         \uCC3E\uC544 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements:
+    - objective: 673f5a9537550b9d7fd30777
+      kind: plant
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 673f61a066e6a521aa04b62b
     name: Order From Outside
     trader: "\uB4F1\uB300\uC9C0\uAE30"
@@ -2158,6 +2542,7 @@ MonoBehaviour:
         \uC228\uAE30\uAE30"
       optional: 0
       thisMap: 0
+    requirements: []
   - key: 6744af0969a58fceba101fed
     name: The Price of Independence
     trader: "BTR \uC870\uC885\uC218"
@@ -2211,6 +2596,7 @@ MonoBehaviour:
       description: "\uB4F1\uB300(Lighthouse)\uC5D0\uC11C \uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
       optional: 0
       thisMap: 0
+    requirements: []
   - key: 6745cbee909d2013670a4a55
     name: The Price of Independence
     trader: "BTR \uC870\uC885\uC218"
@@ -2264,6 +2650,7 @@ MonoBehaviour:
       description: "\uB4F1\uB300(Lighthouse)\uC5D0\uC11C \uC0B4\uC544\uC11C \uD0C8\uCD9C\uD558\uAE30"
       optional: 0
       thisMap: 0
+    requirements: []
   - key: 6745fdddd3346c216702e0bf
     name: Simple Side Job
     trader: "\uB4F1\uB300\uC9C0\uAE30"
@@ -2278,6 +2665,7 @@ MonoBehaviour:
       description: "\uC0BC\uB9BC \uC2A4\uCE90\uBE0C \uC9D1\uC5D0 \uD654\uBB3C \uC228\uAE30\uAE30"
       optional: 0
       thisMap: 0
+    requirements: []
   - key: 6a7b0df31ea00c9a980e2742
     name: "\uC2DC\uC2DC\uD3EC\uC2A4"
     trader: "\uB798\uADF8\uB9E8"
@@ -2310,3 +2698,113 @@ MonoBehaviour:
         Armored Train\uC73C\uB85C \uD0C8\uCD9C\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements: []
+  labels:
+  - text: "K\uB3D9"
+    position: {x: 28, y: -102}
+    size: 100
+    rotation: 0
+  - text: "\uBC31\uC0C9 \uD038"
+    position: {x: -25, y: 180}
+    size: 100
+    rotation: -15
+  - text: "\uBC31\uC0C9 \uD3F0"
+    position: {x: -104, y: 93}
+    size: 100
+    rotation: 14
+  - text: "\uD751\uC0C9 \uBE44\uC20D"
+    position: {x: -140, y: -14.5}
+    size: 100
+    rotation: 14
+  - text: "\uBC31\uC0C9 \uBE44\uC20D"
+    position: {x: -67, y: -30}
+    size: 100
+    rotation: 14
+  - text: "\uBC31\uC0C9 \uD0B9"
+    position: {x: -49.5, y: 15.5}
+    size: 100
+    rotation: 14
+  - text: "\uD751\uC0C9 \uB098\uC774\uD2B8"
+    position: {x: 14.5, y: -10.8}
+    size: 100
+    rotation: 0
+  - text: "\uBC31\uC0C9 \uB098\uC774\uD2B8"
+    position: {x: 82.2, y: -30.2}
+    size: 100
+    rotation: 0
+  - text: "\uBC31\uC0C9 \uB8E9"
+    position: {x: 149, y: -124}
+    size: 100
+    rotation: 0
+  - text: "\uAE30\uCC28\uC5ED"
+    position: {x: 161, y: -149}
+    size: 80
+    rotation: 14
+  - text: "\uD751\uC0C9 \uD3F0"
+    position: {x: -165, y: 57}
+    size: 100
+    rotation: -75
+  - text: "\uB9C9\uC0AC"
+    position: {x: 167, y: -222}
+    size: 100
+    rotation: 0
+  - text: "E1 \uBC99\uCEE4"
+    position: {x: -220, y: -13}
+    size: 100
+    rotation: 0
+  - text: "E2 \uBC99\uCEE4"
+    position: {x: 173, y: -3}
+    size: 100
+    rotation: 0
+  - text: "\u0414 \uCC3D\uACE0 \uBC99\uCEE4"
+    position: {x: 80, y: -167}
+    size: 100
+    rotation: 14
+  - text: "\uCC28\uACE0"
+    position: {x: 96, y: 30}
+    size: 80
+    rotation: -75
+  - text: "\uC815\uBE44\uC18C"
+    position: {x: 55.5, y: 60.6}
+    size: 80
+    rotation: 0
+  - text: "\uC8FC\uC720\uC18C"
+    position: {x: 29.7, y: 29.5}
+    size: 80
+    rotation: 14
+  - text: "\uD558\uC5ED\uC7A5"
+    position: {x: -31, y: -150}
+    size: 80
+    rotation: 14
+  - text: "K1"
+    position: {x: -1, y: -71}
+    size: 80
+    rotation: 14
+  - text: "K2"
+    position: {x: 66, y: -90}
+    size: 80
+    rotation: 14
+  - text: "K3"
+    position: {x: -5.5, y: -94}
+    size: 80
+    rotation: 14
+  - text: "K4"
+    position: {x: 60, y: -112}
+    size: 80
+    rotation: 14
+  - text: "K5"
+    position: {x: -10.5, y: -115}
+    size: 80
+    rotation: 14
+  - text: "K6"
+    position: {x: 54, y: -132}
+    size: 80
+    rotation: 14
+  - text: "\uB3D4"
+    position: {x: -8.5, y: 175}
+    size: 80
+    rotation: 0
+  - text: "\uD65C\uC8FC\uB85C"
+    position: {x: -120, y: 37}
+    size: 80
+    rotation: 14

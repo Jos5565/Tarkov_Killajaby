@@ -48,6 +48,45 @@ public static class QuestText
         return sb.ToString();
     }
 
+    // 퀘스트에 필요한 아이템 (다른 맵 목표 포함 전부. 챙겨 가거나 모아야 하므로)
+    //   필요 아이템
+    //   [건네기] 물리 비트코인 ×2 · 인레이드
+    //   [설치] MS2000 마커           ← 강조할 목표의 아이템은 금색
+    //   [열쇠] 기숙사 314호 열쇠
+    public static string Requirements(QuestData quest, ICollection<string> highlight)
+    {
+        if (quest == null || quest.requirements == null || quest.requirements.Count == 0) return "";
+        highlight = ToMainObjectives(quest, highlight);
+
+        string hi = ColorUtility.ToHtmlStringRGB(HighlightColor);
+        string normal = ColorUtility.ToHtmlStringRGB(NormalColor);
+        string dim = ColorUtility.ToHtmlStringRGB(HiddenColor);
+        var sb = new StringBuilder($"<color=#{dim}><size=85%>필요 아이템</size></color>");
+        foreach (QuestRequirement r in quest.requirements)
+        {
+            string items = string.Join(" / ", r.items);
+            if (r.alternatives > r.items.Count) items += $" 외 {r.alternatives - r.items.Count}종";
+            string text = $"<noparse>{items}</noparse>" + (r.count > 1 ? $" ×{r.count}" : "");
+            string fir = r.foundInRaid ? $" <color=#{dim}>· 인레이드</color>" : "";
+            bool on = highlight != null && !string.IsNullOrEmpty(r.objective) && highlight.Contains(r.objective);
+            string label = $"[{KindLabel(r.kind)}] ";
+            sb.Append('\n');
+            sb.Append(on ? $"<color=#{hi}><b>{label}{text}</b></color>{fir}" : $"<color=#{normal}>{label}{text}</color>{fir}");
+        }
+        return sb.ToString();
+    }
+
+    static string KindLabel(string kind) => kind switch
+    {
+        "give" => "건네기",
+        "find" => "찾기",
+        "plant" => "설치",
+        "sell" => "판매",
+        "mark" => "표시",
+        "key" => "열쇠",
+        _ => kind,
+    };
+
     // 선택 목표는 바로 앞의 메인 목표를 돕는 보조 단계로 나온다 (예: 총열 확보 → 작업장 찾기(선택)).
     // 강조 대상이 선택 목표면 그 메인 목표로 바꾼다: 앞쪽에서 먼저 찾고(이 맵 목표 우선), 없으면 뒤쪽에서.
     static HashSet<string> ToMainObjectives(QuestData quest, ICollection<string> ids)

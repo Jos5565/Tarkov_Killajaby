@@ -1379,6 +1379,7 @@ MonoBehaviour:
         \uD50C\uB798\uC2DC \uB4DC\uB77C\uC774\uBE0C \uD655\uBCF4\uD558\uAE30"
       optional: 0
       thisMap: 0
+    requirements: []
   - key: 666314b696a9349baa021bac
     name: Quality Standard
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
@@ -1392,6 +1393,7 @@ MonoBehaviour:
       description: "\uCC3E\uC740 \uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
       optional: 0
       thisMap: 0
+    requirements: []
   - key: 66aba85403e0ee3101042877
     name: Beneath The Streets
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
@@ -1428,6 +1430,7 @@ MonoBehaviour:
         (\uD55C \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
       optional: 0
       thisMap: 1
+    requirements: []
   - key: 669fa3a3ad7f1eac2607ed48
     name: Health Care Privacy - Part 6
     trader: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
@@ -1447,6 +1450,14 @@ MonoBehaviour:
         \uD608\uC561 \uC0D8\uD50C \uC228\uAE30\uAE30"
       optional: 0
       thisMap: 1
+    requirements:
+    - objective: 6a60703aaa77a4b86e07aa3b
+      kind: give
+      items:
+      - "LEDX \uD53C\uBD80 \uD22C\uACFC\uC870\uBA85\uAE30"
+      alternatives: 1
+      count: 1
+      foundInRaid: 1
   - key: 5edac63b930f5454f51e128b
     name: "\uD14C\uB77C\uADF8\uB8F9 \uC9C1\uC6D0"
     trader: "\uD53C\uC2A4\uD0A4\uD37C"
@@ -1466,6 +1477,14 @@ MonoBehaviour:
         \uD50C\uB798\uC2DC \uB4DC\uB77C\uC774\uBE0C] \uAC74\uB124\uC8FC\uAE30"
       optional: 0
       thisMap: 0
+    requirements:
+    - objective: 
+      kind: key
+      items:
+      - "Keycard with a blue marking"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 639670029113f06a7c3b2377
     name: "\uBE75\uBD80\uC2A4\uB7EC\uAE30\uB97C \uB530\uB77C\uC11C"
     trader: "\uB4F1\uB300\uC9C0\uAE30"
@@ -1495,3 +1514,137 @@ MonoBehaviour:
         \uAC74\uB124\uC8FC\uAE30"
       optional: 0
       thisMap: 0
+    requirements:
+    - objective: 
+      kind: key
+      items:
+      - "\uD14C\uB77C\uADF8\uB8F9 \uC5F0\uAD6C\uC18C \uBB34\uAE30 \uC2E4\uD5D8\uC2E4 \uC5F4\uC1E0"
+      - "\uD14C\uB77C\uADF8\uB8F9 \uC5F0\uAD6C\uC18C \uBE14\uB799 \uAD6C\uC5ED \uD0A4\uCE74\uB4DC (TerraGroup Labs keycard (Black))"
+      alternatives: 2
+      count: 1
+      foundInRaid: 0
+  labels:
+  - text: "\uC8FC\uCC28\uC7A5"
+    position: {x: -230, y: -400}
+    size: 90
+    rotation: 0
+  - text: "\uD604\uAD00 #1"
+    position: {x: -246, y: -379}
+    size: 90
+    rotation: 0
+  - text: "\uD604\uAD00 #2"
+    position: {x: -216, y: -379}
+    size: 90
+    rotation: 0
+  - text: "\uC8FC \uC791\uC5C5 \uAD6C\uC5ED"
+    position: {x: -172, y: -342}
+    size: 90
+    rotation: 0
+  - text: "\uD611\uC0C1\uC2E4"
+    position: {x: -148, y: -398}
+    size: 90
+    rotation: 0
+  - text: "\uC758\uBB34\uC2E4 1\uCE35"
+    position: {x: -130, y: -398}
+    size: 90
+    rotation: 0
+  - text: "\uC2E4\uD5D8\uC2E4"
+    position: {x: -130, y: -356}
+    size: 90
+    rotation: 0
+  - text: "\uC11C\uBC84\uC2E4"
+    position: {x: -125, y: -308}
+    size: 90
+    rotation: 0
+  - text: "\uCC3D\uACE0 \uD130\uB110"
+    position: {x: -116, y: -266}
+    size: 90
+    rotation: 0
+  - text: "\uCC3D\uACE0"
+    position: {x: -163, y: -269}
+    size: 90
+    rotation: 0
+  - text: "\uCC3D\uACE0 \uAC8C\uC774\uD2B8"
+    position: {x: -170, y: -248}
+    size: 90
+    rotation: 0
+  - text: "\uAC15\uC758\uC2E4"
+    position: {x: -207, y: -305}
+    size: 90
+    rotation: 0
+  - text: "\uD734\uAC8C \uAD6C\uC5ED"
+    position: {x: -221, y: -343}
+    size: 90
+    rotation: 0
+  - text: "\uCCB4\uC721\uAD00"
+    position: {x: -236, y: -302}
+    size: 90
+    rotation: 0
+  - text: "\uB0A8\uC790 \uD0C8\uC758\uC2E4"
+    position: {x: -241, y: -280}
+    size: 90
+    rotation: 0
+  - text: "\uC5EC\uC790 \uD0C8\uC758\uC2E4"
+    position: {x: -232, y: -280}
+    size: 90
+    rotation: 0
+  - text: "\uBCF4\uC77C\uB7EC\uC2E4"
+    position: {x: -259, y: -366}
+    size: 90
+    rotation: 0
+  - text: "\uACBD\uBE44\uB300 \uB9C9\uC0AC"
+    position: {x: -260, y: -319}
+    size: 90
+    rotation: 0
+  - text: "\uC548\uB0B4 \uB370\uC2A4\uD06C"
+    position: {x: -260, y: -342}
+    size: 90
+    rotation: 0
+  - text: "\uD589\uC815\uC2E4"
+    position: {x: -260, y: -364}
+    size: 90
+    rotation: 0
+  - text: "\uACBD\uBE44\uC2E4"
+    position: {x: -254, y: -320}
+    size: 90
+    rotation: 0
+  - text: "\uACBD\uBE44 \uCD08\uC18C #1"
+    position: {x: -244, y: -378}
+    size: 90
+    rotation: 0
+  - text: "\uACBD\uBE44 \uCD08\uC18C #2"
+    position: {x: -215, y: -379}
+    size: 90
+    rotation: 0
+  - text: "\uD68C\uC758\uC2E4"
+    position: {x: -229, y: -343}
+    size: 90
+    rotation: 0
+  - text: "\uC2DD\uB2F9"
+    position: {x: -219, y: -302}
+    size: 90
+    rotation: 0
+  - text: "\uC0AC\uBB34\uC2E4 #1"
+    position: {x: -189, y: -401}
+    size: 90
+    rotation: 0
+  - text: "\uC0AC\uBB34\uC2E4 #2"
+    position: {x: -149, y: -401}
+    size: 90
+    rotation: 0
+  - text: "\uC758\uBB34\uC2E4 2\uCE35"
+    position: {x: -130, y: -401}
+    size: 90
+    rotation: 0
+  - text: "\uBB34\uADE0 \uC2E4\uD5D8\uC2E4"
+    position: {x: -130, y: -361}
+    size: 90
+    rotation: 0
+  - text: "\uC81C\uC5B4\uC2E4"
+    position: {x: -169, y: -288}
+    size: 90
+    rotation: 0
+  - text: "2\uB3D9 \uC5F0\uACB0 \uD1B5\uB85C"
+    position: {x: -250, y: -281}
+    size: 90
+    rotation: 0

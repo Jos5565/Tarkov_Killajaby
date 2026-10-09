@@ -62,6 +62,9 @@ public class TarkovApiWindow : EditorWindow
             yield return $"{dataset}_{Language}";
             if (Language != FallbackLanguage) yield return $"{dataset}_{FallbackLanguage}";
         }
+        // 아이템은 이름(번역)만 필요하다 (items 본 파일은 17MB라 받지 않음)
+        yield return $"items_{Language}";
+        if (Language != FallbackLanguage) yield return $"items_{FallbackLanguage}";
     }
 
     void OnGUI()
@@ -150,8 +153,12 @@ public class TarkovApiWindow : EditorWindow
                 tr.Add(LoadData(RawPath(dataset, Language)), primary: true);
                 tr.Add(LoadData(RawPath(dataset, FallbackLanguage)), primary: false);
             }
+            tr.Add(LoadData(RawPath("items", Language)), primary: true);
+            tr.Add(LoadData(RawPath("items", FallbackLanguage)), primary: false);
             tr.AddOverrides(LoadData($"{TranslationDir}/{Language}.json"));
             JArray floorMaps = File.Exists(FloorPath) ? JArray.Parse(File.ReadAllText(FloorPath)) : new JArray();
+            // 구역 이름 번역 (영어 이름 → 선택 언어). 없으면 영어 그대로
+            JObject areaNames = LoadData($"{TranslationDir}/areas_{Language}.json");
 
             var log = new StringBuilder();
             foreach (string guid in AssetDatabase.FindAssets("t:MapConfig"))
@@ -172,6 +179,7 @@ public class TarkovApiWindow : EditorWindow
                 data.language = Language;
                 data.downloadedAt = File.GetLastWriteTime(RawPath("maps")).ToString("yyyy-MM-dd HH:mm");
                 data.markers = Convert(map, (JObject)mapsData["mobs"], tasksData, tradersData, tr, FloorLayers(floorMaps, config.normalizedName), out data.quests);
+                data.labels = AreaLabels(floorMaps, config.normalizedName, areaNames);
                 EditorUtility.SetDirty(data);
 
                 config.markerData = data;
@@ -320,6 +328,7 @@ public class TarkovApiWindow : EditorWindow
                 bool thisMap = markedObjectives.Contains(id) || Items(obj["maps"]).Any(m => (string)m == mapId);
                 quest.objectives.Add(new QuestObjective { id = id, description = description, optional = (bool?)obj["optional"] ?? false, thisMap = thisMap });
             }
+            quest.requirements = Requirements(task, mapId, tr);
             quests.Add(quest);
         }
 
@@ -328,12 +337,35 @@ public class TarkovApiWindow : EditorWindow
 
     // ---- 층 ----
 
-    // tarkov-dev maps.json에서 이 맵(interactive 지도)의 layers. 없으면 빈 배열
-    static JArray FloorLayers(JArray floorMaps, string normalizedName)
+    // tarkov-dev maps.json에서 이 맵의 interactive 지도 설정 (없으면 null)
+    static JToken InteractiveMap(JArray floorMaps, string normalizedName)
     {
         JToken group = floorMaps.FirstOrDefault(g => (string)g["normalizedName"] == normalizedName);
-        JToken interactive = Items(group?["maps"]).FirstOrDefault(m => (string)m["projection"] == "interactive");
-        return interactive?["layers"] as JArray ?? new JArray();
+        return Items(group?["maps"]).FirstOrDefault(m => (string)m["projection"] == "interactive");
+    }
+
+    // 이 맵의 layers (층 정의). 없으면 빈 배열
+    static JArray FloorLayers(JArray floorMaps, string normalizedName) =>
+        InteractiveMap(floorMaps, normalizedName)?["layers"] as JArray ?? new JArray();
+
+    // 지도 위 구역 이름. labels[]: { position: [x, z], text, size(%), rotation(도) }
+    static List<MapLabel> AreaLabels(JArray floorMaps, string normalizedName, JObject names)
+    {
+        var labels = new List<MapLabel>();
+        foreach (JToken l in Items(InteractiveMap(floorMaps, normalizedName)?["labels"]))
+        {
+            if (!(l["position"] is JArray p) || p.Count < 2) continue;
+            string text = ((string)l["text"] ?? "").Replace((char)0x0A, (char)0x20).Trim();
+            if (text.Length == 0) continue;
+            labels.Add(new MapLabel
+            {
+                text = (string)names[text] ?? text,
+                position = new Vector2((float)p[0], (float)p[1]),
+                size = (float?)l["size"] ?? 100f,
+                rotation = (float?)l["rotation"] ?? 0f,
+            });
+        }
+        return labels;
     }
 
     // tarkov.dev 웹사이트와 같은 방식: 높이가 층의 범위 안이고, 영역(bounds)이 있으면 그 안일 때 그 층.
@@ -390,6 +422,72 @@ public class TarkovApiWindow : EditorWindow
                     .Select(l => (string)l["spawnKey"] ?? (string)l["name"]).Distinct().Count(),
             })
             .ToList();
+
+    // ---- 퀘스트 필요 아이템 ----
+
+    const int MaxItemNames = 4;   // 고를 수 있는 아이템이 많으면(예: 52종 중 아무거나) 이름은 몇 개만 저장
+
+    static List<QuestRequirement> Requirements(JToken task, string mapId, Translator tr)
+    {
+        var list = new List<QuestRequirement>();
+        foreach (JToken obj in Items(task["objectives"]))
+        {
+            string kind = (string)obj["type"] switch
+            {
+                "giveItem" => "give",
+                "findItem" => "find",
+                "plantItem" => "plant",
+                "sellItem" => "sell",
+                "mark" => "mark",
+                _ => null,
+            };
+            if (kind == null) continue;
+
+            List<string> ids = kind == "mark"
+                ? new List<string> { (string)obj["markerItem"] }
+                : Items(obj["items"]).Select(i => (string)i).ToList();
+            ids = ids.Where(i => !string.IsNullOrEmpty(i)).Distinct().ToList();
+            if (ids.Count == 0) continue;
+
+            list.Add(new QuestRequirement
+            {
+                objective = (string)obj["id"],
+                kind = kind,
+                items = ids.Take(MaxItemNames).Select(i => ItemName(tr, i)).ToList(),
+                alternatives = ids.Count,
+                count = Math.Max(1, (int?)obj["count"] ?? 1),
+                foundInRaid = (bool?)obj["foundInRaid"] ?? false,
+            });
+        }
+
+        // "찾기" 다음 "건네기"가 같은 아이템이면 건네기 하나로 합친다 (인레이드 조건은 유지)
+        foreach (QuestRequirement find in list.Where(r => r.kind == "find").ToList())
+        {
+            QuestRequirement give = list.FirstOrDefault(r => r.kind == "give" && r.items.SequenceEqual(find.items) && r.alternatives == find.alternatives);
+            if (give == null) continue;
+            give.foundInRaid |= find.foundInRaid;
+            give.count = Math.Max(give.count, find.count);
+            list.Remove(find);
+        }
+
+        // 이 맵에서 필요한 열쇠 (여러 개면 그중 하나)
+        List<string> keys = Items(task["neededKeys"])
+            .Where(k => (string)k["map"] == mapId)
+            .SelectMany(k => Items(k["keys"])).Select(k => (string)k)
+            .Where(k => !string.IsNullOrEmpty(k)).Distinct().ToList();
+        if (keys.Count > 0)
+            list.Add(new QuestRequirement { kind = "key", items = keys.Take(MaxItemNames).Select(k => ItemName(tr, k)).ToList(), alternatives = keys.Count });
+        return list;
+    }
+
+    // 아이템 이름: 한글 이름 뒤의 "(영어 이름)"은 툴팁이 길어지지 않게 뗀다. 예) 물리 비트코인 (Physical Bitcoin) → 물리 비트코인
+    static string ItemName(Translator tr, string id)
+    {
+        string name = tr.Get(id + " Name");
+        if (string.IsNullOrEmpty(name) || name == id + " Name") return id;
+        var m = System.Text.RegularExpressions.Regex.Match(name, @"^(.*[가-힣].*?)\s*\([^()가-힣]*\)$");
+        return m.Success ? m.Groups[1].Value : name;
+    }
 
     // extracts[].faction: "pmc" / "scav" / "shared"
     static MarkerType ExtractType(string faction) => faction switch

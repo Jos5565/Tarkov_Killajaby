@@ -53,6 +53,19 @@ public class MapUserSettings
         }
     }
 
+    // 완료한 퀘스트를 모든 맵의 저장된 선택에서 뺀다 (TarkovLogWatcher.QuestCompleted).
+    // 지금 열려 있는 맵은 MapMarkerLayer가 화면의 토글도 함께 끈다
+    public static void RemoveQuestFromAll(string questKey)
+    {
+        if (string.IsNullOrEmpty(questKey) || !Directory.Exists(Dir)) return;
+        foreach (string path in Directory.GetFiles(Dir, "*.json"))
+        {
+            string map = Path.GetFileNameWithoutExtension(path);
+            MapUserSettings settings = Load(map);
+            if (settings != null && settings.visibleQuests.Remove(questKey)) settings.Save(map);
+        }
+    }
+
     public bool TryGetType(MarkerType type, out bool visible)
     {
         int i = types.FindIndex(s => s.type == type);

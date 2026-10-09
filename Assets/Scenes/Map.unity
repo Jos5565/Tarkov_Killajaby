@@ -870,6 +870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapMarkerLayer
   mapView: {fileID: 1724962790}
+  zoomPan: {fileID: 0}
   nameTagPrefab: {fileID: 4888652072380559427, guid: d18d95d9d5b85b64e95b6dd4792cbc0e, type: 3}
   dotSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   nameTagScale: 0.5
@@ -877,6 +878,15 @@ MonoBehaviour:
   referenceViewSize: {x: 1480, y: 1000}
   keepScreenSize: 0
   nameTagIconPath: Icon
+  nameTagMergeDistance: 25
+  areaLabelFont: {fileID: 0}
+  areaLabelFontSize: 18
+  areaLabelColor: {r: 0.62226343, g: 1, b: 0.5921569, a: 1}
+  areaLabelOutline: 0.5
+  shortTransitLabel: 1
+  transitSuffix: "\uC774\uB3D9"
+  transitSuffixColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+  transitSuffixScale: 0.7
   styles:
   - type: 3
     visible: 1
@@ -980,6 +990,12 @@ MonoBehaviour:
     size: 22
     sprite: {fileID: 21300000, guid: 5ef1039469a947cb87fd88a01bdd10a3, type: 3}
     showInfo: 1
+  - type: 17
+    visible: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 14
+    sprite: {fileID: 0}
+    showInfo: 0
 --- !u!1 &900000301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,6 +1144,7 @@ MonoBehaviour:
   groups:
   - title: "\uD0C8\uCD9C\uAD6C"
     expanded: 1
+    onlyPresent: 0
     entries:
     - label: PMC
       type: 0
@@ -1143,6 +1160,7 @@ MonoBehaviour:
       icon: {fileID: 0}
   - title: "\uC2A4\uD3F0 \uC704\uCE58"
     expanded: 1
+    onlyPresent: 0
     entries:
     - label: PMC
       type: 2
@@ -1158,6 +1176,7 @@ MonoBehaviour:
       icon: {fileID: 0}
   - title: "\uD018\uC2A4\uD2B8"
     expanded: 1
+    onlyPresent: 0
     entries:
     - label: Objective
       type: 6
@@ -1190,6 +1209,9 @@ MonoBehaviour:
     - label: "\uC758\uB8CC \uBB38\uC11C"
       type: 16
       icon: {fileID: 21300000, guid: 5ef1039469a947cb87fd88a01bdd10a3, type: 3}
+  autoAreaLabelGroup: 1
+  areaLabelGroupTitle: "\uC9C0\uB3C4"
+  areaLabelEntryLabel: "\uAD6C\uC5ED \uC774\uB984"
 --- !u!1 &900000501
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,6 +1449,7 @@ MonoBehaviour:
   mapView: {fileID: 1724962790}
   markerLayer: {fileID: 900000203}
   whereIAM: {fileID: 900000003}
+  zoomPan: {fileID: 0}
   font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
   badgeSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   lineColor: {r: 0.95, g: 0.45, b: 0.1, a: 0.85}
@@ -1435,6 +1458,7 @@ MonoBehaviour:
   badgeTextColor: {r: 1, g: 1, b: 1, a: 1}
   badgeSize: 22
   badgeOffset: {x: 14, y: 14}
+  destinationTagColor: {r: 0.95, g: 0.45, b: 0.1, a: 0.95}
   exactLimit: 12
 --- !u!1 &900000901
 GameObject:

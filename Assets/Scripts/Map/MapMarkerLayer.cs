@@ -57,6 +57,16 @@ public class MapMarkerLayer : MonoBehaviour
     [Tooltip("같은 종류 탈출구가 이 거리(m, 수평) 안에 모여 있으면 이름표 하나로 합친다. 0이면 합치지 않음")]
     public float nameTagMergeDistance = 25f;
 
+    [Header("Area Label")]
+    [Tooltip("구역 이름 글꼴. 비우면 NameTag 프리팹의 글꼴")]
+    public TMP_FontAsset areaLabelFont;
+    [Tooltip("크기 100%일 때 글자 크기")]
+    public float areaLabelFontSize = 18f;
+    [Tooltip("구역 이름 색. 마커 위에 그려지므로 아래 마커가 보이도록 반투명 (색은 Styles의 AreaLabel 색과 곱해진다)")]
+    public Color areaLabelColor = new Color(0.6039f, 0.5333f, 0.4f, 0.5f);   // #9A8866, 투명도 50%
+    public float areaLabelOutline = 0.2f;
+    Material areaLabelMaterial;   // 외곽선 공유 머티리얼 (글자마다 머티리얼을 복제하지 않게)
+
     [Header("Transit Label")]
     [Tooltip("트랜짓 이름표 \"리저브로 이동\" → \"리저브 이동\" (이동은 작고 흐리게)")]
     public bool shortTransitLabel = true;
@@ -98,6 +108,7 @@ public class MapMarkerLayer : MonoBehaviour
 
     void OnEnable()
     {
+        if (Application.isPlaying) TarkovLogWatcher.QuestCompleted += OnQuestCompleted;
         if (mapView == null) return;
         mapView.Loaded += OnMapLoaded;
         if (mapView.IsLoaded) Build();
@@ -105,6 +116,7 @@ public class MapMarkerLayer : MonoBehaviour
 
     void OnDisable()
     {
+        TarkovLogWatcher.QuestCompleted -= OnQuestCompleted;
         if (mapView != null) mapView.Loaded -= OnMapLoaded;
         foreach (RectTransform group in groups.Values)
             if (group != null) EditorPreview.DestroyLater(group.gameObject);
@@ -141,6 +153,7 @@ public class MapMarkerLayer : MonoBehaviour
         // styles 순서대로 그룹을 먼저 만든다 (뒤에 있을수록 위에 그려짐)
         foreach (Style s in styles) GetGroup(s.type, s);
         CreateHoverLayer();
+        CreateAreaLabels(data.labels);
 
         int skipped = 0;
         foreach (MapMarker marker in MergeNameTags(data.markers))
@@ -251,6 +264,14 @@ public class MapMarkerLayer : MonoBehaviour
         KeyVisibilityChanged?.Invoke(key, visible);
     }
 
+    // 게임에서 퀘스트를 완료하면(로그) 켜 둔 토글을 끈다
+    void OnQuestCompleted(string key)
+    {
+        if (!IsKeyVisible(key)) return;
+        SetKeyVisible(key, false);
+        Debug.Log($"[MapMarkerLayer] 완료한 퀘스트 끔: {GetQuest(key)?.name ?? key}");
+    }
+
     void AddQuest(MapMarker marker)
     {
         KeyInfo info = quests.Find(q => q.key == marker.key);
@@ -292,7 +313,9 @@ public class MapMarkerLayer : MonoBehaviour
     }
 
     // 이 종류의 마커가 지도에 하나라도 있는지 (필터 패널에서 이 맵에 없는 항목 숨김용)
-    public bool HasPlaced(MarkerType type) => placed.Exists(m => m.type == type);
+    public bool HasPlaced(MarkerType type) =>
+        type == MarkerType.AreaLabel ? areaLabelCount > 0 : placed.Exists(m => m.type == type);
+    int areaLabelCount;
 
     // ---- 마우스를 올린 마커를 맨 위로 ----
 
@@ -509,6 +532,73 @@ public class MapMarkerLayer : MonoBehaviour
         return string.Join(" / ", parts);
     }
 
+    // 구역 이름: 모든 마커 위에 그리되(마우스를 올린 마커만 그보다 위), 마우스 이벤트는 전부 통과시킨다.
+    // 반투명이라 아래 마커가 비쳐 보이고, 툴팁·클릭·드래그는 아래 마커와 지도로 그대로 간다
+    void CreateAreaLabels(List<MapLabel> labels)
+    {
+        if (labels == null || labels.Count == 0) return;
+        Style style = GetStyle(MarkerType.AreaLabel);
+        RectTransform group = GetGroup(MarkerType.AreaLabel, style);
+        group.SetAsLastSibling();
+        if (hoverLayer != null) hoverLayer.SetAsLastSibling();
+
+        // 글자마다 raycastTarget을 끄는 것에 더해, 묶음 전체가 레이캐스트를 막지 않게 한다
+        var canvasGroup = group.gameObject.AddComponent<CanvasGroup>();
+        canvasGroup.blocksRaycasts = false;
+        canvasGroup.interactable = false;
+
+        TMP_FontAsset font = areaLabelFont;
+        if (font == null && nameTagPrefab != null)
+        {
+            TMP_Text prefabText = nameTagPrefab.GetComponentInChildren<TMP_Text>(true);
+            if (prefabText != null) font = prefabText.font;
+        }
+
+        foreach (MapLabel label in labels)
+        {
+            var pos = new Vector3(label.position.x, 0f, label.position.y);
+            if (string.IsNullOrEmpty(label.text) || !mapView.config.IsInBounds(pos)) continue;
+
+            var go = new GameObject("Area_" + label.text, typeof(RectTransform), typeof(TextMeshProUGUI));
+            var rt = (RectTransform)go.transform;
+            rt.SetParent(group, false);
+            rt.anchorMin = rt.anchorMax = rt.pivot = new Vector2(0.5f, 0.5f);
+            rt.anchoredPosition = mapView.GameToLocal(pos);
+            rt.sizeDelta = new Vector2(400f, 60f);
+            rt.localEulerAngles = new Vector3(0f, 0f, -label.rotation);
+
+            var text = go.GetComponent<TextMeshProUGUI>();
+            if (font != null) text.font = font;
+            text.text = label.text;
+            text.fontSize = areaLabelFontSize * Mathf.Max(label.size, 10f) / 100f;
+            text.fontStyle = FontStyles.Bold;
+            text.color = areaLabelColor * style.color;
+            text.alignment = TextAlignmentOptions.Center;
+            text.textWrappingMode = TextWrappingModes.NoWrap;
+            text.overflowMode = TextOverflowModes.Overflow;
+            Material mat = AreaLabelMaterial(text.font);
+            if (mat != null) text.fontSharedMaterial = mat;
+            text.raycastTarget = false;
+
+            EditorPreview.MarkDontSave(go);
+            items.Add(rt);
+            itemScales.Add(1f);
+            areaLabelCount++;
+        }
+    }
+
+    Material AreaLabelMaterial(TMP_FontAsset font)
+    {
+        if (font == null || font.material == null) return null;
+        if (areaLabelMaterial != null && areaLabelMaterial.mainTexture == font.material.mainTexture) return areaLabelMaterial;
+
+        areaLabelMaterial = new Material(font.material) { name = "AreaLabel (Outline)", hideFlags = HideFlags.DontSave };
+        areaLabelMaterial.EnableKeyword(ShaderUtilities.Keyword_Outline);
+        areaLabelMaterial.SetFloat(ShaderUtilities.ID_OutlineWidth, areaLabelOutline);
+        areaLabelMaterial.SetColor(ShaderUtilities.ID_OutlineColor, new Color(0f, 0f, 0f, 0.6f));
+        return areaLabelMaterial;
+    }
+
     RectTransform CreateDot(MapMarker marker, Style style, RectTransform parent)
     {
         var go = new GameObject($"{marker.type}_{marker.name}", typeof(RectTransform), typeof(Image));
@@ -578,6 +668,7 @@ public class MapMarkerLayer : MonoBehaviour
         quests.Clear();
         placed.Clear();
         nameTags.Clear();
+        areaLabelCount = 0;
         hoverLayer = null;
         lifted = default;
         dropPending = false;

@@ -781,3 +781,4 @@ MonoBehaviour:
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort30)"
     position: {x: -77.19092, y: -60.421, z: 400.289}
   quests: []
+  labels: []

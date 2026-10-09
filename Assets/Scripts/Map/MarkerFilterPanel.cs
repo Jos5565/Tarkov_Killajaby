@@ -55,6 +55,12 @@ public class MarkerFilterPanel : MonoBehaviour
     [Header("Groups")]
     public List<Group> groups = new List<Group>();
 
+    [Header("Area Label")]
+    [Tooltip("groups에 구역 이름(AreaLabel) 항목이 없으면 맨 아래에 이 그룹을 자동으로 붙인다")]
+    public bool autoAreaLabelGroup = true;
+    public string areaLabelGroupTitle = "지도";
+    public string areaLabelEntryLabel = "구역 이름";
+
     readonly List<GameObject> rows = new List<GameObject>();
     readonly List<(MarkerType type, Image check)> entryChecks = new List<(MarkerType, Image)>();
     readonly List<(List<Entry> entries, Image check)> groupChecks = new List<(List<Entry>, Image)>();
@@ -98,7 +104,7 @@ public class MarkerFilterPanel : MonoBehaviour
         Clear();
         if (markerLayer == null) return;
 
-        foreach (Group group in groups)
+        foreach (Group group in GroupsToShow())
         {
             // 로비에서 고른 플레이어 타입으로 쓸 수 없는 항목은 숨긴다 (예: PMC면 Scav 탈출구)
             List<Entry> entries = group.entries
@@ -139,6 +145,19 @@ public class MarkerFilterPanel : MonoBehaviour
         }
 
         Refresh();
+    }
+
+    // Inspector의 groups + (없으면) 구역 이름 그룹. 씬을 고치지 않고 새 항목을 보여주기 위함
+    IEnumerable<Group> GroupsToShow()
+    {
+        foreach (Group group in groups) yield return group;
+        if (!autoAreaLabelGroup || groups.Any(g => g.entries.Any(e => e.type == MarkerType.AreaLabel))) yield break;
+        yield return new Group
+        {
+            title = areaLabelGroupTitle,
+            onlyPresent = true,
+            entries = { new Entry { label = areaLabelEntryLabel, type = MarkerType.AreaLabel } },
+        };
     }
 
     // 체크 표시 갱신. 그룹은 전부 켜짐=체크, 일부만 켜짐=흐린 체크

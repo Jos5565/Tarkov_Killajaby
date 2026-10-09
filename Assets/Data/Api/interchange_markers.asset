@@ -1897,6 +1897,7 @@ MonoBehaviour:
       description: "\uCC3E\uC740 \uC544\uC774\uD15C \uAC74\uB124\uC8FC\uAE30"
       optional: 0
       thisMap: 0
+    requirements: []
   - key: 671a49f77d49aea42c029b5f
     name: Irresistible
     trader: "\uC2A4\uD0A4\uC5B4"
@@ -1910,6 +1911,14 @@ MonoBehaviour:
       description: "\uD68C\uC218\uD55C \uD654\uBB3C \uAC74\uB124\uC8FC\uAE30"
       optional: 0
       thisMap: 0
+    requirements:
+    - objective: 
+      kind: key
+      items:
+      - "\uC624\uBE0C\uC81D\uD2B8 #21WS \uD0A4\uCE74\uB4DC"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 5ae448e586f7744dcf0c2a67
     name: "\uB9E4\uC7A5 \uAD6C\uACBD"
     trader: "\uB798\uADF8\uB9E8"
@@ -1939,6 +1948,7 @@ MonoBehaviour:
         TOP BRAND \uB9E4\uC7A5 \uBC29\uBB38\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements: []
   - key: 5ae448f286f77448d73c0131
     name: "\uC5F0\uB8CC \uC704\uAE30"
     trader: "\uB798\uADF8\uB9E8"
@@ -1954,6 +1964,21 @@ MonoBehaviour:
         \uC544\uBB34 \uC5F0\uB8CC \uD0F1\uD06C\uC5D0 MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements:
+    - objective: 5ae452c086f774336a397578
+      kind: mark
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 5ae452de86f77450595c4333
+      kind: mark
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 5ae4493486f7744efa289417
     name: "\uC7AC\uACE0 \uBAA9\uB85D \uBB38\uC11C"
     trader: "\uB798\uADF8\uB9E8"
@@ -1985,6 +2010,7 @@ MonoBehaviour:
       description: "IDEA \uD654\uBB3C \uBAA9\uB85D \uAC74\uB124\uC8FC\uAE30"
       optional: 0
       thisMap: 0
+    requirements: []
   - key: 5ae4493d86f7744b8e15aa8f
     name: A Big Loss
     trader: "\uB798\uADF8\uB9E8"
@@ -1998,6 +2024,14 @@ MonoBehaviour:
       description: "\uBB38\uC11C \uAC74\uB124\uC8FC\uAE30"
       optional: 0
       thisMap: 0
+    requirements:
+    - objective: 
+      kind: key
+      items:
+      - "OLI logistics department office key"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 5ae4498786f7744bde357695
     name: "\uC131\uACF5\uC744 \uC704\uD55C \uC5F4\uC1E0"
     trader: "\uB798\uADF8\uB9E8"
@@ -2022,6 +2056,7 @@ MonoBehaviour:
         \uAC74\uB124\uC8FC\uAE30"
       optional: 0
       thisMap: 0
+    requirements: []
   - key: 5ae449c386f7744bde357697
     name: "\uAE38\uC7A1\uC774"
     trader: "\uB798\uADF8\uB9E8"
@@ -2041,6 +2076,7 @@ MonoBehaviour:
         V-Ex \uD0C8\uCD9C\uAD6C \uBC29\uBB38\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements: []
   - key: 5ae449d986f774453a54a7e1
     name: "\uAC10\uB3C5\uAD00"
     trader: "\uB798\uADF8\uB9E8"
@@ -2072,6 +2108,49 @@ MonoBehaviour:
       description: "[OLI cash register key] \uD68D\uB4DD\uD558\uAE30"
       optional: 1
       thisMap: 0
+    requirements:
+    - objective: 6a60aab8ada1a08abcaa3649
+      kind: plant
+      items:
+      - "Goshan cash register key"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 5ae9e55886f77445315f662a
+      kind: find
+      items:
+      - "Goshan cash register key"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 6a60aaba4566667d4c8eefad
+      kind: plant
+      items:
+      - "IDEA cash register key"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 6a60ac2aa92d3737a04f252c
+      kind: find
+      items:
+      - "IDEA cash register key"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 6a60aabcecee1ccc0876e5e6
+      kind: plant
+      items:
+      - "OLI cash register key"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 6a60af31011aff00946731a7
+      kind: find
+      items:
+      - "OLI cash register key"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 5b478b1886f7744d1b23c57d
     name: "\uD035\uC11C\uBE44\uC2A4"
     trader: "\uB798\uADF8\uB9E8"
@@ -2091,6 +2170,28 @@ MonoBehaviour:
         \uC228\uACA8\uB450\uAE30"
       optional: 0
       thisMap: 1
+    requirements:
+    - objective: 5b478c4c86f7744d1a393fac
+      kind: plant
+      items:
+      - "Peltor ComTac 2 \uD5E4\uB4DC\uC14B"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 5b478c7386f7744d1a393fb1
+      kind: plant
+      items:
+      - "6B47 Ratnik-BSh \uD5EC\uBA67 (\uC62C\uB9AC\uBE0C \uB4DC\uB7A9)"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 5b478cb586f7744d1a393fb5
+      kind: plant
+      items:
+      - "BNTI \u0022Gzhel-K\u0022 \uBC29\uD0C4\uBCF5"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 5b478d0f86f7744d190d91b5
     name: "\uBBF8\uB2C8\uBC84\uC2A4"
     trader: "\uB798\uADF8\uB9E8"
@@ -2113,6 +2214,28 @@ MonoBehaviour:
         \uC124\uCE58\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements:
+    - objective: 5b478d8986f774563c7a4809
+      kind: mark
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 5b478daf86f7744d1c35339b
+      kind: mark
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 5b478dca86f7744d190d91c2
+      kind: mark
+      items:
+      - "MS2000 \uB9C8\uCEE4"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 5b47926a86f7747ccc057c15
     name: "\uC544\uB294 \uAC83\uC774 \uD798\uC774\uB2E4"
     trader: "\uC2A4\uD0A4\uC5B4"
@@ -2128,6 +2251,21 @@ MonoBehaviour:
         \uC704\uD55C [WI-FI \uCE74\uBA54\uB77C] \uC124\uCE58\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements:
+    - objective: 5b47932586f7747cc908b5dd
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 5b47938086f7747ccc057c22
+      kind: plant
+      items:
+      - "WI-FI \uCE74\uBA54\uB77C"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
   - key: 63966ff54c3ef01b6f3ffad8
     name: "\uB3C4\uBC1C"
     trader: "\uB4F1\uB300\uC9C0\uAE30"
@@ -2154,6 +2292,38 @@ MonoBehaviour:
         \uCEE8\uD14C\uC774\uB108 \uCC3D\uACE0\uC5D0 [\uD654\uC7A5\uC9C0] \uC228\uAE30\uAE30"
       optional: 0
       thisMap: 1
+    requirements:
+    - objective: 639a77b97cb1a8023d49f683
+      kind: plant
+      items:
+      - "Salty Dog beef sausage"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 639a78046402c537c15d012f
+      kind: plant
+      items:
+      - "\uB9F9\uB82C\uD55C \uB3C4\uB07C\uB7F0 \uBC00\uC8FC \uBCD1"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 639a78c27cb1a8023d49f684
+      kind: plant
+      items:
+      - "Toilet paper \uD654\uC7A5\uC9C0"
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
+    - objective: 
+      kind: key
+      items:
+      - "KIBA Arms International outlet outer door key"
+      - "KIBA Arms International outlet inner grate door key"
+      - "\uC624\uBE0C\uC81D\uD2B8 #11SR \uD0A4\uCE74\uB4DC"
+      - "\uC624\uBE0C\uC81D\uD2B8 #21WS \uD0A4\uCE74\uB4DC"
+      alternatives: 4
+      count: 1
+      foundInRaid: 0
   - key: 658027799634223183395339
     name: No Swiping
     trader: "\uC2A4\uD0A4\uC5B4"
@@ -2164,6 +2334,7 @@ MonoBehaviour:
         \uCC98\uCE58\uD558\uAE30"
       optional: 0
       thisMap: 1
+    requirements: []
   - key: 67a0964e972c11a3f507731b
     name: "\uBAA8\uB798\uC0AC\uC7A5\uC5D0\uC11C \uBC14\uB298 \uCC3E\uAE30"
     trader: "\uBA54\uCE74\uB2C9"
@@ -2199,3 +2370,313 @@ MonoBehaviour:
         \uB9AC\uC870\uD2B8 \uB180\uC774\uD130 \uC870\uC0AC\uD558\uAE30"
       optional: 0
       thisMap: 0
+    requirements: []
+  labels:
+  - text: "\uBC1C\uC804\uC18C"
+    position: {x: -186.4, y: -318.7}
+    size: 100
+    rotation: 0
+  - text: "\uACE0\uCE74\uD2B8"
+    position: {x: 155, y: -253}
+    size: 80
+    rotation: 0
+  - text: "\uD3EC \uCEA0\uD504"
+    position: {x: 158, y: -78.5}
+    size: 80
+    rotation: 0
+  - text: "\uD654\uBB3C \uCEE8\uD14C\uC774\uB108"
+    position: {x: 68.2, y: 312.9}
+    size: 80
+    rotation: 0
+  - text: "\uBCBD \uD2C8"
+    position: {x: -260.2, y: 123.8}
+    size: 80
+    rotation: 0
+  - text: "\uB7A8\uD504"
+    position: {x: -175.5, y: 145.1}
+    size: 80
+    rotation: 0
+  - text: "OLI \uD0C0\uC6CC"
+    position: {x: 202.3, y: 219.4}
+    size: 80
+    rotation: 0
+  - text: "IDEA \uD0C0\uC6CC"
+    position: {x: 46.5, y: -358.5}
+    size: 80
+    rotation: 0
+  - text: "\uC2A4\uCE90\uBE0C \uCEA0\uD504"
+    position: {x: 263.2, y: -11.1}
+    size: 80
+    rotation: 0
+  - text: "\uACE0\uC18D\uB3C4\uB85C \uACF5\uC0AC\uC7A5"
+    position: {x: 373.5, y: -391.2}
+    size: 100
+    rotation: 0
+  - text: "\uCC28\uACE0 A"
+    position: {x: 33, y: -222}
+    size: 80
+    rotation: 0
+  - text: "\uCC28\uACE0 B"
+    position: {x: 47, y: -112}
+    size: 80
+    rotation: 0
+  - text: "\uCC28\uACE0 C"
+    position: {x: 0, y: 47}
+    size: 80
+    rotation: 0
+  - text: "\uCC28\uACE0 D"
+    position: {x: 20, y: 138}
+    size: 80
+    rotation: 0
+  - text: "IDEA"
+    position: {x: -34, y: -235}
+    size: 80
+    rotation: 0
+  - text: "Goshan"
+    position: {x: -115, y: -45}
+    size: 80
+    rotation: 0
+  - text: "OLI"
+    position: {x: -28, y: 140}
+    size: 80
+    rotation: 0
+  - text: "Nortex"
+    position: {x: 87, y: -165}
+    size: 65
+    rotation: 0
+  - text: "TRend"
+    position: {x: 60, y: -152}
+    size: 65
+    rotation: 0
+  - text: "Mode7"
+    position: {x: 69.5, y: -134}
+    size: 65
+    rotation: 0
+  - text: "TTS"
+    position: {x: 19, y: -129}
+    size: 65
+    rotation: 0
+  - text: "\uC11C\uC810"
+    position: {x: -38, y: -129}
+    size: 65
+    rotation: 0
+  - text: "Dino Clothes"
+    position: {x: 91, y: -119}
+    size: 65
+    rotation: 0
+  - text: "EMERCOM"
+    position: {x: 18, y: -103}
+    size: 65
+    rotation: 0
+  - text: "Kostin"
+    position: {x: -28, y: -103}
+    size: 65
+    rotation: 0
+  - text: "Bizarro"
+    position: {x: -65, y: -103}
+    size: 65
+    rotation: 0
+  - text: "Spiel"
+    position: {x: 92, y: -87}
+    size: 65
+    rotation: 0
+  - text: "Voyage"
+    position: {x: -18, y: -87}
+    size: 65
+    rotation: 0
+  - text: "Viking"
+    position: {x: 57, y: -66}
+    size: 65
+    rotation: 0
+  - text: "Mantis"
+    position: {x: 13, y: -66}
+    size: 65
+    rotation: 0
+  - text: "German"
+    position: {x: -18, y: -72}
+    size: 65
+    rotation: 0
+  - text: "The National"
+    position: {x: 57, y: -32}
+    size: 65
+    rotation: 0
+  - text: "Brutal"
+    position: {x: 13, y: -32}
+    size: 65
+    rotation: 0
+  - text: "Kiba"
+    position: {x: -18, y: -25}
+    size: 65
+    rotation: 0
+  - text: "Pretty Lights"
+    position: {x: -34, y: -20}
+    size: 65
+    rotation: 0
+  - text: "Telespot"
+    position: {x: 92, y: -18}
+    size: 65
+    rotation: 0
+  - text: "Revis"
+    position: {x: 62, y: -12}
+    size: 65
+    rotation: 0
+  - text: "ADIK"
+    position: {x: 19, y: -6}
+    size: 65
+    rotation: 0
+  - text: "Generic"
+    position: {x: -28, y: 0.5}
+    size: 65
+    rotation: 0
+  - text: "Top Brand"
+    position: {x: 92, y: 15}
+    size: 65
+    rotation: 0
+  - text: "\uC2A4\uD3EC\uCE20"
+    position: {x: 61, y: 15}
+    size: 65
+    rotation: 0
+  - text: "Yushka"
+    position: {x: 70, y: 32}
+    size: 65
+    rotation: 0
+  - text: "Rasmussen"
+    position: {x: 19.5, y: 26}
+    size: 65
+    rotation: 0
+  - text: "Avokado"
+    position: {x: -37, y: 26}
+    size: 65
+    rotation: 0
+  - text: "Boots 4 Life"
+    position: {x: 91, y: 55}
+    size: 65
+    rotation: 0
+  - text: "Texho"
+    position: {x: 61, y: 50}
+    size: 65
+    rotation: 0
+  - text: "Dom"
+    position: {x: 6, y: 49}
+    size: 65
+    rotation: 0
+  - text: "Father & Sons"
+    position: {x: 38, y: -170}
+    size: 65
+    rotation: 0
+  - text: "Tarkovstar"
+    position: {x: 69, y: -150}
+    size: 65
+    rotation: 0
+  - text: "Eastland"
+    position: {x: 26, y: -149}
+    size: 65
+    rotation: 0
+  - text: "Arena"
+    position: {x: 71, y: -130}
+    size: 65
+    rotation: 0
+  - text: "\u0422\u0410\u0420\u0417\u0414\u0420\u0410\u0412"
+    position: {x: 54, y: -128}
+    size: 65
+    rotation: 0
+  - text: "\uAC00\uAD6C\uC810"
+    position: {x: 20, y: -128}
+    size: 65
+    rotation: 0
+  - text: "Intourist"
+    position: {x: 69, y: -116}
+    size: 65
+    rotation: 0
+  - text: "Burger Spot"
+    position: {x: -27, y: -103}
+    size: 65
+    rotation: 0
+  - text: "FCK"
+    position: {x: 70, y: -94}
+    size: 65
+    rotation: 0
+  - text: "McDaniels"
+    position: {x: 70, y: -87}
+    size: 65
+    rotation: 0
+  - text: "Tarducks"
+    position: {x: 64, y: -69}
+    size: 65
+    rotation: 0
+  - text: "Coffee Joy"
+    position: {x: 43, y: -69}
+    size: 65
+    rotation: 0
+  - text: "Jacob & Jacob"
+    position: {x: 15, y: -74}
+    size: 65
+    rotation: 0
+  - text: "\u041F\u0423\u0428\u041A\u0418\u041D"
+    position: {x: -34, y: -79}
+    size: 65
+    rotation: 0
+  - text: "Sushi Huyushi"
+    position: {x: 64, y: -34}
+    size: 65
+    rotation: 0
+  - text: "Underway"
+    position: {x: -17, y: -32}
+    size: 65
+    rotation: 0
+  - text: "Burger House"
+    position: {x: 67, y: -23.5}
+    size: 65
+    rotation: 0
+  - text: "Philly Cute"
+    position: {x: -34, y: -24}
+    size: 65
+    rotation: 0
+  - text: "Shiccos"
+    position: {x: 67, y: -16}
+    size: 65
+    rotation: 0
+  - text: "\uC5ED\uC0AC \uBC15\uBB3C\uAD00"
+    position: {x: 17, y: 0}
+    size: 65
+    rotation: 0
+  - text: "Papillon"
+    position: {x: 92, y: 17}
+    size: 65
+    rotation: 0
+  - text: "\uC218\uB9AC \uC911"
+    position: {x: 58, y: 13}
+    size: 60
+    rotation: 0
+  - text: "\u041D\u0410-\u0421\u0412\u042F\u0417\u0418"
+    position: {x: 70, y: 27}
+    size: 65
+    rotation: 0
+  - text: "\uC624\uD508 \uC608\uC815"
+    position: {x: 54, y: 24}
+    size: 65
+    rotation: 0
+  - text: "Figaro"
+    position: {x: 19, y: 26}
+    size: 65
+    rotation: 0
+  - text: "\uC57D\uAD6D"
+    position: {x: 71, y: 47}
+    size: 65
+    rotation: 0
+  - text: "SARA"
+    position: {x: 53, y: 47}
+    size: 65
+    rotation: 0
+  - text: "Urban Clothes"
+    position: {x: 26, y: 46}
+    size: 65
+    rotation: 0
+  - text: "TECHLIGHT"
+    position: {x: 91, y: 54}
+    size: 65
+    rotation: 0
+  - text: "\uD328\uC158 \uB9E4\uC7A5"
+    position: {x: 39, y: 67}
+    size: 65
+    rotation: 0

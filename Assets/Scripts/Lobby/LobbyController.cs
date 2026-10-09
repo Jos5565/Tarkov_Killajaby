@@ -41,6 +41,13 @@ public class LobbyController : MonoBehaviour
     public string bossTooltipSub = "보스 출현 정보 (PvE 기준)";
     public float tooltipWidth = 360f;
 
+    [Header("Game Log")]
+    [Tooltip("타르코프에서 레이드를 시작하면(게임 로그) 그 맵으로 자동 입장")]
+    public bool autoEnterOnRaid = true;
+    public string logOnText = "게임 연동됨 · 레이드를 시작하면 그 맵으로 자동 이동합니다";
+    public string logOffText = "게임 로그를 찾지 못해 자동 이동이 꺼져 있습니다";
+    public Color logOffColor = new Color(0.55f, 0.55f, 0.55f);
+
     [Header("Version")]
     [Tooltip("좌측 하단 버전 표시. {0} = Player Settings의 Version (Application.version)")]
     public string versionFormat = "Version {0}";
@@ -75,10 +82,15 @@ public class LobbyController : MonoBehaviour
     Button enterButton;
     TMP_InputField folderInput;
     TMP_Text folderStatus;
+    TMP_Text logStatus;
     SelectButton cleanButton;
     float cleanConfirmUntil = -1f;   // 0 이상이면 삭제 확인 대기 중
 
-    void OnEnable() => Build();
+    void OnEnable()
+    {
+        Build();
+        if (Application.isPlaying) TarkovLogWatcher.RaidStarted += OnRaidStarted;
+    }
 
     // Inspector의 ⋮ 메뉴 > Reset Colors: 색만 SelectButton 기본 테마로 되돌린다
     // (컴포넌트 Reset은 catalog/font 참조까지 지우므로 따로 둔다)
@@ -96,6 +108,7 @@ public class LobbyController : MonoBehaviour
 
     void OnDisable()
     {
+        TarkovLogWatcher.RaidStarted -= OnRaidStarted;
         EditorPreview.DestroyLater(panel);
         EditorPreview.DestroyLater(versionLabel);
         panel = null;
@@ -184,6 +197,8 @@ public class LobbyController : MonoBehaviour
         cleanConfirmUntil = -1f;
         folderStatus = CreateStatusText(panelRt);
         RefreshFolderStatus();
+        logStatus = CreateStatusText(panelRt);
+        RefreshLogStatus();
 
         CreateSpace(panelRt, 20f);
 
@@ -196,8 +211,9 @@ public class LobbyController : MonoBehaviour
         mapGroup.Changed += _ => RefreshEnter();
         sideGroup.Changed += _ => RefreshEnter();
 
-        // 이전 선택 복원, 없으면 첫 번째 맵 + PMC
-        MapCatalog.Entry previous = maps.Find(m => m.IsAvailable && m.configPath == GameSession.MapPath);
+        // 진행 중인 레이드의 맵(게임 로그) → 이전 선택 → 첫 번째 맵 순으로 고른다. 진영은 이전 선택(기본 PMC)
+        MapCatalog.Entry previous = FindAvailable(CurrentRaidMap()) ??
+                                    maps.Find(m => m.IsAvailable && m.configPath == GameSession.MapPath);
         mapGroup.Select(previous ?? maps.Find(m => m.IsAvailable));
         sideGroup.Select(GameSession.Side);
         RefreshEnter();
@@ -233,6 +249,38 @@ public class LobbyController : MonoBehaviour
         SceneManager.LoadScene(map.sceneName);
     }
 
+    // ---- 게임 로그 연동 ----
+
+    // 레이드가 시작되면 그 맵을 고르고 바로 입장한다. 진영은 로그로 알 수 없어 로비에서 고른 값을 쓴다
+    void OnRaidStarted(string normalizedName)
+    {
+        if (!autoEnterOnRaid || !isActiveAndEnabled) return;
+        MapCatalog.Entry entry = FindAvailable(normalizedName);
+        if (entry == null) return;   // 아직 지원하지 않는 맵 (미궁, 쇄빙선 등)
+
+        Debug.Log($"[Lobby] 레이드 시작 감지 → {entry.displayName} 입장");
+        mapGroup.Select(entry);
+        if (sideGroup.HasValue) Enter();
+    }
+
+    static string CurrentRaidMap() =>
+        Application.isPlaying && TarkovLogWatcher.Instance != null ? TarkovLogWatcher.Instance.CurrentRaidMap : null;
+
+    MapCatalog.Entry FindAvailable(string normalizedName) =>
+        string.IsNullOrEmpty(normalizedName) || catalog == null
+            ? null
+            : catalog.maps.Find(m => m.IsAvailable && m.normalizedName == normalizedName);
+
+    void RefreshLogStatus()
+    {
+        if (logStatus == null) return;
+        bool on = Application.isPlaying && TarkovLogWatcher.Instance != null && TarkovLogWatcher.Instance.IsActive;
+        string text = !autoEnterOnRaid ? "" : on ? logOnText : logOffText;
+        if (logStatus.text == text) return;
+        logStatus.text = text;
+        logStatus.color = on ? folderOkColor : logOffColor;
+    }
+
     // ---- 스크린샷 폴더 ----
 
     void SetFolder(string path)
@@ -245,6 +293,8 @@ public class LobbyController : MonoBehaviour
 
     void Update()
     {
+        RefreshLogStatus();
+
         // 삭제 확인 대기 시간이 지나면 원래대로
         if (cleanConfirmUntil >= 0f && Time.unscaledTime > cleanConfirmUntil)
         {

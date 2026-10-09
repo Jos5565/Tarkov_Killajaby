@@ -82,6 +82,8 @@ public class MapTooltip : MonoBehaviour
             return marker.type == MarkerType.QuestItem ? $"퀘스트 아이템: {marker.detail}" : marker.detail;
 
         string objectives = QuestText.Objectives(quest, new[] { marker.objective });
+        string requirements = QuestText.Requirements(quest, new[] { marker.objective });
+        if (requirements.Length > 0) objectives += "\n\n" + requirements;
         return marker.type == MarkerType.QuestItem
             ? $"퀘스트 아이템: <noparse>{marker.detail}</noparse>\n\n{objectives}"
             : objectives;
