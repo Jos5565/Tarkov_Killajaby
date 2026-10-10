@@ -35,6 +35,7 @@ public class MapMarkerLayer : MonoBehaviour
         public string name;
         public string group;
         public int count;
+        public bool noLocation;   // 지도 위치 정보가 없는 퀘스트 (목록에 "위치 없음")
     }
 
     public MapView mapView;
@@ -186,6 +187,12 @@ public class MapMarkerLayer : MonoBehaviour
                     AddQuest(marker);
             }
         }
+
+        // 위치 정보가 없는 이 맵 퀘스트도 목록에 넣는다 (마커 없이 켜고 끄기, 상세 창, 완료 자동 끄기)
+        if (IsAvailable(MarkerType.Quest))
+            foreach (QuestData q in data.quests)
+                if (q.noLocation && quests.Find(k => k.key == q.key) == null)
+                    quests.Add(new KeyInfo { key = q.key, name = q.name, group = q.trader, noLocation = true });
 
         quests.Sort((a, b) => string.Compare(a.name, b.name, StringComparison.CurrentCulture));
         lastMapScale = -1f;

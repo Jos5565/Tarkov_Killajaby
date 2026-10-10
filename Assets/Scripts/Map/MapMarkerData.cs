@@ -93,6 +93,7 @@ public class QuestObjective
     public string description;
     public bool optional;
     public bool thisMap;   // 이 맵에서 하는 목표 (목표의 maps에 이 맵이 있거나, 이 맵에 위치 마커가 있음)
+    public string conditions;   // 설명에 없는 조건 (예: "헤드샷 · 40m 이상 · 21:00~05:00"). 없으면 빈 문자열
 }
 
 // 퀘스트에 필요한 아이템 (건네기·찾기·설치·판매·표시할 아이템, 열쇠)
@@ -102,6 +103,7 @@ public class QuestRequirement
     public string objective;          // 관련 목표 ID (열쇠는 비어 있음)
     public string kind;               // give / find / plant / sell / mark / key
     public List<string> items = new List<string>();   // 아이템 이름. 여러 개면 그중 아무거나 (최대 몇 개만 저장)
+    public List<string> itemIds = new List<string>(); // items와 같은 순서의 아이템 ID (이미지: Sprites/Items/{ID}.png)
     public int alternatives = 1;      // 고를 수 있는 아이템 전체 수 (items보다 많을 수 있음)
     public int count = 1;
     public bool foundInRaid;          // 레이드에서 찾은(인레이드) 아이템만 인정
@@ -116,6 +118,9 @@ public class QuestData
     public string trader;
     public List<QuestObjective> objectives = new List<QuestObjective>();
     public List<QuestRequirement> requirements = new List<QuestRequirement>();
+    public bool noLocation;   // 지도 위치 정보가 없는 이 맵 퀘스트 (처치·탈출 등). 목록·상세에는 나오고 마커·경로는 없다
+    public string guide;      // 공략 메모 "A → B → C" (Translations/quest_guides_{언어}.json). 없으면 빈 문자열
+    public string wikiLink;   // 퀘스트 위키 주소 (퀘스트 목록에서 우클릭하면 연다)
 }
 
 // 지도 위 구역 이름 (예: 세관 "구골조"). tarkov-dev 지도 설정의 labels

@@ -38,12 +38,12 @@ MonoBehaviour:
       chanceMax: 1
       groups: 1
       locations: 1
-    - name: "Knight"
+    - name: Knight
       chanceMin: 0.3
       chanceMax: 0.3
       groups: 1
       locations: 1
-    - name: "Partisan"
+    - name: Partisan
       chanceMin: 0.15
       chanceMax: 0.15
       groups: 1
@@ -68,7 +68,7 @@ MonoBehaviour:
     configPath: 
     normalizedName: the-labyrinth
     bosses:
-    - name: "Shadow of Tagilla"
+    - name: Shadow of Tagilla
       chanceMin: 1
       chanceMax: 1
       groups: 1
@@ -83,12 +83,12 @@ MonoBehaviour:
       chanceMax: 0.75
       groups: 1
       locations: 1
-    - name: "Knight"
+    - name: Knight
       chanceMin: 0.25
       chanceMax: 0.25
       groups: 1
       locations: 1
-    - name: "Partisan"
+    - name: Partisan
       chanceMin: 0.15
       chanceMax: 0.15
       groups: 1
@@ -108,12 +108,12 @@ MonoBehaviour:
       chanceMax: 0.75
       groups: 1
       locations: 3
-    - name: "Knight"
+    - name: Knight
       chanceMin: 0.25
       chanceMax: 0.25
       groups: 1
       locations: 1
-    - name: "Partisan"
+    - name: Partisan
       chanceMin: 0.15
       chanceMax: 0.15
       groups: 1
@@ -128,7 +128,7 @@ MonoBehaviour:
     configPath: 
     normalizedName: icebreaker
     bosses:
-    - name: "Knight"
+    - name: Knight
       chanceMin: 1
       chanceMax: 1
       groups: 1
@@ -143,7 +143,7 @@ MonoBehaviour:
       chanceMax: 1
       groups: 11
       locations: 2
-    - name: "The Wedge"
+    - name: The Wedge
       chanceMin: 1
       chanceMax: 1
       groups: 12
@@ -173,12 +173,12 @@ MonoBehaviour:
     configPath: Maps/StreetsOfTarkov
     normalizedName: streets-of-tarkov
     bosses:
-    - name: "Kaban"
+    - name: Kaban
       chanceMin: 0.75
       chanceMax: 0.75
       groups: 1
       locations: 1
-    - name: "Kollontay"
+    - name: Kollontay
       chanceMin: 0.75
       chanceMax: 0.75
       groups: 1
@@ -233,12 +233,12 @@ MonoBehaviour:
       chanceMax: 0.75
       groups: 1
       locations: 2
-    - name: "Knight"
+    - name: Knight
       chanceMin: 0.3
       chanceMax: 0.3
       groups: 1
       locations: 1
-    - name: "Partisan"
+    - name: Partisan
       chanceMin: 0.15
       chanceMax: 0.15
       groups: 1

@@ -159,6 +159,8 @@ public class TarkovApiWindow : EditorWindow
             JArray floorMaps = File.Exists(FloorPath) ? JArray.Parse(File.ReadAllText(FloorPath)) : new JArray();
             // 구역 이름 번역 (영어 이름 → 선택 언어). 없으면 영어 그대로
             JObject areaNames = LoadData($"{TranslationDir}/areas_{Language}.json");
+            // 퀘스트 공략 메모 (퀘스트 ID → "A → B → C")
+            questGuides = LoadData($"{TranslationDir}/quest_guides_{Language}.json");
 
             var log = new StringBuilder();
             foreach (string guid in AssetDatabase.FindAssets("t:MapConfig"))
@@ -203,6 +205,7 @@ public class TarkovApiWindow : EditorWindow
             }
 
             AssetDatabase.SaveAssets();
+            ItemIconCatalogBuilder.Build();   // 퀘스트 필요 아이템 이미지 목록
             SetStatus(log.ToString().TrimEnd());
             Debug.Log("[TarkovApi] 마커 생성 완료\n" + log);
         }
@@ -214,6 +217,8 @@ public class TarkovApiWindow : EditorWindow
     }
 
     // tarkov.dev 웹사이트(src/pages/map/index.jsx)의 분류 방식을 따른다
+    static JObject questGuides = new JObject();
+
     static List<MapMarker> Convert(JObject map, JObject mobs, JObject tasksData, JObject tradersData, Translator tr, JArray floors, out List<QuestData> quests)
     {
         quests = new List<QuestData>();
@@ -316,17 +321,35 @@ public class TarkovApiWindow : EditorWindow
                 }
             }
 
-            // 이 맵에 마커가 하나라도 있는 퀘스트만 전체 목표 목록을 저장 (툴팁/도착 알림용)
-            if (markers.Count == markerCountBefore) continue;
-            var quest = new QuestData { key = taskId, name = taskName, trader = trader };
+            // 이 맵에 마커가 하나라도 있는 퀘스트, 또는 퀘스트의 맵이 이 맵인 퀘스트(위치 정보 없음: 처치·탈출·건네기 등)만 저장.
+            // "모든 맵에서 가능한" 퀘스트는 맵마다 목록이 너무 길어져서 넣지 않는다
+            bool hasMarkers = markers.Count > markerCountBefore;
+            if (!hasMarkers && TaskMapId(task) != mapId) continue;
+            var quest = new QuestData
+            {
+                key = taskId,
+                name = taskName,
+                trader = trader,
+                noLocation = !hasMarkers,
+                guide = (string)questGuides[taskId] ?? "",
+                wikiLink = (string)task["wikiLink"] ?? "",
+            };
             var markedObjectives = new HashSet<string>(markers.Skip(markerCountBefore).Select(m => m.objective));
             foreach (JToken obj in Items(task["objectives"]))
             {
-                string description = tr.Get(obj["description"]);
+                string description = ObjectiveText(obj, tr);
                 if (string.IsNullOrEmpty(description)) continue;
                 string id = (string)obj["id"];
-                bool thisMap = markedObjectives.Contains(id) || Items(obj["maps"]).Any(m => (string)m == mapId);
-                quest.objectives.Add(new QuestObjective { id = id, description = description, optional = (bool?)obj["optional"] ?? false, thisMap = thisMap });
+                // 위치 없는 이 맵 퀘스트는 목표 전체가 이 맵에서 할 일
+                bool thisMap = !hasMarkers || markedObjectives.Contains(id) || Items(obj["maps"]).Any(m => (string)m == mapId);
+                quest.objectives.Add(new QuestObjective
+                {
+                    id = id,
+                    description = description,
+                    optional = (bool?)obj["optional"] ?? false,
+                    thisMap = thisMap,
+                    conditions = ObjectiveConditions(obj, tr),
+                });
             }
             quest.requirements = Requirements(task, mapId, tr);
             quests.Add(quest);
@@ -423,6 +446,88 @@ public class TarkovApiWindow : EditorWindow
             })
             .ToList();
 
+    static string TaskMapId(JToken task) =>
+        task["map"] is JObject o ? (string)o["id"] : (string)task["map"];
+
+    // 목표 설명. 처치·탈출 목표는 설명에 횟수가 없으면 붙인다 (예: 삼림에서 PMC 처치하기 (15명))
+    static string ObjectiveText(JToken obj, Translator tr)
+    {
+        string text = tr.Get(obj["description"]);
+        if (string.IsNullOrEmpty(text)) return text;
+        int count = (int?)obj["count"] ?? 0;
+        // 설명에 이미 그 횟수가 있으면 그대로 (예: "스캐브 5명 처치". 60m 같은 다른 숫자는 상관없음)
+        if (count <= 1 || System.Text.RegularExpressions.Regex.IsMatch(text, $@"(?<![0-9]){count}(?![0-9])")) return text;
+        return (string)obj["type"] switch
+        {
+            "shoot" => $"{text} ({count}명)",
+            "extract" => $"{text} ({count}회)",
+            _ => text,
+        };
+    }
+
+    // 목표 데이터에만 있고 설명에는 잘 안 나오는 조건을 한 줄로: "헤드샷 · 40m 이상 · 21:00~05:00 · 무기: M700"
+    static string ObjectiveConditions(JToken obj, Translator tr)
+    {
+        var parts = new List<string>();
+
+        var bodyParts = Items(obj["bodyParts"]).Select(b => ((string)b ?? "").Split('/').Last()).Distinct().ToList();
+        if (bodyParts.Count == 1 && bodyParts[0] == "Head") parts.Add("헤드샷");
+        else if (bodyParts.Count > 0) parts.Add("부위: " + string.Join("·", bodyParts.Select(BodyPartLabel).Distinct()));
+
+        if (obj["distance"] is JObject d && ((float?)d["value"] ?? 0f) > 0f)
+            parts.Add((string)d["compareMethod"] == "<=" ? $"{(float)d["value"]:0}m 이내" : $"{(float)d["value"]:0}m 이상");
+
+        int? from = (int?)obj["timeFromHour"], until = (int?)obj["timeUntilHour"];
+        if (from.HasValue && until.HasValue && !(from == 0 && until == 0)) parts.Add($"{from:00}:00~{until:00}:00");
+
+        List<string> weapons = Items(obj["usingWeapon"]).Select(w => (string)w).Where(w => !string.IsNullOrEmpty(w)).ToList();
+        if (weapons.Count > 0) parts.Add(weapons.Count <= 3 ? "무기: " + string.Join(" / ", weapons.Select(w => ItemName(tr, w))) : $"지정 무기 {weapons.Count}종");
+        if (Items(obj["usingWeaponMods"]).Any()) parts.Add("지정 부착물");
+
+        // wearing: 고를 수 있는 장비 묶음 목록 [[A], [B, C]]
+        var wearing = Items(obj["wearing"]).Select(g => Items(g).Select(i => (string)i["id"]).ToList()).Where(g => g.Count > 0).ToList();
+        if (wearing.Count > 0)
+            parts.Add(wearing.Count <= 2 && wearing.All(g => g.Count <= 2)
+                ? "착용: " + string.Join(" 또는 ", wearing.Select(g => string.Join(" + ", g.Select(i => ItemName(tr, i)))))
+                : $"지정 장비 착용 ({wearing.Count}가지 중)");
+        if (Items(obj["notWearing"]).Any()) parts.Add("방어구·헬멧 착용 금지");
+
+        var effects = Items(obj["effects"]).Select(e => (string)e).Where(e => !string.IsNullOrEmpty(e)).ToList();
+        if (effects.Count > 0) parts.Add(string.Join("·", effects.Select(e => EffectLabel(tr, e)).Distinct()) + " 상태");
+
+        return string.Join(" · ", parts);
+    }
+
+    static string BodyPartLabel(string part) => part switch
+    {
+        "Head" => "머리",
+        "Chest" => "흉부",
+        "Stomach" => "복부",
+        "LeftArm" or "RightArm" => "팔",
+        "LeftLeg" or "RightLeg" => "다리",
+        _ => part,
+    };
+
+    // 이름이 있는 효과는 한글로, 아이템 분류 번역 키("<분류 ID> Name", 예: 자극제)는 번역해서
+    static string EffectLabel(Translator tr, string effect)
+    {
+        string translated = tr.Get(effect);
+        if (translated != effect) return translated;
+        return EffectName(effect);
+    }
+
+    static string EffectName(string effect) => effect switch
+    {
+        "Dehydration" => "탈수",
+        "Exhaustion" or "Fatigue" => "탈진",
+        "Pain" => "통증",
+        "Tremor" => "떨림",
+        "Stun" => "기절",
+        "Intoxication" => "중독",
+        "RadExposure" => "방사능 노출",
+        _ => effect.Length == 24 ? "자극제 효과" : effect,
+    };
+
     // ---- 퀘스트 필요 아이템 ----
 
     const int MaxItemNames = 4;   // 고를 수 있는 아이템이 많으면(예: 52종 중 아무거나) 이름은 몇 개만 저장
@@ -454,6 +559,7 @@ public class TarkovApiWindow : EditorWindow
                 objective = (string)obj["id"],
                 kind = kind,
                 items = ids.Take(MaxItemNames).Select(i => ItemName(tr, i)).ToList(),
+                itemIds = ids.Take(MaxItemNames).ToList(),
                 alternatives = ids.Count,
                 count = Math.Max(1, (int?)obj["count"] ?? 1),
                 foundInRaid = (bool?)obj["foundInRaid"] ?? false,
@@ -476,7 +582,13 @@ public class TarkovApiWindow : EditorWindow
             .SelectMany(k => Items(k["keys"])).Select(k => (string)k)
             .Where(k => !string.IsNullOrEmpty(k)).Distinct().ToList();
         if (keys.Count > 0)
-            list.Add(new QuestRequirement { kind = "key", items = keys.Take(MaxItemNames).Select(k => ItemName(tr, k)).ToList(), alternatives = keys.Count });
+            list.Add(new QuestRequirement
+            {
+                kind = "key",
+                items = keys.Take(MaxItemNames).Select(k => ItemName(tr, k)).ToList(),
+                itemIds = keys.Take(MaxItemNames).ToList(),
+                alternatives = keys.Count,
+            });
         return list;
     }
 

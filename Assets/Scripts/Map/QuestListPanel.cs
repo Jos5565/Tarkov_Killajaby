@@ -8,7 +8,7 @@ using UnityEngine.UI;
 // EFTLibrary 스타일 퀘스트 목록 패널 (지도 오른쪽).
 //   퀘스트  12/41                ALL ON/OFF
 //   [ 퀘스트 검색            ]
-//   ● 떡밥 뿌리기              (==●)   ← 행 클릭: 해당 퀘스트 마커 켜기/끄기
+//   ● 떡밥 뿌리기              (==●)   ← 행 클릭: 해당 퀘스트 마커 켜기/끄기, 마우스를 올리면 상세 창(QuestDetailPanel)
 // 목록은 MapMarkerLayer.Quests(이 맵에 위치가 있는 퀘스트)로 만든다.
 // ExecuteAlways: 편집 모드에서도 보임. 패널 크기는 이 오브젝트의 RectTransform을 따른다.
 [ExecuteAlways]
@@ -30,6 +30,8 @@ public class QuestListPanel : MonoBehaviour
     public string title = "퀘스트";
     public string searchPlaceholder = "퀘스트 검색";
     public string allToggleLabel = "ALL ON/OFF";
+    [Tooltip("지도 위치 정보가 없는 퀘스트 행에 붙는 표시")]
+    public string noLocationLabel = "위치 없음";
 
     [Header("Look")]
     public float rowHeight = 30f;
@@ -53,6 +55,7 @@ public class QuestListPanel : MonoBehaviour
 
     readonly List<Row> rows = new List<Row>();
     GameObject root;
+    QuestDetailPanel detail;   // 행에 마우스를 올리면 보이는 상세 창 (Play 중에만)
     RectTransform listContent;
     TMP_Text countLabel;
     TMP_InputField search;
@@ -87,6 +90,8 @@ public class QuestListPanel : MonoBehaviour
         EditorPreview.DestroyLater(root);
         root = null;
         rows.Clear();
+        if (detail != null) Destroy(detail.gameObject);
+        detail = null;
     }
 
 #if UNITY_EDITOR
@@ -160,6 +165,12 @@ public class QuestListPanel : MonoBehaviour
         layout.childControlWidth = layout.childControlHeight = true;
         layout.childForceExpandWidth = true;
         layout.childForceExpandHeight = false;
+
+        if (Application.isPlaying && detail == null)
+        {
+            Canvas canvas = GetComponentInParent<Canvas>();
+            if (canvas != null) detail = QuestDetailPanel.Create(canvas, font);
+        }
 
         BuildHeader(rootRt);
         BuildSearch(rootRt);
@@ -263,12 +274,28 @@ public class QuestListPanel : MonoBehaviour
 
             // 행 전체 클릭으로 켜기/끄기
             rt.gameObject.AddComponent<Image>().color = Color.clear;
-            rt.gameObject.AddComponent<MarkerFilterClick>().onClick = () =>
-                markerLayer.SetKeyVisible(info.key, !markerLayer.IsKeyVisible(info.key));
+            var click = rt.gameObject.AddComponent<MarkerFilterClick>();
+            click.onClick = () => markerLayer.SetKeyVisible(info.key, !markerLayer.IsKeyVisible(info.key));
+            // 우클릭: 퀘스트 위키를 브라우저로 연다
+            click.onRightClick = () =>
+            {
+                string url = markerLayer.GetQuest(info.key)?.wikiLink;
+                if (!string.IsNullOrEmpty(url) && url.StartsWith("https://")) Application.OpenURL(url);
+            };
+
+            // 마우스를 올리면 상세 창 (마우스 왼쪽)
+            if (detail != null)
+            {
+                var hover = rt.gameObject.AddComponent<PointerHover>();
+                hover.enter = e => detail.Show(markerLayer.GetQuest(info.key), info.name, e.position);
+                hover.move = e => detail.Move(e.position);
+                hover.exit = _ => { if (detail != null && detail.CurrentKey == info.key) detail.Hide(); };
+            }
 
             row.dot = CreateImage(rt, "Dot", circleSprite, accentColor, new Vector2(12f, 12f));
             TMP_Text label = CreateText(rt, info.name, fontSize, FontStyles.Normal, textColor, flexible: true);
             label.overflowMode = TextOverflowModes.Ellipsis;
+            if (info.noLocation) CreateText(rt, noLocationLabel, fontSize - 3f, FontStyles.Normal, subTextColor, flexible: false);
 
             // 스위치: 둥근 바탕 + 원형 손잡이
             row.track = CreateImage(rt, "Switch", roundedSprite, accentColor, new Vector2(36f, 18f));
