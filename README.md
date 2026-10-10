@@ -155,9 +155,9 @@ Assets/
 ## 데이터 출처 · 라이선스
 
 - 맵, 퀘스트, 상인 데이터와 맵 좌표 정보: [tarkov.dev](https://tarkov.dev)
+  ([tarkov-dev](https://github.com/the-hideout/tarkov-dev) MIT, [tarkov-api](https://github.com/the-hideout/tarkov-api) GPL-3.0)
 - 아이템 이미지: [tarkov.dev](https://tarkov.dev)
 - 퀘스트 공략: [Escape from Tarkov Wiki](https://escapefromtarkov.fandom.com) 내용을 요약 (CC BY-SA)
-  ([tarkov-dev](https://github.com/the-hideout/tarkov-dev) MIT, [tarkov-api](https://github.com/the-hideout/tarkov-api) GPL-3.0)
 - 맵 아이콘: [Material Design Icons](https://pictogrammers.com/library/mdi/) (Apache License 2.0)
 - 이 프로젝트의 코드: [MIT License](LICENSE)
 
