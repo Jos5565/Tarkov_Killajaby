@@ -161,6 +161,8 @@ public class TarkovApiWindow : EditorWindow
             JObject areaNames = LoadData($"{TranslationDir}/areas_{Language}.json");
             // 퀘스트 공략 메모 (퀘스트 ID → "A → B → C")
             questGuides = LoadData($"{TranslationDir}/quest_guides_{Language}.json");
+            // 탈출구 조건 공략 ("맵/탈출구 이름" 또는 "맵/탈출구 이름/진영" → "A → B")
+            extractGuides = LoadData($"{TranslationDir}/extract_guides_{Language}.json");
 
             var log = new StringBuilder();
             foreach (string guid in AssetDatabase.FindAssets("t:MapConfig"))
@@ -218,6 +220,10 @@ public class TarkovApiWindow : EditorWindow
 
     // tarkov.dev 웹사이트(src/pages/map/index.jsx)의 분류 방식을 따른다
     static JObject questGuides = new JObject();
+    static JObject extractGuides = new JObject();
+
+    static string ExtractGuide(string mapName, string extractName, string faction) =>
+        (string)extractGuides[$"{mapName}/{extractName}/{faction}"] ?? (string)extractGuides[$"{mapName}/{extractName}"] ?? "";
 
     static List<MapMarker> Convert(JObject map, JObject mobs, JObject tasksData, JObject tradersData, Translator tr, JArray floors, out List<QuestData> quests)
     {
@@ -229,7 +235,8 @@ public class TarkovApiWindow : EditorWindow
         {
             if (!TryPos(e["position"], out Vector3 pos)) continue;
             string faction = (string)e["faction"];
-            markers.Add(new MapMarker { type = ExtractType(faction), name = tr.Get(e["name"]), detail = faction, position = pos });
+            string guide = ExtractGuide((string)map["normalizedName"], (string)e["name"], faction);
+            markers.Add(new MapMarker { type = ExtractType(faction), name = tr.Get(e["name"]), detail = faction, guide = guide, position = pos });
         }
 
         foreach (JToken t in Items(map["transits"]))

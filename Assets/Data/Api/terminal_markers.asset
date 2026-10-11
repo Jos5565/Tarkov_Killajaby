@@ -24,6 +24,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone1BD1PortAmbush1)"
     floor: 
+    guide: 
     position: {x: 21.77002, y: -60.42134, z: -353.92996}
   - type: 3
     key: 
@@ -32,6 +33,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 221.25, y: -60.02134, z: -350.97998}
   - type: 2
     key: 
@@ -40,6 +42,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 125.918, y: -60.073, z: -419.36395}
   - type: 5
     key: 
@@ -48,6 +51,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone1BD1HangarAmbush11)"
     floor: 
+    guide: 
     position: {x: 290.68005, y: -60.28134, z: -298.14996}
   - type: 5
     key: 
@@ -56,6 +60,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort28)"
     floor: 
+    guide: 
     position: {x: -73.276, y: -60.24734, z: 190.63}
   - type: 3
     key: 
@@ -64,6 +69,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: -74.41992, y: -60.44134, z: -12.669983}
   - type: 3
     key: 
@@ -72,6 +78,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 172.29004, y: -61.53134, z: 159.47003}
   - type: 5
     key: 
@@ -80,6 +87,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone1BD1PortAmbush1)"
     floor: 
+    guide: 
     position: {x: 20.01001, y: -60.431343, z: -347.08997}
   - type: 3
     key: 
@@ -88,6 +96,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 79.71008, y: -60.251343, z: -101.94995}
   - type: 5
     key: 
@@ -96,6 +105,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFPassMiddle15)"
     floor: 
+    guide: 
     position: {x: -18.769897, y: -60.251343, z: -113.25995}
   - type: 5
     key: 
@@ -104,6 +114,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone1BD1PortAmbush1)"
     floor: 
+    guide: 
     position: {x: -1.3399658, y: -60.391342, z: -313.30997}
   - type: 5
     key: 
@@ -112,6 +123,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone1VSRFSnipeRoofPort2)"
     floor: 
+    guide: 
     position: {x: 9.070068, y: -51.841343, z: -212.47998}
   - type: 5
     key: 
@@ -120,6 +132,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort28)"
     floor: 
+    guide: 
     position: {x: -6.7509766, y: -60.413002, z: 202.56903}
   - type: 2
     key: 
@@ -128,6 +141,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 127.574005, y: -60.067, z: -417.34894}
   - type: 5
     key: 
@@ -136,6 +150,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFColumns22)"
     floor: 
+    guide: 
     position: {x: 175.52002, y: -61.53134, z: 237.56}
   - type: 2
     key: 
@@ -144,6 +159,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 125.01102, y: -60.07, z: -418.75897}
   - type: 3
     key: 
@@ -152,6 +168,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 181.79004, y: -60.431343, z: -318.78998}
   - type: 5
     key: 
@@ -160,6 +177,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort31)"
     floor: 
+    guide: 
     position: {x: -181.16101, y: -60.433002, z: 293.239}
   - type: 3
     key: 
@@ -168,6 +186,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: -127.63989, y: -60.391342, z: 109.72003}
   - type: 3
     key: 
@@ -176,6 +195,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 186.76404, y: -60.244343, z: -240.26898}
   - type: 5
     key: 
@@ -184,6 +204,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort31)"
     floor: 
+    guide: 
     position: {x: -122.53003, y: -60.44134, z: 198.48999}
   - type: 5
     key: 
@@ -192,6 +213,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFExit33)"
     floor: 
+    guide: 
     position: {x: -289.43604, y: -61.36434, z: 58.88501}
   - type: 5
     key: 
@@ -200,6 +222,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFExit33)"
     floor: 
+    guide: 
     position: {x: -295.57996, y: -61.35134, z: 58.77002}
   - type: 5
     key: 
@@ -208,6 +231,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDWarehouse18)"
     floor: 
+    guide: 
     position: {x: 189.5, y: -60.40134, z: -41.319946}
   - type: 5
     key: 
@@ -216,6 +240,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone1BD1HangarAmbush11)"
     floor: 
+    guide: 
     position: {x: 292.25, y: -60.28134, z: -308.53998}
   - type: 3
     key: 
@@ -224,6 +249,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 74.79004, y: -60.46134, z: -239.63998}
   - type: 3
     key: 
@@ -232,6 +258,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 118.400024, y: -60.37134, z: -168.09998}
   - type: 5
     key: 
@@ -240,6 +267,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDWarehouse18)"
     floor: 
+    guide: 
     position: {x: 182.80005, y: -60.40134, z: -34.27997}
   - type: 3
     key: 
@@ -248,6 +276,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 82, y: -60.251343, z: -114.97998}
   - type: 3
     key: 
@@ -256,6 +285,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: -161.97998, y: -60.19134, z: 44.910034}
   - type: 5
     key: 
@@ -264,6 +294,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFColumns22)"
     floor: 
+    guide: 
     position: {x: 132.38208, y: -60.320343, z: 235.45001}
   - type: 5
     key: 
@@ -272,6 +303,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone1BD1HangarAmbush11)"
     floor: 
+    guide: 
     position: {x: 275.63, y: -60.28134, z: -170.15997}
   - type: 3
     key: 
@@ -280,6 +312,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 78.48999, y: -60.251343, z: -90.91998}
   - type: 3
     key: 
@@ -288,6 +321,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 38.192993, y: -60.431343, z: -144.87195}
   - type: 5
     key: 
@@ -296,6 +330,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFColumns22)"
     floor: 
+    guide: 
     position: {x: 132.29004, y: -60.37134, z: 235.79004}
   - type: 3
     key: 
@@ -304,6 +339,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: -134.56995, y: -60.321342, z: 131.18005}
   - type: 5
     key: 
@@ -312,6 +348,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFColumns22)"
     floor: 
+    guide: 
     position: {x: 141.07007, y: -60.37134, z: 247.79004}
   - type: 5
     key: 
@@ -320,6 +357,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort30)"
     floor: 
+    guide: 
     position: {x: -85.96802, y: -60.421, z: 396.534}
   - type: 3
     key: 
@@ -328,6 +366,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: -155.19995, y: -60.40134, z: 38.900024}
   - type: 3
     key: 
@@ -336,6 +375,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 196.693, y: -60.216343, z: -241.82697}
   - type: 3
     key: 
@@ -344,6 +384,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 128.70007, y: -60.38134, z: -293.58}
   - type: 5
     key: 
@@ -352,6 +393,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone1BD1HangarAmbush11)"
     floor: 
+    guide: 
     position: {x: 281.62, y: -60.20134, z: -189.54999}
   - type: 5
     key: 
@@ -360,6 +402,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDWarehouse18)"
     floor: 
+    guide: 
     position: {x: 210.25, y: -60.46134, z: 40.090027}
   - type: 3
     key: 
@@ -368,6 +411,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 193.96008, y: -60.15134, z: -352.52997}
   - type: 3
     key: 
@@ -376,6 +420,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 112.21008, y: -60.411343, z: -322.65997}
   - type: 3
     key: 
@@ -384,6 +429,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: -136.07996, y: -60.40134, z: 34.410034}
   - type: 5
     key: 
@@ -392,6 +438,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDWarehouse18)"
     floor: 
+    guide: 
     position: {x: 176.65002, y: -60.40134, z: -34.69995}
   - type: 5
     key: 
@@ -400,6 +447,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone1VSRF1Spawn3)"
     floor: 
+    guide: 
     position: {x: 133.81006, y: -60.46134, z: -392.24997}
   - type: 5
     key: 
@@ -408,6 +456,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort32)"
     floor: 
+    guide: 
     position: {x: -372.021, y: -60.373, z: 328.85907}
   - type: 5
     key: 
@@ -416,6 +465,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone1BD1HangarAmbush11)"
     floor: 
+    guide: 
     position: {x: 274.13, y: -60.293343, z: -218.76697}
   - type: 5
     key: 
@@ -424,6 +474,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone1VSRF1Spawn3)"
     floor: 
+    guide: 
     position: {x: 197.76001, y: -60.051342, z: -365.83997}
   - type: 5
     key: 
@@ -432,6 +483,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFExit33)"
     floor: 
+    guide: 
     position: {x: -299.12, y: -61.35134, z: 71.11005}
   - type: 3
     key: 
@@ -440,6 +492,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 181.32007, y: -61.251343, z: 80.35004}
   - type: 2
     key: 
@@ -448,6 +501,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 127.62302, y: -60.066, z: -419.16394}
   - type: 3
     key: 
@@ -456,6 +510,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 41.5, y: -60.411343, z: -154.11298}
   - type: 5
     key: 
@@ -464,6 +519,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort31)"
     floor: 
+    guide: 
     position: {x: -176.67102, y: -60.383003, z: 299.219}
   - type: 5
     key: 
@@ -472,6 +528,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFExit33)"
     floor: 
+    guide: 
     position: {x: -283.4099, y: -61.36434, z: 60.150024}
   - type: 5
     key: 
@@ -480,6 +537,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFColumns22)"
     floor: 
+    guide: 
     position: {x: 129.74109, y: -60.320343, z: 231.98804}
   - type: 5
     key: 
@@ -488,6 +546,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort31)"
     floor: 
+    guide: 
     position: {x: -134.63013, y: -60.29134, z: 199.42004}
   - type: 3
     key: 
@@ -496,6 +555,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 85.75, y: -60.391342, z: -13.759949}
   - type: 3
     key: 
@@ -504,6 +564,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 40.01001, y: -60.447342, z: -156.48999}
   - type: 5
     key: 
@@ -512,6 +573,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone1BD1HangarAmbush11)"
     floor: 
+    guide: 
     position: {x: 269.26, y: -60.20134, z: -171.17996}
   - type: 3
     key: 
@@ -520,6 +582,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 127.890015, y: -60.411343, z: -317.86996}
   - type: 5
     key: 
@@ -528,6 +591,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone1BD1HangarAmbush11)"
     floor: 
+    guide: 
     position: {x: 273.95703, y: -60.325905, z: -266.97797}
   - type: 5
     key: 
@@ -536,6 +600,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFPassMiddle15)"
     floor: 
+    guide: 
     position: {x: -14.536011, y: -60.24034, z: -147.06097}
   - type: 5
     key: 
@@ -544,6 +609,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFColumns22)"
     floor: 
+    guide: 
     position: {x: 129.7301, y: -60.37134, z: 241.10004}
   - type: 5
     key: 
@@ -552,6 +618,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort31)"
     floor: 
+    guide: 
     position: {x: -124.84009, y: -60.411343, z: 206.56995}
   - type: 3
     key: 
@@ -560,6 +627,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 86.39905, y: -60.263, z: 105.468994}
   - type: 5
     key: 
@@ -568,6 +636,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone1VSRFStoreAmbush10)"
     floor: 
+    guide: 
     position: {x: 168.71008, y: -60.27134, z: -213.26999}
   - type: 5
     key: 
@@ -576,6 +645,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort28)"
     floor: 
+    guide: 
     position: {x: -12.72998, y: -59.373, z: 235.841}
   - type: 5
     key: 
@@ -584,6 +654,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDWarehouse18)"
     floor: 
+    guide: 
     position: {x: 197.77002, y: -60.46134, z: 43.54004}
   - type: 3
     key: 
@@ -592,6 +663,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: -125.73999, y: -60.38134, z: 132.80005}
   - type: 5
     key: 
@@ -600,6 +672,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFColumns22)"
     floor: 
+    guide: 
     position: {x: 173.28003, y: -61.53134, z: 198.57}
   - type: 5
     key: 
@@ -608,6 +681,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort28)"
     floor: 
+    guide: 
     position: {x: -77.77991, y: -60.411343, z: 197.92004}
   - type: 5
     key: 
@@ -616,6 +690,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone1VSRFSnipeRoofPort2)"
     floor: 
+    guide: 
     position: {x: 20.160034, y: -51.841343, z: -211.71997}
   - type: 5
     key: 
@@ -624,6 +699,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFExit33)"
     floor: 
+    guide: 
     position: {x: -279.92896, y: -61.39534, z: 60.532043}
   - type: 5
     key: 
@@ -632,6 +708,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort28)"
     floor: 
+    guide: 
     position: {x: -60.98999, y: -60.39234, z: 181.90002}
   - type: 5
     key: 
@@ -640,6 +717,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone1BD1HangarAmbush11)"
     floor: 
+    guide: 
     position: {x: 283.71008, y: -60.20134, z: -171.77997}
   - type: 5
     key: 
@@ -648,6 +726,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort30)"
     floor: 
+    guide: 
     position: {x: -88.06091, y: -60.421, z: 406.07904}
   - type: 5
     key: 
@@ -656,6 +735,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDWarehouse18)"
     floor: 
+    guide: 
     position: {x: 211, y: -60.46134, z: 29.230042}
   - type: 3
     key: 
@@ -664,6 +744,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 217.08008, y: -60.02134, z: -354.56998}
   - type: 3
     key: 
@@ -672,6 +753,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 133.26001, y: -60.38134, z: -326.34998}
   - type: 5
     key: 
@@ -680,6 +762,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort32)"
     floor: 
+    guide: 
     position: {x: -349.68103, y: -60.373, z: 337.84906}
   - type: 5
     key: 
@@ -688,6 +771,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFExit33)"
     floor: 
+    guide: 
     position: {x: -282.19495, y: -61.36034, z: 76.515015}
   - type: 5
     key: 
@@ -696,6 +780,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone1VSRFStoreAmbush10)"
     floor: 
+    guide: 
     position: {x: 164.7201, y: -60.251343, z: -217.99997}
   - type: 5
     key: 
@@ -704,6 +789,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFColumns22)"
     floor: 
+    guide: 
     position: {x: 87.58899, y: -60.263, z: 133.88904}
   - type: 3
     key: 
@@ -712,6 +798,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 80.670044, y: -60.4723, z: -79.67999}
   - type: 5
     key: 
@@ -720,6 +807,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort32)"
     floor: 
+    guide: 
     position: {x: -361.261, y: -60.373, z: 326.289}
   - type: 3
     key: 
@@ -728,6 +816,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 81.28003, y: -60.47134, z: -250.05997}
   - type: 3
     key: 
@@ -736,6 +825,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 119.390015, y: -60.28134, z: -243.23999}
   - type: 5
     key: 
@@ -744,6 +834,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFColumns22)"
     floor: 
+    guide: 
     position: {x: 139.66602, y: -60.320343, z: 228.55505}
   - type: 3
     key: 
@@ -752,6 +843,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 125.660034, y: -60.38134, z: -331.16998}
   - type: 5
     key: 
@@ -760,6 +852,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone1BD1PortAmbush1)"
     floor: 
+    guide: 
     position: {x: 20.380005, y: -60.22134, z: -348.45996}
   - type: 3
     key: 
@@ -768,6 +861,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 181.52002, y: -60.431343, z: -323.61}
   - type: 5
     key: 
@@ -776,6 +870,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone1VSRF1Spawn3)"
     floor: 
+    guide: 
     position: {x: 135.53003, y: -60.02134, z: -387.86996}
   - type: 3
     key: 
@@ -784,6 +879,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 121.02905, y: -60.48534, z: -176.57797}
   - type: 3
     key: 
@@ -792,6 +888,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 82.04004, y: -60.36134, z: -27.569946}
   - type: 3
     key: 
@@ -800,6 +897,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: -86.01001, y: -60.40134, z: 4.2400513}
   - type: 3
     key: 
@@ -808,6 +906,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 175.70007, y: -61.38134, z: 54.090027}
   - type: 5
     key: 
@@ -816,6 +915,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort28)"
     floor: 
+    guide: 
     position: {x: 3.2490234, y: -60.413002, z: 204.669}
   - type: 3
     key: 
@@ -824,6 +924,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 65.6001, y: -60.37134, z: -240.48999}
   - type: 3
     key: 
@@ -832,6 +933,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 128.96008, y: -60.38134, z: -298.24}
   - type: 5
     key: 
@@ -840,6 +942,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone1VSRF1Spawn3)"
     floor: 
+    guide: 
     position: {x: 136.63, y: -60.45134, z: -402.65997}
   - type: 3
     key: 
@@ -848,6 +951,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: -67.73999, y: -60.419342, z: 5.330017}
   - type: 5
     key: 
@@ -856,6 +960,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone1BD1HangarAmbush11)"
     floor: 
+    guide: 
     position: {x: 279.2301, y: -60.28134, z: -304.17996}
   - type: 2
     key: 
@@ -864,6 +969,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 128.89902, y: -60.067, z: -420.03595}
   - type: 3
     key: 
@@ -872,6 +978,7 @@ MonoBehaviour:
     objective: 
     detail: 
     floor: 
+    guide: 
     position: {x: 164.01001, y: -60.071342, z: 30.550049}
   - type: 5
     key: 
@@ -880,6 +987,7 @@ MonoBehaviour:
     objective: 
     detail: "\uB7EC\uC2DC\uC544\uAD70 100% (Zone2VSRFColumns22)"
     floor: 
+    guide: 
     position: {x: 82.35901, y: -60.303, z: 140.63904}
   - type: 5
     key: 
@@ -888,6 +996,7 @@ MonoBehaviour:
     objective: 
     detail: "\uBE14\uB799 \uB514\uBE44\uC804 100% (Zone2BDPort30)"
     floor: 
+    guide: 
     position: {x: -77.19092, y: -60.421, z: 400.289}
   quests: []
   labels: []

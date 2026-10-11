@@ -83,6 +83,7 @@ public class MapMarker
     public string objective; // 퀘스트 목표 ID. 같은 목표의 위치들은 그중 한 곳만 가면 된다 (루트 계산용)
     public string detail;    // 진영, 출현 확률, 목표 설명, 퀘스트 아이템 이름 등
     public string floor;     // 층 (배틀패스 문서: "지상", "2층", "지하" 등). 없으면 빈 문자열
+    public string guide;     // 탈출구 조건 공략 "A → B" (Translations/extract_guides_{언어}.json). 없으면 빈 문자열 = 조건 없음
     public Vector3 position; // 게임 좌표
 }
 

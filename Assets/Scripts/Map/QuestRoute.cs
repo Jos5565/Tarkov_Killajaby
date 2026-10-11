@@ -41,6 +41,11 @@ public class QuestRoute : MonoBehaviour
     public float RouteLength { get; private set; }   // 게임 단위(m)
     public int StopCount { get; private set; }
 
+    // 경로 1번 목표 (내 위치에서 경로상 가장 먼저 가는 곳). 없으면 null
+    public MapMarker FirstStop { get; private set; }
+    // 경로를 다시 계산할 때마다 (켜고 끄기, 위치 갱신, 도착 탈출구 변경)
+    public event System.Action Recalculated;
+
     // 도착점으로 지정한 탈출구/트랜짓 (없으면 null)
     public MapMarker Destination { get; private set; }
 
@@ -151,7 +156,9 @@ public class QuestRoute : MonoBehaviour
         {
             RouteLength = 0f;
             StopCount = 0;
+            FirstStop = null;
             line.SetPoints(System.Array.Empty<Vector2>());
+            Recalculated?.Invoke();
             return;
         }
 
@@ -184,6 +191,7 @@ public class QuestRoute : MonoBehaviour
 
         RouteLength = result.length;
         StopCount = result.clusterOrder.Length;
+        FirstStop = StopCount > 0 ? clusters[result.clusterOrder[0]][result.pointIndex[0]] : null;
 
         // 선: 출발점 → 1 → 2 → ... → 마지막 목표
         var path = new List<Vector2>();
@@ -210,6 +218,7 @@ public class QuestRoute : MonoBehaviour
 
         if (StopCount > 0 || Destination != null)
             Debug.Log($"[QuestRoute] 목표 {StopCount}곳{(Destination != null ? $" → {Destination.name}" : "")}, 약 {RouteLength:0}m (직선거리)");
+        Recalculated?.Invoke();
     }
 
     // 저장된 도착 이름표 이름 → 지금 지도에 있는 이름표. 진영이 바뀌어 없는 탈출구면 지정하지 않는다.

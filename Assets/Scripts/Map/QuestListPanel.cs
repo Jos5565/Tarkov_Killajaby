@@ -10,6 +10,8 @@ using UnityEngine.UI;
 //   [ 퀘스트 검색            ]
 //   ● 떡밥 뿌리기              (==●)   ← 행 클릭: 해당 퀘스트 마커 켜기/끄기, 마우스를 올리면 상세 창(QuestDetailPanel)
 // 목록은 MapMarkerLayer.Quests(이 맵에 위치가 있는 퀘스트)로 만든다.
+// 패널 왼쪽 옆에는 경로 1번 퀘스트(내 위치에서 경로상 가장 먼저 가는 곳)의 상세 창을 늘 띄워 둔다.
+// 행에 마우스를 올린 동안은 그 퀘스트 상세 창으로 바뀌고, 떼면 다시 경로 1번으로 돌아온다.
 // ExecuteAlways: 편집 모드에서도 보임. 패널 크기는 이 오브젝트의 RectTransform을 따른다.
 [ExecuteAlways]
 [RequireComponent(typeof(RectTransform))]
@@ -18,6 +20,8 @@ public class QuestListPanel : MonoBehaviour
     public MapMarkerLayer markerLayer;
     [Tooltip("퀘스트를 쓸 수 없을 때(스캐브) 패널을 숨기고, 패널 자리만큼 비워둔 지도 영역을 오른쪽 끝까지 넓힌다")]
     public RectTransform mapViewport;
+    [Tooltip("경로 1번 퀘스트를 옆에 띄울 때 쓰는 경로. 비우면 씬에서 찾는다")]
+    public QuestRoute route;
 
     [Header("Assets")]
     public TMP_FontAsset font;
@@ -32,6 +36,8 @@ public class QuestListPanel : MonoBehaviour
     public string allToggleLabel = "ALL ON/OFF";
     [Tooltip("지도 위치 정보가 없는 퀘스트 행에 붙는 표시")]
     public string noLocationLabel = "위치 없음";
+    [Tooltip("옆에 띄운 경로 1번 퀘스트 창의 맨 위 한 줄")]
+    public string nextQuestCaption = "경로 1번 퀘스트";
 
     [Header("Look")]
     public float rowHeight = 30f;
@@ -43,6 +49,8 @@ public class QuestListPanel : MonoBehaviour
     public Color subTextColor = new Color(0.55f, 0.55f, 0.55f);
     public Color inputColor = new Color(0.16f, 0.16f, 0.17f);
     public Color offColor = new Color(0.35f, 0.35f, 0.35f);
+    [Tooltip("경로 1번 퀘스트 창과 목록 패널 사이 간격")]
+    public float pinnedGap = 8f;
 
     class Row
     {
@@ -56,6 +64,8 @@ public class QuestListPanel : MonoBehaviour
     readonly List<Row> rows = new List<Row>();
     GameObject root;
     QuestDetailPanel detail;   // 행에 마우스를 올리면 보이는 상세 창 (Play 중에만)
+    QuestDetailPanel pinned;   // 경로 1번 퀘스트 상세 창, 목록 왼쪽 옆 (Play 중에만)
+    bool hovering;             // 행에 마우스를 올린 동안은 고정 창을 숨긴다
     RectTransform listContent;
     TMP_Text countLabel;
     TMP_InputField search;
@@ -78,6 +88,12 @@ public class QuestListPanel : MonoBehaviour
         if (markerLayer == null) return;
         markerLayer.Built += BuildRows;
         markerLayer.KeyVisibilityChanged += OnKeyVisibilityChanged;
+
+        if (Application.isPlaying)
+        {
+            if (route == null) route = FindAnyObjectByType<QuestRoute>();
+            if (route != null) route.Recalculated += RefreshPinned;
+        }
     }
 
     void OnDisable()
@@ -87,11 +103,15 @@ public class QuestListPanel : MonoBehaviour
             markerLayer.Built -= BuildRows;
             markerLayer.KeyVisibilityChanged -= OnKeyVisibilityChanged;
         }
+        if (route != null) route.Recalculated -= RefreshPinned;
         EditorPreview.DestroyLater(root);
         root = null;
         rows.Clear();
         if (detail != null) Destroy(detail.gameObject);
         detail = null;
+        if (pinned != null) Destroy(pinned.gameObject);
+        pinned = null;
+        hovering = false;
     }
 
 #if UNITY_EDITOR
@@ -113,6 +133,30 @@ public class QuestListPanel : MonoBehaviour
     }
 
     // ---- 동작 ----
+
+    // 경로 1번 퀘스트를 목록 옆 고정 창에 띄운다 (경로가 꺼졌거나 켜진 퀘스트가 없으면 닫는다)
+    void RefreshPinned()
+    {
+        if (pinned == null || hovering) return;
+        MapMarker stop = route != null ? route.FirstStop : null;
+        QuestData quest = stop != null ? markerLayer.GetQuest(stop.key) : null;
+        if (quest == null || root == null)
+        {
+            pinned.Hide();
+            return;
+        }
+
+        string caption = nextQuestCaption;
+        WhereIAM me = route.whereIAM;
+        if (me != null && me.HasPosition)
+        {
+            float d = Vector2.Distance(new Vector2(me.GamePosition.x, me.GamePosition.z), new Vector2(stop.position.x, stop.position.z));
+            caption += $" · 약 {d:0}m";
+        }
+        string name = rows.Find(r => r.info.key == stop.key)?.info.name;
+        string[] highlight = string.IsNullOrEmpty(stop.objective) ? null : new[] { stop.objective };
+        pinned.ShowPinned(quest, name, caption, highlight, (RectTransform)root.transform, pinnedGap);
+    }
 
     void ToggleAll()
     {
@@ -169,7 +213,11 @@ public class QuestListPanel : MonoBehaviour
         if (Application.isPlaying && detail == null)
         {
             Canvas canvas = GetComponentInParent<Canvas>();
-            if (canvas != null) detail = QuestDetailPanel.Create(canvas, font);
+            if (canvas != null)
+            {
+                pinned = QuestDetailPanel.Create(canvas, font);
+                detail = QuestDetailPanel.Create(canvas, font);   // 나중에 만들어 고정 창보다 위
+            }
         }
 
         BuildHeader(rootRt);
@@ -287,9 +335,19 @@ public class QuestListPanel : MonoBehaviour
             if (detail != null)
             {
                 var hover = rt.gameObject.AddComponent<PointerHover>();
-                hover.enter = e => detail.Show(markerLayer.GetQuest(info.key), info.name, e.position);
+                hover.enter = e =>
+                {
+                    hovering = true;
+                    if (pinned != null) pinned.Hide();
+                    detail.Show(markerLayer.GetQuest(info.key), info.name, e.position);
+                };
                 hover.move = e => detail.Move(e.position);
-                hover.exit = _ => { if (detail != null && detail.CurrentKey == info.key) detail.Hide(); };
+                hover.exit = _ =>
+                {
+                    if (detail != null && detail.CurrentKey == info.key) detail.Hide();
+                    hovering = false;
+                    RefreshPinned();
+                };
             }
 
             row.dot = CreateImage(rt, "Dot", circleSprite, accentColor, new Vector2(12f, 12f));

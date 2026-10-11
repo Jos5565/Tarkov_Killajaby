@@ -5,7 +5,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// 퀘스트 목록의 행에 마우스를 올리면 보여주는 퀘스트 상세 창 (QuestListPanel이 실행 중에 만든다).
+// 퀘스트 상세 창 (QuestListPanel이 실행 중에 두 개 만든다).
+//   - 호버 창: 목록의 행에 마우스를 올리면 마우스 왼쪽에
+//   - 고정 창: 경로 1번 퀘스트를 목록 왼쪽 옆에 늘 띄워 둔다 (PinBeside)
+//     맨 위 줄의 [—] 버튼으로 최소화(맨 위 줄 + 퀘스트 이름만), [+]로 다시 펼친다. 상태는 저장된다.
 //   퀘스트 이름
 //   [상인] · 이 맵 목표 2개
 //   목표
@@ -13,7 +16,7 @@ using UnityEngine.UI;
 //   - 다른 맵/공통 목표 (흐리게)
 //   필요 아이템
 //   (아이콘) [건네기] 물리 비트코인 ×2 · 인레이드
-// 위치: 마우스 왼쪽(화면 안쪽). 패널은 마우스를 받지 않는다 (목록 호버/스크롤 방해 없음).
+// 패널은 마우스를 받지 않는다 (목록 호버/스크롤, 지도 조작 방해 없음).
 [RequireComponent(typeof(RectTransform))]
 public class QuestDetailPanel : MonoBehaviour
 {
@@ -30,12 +33,27 @@ public class QuestDetailPanel : MonoBehaviour
     public Color textColor = new Color(0.88f, 0.88f, 0.88f);
     public Color dimColor = new Color(0.5f, 0.5f, 0.5f);
     public Color iconBoxColor = new Color(1f, 1f, 1f, 0.06f);
+    public Color captionColor = new Color(0.95f, 0.45f, 0.1f);    // 경로 색
+    public Color buttonColor = new Color(1f, 1f, 1f, 0.08f);
+    public float buttonSize = 22f;
+
+    const string MinimizedPref = "QuestDetail.PinnedMinimized";
 
     RectTransform panel, content;
     RectTransform canvasRect;
     Camera eventCamera;
 
     public string CurrentKey { get; private set; }
+
+    // 고정 창 최소화 (모든 맵 공통으로 저장)
+    public bool Minimized
+    {
+        get => PlayerPrefs.GetInt(MinimizedPref, 0) == 1;
+        set { PlayerPrefs.SetInt(MinimizedPref, value ? 1 : 0); PlayerPrefs.Save(); }
+    }
+
+    // 마지막 고정 창 내용 (최소화 버튼을 누르면 같은 내용으로 다시 그린다)
+    Action repin;
 
     // 캔버스 맨 위에 패널을 만든다
     public static QuestDetailPanel Create(Canvas canvas, TMP_FontAsset font)
@@ -46,6 +64,12 @@ public class QuestDetailPanel : MonoBehaviour
         var detail = go.AddComponent<QuestDetailPanel>();
         detail.font = font;
         go.transform.SetAsLastSibling();
+        // 마커 툴팁(퀘스트 · 탈출구 상세)은 이 창보다 위에 그린다: 툴팁 바로 아래 순서로 넣는다
+        // (Instance는 툴팁의 OnEnable에서 정해지므로 아직 없으면 씬에서 찾는다)
+        MapTooltip found = MapTooltip.Instance != null ? MapTooltip.Instance : FindAnyObjectByType<MapTooltip>();
+        Transform tooltip = found != null ? found.transform : null;
+        while (tooltip != null && tooltip.parent != go.transform.parent) tooltip = tooltip.parent;
+        if (tooltip != null) go.transform.SetSiblingIndex(tooltip.GetSiblingIndex());
         go.SetActive(true);
         return detail;
     }
@@ -60,14 +84,41 @@ public class QuestDetailPanel : MonoBehaviour
 
     public void Show(QuestData quest, string fallbackName, Vector2 screenPos)
     {
-        if (panel == null || quest == null) return;
+        if (!Open(quest, fallbackName, null, null)) return;
+        Move(screenPos);
+    }
+
+    // 고정 창: target(목록 패널) 왼쪽 옆, 위쪽을 맞춰서 띄운다.
+    // caption은 제목 위 한 줄 (예: "경로 1번 · 약 120m"), highlight는 강조할 목표 ID
+    public void ShowPinned(QuestData quest, string fallbackName, string caption, ICollection<string> highlight, RectTransform target, float gap)
+    {
+        repin = () => ShowPinned(quest, fallbackName, caption, highlight, target, gap);
+        if (!Open(quest, fallbackName, caption, highlight, true)) return;
+        PinBeside(target, gap);
+    }
+
+    bool Open(QuestData quest, string fallbackName, string caption, ICollection<string> highlight, bool pinned = false)
+    {
+        if (panel == null || quest == null) return false;
         CurrentKey = quest.key;
-        Fill(quest, fallbackName);
+        Fill(quest, fallbackName, caption, highlight, pinned);
         panel.gameObject.SetActive(true);
         // 줄바꿈되는 글자는 폭이 정해진 뒤에 높이가 정해지므로 두 번 계산한다
         LayoutRebuilder.ForceRebuildLayoutImmediate(panel);
         LayoutRebuilder.ForceRebuildLayoutImmediate(panel);
-        Move(screenPos);
+        return true;
+    }
+
+    // 패널 오른쪽 위 = target 왼쪽 위 - gap (위아래는 화면 안으로)
+    void PinBeside(RectTransform target, float gap)
+    {
+        if (target == null) return;
+        var corners = new Vector3[4];
+        target.GetWorldCorners(corners);   // 0 왼쪽 아래, 1 왼쪽 위
+        Vector2 topLeft = canvasRect.InverseTransformPoint(corners[1]);
+        float top = Mathf.Max(Mathf.Min(topLeft.y, canvasRect.rect.yMax), canvasRect.rect.yMin + panel.rect.height);
+        panel.pivot = new Vector2(1f, 1f);
+        panel.anchoredPosition = new Vector2(topLeft.x - gap, top);
     }
 
     public void Hide()
@@ -95,12 +146,16 @@ public class QuestDetailPanel : MonoBehaviour
 
     // ---- 내용 ----
 
-    void Fill(QuestData quest, string fallbackName)
+    void Fill(QuestData quest, string fallbackName, string caption, ICollection<string> highlight, bool pinned)
     {
         for (int i = content.childCount - 1; i >= 0; i--) Destroy(content.GetChild(i).gameObject);
 
+        if (pinned) CaptionRow(caption);
+        else if (!string.IsNullOrEmpty(caption))
+            Text(content, caption, bodyFontSize - 1f, FontStyles.Bold, captionColor);
         string name = string.IsNullOrEmpty(quest.name) ? fallbackName : quest.name;
         Text(content, $"<noparse>{name}</noparse>", titleFontSize, FontStyles.Bold, titleColor);
+        if (pinned && Minimized) return;
 
         int thisMap = quest.objectives.Count(o => o.thisMap);
         string sub = (string.IsNullOrEmpty(quest.trader) ? "" : $"[{quest.trader}]  ") +
@@ -114,7 +169,7 @@ public class QuestDetailPanel : MonoBehaviour
             Space(6f);
             Text(content, "목표", bodyFontSize - 1f, FontStyles.Bold, headerColor);
             // 지금 맵의 목표만 보여주고, 나머지는 "외 N개 목표 (다른 맵/공통)" 한 줄로 (지도 툴팁과 같은 형식)
-            Text(content, QuestText.Objectives(quest, null), bodyFontSize, FontStyles.Normal, textColor);
+            Text(content, QuestText.Objectives(quest, highlight), bodyFontSize, FontStyles.Normal, textColor);
         }
 
         if (!string.IsNullOrEmpty(quest.guide))
@@ -132,6 +187,48 @@ public class QuestDetailPanel : MonoBehaviour
         }
 
         Footer(quest);
+    }
+
+    // 고정 창 맨 위 줄: 경로 1번 퀘스트 · 약 120m ........ [—]
+    void CaptionRow(string caption)
+    {
+        var row = new GameObject("Caption", typeof(RectTransform), typeof(HorizontalLayoutGroup));
+        var rt = (RectTransform)row.transform;
+        rt.SetParent(content, false);
+        var layout = row.GetComponent<HorizontalLayoutGroup>();
+        layout.spacing = 8f;
+        layout.childAlignment = TextAnchor.MiddleLeft;
+        layout.childControlWidth = layout.childControlHeight = true;
+        layout.childForceExpandWidth = layout.childForceExpandHeight = false;
+
+        TMP_Text label = Text(rt, caption ?? "", bodyFontSize - 1f, FontStyles.Bold, captionColor);
+        label.GetComponent<LayoutElement>().flexibleWidth = 1f;
+
+        // 버튼: 패널 전체는 마우스를 받지 않으므로(CanvasGroup) 버튼만 따로 받게 한다
+        var go = new GameObject("MinimizeButton", typeof(RectTransform), typeof(Image), typeof(Button), typeof(LayoutElement), typeof(CanvasGroup));
+        go.transform.SetParent(rt, false);
+        var element = go.GetComponent<LayoutElement>();
+        element.preferredWidth = element.minWidth = buttonSize;
+        element.preferredHeight = element.minHeight = buttonSize;
+        var group = go.GetComponent<CanvasGroup>();
+        group.ignoreParentGroups = true;
+        group.blocksRaycasts = true;
+        var bg = go.GetComponent<Image>();
+        bg.color = buttonColor;
+        var button = go.GetComponent<Button>();
+        button.targetGraphic = bg;
+        button.onClick.AddListener(() =>
+        {
+            Minimized = !Minimized;
+            repin?.Invoke();
+        });
+
+        TMP_Text icon = Text((RectTransform)go.transform, Minimized ? "+" : "—", bodyFontSize, FontStyles.Bold, textColor);
+        icon.alignment = TextAlignmentOptions.Center;
+        var iconRt = (RectTransform)icon.transform;
+        iconRt.anchorMin = Vector2.zero;
+        iconRt.anchorMax = Vector2.one;
+        iconRt.offsetMin = iconRt.offsetMax = Vector2.zero;
     }
 
     // 맨 아래 안내 (위키 링크가 있으면)

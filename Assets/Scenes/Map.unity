@@ -887,6 +887,7 @@ MonoBehaviour:
   transitSuffix: "\uC774\uB3D9"
   transitSuffixColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
   transitSuffixScale: 0.7
+  noConditionText: "\uC870\uAC74 \uC5C6\uC74C"
   styles:
   - type: 3
     visible: 1
@@ -1326,12 +1327,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::QuestListPanel
   markerLayer: {fileID: 900000203}
   mapViewport: {fileID: 1862011288}
+  route: {fileID: 0}
   font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
   circleSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   roundedSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   title: "\uD018\uC2A4\uD2B8"
   searchPlaceholder: "\uD018\uC2A4\uD2B8 \uAC80\uC0C9"
   allToggleLabel: ALL ON/OFF
+  noLocationLabel: "\uC704\uCE58 \uC5C6\uC74C"
+  nextQuestCaption: "\uACBD\uB85C 1\uBC88 \uD018\uC2A4\uD2B8"
   rowHeight: 30
   fontSize: 16
   titleFontSize: 18
@@ -1341,6 +1345,7 @@ MonoBehaviour:
   subTextColor: {r: 0.55, g: 0.55, b: 0.55, a: 1}
   inputColor: {r: 0.16, g: 0.16, b: 0.17, a: 1}
   offColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+  pinnedGap: 8
 --- !u!1 &900000701
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,6 +1725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AppBootstrap
   targetFrameRate: 30
+  backgroundFrameRate: 10
 --- !u!114 &1758642431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1798,9 +1804,9 @@ RectTransform:
   - {fileID: 76679817}
   - {fileID: 1862011288}
   - {fileID: 900000302}
+  - {fileID: 900000602}
   - {fileID: 900000502}
   - {fileID: 900000902}
-  - {fileID: 900000602}
   - {fileID: 900001102}
   - {fileID: 900000702}
   m_Father: {fileID: 0}

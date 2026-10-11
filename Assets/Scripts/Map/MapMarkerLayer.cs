@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
@@ -77,6 +78,10 @@ public class MapMarkerLayer : MonoBehaviour
     [Tooltip("이름 대비 '이동' 글자 크기")]
     public float transitSuffixScale = 0.7f;
 
+    [Header("Extract Tooltip")]
+    [Tooltip("탈출구 이름표에 마우스를 올렸을 때, 조건 공략이 없는 탈출구에 보여줄 글")]
+    public string noConditionText = "조건 없음";
+
     [Header("Styles")]
     public List<Style> styles = new List<Style>();
 
@@ -88,6 +93,7 @@ public class MapMarkerLayer : MonoBehaviour
     readonly List<KeyInfo> quests = new List<KeyInfo>();
     readonly List<MapMarker> placed = new List<MapMarker>();
     readonly List<(RectTransform rt, MapMarker marker)> nameTags = new List<(RectTransform, MapMarker)>();
+    MapMarker tagTooltip;   // 툴팁에 조건을 띄운 탈출구 이름표 (없으면 null)
     MapUserSettings settings;   // Play 중에만 사용. 편집 모드 미리보기는 전부 표시
     RectTransform hoverLayer;   // 마우스를 올린 마커를 잠시 옮겨 두는 맨 위 묶음
     (RectTransform rt, Transform parent, int index) lifted;
@@ -221,7 +227,7 @@ public class MapMarkerLayer : MonoBehaviour
 
     public static bool IsQuestType(MarkerType type) => type == MarkerType.Quest || type == MarkerType.QuestItem;
 
-    // 이 판에서 퀘스트 기능(목록, 경로, 도착 알림)을 쓸 수 있는지 (스캐브면 false)
+    // 이 판에서 퀘스트 기능(목록, 경로, 상세 창)을 쓸 수 있는지 (스캐브면 false)
     public bool QuestsAvailable => IsAvailable(MarkerType.Quest) || IsAvailable(MarkerType.QuestItem);
 
     public Color GetColor(MarkerType type) => GetStyle(type).color;
@@ -352,21 +358,53 @@ public class MapMarkerLayer : MonoBehaviour
     void UpdateNameTagHover()
     {
         bool liftedIsTag = lifted.rt != null && nameTags.Exists(n => n.rt == lifted.rt);
-        if (lifted.rt != null && !liftedIsTag) return;
+        if (lifted.rt != null && !liftedIsTag)
+        {
+            tagTooltip = null;   // 마커 툴팁(MapMarkerInfo)이 툴팁을 쓰는 중
+            return;
+        }
 
         if (zoomPan == null) zoomPan = FindAnyObjectByType<MapZoomPan>();
         RectTransform hit = null;
+        MapMarker hitMarker = null;
+        Vector2 pointer = default;
         if (zoomPan != null && zoomPan.IsPointerInside && Mouse.current != null)
         {
-            Vector2 pointer = Mouse.current.position.ReadValue();
+            pointer = Mouse.current.position.ReadValue();
             // 이미 올라와 있는 이름표 위면 유지 (겹친 이름표 사이에서 깜빡이지 않게)
-            if (liftedIsTag && RectTransformUtility.RectangleContainsScreenPoint(lifted.rt, pointer, zoomPan.EventCamera)) return;
-            if (TryGetNameTagAt(pointer, zoomPan.EventCamera, out MapMarker marker)) hit = GetNameTag(marker);
+            if (liftedIsTag && RectTransformUtility.RectangleContainsScreenPoint(lifted.rt, pointer, zoomPan.EventCamera))
+            {
+                UpdateTagTooltip(nameTags.Find(n => n.rt == lifted.rt).marker, pointer);
+                return;
+            }
+            if (TryGetNameTagAt(pointer, zoomPan.EventCamera, out hitMarker)) hit = GetNameTag(hitMarker);
         }
+        UpdateTagTooltip(hitMarker, pointer);
 
         if (hit == lifted.rt) return;
         if (hit != null) Lift(hit);
         else Drop();
+    }
+
+    // 탈출구 이름표에 마우스를 올리면 툴팁에 탈출 조건 (없으면 "조건 없음"). 트랜짓은 툴팁 없음
+    void UpdateTagTooltip(MapMarker marker, Vector2 pointer)
+    {
+        MapTooltip tooltip = MapTooltip.Instance;
+        if (tooltip == null) return;
+        if (marker == null || !IsExtract(marker.type))
+        {
+            if (tagTooltip != null && tooltip.Current == null) tooltip.Hide();
+            tagTooltip = null;
+            return;
+        }
+        if (marker == tagTooltip)
+        {
+            tooltip.Move(pointer);
+            return;
+        }
+        tagTooltip = marker;
+        tooltip.Show($"<noparse>{marker.name}</noparse>", FactionLabel(marker.type),
+            string.IsNullOrEmpty(marker.guide) ? noConditionText : marker.guide, pointer);
     }
 
     // OnDisable 안에서는 계층을 바꿀 수 없으므로 다음 LateUpdate에서 되돌린다
@@ -495,11 +533,31 @@ public class MapMarkerLayer : MonoBehaviour
                 type = a.type,
                 name = string.Join(" / ", names),
                 detail = a.detail,
+                guide = MergeGuides(group),
                 position = center / group.Count,
             });
         }
         return result;
     }
+
+    // 합친 이름표의 조건: 모두 같으면 하나, 다르면 "이름: 조건" 줄마다
+    string MergeGuides(List<MapMarker> group)
+    {
+        var guides = group.Select(m => m.guide ?? "").Distinct().ToList();
+        if (guides.Count == 1) return guides[0];
+        return string.Join("\n", group.GroupBy(m => m.name)
+            .Select(g => $"{g.Key}: {(string.IsNullOrEmpty(g.First().guide) ? noConditionText : g.First().guide)}"));
+    }
+
+    static bool IsExtract(MarkerType type) =>
+        type == MarkerType.ExtractPmc || type == MarkerType.ExtractScav || type == MarkerType.ExtractShared;
+
+    static string FactionLabel(MarkerType type) => type switch
+    {
+        MarkerType.ExtractPmc => "PMC 탈출구",
+        MarkerType.ExtractScav => "스캐브 탈출구",
+        _ => "공용 탈출구",
+    };
 
     public static bool UsesNameTag(MarkerType type) =>
         type == MarkerType.ExtractPmc || type == MarkerType.ExtractScav || type == MarkerType.ExtractShared ||
