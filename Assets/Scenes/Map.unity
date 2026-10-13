@@ -1575,66 +1575,6 @@ MonoBehaviour:
   whereIAM: {fileID: 900000003}
   applyLatestOnStart: 1
   pollInterval: 2
---- !u!1 &900001101
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 900001102}
-  - component: {fileID: 900001103}
-  m_Layer: 5
-  m_Name: ArrivalPanel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &900001102
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900001101}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1758642434}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -10}
-  m_SizeDelta: {x: 0, y: -20}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &900001103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900001101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d3b9e1f4a7c4e2d8b5f1a3c9e7d2b4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::QuestArrivalPanel
-  whereIAM: {fileID: 900000003}
-  markerLayer: {fileID: 900000203}
-  font: {fileID: 11400000, guid: a8f365c9438d89f43ad06f5944467d46, type: 2}
-  arrivalRadius: 30
-  maxHeightDifference: 10
-  maxQuests: 3
-  width: 520
-  headerText: "\uD018\uC2A4\uD2B8 \uC704\uCE58 \uB3C4\uCC29"
-  backgroundColor: {r: 0.07, g: 0.07, b: 0.07, a: 0.95}
-  borderColor: {r: 0.604, g: 0.533, b: 0.4, a: 1}
-  titleColor: {r: 0.765, g: 0.694, b: 0.565, a: 1}
-  subColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
 --- !u!1 &1724962788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1807,7 +1747,6 @@ RectTransform:
   - {fileID: 900000602}
   - {fileID: 900000502}
   - {fileID: 900000902}
-  - {fileID: 900001102}
   - {fileID: 900000702}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -78,6 +78,11 @@ public class MapMarkerLayer : MonoBehaviour
     [Tooltip("이름 대비 '이동' 글자 크기")]
     public float transitSuffixScale = 0.7f;
 
+    [Header("Quest Progress")]
+    [Range(0f, 1f)]
+    [Tooltip("직접 완료 체크한 목표의 마커 투명도 (마커를 우클릭해 체크)")]
+    public float doneMarkerAlpha = 0.3f;
+
     [Header("Extract Tooltip")]
     [Tooltip("탈출구 이름표에 마우스를 올렸을 때, 조건 공략이 없는 탈출구에 보여줄 글")]
     public string noConditionText = "조건 없음";
@@ -93,6 +98,7 @@ public class MapMarkerLayer : MonoBehaviour
     readonly List<KeyInfo> quests = new List<KeyInfo>();
     readonly List<MapMarker> placed = new List<MapMarker>();
     readonly List<(RectTransform rt, MapMarker marker)> nameTags = new List<(RectTransform, MapMarker)>();
+    readonly List<(Image image, MapMarker marker, Color color)> questDots = new List<(Image, MapMarker, Color)>();   // 완료 체크하면 흐리게
     MapMarker tagTooltip;   // 툴팁에 조건을 띄운 탈출구 이름표 (없으면 null)
     MapUserSettings settings;   // Play 중에만 사용. 편집 모드 미리보기는 전부 표시
     RectTransform hoverLayer;   // 마우스를 올린 마커를 잠시 옮겨 두는 맨 위 묶음
@@ -115,7 +121,11 @@ public class MapMarkerLayer : MonoBehaviour
 
     void OnEnable()
     {
-        if (Application.isPlaying) TarkovLogWatcher.QuestCompleted += OnQuestCompleted;
+        if (Application.isPlaying)
+        {
+            TarkovLogWatcher.QuestCompleted += OnQuestCompleted;
+            QuestProgress.Changed += OnProgressChanged;
+        }
         if (mapView == null) return;
         mapView.Loaded += OnMapLoaded;
         if (mapView.IsLoaded) Build();
@@ -124,6 +134,7 @@ public class MapMarkerLayer : MonoBehaviour
     void OnDisable()
     {
         TarkovLogWatcher.QuestCompleted -= OnQuestCompleted;
+        QuestProgress.Changed -= OnProgressChanged;
         if (mapView != null) mapView.Loaded -= OnMapLoaded;
         foreach (RectTransform group in groups.Values)
             if (group != null) EditorPreview.DestroyLater(group.gameObject);
@@ -275,6 +286,19 @@ public class MapMarkerLayer : MonoBehaviour
             foreach (GameObject go in list)
                 if (go != null) go.SetActive(visible);
         KeyVisibilityChanged?.Invoke(key, visible);
+    }
+
+    // 직접 완료 체크한 목표의 마커는 흐리게 (QuestProgress)
+    void OnProgressChanged(string key)
+    {
+        foreach (var (image, marker, color) in questDots)
+            if (image != null && marker.key == key) ApplyDone(image, marker, color);
+    }
+
+    void ApplyDone(Image image, MapMarker marker, Color color)
+    {
+        bool done = Application.isPlaying && QuestProgress.IsDone(marker.key, marker.objective);
+        image.color = done ? new Color(color.r, color.g, color.b, color.a * doneMarkerAlpha) : color;
     }
 
     // 게임에서 퀘스트를 완료하면(로그) 켜 둔 토글을 끈다
@@ -676,6 +700,11 @@ public class MapMarkerLayer : MonoBehaviour
         img.color = style.color;
         img.preserveAspect = true;
         img.raycastTarget = style.showInfo;
+        if (marker.type == MarkerType.Quest || marker.type == MarkerType.QuestItem)
+        {
+            questDots.Add((img, marker, style.color));
+            ApplyDone(img, marker, style.color);
+        }
         if (style.showInfo)
         {
             var info = go.AddComponent<MapMarkerInfo>();
@@ -733,6 +762,7 @@ public class MapMarkerLayer : MonoBehaviour
         quests.Clear();
         placed.Clear();
         nameTags.Clear();
+        questDots.Clear();
         areaLabelCount = 0;
         hoverLayer = null;
         lifted = default;

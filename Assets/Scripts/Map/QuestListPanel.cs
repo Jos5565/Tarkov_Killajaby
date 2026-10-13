@@ -12,6 +12,7 @@ using UnityEngine.UI;
 // 목록은 MapMarkerLayer.Quests(이 맵에 위치가 있는 퀘스트)로 만든다.
 // 패널 왼쪽 옆에는 경로 1번 퀘스트(내 위치에서 경로상 가장 먼저 가는 곳)의 상세 창을 늘 띄워 둔다.
 // 행에 마우스를 올린 동안은 그 퀘스트 상세 창으로 바뀌고, 떼면 다시 경로 1번으로 돌아온다.
+// 머리글의 "퀘스트 12/41"을 클릭하면 목록을 최소화(머리글만 남기고 지도를 오른쪽 끝까지 넓힘)/복원한다. 상태는 저장된다.
 // ExecuteAlways: 편집 모드에서도 보임. 패널 크기는 이 오브젝트의 RectTransform을 따른다.
 [ExecuteAlways]
 [RequireComponent(typeof(RectTransform))]
@@ -68,6 +69,12 @@ public class QuestListPanel : MonoBehaviour
     bool hovering;             // 행에 마우스를 올린 동안은 고정 창을 숨긴다
     RectTransform listContent;
     TMP_Text countLabel;
+    GameObject searchGo, listGo;
+
+    // 최소화: 머리글만 남긴다 (모든 맵 공통으로 저장, Play 중에만 적용)
+    const string CollapsedPref = "QuestList.Collapsed";
+    bool collapsed;
+    float viewportRight = float.NaN;   // 펼쳤을 때 지도 영역의 오른쪽 여백 (mapViewport.offsetMax.x)
     TMP_InputField search;
 
     void OnEnable()
@@ -155,13 +162,51 @@ public class QuestListPanel : MonoBehaviour
         }
         string name = rows.Find(r => r.info.key == stop.key)?.info.name;
         string[] highlight = string.IsNullOrEmpty(stop.objective) ? null : new[] { stop.objective };
-        pinned.ShowPinned(quest, name, caption, highlight, (RectTransform)root.transform, pinnedGap);
+        // 목록을 최소화했으면 머리글 아래, 펼쳤으면 목록 왼쪽 옆
+        pinned.ShowPinned(quest, name, caption, highlight, (RectTransform)root.transform, pinnedGap, below: collapsed);
     }
 
     void ToggleAll()
     {
         bool allOn = rows.All(r => markerLayer.IsKeyVisible(r.info.key));
         foreach (Row row in rows) markerLayer.SetKeyVisible(row.info.key, !allOn);
+    }
+
+    void ToggleCollapsed()
+    {
+        SetCollapsed(!collapsed);
+        PlayerPrefs.SetInt(CollapsedPref, collapsed ? 1 : 0);
+        PlayerPrefs.Save();
+    }
+
+    // 최소화: 검색창과 목록을 숨기고 패널을 머리글 높이로 줄인 뒤, 지도 영역을 화면 오른쪽 끝까지 넓힌다
+    void SetCollapsed(bool value)
+    {
+        collapsed = value;
+        if (root == null) return;
+        if (searchGo != null) searchGo.SetActive(!value);
+        if (listGo != null) listGo.SetActive(!value);
+
+        var rootRt = (RectTransform)root.transform;
+        if (value)
+        {
+            var layout = root.GetComponent<VerticalLayoutGroup>();
+            rootRt.anchorMin = new Vector2(0f, 1f);
+            rootRt.anchorMax = Vector2.one;
+            rootRt.pivot = new Vector2(0.5f, 1f);
+            rootRt.anchoredPosition = Vector2.zero;
+            rootRt.sizeDelta = new Vector2(0f, layout.padding.vertical + 24f);   // 머리글(24) + 위아래 여백
+        }
+        else SelectButton.Inset(rootRt, 0f, 0f, 0f, 0f);
+
+        if (mapViewport != null)
+        {
+            if (float.IsNaN(viewportRight)) viewportRight = mapViewport.offsetMax.x;
+            mapViewport.offsetMax = new Vector2(value ? 0f : viewportRight, mapViewport.offsetMax.y);
+        }
+
+        RefreshCount();
+        RefreshPinned();
     }
 
     void ApplySearch(string query)
@@ -186,7 +231,7 @@ public class QuestListPanel : MonoBehaviour
     {
         if (countLabel == null || markerLayer == null) return;
         int on = rows.Count(r => markerLayer.IsKeyVisible(r.info.key));
-        countLabel.text = $"{on}/{rows.Count}";
+        countLabel.text = $"{on}/{rows.Count}  <size=70%>{(collapsed ? "▼" : "▲")}</size>";
     }
 
     // ---- UI 생성 ----
@@ -224,6 +269,7 @@ public class QuestListPanel : MonoBehaviour
         BuildSearch(rootRt);
         BuildList(rootRt);
         BuildRows();
+        if (Application.isPlaying) SetCollapsed(PlayerPrefs.GetInt(CollapsedPref, 0) == 1);
 
         EditorPreview.MarkDontSave(root);
     }
@@ -231,8 +277,16 @@ public class QuestListPanel : MonoBehaviour
     void BuildHeader(RectTransform parent)
     {
         RectTransform header = CreateHorizontal(parent, "Header", 24f, 8f);
-        CreateText(header, title, titleFontSize, FontStyles.Bold, textColor, flexible: false);
+        TMP_Text titleLabel = CreateText(header, title, titleFontSize, FontStyles.Bold, textColor, flexible: false);
         countLabel = CreateText(header, "0/0", fontSize, FontStyles.Normal, subTextColor, flexible: true);
+        countLabel.richText = true;
+
+        // "퀘스트 12/41" 클릭: 목록 최소화/복원
+        foreach (TMP_Text label in new[] { titleLabel, countLabel })
+        {
+            label.raycastTarget = true;
+            label.gameObject.AddComponent<MarkerFilterClick>().onClick = ToggleCollapsed;
+        }
 
         TMP_Text all = CreateText(header, allToggleLabel, fontSize - 2f, FontStyles.Bold, accentColor, flexible: false);
         all.raycastTarget = true;
@@ -261,6 +315,7 @@ public class QuestListPanel : MonoBehaviour
         SelectButton.Inset((RectTransform)text.transform, 0f, 0f, 0f, 0f);
 
         // 자식(텍스트)을 먼저 만든 뒤 InputField를 붙인다
+        searchGo = go;
         search = go.AddComponent<TMP_InputField>();
         search.targetGraphic = bg;
         search.textViewport = areaRt;
@@ -274,6 +329,7 @@ public class QuestListPanel : MonoBehaviour
     void BuildList(RectTransform parent)
     {
         var go = new GameObject("List", typeof(RectTransform), typeof(ScrollRect), typeof(LayoutElement));
+        listGo = go;
         var rt = (RectTransform)go.transform;
         rt.SetParent(parent, false);
         go.GetComponent<LayoutElement>().flexibleHeight = 1f;   // 남은 높이를 모두 사용
@@ -345,6 +401,8 @@ public class QuestListPanel : MonoBehaviour
                 hover.exit = _ =>
                 {
                     if (detail != null && detail.CurrentKey == info.key) detail.Hide();
+                    // 행이 꺼질 때(최소화 등)도 불리므로, 실제로 올려 둔 행에서 나갈 때만 고정 창을 다시 띄운다
+                    if (!hovering) return;
                     hovering = false;
                     RefreshPinned();
                 };

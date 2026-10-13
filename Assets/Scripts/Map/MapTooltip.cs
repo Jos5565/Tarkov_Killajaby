@@ -84,6 +84,11 @@ public class MapTooltip : MonoBehaviour
         string objectives = QuestText.Objectives(quest, new[] { marker.objective });
         string requirements = QuestText.Requirements(quest, new[] { marker.objective });
         if (requirements.Length > 0) objectives += "\n\n" + requirements;
+        if (!string.IsNullOrEmpty(marker.objective))
+        {
+            bool done = QuestProgress.IsDone(marker.key, marker.objective);
+            objectives += $"\n\n<color=#{ColorUtility.ToHtmlStringRGB(QuestText.HiddenColor)}><size=80%><i>우클릭: 이 목표 {(done ? "완료 해제" : "완료 체크")}</i></size></color>";
+        }
         return marker.type == MarkerType.QuestItem
             ? $"퀘스트 아이템: <noparse>{marker.detail}</noparse>\n\n{objectives}"
             : objectives;

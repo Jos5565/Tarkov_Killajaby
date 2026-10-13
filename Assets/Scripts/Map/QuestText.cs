@@ -8,13 +8,15 @@ using UnityEngine;
 //                       마커가 선택(보조) 목표면 그 목표가 돕는 메인 목표를 강조
 //   - 목표 B          ← 이 맵의 나머지 목표는 회색
 //   외 24개 목표 (다른 맵/공통)   ← 다른 맵/맵 무관 목표는 개수만
+//   - ~~목표 C~~      ← 직접 완료 체크한 목표(QuestProgress)는 취소선 + 흐리게
+// links면 목표 줄마다 <link="목표 id">를 달아 클릭으로 어느 목표인지 찾을 수 있게 한다 (경로 1번 퀘스트 창)
 public static class QuestText
 {
     public static Color HighlightColor = new Color(0.765f, 0.694f, 0.565f);   // #C3B190
     public static Color NormalColor = new Color(0.7f, 0.7f, 0.7f);
     public static Color HiddenColor = new Color(0.45f, 0.45f, 0.45f);
 
-    public static string Objectives(QuestData quest, ICollection<string> highlight, bool onlyThisMap = true)
+    public static string Objectives(QuestData quest, ICollection<string> highlight, bool onlyThisMap = true, bool links = false)
     {
         if (quest == null || quest.objectives.Count == 0) return "";
 
@@ -36,11 +38,15 @@ public static class QuestText
             if (sb.Length > 0) sb.Append('\n');
             // 설명에 '<'가 들어 있어도 서식으로 해석되지 않게 noparse
             string text = $"<noparse>{o.description}</noparse>" + (o.optional ? " (선택)" : "");
-            bool on = highlight != null && highlight.Contains(o.id);
-            sb.Append(on ? $"<color=#{hi}><b>- {text}</b></color>" : $"<color=#{normal}>- {text}</color>");
-            // 설명에 없는 조건 (헤드샷, 거리, 시간대, 무기, 장비)
-            if (!string.IsNullOrEmpty(o.conditions))
+            bool done = QuestProgress.IsDone(quest.key, o.id);
+            bool on = !done && highlight != null && highlight.Contains(o.id);
+            if (links) sb.Append($"<link=\"{o.id}\">");
+            if (done) sb.Append($"<color=#{ColorUtility.ToHtmlStringRGB(HiddenColor)}>- <s>{text}</s> (완료)</color>");
+            else sb.Append(on ? $"<color=#{hi}><b>- {text}</b></color>" : $"<color=#{normal}>- {text}</color>");
+            // 설명에 없는 조건 (헤드샷, 거리, 시간대, 무기, 장비). 완료한 목표는 생략
+            if (!done && !string.IsNullOrEmpty(o.conditions))
                 sb.Append(NewLine).Append($"<color=#{ColorUtility.ToHtmlStringRGB(HiddenColor)}><size=85%>   조건: <noparse>{o.conditions}</noparse></size></color>");
+            if (links) sb.Append("</link>");
         }
 
         if (hidden > 0)

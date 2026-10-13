@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 // 퀘스트 상세 창 (QuestListPanel이 실행 중에 두 개 만든다).
 //   - 호버 창: 목록의 행에 마우스를 올리면 마우스 왼쪽에
-//   - 고정 창: 경로 1번 퀘스트를 목록 왼쪽 옆에 늘 띄워 둔다 (PinBeside)
+//   - 고정 창: 경로 1번 퀘스트를 목록 왼쪽 옆에 늘 띄워 둔다 (PinBeside). 목록을 최소화하면 머리글 아래로
 //     맨 위 줄의 [—] 버튼으로 최소화(맨 위 줄 + 퀘스트 이름만), [+]로 다시 펼친다. 상태는 저장된다.
 //   퀘스트 이름
 //   [상인] · 이 맵 목표 2개
@@ -90,11 +90,12 @@ public class QuestDetailPanel : MonoBehaviour
 
     // 고정 창: target(목록 패널) 왼쪽 옆, 위쪽을 맞춰서 띄운다.
     // caption은 제목 위 한 줄 (예: "경로 1번 · 약 120m"), highlight는 강조할 목표 ID
-    public void ShowPinned(QuestData quest, string fallbackName, string caption, ICollection<string> highlight, RectTransform target, float gap)
+    // below면 target 아래쪽에 오른쪽 끝을 맞춰서 (최소화한 목록 머리글 아래)
+    public void ShowPinned(QuestData quest, string fallbackName, string caption, ICollection<string> highlight, RectTransform target, float gap, bool below = false)
     {
-        repin = () => ShowPinned(quest, fallbackName, caption, highlight, target, gap);
+        repin = () => ShowPinned(quest, fallbackName, caption, highlight, target, gap, below);
         if (!Open(quest, fallbackName, caption, highlight, true)) return;
-        PinBeside(target, gap);
+        PinBeside(target, gap, below);
     }
 
     bool Open(QuestData quest, string fallbackName, string caption, ICollection<string> highlight, bool pinned = false)
@@ -110,15 +111,17 @@ public class QuestDetailPanel : MonoBehaviour
     }
 
     // 패널 오른쪽 위 = target 왼쪽 위 - gap (위아래는 화면 안으로)
-    void PinBeside(RectTransform target, float gap)
+    // below면 패널 오른쪽 위 = target 오른쪽 아래 - gap
+    void PinBeside(RectTransform target, float gap, bool below)
     {
         if (target == null) return;
         var corners = new Vector3[4];
-        target.GetWorldCorners(corners);   // 0 왼쪽 아래, 1 왼쪽 위
-        Vector2 topLeft = canvasRect.InverseTransformPoint(corners[1]);
-        float top = Mathf.Max(Mathf.Min(topLeft.y, canvasRect.rect.yMax), canvasRect.rect.yMin + panel.rect.height);
+        target.GetWorldCorners(corners);   // 0 왼쪽 아래, 1 왼쪽 위, 3 오른쪽 아래
+        Vector2 corner = canvasRect.InverseTransformPoint(below ? corners[3] : corners[1]);
+        Vector2 pos = below ? new Vector2(corner.x, corner.y - gap) : new Vector2(corner.x - gap, corner.y);
+        pos.y = Mathf.Max(Mathf.Min(pos.y, canvasRect.rect.yMax), canvasRect.rect.yMin + panel.rect.height);
         panel.pivot = new Vector2(1f, 1f);
-        panel.anchoredPosition = new Vector2(topLeft.x - gap, top);
+        panel.anchoredPosition = pos;
     }
 
     public void Hide()
@@ -148,7 +151,14 @@ public class QuestDetailPanel : MonoBehaviour
 
     void Fill(QuestData quest, string fallbackName, string caption, ICollection<string> highlight, bool pinned)
     {
-        for (int i = content.childCount - 1; i >= 0; i--) Destroy(content.GetChild(i).gameObject);
+        // Destroy는 프레임 끝에 지워지므로 먼저 꺼서 레이아웃(높이 계산)에서 빼 둔다.
+        // 안 그러면 같은 프레임에 여러 번 그릴 때 높이가 쌓여 고정 창 위치가 화면 밖으로 밀린다
+        for (int i = content.childCount - 1; i >= 0; i--)
+        {
+            GameObject child = content.GetChild(i).gameObject;
+            child.SetActive(false);
+            Destroy(child);
+        }
 
         if (pinned) CaptionRow(caption);
         else if (!string.IsNullOrEmpty(caption))
@@ -169,7 +179,9 @@ public class QuestDetailPanel : MonoBehaviour
             Space(6f);
             Text(content, "목표", bodyFontSize - 1f, FontStyles.Bold, headerColor);
             // 지금 맵의 목표만 보여주고, 나머지는 "외 N개 목표 (다른 맵/공통)" 한 줄로 (지도 툴팁과 같은 형식)
-            Text(content, QuestText.Objectives(quest, highlight), bodyFontSize, FontStyles.Normal, textColor);
+            // 고정 창: 목표 줄을 클릭하면 완료 체크/해제 (QuestProgress). 호버 창은 마우스를 따라다녀 클릭할 수 없다
+            TMP_Text objectives = Text(content, QuestText.Objectives(quest, highlight, links: pinned), bodyFontSize, FontStyles.Normal, textColor);
+            if (pinned) MakeClickable(objectives).onClick = id => QuestProgress.Toggle(quest.key, id);
         }
 
         if (!string.IsNullOrEmpty(quest.guide))
@@ -186,7 +198,17 @@ public class QuestDetailPanel : MonoBehaviour
             foreach (QuestText.RequirementGroup g in QuestText.GroupRequirements(quest)) ItemRow(g);
         }
 
-        Footer(quest);
+        Footer(quest, pinned);
+    }
+
+    // 패널 전체는 마우스를 받지 않으므로(CanvasGroup) 이 글자만 따로 받게 한다
+    static TextLinkClick MakeClickable(TMP_Text label)
+    {
+        label.raycastTarget = true;
+        var group = label.gameObject.AddComponent<CanvasGroup>();
+        group.ignoreParentGroups = true;
+        group.blocksRaycasts = true;
+        return label.gameObject.AddComponent<TextLinkClick>();
     }
 
     // 고정 창 맨 위 줄: 경로 1번 퀘스트 · 약 120m ........ [—]
@@ -231,9 +253,15 @@ public class QuestDetailPanel : MonoBehaviour
         iconRt.offsetMin = iconRt.offsetMax = Vector2.zero;
     }
 
-    // 맨 아래 안내 (위키 링크가 있으면)
-    void Footer(QuestData quest)
+    // 맨 아래 안내: 고정 창은 목표 클릭 안내, 호버 창은 위키 (링크가 있으면)
+    void Footer(QuestData quest, bool pinned)
     {
+        if (pinned)
+        {
+            Space(4f);
+            Text(content, "목표 클릭: 완료 체크 / 해제", bodyFontSize - 3f, FontStyles.Italic, dimColor);
+            return;
+        }
         if (string.IsNullOrEmpty(quest.wikiLink)) return;
         Space(4f);
         Text(content, "우클릭: 위키 열기", bodyFontSize - 3f, FontStyles.Italic, dimColor);

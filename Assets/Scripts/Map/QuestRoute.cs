@@ -9,6 +9,7 @@ using UnityEngine.UI;
 //   - 탈출구/트랜짓 이름표를 클릭하면 그곳을 도착점으로 지정 (마지막 목표 → 탈출구까지 포함해 순서 계산)
 //     같은 이름표를 다시 클릭하면 해제. 맵별로 저장된다.
 //   - 한 목표에 위치가 여러 개면(퀘스트 아이템 후보 등) 그중 루트상 가장 유리한 한 곳만 방문
+//   - 직접 완료 체크한 목표(QuestProgress)는 빼고 계산
 //   - 위치가 없으면(WhereIAM 미설정) 출발점 없이 가장 짧은 순서
 // Play 중에만 동작한다 (편집 모드에서는 퀘스트가 전부 켜져 있어 루트가 의미 없음).
 [RequireComponent(typeof(RectTransform))]
@@ -92,6 +93,7 @@ public class QuestRoute : MonoBehaviour
         if (whereIAM != null) whereIAM.PoseChanged += OnPoseChanged;
         if (zoomPan == null) zoomPan = FindAnyObjectByType<MapZoomPan>();
         if (zoomPan != null) zoomPan.Clicking += OnMapClicking;
+        QuestProgress.Changed += OnProgressChanged;
         dirty = true;
     }
 
@@ -105,6 +107,7 @@ public class QuestRoute : MonoBehaviour
         }
         if (whereIAM != null) whereIAM.PoseChanged -= OnPoseChanged;
         if (zoomPan != null) zoomPan.Clicking -= OnMapClicking;
+        QuestProgress.Changed -= OnProgressChanged;
     }
 
     // 지도 클릭이 이름표 위면 도착점 지정/해제. 이름표 위 더블클릭은 화면 맞춤도 하지 않는다.
@@ -119,6 +122,7 @@ public class QuestRoute : MonoBehaviour
     void OnKeyChanged(string key, bool visible) => dirty = true;
     void OnTypeChanged(MarkerType type, bool visible) => dirty = true;
     void OnPoseChanged(WhereIAM w) => dirty = true;
+    void OnProgressChanged(string key) => dirty = true;
 
     void LateUpdate()
     {
@@ -169,6 +173,7 @@ public class QuestRoute : MonoBehaviour
         {
             if (m.type != MarkerType.Quest && m.type != MarkerType.QuestItem) continue;
             if (string.IsNullOrEmpty(m.key) || !markerLayer.IsKeyVisible(m.key) || !markerLayer.IsVisible(m.type)) continue;
+            if (QuestProgress.IsDone(m.key, m.objective)) continue;
 
             if (string.IsNullOrEmpty(m.objective))
             {
