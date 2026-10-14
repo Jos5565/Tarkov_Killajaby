@@ -5,14 +5,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using Member = PartyProtocol.Member;
 
-// 로비 오른쪽 위 파티 칸. 파티 버전이면 PartyEdition이 로비 캔버스에 붙인다.
+// 로비 오른쪽 아래 파티 칸. 파티 버전이면 PartyEdition이 로비 캔버스에 붙인다.
 //   파티 없음 : 닉네임, [파티 만들기], 초대 코드 입력 + [참가]
 //   방장      : 포트 열기 결과, 초대 코드(가림) [복사] [새 코드], 남은 시간, 참가자 + [내보내기], [파티 닫기]
 //   파티원    : 상태, 참가자, [파티 나가기]
 [RequireComponent(typeof(RectTransform))]
 public class PartyLobbyPanel : MonoBehaviour
 {
-    public float width = 380f;
+    public float width = 340f;
     public Vector2 margin = new Vector2(24f, 24f);
     public float fontSize = 16f;
 
@@ -48,8 +48,9 @@ public class PartyLobbyPanel : MonoBehaviour
         SelectButton.Inset(self, 0f, 0f, 0f, 0f);
 
         panel = PartyUi.Vertical(transform, "PartyPanel", 8f, new RectOffset(14, 14, 12, 14), PartyUi.Background);
-        panel.anchorMin = panel.anchorMax = panel.pivot = new Vector2(1f, 1f);
-        panel.anchoredPosition = new Vector2(-margin.x, -margin.y);
+        // 오른쪽 아래 (오른쪽 위는 창이 좁으면 맵 선택 버튼을 가린다). 내용이 늘면 위로 자란다
+        panel.anchorMin = panel.anchorMax = panel.pivot = new Vector2(1f, 0f);
+        panel.anchoredPosition = new Vector2(-margin.x, margin.y);
         panel.sizeDelta = new Vector2(width, 0f);
         var fitter = panel.gameObject.AddComponent<ContentSizeFitter>();
         fitter.verticalFit = ContentSizeFitter.FitMode.PreferredSize;

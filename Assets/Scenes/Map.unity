@@ -877,6 +877,7 @@ MonoBehaviour:
   markerScale: 1
   referenceViewSize: {x: 1480, y: 1000}
   keepScreenSize: 0
+  zoomGrowth: 0.6
   nameTagIconPath: Icon
   nameTagMergeDistance: 25
   areaLabelFont: {fileID: 0}
@@ -887,6 +888,7 @@ MonoBehaviour:
   transitSuffix: "\uC774\uB3D9"
   transitSuffixColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
   transitSuffixScale: 0.7
+  doneMarkerAlpha: 0.3
   noConditionText: "\uC870\uAC74 \uC5C6\uC74C"
   styles:
   - type: 3
@@ -922,7 +924,7 @@ MonoBehaviour:
   - type: 6
     visible: 1
     color: {r: 0.949, g: 0.718, b: 0.02, a: 1}
-    size: 22
+    size: 25
     sprite: {fileID: 21300000, guid: f466981618cf421fba78f907c9a72edc, type: 3}
     showInfo: 1
   - type: 1
@@ -1277,6 +1279,13 @@ MonoBehaviour:
     fill: {r: 0.765, g: 0.694, b: 0.565, a: 1}
     label: {r: 0.08, g: 0.08, b: 0.08, a: 1}
     icon: {r: 1, g: 1, b: 1, a: 1}
+  showQuestMarkerSlider: 1
+  questMarkerSliderLabel: "\uD018\uC2A4\uD2B8 \uB9C8\uCEE4 (\uCD5C\uB300 \uD655\uB300)"
+  sliderWidth: 240
+  sliderFontSize: 15
+  sliderGap: 12
+  sliderBackground: {r: 0.09, g: 0.09, b: 0.1, a: 0.88}
+  sliderTitleColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
 --- !u!1 &900000601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1812,6 +1821,14 @@ MonoBehaviour:
   maxZoom: 8
   zoomStep: 1.2
   doubleClickToReset: 1
+  whereIAM: {fileID: 0}
+  centerDuration: 0.35
+  font: {fileID: 0}
+  centerLabel: "\uB0B4 \uC704\uCE58\uB85C"
+  autoCenterLabel: "\uC704\uCE58 \uC790\uB3D9\uAC31\uC2E0"
+  buttonSize: {x: 150, y: 36}
+  buttonFontSize: 18
+  bottomMargin: 16
 --- !u!114 &1862011290
 MonoBehaviour:
   m_ObjectHideFlags: 0

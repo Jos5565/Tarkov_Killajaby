@@ -1,14 +1,19 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
 // 공유기(UPnP IGD)에 UDP 포트 열기/닫기를 요청한다. 외부 라이브러리 없이 표준 절차만 사용.
-//   1) SSDP: 같은 네트워크에 "인터넷 공유기 있나요?"를 방송(239.255.255.250:1900) → 공유기 설명 주소(LOCATION)
+//   1) SSDP: "인터넷 공유기 있나요?"를 방송(239.255.255.250:1900)하고, 기본 게이트웨이(공유기)에도 직접 물어본다
+//      → 공유기 설명 주소(LOCATION)
+//      직접 묻는 이유: 방송의 답장은 다른 주소(공유기)에서 오므로 Windows 방화벽이 막을 수 있고,
+//      가상 어댑터(VPN, Hyper-V 등)가 있으면 방송이 엉뚱한 어댑터로 나갈 수 있다. 게이트웨이로 보내면 둘 다 피한다
 //   2) 설명 XML에서 WANIPConnection / WANPPPConnection 제어 주소를 찾는다
 //   3) SOAP: GetExternalIPAddress, AddPortMapping(유지 시간 지정), DeletePortMapping
 // 공유기 설정은 바꾸지 않는다 (UPnP가 꺼져 있으면 찾지 못하고 끝).
@@ -32,20 +37,32 @@ public static class UpnpPortMapper
         "urn:schemas-upnp-org:service:WANPPPConnection:1",
     };
 
-    public static async Task<Gateway> DiscoverAsync(int timeoutMs = 2500)
+    // 마지막 공유기 찾기 결과 요약 (IP 없이 숫자만, 로그용)
+    public static string LastReport { get; private set; } = "";
+
+    public static async Task<Gateway> DiscoverAsync(int timeoutMs = 3000)
     {
+        List<IPAddress> gateways = PrivateGateways();
+        int responses = 0, descriptions = 0;
         try
         {
             using (var udp = new UdpClient(new IPEndPoint(IPAddress.Any, 0)))
             {
-                var target = new IPEndPoint(IPAddress.Parse("239.255.255.250"), 1900);
-                foreach (string st in SearchTargets)
-                {
-                    byte[] req = Encoding.ASCII.GetBytes(
-                        "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 2\r\nST: " + st + "\r\n\r\n");
-                    await udp.SendAsync(req, req.Length, target);
-                }
+                // Windows: 응답 없는 주소로 보냈을 때 받기가 오류로 끝나지 않게 (SIO_UDP_CONNRESET 끄기)
+                try { udp.Client.IOControl(-1744830452, new byte[] { 0 }, null); } catch (Exception) { }
 
+                var targets = new List<IPEndPoint> { new IPEndPoint(IPAddress.Parse("239.255.255.250"), 1900) };
+                targets.AddRange(gateways.Select(g => new IPEndPoint(g, 1900)));
+                for (int round = 0; round < 2; round++)   // UDP라 유실될 수 있어 두 번
+                    foreach (IPEndPoint target in targets)
+                        foreach (string st in SearchTargets)
+                        {
+                            byte[] req = Encoding.ASCII.GetBytes(
+                                "M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: \"ssdp:discover\"\r\nMX: 2\r\nST: " + st + "\r\n\r\n");
+                            try { await udp.SendAsync(req, req.Length, target); } catch (Exception) { }
+                        }
+
+                var tried = new HashSet<string>();
                 DateTime end = DateTime.UtcNow.AddMilliseconds(timeoutMs);
                 while (true)
                 {
@@ -54,18 +71,47 @@ public static class UpnpPortMapper
                     Task<UdpReceiveResult> receive = udp.ReceiveAsync();
                     Task done = await Task.WhenAny(receive, Task.Delay(remaining));
                     if (done != receive) break;
+                    if (receive.IsFaulted) continue;
+                    responses++;
                     string response = Encoding.ASCII.GetString(receive.Result.Buffer);
                     string location = Header(response, "LOCATION");
-                    if (location == null) continue;
+                    if (location == null || !tried.Add(location)) continue;   // 같은 공유기가 여러 번 답함
                     Gateway g = await ReadDescriptionAsync(location);
-                    if (g != null) return g;
+                    descriptions++;
+                    if (g != null)
+                    {
+                        LastReport = $"게이트웨이 {gateways.Count}개, 응답 {responses}개, 공유기 찾음";
+                        return g;
+                    }
                 }
             }
         }
         catch (Exception)
         {
         }
+        LastReport = $"게이트웨이 {gateways.Count}개, 응답 {responses}개, 설명 확인 {descriptions}개, 공유기 못 찾음";
         return null;
+    }
+
+    // 켜져 있는 어댑터들의 기본 게이트웨이 중 사설 주소 (공인 주소면 공유기가 없는 것이라 UPnP와 무관)
+    static List<IPAddress> PrivateGateways()
+    {
+        var list = new List<IPAddress>();
+        try
+        {
+            foreach (NetworkInterface ni in NetworkInterface.GetAllNetworkInterfaces())
+            {
+                if (ni.OperationalStatus != OperationalStatus.Up || ni.NetworkInterfaceType == NetworkInterfaceType.Loopback) continue;
+                foreach (GatewayIPAddressInformation g in ni.GetIPProperties().GatewayAddresses)
+                    if (g.Address.AddressFamily == AddressFamily.InterNetwork && IsPrivate(g.Address) && !list.Contains(g.Address))
+                        list.Add(g.Address);
+            }
+        }
+        catch (Exception)
+        {
+            // 어댑터 정보를 못 읽으면 방송만 쓴다
+        }
+        return list;
     }
 
     static string Header(string response, string name)

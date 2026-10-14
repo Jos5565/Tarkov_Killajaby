@@ -190,6 +190,7 @@ public class PartySession : MonoBehaviour
         SetStatus("공유기 포트 여는 중...", true);
 
         UpnpPortMapper.Gateway found = await UpnpPortMapper.DiscoverAsync();
+        Debug.Log("[Party] 공유기 찾기: " + UpnpPortMapper.LastReport);   // IP 없이 숫자만
         if (CurrentRole != Role.Starting) return;   // 그 사이에 닫음
         gateway = found;
         localAddress = gateway?.localAddress ?? GuessLocalAddress();
@@ -206,7 +207,7 @@ public class PartySession : MonoBehaviour
         }
         else if (gateway == null)
         {
-            status = "공유기 포트를 자동으로 열지 못했어요 (UPnP 꺼짐) — 같은 공유기 안에서만 참가할 수 있어요";
+            status = "공유기를 찾지 못했어요 (공유기 UPnP 꺼짐, 또는 방화벽에서 차단) — 같은 공유기 안에서만 참가할 수 있어요";
             ok = false;
         }
         else

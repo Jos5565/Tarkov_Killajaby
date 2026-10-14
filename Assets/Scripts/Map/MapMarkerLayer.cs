@@ -54,6 +54,10 @@ public class MapMarkerLayer : MonoBehaviour
     public Vector2 referenceViewSize = new Vector2(1480f, 1000f);
     [Tooltip("켜면 지도를 확대해도 마커가 화면에서 같은 크기로 유지된다 (예전 방식)")]
     public bool keepScreenSize = false;
+    [Range(0f, 1f)]
+    [Tooltip("확대할 때 마커가 커지는 정도. 1 = 지도와 똑같이 커짐, 0 = 화면 크기 고정. " +
+             "0.6이면 8배 확대에서 지도는 8배, 마커는 약 3.5배 (작을수록 가까이서 위치를 정확히 짚는다)")]
+    public float zoomGrowth = 0.6f;
     [Tooltip("NameTag 프리팹 안에서 색을 바꿀 아이콘 Image 경로")]
     public string nameTagIconPath = "Icon";
     [Tooltip("같은 종류 탈출구가 이 거리(m, 수평) 안에 모여 있으면 이름표 하나로 합친다. 0이면 합치지 않음")]
@@ -93,6 +97,8 @@ public class MapMarkerLayer : MonoBehaviour
     readonly Dictionary<MarkerType, RectTransform> groups = new Dictionary<MarkerType, RectTransform>();
     readonly List<RectTransform> items = new List<RectTransform>();
     readonly List<float> itemScales = new List<float>();
+    // 퀘스트 마커의 전체 보기 배율 (배틀패스 문서 마커와 같은 크기가 되게: 문서 크기 / 이 마커 크기). 퀘스트 마커가 아니면 0
+    readonly List<float> itemQuestFit = new List<float>();
     readonly Dictionary<string, List<GameObject>> keyItems = new Dictionary<string, List<GameObject>>();
     readonly HashSet<string> visibleKeys = new HashSet<string>();   // Play 중 켜진 퀘스트 (저장/불러오기)
     readonly List<KeyInfo> quests = new List<KeyInfo>();
@@ -105,6 +111,8 @@ public class MapMarkerLayer : MonoBehaviour
     (RectTransform rt, Transform parent, int index) lifted;
     bool dropPending;
     float lastMapScale = -1f;
+    float lastQuestBlend = -1f;
+    float lastQuestSetting = -1f;   // 슬라이더 값이 바뀌어도 다시 계산
 
     public bool IsBuilt { get; private set; }
 
@@ -191,6 +199,7 @@ public class MapMarkerLayer : MonoBehaviour
             EditorPreview.MarkDontSave(rt.gameObject);
             items.Add(rt);
             itemScales.Add(isNameTag ? nameTagScale : 1f);
+            itemQuestFit.Add(IsQuestType(marker.type) ? QuestFitRatio(style) : 0f);
             if (isNameTag) nameTags.Add((rt, marker));
 
             if (!string.IsNullOrEmpty(marker.key))
@@ -480,7 +489,8 @@ public class MapMarkerLayer : MonoBehaviour
         if (settings != null) settings.Save(SettingsKey);
     }
 
-    // 마커 크기: 기본은 지도 기준 고정 배율(지도와 함께 확대/축소).
+    // 마커 크기: 전체 보기에서는 지도 기준 배율(markerScale), 확대하면 지도보다 천천히 커진다(zoomGrowth).
+    //   화면 크기 ∝ 확대배율^zoomGrowth → 마커는 지도(MapContent) 자식이라 localScale = 기준 × 확대배율^(zoomGrowth-1)
     // keepScreenSize면 줌이 바뀔 때마다 역보정해 화면 크기를 유지한다.
     void LateUpdate()
     {
@@ -492,16 +502,47 @@ public class MapMarkerLayer : MonoBehaviour
         if (Application.isPlaying) UpdateNameTagHover();
 
         if (mapView == null) return;
-        float mapScale = keepScreenSize ? mapView.transform.localScale.x : ReferenceFitScale() / markerScale;
-        if (Mathf.Approximately(mapScale, lastMapScale)) return;
-        lastMapScale = mapScale;
+        float scale = mapView.transform.localScale.x;
+        float fit = mapView.FitScale;
+        float zoom = fit > 0f ? Mathf.Max(1f, scale / fit) : 1f;   // 전체 보기 = 1
+        float factor = keepScreenSize ? 1f / scale : markerScale / ReferenceFitScale() * Mathf.Pow(zoom, zoomGrowth - 1f);
+        float quest = QuestZoomBlend(zoom);
+        float questMax = QuestMaxZoomScale;
+        if (float.IsNaN(factor) || float.IsInfinity(factor)) return;
+        if (Mathf.Approximately(factor, lastMapScale) && Mathf.Approximately(quest, lastQuestBlend) &&
+            Mathf.Approximately(questMax, lastQuestSetting)) return;
+        lastMapScale = factor;
+        lastQuestBlend = quest;
+        lastQuestSetting = questMax;
 
-        float inv = 1f / mapScale;
         for (int i = 0; i < items.Count; i++)
         {
-            float s = inv * itemScales[i];
+            float fitRatio = itemQuestFit[i];
+            float questScale = fitRatio > 0f ? Mathf.Lerp(fitRatio, questMax, quest) : 1f;
+            float s = factor * itemScales[i] * questScale;
             items[i].localScale = new Vector3(s, s, 1f);
         }
+    }
+
+    // 퀘스트 마커 크기
+    //   전체 보기 : 배틀패스 문서 마커와 같은 크기 (QuestFitRatio)
+    //   최대 확대 : 퀘스트 마커 Style 크기 × 슬라이더 값 (지도 [로비] 버튼 왼쪽, 50~100%)
+    //   그 사이   : 확대 단계(휠 한 칸)마다 고르게 바뀌도록 로그 비율로 섞는다
+    // 0 = 전체 보기, 1 = 최대 확대
+    float QuestZoomBlend(float zoom)
+    {
+        if (zoomPan == null) zoomPan = FindAnyObjectByType<MapZoomPan>();
+        float maxZoom = zoomPan != null ? Mathf.Max(1.01f, zoomPan.maxZoom) : 8f;
+        return Mathf.Clamp01(Mathf.Log(zoom) / Mathf.Log(maxZoom));
+    }
+
+    static float QuestMaxZoomScale => Application.isPlaying ? AppSettings.QuestMarkerScale : 1f;
+
+    // 문서 마커 크기 / 이 퀘스트 마커 크기 (문서 Style이 없으면 1)
+    float QuestFitRatio(Style questStyle)
+    {
+        Style doc = styles.Find(s => BattlePassDocs.IsDoc(s.type));
+        return doc != null && doc.size > 0f && questStyle.size > 0f ? doc.size / questStyle.size : 1f;
     }
 
     // 이 맵 이미지가 referenceViewSize 안에 꽉 차게 보일 때의 배율.
@@ -672,6 +713,7 @@ public class MapMarkerLayer : MonoBehaviour
             EditorPreview.MarkDontSave(go);
             items.Add(rt);
             itemScales.Add(1f);
+            itemQuestFit.Add(0f);
             areaLabelCount++;
         }
     }
@@ -758,6 +800,7 @@ public class MapMarkerLayer : MonoBehaviour
         groups.Clear();
         items.Clear();
         itemScales.Clear();
+        itemQuestFit.Clear();
         keyItems.Clear();
         quests.Clear();
         placed.Clear();
