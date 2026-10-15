@@ -1433,7 +1433,16 @@ MonoBehaviour:
     name: "\uAE30\uC220 \uBB38\uC11C"
     group: 
     objective: 
-    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    detail: "\uC774 \uC790\uB9AC: \uAE30\uC220 \uBB38\uC11C, PMC \uC778\uC0AC \uAE30\uB85D"
+    floor: 
+    guide: 
+    position: {x: 135.9274, y: 3.78924, z: -187.3936}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uC774 \uC790\uB9AC: \uAE30\uC220 \uBB38\uC11C, PMC \uC778\uC0AC \uAE30\uB85D"
     floor: 
     guide: 
     position: {x: 135.9274, y: 3.78924, z: -187.3936}
@@ -1446,6 +1455,141 @@ MonoBehaviour:
     floor: 
     guide: 
     position: {x: 53.21925, y: 8.99543, z: -638.249}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: -75.044, y: 9.3756, z: -295.7008}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: 127.7289, y: 6.4966, z: 289.5117}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: -64.74065, y: 27.67054, z: 112.90411}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: -121.771, y: 39.87901, z: 103.747}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: -122.278, y: 40.99195, z: 82.097}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: -117.9099, y: 21.8695, z: -21.24855}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: -85.92, y: 22.6034, z: -74.232}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: -186.2455, y: 16.214, z: -211.221}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: -65.7593, y: 5.8246, z: -734.386}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: -178.775, y: 8.2072, z: -649.131}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: -92.5436, y: 1.0208, z: -489.8199}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: 52.6062, y: 5.5801, z: -553.5841}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: 34.54749, y: 12.99925, z: -845.7366}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: 142.8871, y: 3.7895, z: -130.93866}
+  - type: 18
+    key: 
+    name: "PMC \uC778\uC0AC \uAE30\uB85D"
+    group: 
+    objective: 
+    detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
+    floor: 
+    guide: 
+    position: {x: 50.165, y: 9.1058, z: -637.138}
   - type: 6
     key: 626bd75e47ea7f506e5493c5
     name: "\uBC29\uC1A1 - \uD30C\uD2B8 1"

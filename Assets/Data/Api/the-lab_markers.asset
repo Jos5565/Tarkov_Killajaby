@@ -1531,7 +1531,7 @@ MonoBehaviour:
     group: "\uB808\uD504"
     objective: 6a91bfe6964adc01452f2a42
     detail: "\uC2E4\uD5D8 \uAD6C\uC5ED \uCCAD\uC0AC\uC9C4\uC774 \uB2F4\uAE34 USB"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -167.97823, y: 1.01725, z: -359.4274}
   - type: 7
@@ -1540,7 +1540,7 @@ MonoBehaviour:
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 6672e47f25ab92726912c3e5
     detail: "LEDX \uD608\uAD00 \uD22C\uACFC\uC870\uBA85\uAE30 (\uBBF8\uAD6D \uBC84\uC804)"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -173.7443, y: 1.2538, z: -374.4323}
   - type: 6
@@ -1550,7 +1550,7 @@ MonoBehaviour:
     objective: 66b090f5723e7bbe8b518ca8
     detail: "\uC5F0\uAD6C\uC18C \uC11C\uBC84\uC2E4 \uC815\uCC30\uD558\uAE30 (\uD55C
       \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -127.06, y: 5.22, z: -309.28}
   - type: 6
@@ -1561,7 +1561,7 @@ MonoBehaviour:
     detail: "\uC5F0\uAD6C\uC18C\uC5D0\uC11C \uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uB85C
       \uC774\uC5B4\uC9C0\uB294 \uD1B5\uB85C \uCC3E\uAE30 (\uD55C \uB808\uC774\uB4DC
       \uC548\uC5D0\uC11C)"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -169.96, y: 0.91, z: -419.24}
   - type: 6
@@ -1571,7 +1571,7 @@ MonoBehaviour:
     objective: 66b0910951c5294b9d213918
     detail: "\uC5F0\uAD6C\uC18C \uC704\uD5D8 \uB3D4 \uC815\uCC30\uD558\uAE30 (\uD55C
       \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -172.44, y: 1.12, z: -370.93}
   - type: 6
@@ -1581,7 +1581,7 @@ MonoBehaviour:
     objective: 66b10eef0951e90ec383850b
     detail: "\uC5F0\uAD6C\uC18C \uC81C\uC5B4\uC2E4 \uC815\uCC30\uD558\uAE30 (\uD55C
       \uB808\uC774\uB4DC \uC548\uC5D0\uC11C)"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -170.76, y: 5.11, z: -283.12}
   - type: 6
@@ -1591,7 +1591,7 @@ MonoBehaviour:
     objective: 6a6070549ba7daf0a3ca7ae9
     detail: "\uC5F0\uAD6C\uC18C \uC0AC\uB2C8\uD0C0\uB974\uC758 \uC0AC\uBB34\uC2E4\uC5D0
       \uD608\uC561 \uC0D8\uD50C \uC228\uAE30\uAE30"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -131.95, y: 5.41, z: -336.87}
   - type: 6
@@ -1601,7 +1601,7 @@ MonoBehaviour:
     objective: 6a6070549ba7daf0a3ca7ae9
     detail: "\uC5F0\uAD6C\uC18C \uC0AC\uB2C8\uD0C0\uB974\uC758 \uC0AC\uBB34\uC2E4\uC5D0
       \uD608\uC561 \uC0D8\uD50C \uC228\uAE30\uAE30"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -131.95, y: 5.41, z: -336.87}
   - type: 7
@@ -1611,7 +1611,7 @@ MonoBehaviour:
     objective: 5eff5674befb6436ce3bbaf7
     detail: "\uD30C\uB780\uC0C9 \uD14C\uC774\uD504\uB85C \uD45C\uC2DC\uB41C \uD50C\uB798\uC2DC
       \uB4DC\uB77C\uC774\uBE0C"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -133.0114, y: 5.0157, z: -335.2083}
   - type: 6
@@ -1621,7 +1621,7 @@ MonoBehaviour:
     objective: 5eec9d054110547f1f545c99
     detail: "\uC5F0\uAD6C\uC18C(The Lab)\uC5D0\uC11C \uC138\uB2C8\uD0C0\uC758 \uC791\uC5C5
       \uACF5\uAC04 \uCC3E\uAE30"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -131.95, y: 5.41, z: -336.87}
   - type: 6
@@ -1630,7 +1630,7 @@ MonoBehaviour:
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 63a7cf9f04d3dc28a52a20fa
     detail: "\uC5F0\uAD6C\uC18C(The Lab)\uC758 \uBB34\uAE30 \uC2E4\uD5D8\uC2E4 \uC218\uC0C9\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -182.87, y: 1.29, z: -312.88}
   - type: 6
@@ -1639,7 +1639,7 @@ MonoBehaviour:
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 63a7cfe104d3dc28a52a20fc
     detail: "\uC5F0\uAD6C\uC18C(The Lab)\uC758 \uC784\uC0C1 \uC2E4\uD5D8\uC2E4 \uC218\uC0C9\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -131.54, y: 1, z: -357.84}
   - type: 7
@@ -1648,7 +1648,7 @@ MonoBehaviour:
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639ae49a5e3c9b787264d675
     detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -169.11845, y: 5.15173, z: -342.1145}
   - type: 7
@@ -1657,7 +1657,7 @@ MonoBehaviour:
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639ae49a5e3c9b787264d675
     detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -178.46817, y: 4.99133, z: -343.61017}
   - type: 7
@@ -1666,7 +1666,7 @@ MonoBehaviour:
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639ae49a5e3c9b787264d675
     detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -167.89156, y: 4.13383, z: -343.64188}
   - type: 7
@@ -1675,7 +1675,7 @@ MonoBehaviour:
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639ae49a5e3c9b787264d675
     detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -170.75114, y: 5.1389303, z: -343.6096}
   - type: 7
@@ -1684,7 +1684,7 @@ MonoBehaviour:
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639ae49a5e3c9b787264d675
     detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -178.30911, y: 4.99103, z: -344.88052}
   - type: 7
@@ -1693,7 +1693,7 @@ MonoBehaviour:
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639ae49a5e3c9b787264d675
     detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -163.07448, y: 4.7945304, z: -342.11642}
   - type: 7
@@ -1702,7 +1702,7 @@ MonoBehaviour:
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639ae49a5e3c9b787264d675
     detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -160.83812, y: 4.5300303, z: -340.5346}
   - type: 7
@@ -1711,7 +1711,7 @@ MonoBehaviour:
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639ae49a5e3c9b787264d675
     detail: "\uBCF4\uC548 \uD14C\uC774\uD504"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -161.39708, y: 4.80383, z: -346.8847}
   quests:

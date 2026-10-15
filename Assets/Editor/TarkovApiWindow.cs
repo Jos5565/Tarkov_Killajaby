@@ -318,13 +318,13 @@ public class TarkovApiWindow : EditorWindow
                     string itemName = tr.Get(questItems?[(string)obj["questItem"] ?? ""]?["name"]);
                     foreach (JToken p in Items(loc["positions"]))
                         if (TryPos(p, out Vector3 pos))
-                            markers.Add(new MapMarker { type = MarkerType.QuestItem, key = taskId, objective = objectiveId, name = taskName, group = trader, detail = itemName, position = pos });
+                            markers.Add(new MapMarker { type = MarkerType.QuestItem, key = taskId, objective = objectiveId, name = taskName, group = trader, detail = itemName, floor = FloorName(floors, pos), position = pos });
                 }
 
                 foreach (JToken zone in Items(obj["zones"]))
                 {
                     if ((string)zone["map"] != mapId || !TryPos(zone["position"], out Vector3 pos)) continue;
-                    markers.Add(new MapMarker { type = MarkerType.Quest, key = taskId, objective = objectiveId, name = taskName, group = trader, detail = tr.Get(obj["description"]), position = pos });
+                    markers.Add(new MapMarker { type = MarkerType.Quest, key = taskId, objective = objectiveId, name = taskName, group = trader, detail = tr.Get(obj["description"]), floor = FloorName(floors, pos), position = pos });
                 }
             }
 

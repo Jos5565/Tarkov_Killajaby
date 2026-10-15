@@ -233,6 +233,7 @@ public class PartyMapView : MonoBehaviour
         {
             foreach (Transform child in whereIAM.transform)
             {
+                if (child.name == "Pulse" || !child.gameObject.activeSelf) continue;   // 위치 갱신 효과, 꺼진 그래픽은 빼고
                 Transform copy = Instantiate(child, arrow, false);
                 foreach (MonoBehaviour behaviour in copy.GetComponentsInChildren<MonoBehaviour>(true))
                     if (!(behaviour is Graphic)) Destroy(behaviour);

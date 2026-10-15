@@ -4039,7 +4039,7 @@ MonoBehaviour:
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 639135d89444fb141f4e6eeb
     detail: "\uC8FC\uD0DD \uAD00\uB9AC\uC18C \uC77C\uC9C0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 80.18001, y: 3.9165, z: 143.7027}
   - type: 6
@@ -4049,7 +4049,7 @@ MonoBehaviour:
     objective: 64f5aac4b63b74469b6c14c7
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
       \uD504\uB77C\uD37C\uC758 \uCE5C\uAD6C\uC758 \uC9C1\uC7A5 \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 246.25, y: -0.33, z: 52.42}
   - type: 6
@@ -4059,7 +4059,7 @@ MonoBehaviour:
     objective: 6a26943d55478d73e6b4fadf
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
       \uD504\uB77C\uD37C\uC758 \uCE5C\uAD6C\uC758 \uC544\uD30C\uD2B8 \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 131.43, y: 7.59, z: 232.37}
   - type: 7
@@ -4068,7 +4068,7 @@ MonoBehaviour:
     group: "\uD504\uB77C\uD37C"
     objective: 64f5b876a2a5bb727b61c5ad
     detail: "\uC77C\uC9C0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 245.89398, y: -0.6870003, z: 55.196}
   - type: 7
@@ -4077,7 +4077,7 @@ MonoBehaviour:
     group: "\uD504\uB77C\uD37C"
     objective: 64f5b876a2a5bb727b61c5ad
     detail: "\uC77C\uC9C0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 249.29099, y: -0.5653, z: 57.7654}
   - type: 7
@@ -4086,7 +4086,7 @@ MonoBehaviour:
     group: "\uD504\uB77C\uD37C"
     objective: 64f5b876a2a5bb727b61c5ad
     detail: "\uC77C\uC9C0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 247.16199, y: -0.47999954, z: 51.082}
   - type: 7
@@ -4095,7 +4095,7 @@ MonoBehaviour:
     group: "\uD504\uB77C\uD37C"
     objective: 64f5b876a2a5bb727b61c5ad
     detail: "\uC77C\uC9C0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 245.60138, y: -0.32450008, z: 57.9813}
   - type: 7
@@ -4104,7 +4104,7 @@ MonoBehaviour:
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 64f6a9e6dd44b6417729b535
     detail: "\uC694\uB9AC\uC0AC\uC758 \uC77C\uAE30\uC7A5"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -26.149, y: 10.6282, z: -56.0783}
   - type: 7
@@ -4113,7 +4113,7 @@ MonoBehaviour:
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 64f6a9e6dd44b6417729b535
     detail: "\uC694\uB9AC\uC0AC\uC758 \uC77C\uAE30\uC7A5"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -42.788002, y: 10.1146, z: -66.412}
   - type: 7
@@ -4122,7 +4122,7 @@ MonoBehaviour:
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 64f6a9e6dd44b6417729b535
     detail: "\uC694\uB9AC\uC0AC\uC758 \uC77C\uAE30\uC7A5"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: -29.297, y: 10.104, z: -70.153}
   - type: 7
@@ -4131,7 +4131,7 @@ MonoBehaviour:
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 64f6a9e6dd44b6417729b535
     detail: "\uC694\uB9AC\uC0AC\uC758 \uC77C\uAE30\uC7A5"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -41.380898, y: 5.9082, z: -42.932404}
   - type: 7
@@ -4140,7 +4140,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 638fd070202cd55bee01ca11
     detail: "\uD68C\uACC4\uC0AC\uC758 \uBA54\uBAA8"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -177.12001, y: 6.1466, z: 227.1259}
   - type: 6
@@ -4150,7 +4150,7 @@ MonoBehaviour:
     objective: 63a7d8665199ab1f7d4a7747
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uAC10\uC2DC \uC7A5\uC18C
       \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -67.75, y: 5.95, z: 65.88}
   - type: 7
@@ -4159,7 +4159,7 @@ MonoBehaviour:
     group: "\uBA54\uCE74\uB2C9"
     objective: 639136fa9444fb141f4e6eef
     detail: "\uB179\uC74C\uC774 \uB2F4\uAE34 \uD50C\uB798\uC2DC \uB4DC\uB77C\uC774\uBE0C"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -70.079, y: 5.7520537, z: 69.437}
   - type: 7
@@ -4168,7 +4168,7 @@ MonoBehaviour:
     group: "\uBA54\uCE74\uB2C9"
     objective: 639136fa9444fb141f4e6eef
     detail: "\uB179\uC74C\uC774 \uB2F4\uAE34 \uD50C\uB798\uC2DC \uB4DC\uB77C\uC774\uBE0C"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -65.262, y: 5.8899994, z: 66.363}
   - type: 6
@@ -4178,7 +4178,7 @@ MonoBehaviour:
     objective: 657356c410becd24bc776f55
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uC774\uBC1C\uC18C \uC548\uC5D0
       Bomber \uBE44\uB2C8 \uC228\uAE30\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 206.61, y: 4.33, z: 411.78}
   - type: 6
@@ -4188,7 +4188,7 @@ MonoBehaviour:
     objective: 657356d0a95a1e7e1a8d8d99
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uC774\uBC1C\uC18C \uC548\uC5D0
       RayBench Hipster Reserve \uC120\uAE00\uB77C\uC2A4 \uC228\uAE30\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 214.29, y: 4.25, z: 409.26}
   - type: 6
@@ -4198,7 +4198,7 @@ MonoBehaviour:
     objective: 63a7d99804d3dc28a52a2106
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uC2DD\uB8CC\uD488\uC810 \uC548\uC5D0\uC11C
       \uD53C\uC758 \uBC29\uC1A1 \uC7A5\uC18C \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 157.36, y: 5.1, z: 314.25}
   - type: 7
@@ -4207,7 +4207,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 6679884cef969161e3e9d64d
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC \uAE30\uB150\uD488 \uC5F4\uC1E0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 245.67201, y: -3.622, z: 50.760002}
   - type: 7
@@ -4216,7 +4216,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 6679884cef969161e3e9d64d
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC \uAE30\uB150\uD488 \uC5F4\uC1E0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 246.69151, y: -0.07700001, z: 47.761}
   - type: 7
@@ -4225,7 +4225,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 6679884cef969161e3e9d64d
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC \uAE30\uB150\uD488 \uC5F4\uC1E0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 247.70201, y: -0.403, z: 58.834}
   - type: 7
@@ -4234,7 +4234,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 6679884cef969161e3e9d64d
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC \uAE30\uB150\uD488 \uC5F4\uC1E0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 243.3352, y: -3.6153, z: 52.953503}
   - type: 7
@@ -4243,7 +4243,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 6679884cef969161e3e9d64d
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC \uAE30\uB150\uD488 \uC5F4\uC1E0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 248.9992, y: -3.6352, z: 53.766003}
   - type: 7
@@ -4252,7 +4252,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 6679884cef969161e3e9d64d
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC \uAE30\uB150\uD488 \uC5F4\uC1E0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 242.953, y: -0.7722, z: 55.2452}
   - type: 7
@@ -4261,7 +4261,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 6679884cef969161e3e9d64d
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC \uAE30\uB150\uD488 \uC5F4\uC1E0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 248.3334, y: -3.6317, z: 55.362602}
   - type: 6
@@ -4272,7 +4272,7 @@ MonoBehaviour:
     objective: 63a7db4a3e491955e65fb88b
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
       \uD504\uB77C\uD37C\uC758 \uCE5C\uAD6C\uC758 \uC544\uD30C\uD2B8 \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 131.43, y: 7.59, z: 232.37}
   - type: 6
@@ -4282,7 +4282,7 @@ MonoBehaviour:
     objective: 63ac22b8f627f540861d1b2d
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uB0A1\uC740 \uC9D1 \uC548\uC5D0\uC11C
       \uD53C\uC758 \uBC29\uC1A1 \uC7A5\uC18C \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -204.67, y: 3.26, z: 242.99}
   - type: 6
@@ -4292,7 +4292,7 @@ MonoBehaviour:
     objective: 63a7d6d61f06d111271f5aeb
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uAD11\uC2E0\uB3C4
       \uBAA8\uC784 \uC7A5\uC18C \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -130.8, y: 9.49, z: 269.74}
   - type: 6
@@ -4302,7 +4302,7 @@ MonoBehaviour:
     objective: 64ee9a979878a0569d6ec8cb
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uCCB4\uCE74\uB098\uC57C \uAC70\uB9AC\uC758
       \uC758\uC2DD \uC7A5\uC18C \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 188.39, y: 0.76, z: 226.51}
   - type: 6
@@ -4311,7 +4311,7 @@ MonoBehaviour:
     group: "\uC608\uAC70"
     objective: 64ee9b5a1a5f313cb144bf87
     detail: "\uC758\uC2DD \uC7A5\uC18C\uC5D0 \uAD11\uC2E0\uB3C4 \uCE7C \uC228\uAE30\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 188.59, y: 0.37, z: 226.38}
   - type: 6
@@ -4322,7 +4322,7 @@ MonoBehaviour:
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC788\uB294
       \uCCA0\uC870\uB9DD\uC5D0 \uAC10\uAE34 \uC2DC\uCCB4\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
       \uC124\uCE58\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 181.24, y: 1.17, z: 228.68}
   - type: 6
@@ -4333,7 +4333,7 @@ MonoBehaviour:
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC788\uB294
       \uD53C\uC790\uB97C \uC88B\uC544\uD558\uB294 \uC591\uC11C\uB958\uB4E4\uC758
       \uC740\uC2E0\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -263.27, y: -2.03, z: 206.44}
   - type: 6
@@ -4344,7 +4344,7 @@ MonoBehaviour:
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC788\uB294
       \uC815\uB9D0 \uC73C\uC2A4\uC2A4\uD55C \uBCBD\uC758 \uAD6C\uBA4D\uC5D0 Wi-Fi
       \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 209.4, y: 0.96, z: 231.01}
   - type: 6
@@ -4355,7 +4355,7 @@ MonoBehaviour:
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC788\uB294
       \uBD88\uC5D0 \uD0C4 \uC18C\uB140\uC758 \uBCD1\uC2E4\uC5D0 Wi-Fi \uCE74\uBA54\uB77C
       \uC124\uCE58\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 182.81, y: 2.48, z: 111.74}
   - type: 6
@@ -4365,7 +4365,7 @@ MonoBehaviour:
     objective: 63a7d8f404d3dc28a52a2104
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC74C\uC545\uAC00\uB4E4\uC758
       \uBAA8\uC784 \uC7A5\uC18C \uCC3E\uAE30"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 42.98, y: 11.75, z: 151.46}
   - type: 7
@@ -4374,7 +4374,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 639135bbc115f907b14700a7
     detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 41.052006, y: 12.560199, z: 154.98201}
   - type: 7
@@ -4383,7 +4383,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 639135bbc115f907b14700a7
     detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 34.95802, y: 12.501999, z: 152.32729}
   - type: 7
@@ -4392,7 +4392,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 639135bbc115f907b14700a7
     detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 36.349213, y: 12.278599, z: 148.5618}
   - type: 7
@@ -4401,7 +4401,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 639135bbc115f907b14700a7
     detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 42.291004, y: 12.553749, z: 148.51831}
   - type: 7
@@ -4410,7 +4410,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 639135bbc115f907b14700a7
     detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 42.913, y: 11.729299, z: 152.35751}
   - type: 7
@@ -4419,7 +4419,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 639135bbc115f907b14700a7
     detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 36.995472, y: 12.501999, z: 153.30731}
   - type: 7
@@ -4428,7 +4428,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 639135bbc115f907b14700a7
     detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 44.3447, y: 12.643499, z: 151.7695}
   - type: 7
@@ -4437,7 +4437,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 639135bbc115f907b14700a7
     detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 44.6515, y: 11.760698, z: 149.32391}
   - type: 7
@@ -4446,7 +4446,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 639135bbc115f907b14700a7
     detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 36.493984, y: 11.8429985, z: 157.48001}
   - type: 7
@@ -4455,7 +4455,7 @@ MonoBehaviour:
     group: "\uB798\uADF8\uB9E8"
     objective: 639135bbc115f907b14700a7
     detail: "AG \uAE30\uD0C0 \uD53C\uD06C"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 40.601604, y: 11.7158985, z: 153.7631}
   - type: 6
@@ -4465,7 +4465,7 @@ MonoBehaviour:
     objective: 63a7dbefee7b4d0d5507baf8
     detail: "\uAD50\uB3C4\uAD00\uC5D0\uAC8C \uBB34\uC2A8 \uC77C\uC774 \uC788\uC5C8\uB294\uC9C0
       \uC54C\uC544\uB0B4\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 106.77, y: 4.65, z: 222.48}
   - type: 6
@@ -4475,7 +4475,7 @@ MonoBehaviour:
     objective: 63a7dbc31943b749b5021ec3
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC784\uC2DC \uAC10\uC625
       \uAD50\uB3C4\uAD00\uC758 \uC544\uD30C\uD2B8 \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 107.93, y: 7.57, z: 232.19}
   - type: 6
@@ -4486,7 +4486,7 @@ MonoBehaviour:
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
       \uAD8C\uCD1D\uC73C\uB85C Stylobate \uAC74\uBB3C\uC5D0 \uC788\uB294 \uBAA8\uB4E0
       \uBAA9\uD45C\uBB3C\uC744 \uC0AC\uC0B4\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -97.2, y: 8.6, z: -10.7}
   - type: 6
@@ -4497,7 +4497,7 @@ MonoBehaviour:
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
       SMG\uB97C \uC0AC\uC6A9\uD558\uC5EC Rodina \uC601\uD654\uAD00\uC5D0 \uC788\uB294
       \uBAA8\uB4E0 \uBAA9\uD45C\uBB3C \uC0AC\uC0B4\uD558\uAE30"
-    floor: 
+    floor: "3\uCE35"
     guide: 
     position: {x: -180.4, y: 16.5, z: 399.5}
   - type: 7
@@ -4506,7 +4506,7 @@ MonoBehaviour:
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 639135534b15ca31f76bc318
     detail: "\uBCF4\uC548 \uD50C\uB798\uC2DC \uB4DC\uB77C\uC774\uBE0C"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 66.800995, y: 7.7271996, z: 303.143}
   - type: 7
@@ -4515,7 +4515,7 @@ MonoBehaviour:
     group: "\uD504\uB77C\uD37C"
     objective: 6391359b9444fb141f4e6ee7
     detail: "\uB4F1\uAE30 \uD3B8\uC9C0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 36.107998, y: 1.2919998, z: 126.599}
   - type: 7
@@ -4524,7 +4524,7 @@ MonoBehaviour:
     group: "\uD504\uB77C\uD37C"
     objective: 6391359b9444fb141f4e6ee7
     detail: "\uB4F1\uAE30 \uD3B8\uC9C0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 39.234997, y: 1.5159998, z: 117.6931}
   - type: 7
@@ -4533,7 +4533,7 @@ MonoBehaviour:
     group: "\uD504\uB77C\uD37C"
     objective: 6391359b9444fb141f4e6ee7
     detail: "\uB4F1\uAE30 \uD3B8\uC9C0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 39.475, y: 1.1955996, z: 113.47099}
   - type: 7
@@ -4542,7 +4542,7 @@ MonoBehaviour:
     group: "\uD504\uB77C\uD37C"
     objective: 6391359b9444fb141f4e6ee7
     detail: "\uB4F1\uAE30 \uD3B8\uC9C0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 42.395695, y: 1.9179997, z: 118.768196}
   - type: 6
@@ -4552,7 +4552,7 @@ MonoBehaviour:
     objective: 63a7da6f5199ab1f7d4a774a
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uBC1C\uB808 \uB9C8\uC2A4\uD130\uC758
       \uC544\uD30C\uD2B8 \uCC3E\uAE30"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 47.63, y: 12.66, z: 153.12}
   - type: 6
@@ -4562,7 +4562,7 @@ MonoBehaviour:
     objective: 63a7d767f32fa1316250c3da
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC2E4\uC885\uB41C
       \uADF8\uB8F9\uC774 \uBD99\uC7A1\uD600 \uC788\uB358 \uACF3 \uCC3E\uAE30"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 127.09, y: 10.64, z: 232.57}
   - type: 6
@@ -4572,7 +4572,7 @@ MonoBehaviour:
     objective: 6a5a95f70cfa2d5efcf39d77
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uCC44\uBB34\uC790
       \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -80.26, y: 5.98, z: 50.5}
   - type: 6
@@ -4582,7 +4582,7 @@ MonoBehaviour:
     objective: 63a7d64710b7a13eb015961f
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC704\uCE58\uD55C
       \uD654\uD559 \uC2E4\uD5D8\uC2E4 \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 92.96, y: 3.59, z: 320.38}
   - type: 7
@@ -4591,7 +4591,7 @@ MonoBehaviour:
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 639135e0fa894f0a866afde7
     detail: "\uC0D8\uD50C\uC774 \uB4E0 \uD654\uD559\uBB3C\uC9C8 \uC6A9\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 95.8846, y: 2.6708999, z: 319.08118}
   - type: 7
@@ -4600,7 +4600,7 @@ MonoBehaviour:
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 639135e0fa894f0a866afde7
     detail: "\uC0D8\uD50C\uC774 \uB4E0 \uD654\uD559\uBB3C\uC9C8 \uC6A9\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 91.192, y: 2.6707, z: 323.2334}
   - type: 7
@@ -4609,7 +4609,7 @@ MonoBehaviour:
     group: "\uBA54\uCE74\uB2C9"
     objective: 639135e8c115f907b14700ab
     detail: "\uC791\uB3D9\uD558\uB294 \uD558\uB4DC \uB4DC\uB77C\uC774\uBE0C"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 208.443, y: -0.3692007, z: 412.14648}
   - type: 7
@@ -4618,7 +4618,7 @@ MonoBehaviour:
     group: "\uBA54\uCE74\uB2C9"
     objective: 639135e8c115f907b14700ab
     detail: "\uC791\uB3D9\uD558\uB294 \uD558\uB4DC \uB4DC\uB77C\uC774\uBE0C"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 208.7273, y: -0.44880104, z: 408.63458}
   - type: 7
@@ -4627,7 +4627,7 @@ MonoBehaviour:
     group: "\uBA54\uCE74\uB2C9"
     objective: 639135e8c115f907b14700ab
     detail: "\uC791\uB3D9\uD558\uB294 \uD558\uB4DC \uB4DC\uB77C\uC774\uBE0C"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 210.5096, y: -0.773201, z: 407.50043}
   - type: 7
@@ -4636,7 +4636,7 @@ MonoBehaviour:
     group: "\uBA54\uCE74\uB2C9"
     objective: 639135e8c115f907b14700ab
     detail: "\uC791\uB3D9\uD558\uB294 \uD558\uB4DC \uB4DC\uB77C\uC774\uBE0C"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 213.23589, y: -0.88670063, z: 410.32123}
   - type: 6
@@ -4646,7 +4646,7 @@ MonoBehaviour:
     objective: 63927f14744e452011470816
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uC9C0\uC5ED\uC5D0\uC11C
       \uCCAB \uBC88\uC9F8 LAV III\uB97C \uCC3E\uC544 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -139.43, y: 3.56, z: 438.81}
   - type: 6
@@ -4656,7 +4656,7 @@ MonoBehaviour:
     objective: 63927f2d8ba6894d155e77e6
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uC9C0\uC5ED\uC5D0\uC11C
       Stryker \uC7A5\uAC11\uCC28\uB97C \uCC3E\uC544 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 146.31, y: 4.7, z: 408.41}
   - type: 6
@@ -4666,7 +4666,7 @@ MonoBehaviour:
     objective: 63927f349444fb141f4e6f24
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uC9C0\uC5ED\uC5D0\uC11C
       \uB450 \uBC88\uC9F8 LAV III\uB97C \uCC3E\uC544 MS2000 \uB9C8\uCEE4 \uC124\uCE58\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 2.19, y: 0.9, z: 34.04}
   - type: 6
@@ -4676,7 +4676,7 @@ MonoBehaviour:
     objective: 63a7d53904d3dc28a52a2100
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
       \uD654\uBB3C \uC218\uC1A1\uB300 \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 15.65, y: 3.39, z: 226.62}
   - type: 6
@@ -4685,7 +4685,7 @@ MonoBehaviour:
     group: "\uD504\uB77C\uD37C"
     objective: 63a7d58004d3dc28a52a2102
     detail: "\uB9E4\uBCF5 \uC9C0\uC810 \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 62.18, y: 7.11, z: 272.84}
   - type: 6
@@ -4694,7 +4694,7 @@ MonoBehaviour:
     group: "\uD53C\uC2A4\uD0A4\uD37C"
     objective: 63a7d461f32fa1316250c3d7
     detail: "\uB9E4\uBCF5 \uC9C0\uC810 \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 62.18, y: 7.11, z: 272.84}
   - type: 6
@@ -4704,7 +4704,7 @@ MonoBehaviour:
     objective: 63a7d444f32fa1316250c3d5
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
       \uD654\uBB3C \uC218\uC1A1\uB300 \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 15.65, y: 3.39, z: 226.62}
   - type: 6
@@ -4714,7 +4714,7 @@ MonoBehaviour:
     objective: 63a7cee004d3dc28a52a20f8
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC815\uBCF4\uC6D0\uC758
       \uC608\uBE44 \uC740\uC2E0\uCC98 \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -130.4, y: 3.2, z: 396.47}
   - type: 7
@@ -4723,7 +4723,7 @@ MonoBehaviour:
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 63990a1ddcdd126fef1771c1
     detail: "\uC815\uBCF4\uC6D0\uC758 \uC77C\uC9C0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -127.914, y: 2.3809996, z: 397.04297}
   - type: 7
@@ -4732,7 +4732,7 @@ MonoBehaviour:
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 63990a1ddcdd126fef1771c1
     detail: "\uC815\uBCF4\uC6D0\uC758 \uC77C\uC9C0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -129.309, y: 2.3735995, z: 392.5885}
   - type: 7
@@ -4741,7 +4741,7 @@ MonoBehaviour:
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 63990a1ddcdd126fef1771c1
     detail: "\uC815\uBCF4\uC6D0\uC758 \uC77C\uC9C0"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -132.2276, y: 2.3789997, z: 397.61707}
   - type: 6
@@ -4752,7 +4752,7 @@ MonoBehaviour:
     detail: "\uCF58\uCF54\uB974\uB514\uC544\uC5D0\uC11C \uACF5\uC0AC\uC7A5\uC774
       \uB0B4\uB824\uB2E4\uBCF4\uC774\uB294 \uC88B\uC740 \uC800\uACA9 \uC704\uCE58
       \uCC3E\uAE30"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 219.39, y: 10.32, z: 397.48}
   - type: 6
@@ -4763,7 +4763,7 @@ MonoBehaviour:
     detail: "\uCF58\uCF54\uB974\uB514\uC544\uC5D0\uC11C \uACF5\uC0AC\uC7A5\uC774
       \uB0B4\uB824\uB2E4\uBCF4\uC774\uB294 \uC88B\uC740 \uC800\uACA9 \uC704\uCE58
       \uCC3E\uAE30"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 224.98, y: 10.34, z: 396.67}
   - type: 6
@@ -4774,7 +4774,7 @@ MonoBehaviour:
     detail: "\uCF58\uCF54\uB974\uB514\uC544\uC5D0\uC11C \uACF5\uC0AC\uC7A5\uC774
       \uB0B4\uB824\uB2E4\uBCF4\uC774\uB294 \uC88B\uC740 \uC800\uACA9 \uC704\uCE58
       \uCC3E\uAE30"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 214.79, y: 10.32, z: 398.14}
   - type: 6
@@ -4784,7 +4784,7 @@ MonoBehaviour:
     objective: 639c359f0a20a7001f00c7a8
     detail: "\uBE68\uAC04 \uD0C1\uC790 \uADFC\uCC98\uC5D0 AI Tactical Sound Moderator
       .338 LM \uC228\uAE30\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 228.19, y: 9.88, z: 396.7}
   - type: 6
@@ -4794,7 +4794,7 @@ MonoBehaviour:
     objective: 639c359f0a20a7001f00c7a8
     detail: "\uBE68\uAC04 \uD0C1\uC790 \uADFC\uCC98\uC5D0 AI Tactical Sound Moderator
       .338 LM \uC228\uAE30\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 218.21, y: 9.9, z: 396.31}
   - type: 6
@@ -4804,7 +4804,7 @@ MonoBehaviour:
     objective: 639c359f0a20a7001f00c7a8
     detail: "\uBE68\uAC04 \uD0C1\uC790 \uADFC\uCC98\uC5D0 AI Tactical Sound Moderator
       .338 LM \uC228\uAE30\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 215.75, y: 9.79, z: 395.9}
   - type: 6
@@ -4815,7 +4815,7 @@ MonoBehaviour:
     detail: "\uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4\uC5D0\uC11C \uC601\uD654\uAD00\uC774
       \uB0B4\uB824\uB2E4\uBCF4\uC774\uB294 \uC88B\uC740 \uC800\uACA9 \uC704\uCE58
       \uCC3E\uAE30"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 36.98, y: 11.08, z: 88.17}
   - type: 6
@@ -4826,7 +4826,7 @@ MonoBehaviour:
     detail: "\uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4\uC5D0\uC11C \uC601\uD654\uAD00\uC774
       \uB0B4\uB824\uB2E4\uBCF4\uC774\uB294 \uC88B\uC740 \uC800\uACA9 \uC704\uCE58
       \uCC3E\uAE30"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 37.87, y: 12.66, z: 155.78}
   - type: 6
@@ -4836,7 +4836,7 @@ MonoBehaviour:
     objective: 639c39807c1532d85b0162a9
     detail: "\uB9C8\uD638\uB974\uC758 \uCE68\uB300 \uBC11\uC5D0 Trijicon REAP-IR
       \uC5F4\uD654\uC0C1 \uC870\uC900\uACBD \uC228\uAE30\uAE30"
-    floor: 
+    floor: "2\uCE35"
     guide: 
     position: {x: 37.98, y: 12.15, z: 156.24}
   - type: 6
@@ -4847,7 +4847,7 @@ MonoBehaviour:
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov) \uD654\uBB3C\uC744
       \uC6B4\uC1A1\uC911\uC774\uB358 \uAE30\uAC11 \uD638\uC1A1\uB300 \uC704\uCE58
       \uD30C\uC545\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 15.65, y: 3.39, z: 226.62}
   - type: 6
@@ -4856,7 +4856,7 @@ MonoBehaviour:
     group: "\uB4F1\uB300\uC9C0\uAE30"
     objective: 639aea2228d8a21b593a3491
     detail: "\uD654\uBB3C \uAD6C\uC5ED\uC5D0 MS2000 \uB9C8\uCEE4 \uBD80\uCC29\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 10.49, y: 4.75, z: 217.56}
   - type: 6
@@ -4866,7 +4866,7 @@ MonoBehaviour:
     objective: 63bd64ba3d34b0e64b0d0a17
     detail: "\uAE30\uAC11 \uD638\uC1A1\uB300 \uC778\uADFC\uC5D0\uC11C \uD669\uC0C9
       \uC2E0\uD638\uD0C4 \uBC1C\uC0AC\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 9.69, y: 8.55, z: 217.15}
   - type: 6
@@ -4876,7 +4876,7 @@ MonoBehaviour:
     objective: 63a7cd3aee7b4d0d5507baee
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uCC44\uBB34\uC790
       \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -80.26, y: 5.98, z: 50.5}
   - type: 6
@@ -4886,7 +4886,7 @@ MonoBehaviour:
     objective: 6a5a9710671cbfe928bbfde2
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C \uC0AC\uC124 \uAC10\uC625
       \uAD50\uB3C4\uAD00\uC758 \uC544\uD30C\uD2B8 \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 107.93, y: 7.57, z: 232.19}
   - type: 6
@@ -4896,7 +4896,7 @@ MonoBehaviour:
     objective: 63a98cfbc31b00242d28a95b
     detail: "\uB2C8\uD0A4\uCE20\uCE74\uC57C \uAC70\uB9AC\uC758 \uC170\uC2A4\uD210\uB85C\uCE58\uCE74
       \uB9E4\uC7A5 \uC815\uCC30\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -204.31, y: 4.3, z: 181.22}
   - type: 6
@@ -4906,7 +4906,7 @@ MonoBehaviour:
     objective: 63a98d24655ec5555b4aa9e7
     detail: "\uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4 \uB300\uB85C\uC758 \uC2A4\uD30C\uB7B4
       \uB9E4\uC7A5 \uC815\uCC30\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 153.69, y: 4.68, z: 299.04}
   - type: 6
@@ -4916,7 +4916,7 @@ MonoBehaviour:
     objective: 63a98d39da7999196148ba3a
     detail: "\uD30C\uC778\uC6B0\uB4DC \uD638\uD154\uC758 \uC2A4\uD30C\uB7B4 \uB9E4\uC7A5
       \uC815\uCC30\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -77.17, y: 2.33, z: 158.91}
   - type: 6
@@ -4925,7 +4925,7 @@ MonoBehaviour:
     group: "\uC608\uAC70"
     objective: 63a98d60c0f61a5d8731cd9f
     detail: "\uCF58\uCF54\uB974\uB514\uC544\uC758 \uACE0\uC0E8 \uB9E4\uC7A5 \uC815\uCC30\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 275.65, y: 4.3, z: 380.83}
   - type: 6
@@ -4936,7 +4936,7 @@ MonoBehaviour:
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
       \uC804\uD30C \uBC29\uD574\uB97C \uC77C\uC73C\uD0A4\uB294 \uC6D0\uC778\uC744
       \uC54C\uC544\uB0B4\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 184.42, y: 6.76, z: 55.58}
   - type: 6
@@ -4946,7 +4946,7 @@ MonoBehaviour:
     objective: 64ee9df4496db64f9b7a4435
     detail: "\uBB38\uC744 \uAC10\uC2DC\uD558\uAE30 \uC704\uD55C Wi-Fi \uCE74\uBA54\uB77C
       \uC124\uCE58\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 183.93, y: 6.09, z: 53.35}
   - type: 6
@@ -4956,7 +4956,7 @@ MonoBehaviour:
     objective: 64eea6059878a0569d6ec98b
     detail: "\uACC4\uB2E8\uC744 \uAC10\uC2DC\uD558\uAE30 \uC704\uD55C Wi-Fi \uCE74\uBA54\uB77C
       \uC124\uCE58\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 176.3, y: 6.29, z: 82.24}
   - type: 7
@@ -4965,7 +4965,7 @@ MonoBehaviour:
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 64f3176921045e77405d63ba
     detail: "\uAD6C\uAE09\uB300\uC6D0\uC758 GPhone X"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 157.91998, y: 3.6553307, z: 455.95703}
   - type: 7
@@ -4974,7 +4974,7 @@ MonoBehaviour:
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 64f3176921045e77405d63ba
     detail: "\uAD6C\uAE09\uB300\uC6D0\uC758 GPhone X"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 223.6565, y: 3.4719124, z: 369.44104}
   - type: 7
@@ -4983,7 +4983,7 @@ MonoBehaviour:
     group: "\uD14C\uB77C\uD53C\uC2A4\uD2B8"
     objective: 64f3176921045e77405d63ba
     detail: "\uAD6C\uAE09\uB300\uC6D0\uC758 GPhone X"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 311.462, y: 3.3989067, z: 413.36804}
   - type: 7
@@ -4992,7 +4992,7 @@ MonoBehaviour:
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 64f6aafd67e11a7c6206e0d1
     detail: "\uBE44\uBC00 \uBD80\uD488"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -28.5096, y: 7.3761997, z: -117.110794}
   - type: 7
@@ -5001,7 +5001,7 @@ MonoBehaviour:
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 64f6aafd67e11a7c6206e0d1
     detail: "\uBE44\uBC00 \uBD80\uD488"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -27.506, y: 7.433, z: -109.47299}
   - type: 7
@@ -5010,7 +5010,7 @@ MonoBehaviour:
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 64f6aafd67e11a7c6206e0d1
     detail: "\uBE44\uBC00 \uBD80\uD488"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 58.483997, y: 0.9229994, z: -72.764984}
   - type: 7
@@ -5019,7 +5019,7 @@ MonoBehaviour:
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 64f6aafd67e11a7c6206e0d1
     detail: "\uBE44\uBC00 \uBD80\uD488"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 41.592, y: 1.5759997, z: -53.944992}
   - type: 7
@@ -5028,7 +5028,7 @@ MonoBehaviour:
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 64f6aafd67e11a7c6206e0d1
     detail: "\uBE44\uBC00 \uBD80\uD488"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -41.1733, y: 7.6146, z: -110.08528}
   - type: 6
@@ -5038,7 +5038,7 @@ MonoBehaviour:
     objective: 64f731fa39e45b527a7c4300
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC758 \uB3D9\uBB3C\uBCD1\uC6D0\uC744
       \uCC3E\uC544 \uC815\uCC30\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 224.87, y: 4.82, z: 172.81}
   - type: 6
@@ -5048,7 +5048,7 @@ MonoBehaviour:
     objective: 64f732240e186112c4455d84
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC758 \uC5D1\uC2A4\uB808\uC774
       \uAE30\uC0AC\uC758 \uBC29\uC744 \uCC3E\uC544 \uC815\uCC30\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 182.99, y: 2.75, z: 102}
   - type: 6
@@ -5058,7 +5058,7 @@ MonoBehaviour:
     objective: 6a568465f58d7f6b0a60fe7f
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4
       \uB300\uB85C\uC758 \uCCAB \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 39.05, y: 3.65, z: 162.41}
   - type: 6
@@ -5068,7 +5068,7 @@ MonoBehaviour:
     objective: 6a56846efc5f232676a88d09
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4
       \uB300\uB85C\uC758 \uB450 \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -44.62, y: 4.19, z: 336.07}
   - type: 6
@@ -5078,7 +5078,7 @@ MonoBehaviour:
     objective: 6a56847638efe4385b7efdb3
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uCE74\uB514\uB110 \uC544\uD30C\uD2B8
       \uB2E8\uC9C0 \uADFC\uCC98\uC758 \uC57D\uAD6D \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 89.26, y: 5.07, z: -275.35}
   - type: 6
@@ -5088,7 +5088,7 @@ MonoBehaviour:
     objective: 6a5b8db01dc53f0f3ec7f0d9
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uAC70\uB9AC\uC758
       ATM \uC911 \uD558\uB098\uB97C MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 83.02, y: 1.22, z: -30.5}
   - type: 6
@@ -5098,7 +5098,7 @@ MonoBehaviour:
     objective: 6a5b8db01dc53f0f3ec7f0d9
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uAC70\uB9AC\uC758
       ATM \uC911 \uD558\uB098\uB97C MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 83.02, y: 1.22, z: -30.5}
   - type: 6
@@ -5108,7 +5108,7 @@ MonoBehaviour:
     objective: 6572e876dc0d635f633a5718
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uAC70\uB9AC\uC758
       \uCCAB \uBC88\uC9F8 ATM \uBB36\uC74C \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 97.42, y: 1.23, z: -22.25}
   - type: 6
@@ -5118,7 +5118,7 @@ MonoBehaviour:
     objective: 6573058d6a542c099ce5d92b
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uC1FC\uD551\uBAB0
       \uC548\uC758 \uCCAB \uBC88\uC9F8 ATM \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -148.57, y: 6.08, z: -62.75}
   - type: 6
@@ -5128,7 +5128,7 @@ MonoBehaviour:
     objective: 65730579d50436e87723dae4
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uAC70\uB9AC\uC758
       \uCCAB \uBC88\uC9F8 ATM \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 83.02, y: 1.22, z: -30.5}
   - type: 6
@@ -5138,7 +5138,7 @@ MonoBehaviour:
     objective: 657305989d1d1fe81237e9e7
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uAC70\uB9AC\uC758
       \uC138 \uBC88\uC9F8 ATM \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 8.29, y: -2.76, z: 5.15}
   - type: 6
@@ -5148,7 +5148,7 @@ MonoBehaviour:
     objective: 657305913186869491d7f5fd
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uC1FC\uD551\uBAB0
       \uC548\uC758 \uB450 \uBC88\uC9F8 ATM \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -113.87, y: 1.61, z: -12.51}
   - type: 6
@@ -5158,7 +5158,7 @@ MonoBehaviour:
     objective: 65730593d4b1bd9359203a74
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uC1FC\uD551\uBAB0
       \uC548\uC758 \uC138 \uBC88\uC9F8 ATM \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -166.48, y: 1.62, z: -3.38}
   - type: 6
@@ -5168,7 +5168,7 @@ MonoBehaviour:
     objective: 6573058b4e3f646b0e364add
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uC1FC\uD551\uBAB0
       \uC548\uC758 \uCCAB \uBC88\uC9F8 ATM \uBB36\uC74C \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -160.19, y: 1.6, z: -47.81}
   - type: 6
@@ -5178,7 +5178,7 @@ MonoBehaviour:
     objective: 65730597d64537696cc661c6
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uAC70\uB9AC\uC758
       \uB450 \uBC88\uC9F8 ATM \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 0.45, y: -2.74, z: -18.79}
   - type: 6
@@ -5188,7 +5188,7 @@ MonoBehaviour:
     objective: 6573058f5c2ba64444301c25
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uC1FC\uD551\uBAB0
       \uC548\uC758 \uB450 \uBC88\uC9F8 ATM \uBB36\uC74C \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -35.2, y: 1.58, z: -69.98}
   - type: 6
@@ -5198,7 +5198,7 @@ MonoBehaviour:
     objective: 65730595fd5ec1426ebd5484
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD074\uB9AC\uBAA8\uD504 \uC1FC\uD551\uBAB0
       \uC548\uC758 \uC138 \uBC88\uC9F8 ATM \uBB36\uC74C \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -53.58, y: 1.58, z: -69.35}
   - type: 6
@@ -5208,7 +5208,7 @@ MonoBehaviour:
     objective: 65733403eefc2c312a759ddc
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C IT \uD68C\uC0AC \uC0AC\uBB34\uC2E4
       \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 164.36, y: 1.72, z: 148.11}
   - type: 6
@@ -5217,7 +5217,7 @@ MonoBehaviour:
     group: "\uBA54\uCE74\uB2C9"
     objective: 65801ad655315fdce2096bec
     detail: "\uD68C\uC0AC \uC131\uACF5\uC758 \uBE44\uBC00 \uBC1D\uD600\uB0B4\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 164.25, y: 1.72, z: 167.29}
   - type: 6
@@ -5227,7 +5227,7 @@ MonoBehaviour:
     objective: 6573382e557ff128bf3da537
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4\uC5D0\uC11C IT \uD68C\uC0AC \uC9C1\uC6D0\uB4E4\uC758
       \uB192\uC740 \uC0AC\uAE30\uC758 \uBE44\uBC00 \uBC1D\uD600\uB0B4\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -211.76, y: 4.2, z: 297.29}
   - type: 6
@@ -5237,7 +5237,7 @@ MonoBehaviour:
     objective: 6573387d0b26ed4fde798de4
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4
       \uB300\uB85C\uC758 \uCCAB \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 39.05, y: 3.65, z: 162.41}
   - type: 6
@@ -5247,7 +5247,7 @@ MonoBehaviour:
     objective: 657338ded9b444e1fb07b1a8
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD504\uB9AC\uBAA8\uB974\uC2A4\uD0A4
       \uB300\uB85C\uC758 \uB450 \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -44.62, y: 4.19, z: 336.07}
   - type: 6
@@ -5257,7 +5257,7 @@ MonoBehaviour:
     objective: 657338ed8e8e3a05445b760d
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uCE74\uB514\uB110 \uC544\uD30C\uD2B8
       \uB2E8\uC9C0\uC758 \uC138 \uBC88\uC9F8 \uC57D\uAD6D \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 89.26, y: 5.07, z: -275.35}
   - type: 6
@@ -5267,7 +5267,7 @@ MonoBehaviour:
     objective: 6573397ef3f8344c4575cd88
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0\uC11C
       \uBD80\uB3D9\uC0B0 \uAE30\uAE08 \uCC3E\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -58.32, y: 3.58, z: 457.86}
   - type: 7
@@ -5276,7 +5276,7 @@ MonoBehaviour:
     group: "\uD504\uB77C\uD37C"
     objective: 6581676e7a18ff402fd23e68
     detail: "\uC9C0\uC801 \uB4F1\uB85D\uBD80 \uAE30\uB85D"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -66.813, y: 7.970781, z: 459.4482}
   - type: 7
@@ -5285,7 +5285,7 @@ MonoBehaviour:
     group: "\uD504\uB77C\uD37C"
     objective: 6581676e7a18ff402fd23e68
     detail: "\uC9C0\uC801 \uB4F1\uB85D\uBD80 \uAE30\uB85D"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -66.81177, y: 7.44332, z: 453.45218}
   - type: 7
@@ -5294,7 +5294,7 @@ MonoBehaviour:
     group: "\uD504\uB77C\uD37C"
     objective: 6581676e7a18ff402fd23e68
     detail: "\uC9C0\uC801 \uB4F1\uB85D\uBD80 \uAE30\uB85D"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -41.541817, y: 8.560753, z: 455.14572}
   - type: 6
@@ -5304,7 +5304,7 @@ MonoBehaviour:
     objective: 67460118d3498f1b35e0a025
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uBB34\uB108\uC9C4 \uD06C\uB808\uC778
       BTR \uC815\uB958\uC7A5\uC744 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 195.17, y: 4.09, z: 256.96}
   - type: 6
@@ -5314,7 +5314,7 @@ MonoBehaviour:
     objective: 6746011dfd1dc9d0f502e55d
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uC61B \uC2A4\uCE90\uBE0C \uAC80\uBB38\uC18C
       BTR \uC815\uB958\uC7A5\uC744 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 115.58, y: -1.56, z: 25.84}
   - type: 6
@@ -5324,7 +5324,7 @@ MonoBehaviour:
     objective: 674601247aa943781a1cf3fc
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD30C\uC778\uC6B0\uB4DC \uD638\uD154
       BTR \uC815\uB958\uC7A5\uC744 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -133.05, y: 1.51, z: 63.87}
   - type: 6
@@ -5334,7 +5334,7 @@ MonoBehaviour:
     objective: 674601282043d1ef3c6b2eec
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uB3C4\uC2EC BTR \uC815\uB958\uC7A5\uC744
       MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -13.13, y: 3.24, z: 218.33}
   - type: 6
@@ -5344,7 +5344,7 @@ MonoBehaviour:
     objective: 6746012a35218bb89951248e
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uD2B8\uB7A8 BTR \uC815\uB958\uC7A5\uC744
       MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -233.66, y: 3.33, z: 235.94}
   - type: 6
@@ -5354,7 +5354,7 @@ MonoBehaviour:
     objective: 6746012d871e69a9abb5873d
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uB85C\uB514\uB098 \uC601\uD654\uAD00
       BTR \uC815\uB958\uC7A5\uC744 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -137.69, y: 2.8, z: 400.38}
   - type: 6
@@ -5364,7 +5364,7 @@ MonoBehaviour:
     objective: 67a0bc87c60a93d7a3f28b23
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4(Streets of Tarkov)\uC5D0 \uC704\uCE58\uD55C
       \uCF69\uCF54\uB974\uB514\uC544 \uB2E8\uC9C0\uC758 \uB180\uC774\uD130 \uC870\uC0AC\uD558\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: 207.54, y: 6.93, z: 360.17}
   - type: 6
@@ -5374,7 +5374,7 @@ MonoBehaviour:
     objective: 6a57565d0c4e021f681b32f0
     detail: "\uD0C0\uB974\uCF54\uD504 \uC2DC\uB0B4 \uACBD\uCC30\uC11C \uC606\uC5D0
       \uC6A9\uAE30 \uC228\uAE30\uAE30"
-    floor: 
+    floor: "\uC9C0\uC0C1"
     guide: 
     position: {x: -209.73, y: 4.86, z: 135.28}
   quests:

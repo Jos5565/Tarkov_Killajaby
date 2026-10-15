@@ -25,6 +25,8 @@ public enum MarkerType
     DocMedical,
     // 지도 위 구역 이름 (마커가 아니라 글자. 필터에서 켜고 끄기 위해 종류로 둔다)
     AreaLabel,
+    // 배틀패스 문서 (나중에 추가된 것. 위 순서를 바꾸지 않으려고 뒤에 둔다)
+    DocPersonnel,
 }
 
 // 배틀패스 문서: tarkov.dev 아이템 분류 "Battle Pass Document".
@@ -56,9 +58,11 @@ public static class BattlePassDocs
         new Doc("6a31828557705071410ca00e", MarkerType.DocTest, "테스트 문서"),
         new Doc("6a3182b72fd891345e047eef", MarkerType.DocUser, "사용자 문서"),
         new Doc("6a3182dc6cd8de21cf0a3a7d", MarkerType.DocMedical, "의료 문서"),
+        new Doc("6a317b9692cfdcddcb02a58e", MarkerType.DocPersonnel, "PMC 인사 기록"),
     };
 
-    public static bool IsDoc(MarkerType type) => type >= MarkerType.DocFinancial && type <= MarkerType.DocMedical;
+    public static bool IsDoc(MarkerType type) =>
+        (type >= MarkerType.DocFinancial && type <= MarkerType.DocMedical) || type == MarkerType.DocPersonnel;
 
     public static bool TryGetByItem(string itemId, out Doc doc)
     {
