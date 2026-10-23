@@ -150,6 +150,9 @@ MonoBehaviour:
     guide: "\uD56D\uC0C1 \uC5F4\uB824 \uC788\uC9C0 \uC54A\uC74C \u2192 \uCD08\uB85D
       \uC2E0\uD638\uD0C4\uC744 \uD558\uB298\uB85C \uC3F4\uC11C \uC5F4\uAE30 \u2192
       ZB-014 \uC5F4\uC1E0\uB85C \uBB38 \uC5F4\uAE30 \u2192 \uD0C8\uCD9C"
+    steps:
+    - text: "\uCD08\uB85D\u0020\uC2E0\uD638\uD0C4\u0020\u2192\u0020ZB-014\u0020\uC5F4\uC1E0\uB85C\u0020\uBB38\u0020\uC5F4\uAE30"
+      position: {x: 448.62, y: -13.27, z: 65.58}
     position: {x: 447.24, y: -13.46, z: 57.46}
   - type: 8
     key: 

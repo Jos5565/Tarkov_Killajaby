@@ -163,6 +163,9 @@ public class TarkovApiWindow : EditorWindow
             questGuides = LoadData($"{TranslationDir}/quest_guides_{Language}.json");
             // 탈출구 조건 공략 ("맵/탈출구 이름" 또는 "맵/탈출구 이름/진영" → "A → B")
             extractGuides = LoadData($"{TranslationDir}/extract_guides_{Language}.json");
+            // 탈출 전 행동 위치 ("맵/탈출구 이름" → [{text, switch | lock | pos}]), 열쇠는 영어 이름으로 찾는다
+            extractSteps = LoadData($"{TranslationDir}/extract_steps_{Language}.json");
+            itemNamesEn = LoadData(RawPath("items", FallbackLanguage));
 
             var log = new StringBuilder();
             foreach (string guid in AssetDatabase.FindAssets("t:MapConfig"))
@@ -221,6 +224,45 @@ public class TarkovApiWindow : EditorWindow
     // tarkov.dev 웹사이트(src/pages/map/index.jsx)의 분류 방식을 따른다
     static JObject questGuides = new JObject();
     static JObject extractGuides = new JObject();
+    static JObject extractSteps = new JObject();
+    static JObject itemNamesEn = new JObject();
+
+    // 탈출 전 행동 단계의 위치: switch(맵 switches의 id 앞부분) / lock(그 열쇠로 여는 문 중 탈출구에 가장 가까운 것) / pos([x, y, z])
+    static List<ExtractStep> ExtractSteps(JObject map, string extractName, string faction, Vector3 extractPos)
+    {
+        var steps = new List<ExtractStep>();
+        string mapName = (string)map["normalizedName"];
+        JToken list = extractSteps[$"{mapName}/{extractName}/{faction}"] ?? extractSteps[$"{mapName}/{extractName}"];
+        foreach (JToken s in Items(list))
+        {
+            string text = (string)s["text"] ?? "";
+            Vector3? pos = null;
+            if (s["switch"] != null)
+            {
+                string id = (string)s["switch"];
+                JToken sw = Items(map["switches"]).FirstOrDefault(x => ((string)x["id"] ?? "").StartsWith(id, StringComparison.Ordinal));
+                if (sw != null && TryPos(sw["position"], out Vector3 p)) pos = p;
+            }
+            else if (s["lock"] != null)
+            {
+                string keyName = (string)s["lock"];
+                foreach (JToken l in Items(map["locks"]))
+                {
+                    if ((string)itemNamesEn[(string)l["key"] + " Name"] != keyName || !TryPos(l["position"], out Vector3 p)) continue;
+                    if (pos == null || (p - extractPos).sqrMagnitude < (pos.Value - extractPos).sqrMagnitude) pos = p;
+                }
+            }
+            else if (s["pos"] is JArray a && a.Count >= 3) pos = new Vector3((float)a[0], (float)a[1], (float)a[2]);
+
+            if (pos == null)
+            {
+                Debug.LogWarning($"[TarkovApi] 탈출 단계 위치를 찾지 못함: {mapName}/{extractName} '{text}'");
+                continue;
+            }
+            steps.Add(new ExtractStep { text = text, position = pos.Value });
+        }
+        return steps;
+    }
 
     static string ExtractGuide(string mapName, string extractName, string faction) =>
         (string)extractGuides[$"{mapName}/{extractName}/{faction}"] ?? (string)extractGuides[$"{mapName}/{extractName}"] ?? "";
@@ -236,7 +278,8 @@ public class TarkovApiWindow : EditorWindow
             if (!TryPos(e["position"], out Vector3 pos)) continue;
             string faction = (string)e["faction"];
             string guide = ExtractGuide((string)map["normalizedName"], (string)e["name"], faction);
-            markers.Add(new MapMarker { type = ExtractType(faction), name = tr.Get(e["name"]), detail = faction, guide = guide, position = pos });
+            List<ExtractStep> steps = ExtractSteps(map, (string)e["name"], faction, pos);
+            markers.Add(new MapMarker { type = ExtractType(faction), name = tr.Get(e["name"]), detail = faction, guide = guide, steps = steps, position = pos });
         }
 
         foreach (JToken t in Items(map["transits"]))

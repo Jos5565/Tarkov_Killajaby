@@ -26,6 +26,9 @@ MonoBehaviour:
     floor: 
     guide: "\uACF5\uC7A5 \uBE44\uC0C1\uAD6C \uC5F4\uC1E0 (Factory emergency exit
       key)\uB85C \uBB38 \uC5F4\uAE30 \u2192 \uD0C8\uCD9C"
+    steps:
+    - text: "\uBE44\uC0C1\uAD6C\u0020\uC5F4\uC1E0\uB85C\u0020\uBB38\u0020\uC5F4\uAE30"
+      position: {x: -19.08, y: 1.45, z: -48.57}
     position: {x: -17.53, y: 1.99, z: -61.27}
   - type: 0
     key: 
@@ -36,6 +39,9 @@ MonoBehaviour:
     floor: 
     guide: "\uACF5\uC7A5 \uBE44\uC0C1\uAD6C \uC5F4\uC1E0 (Factory emergency exit
       key)\uB85C \uBB38 \uC5F4\uAE30 \u2192 \uD0C8\uCD9C"
+    steps:
+    - text: "\uBE44\uC0C1\uAD6C\u0020\uC5F4\uC1E0\uB85C\u0020\uBB38\u0020\uC5F4\uAE30"
+      position: {x: 66.83, y: -1.61, z: -29.32}
     position: {x: 73.89, y: -3.29, z: -29.08}
   - type: 8
     key: 

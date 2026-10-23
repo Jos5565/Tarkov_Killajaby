@@ -599,6 +599,7 @@ public class MapMarkerLayer : MonoBehaviour
                 name = string.Join(" / ", names),
                 detail = a.detail,
                 guide = MergeGuides(group),
+                steps = group.Select(m => m.steps).FirstOrDefault(s => s != null && s.Count > 0) ?? new List<ExtractStep>(),
                 position = center / group.Count,
             });
         }

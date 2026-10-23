@@ -1,0 +1,48 @@
+{
+  "_comment": "탈출구에서 탈출하기 전에 해야 하는 행동의 위치를 순서대로 (도착 탈출구로 정하면 지도에 초록 경로와 번호로 그린다). 키는 '맵/API 탈출구 이름'. 각 단계: text(짧은 설명) + 위치 하나 - switch(맵 데이터 switches의 id 앞부분) / lock(그 열쇠로 여는 잠긴 문 중 탈출구에 가장 가까운 것, 열쇠 영어 이름) / pos([x, y, z] 게임 좌표). 고친 뒤 Tools > Tarkov > API Data에서 '저장된 JSON으로 마커만 다시 생성'",
+  "data": {
+    "customs/ex_customs_pmc_zb1013": [
+      { "text": "4번 창고 레버 당기기", "switch": "ae4bdfc1" },
+      { "text": "ZB-1013 열쇠로 문 열기", "lock": "ZB-1013 key" }
+    ],
+    "factory/Cellars": [
+      { "text": "비상구 열쇠로 문 열기", "lock": "Factory emergency exit key" }
+    ],
+    "factory/Gate m": [
+      { "text": "비상구 열쇠로 문 열기", "lock": "Factory emergency exit key" }
+    ],
+    "woods/ZB-014": [
+      { "text": "초록 신호탄 → ZB-014 열쇠로 문 열기", "lock": "ZB-014 key" }
+    ],
+    "reserve/EXFIL_Bunker": [
+      { "text": "레버 당기기 (4분 동안 열림)", "switch": "2c4a9ff1" }
+    ],
+    "reserve/EXFIL_Bunker_D2": [
+      { "text": "벙커 전원 레버", "switch": "9cad024b" },
+      { "text": "문 옆 버튼 누르기", "switch": "fa1f22e7" }
+    ],
+    "interchange/ex_interchange_pmc_saferoom": [
+      { "text": "발전소 전원 켜기", "switch": "b6ebc39e" },
+      { "text": "Burger Spot 소변기 물 내리기", "switch": "5173fd12" },
+      { "text": "키카드 사용 · 안에서 문 잠그기", "lock": "Object #11SR keycard" }
+    ],
+    "the-lab/lab_Elevator_Main": [
+      { "text": "지하 전원 복구 (R4 맞은편)", "switch": "911ef57b" }
+    ],
+    "the-lab/lab_Elevator_Med": [
+      { "text": "지하 전원 복구 (G6)", "switch": "014e9122" }
+    ],
+    "the-lab/lab_Elevator_Cargo": [
+      { "text": "지하 전원 복구 (G1)", "switch": "c39cf1e7" }
+    ],
+    "the-lab/lab_Hangar_Gate": [
+      { "text": "B24 조종실에서 게이트 열기", "switch": "40ec0101" }
+    ],
+    "the-lab/lab_Parking_Gate": [
+      { "text": "Y21에서 게이트 열기", "switch": "07fe694c" }
+    ],
+    "the-lab/lab_Under_Storage_Collector": [
+      { "text": "배수 펌프 버튼 (약 80초 대기)", "switch": "a948c3ba" }
+    ]
+  }
+}

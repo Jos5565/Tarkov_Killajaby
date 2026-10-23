@@ -169,6 +169,11 @@ MonoBehaviour:
     guide: "\uD06C\uB808\uC778 \uC57C\uB4DC 4\uBC88 \uCC3D\uACE0\uC758 \uB808\uBC84
       \uB2F9\uAE30\uAE30 \u2192 ZB-1013 \uC5F4\uC1E0\uB85C \uBB38 \uC5F4\uAE30 \u2192
       \uC2A4\uCE90\uBE0C \uAE30\uC9C0 \uC9C0\uD558\uB85C \uD0C8\uCD9C"
+    steps:
+    - text: "4\uBC88\u0020\uCC3D\uACE0\u0020\uB808\uBC84\u0020\uB2F9\uAE30\uAE30"
+      position: {x: 352.23032, y: 2.6145887, z: -40.805283}
+    - text: "ZB-1013\u0020\uC5F4\uC1E0\uB85C\u0020\uBB38\u0020\uC5F4\uAE30"
+      position: {x: 198.93, y: -1.78, z: -146.17}
     position: {x: 200.98, y: -1.15, z: -153.09}
   - type: 0
     key: 

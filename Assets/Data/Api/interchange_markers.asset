@@ -38,6 +38,13 @@ MonoBehaviour:
       \uC624\uBE0C\uC81D\uD2B8 #11SR \uD0A4\uCE74\uB4DC \uC0AC\uC6A9 \u2192 \uC548\uC5D0\uC11C
       \uBB38 \uC606 \uBC84\uD2BC\uC73C\uB85C \uC7A0\uADF8\uAE30 (\uB808\uC774\uB4DC\uB2F9
       1\uD68C)"
+    steps:
+    - text: "\uBC1C\uC804\uC18C\u0020\uC804\uC6D0\u0020\uCF1C\uAE30"
+      position: {x: -201.108, y: 23.1857, z: -357.8291}
+    - text: "Burger\u0020Spot\u0020\uC18C\uBCC0\uAE30\u0020\uBB3C\u0020\uB0B4\uB9AC\uAE30"
+      position: {x: -51.547, y: 36.86, z: -125.44071}
+    - text: "\uD0A4\uCE74\uB4DC\u0020\uC0AC\uC6A9\u0020\u00B7\u0020\uC548\uC5D0\uC11C\u0020\uBB38\u0020\uC7A0\uADF8\uAE30"
+      position: {x: -51.91, y: 22.29, z: 45.84}
     position: {x: -47.73, y: 22.97, z: 44.06}
   - type: 0
     key: 

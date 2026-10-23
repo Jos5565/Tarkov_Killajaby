@@ -28,6 +28,9 @@ MonoBehaviour:
       2\uCE35 B24 \uC870\uC885\uC2E4\uC5D0\uC11C \uAC8C\uC774\uD2B8 \uC5F4\uAE30
       \u2192 B11 \uACA9\uB0A9\uACE0 \uAC8C\uC774\uD2B8\uB85C \uD0C8\uCD9C (\uC548\uB0B4
       \uBC29\uC1A1\uC774 \uB098\uC634)"
+    steps:
+    - text: "B24\u0020\uC870\uC885\uC2E4\uC5D0\uC11C\u0020\uAC8C\uC774\uD2B8\u0020\uC5F4\uAE30"
+      position: {x: -170.18, y: 5.185, z: -281.508}
     position: {x: -170.49, y: 5.54, z: -218.87}
   - type: 9
     key: 
@@ -39,6 +42,9 @@ MonoBehaviour:
     guide: "\uC9C0\uD558 G6\uD638\uC5D0\uC11C \uC804\uC6D0 \uBCF5\uAD6C \u2192 \uC9C0\uD558
       G3~G4\uD638 \uC0AC\uC774 \uC758\uB8CC\uB3D9 \uC5D8\uB9AC\uBCA0\uC774\uD130\uB85C
       \uD0C8\uCD9C"
+    steps:
+    - text: "\uC9C0\uD558\u0020\uC804\uC6D0\u0020\uBCF5\uAD6C\u0020(G6)"
+      position: {x: -124.758, y: -2.3159962, z: -313.806}
     position: {x: -112.3, y: -3.11, z: -344.04}
   - type: 0
     key: 
@@ -60,6 +66,9 @@ MonoBehaviour:
     guide: "\uC9C0\uD558 G1\uD638\uC5D0\uC11C \uC804\uC6D0 \uBCF5\uAD6C \u2192 2\uCE35
       G21\uD638 \uB9DE\uC740\uD3B8 \uD654\uBB3C \uC5D8\uB9AC\uBCA0\uC774\uD130\uB85C
       \uD0C8\uCD9C (\uB808\uC774\uB4DC\uB2F9 1\uD68C)"
+    steps:
+    - text: "\uC9C0\uD558\u0020\uC804\uC6D0\u0020\uBCF5\uAD6C\u0020(G1)"
+      position: {x: -121.007996, y: -2.8369823, z: -353.548}
     position: {x: -111.79, y: 5.38, z: -408.55}
   - type: 9
     key: 
@@ -71,6 +80,9 @@ MonoBehaviour:
     guide: "\uC9C0\uD558 R4\uD638 \uB9DE\uC740\uD3B8\uC5D0\uC11C \uC804\uC6D0 \uBCF5\uAD6C
       \u2192 \uC9C0\uD558 R6~R8\uD638 \uC0AC\uC774 \uBCF5\uB3C4\uC758 \uBA54\uC778
       \uC5D8\uB9AC\uBCA0\uC774\uD130\uB85C \uD0C8\uCD9C"
+    steps:
+    - text: "\uC9C0\uD558\u0020\uC804\uC6D0\u0020\uBCF5\uAD6C\u0020(R4\u0020\uB9DE\uC740\uD3B8)"
+      position: {x: -271.439, y: -2.380001, z: -366.10498}
     position: {x: -282.69, y: -2.81, z: -334.73}
   - type: 0
     key: 
@@ -82,6 +94,9 @@ MonoBehaviour:
     guide: "\uD56D\uC0C1 \uC5F4\uB824 \uC788\uC9C0 \uC54A\uC74C \u2192 2\uCE35 Y21\uD638(R22
       \uC606)\uC5D0\uC11C \uAC8C\uC774\uD2B8 \uC5F4\uAE30 \u2192 Y11 \uC8FC\uCC28\uC7A5
       \uAC8C\uC774\uD2B8\uB85C \uD0C8\uCD9C (\uC548\uB0B4 \uBC29\uC1A1\uC774 \uB098\uC634)"
+    steps:
+    - text: "Y21\uC5D0\uC11C\u0020\uAC8C\uC774\uD2B8\u0020\uC5F4\uAE30"
+      position: {x: -243.443, y: 5.076, z: -382.513}
     position: {x: -231.46, y: 6.19, z: -457.77}
   - type: 0
     key: 
@@ -93,6 +108,9 @@ MonoBehaviour:
     guide: "\uC9C0\uD558 B1\uD638 \uC67C\uCABD \uC2A4\uC704\uCE58\uB85C \uC218\uC704
       \uB0AE\uCD94\uAE30 \u2192 \uC57D 80\uCD08 \uAE30\uB2E4\uB9AC\uAE30 \u2192 \uBC29
       \uC624\uB978\uCABD\uC73C\uB85C \uD0C8\uCD9C"
+    steps:
+    - text: "\uBC30\uC218\u0020\uD38C\uD504\u0020\uBC84\uD2BC\u0020(\uC57D\u002080\uCD08\u0020\uB300\uAE30)"
+      position: {x: -136.76, y: -2.8259993, z: -254.51051}
     position: {x: -122.89, y: -3.66, z: -258.32}
   - type: 1
     key: 

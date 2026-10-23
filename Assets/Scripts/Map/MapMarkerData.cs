@@ -88,7 +88,17 @@ public class MapMarker
     public string detail;    // 진영, 출현 확률, 목표 설명, 퀘스트 아이템 이름 등
     public string floor;     // 층 (배틀패스 문서: "지상", "2층", "지하" 등). 없으면 빈 문자열
     public string guide;     // 탈출구 조건 공략 "A → B" (Translations/extract_guides_{언어}.json). 없으면 빈 문자열 = 조건 없음
+    // 탈출구: 탈출 전에 해야 하는 행동의 위치(레버, 열쇠 문 등)를 순서대로 (Translations/extract_steps_{언어}.json). 없으면 비어 있음
+    public List<ExtractStep> steps = new List<ExtractStep>();
     public Vector3 position; // 게임 좌표
+}
+
+// 탈출 전에 해야 하는 행동 하나 (도착 탈출구로 정하면 초록 경로와 번호로 그린다)
+[Serializable]
+public class ExtractStep
+{
+    public string text;        // 짧은 설명 (예: "4번 창고 레버")
+    public Vector3 position;   // 게임 좌표
 }
 
 [Serializable]
