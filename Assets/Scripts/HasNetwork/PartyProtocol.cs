@@ -17,7 +17,7 @@ public static class PartyProtocol
     public const int HeaderSize = 16;
     public const int MaxPacket = 1200;
     public const int HelloSize = 320;   // Hello는 패딩으로 이 크기 이상 (Welcome보다 크게)
-    const byte Version = 1;
+    const byte Version = 2;   // 2: 상태에 경로 · 보스 표시 추가 (버전이 다른 앱끼리는 서로 무시)
 
     public enum Type : byte { Hello = 1, Welcome = 2, State = 3, Party = 4, Rekey = 5, Bye = 6 }
     public enum ByeReason : byte { Left = 0, Closed = 1, Kicked = 2, Full = 3 }
@@ -71,7 +71,24 @@ public static class PartyProtocol
         public bool hasPosition;
         public float x, y, z, yaw;
         public uint positionAge;    // 위치를 찍은 지 몇 초 지났는지
+        public RoutePoint[] route;  // 이 사람이 그린 경로 (게임 x, z를 1m 단위로). 없으면 빈 배열
+        public MarkInfo[] marks;    // 이 사람이 남긴 보스 상태 표시
     }
+
+    public struct RoutePoint
+    {
+        public short x, z;
+    }
+
+    public struct MarkInfo
+    {
+        public uint boss;           // BossMarks.Key(맵, 보스 이름)
+        public byte status;         // BossMarks.Status
+        public ushort age;          // 표시한 지 몇 초 (최대 65535)
+    }
+
+    public const int MaxRoutePoints = 16;
+    public const int MaxMarks = 8;
 
     public class Member
     {
@@ -99,6 +116,22 @@ public static class PartyProtocol
         w.Write(s.z);
         w.Write(s.yaw);
         w.Write(s.positionAge);
+
+        int routeCount = Math.Min(s.route?.Length ?? 0, MaxRoutePoints);
+        w.Write((byte)routeCount);
+        for (int i = 0; i < routeCount; i++)
+        {
+            w.Write(s.route[i].x);
+            w.Write(s.route[i].z);
+        }
+        int markCount = Math.Min(s.marks?.Length ?? 0, MaxMarks);
+        w.Write((byte)markCount);
+        for (int i = 0; i < markCount; i++)
+        {
+            w.Write(s.marks[i].boss);
+            w.Write(s.marks[i].status);
+            w.Write(s.marks[i].age);
+        }
     }
 
     public static bool TryRead(BinaryReader r, out MemberState s)
@@ -115,6 +148,20 @@ public static class PartyProtocol
         s.z = r.ReadSingle();
         s.yaw = r.ReadSingle();
         s.positionAge = r.ReadUInt32();
+
+        int routeCount = r.ReadByte();
+        if (routeCount > MaxRoutePoints) return false;
+        s.route = new RoutePoint[routeCount];
+        for (int i = 0; i < routeCount; i++) s.route[i] = new RoutePoint { x = r.ReadInt16(), z = r.ReadInt16() };
+        int markCount = r.ReadByte();
+        if (markCount > MaxMarks) return false;
+        s.marks = new MarkInfo[markCount];
+        for (int i = 0; i < markCount; i++)
+        {
+            s.marks[i] = new MarkInfo { boss = r.ReadUInt32(), status = r.ReadByte(), age = r.ReadUInt16() };
+            if (s.marks[i].status > 3) return false;   // BossMarks.Status (미확인 · 출현 · 처치 · 없음)
+        }
+
         if (s.map == null || s.side > 1) return false;
         if (!Valid(s.x) || !Valid(s.y) || !Valid(s.z) || !Valid(s.yaw)) return false;
         foreach (char c in s.map)

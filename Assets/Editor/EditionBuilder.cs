@@ -13,6 +13,8 @@ using Debug = UnityEngine.Debug;
 //   파티 : TKJ_PARTY      → D:\Unity\build_Killajaby_forParty
 // 씬은 Build Settings에 켜진 씬을 그대로 쓴다. Player Settings의 정의 기호는 건드리지 않는다 (빌드할 때만 추가).
 // [둘 다 + 단일 exe]는 빌드가 끝나면 Tools/SingleExe/Build-SingleExe.cmd를 새 창으로 실행한다.
+// 버전: 빌드할 때 Player Settings > Version의 마지막 숫자를 하나 올릴지 묻는다 (0.2.8 → 0.2.9).
+//   "둘 다"는 한 번만 올려 두 버전이 같은 번호를 쓰고, 빌드가 하나도 성공하지 못하면 원래 번호로 되돌린다.
 public static class EditionBuilder
 {
     const string AppName = "TarkovKilaJaby";
@@ -65,10 +67,38 @@ public static class EditionBuilder
             return;
         }
 
-        var results = new List<string>();
+        // 버전 올리기 (0 올리고 빌드 / 1 취소 / 2 그대로 빌드)
+        string oldVersion = PlayerSettings.bundleVersion;
+        string next = NextVersion(oldVersion);
+        int choice = next != null
+            ? EditorUtility.DisplayDialogComplex("빌드", $"지금 버전 {oldVersion}", $"{next}로 올리고 빌드", "취소", $"{oldVersion} 그대로 빌드")
+            : EditorUtility.DisplayDialog("빌드", $"지금 버전 {oldVersion} (숫자로 끝나지 않아 자동으로 올릴 수 없어요)", "그대로 빌드", "취소") ? 2 : 1;
+        if (choice == 1) return;
+        if (choice == 0)
+        {
+            PlayerSettings.bundleVersion = next;
+            AssetDatabase.SaveAssets();
+            Debug.Log($"[EditionBuilder] 버전 {oldVersion} → {next}");
+        }
+
+        var results = new List<string> { $"버전 {PlayerSettings.bundleVersion}" };
         bool ok = true;
-        if (normal) ok &= Build("일반", scenes, NormalFolder, null, results);
-        if (party && ok) ok &= Build("파티", scenes, PartyFolder, new[] { PartyDefine }, results);
+        int succeeded = 0;
+        if (normal && Build("일반", scenes, NormalFolder, null, results)) succeeded++;
+        else if (normal) ok = false;
+        if (party && ok)
+        {
+            if (Build("파티", scenes, PartyFolder, new[] { PartyDefine }, results)) succeeded++;
+            else ok = false;
+        }
+
+        // 하나도 못 만들었으면 올린 버전을 되돌린다 (같은 번호로 다시 시도할 수 있게)
+        if (succeeded == 0 && choice == 0)
+        {
+            PlayerSettings.bundleVersion = oldVersion;
+            AssetDatabase.SaveAssets();
+            results.Add($"빌드에 실패해서 버전을 {oldVersion}로 되돌렸어요");
+        }
 
         string summary = string.Join("\n", results);
         if (ok && singleExe)
@@ -82,6 +112,14 @@ public static class EditionBuilder
             else summary += "\n\n단일 exe 도구를 찾지 못했어요: " + cmd;
         }
         EditorUtility.DisplayDialog(ok ? "빌드 완료" : "빌드 실패", summary, "확인");
+    }
+
+    // "0.2.8" → "0.2.9" (마지막 숫자 +1). 숫자로 끝나지 않으면 null
+    static string NextVersion(string version)
+    {
+        var m = System.Text.RegularExpressions.Regex.Match(version ?? "", @"^(.*?)(\d+)$");
+        if (!m.Success) return null;
+        return m.Groups[1].Value + (long.Parse(m.Groups[2].Value) + 1);
     }
 
     static bool Build(string label, string[] scenes, string folder, string[] defines, List<string> results)

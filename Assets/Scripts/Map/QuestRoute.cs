@@ -57,6 +57,11 @@ public class QuestRoute : MonoBehaviour
     // 경로를 다시 계산할 때마다 (켜고 끄기, 위치 갱신, 도착 탈출구 변경)
     public event System.Action Recalculated;
 
+    // 지금 그린 경로의 점들 (게임 좌표 x, z): 내 위치 → 퀘스트 목표들 → 탈출 전 행동 → 도착 탈출구. 그린 게 없으면 비어 있음
+    // 파티 버전이 파티원에게 보낸다
+    public IReadOnlyList<Vector2> SharedPath => sharedPath;
+    readonly List<Vector2> sharedPath = new List<Vector2>();
+
     // 도착점으로 지정한 탈출구/트랜짓 (없으면 null)
     public MapMarker Destination { get; private set; }
 
@@ -170,6 +175,7 @@ public class QuestRoute : MonoBehaviour
         FirstStop = null;
         line.SetPoints(System.Array.Empty<Vector2>());
         stepLine.SetPoints(System.Array.Empty<Vector2>());
+        sharedPath.Clear();
         if (markerLayer == null || !markerLayer.IsBuilt)
         {
             Recalculated?.Invoke();
@@ -240,6 +246,12 @@ public class QuestRoute : MonoBehaviour
         }
         if (endPos.HasValue) path.Add(mapView.GameToLocal(endPos.Value));
         line.SetPoints(path.Count >= 2 ? path : new List<Vector2>());
+        if (path.Count >= 2)
+        {
+            if (start.HasValue) sharedPath.Add(start.Value);
+            sharedPath.AddRange(stops.Select(Ground));
+            if (end.HasValue) sharedPath.Add(end.Value);
+        }
 
         // 번호: 같은 자리에 여러 순서가 겹치면 "3·4"처럼 하나로
         var labels = new List<(Vector3 pos, string text)>();
@@ -260,6 +272,14 @@ public class QuestRoute : MonoBehaviour
         foreach (ExtractStep s in steps) path.Add(mapView.GameToLocal(s.position));
         path.Add(mapView.GameToLocal(Destination.position));
         stepLine.SetPoints(path.Count >= 2 ? path : new List<Vector2>());
+
+        if (sharedPath.Count == 0 && StopCount == 0 && start.HasValue) sharedPath.Add(start.Value);
+        foreach (ExtractStep s in steps)
+        {
+            Vector2 g = Ground(s.position);
+            if (sharedPath.Count == 0 || (sharedPath[sharedPath.Count - 1] - g).sqrMagnitude > 0.01f) sharedPath.Add(g);
+        }
+        sharedPath.Add(Ground(Destination.position));
 
         for (int i = 0; i < steps.Count; i++)
             CreateBadge(mapView.GameToLocal(steps[i].position), (i + 1).ToString(), stepBadgeColor, steps[i].text);

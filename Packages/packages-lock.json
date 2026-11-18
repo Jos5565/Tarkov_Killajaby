@@ -1,13 +1,30 @@
 {
   "dependencies": {
-    "com.jos.uguitemplate": {
-      "version": "https://github.com/Jos5565/UGUITemplate.git",
+    "com.coplaydev.unity-mcp": {
+      "version": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.visualscripting": "1.9.12"
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.physics2d": "1.0.0",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.screencapture": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.test-framework": "1.1.31"
       },
-      "hash": "75a03a0bd36fb498376e1a250471e0b2f02c2870"
+      "hash": "81542a7e86292b5c4c21b1782c5af23b567f45ce"
+    },
+    "com.jos.unityconv": {
+      "version": "https://github.com/Jos5565/Claude-Unity-CodingConventionPackage.git?path=/UnityCodingConvention/Packages/com.jos.unityconv#v2.9.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0"
+      },
+      "hash": "0305fe6f3c7bf04a5ee6b020fc201ba698f57f2a"
     },
     "com.unity.ai.navigation": {
       "version": "2.0.12",
@@ -200,11 +217,11 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.9.12",
-      "depth": 1,
+      "version": "1.9.11",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.ugui": "2.0.0",
+        "com.unity.ugui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"

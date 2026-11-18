@@ -1,5 +1,4 @@
 using System;
-using System.Net;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -7,7 +6,7 @@ using System.Text;
 //   키      : 32바이트 마스터 키 → HMAC-SHA256으로 암호화 키(16)와 서명 키(32)를 나눠 만든다
 //   봉인    : AES-128-CBC(메시지마다 새 IV)로 암호화한 뒤, 헤더+IV+암호문 전체를 HMAC-SHA256으로 서명 (앞 16바이트)
 //   열기    : 서명을 먼저 확인(시간 차이 없는 비교)하고 맞을 때만 복호화. 틀리면 해석하지 않는다
-//   초대 코드: 공인 IP · 내부 IP · 포트 · 초대 비밀값(무작위 16바이트) · 만료 시각을 Base32로 포장
+//   초대 코드: 중계 방 ID · 초대 비밀값(각각 무작위 16바이트) · 만료 시각을 Base32로 포장 (IP는 들어가지 않는다)
 //             비밀값이 무작위 128비트라 맞히기 공격이 불가능하므로 비밀번호용 느린 변환은 쓰지 않는다
 public static class PartyCrypto
 {
@@ -112,34 +111,30 @@ public static class PartyCrypto
 
     public struct Invite
     {
-        public IPAddress publicAddress;   // 없으면 0.0.0.0 (포트 자동 열기 실패: 같은 공유기 안에서만)
-        public IPAddress localAddress;
-        public int port;
-        public byte[] secret;             // 16바이트
+        public byte[] roomId;       // 중계 서버의 방 (16바이트, 방장이 파티를 만들 때 무작위로)
+        public byte[] secret;       // 초대 비밀값 16바이트 (새 코드를 만들면 바뀐다)
         public DateTime expiresUtc;
     }
 
-    const byte InviteVersion = 1;
+    const byte InviteVersion = 2;
+    const int InviteSize = 39;
     const string Alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";   // 헷갈리는 글자(I, O, 0, 1)를 뺀 32자
 
-    // 버전1 | 공인IP4 | 내부IP4 | 포트2 | 비밀값16 | 만료4 | 확인2  = 33바이트 → 5글자씩 묶은 Base32
+    // 버전1 | 방 ID 16 | 비밀값16 | 만료4 | 확인2  = 39바이트 → 5글자씩 묶은 Base32. IP는 들어가지 않는다
     public static string EncodeInvite(Invite invite)
     {
-        var data = new byte[33];
+        var data = new byte[InviteSize];
         data[0] = InviteVersion;
-        Buffer.BlockCopy(V4(invite.publicAddress), 0, data, 1, 4);
-        Buffer.BlockCopy(V4(invite.localAddress), 0, data, 5, 4);
-        data[9] = (byte)(invite.port >> 8);
-        data[10] = (byte)invite.port;
-        Buffer.BlockCopy(invite.secret, 0, data, 11, 16);
+        Buffer.BlockCopy(invite.roomId, 0, data, 1, 16);
+        Buffer.BlockCopy(invite.secret, 0, data, 17, 16);
         uint expires = (uint)new DateTimeOffset(invite.expiresUtc).ToUnixTimeSeconds();
-        data[27] = (byte)(expires >> 24);
-        data[28] = (byte)(expires >> 16);
-        data[29] = (byte)(expires >> 8);
-        data[30] = (byte)expires;
-        byte[] check = Check(data, 31);
-        data[31] = check[0];
-        data[32] = check[1];
+        data[33] = (byte)(expires >> 24);
+        data[34] = (byte)(expires >> 16);
+        data[35] = (byte)(expires >> 8);
+        data[36] = (byte)expires;
+        byte[] check = Check(data, 37);
+        data[37] = check[0];
+        data[38] = check[1];
 
         string text = ToBase32(data);
         var sb = new StringBuilder("KJ-");
@@ -151,7 +146,7 @@ public static class PartyCrypto
         return sb.ToString();
     }
 
-    // 형식이 틀렸거나 확인값이 안 맞으면 false (오타, 잘린 붙여넣기)
+    // 형식이 틀렸거나 확인값이 안 맞으면 false (오타, 잘린 붙여넣기, 예전 버전 코드)
     public static bool TryDecodeInvite(string code, out Invite invite)
     {
         invite = default;
@@ -161,24 +156,17 @@ public static class PartyCrypto
         text = text.Replace("-", "").Replace(" ", "");
 
         byte[] data = FromBase32(text);
-        if (data == null || data.Length < 33 || data[0] != InviteVersion) return false;
-        byte[] check = Check(data, 31);
-        if (check[0] != data[31] || check[1] != data[32]) return false;
+        if (data == null || data.Length < InviteSize || data[0] != InviteVersion) return false;
+        byte[] check = Check(data, 37);
+        if (check[0] != data[37] || check[1] != data[38]) return false;
 
-        invite.publicAddress = new IPAddress(new[] { data[1], data[2], data[3], data[4] });
-        invite.localAddress = new IPAddress(new[] { data[5], data[6], data[7], data[8] });
-        invite.port = (data[9] << 8) | data[10];
+        invite.roomId = new byte[16];
+        Buffer.BlockCopy(data, 1, invite.roomId, 0, 16);
         invite.secret = new byte[16];
-        Buffer.BlockCopy(data, 11, invite.secret, 0, 16);
-        uint expires = ((uint)data[27] << 24) | ((uint)data[28] << 16) | ((uint)data[29] << 8) | data[30];
+        Buffer.BlockCopy(data, 17, invite.secret, 0, 16);
+        uint expires = ((uint)data[33] << 24) | ((uint)data[34] << 16) | ((uint)data[35] << 8) | data[36];
         invite.expiresUtc = DateTimeOffset.FromUnixTimeSeconds(expires).UtcDateTime;
-        return invite.port > 0;
-    }
-
-    static byte[] V4(IPAddress address)
-    {
-        byte[] b = address?.GetAddressBytes();
-        return b != null && b.Length == 4 ? b : new byte[4];
+        return true;
     }
 
     static byte[] Check(byte[] data, int length)

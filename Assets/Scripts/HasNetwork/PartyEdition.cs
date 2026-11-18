@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 // 파티 버전이면
 //   로비(LobbyController가 있는 씬) → PartyLobbyPanel (오른쪽 위 파티 칸)
 //   지도(MapView가 있는 씬)        → PartyMapView (왼쪽 아래 파티 패널 + 파티원 마커)
-// 일반 버전에서는 아무것도 하지 않는다 (포트를 열거나 통신하지 않음).
+// 일반 버전에서는 아무것도 하지 않는다 (파티 서버에 연결하지 않음).
 public static class PartyEdition
 {
     public const string EditorPrefKey = "TKJ.PartyEditionInEditor";

@@ -124,6 +124,26 @@ public class WhereIAM : MonoBehaviour
         return true;
     }
 
+    // 마커 색 바꾸기 (파티 중이면 내 파티 색). null이면 원래 색으로
+    Color? tint;
+    Color originalPulseColor;
+    readonly System.Collections.Generic.Dictionary<Graphic, Color> originalColors = new System.Collections.Generic.Dictionary<Graphic, Color>();
+
+    public void SetTint(Color? color)
+    {
+        if (tint == color) return;
+        if (tint == null) originalPulseColor = pulseColor;
+        tint = color;
+        foreach (Graphic g in GetComponentsInChildren<Graphic>(true))
+        {
+            if (g == pulse) continue;   // 고리는 pulseColor로 매 프레임 칠한다
+            if (!originalColors.ContainsKey(g)) originalColors[g] = g.color;
+            Color original = originalColors[g];
+            g.color = color.HasValue ? new Color(color.Value.r, color.Value.g, color.Value.b, original.a) : original;
+        }
+        pulseColor = color.HasValue ? new Color(color.Value.r, color.Value.g, color.Value.b, originalPulseColor.a) : originalPulseColor;
+    }
+
     // 퍼지는 고리: 작게 시작해 커지면서 사라지기를 pulseCount번
     void UpdatePulse()
     {

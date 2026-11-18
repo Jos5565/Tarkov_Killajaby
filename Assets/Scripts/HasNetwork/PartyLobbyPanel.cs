@@ -7,7 +7,7 @@ using Member = PartyProtocol.Member;
 
 // 로비 오른쪽 아래 파티 칸. 파티 버전이면 PartyEdition이 로비 캔버스에 붙인다.
 //   파티 없음 : 닉네임, [파티 만들기], 초대 코드 입력 + [참가]
-//   방장      : 포트 열기 결과, 초대 코드(가림) [복사] [새 코드], 남은 시간, 참가자 + [내보내기], [파티 닫기]
+//   방장      : 상태, 초대 코드(가림) [복사] [새 코드], 남은 시간, 참가자 + [내보내기], [파티 닫기]
 //   파티원    : 상태, 참가자, [파티 나가기]
 [RequireComponent(typeof(RectTransform))]
 public class PartyLobbyPanel : MonoBehaviour
@@ -104,7 +104,7 @@ public class PartyLobbyPanel : MonoBehaviour
                 });
 
                 status = PartyUi.Text(body, "", font, fontSize - 2f, PartyUi.SubColor, wrap: true);
-                PartyUi.Text(body, "믿는 파티원끼리만 쓰세요. 방장 PC에 직접 연결하므로 파티원은 방장의 IP를 알 수 있어요.",
+                PartyUi.Text(body, "초대 코드는 믿는 파티원에게만 보내 주세요. 위치는 암호화되어 파티 서버를 거쳐 전달되고, 서로의 IP는 보이지 않아요.",
                     font, fontSize - 4f, PartyUi.SubColor, FontStyles.Italic, wrap: true);
                 break;
             }
@@ -160,7 +160,7 @@ public class PartyLobbyPanel : MonoBehaviour
         if (inviteLine != null)
         {
             string code = session.InviteCode;
-            // 코드는 가려서 보여 준다 (방송 화면 등에 IP와 키가 노출되지 않게). [복사]로만 꺼낸다
+            // 코드는 가려서 보여 준다 (방송 화면 등에 코드가 노출되지 않게). [복사]로만 꺼낸다
             inviteLine.text = code == null ? "<color=#888888>코드 만료 — [새 코드]</color>"
                 : Time.unscaledTime < copiedUntil ? "<color=#73D973>복사됨 — 디스코드에 붙여넣으세요</color>"
                 : "초대 코드  ●●●●-●●●●-●●●●";

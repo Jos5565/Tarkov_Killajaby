@@ -13,6 +13,7 @@ using Member = PartyProtocol.Member;
 //     ◌ 친구2      로비
 //     [코드 복사] [파티 닫기]         ← 파티원은 [파티 나가기]
 //   지도 위: 같은 맵 파티원의 화살표(내 마커와 같은 모양, 파티원 색) + 닉네임. 5분 넘은 위치는 흐리게
+//           같은 맵 파티원이 그린 경로(퀘스트 · 탈출구 최단 경로)를 그 사람 색의 반투명 선으로 (패널의 [경로 숨기기]로 끄기)
 [RequireComponent(typeof(RectTransform))]
 public class PartyMapView : MonoBehaviour
 {
@@ -23,6 +24,17 @@ public class PartyMapView : MonoBehaviour
     public float staleSeconds = 300f;
 
     const string CollapsedPref = "Party.MapPanelCollapsed";
+    const string ShowRoutesPref = "Party.ShowRoutes";
+
+    [Header("Party Routes")]
+    [Tooltip("파티원 경로 선 두께 (화면 px)")]
+    public float routeWidth = 3f;
+    [Range(0f, 1f)]
+    public float routeAlpha = 0.55f;
+
+    bool showRoutes;
+    RectTransform routeRoot;   // 파티원 경로 선들 (내 경로 QuestRoute보다 아래)
+    readonly Dictionary<ushort, UILineGraphic> routes = new Dictionary<ushort, UILineGraphic>();
 
     PartySession session;
     TMP_FontAsset font;
@@ -52,6 +64,7 @@ public class PartyMapView : MonoBehaviour
         zoomPan = FindAnyObjectByType<MapZoomPan>();
         whereIAM = FindAnyObjectByType<WhereIAM>(FindObjectsInactive.Include);
         collapsed = PlayerPrefs.GetInt(CollapsedPref, 0) == 1;
+        showRoutes = PlayerPrefs.GetInt(ShowRoutesPref, 1) == 1;
         BuildPanel();
         session.Changed += Refresh;
         Refresh();
@@ -62,9 +75,13 @@ public class PartyMapView : MonoBehaviour
         if (session != null) session.Changed -= Refresh;
         if (panel != null) Destroy(panel.gameObject);
         panel = null;
+        if (whereIAM != null) whereIAM.SetTint(null);
         foreach (PartyMarker m in markers.Values)
             if (m.root != null) Destroy(m.root.gameObject);
         markers.Clear();
+        if (routeRoot != null) Destroy(routeRoot.gameObject);
+        routeRoot = null;
+        routes.Clear();
     }
 
     // ---- 패널 ----
@@ -98,6 +115,7 @@ public class PartyMapView : MonoBehaviour
     {
         if (panel == null) return;
         panel.gameObject.SetActive(session.IsInParty);
+        TintMyMarker();
         if (!session.IsInParty)
         {
             UpdateMarkers();
@@ -117,7 +135,8 @@ public class PartyMapView : MonoBehaviour
         if (!collapsed)
         {
             foreach (Member m in sorted) BuildRow(m);
-            var size = new Vector2((width - 26f) * 0.5f, 28f);
+            // 방장은 [코드 복사][파티 닫기][경로] 세 개, 파티원은 [파티 나가기][경로] 두 개
+            var size = new Vector2(session.IsHost ? (width - 32f) / 3f : (width - 26f) * 0.5f, 28f);
             if (session.IsHost)
             {
                 PartyUi.Button(buttons, "코드 복사", font, size, fontSize - 2f, () =>
@@ -128,6 +147,13 @@ public class PartyMapView : MonoBehaviour
                 PartyUi.Button(buttons, "파티 닫기", font, size, fontSize - 2f, session.Leave);
             }
             else PartyUi.Button(buttons, "파티 나가기", font, size, fontSize - 2f, session.Leave);
+            PartyUi.Button(buttons, showRoutes ? "경로 숨기기" : "경로 보이기", font, size, fontSize - 2f, () =>
+            {
+                showRoutes = !showRoutes;
+                PlayerPrefs.SetInt(ShowRoutesPref, showRoutes ? 1 : 0);
+                PlayerPrefs.Save();
+                Refresh();
+            });
         }
         UpdateMarkers();
     }
@@ -145,6 +171,14 @@ public class PartyMapView : MonoBehaviour
         string me = m.id == session.MyId ? " <color=#888888>(나)</color>" : "";
         PartyUi.Text(row, $"<noparse>{m.nickname}</noparse>{star}{me}", font, fontSize, PartyUi.TextColor, flexible: true);
         rowLabels.Add((m.id, PartyUi.Text(row, Info(m), font, fontSize - 2f, PartyUi.SubColor)));
+    }
+
+    // 파티 중이면 내 마커도 내 파티 색으로 (파티원 화살표와 구분되게). 파티가 아니면 원래 색
+    void TintMyMarker()
+    {
+        if (whereIAM == null) return;
+        Member me = session.IsInParty ? session.Members.FirstOrDefault(x => x.id == session.MyId) : null;
+        whereIAM.SetTint(me != null ? PartyUi.MemberColor(me.color) : (Color?)null);
     }
 
     // ● 같은 맵 / ◌ 로비·다른 맵 / ✕ 연결 끊김
@@ -210,7 +244,61 @@ public class PartyMapView : MonoBehaviour
             if (markers[id].root != null) Destroy(markers[id].root.gameObject);
             markers.Remove(id);
         }
+        UpdateRoutes();
     }
+
+    // ---- 파티원 경로 ----
+
+    // 같은 맵 파티원이 보낸 경로를 그 사람 색으로 (내 것은 QuestRoute가 그린다)
+    void UpdateRoutes()
+    {
+        var keep = new HashSet<ushort>();
+        if (session.IsInParty && showRoutes && mapView != null)
+        {
+            foreach (Member m in session.Members)
+            {
+                PartyProtocol.RoutePoint[] route = m.state.route;
+                if (m.id == session.MyId || !m.connected || !SameMap(m) || route == null || route.Length < 2) continue;
+                keep.Add(m.id);
+                if (!routes.TryGetValue(m.id, out UILineGraphic line) || line == null) routes[m.id] = line = CreateRouteLine();
+                Color c = PartyUi.MemberColor(m.color);
+                line.color = new Color(c.r, c.g, c.b, routeAlpha);
+                line.SetPoints(route.Select(p => mapView.GameToLocal(new Vector3(p.x, 0f, p.z))).ToList());
+            }
+        }
+        foreach (ushort id in routes.Keys.Where(k => !keep.Contains(k)).ToList())
+        {
+            if (routes[id] != null) Destroy(routes[id].gameObject);
+            routes.Remove(id);
+        }
+        lastRouteScale = -1f;
+    }
+
+    UILineGraphic CreateRouteLine()
+    {
+        if (routeRoot == null)
+        {
+            // 내 경로(QuestRoute) 바로 아래, 지도와 같은 좌표계
+            QuestRoute mine = FindAnyObjectByType<QuestRoute>();
+            Transform parent = mine != null ? mine.transform.parent : (mapView.markerRoot != null ? mapView.markerRoot : mapView.transform);
+            var rootGo = new GameObject("PartyRoutes", typeof(RectTransform));
+            routeRoot = (RectTransform)rootGo.transform;
+            routeRoot.SetParent(parent, false);
+            routeRoot.anchorMin = routeRoot.anchorMax = routeRoot.pivot = new Vector2(0.5f, 0.5f);
+            routeRoot.sizeDelta = Vector2.zero;
+            if (mine != null) routeRoot.SetSiblingIndex(mine.transform.GetSiblingIndex());
+        }
+        var go = new GameObject("Route", typeof(RectTransform), typeof(CanvasRenderer), typeof(UILineGraphic));
+        var rt = (RectTransform)go.transform;
+        rt.SetParent(routeRoot, false);
+        rt.anchorMin = rt.anchorMax = rt.pivot = new Vector2(0.5f, 0.5f);   // GameToLocal은 지도 중심 기준
+        rt.sizeDelta = Vector2.zero;
+        var line = go.GetComponent<UILineGraphic>();
+        line.raycastTarget = false;
+        return line;
+    }
+
+    float lastRouteScale = -1f;
 
     PartyMarker CreateMarker()
     {
@@ -278,6 +366,12 @@ public class PartyMapView : MonoBehaviour
     {
         if (mapView == null || mapView.config == null) return;
         float inv = 1f / Mathf.Max(0.0001f, mapView.transform.localScale.x);
+        if (!Mathf.Approximately(inv, lastRouteScale))   // 확대해도 선 두께가 화면에서 같게
+        {
+            lastRouteScale = inv;
+            foreach (UILineGraphic line in routes.Values)
+                if (line != null) line.SetThickness(routeWidth * inv);
+        }
         foreach (var pair in markers)
         {
             Member m = session.Members.FirstOrDefault(x => x.id == pair.Key);

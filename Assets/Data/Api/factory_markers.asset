@@ -15,7 +15,7 @@ MonoBehaviour:
   mapNormalizedName: factory
   gameMode: pve
   language: ko
-  downloadedAt: 2026-10-08 17:48
+  downloadedAt: 2026-11-08 18:02
   markers:
   - type: 0
     key: 
@@ -27,7 +27,7 @@ MonoBehaviour:
     guide: "\uACF5\uC7A5 \uBE44\uC0C1\uAD6C \uC5F4\uC1E0 (Factory emergency exit
       key)\uB85C \uBB38 \uC5F4\uAE30 \u2192 \uD0C8\uCD9C"
     steps:
-    - text: "\uBE44\uC0C1\uAD6C\u0020\uC5F4\uC1E0\uB85C\u0020\uBB38\u0020\uC5F4\uAE30"
+    - text: "\uBE44\uC0C1\uAD6C \uC5F4\uC1E0\uB85C \uBB38 \uC5F4\uAE30"
       position: {x: -19.08, y: 1.45, z: -48.57}
     position: {x: -17.53, y: 1.99, z: -61.27}
   - type: 0
@@ -40,7 +40,7 @@ MonoBehaviour:
     guide: "\uACF5\uC7A5 \uBE44\uC0C1\uAD6C \uC5F4\uC1E0 (Factory emergency exit
       key)\uB85C \uBB38 \uC5F4\uAE30 \u2192 \uD0C8\uCD9C"
     steps:
-    - text: "\uBE44\uC0C1\uAD6C\u0020\uC5F4\uC1E0\uB85C\u0020\uBB38\u0020\uC5F4\uAE30"
+    - text: "\uBE44\uC0C1\uAD6C \uC5F4\uC1E0\uB85C \uBB38 \uC5F4\uAE30"
       position: {x: 66.83, y: -1.61, z: -29.32}
     position: {x: 73.89, y: -3.29, z: -29.08}
   - type: 8
@@ -51,6 +51,7 @@ MonoBehaviour:
     detail: scav
     floor: 
     guide: 
+    steps: []
     position: {x: 58.71, y: 1.59, z: 60.87}
   - type: 0
     key: 
@@ -60,6 +61,7 @@ MonoBehaviour:
     detail: pmc
     floor: 
     guide: 
+    steps: []
     position: {x: 58.43, y: 3.17, z: 63.3}
   - type: 0
     key: 
@@ -70,6 +72,7 @@ MonoBehaviour:
     floor: 
     guide: "Note with code word Ark \uD544\uC694 \u2192 \uD0C8\uCD9C\uAD6C\uC5D0\uC11C
       \uAC74\uB124\uACE0(\uC18C\uBAA8) \uD0C8\uCD9C"
+    steps: []
     position: {x: 48.03, y: -1.61, z: -28.86}
   - type: 0
     key: 
@@ -79,6 +82,7 @@ MonoBehaviour:
     detail: pmc
     floor: 
     guide: 
+    steps: []
     position: {x: 23.76, y: 1.36, z: 68.94}
   - type: 8
     key: 
@@ -88,6 +92,7 @@ MonoBehaviour:
     detail: scav
     floor: 
     guide: 
+    steps: []
     position: {x: -15.72, y: -1.65, z: 40.11}
   - type: 0
     key: 
@@ -97,6 +102,7 @@ MonoBehaviour:
     detail: pmc
     floor: 
     guide: 
+    steps: []
     position: {x: 44.89, y: 0.59, z: -53.48}
   - type: 8
     key: 
@@ -106,6 +112,7 @@ MonoBehaviour:
     detail: scav
     floor: 
     guide: 
+    steps: []
     position: {x: 17.83, y: 8.73, z: 39.89}
   - type: 0
     key: 
@@ -115,6 +122,7 @@ MonoBehaviour:
     detail: pmc
     floor: 
     guide: 
+    steps: []
     position: {x: -63.67, y: 2.85, z: 55.88}
   - type: 1
     key: 
@@ -124,6 +132,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 24.36, y: 2.24, z: 60.22}
   - type: 1
     key: 
@@ -133,6 +142,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 17.34, y: 0.58, z: -49.62}
   - type: 1
     key: 
@@ -142,6 +152,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -27.01, y: -3.09, z: -42.75}
   - type: 2
     key: 
@@ -151,6 +162,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -45.3968, y: 0.2904, z: 5.5814}
   - type: 2
     key: 
@@ -160,6 +172,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 11.22, y: 0.04, z: -42.109997}
   - type: 2
     key: 
@@ -169,6 +182,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 42.433, y: -2.639, z: -8.306}
   - type: 2
     key: 
@@ -178,6 +192,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 56.864, y: 0.261, z: 52.568}
   - type: 3
     key: 
@@ -187,6 +202,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 31.813, y: 0.17524928, z: 21.202}
   - type: 2
     key: 
@@ -196,6 +212,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -43.8128, y: 0.2904, z: 6.7404}
   - type: 2
     key: 
@@ -205,6 +222,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 12.595, y: 0.04, z: -42.522}
   - type: 2
     key: 
@@ -214,6 +232,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 58.177998, y: 0.261, z: 51.283}
   - type: 2
     key: 
@@ -223,6 +242,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 15.7, y: 4.571, z: 38.976}
   - type: 2
     key: 
@@ -232,6 +252,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -46.6908, y: 0.2904, z: 8.3904}
   - type: 2
     key: 
@@ -241,6 +262,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 70.75821, y: 0.311, z: -72.801605}
   - type: 2
     key: 
@@ -250,6 +272,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 31.624, y: 0.119, z: 18.284}
   - type: 2
     key: 
@@ -259,6 +282,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 32.272, y: 0.064, z: -34.013}
   - type: 2
     key: 
@@ -268,6 +292,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 57.944, y: 0.261, z: 49.646}
   - type: 2
     key: 
@@ -277,6 +302,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -16.91, y: 0.294, z: -39.428}
   - type: 2
     key: 
@@ -286,6 +312,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -42.4368, y: 0.2904, z: 7.4433994}
   - type: 2
     key: 
@@ -295,6 +322,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 27.775, y: 0.119, z: 20.567}
   - type: 2
     key: 
@@ -304,6 +332,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 71.73021, y: 0.311, z: -71.4116}
   - type: 2
     key: 
@@ -313,6 +342,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -16.984, y: 0.26700002, z: -41.324997}
   - type: 2
     key: 
@@ -322,6 +352,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 14.636, y: 4.571, z: 39.737}
   - type: 2
     key: 
@@ -331,6 +362,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -22.174, y: 2.729, z: 23.772}
   - type: 2
     key: 
@@ -340,6 +372,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -3.2890005, y: -3.858, z: -17.514}
   - type: 2
     key: 
@@ -349,6 +382,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 12.630001, y: 1.797, z: 60.15}
   - type: 2
     key: 
@@ -358,6 +392,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -16.784998, y: 0.312, z: -37.434}
   - type: 2
     key: 
@@ -367,6 +402,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 7.9030004, y: 0.04, z: -44.609997}
   - type: 3
     key: 
@@ -376,6 +412,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 15.249, y: 4.550001, z: 41.209}
   - type: 2
     key: 
@@ -385,6 +422,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -44.191, y: 1.188, z: 48.425003}
   - type: 2
     key: 
@@ -394,6 +432,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -17.690998, y: 0.291, z: -43.159996}
   - type: 2
     key: 
@@ -403,6 +442,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -42.617, y: 1.279, z: 48.353}
   - type: 2
     key: 
@@ -412,6 +452,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -46.2658, y: 0.2904, z: 7.0473995}
   - type: 2
     key: 
@@ -421,6 +462,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -5.918, y: -3.858, z: -14.183001}
   - type: 2
     key: 
@@ -430,6 +472,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -0.09300041, y: -3.858, z: -12.227}
   - type: 2
     key: 
@@ -439,6 +482,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 21.404999, y: -2.668999, z: -14.615999}
   - type: 2
     key: 
@@ -448,6 +492,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 69.98521, y: 0.311, z: -71.3536}
   - type: 2
     key: 
@@ -457,6 +502,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 59.516, y: -2.6390004, z: 6.828}
   - type: 2
     key: 
@@ -466,6 +512,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 9.994, y: 0.04, z: -42.204}
   - type: 2
     key: 
@@ -475,6 +522,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 10.230001, y: 1.14, z: 58.760002}
   - type: 2
     key: 
@@ -484,6 +532,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 20.198, y: -2.668999, z: -16.380999}
   - type: 2
     key: 
@@ -493,6 +542,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -2.8140001, y: -2.598, z: 18.476}
   - type: 2
     key: 
@@ -502,6 +552,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 2.363, y: -2.639, z: 49.415}
   - type: 2
     key: 
@@ -511,6 +562,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 41.089, y: -2.639, z: -9.549}
   - type: 2
     key: 
@@ -520,6 +572,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 32.232002, y: 0.064, z: -31.639}
   - type: 2
     key: 
@@ -529,6 +582,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 32.668, y: 0.064, z: -35.46}
   - type: 2
     key: 
@@ -538,6 +592,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -4.302, y: -2.598, z: 14.318}
   - type: 2
     key: 
@@ -547,6 +602,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 58.414997, y: 0.261, z: 52.690002}
   - type: 2
     key: 
@@ -556,6 +612,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 3.9910002, y: -2.639, z: 50.653}
   - type: 2
     key: 
@@ -565,6 +622,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -44.013, y: 1.4120001, z: 50.136}
   - type: 2
     key: 
@@ -574,6 +632,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -19.106998, y: 0.26000002, z: -43.166}
   - type: 2
     key: 
@@ -583,6 +642,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -1.0610003, y: -2.638, z: -7.05}
   - type: 2
     key: 
@@ -592,6 +652,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 8.5, y: 0.04, z: -43.579998}
   - type: 2
     key: 
@@ -601,6 +662,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 35.354, y: 0.064, z: -34.507}
   - type: 2
     key: 
@@ -610,6 +672,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -6.689, y: -2.598, z: 17.303}
   - type: 2
     key: 
@@ -619,6 +682,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 18.637, y: -2.668999, z: -15.658999}
   - type: 2
     key: 
@@ -628,6 +692,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 39.642, y: -2.639, z: -9.06}
   - type: 2
     key: 
@@ -637,6 +702,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 60.093, y: 0.261, z: 52.592}
   - type: 2
     key: 
@@ -646,6 +712,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 30.26, y: 0.119, z: 21.699}
   - type: 2
     key: 
@@ -655,6 +722,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -0.737, y: -2.639, z: 50.57}
   - type: 2
     key: 
@@ -664,6 +732,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -22.174, y: 2.729, z: 30.386}
   - type: 2
     key: 
@@ -673,6 +742,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 14.969, y: 4.571, z: 35.155003}
   - type: 2
     key: 
@@ -682,6 +752,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 14.855999, y: 4.571, z: 37.77}
   - type: 2
     key: 
@@ -691,6 +762,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 72.058205, y: 0.311, z: -73.8616}
   - type: 2
     key: 
@@ -700,6 +772,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -44.281998, y: 1.343, z: 46.326004}
   - type: 2
     key: 
@@ -709,6 +782,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 34.375, y: 0.064, z: -33.252}
   - type: 2
     key: 
@@ -718,6 +792,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 41.166, y: -2.639, z: -7.624}
   - type: 2
     key: 
@@ -727,6 +802,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 69.198204, y: 0.311, z: -73.441605}
   - type: 2
     key: 
@@ -736,6 +812,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -42.916, y: 1.094, z: 39.102}
   - type: 2
     key: 
@@ -745,6 +822,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 12.560001, y: 1.21, z: 52.73}
   - type: 2
     key: 
@@ -754,6 +832,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -0.17100048, y: -3.858, z: -14.33}
   - type: 2
     key: 
@@ -763,6 +842,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 28.743, y: 0.119, z: 17.499}
   - type: 2
     key: 
@@ -772,6 +852,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -6.4709997, y: -2.598, z: 15.79}
   - type: 2
     key: 
@@ -781,6 +862,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 38.839, y: -2.639, z: -7.702}
   - type: 2
     key: 
@@ -790,6 +872,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 14.018, y: 1.1899999, z: 58.119}
   - type: 2
     key: 
@@ -799,6 +882,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 58.204, y: -2.6390004, z: 6.1590004}
   - type: 2
     key: 
@@ -808,6 +892,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 20.348999, y: -2.668999, z: -13.374}
   - type: 2
     key: 
@@ -817,6 +902,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 18.630999, y: -2.668999, z: -13.999999}
   - type: 2
     key: 
@@ -826,6 +912,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 15.502, y: 4.571, z: 36.609}
   - type: 2
     key: 
@@ -835,6 +922,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 57.079, y: -2.6390004, z: 7.1150002}
   - type: 2
     key: 
@@ -844,15 +932,17 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 3.709, y: -2.639, z: 48.036}
   - type: 5
     key: 
-    name: "\uD0C0\uAE38\uB77C"
+    name: Infected Tagilla
     group: 
     objective: 
-    detail: "\uD0C0\uAE38\uB77C 50% (BotZone)"
+    detail: Infected Tagilla 3% (BotZone)
     floor: 
     guide: 
+    steps: []
     position: {x: 15, y: 0.09888601, z: 3.79}
   - type: 2
     key: 
@@ -862,6 +952,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -22.174, y: 2.729, z: 29.192}
   - type: 2
     key: 
@@ -871,6 +962,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 13.76, y: 1.1, z: 54.64}
   - type: 2
     key: 
@@ -880,6 +972,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -5.58, y: -2.598, z: 14.757}
   - type: 2
     key: 
@@ -889,6 +982,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 55.517, y: -2.6390004, z: 6.433}
   - type: 2
     key: 
@@ -898,6 +992,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 31.781, y: 0.119, z: 19.447}
   - type: 2
     key: 
@@ -907,6 +1002,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -22.174, y: 2.729, z: 25.571999}
   - type: 2
     key: 
@@ -916,6 +1012,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -0.12899995, y: -2.639, z: 48.722}
   - type: 2
     key: 
@@ -925,6 +1022,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: -22.174, y: 2.729, z: 31.529}
   - type: 2
     key: 
@@ -934,6 +1032,7 @@ MonoBehaviour:
     detail: 
     floor: 
     guide: 
+    steps: []
     position: {x: 61.525997, y: -2.6390004, z: 6.418}
   - type: 11
     key: 
@@ -943,6 +1042,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 23.079668, y: 9.1208, z: 37.914}
   - type: 11
     key: 
@@ -952,6 +1052,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: -18.8478, y: -2.2738776, z: 47.0187}
   - type: 11
     key: 
@@ -961,6 +1062,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: -1.2723, y: -2.4658, z: 49.039}
   - type: 11
     key: 
@@ -970,6 +1072,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "2\uCE35"
     guide: 
+    steps: []
     position: {x: -21.322, y: 3.0497, z: 29.466}
   - type: 11
     key: 
@@ -979,6 +1082,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 73.7141, y: 0.6362, z: -34.4129}
   - type: 11
     key: 
@@ -988,6 +1092,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 55.6944, y: 0.7581, z: 24.5496}
   - type: 11
     key: 
@@ -997,6 +1102,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 28.791, y: 8.819, z: 36.963}
   - type: 11
     key: 
@@ -1006,6 +1112,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 13.3017, y: 1.1859, z: 42.8089}
   - type: 11
     key: 
@@ -1016,7 +1123,8 @@ MonoBehaviour:
       \uBC0F \uAE30\uC220 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
-    position: {x: 26.821, y: 1.48465, z: 41.4835}
+    steps: []
+    position: {x: 27.088335, y: 1.7617667, z: 41.015335}
   - type: 12
     key: 
     name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
@@ -1026,7 +1134,8 @@ MonoBehaviour:
       \uBC0F \uAE30\uC220 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
-    position: {x: 26.821, y: 1.48465, z: 41.4835}
+    steps: []
+    position: {x: 27.088335, y: 1.7617667, z: 41.015335}
   - type: 11
     key: 
     name: "\uD504\uB85C\uC81D\uD2B8 \uBB38\uC11C"
@@ -1035,6 +1144,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "2\uCE35"
     guide: 
+    steps: []
     position: {x: 25.968021, y: 4.1167955, z: -18.990171}
   - type: 11
     key: 
@@ -1044,6 +1154,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 30.529, y: 0.818, z: -34.902}
   - type: 11
     key: 
@@ -1053,6 +1164,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 36.718575, y: 0.2496, z: -35.36002}
   - type: 11
     key: 
@@ -1062,6 +1174,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 41.579, y: 0.2477, z: -15.488}
   - type: 11
     key: 
@@ -1071,6 +1184,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 12.055, y: 8.1017, z: 40.817}
   - type: 12
     key: 
@@ -1080,6 +1194,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 11.9845, y: 8.0835, z: 37.9593}
   - type: 12
     key: 
@@ -1089,6 +1204,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: -21.072, y: -1.8204, z: 48.715}
   - type: 12
     key: 
@@ -1098,6 +1214,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: -15.315, y: 1.0097436, z: -26.71}
   - type: 12
     key: 
@@ -1107,6 +1224,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 47.294, y: 1.1277, z: -46.077}
   - type: 12
     key: 
@@ -1116,6 +1234,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 54.3634, y: 1.572, z: 22.0386}
   - type: 12
     key: 
@@ -1125,6 +1244,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: 19.4577, y: -2.5129, z: -22.224072}
   - type: 12
     key: 
@@ -1134,6 +1254,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 26.5126, y: 8.6013, z: 34.6197}
   - type: 12
     key: 
@@ -1143,6 +1264,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 28.0088, y: 9.396, z: 40.587223}
   - type: 12
     key: 
@@ -1152,6 +1274,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 13.2207, y: 1.4076, z: 38.5542}
   - type: 12
     key: 
@@ -1161,6 +1284,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "2\uCE35"
     guide: 
+    steps: []
     position: {x: 27.635551, y: 4.4140334, z: -35.663425}
   - type: 12
     key: 
@@ -1170,6 +1294,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 25.713, y: 0.426, z: -34.936}
   - type: 12
     key: 
@@ -1179,7 +1304,8 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
-    position: {x: 33.467, y: 0.6213, z: -35.766}
+    steps: []
+    position: {x: 33.817, y: 0.74565, z: -35.832}
   - type: 12
     key: 
     name: "\uC124\uACC4\uB3C4 \uBC0F \uAE30\uC220 \uBB38\uC11C"
@@ -1188,6 +1314,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 32.2423, y: 0.8042, z: 17.5152}
   - type: 12
     key: 
@@ -1197,6 +1324,7 @@ MonoBehaviour:
     detail: "\uBC30\uD2C0\uD328\uC2A4 \uBB38\uC11C"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 21.3868, y: 8.6168, z: 39.5372}
   - type: 7
     key: 669fa39ee749756c920d02c8
@@ -1206,6 +1334,7 @@ MonoBehaviour:
     detail: "\uD654\uD559\uBB3C\uC9C8 \uC0D8\uD50C"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: -5.0550003, y: -2.657, z: 18.582003}
   - type: 7
     key: 597a0e5786f77426d66c0636
@@ -1215,6 +1344,17 @@ MonoBehaviour:
     detail: "\uD654\uD559\uBB3C\uC9C8\uC774 \uB4E0 \uC8FC\uC0AC\uAE30"
     floor: "3\uCE35"
     guide: 
+    steps: []
+    position: {x: 26.326584, y: 8.978607, z: 36.763622}
+  - type: 7
+    key: 597a0e5786f77426d66c0636
+    name: "\uD654\uD559 - \uD30C\uD2B8 3"
+    group: "\uC2A4\uD0A4\uC5B4"
+    objective: 597a15b386f774799e5cd152
+    detail: "\uD654\uD559\uBB3C\uC9C8\uC774 \uB4E0 \uC8FC\uC0AC\uAE30"
+    floor: "3\uCE35"
+    guide: 
+    steps: []
     position: {x: 25.56231, y: 8.0731945, z: 38.48874}
   - type: 7
     key: 597a0e5786f77426d66c0636
@@ -1224,16 +1364,8 @@ MonoBehaviour:
     detail: "\uD654\uD559\uBB3C\uC9C8\uC774 \uB4E0 \uC8FC\uC0AC\uAE30"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 23.249971, y: 8.535252, z: 39.403866}
-  - type: 7
-    key: 597a0e5786f77426d66c0636
-    name: "\uD654\uD559 - \uD30C\uD2B8 3"
-    group: "\uC2A4\uD0A4\uC5B4"
-    objective: 597a15b386f774799e5cd152
-    detail: "\uD654\uD559\uBB3C\uC9C8\uC774 \uB4E0 \uC8FC\uC0AC\uAE30"
-    floor: "3\uCE35"
-    guide: 
-    position: {x: 26.326584, y: 8.978607, z: 36.763622}
   - type: 7
     key: 669fa3a08b4a64b332041ff7
     name: Dragnet
@@ -1242,6 +1374,7 @@ MonoBehaviour:
     detail: "\uD654\uD559\uBB3C\uC9C8 \uC6A9\uAE30"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: -22.717655, y: -1.8816979, z: 48.669617}
   - type: 7
     key: 669fa3a08b4a64b332041ff7
@@ -1251,6 +1384,7 @@ MonoBehaviour:
     detail: "\uD654\uD559\uBB3C\uC9C8 \uC6A9\uAE30"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: -18.40426, y: -1.9747472, z: 46.692566}
   - type: 7
     key: 669fa3a08b4a64b332041ff7
@@ -1260,7 +1394,8 @@ MonoBehaviour:
     detail: "\uD654\uD559\uBB3C\uC9C8 \uC6A9\uAE30"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
-    position: {x: -21.713234, y: -2.088474, z: 44.430035}
+    steps: []
+    position: {x: -23.265278, y: -1.8564624, z: 44.83158}
   - type: 7
     key: 669fa3a08b4a64b332041ff7
     name: Dragnet
@@ -1269,7 +1404,8 @@ MonoBehaviour:
     detail: "\uD654\uD559\uBB3C\uC9C8 \uC6A9\uAE30"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
-    position: {x: -23.265278, y: -1.8564624, z: 44.83158}
+    steps: []
+    position: {x: -21.713234, y: -2.088474, z: 44.430035}
   - type: 6
     key: 66b38e144f2ab7cc530c3fe7
     name: Every Hunter Knows This
@@ -1279,6 +1415,7 @@ MonoBehaviour:
       \uC124\uCE58\uD558\uAE30 \uC88B\uC740 \uC7A5\uC18C \uCC3E\uAE30"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 24.47, y: 9.34, z: 38.74}
   - type: 6
     key: 669fa39b91b0a8c9680fc467
@@ -1289,6 +1426,7 @@ MonoBehaviour:
       \uCC3E\uC544 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: -16.99, y: -1.6, z: 34.81}
   - type: 6
     key: 669fa39b91b0a8c9680fc467
@@ -1299,6 +1437,7 @@ MonoBehaviour:
       \uCC3E\uC544 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: 34.43, y: -1.48, z: -4.45}
   - type: 6
     key: 669fa39b91b0a8c9680fc467
@@ -1309,6 +1448,7 @@ MonoBehaviour:
       \uCC3E\uC544 MS2000 \uB9C8\uCEE4\uB85C \uD45C\uC2DC\uD558\uAE30"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: 45.62, y: -1.6, z: -36.13}
   - type: 6
     key: 666314bd920800278d0f6748
@@ -1319,6 +1459,7 @@ MonoBehaviour:
       \uC124\uCE58\uD558\uAE30"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 36.85, y: 9.43, z: 35.5}
   - type: 6
     key: 666314c3acf8442f8b0531a3
@@ -1329,6 +1470,7 @@ MonoBehaviour:
       \uC606\uC5D0 \uD669\uAE08 \uC218\uD0C9 \uC870\uAC01\uC0C1 \uC228\uAE30\uAE30"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 34.79, y: 8.53, z: 35.5}
   - type: 6
     key: 5a68669a86f774255929b4d4
@@ -1339,6 +1481,7 @@ MonoBehaviour:
       \uC7A5\uC18C \uCC3E\uAE30"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 24.61, y: 9.17, z: 39.08}
   - type: 6
     key: 5a68669a86f774255929b4d4
@@ -1349,6 +1492,7 @@ MonoBehaviour:
       \uC7A5\uC18C \uCC3E\uAE30"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 24.61, y: 9.17, z: 39.08}
   - type: 6
     key: 5a68669a86f774255929b4d4
@@ -1359,6 +1503,7 @@ MonoBehaviour:
       \uC228\uAE30\uAE30"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 24.61, y: 9.17, z: 39.08}
   - type: 6
     key: 5a68669a86f774255929b4d4
@@ -1369,6 +1514,7 @@ MonoBehaviour:
       \uC228\uAE30\uAE30"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 24.61, y: 9.17, z: 39.08}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
@@ -1380,6 +1526,7 @@ MonoBehaviour:
       \uC124\uCE58\uD558\uAE30"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 16.38, y: 1.8, z: 42.78}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
@@ -1392,6 +1539,7 @@ MonoBehaviour:
       \uC124\uCE58\uD558\uAE30"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: 21, y: -1.61, z: 12.06}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
@@ -1403,6 +1551,7 @@ MonoBehaviour:
       \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: -49.38, y: 2.69, z: 60.41}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
@@ -1413,6 +1562,7 @@ MonoBehaviour:
       \uBC29\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 27.6, y: 9.46, z: 38.63}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
@@ -1424,6 +1574,7 @@ MonoBehaviour:
       \uC7A5\uC18C \uADFC\uCC98\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 52.72, y: 1.45, z: -17.25}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
@@ -1435,6 +1586,7 @@ MonoBehaviour:
       \uC124\uCE58\uD558\uAE30"
     floor: "2\uCE35"
     guide: 
+    steps: []
     position: {x: 30.39, y: 4.46, z: -31}
   - type: 6
     key: 66d9cbb67b491f9d5304f6e6
@@ -1445,6 +1597,7 @@ MonoBehaviour:
       \uACC4\uB2E8\uC5D0 Wi-Fi \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 59.79, y: 1.22, z: 50.29}
   - type: 7
     key: 669fa3a3ad7f1eac2607ed48
@@ -1454,6 +1607,7 @@ MonoBehaviour:
     detail: "\uD608\uC561 \uC0D8\uD50C"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: -19.473001, y: 0.518, z: -52.22601}
   - type: 6
     key: 59674eb386f774539f14813a
@@ -1464,6 +1618,7 @@ MonoBehaviour:
       \uC788\uB294 \uD734\uAC8C\uC2E4\uC5D0 \uCF00\uC774\uC2A4 \uB193\uACE0 \uAC00\uAE30"
     floor: "2\uCE35"
     guide: 
+    steps: []
     position: {x: 41.74, y: 5.45, z: 40.82}
   - type: 6
     key: 5967530a86f77462ba22226b
@@ -1474,6 +1629,7 @@ MonoBehaviour:
       \uBC29 \uD655\uC778\uD558\uAE30"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 30.13, y: 8.72, z: 38.89}
   - type: 7
     key: 59675ea386f77414b32bded2
@@ -1484,6 +1640,7 @@ MonoBehaviour:
     detail: "\uBD09\uC778\uB41C \uD3B8\uC9C0"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: -19.961002, y: 0.047, z: 21.943003}
   - type: 6
     key: 59689ee586f7740d1570bbd5
@@ -1494,6 +1651,7 @@ MonoBehaviour:
       \uC5F0\uAD6C\uC18C \uC9C0\uC5ED\uC5D0 \uAC00\uC2A4 \uBD84\uC11D\uAE30 \uC228\uAE30\uAE30"
     floor: "2\uCE35"
     guide: 
+    steps: []
     position: {x: 27.72, y: 4.55, z: -31.87}
   - type: 6
     key: 59689ee586f7740d1570bbd5
@@ -1504,6 +1662,7 @@ MonoBehaviour:
       \uC788\uB294 \uBC29 \uBC1C\uACAC\uD558\uAE30"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 40.29, y: 1.09, z: -11.64}
   - type: 6
     key: 5ac345dc86f774288030817f
@@ -1514,6 +1673,7 @@ MonoBehaviour:
       \uBC88\uC9F8 \uC81C\uC5B4\uC7A5\uCE58 \uC218\uB9AC\uD558\uAE30"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 68.19, y: 1.06, z: -7.38}
   - type: 6
     key: 5ac345dc86f774288030817f
@@ -1524,6 +1684,7 @@ MonoBehaviour:
       \uBC88\uC9F8 \uC81C\uC5B4\uC7A5\uCE58 \uC218\uB9AC\uD558\uAE30"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 68.19, y: 1.06, z: -7.38}
   - type: 6
     key: 5ac345dc86f774288030817f
@@ -1534,6 +1695,7 @@ MonoBehaviour:
       \uBC88\uC9F8 \uC81C\uC5B4\uC7A5\uCE58 \uC218\uB9AC\uD558\uAE30"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 60.08, y: 1.09, z: -48.39}
   - type: 6
     key: 5ac345dc86f774288030817f
@@ -1544,6 +1706,7 @@ MonoBehaviour:
       \uBC88\uC9F8 \uC81C\uC5B4\uC7A5\uCE58 \uC218\uB9AC\uD558\uAE30"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 60.08, y: 1.09, z: -48.39}
   - type: 6
     key: 5ac3477486f7741d651d6885
@@ -1554,6 +1717,7 @@ MonoBehaviour:
       \uCC3E\uAE30"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: 66.67, y: -1.68, z: -28.88}
   - type: 6
     key: 5ac3477486f7741d651d6885
@@ -1564,6 +1728,7 @@ MonoBehaviour:
       \uCC3E\uAE30"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: -53.11, y: 2.29, z: 58.19}
   - type: 6
     key: 5ac3477486f7741d651d6885
@@ -1574,6 +1739,7 @@ MonoBehaviour:
       \uCC3E\uAE30"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 59.7, y: 1.16, z: 56.98}
   - type: 6
     key: 5ac3477486f7741d651d6885
@@ -1584,15 +1750,17 @@ MonoBehaviour:
       \uCC3E\uAE30"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: -18.4, y: 1.16, z: -49.02}
   - type: 7
     key: 5b478eca86f7744642012254
-    name: Vitamins
+    name: "\uBE44\uD0C0\uBBFC"
     group: "\uC2A4\uD0A4\uC5B4"
     objective: 5b478f6886f774464201225a
     detail: "\uD654\uD559 \uC57D\uD488 \uBCF4\uAD00\uD568 #1"
     floor: "2\uCE35"
     guide: 
+    steps: []
     position: {x: 29.285004, y: 4.4782, z: -21.469002}
   - type: 7
     key: 669fa38fad7f1eac2607ed46
@@ -1602,24 +1770,7 @@ MonoBehaviour:
     detail: "\uC5F0\uAD6C \uC77C\uC9C0"
     floor: "2\uCE35"
     guide: 
-    position: {x: 25.849241, y: 4.4412, z: -19.104244}
-  - type: 7
-    key: 669fa38fad7f1eac2607ed46
-    name: One Less Loose End
-    group: "\uD53C\uC2A4\uD0A4\uD37C"
-    objective: 669faeb6a6e02d00c47ad812
-    detail: "\uC5F0\uAD6C \uC77C\uC9C0"
-    floor: "2\uCE35"
-    guide: 
-    position: {x: 29.25024, y: 3.7122, z: -31.707458}
-  - type: 7
-    key: 669fa38fad7f1eac2607ed46
-    name: One Less Loose End
-    group: "\uD53C\uC2A4\uD0A4\uD37C"
-    objective: 669faeb6a6e02d00c47ad812
-    detail: "\uC5F0\uAD6C \uC77C\uC9C0"
-    floor: "2\uCE35"
-    guide: 
+    steps: []
     position: {x: 28.99989, y: 3.7161999, z: -17.564314}
   - type: 7
     key: 669fa38fad7f1eac2607ed46
@@ -1629,7 +1780,8 @@ MonoBehaviour:
     detail: "\uC5F0\uAD6C \uC77C\uC9C0"
     floor: "2\uCE35"
     guide: 
-    position: {x: 29.309954, y: 3.7436, z: -28.936857}
+    steps: []
+    position: {x: 29.25024, y: 3.7122, z: -31.707458}
   - type: 7
     key: 669fa38fad7f1eac2607ed46
     name: One Less Loose End
@@ -1638,7 +1790,28 @@ MonoBehaviour:
     detail: "\uC5F0\uAD6C \uC77C\uC9C0"
     floor: "2\uCE35"
     guide: 
+    steps: []
     position: {x: 26.57465, y: 4.5298, z: -35.983276}
+  - type: 7
+    key: 669fa38fad7f1eac2607ed46
+    name: One Less Loose End
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 669faeb6a6e02d00c47ad812
+    detail: "\uC5F0\uAD6C \uC77C\uC9C0"
+    floor: "2\uCE35"
+    guide: 
+    steps: []
+    position: {x: 25.849241, y: 4.4412, z: -19.104244}
+  - type: 7
+    key: 669fa38fad7f1eac2607ed46
+    name: One Less Loose End
+    group: "\uD53C\uC2A4\uD0A4\uD37C"
+    objective: 669faeb6a6e02d00c47ad812
+    detail: "\uC5F0\uAD6C \uC77C\uC9C0"
+    floor: "2\uCE35"
+    guide: 
+    steps: []
+    position: {x: 29.309954, y: 3.7436, z: -28.936857}
   - type: 6
     key: 669fa3979b0ce3feae01a130
     name: Claustrophobia
@@ -1648,6 +1821,7 @@ MonoBehaviour:
       \uCC98\uCE58\uD558\uAE30"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: 19.81, y: -2.56, z: 3.3}
   - type: 6
     key: 669fa3979b0ce3feae01a130
@@ -1658,6 +1832,7 @@ MonoBehaviour:
       \uCC98\uCE58\uD558\uAE30"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: -51.08, y: -2.99, z: 13.58}
   - type: 6
     key: 669fa3979b0ce3feae01a130
@@ -1668,6 +1843,7 @@ MonoBehaviour:
       \uCC98\uCE58\uD558\uAE30"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: 19.81, y: -2.99, z: -28.64}
   - type: 6
     key: 669fa3979b0ce3feae01a130
@@ -1678,6 +1854,7 @@ MonoBehaviour:
       \uCC98\uCE58\uD558\uAE30"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: 64.99, y: -2.99, z: 13.58}
   - type: 6
     key: 669fa3979b0ce3feae01a130
@@ -1688,6 +1865,7 @@ MonoBehaviour:
       \uCC98\uCE58\uD558\uAE30"
     floor: "\uC9C0\uD558 \uD130\uB110"
     guide: 
+    steps: []
     position: {x: 19.81, y: -2.56, z: 46.84}
   - type: 7
     key: 669fa399033a3ce9870338a8
@@ -1697,6 +1875,7 @@ MonoBehaviour:
     detail: "\uC870\uC885\uC0AC \uBE44\uD589 \uC77C\uC9C0"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 26.249004, y: 7.864, z: -3.6020005}
   - type: 6
     key: 669fa39c64ea11e84c0642a6
@@ -1707,6 +1886,7 @@ MonoBehaviour:
       WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: 63.61, y: 6.44, z: 35.11}
   - type: 6
     key: 669fa39c64ea11e84c0642a6
@@ -1717,6 +1897,7 @@ MonoBehaviour:
       WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
     floor: "2\uCE35"
     guide: 
+    steps: []
     position: {x: -5.47, y: 5.78, z: -32.48}
   - type: 6
     key: 669fa39c64ea11e84c0642a6
@@ -1727,6 +1908,7 @@ MonoBehaviour:
       WI-FI \uCE74\uBA54\uB77C \uC124\uCE58\uD558\uAE30"
     floor: "3\uCE35"
     guide: 
+    steps: []
     position: {x: -24.44, y: 6.2, z: 60.43}
   - type: 6
     key: 66aa74571e5e199ecd094f18
@@ -1737,6 +1919,7 @@ MonoBehaviour:
       \uC228\uAE30\uAE30"
     floor: "\uC9C0\uC0C1"
     guide: 
+    steps: []
     position: {x: 28.13, y: 1.15, z: -34.37}
   quests:
   - key: 669fa39ee749756c920d02c8
@@ -2497,6 +2680,15 @@ MonoBehaviour:
       alternatives: 1
       count: 1
       foundInRaid: 0
+    - objective: 
+      kind: key
+      items:
+      - "\uACF5\uC7A5 \uBE44\uC0C1\uAD6C \uC5F4\uC1E0"
+      itemIds:
+      - 5448ba0b4bdc2d02308b456c
+      alternatives: 1
+      count: 1
+      foundInRaid: 0
     noLocation: 0
     guide: "WI-FI \uCE74\uBA54\uB77C 27\uAC1C \uC900\uBE44(\uBA54\uCE74\uB2C9) +
       \uACF5\uC7A5 \uBE44\uC0C1\uAD6C \uC5F4\uC1E0 \u2192 \uB9F5\uB9C8\uB2E4 \uC9C0\uC815
@@ -2798,7 +2990,7 @@ MonoBehaviour:
       \uD0C8\uCD9C"
     wikiLink: https://escapefromtarkov.fandom.com/wiki/Scout
   - key: 5b478eca86f7744642012254
-    name: Vitamins
+    name: "\uBE44\uD0C0\uBBFC"
     trader: "\uC2A4\uD0A4\uC5B4"
     objectives:
     - id: 5b478f6886f774464201225a
